@@ -7,8 +7,8 @@ import os
 from typing import Dict, List, Optional
 
 # --- 1. 全局配置 ---
-# !!! 重要: 请确保这里的API密钥是有效的 !!!
-API_KEY = 'b41436d20ae60c07dc9a3f7ebad3f016cce58a94' # 请替换为您的 Serper API 密钥
+# !!! 重要: 公开发布时不要在代码中硬编码 API 密钥 !!!
+API_KEY = os.getenv("SERPER_API_KEY", "")  # 请通过环境变量提供 Serper API 密钥
 SIMILARITY_THRESHOLD = 0.8  # 匹配相似度阈值为80%
 
 # --- 单个文件夹处理配置 ---
@@ -32,6 +32,9 @@ def parse_arxiv_id(url):
 
 def search_google_scholar(reference: Dict) -> (Optional[Dict], float, str):
     """使用 Serper.dev 搜索并返回最匹配的结果、相似度和状态。"""
+    if not API_KEY:
+        return None, 0.0, "Failed (Missing SERPER_API_KEY environment variable)"
+
     query_title = reference.get('title')
     if not query_title:
         return None, 0.0, "Failed (Input reference has no 'title')"
@@ -190,8 +193,8 @@ def main():
     """
     主函数，处理在 TARGET_DIRECTORY 中指定的单个文件夹。
     """
-    if not API_KEY or API_KEY == 'Your_API_Key_Here':
-        print("❌ 错误: 请在代码第9行设置您的有效Serper API密钥。")
+    if not API_KEY:
+        print("❌ 错误: 请设置环境变量 SERPER_API_KEY。")
         return
         
     if not TARGET_DIRECTORY or TARGET_DIRECTORY == '/path/to/your/target/folder':

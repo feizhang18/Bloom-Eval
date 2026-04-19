@@ -6,9 +6,8 @@ import time
 import os
 
 # --- 1. 配置 ---
-# !!! 重要: 请确保这里的API密钥是有效的 !!!
-
-API_KEY = 'b41436d20ae60c07dc9a3f7ebad3f016cce58a94'
+# !!! 重要: 公开发布时不要在代码中硬编码 API 密钥 !!!
+API_KEY = os.getenv("SERPER_API_KEY", "")
 SIMILARITY_THRESHOLD = 0.8 # 匹配相似度阈值，高于80%则认为匹配成功
 
 # --- 2. 辅助函数 (这部分无需修改) ---
@@ -21,6 +20,9 @@ def search_google_scholar(query_title):
     """
     使用 Serper.dev 搜索并返回引用数和状态信息。
     """
+    if not API_KEY:
+        return 0, "Failed (Missing SERPER_API_KEY environment variable)"
+
     if not query_title:
         return 0, "Failed (Input reference has no 'title')"
 

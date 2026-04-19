@@ -1,5 +1,6 @@
 import json
 import time
+import os
 from semanticscholar import SemanticScholar
 
 def get_references_json_fill_mode(api_key: str, paper_title: str, output_filename: str = 'reference_3.json'):
@@ -12,8 +13,8 @@ def get_references_json_fill_mode(api_key: str, paper_title: str, output_filenam
     paper_title (str): 你要查询的论文的完整标题。
     output_filename (str): 输出的 JSON 文件名。
     """
-    if not api_key or api_key == 'YOUR_API_KEY_HERE':
-        print("错误：请在代码中提供您的 Semantic Scholar API 密钥。")
+    if not api_key:
+        print("错误：请通过参数或环境变量提供您的 Semantic Scholar API 密钥。")
         return
 
     # 1. 使用 API 密钥初始化 Semantic Scholar 客户端
@@ -119,8 +120,8 @@ def get_references_json_fill_mode(api_key: str, paper_title: str, output_filenam
 
 # --- 使用示例 ---
 if __name__ == "__main__":
-    # 1. 请在这里粘贴你的 Semantic Scholar API 密钥
-    MY_API_KEY = "1DwMJEMqMFaRkOnnnlf7B5VjW9C91n9d2HdYPMF4"
+    # 1. 请通过环境变量提供你的 Semantic Scholar API 密钥
+    MY_API_KEY = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "")
     
     # 2. 请在这里替换为你需要查询的论文的准确标题
     target_paper_title = "Random Quantum Circuits"

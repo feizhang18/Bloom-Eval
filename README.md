@@ -1,112 +1,83 @@
-# Bloom-Eval
+# Bloom-Eval: A Hierarchical Evaluation Benchmark for Automatic Survey Generation Based on Bloom's Taxonomy
 
-Bloom-Eval is a hierarchical benchmark for evaluating automatic survey generation (ASG) systems with Bloom's Taxonomy. It organizes evaluation into 6 cognitive levels and 16 metrics, covering memory, comprehension, application, analysis, evaluation, and creation.
+[![ACL 2026](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
+[![Status](https://img.shields.io/badge/Status-Camera--ready-orange.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository is prepared as an `initial camera-ready release`. It is suitable for linking from the paper now, while leaving room for a later full release with cleaned prompts, more complete scripts, and expanded metadata.
+[中文说明](README_zh.md)
 
-This repository is structured as a public benchmark release rather than a single model repository. It is designed to hold:
+This is the official repository for the paper **"Bloom-Eval: A Hierarchical Evaluation Benchmark for Automatic Survey Generation Based on Bloom's Taxonomy"**. The project is currently in the camera-ready stage, and the code and data release is being organized for public release.
 
-- Benchmark specifications and metric definitions
-- Topic metadata and benchmark manifests
-- Evaluation configs and prompt inventory
-- Sample result schemas and leaderboard formats
-- Reproducibility notes and release checklist
-- Paper source files and benchmark documentation
+## Project Overview
 
-The paper reports:
+Bloom-Eval is the first six-level hierarchical benchmark designed specifically for automatic survey generation (ASG). Grounded in Bloom's Taxonomy, it moves beyond flat evaluation and provides a fine-grained framework for diagnosing ASG systems across multiple cognitive dimensions.
 
-- `3,506` manually verified survey papers
-- `60` peer-reviewed venues
-- `14` scientific domains
-- `20` representative evaluation topics
-- `16` metrics across `6` cognitive levels
+## Framework Overview
 
-## Repository Layout
+![Bloom-Eval framework overview](paper/latex/bloom-eval_10_05.png)
+*Figure: Overview of the Bloom-Eval framework, including (a) the data collection pipeline and (b) the six-level evaluation hierarchy covering memory, comprehension, application, analysis, evaluation, and creation.*
+
+---
+
+## Key Features
+
+### 1. Six-Level Cognitive Evaluation Framework
+Bloom-Eval analyzes ASG systems through six cognitive levels:
+
+- **Memory**: evaluates the accurate recall of domain entities, core references, and factual statements.
+- **Comprehension**: evaluates the ability to summarize the research landscape, preserve citation faithfulness, and maintain topical focus.
+- **Application**: evaluates the execution of academic formatting conventions, document structure, and organizational paradigms.
+- **Analysis**: evaluates hierarchical reasoning, appropriate analytical granularity, and structural clarity.
+- **Evaluation**: evaluates critical judgment over existing literature, including conclusions and limitations.
+- **Creation**: evaluates the ability to construct novel conceptual frameworks and identify future research directions.
+
+### 2. GRADE Evaluation Method
+We introduce **GRADE** (Generative Rubric Adaptive Differential Evaluation), a rubric-based comparative evaluation method:
+
+- **Transparent rubrics**: the evaluator first generates explicit, weighted criteria tailored to the survey topic.
+- **Differential scoring**: system outputs are compared against expert-written surveys with textual justifications to improve auditability.
+
+### 3. Large-Scale Cross-Domain Benchmark
+
+- **Scale**: `3,506` manually verified expert survey papers.
+- **Coverage**: `60` top-tier academic venues and journals, including conferences such as ACL and ICLR, as well as venues such as *Annual Reviews*.
+- **Diversity**: `14` scientific domains and `20` representative evaluation topics.
+
+---
+
+## Current Release Scope
+
+This repository is an initial camera-ready release. The current public version includes:
+
+- benchmark documentation and metric descriptions
+- released evaluation topics and metadata
+- cleaned research scripts for benchmark construction and evaluation
+- sample result files
+- paper source files and project figures
+
+Some components are still being finalized for a later, more complete release, including additional prompts, more polished execution pipelines, and expanded metadata.
+
+## Repository Structure
 
 ```text
-Bloom-Eval/
-├── configs/                  # Example evaluation configs
-├── code/                     # Sanitized benchmark scripts and experiment utilities
-├── data/
-│   ├── metadata/             # Benchmark-level manifests and statistics
-│   ├── samples/              # Example record schemas
-│   └── topics/               # Experimental topic metadata
-├── docs/                     # Benchmark, data, metrics, release docs
-├── paper/                    # Local copy of paper source and figures
-├── prompts/                  # Prompt inventory and prompt release notes
-├── results/
-│   ├── leaderboard/          # Aggregated result format
-│   └── samples/              # Sample benchmark outputs
-├── scripts/                  # Small utilities for release checks
-├── src/bloom_eval/           # Minimal Python package and CLI
-└── tests/                    # Sanity tests for repo metadata
+.
+├── code/               # Evaluation scripts and experiment utilities
+├── configs/            # Example evaluation configurations
+├── data/               # Benchmark metadata, samples, and topic files
+├── docs/               # Benchmark, metrics, and reproducibility documents
+├── paper/              # Paper source files and figures
+├── prompts/            # Prompt inventory and release notes
+├── results/            # Sample benchmark outputs and result tables
+├── scripts/            # Release checking utilities
+├── src/                # Minimal Python package and CLI
+├── tests/              # Sanity tests
+└── README.md
 ```
 
-## Initial Release Contents
+## Data and Release Note
 
-This camera-ready version currently includes:
+The benchmark is derived from published papers across conferences and journals. Unless redistribution rights are explicitly confirmed, this repository should release metadata, identifiers, derived annotations, and evaluation outputs rather than copyrighted full-text PDFs.
 
-- benchmark specification and metric documentation
-- the 20 evaluation topics used in the paper
-- machine-readable main results
-- sanitized benchmark scripts under `code/`
-- reproducibility notes and release checklist
-- paper source and figures
+## Citation
 
-This version intentionally does not redistribute copyrighted full-text papers or raw publisher PDFs.
-
-## What This Open-Source Project Should Contain
-
-- `docs/benchmark.md`: benchmark scope, corpus construction, and evaluation setup
-- `docs/metrics.md`: all 16 metrics and their role in the 6-level hierarchy
-- `docs/data_format.md`: what data can be released directly and what must remain metadata-only
-- `docs/reproducibility.md`: model choices, temperature, embedding model, and evaluation assumptions
-- `docs/release_checklist.md`: items that should be completed before the repository is made public
-- `data/topics/experimental_topics.csv`: the 20 evaluation topics from the paper
-- `results/samples/main_results.csv`: the main table in machine-readable form
-- `prompts/`: exact prompt text files for extraction, matching, and GRADE scoring
-- `paper/`: the paper source and figures for reference
-
-## Important Data Release Note
-
-The benchmark corpus is built from published papers across conferences, journals, and `Annual Reviews`. Unless redistribution rights are confirmed, this repository should release only:
-
-- metadata
-- identifiers
-- URLs / DOIs
-- hashes
-- derived annotations
-- evaluation outputs
-
-It should not redistribute copyrighted full-text PDFs by default.
-
-## Quick Start
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .[dev]
-bloom-eval benchmark-summary
-bloom-eval show-topics --limit 5
-python scripts/check_release.py
-pytest
-```
-
-## Code Release Note
-
-The scripts in `code/` are included as a cleaned research release:
-
-- hard-coded API keys were removed
-- author-specific absolute paths were replaced with placeholders such as `<EXPERIMENT_ROOT>`
-- the scripts reflect the research code structure used to produce benchmark artifacts
-
-They should be treated as release code for inspection and adaptation, not as a polished one-command reproduction package.
-
-## Current Scope
-
-This scaffold gives you a publishable benchmark repository structure immediately. The remaining release-critical items are called out in [docs/release_checklist.md](docs/release_checklist.md), especially:
-
-- adding an explicit open-source license
-- exporting exact prompt text from authoring materials
-- adding executable evaluation scripts for each metric
-- adding released benchmark metadata beyond the 20-topic subset
+If you use this repository, please cite the Bloom-Eval paper. Citation metadata is available in `CITATION.cff`.

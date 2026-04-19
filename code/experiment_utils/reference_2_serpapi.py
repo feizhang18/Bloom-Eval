@@ -3,10 +3,11 @@ import requests
 import re
 from difflib import SequenceMatcher
 import time
+import os
 
 # --- 配置 ---
-# 请将 'YOUR_SERPAPI_KEY' 替换为您的 SerpApi 密钥
-API_KEY = 'b84e414864e68835ad5dced661d30585b8df7231e43cd18c003eeec392feda9e'
+# 请通过环境变量提供 SerpApi 密钥
+API_KEY = os.getenv("SERPAPI_API_KEY", "")
 INPUT_FILE = '<EXPERIMENT_ROOT>/1/LLMxMapReduce_V2/json/reference_1.json'
 OUTPUT_FILE = '<EXPERIMENT_ROOT>/1/LLMxMapReduce_V2/json/reference_2.json'
 # 相似度阈值，只有当标题相似度高于此值时才认为匹配成功
@@ -26,6 +27,9 @@ def parse_arxiv_id(url):
 
 def search_google_scholar(reference):
     """使用 SerpApi 搜索 Google Scholar 并返回最佳匹配结果"""
+    if not API_KEY:
+        return None, 0.0, "Failed (Missing SERPAPI_API_KEY environment variable)"
+
     query = f"\"{reference['title']}\""
     if reference['authors']:
         query += f" author:\"{reference['authors'][0]}\""
@@ -58,6 +62,10 @@ def search_google_scholar(reference):
 
 def main():
     """主函数，处理整个流程"""
+    if not API_KEY:
+        print("错误: 未设置环境变量 SERPAPI_API_KEY。")
+        return
+
     # --- 1. 初始化阶段：创建骨架 JSON 文件 ---
     print(f"Initializing output file '{OUTPUT_FILE}'...")
     with open(INPUT_FILE, 'r', encoding='utf-8') as f:

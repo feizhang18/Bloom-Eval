@@ -7,8 +7,8 @@ import os
 from typing import Dict, List, Optional
 
 # --- 1. 全局配置 ---
-# !!! 重要: 请确保这里的API密钥是有效的 !!!
-API_KEY = 'b41436d20ae60c07dc9a3f7ebad3f016cce58a94'
+# !!! 重要: 公开发布时不要在代码中硬编码 API 密钥 !!!
+API_KEY = os.getenv("SERPER_API_KEY", "")
 SIMILARITY_THRESHOLD = 0.8  # 匹配相似度阈值为80%
 
 # --- 单个文件夹处理配置 (新) ---
@@ -32,6 +32,9 @@ def parse_arxiv_id(url):
 
 def search_google_scholar(reference: Dict) -> (Optional[Dict], float, str):
     """使用 Serper.dev 搜索并返回最匹配的结果、相似度和状态。"""
+    if not API_KEY:
+        return None, 0.0, "Failed (Missing SERPER_API_KEY environment variable)"
+
     query_title = reference.get('title')
     if not query_title:
         return None, 0.0, "Failed (Input reference has no 'title')"
