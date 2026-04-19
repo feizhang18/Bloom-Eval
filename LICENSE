@@ -1,0 +1,16 @@
+License pending.
+
+This repository has been prepared for public release, but the final code and
+data licenses must be selected by the project authors before publication.
+
+Until a license is added, all rights are reserved by the authors.
+
+Recommended choices to consider before release:
+
+- Code: MIT or Apache-2.0
+- Documentation: CC BY 4.0
+- Benchmark metadata and annotations: CC BY 4.0 or CC BY-NC 4.0, depending on
+  institutional and publisher constraints
+
+Do not redistribute copyrighted full-text papers unless the authors have
+confirmed redistribution rights.

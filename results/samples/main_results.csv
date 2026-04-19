@@ -1,0 +1,19 @@
+level,metric,autosurvey,surveyforge,llmxmapreduce_v2,surveyx,human
+Memory,Entity Fidelity F1,0.10,0.13,0.12,0.11,
+Memory,Entity Fidelity DS,0.81,0.73,0.69,0.78,
+Memory,High-Impact Reference Coverage F1,0.03,0.07,0.02,0.04,
+Memory,Factual Consistency F1,0.07,0.06,0.09,0.07,
+Comprehension,Outline Topic Coverage F1,0.40,0.61,0.53,0.56,
+Comprehension,Citation Faithfulness F1,0.03,0.27,0.29,0.37,0.47
+Comprehension,Thematic Focus Similarity F1,0.43,0.53,0.41,0.52,
+Comprehension,Thematic Focus Similarity DS,0.73,0.78,0.67,0.81,
+Comprehension,Thematic Balance,0.72,0.70,0.68,0.68,0.70
+Application,Formatting Integrity,1.00,1.00,0.95,1.00,0.99
+Application,Document Structure Integrity,0.74,0.75,0.69,1.00,1.00
+Application,Framework Application,0.38,0.42,0.52,0.41,
+Analysis,Semantic Tree Similarity,0.39,0.55,0.53,0.56,
+Analysis,Shape Consistency,0.54,0.74,0.72,0.75,
+Analysis,Structural Clarity Score,0.84,0.75,0.84,0.79,0.89
+Evaluation,Critical Analysis Alignment F1,0.13,0.08,0.11,0.13,
+Creation,Framework Novelty,0.44,0.41,0.53,0.41,
+Creation,Research Outlook Quality,0.51,0.47,0.56,0.48,

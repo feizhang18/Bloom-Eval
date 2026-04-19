@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: Bloom-Eval
+message: "If you use this repository, please cite the Bloom-Eval paper."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Fei
+  - family-names: Zhao
+    given-names: Zhe
+  - family-names: Wen
+    given-names: Haibin
+  - family-names: Wei
+    given-names: Tianshuo
+  - family-names: Zhang
+    given-names: Zaixi
+  - family-names: Yang
+    given-names: Chao
+  - family-names: Wei
+    given-names: Ye
+repository-code: "https://github.com/feizhang18/Bloom-Eval"
+abstract: "Bloom-Eval is a hierarchical evaluation benchmark for automatic survey generation based on Bloom's Taxonomy."
+keywords:
+  - automatic survey generation
+  - benchmark
+  - evaluation
+  - large language models
+  - Bloom's Taxonomy
+license: "License to be finalized before public release"
+

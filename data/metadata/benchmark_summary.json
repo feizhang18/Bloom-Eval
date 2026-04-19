@@ -1,0 +1,40 @@
+{
+  "name": "Bloom-Eval",
+  "paper_count": 3506,
+  "venue_count": 60,
+  "domain_count": 14,
+  "evaluation_topic_count": 20,
+  "publication_year_range": [2023, 2025],
+  "cognitive_levels": [
+    "Memory",
+    "Comprehension",
+    "Application",
+    "Analysis",
+    "Evaluation",
+    "Creation"
+  ],
+  "metrics": [
+    "EFid",
+    "HIRC",
+    "FCons",
+    "OTC",
+    "CF",
+    "TFSim",
+    "TBal",
+    "FMI",
+    "DSI",
+    "FAP",
+    "STS",
+    "SCons",
+    "SCS",
+    "CAA",
+    "FNov",
+    "ROQ"
+  ],
+  "reported_models": {
+    "judge_model": "gpt-5-mini",
+    "citation_metric_model": "gpt-4o",
+    "embedding_model": "nomic-ai/nomic-embed-text-v1"
+  }
+}
+
