@@ -16,7 +16,7 @@ from typing import Dict, List
 from umap import UMAP
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, ensure_dir, build_result_payload, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, ensure_dir, build_result_payload, call_llm, load_json, parse_llm_json, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 API_KEY = os.getenv("OPENAI_API_KEY", "")
@@ -53,13 +53,14 @@ def calculate_ds_score(p: np.ndarray, q: np.ndarray) -> float:
 def get_llm_response(client: OpenAI, model: str, message: List[Dict], log_file: Path | None) -> str:
     print(f"Requesting LLM for topic semantic alignment...")
     try:
-        response = client.chat.completions.create(
-            model=model, messages=message, temperature=0.0, response_format={"type": "json_object"}
+        return call_llm(
+            client,
+            model,
+            message[0]["content"],
+            log_file,
+            temperature=0.0,
+            response_format={"type": "json_object"},
         )
-        answer_content = response.choices[0].message.content
-        if log_file is not None:
-            write_text(log_file, answer_content)
-        return answer_content
     except Exception as e:
         print(f"Error: API call failed: {e}")
         return "{}"
@@ -70,7 +71,7 @@ def load_and_prepare_docs(file_path: str) -> List[str]:
         print(f"Error: Input file not found: {file_path}")
         return []
     try:
-        with open(file_path, 'r', encoding='utf-8') as f: data = json.load(f)
+        data = load_json(file_path)
         documents = [
             re.sub(r'\s+', ' ', (v_inner.get('searched_title', '') + ". " + v_inner.get('abs', ''))).strip()
             for k, v in data.items() if k.startswith('paper_') and isinstance(v, dict)
@@ -138,8 +139,7 @@ def main():
 
     if os.path.exists(matches_path):
         print("Cached match results found, skipping API call.")
-        with open(matches_path, 'r', encoding='utf-8') as f:
-            match_data = json.load(f)
+        match_data = load_json(matches_path)
     else:
         if not expert_topics or not llm_topics:
             match_data = {"matched_pairs": []}
@@ -150,7 +150,7 @@ def main():
             )
             response_str = get_llm_response(client, args.model, [{"role": "user", "content": prompt}], log_path)
             try:
-                match_data = json.loads(response_str)
+                match_data = parse_llm_json(response_str, kind="auto")
                 write_json(matches_path, match_data)
             except json.JSONDecodeError:
                 match_data = {"matched_pairs": []}

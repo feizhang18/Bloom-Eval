@@ -1,5 +1,4 @@
 import os
-import json
 import re
 import sys
 import time
@@ -10,7 +9,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from openai import OpenAI
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, ensure_dir, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, call_llm_for_json, ensure_dir, load_json, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 
@@ -22,8 +21,7 @@ SCS_PROMPT_TEMPLATE = load_prompt("level4/SCS_redundancy_detection.txt")
 def load_outline(path: str) -> List[List[Any]]:
     if not os.path.exists(path):
         raise FileNotFoundError(f"File not found: {path}")
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    data = load_json(path)
     if not isinstance(data, list):
         raise ValueError(f"Outline file is not a list: {path}")
     return data
@@ -59,16 +57,14 @@ def prepare_outline_for_prompt(outline_data: List[List[Any]]) -> Tuple[str, Dict
 def get_llm_response(client: OpenAI, model: str, prompt: str, query_id: str, raw_response_path: Optional[Path]) -> Dict[str, Any]:
     print(f"--- Running LLM redundancy analysis for '{query_id}'... ---")
     try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
+        return call_llm_for_json(
+            client,
+            model,
+            prompt,
+            raw_response_path,
             temperature=0.0,
             response_format={"type": "json_object"},
         )
-        content = response.choices[0].message.content
-        if raw_response_path is not None:
-            write_text(raw_response_path, content)
-        return json.loads(content)
     except Exception as e:
         print(f"LLM call or JSON parse failed: {e}")
         return {"redundant_pairs": []}

@@ -1,5 +1,4 @@
 import os
-import json
 import argparse
 import sys
 import re
@@ -8,7 +7,7 @@ from openai import OpenAI
 from typing import Dict, List
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, call_llm_for_json, load_json, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 API_KEY = os.getenv("OPENAI_API_KEY", "")
@@ -27,8 +26,7 @@ def load_and_flatten_outline(file_path: str) -> List[str]:
         print(f"Error: File not found: {file_path}")
         return []
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            outline_data = json.load(f)
+        outline_data = load_json(file_path)
         topics = []
         for item in outline_data:
             if isinstance(item, list) and len(item) > 1:
@@ -51,16 +49,14 @@ def call_llm_for_matching(client: OpenAI, model: str, expert_topics: List[str], 
 
     print("Calling LLM for semantic comparison...")
     try:
-        response = client.chat.completions.create(
+        return call_llm_for_json(
             model=model,
-            messages=[{"role": "user", "content": prompt}],
+            client=client,
+            prompt=prompt,
+            log_file=log_path,
             temperature=0.0,
-            response_format={"type": "json_object"}
+            response_format={"type": "json_object"},
         )
-        answer = response.choices[0].message.content
-        if log_path is not None:
-            write_text(log_path, answer)
-        return json.loads(answer)
     except Exception as e:
         print(f"Error: LLM API call or parse failed: {e}")
         return {"matched_pairs": []}

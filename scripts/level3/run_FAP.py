@@ -3,7 +3,6 @@ import json
 import time
 import argparse
 import sys
-import re
 import numpy as np
 from pathlib import Path
 from openai import OpenAI
@@ -13,11 +12,14 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
     add_common_arguments,
     build_result_payload,
+    call_llm_with_retry,
     ensure_dir,
+    load_json,
+    load_json_field_text,
+    parse_llm_json,
     resolve_output_dir,
     to_project_relative,
     write_json,
-    write_text,
 )
 from prompt_utils import load_prompt
 
@@ -36,28 +38,22 @@ class FrameworkApplicationEvaluator:
 
     def _call_llm(self, prompt: str, purpose: str, log_dir: Path) -> str:
         log_filepath = log_dir / f"{time.strftime('%Y%m%d-%H%M%S')}_{purpose}_raw.txt"
-
-        for attempt in range(MAX_RETRIES):
-            try:
-                response = self.client.chat.completions.create(
-                    model=self.model, messages=[{"role": "user", "content": prompt}],
-                    temperature=0.0, max_tokens=128000
-                )
-                raw_res = response.choices[0].message.content.strip()
-                if self.save_raw_response:
-                    write_text(log_filepath, raw_res)
-                return raw_res
-            except Exception as e:
-                if attempt < MAX_RETRIES - 1: time.sleep(RETRY_DELAY)
-                else: raise e
+        return call_llm_with_retry(
+            self.client,
+            self.model,
+            prompt,
+            log_filepath if self.save_raw_response else None,
+            temperature=0.0,
+            max_tokens=128000,
+            max_retries=MAX_RETRIES,
+            retry_delay=RETRY_DELAY,
+        )
 
     def generate_criteria(self, task_prompt: str, output_path: Path, log_dir: Path) -> list:
         print("--- Stage 1: Generating Evaluation Criteria ---")
         prompt = self.criteria_prompt_tmpl.format(task_prompt=task_prompt)
         res = self._call_llm(prompt, "criteria_gen", log_dir)
-        json_match = re.search(r'\[\s*\{.*\}\s*\]', res, re.DOTALL)
-        if not json_match: raise ValueError("Could not parse criteria JSON")
-        criteria = json.loads(json_match.group(0))
+        criteria = parse_llm_json(res, kind="array")
         write_json(output_path, criteria)
         return criteria
 
@@ -69,9 +65,7 @@ class FrameworkApplicationEvaluator:
             criteria_json_string=criteria_json
         )
         res = self._call_llm(prompt, "scoring", log_dir)
-        json_match = re.search(r'\{.*\}', res, re.DOTALL)
-        if not json_match: raise ValueError("Could not parse scoring JSON")
-        scores = json.loads(json_match.group(0))
+        scores = parse_llm_json(res, kind="object")
         write_json(output_path, scores)
         return scores
 
@@ -93,14 +87,12 @@ class FrameworkApplicationEvaluator:
 
 def load_text(path):
     if not os.path.exists(path): return None
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    data = load_json(path)
     return "\n".join(data) if isinstance(data, list) else str(data)
 
 def get_task_title(path):
     if not os.path.exists(path): return None
-    with open(path, 'r', encoding='utf-8') as f:
-        return json.load(f).get("title", "")
+    return load_json_field_text(path, "title")
 
 def main():
     parser = argparse.ArgumentParser(description="Framework Application (FAP) end-to-end evaluation tool")

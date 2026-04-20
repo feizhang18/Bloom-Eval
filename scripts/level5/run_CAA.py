@@ -1,6 +1,5 @@
 import json
 import os
-import re
 import sys
 import time
 import argparse
@@ -13,11 +12,13 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
     add_common_arguments,
     build_result_payload,
+    call_llm_with_retry,
     ensure_dir,
+    load_json_list_text,
+    parse_llm_json,
     resolve_output_dir,
     to_project_relative,
     write_json,
-    write_text,
 )
 from prompt_utils import load_prompt
 
@@ -33,11 +34,7 @@ CRITICAL_MATCHING_PROMPT_TEMPLATE = load_prompt("level5/CAA_critical_claim_match
 
 def load_text_from_json(file_path: str) -> str:
     try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        if isinstance(data, list) and data and isinstance(data[0], str):
-            return " ".join(data)
-        return ""
+        return load_json_list_text(file_path, joiner=" ")
     except Exception as e:
         print(f"Error reading file {file_path}: {e}")
         return ""
@@ -51,27 +48,17 @@ def call_llm(
     log_dir: Optional[Path],
 ) -> str:
     log_path = log_dir / f"{time.strftime('%Y%m%d-%H%M%S')}_{purpose}_raw_response.txt" if log_dir else None
-
-    for attempt in range(MAX_RETRIES):
-        try:
-            response = client.chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.0,
-                max_tokens=8192,
-            )
-            raw_response = response.choices[0].message.content.strip()
-            if log_path is not None:
-                write_text(log_path, raw_response)
-            return raw_response
-        except Exception as e:
-            print(f"Attempt {attempt + 1} failed: {e}")
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_DELAY)
-            else:
-                if log_path is not None:
-                    write_text(log_path, f"Failed after {MAX_RETRIES} retries.\nLast error: {e}")
-                raise
+    return call_llm_with_retry(
+        client,
+        model,
+        prompt,
+        log_path,
+        temperature=0.0,
+        max_tokens=8192,
+        max_retries=MAX_RETRIES,
+        retry_delay=RETRY_DELAY,
+        failure_log_message=f"Failed after {MAX_RETRIES} retries.",
+    )
 
 
 def extract_critical_statements(
@@ -85,12 +72,8 @@ def extract_critical_statements(
     prompt = CRITICAL_EXTRACTION_PROMPT_TEMPLATE.format(text=text)
     raw_response = call_llm(client, model, prompt, query_id, log_dir)
 
-    cleaned = raw_response.strip()
-    if cleaned.startswith("```json"):
-        cleaned = cleaned[7:-3].strip()
-
     try:
-        result = json.loads(cleaned)
+        result = parse_llm_json(raw_response, kind="auto")
         write_json(output_path, result)
         return result.get("critical_statements", [])
     except json.JSONDecodeError:
@@ -117,10 +100,7 @@ def find_semantic_matches(
 
     llm_response = call_llm(client, model, prompt, query_id, log_dir)
     try:
-        json_match = re.search(r"\{.*\}", llm_response, re.DOTALL)
-        if not json_match:
-            raise ValueError("Could not find a JSON object in the LLM response.")
-        result = json.loads(json_match.group(0))
+        result = parse_llm_json(llm_response, kind="object")
         if "matched_critical_pairs" not in result or not isinstance(result["matched_critical_pairs"], list):
             result = {"matched_critical_pairs": []}
     except (json.JSONDecodeError, ValueError) as e:

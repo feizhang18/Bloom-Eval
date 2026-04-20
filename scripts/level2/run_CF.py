@@ -15,7 +15,7 @@ from tqdm import tqdm
 from typing import Dict, List
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, call_llm, load_json, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 API_KEY = os.getenv("OPENAI_API_KEY", "")
@@ -39,14 +39,15 @@ class CitationEvaluator:
     def _get_llm_response(self, claim: str, source: str, result_list: list, index: int):
         prompt = NLI_PROMPT_TEMPLATE.replace('[CLAIM]', claim).replace('[SOURCE]', source)
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=[{"role": "user", "content": prompt}],
+            answer = call_llm(
+                self.client,
+                self.model,
+                prompt,
                 temperature=0.0,
                 max_tokens=5,
+                verbose=False,
             )
-            answer = response.choices[0].message.content.strip().lower()
-            result_list[index] = 1 if 'yes' in answer else 0
+            result_list[index] = 1 if 'yes' in answer.lower() else 0
             with self.lock:
                 self.successful_requests += 1
         except Exception:
@@ -93,8 +94,8 @@ def extract_and_group_sentences(paper_path: str, ref_path: str, output_csv: str)
         return True
 
     try:
-        with open(paper_path, 'r', encoding='utf-8') as f: paper_data = json.load(f)
-        with open(ref_path, 'r', encoding='utf-8') as f: ref_data = json.load(f)
+        paper_data = load_json(paper_path)
+        ref_data = load_json(ref_path)
     except Exception as e:
         print(f"Error reading files: {e}")
         return False
