@@ -11,6 +11,33 @@ CITATION_THRESHOLD = 50    # only expert refs with citations > 50 are considered
 SIMILARITY_THRESHOLD = 90  # fuzzy match similarity threshold
 
 
+def iter_reference_entries(data: Dict) -> List[Dict]:
+    """Return reference entries from both legacy and flattened schemas."""
+    entries = []
+
+    if "reference_num" in data:
+        for i in range(1, data.get("reference_num", 0) + 1):
+            paper_key = f"paper_{i}_info"
+            ref_key = f"reference_{i}"
+            ref_info = data.get(paper_key, {}).get(ref_key, {})
+            if isinstance(ref_info, dict):
+                entries.append(ref_info)
+        return entries
+
+    def reference_index(item: tuple[str, Dict]) -> int:
+        key, _ = item
+        try:
+            return int(key.rsplit("_", 1)[1])
+        except (IndexError, ValueError):
+            return 0
+
+    for key, ref_info in sorted(data.items(), key=reference_index):
+        if key.startswith("reference_") and isinstance(ref_info, dict):
+            entries.append(ref_info)
+
+    return entries
+
+
 def load_references_from_file(filepath: str) -> list:
     """Load and parse the JSON structure to extract reference list with citation counts."""
     if not os.path.exists(filepath):
@@ -24,14 +51,8 @@ def load_references_from_file(filepath: str) -> list:
         return None
 
     references = []
-    for i in range(1, data.get("reference_num", 0) + 1):
-        paper_key = f"paper_{i}_info"
-        ref_key = f"reference_{i}"
-
-        paper_info = data.get(paper_key, {})
-        ref_info = paper_info.get(ref_key, {})
-
-        title = ref_info.get("searched_title")
+    for ref_info in iter_reference_entries(data):
+        title = ref_info.get("title") or ref_info.get("searched_title")
 
         citations = ref_info.get("citation_count", 0)
         try:

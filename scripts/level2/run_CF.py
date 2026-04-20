@@ -88,6 +88,32 @@ class CitationEvaluator:
         return detailed_results
 
 
+def iter_numbered_reference_entries(ref_data: Dict) -> List[tuple[str, Dict]]:
+    """Return (reference number, details) pairs from legacy and flattened schemas."""
+    entries = []
+
+    if "reference_num" in ref_data:
+        for i in range(1, ref_data.get("reference_num", 0) + 1):
+            paper_key, ref_key = f"paper_{i}_info", f"reference_{i}"
+            details = ref_data.get(paper_key, {}).get(ref_key)
+            if isinstance(details, dict):
+                entries.append((str(i), details))
+        return entries
+
+    def reference_index(item: tuple[str, Dict]) -> int:
+        key, _ = item
+        try:
+            return int(key.rsplit("_", 1)[1])
+        except (IndexError, ValueError):
+            return 0
+
+    for key, details in sorted(ref_data.items(), key=reference_index):
+        if key.startswith("reference_") and isinstance(details, dict):
+            entries.append((key.rsplit("_", 1)[1], details))
+
+    return entries
+
+
 def extract_and_group_sentences(paper_path: str, ref_path: str, output_csv: str) -> bool:
     """Stage 1: Split sentences from paper and reference files and unpack citation markers."""
     if os.path.exists(output_csv):
@@ -101,15 +127,13 @@ def extract_and_group_sentences(paper_path: str, ref_path: str, output_csv: str)
         return False
 
     citation_info = {}
-    for i in range(1, ref_data.get("reference_num", 0) + 1):
-        paper_key, ref_key = f"paper_{i}_info", f"reference_{i}"
-        try:
-            details = ref_data[paper_key][ref_key]
-            title, abstract = details.get("searched_title"), details.get("abs", "")
-            if abstract == "N/A": abstract = ""
-            if title and title != "N/A":
-                citation_info[str(i)] = {"title": title, "abstract": abstract}
-        except KeyError: continue
+    for num, details in iter_numbered_reference_entries(ref_data):
+        title = details.get("title") or details.get("searched_title")
+        abstract = details.get("abs", "")
+        if abstract == "N/A":
+            abstract = ""
+        if title and title != "N/A":
+            citation_info[num] = {"title": title, "abstract": abstract}
 
     full_text = ""
     if isinstance(paper_data, dict) and 'context' in paper_data:

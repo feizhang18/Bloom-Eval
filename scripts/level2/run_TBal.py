@@ -31,6 +31,33 @@ def calculate_gini(counts: List[int]) -> float:
     B = np.sum(cum_counts) / total_sum
     return 1 - 2 * B / n + 1 / n
 
+
+def iter_reference_entries(data: Dict) -> List[Dict]:
+    """Return reference entries from both legacy and flattened schemas."""
+    entries = []
+
+    if "reference_num" in data:
+        for i in range(1, data.get("reference_num", 0) + 1):
+            paper_key = f"paper_{i}_info"
+            ref_key = f"reference_{i}"
+            ref_info = data.get(paper_key, {}).get(ref_key, {})
+            if isinstance(ref_info, dict):
+                entries.append(ref_info)
+        return entries
+
+    def reference_index(item: tuple[str, Dict]) -> int:
+        key, _ = item
+        try:
+            return int(key.rsplit("_", 1)[1])
+        except (IndexError, ValueError):
+            return 0
+
+    for key, ref_info in sorted(data.items(), key=reference_index):
+        if key.startswith("reference_") and isinstance(ref_info, dict):
+            entries.append(ref_info)
+
+    return entries
+
 def load_and_prepare_docs(file_path: str) -> List[str]:
     """Extract and clean titles and abstracts from reference.json."""
     if not os.path.exists(file_path):
@@ -39,15 +66,12 @@ def load_and_prepare_docs(file_path: str) -> List[str]:
     try:
         data = load_json(file_path)
         documents = []
-        for key, value in data.items():
-            if key.startswith('paper_') and isinstance(value, dict):
-                inner_ref = next(iter(value.values()), None)
-                if inner_ref and isinstance(inner_ref, dict):
-                    title = inner_ref.get('searched_title', '')
-                    abstract = inner_ref.get('abs', '')
-                    if title and abstract and abstract.strip().upper() != 'N/A':
-                        full_text = f"{title}. {abstract}"
-                        documents.append(re.sub(r'\s+', ' ', full_text).strip())
+        for ref_info in iter_reference_entries(data):
+            title = ref_info.get("title") or ref_info.get("searched_title", "")
+            abstract = ref_info.get("abs", "")
+            if title and abstract and abstract.strip().upper() != 'N/A':
+                full_text = f"{title}. {abstract}"
+                documents.append(re.sub(r'\s+', ' ', full_text).strip())
         return documents
     except Exception as e:
         print(f"Error parsing {file_path}: {e}")

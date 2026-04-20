@@ -1,1456 +1,1009 @@
 {
-    "reference_num": 92,
-    "paper_1_info": {
-        "reference_1": {
-            "searched_title": "Industrial policy and competition",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/mac.20120103",
-            "date": "2015",
-            "abs": "… , we show that industrial policies allocated to competitive sectors or that foster competition in a sector increase … We measure competition using the Lerner Index and include as industrial …",
-            "authors": [
-                "Aghion P",
-                "Cai J",
-                "Dewatripont M",
-                "Du L",
-                "Harrison A",
-                "Legros P"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 996
-        }
-    },
-    "paper_2_info": {
-        "reference_2": {
-            "searched_title": "The credibility revolution in empirical economics: how better research design is taking the con out of econometrics",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257%2Fjep.24.2.3&form=MG0AV3",
-            "date": "2010",
-            "abs": "Since Edward Leamer's memorable 1983 paper, “Let's Take the Con out of Econometrics,” empirical microeconomics has experienced a credibility revolution. While Leamer's suggested remedy, sensitivity analysis, has played a role in this, we argue that the primary engine driving improvement has been a focus on the quality of empirical research designs. The advantages of a good research design are perhaps most easily apparent in research using random assignment. We begin with an overview of Leamer's 1983 critique and his proposed remedies. We then turn to the key factors we see contributing to improved empirical work, including the availability of more and better data, along with advances in theoretical econometric understanding, but especially the fact that research design has moved front and center in much of empirical micro. We offer a brief digression into macroeconomics and industrial organization, where progress—by our lights—is less dramatic, although there is work in both fields that we find encouraging. Finally, we discuss the view that the design pendulum has swung too far. Critics of design-driven studies argue that in pursuit of clean and credible research designs, researchers seek good answers instead of good questions. We briefly respond to this concern, which worries us little.",
-            "authors": [
-                "Angrist JD",
-                "Pischke J-S"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 2374
-        }
-    },
-    "paper_3_info": {
-        "reference_3": {
-            "searched_title": "Funding breakthrough research: promises and challenges of the “ARPA model”",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/699933",
-            "date": "2019",
-            "abs": "From its 1958 origin in defense, the Advanced Research Projects Agency (ARPA) model for research funding has, in the last two decades, spread to other parts of the US federal government with the goal of developing radically new technologies. In this paper, we propose that the key elements of the ARPA model for research funding are organizational flexibility on an administrative level and significant authority given to program directors to design programs, select projects, and actively manage projects. We identify the ARPA …",
-            "authors": [
-                "Azoulay P",
-                "Fuchs E",
-                "Goldstein A",
-                "Kearney M"
-            ],
-            "publication": "journals.uchicago.edu",
-            "citation_count": 148
-        }
-    },
-    "paper_4_info": {
-        "reference_4": {
-            "searched_title": "Public R&D investments and private-sector patenting: evidence from NIH funding rules",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/restud/article-abstract/86/1/117/5038510",
-            "date": "2019",
-            "abs": "We quantify the impact of scientific grant funding at the National Institutes of Health (NIH) on patenting by pharmaceutical and biotechnology firms. Our article makes two contributions. First, we use newly constructed bibliometric data to develop a method for flexibly linking specific grant expenditures to private-sector innovations. Second, we take advantage of idiosyncratic rigidities in the rules governing NIH peer review to generate exogenous variation in funding across research areas. Our results show that NIH funding spurs the development of private-sector patents: a $10 million boost in NIH funding leads to a net increase of 2.7 patents. Though valuing patents is difficult, we report a range of estimates for the private value of these patents using different approaches.",
-            "authors": [
-                "Azoulay P",
-                "Graff Zivin JS",
-                "Li D",
-                "Sampat BN"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 487
-        }
-    },
-    "paper_5_info": {
-        "reference_5": {
-            "searched_title": "Quid pro quo, knowledge spillover and industrial quality upgrading",
-            "scholar_status": "Success (Similarity: 93.55%)",
-            "arxiv_id": "N/A",
-            "url": "https://growthlab.hks.harvard.edu/files/growthlab/files/2019-11-cid-wp-368-quid-pro-quo.pdf",
-            "date": "2019",
-            "abs": "… quality measures along multiple dimensions of vehicle performance, we document empirical patterns consistent with knowledge spillovers … specialize in similar quality dimensions. The …",
-            "authors": [
-                "Bai J",
-                "Barwick P",
-                "Cao S",
-                "Li S"
-            ],
-            "publication": "growthlab.hks.harvard.edu",
-            "citation_count": 1
-        }
-    },
-    "paper_6_info": {
-        "reference_6": {
-            "searched_title": "Bureaucrats and the Korean export miracle",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://core.ac.uk/download/pdf/613043323.pdf",
-            "date": "2024",
-            "abs": "What makes an industrial policy successful? This thesis finds that the effect of an industrial policy changes tremendously with the implementing bureaucrat. I study South Korean bureaucrats who promote exports on appointments to 87 countries between 1965, when South Korea was one of the world’s poorest countries, and 2001. I exploit the three-yearly rotation of bureaucrats between countries to show that individual bureaucrats matter greatly in boosting exports. Increasing bureaucrat ability by one standard deviation is associated with a 37% increase in exports. This effect is comparable to that of opening an office, implying that this industrial policy has no effect when implemented by a bureaucrat one standard deviation below average. I exploit differential import demand growth to study a mechanism via which better bureaucrats increase exports: transmitting information about market conditions. Under better bureaucrats South Korean exports increase more with a product’s import demand. Finally, I investigate whether experience can bridge the gaps between bureaucrats. I isolate quasi-random variation in experience, exploiting a product’s import demand growth during the bureaucrat’s first appointment. In subsequent appointments of this bureaucrat exports increase in products with greater bureaucrat experience. This highlights that organizational capacity grows endogenously, implying a novel channel for path dependence in organizational capacity.",
-            "authors": [
-                "Barteska P",
-                "Lee JE"
-            ],
-            "publication": "core.ac.uk",
-            "citation_count": 17
-        }
-    },
-    "paper_7_info": {
-        "reference_7": {
-            "searched_title": "The textbook case for industrial policy meets the data",
-            "scholar_status": "Success (Similarity: 89.29%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.nber.org/papers/w26193",
-            "date": "2019",
-            "abs": "… industrial policies as well as how trade openness, and the access to trade policy instruments, may affect the design of industrial policy … , gains from industrial policies appear relatively …",
-            "authors": [
-                "Bartelme D",
-                "Costinot A",
-                "Donaldson D",
-                "Rodriguez-Clare A"
-            ],
-            "publication": "nber.org",
-            "citation_count": 192
-        }
-    },
-    "paper_8_info": {
-        "reference_8": {
-            "searched_title": "Should place-based jobs policies be used to help distressed communities?",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.econstor.eu/handle/10419/202903",
-            "date": "2019",
-            "abs": "Should policymakers seek to increase jobs in particular local labor markets? Yes, but only if these policies are well targeted and designed. Encouraging job growth in distressed places can cause persistent gains in employment-to-population ratios. But our current place-based jobs policies, under which state and local governments provide long-term tax incentives to megacorporations, are poorly targeted and designed. Such incentives are as large in nondistressed areas as in distressed areas, and they are excessively costly. What reforms …",
-            "authors": [
-                "Bartik T"
-            ],
-            "publication": "econstor.eu",
-            "citation_count": 62
-        }
-    },
-    "paper_9_info": {
-        "reference_9": {
-            "searched_title": "Bringing jobs to people: improving local economic development policies",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://research.upjohn.org/up_policypapers/23/",
-            "date": "2020",
-            "abs": "Many local labor markets in the United States suffer from low employment rates, but getting people to move out of these distressed areas is difficult. Moreover, moving people to job-rich regions does not help those left behind, as out-migration destroys jobs in distressed areas. A better way to help the residents of distressed areas is through local economic development policies that boost job growth and employment rates in a sustained fashion. Such policies can successfully encourage local business and job growth through business tax incentives, cash grants, or customized public services, such as advice to small businesses, job training, infrastructure development, or development-ready land. However, there is scope for improvement in how local economic development policies are carried out. I highlight the need for approaches that increase the benefits per job created by better targeting job creation to distressed areas and using workforce programs to link unemployed workers with jobs. There are also ways that local development policies could have a lower cost per job created. For instance, tax incentives and cash grants to a few large projects are less cost-effective in creating jobs than providing a broader array of businesses with public services. Needed reforms to local economic development policies are within the power and resources of state and local governments to accomplish on their own. However, federal intervention could potentially help by capping some of the largest incentives, and by providing distressed areas with funding to carry out their development plans.",
-            "authors": [
-                "Bartik T"
-            ],
-            "publication": "research.upjohn.org",
-            "citation_count": 25
-        }
-    },
-    "paper_10_info": {
-        "reference_10": {
-            "searched_title": "How state governments can target job opportunities to distressed places",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://research.upjohn.org/up_technicalreports/44/",
-            "date": "2022",
-            "abs": "The United States has two types of “place-based” jobs problems: low employment rates in 1) local labor markets and 2) neighborhoods. The local labor market problem can be dealt with by targeting distressed local labor markets for job creation. The neighborhood problem can be dealt with by targeting distressed neighborhoods with programs to improve residents’ job access. This report describes the magnitude of these place-based jobs problems and reviews research on the most cost-effective programs to address these problems. The report also reviews current state government efforts to target job opportunities to distressed places, pointing out that such targeting is frequently too modest and poorly designed. As an alternative, this report proposes that state governments adopt two targeted block grant programs: a “Local Job Creation” block grant; a “Neighborhood Employment Opportunities” block grant. The costs, benefits, and distributional effects of these block grants are described.",
-            "authors": [
-                "Bartik T"
-            ],
-            "publication": "research.upjohn.org",
-            "citation_count": 22
-        }
-    },
-    "paper_11_info": {
-        "reference_11": {
-            "searched_title": "China's industrial policy: an empirical evaluation",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.nber.org/papers/w26075",
-            "date": "2019",
-            "abs": "Despite the historic prevalence of industrial policy and its current popularity, few empirical studies directly evaluate its welfare consequences. This paper examines an important industrial policy in China in the 2000s, aiming to propel the country's shipbuilding industry to the largest globally. Using comprehensive data on shipyards worldwide and a dynamic model of firm entry, exit, investment, and production, we find that the scale of the policy was massive and boosted China's domestic investment, entry, and world market share …",
-            "authors": [
-                "Barwick PJ",
-                "Kalouptsidi M",
-                "Zahur NB"
-            ],
-            "publication": "nber.org",
-            "citation_count": 127
-        }
-    },
-    "paper_12_info": {
-        "reference_12": {
-            "searched_title": "Growth, economies of scale, and targeting in Japan (1955-1990)",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.jstor.org/stable/2109930",
-            "date": "1996",
-            "abs": "This paper explores the usage of various industrial policy tools in Japan. Contrary to the conventional wisdom, we find that a disproportionate amount of Japanese targeting occurred in low growth sectors and sectors with decreasing returns to scale. In addition, we find no evidence that productivity was enhanced as a result of industrial policy measures.",
-            "authors": [
-                "Beason R",
-                "Weinstein DE"
-            ],
-            "publication": "JSTOR",
-            "citation_count": 665
-        }
-    },
-    "paper_13_info": {
-        "reference_13": {
-            "searched_title": "Industrial policy and downstream export performance",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/ej/article-abstract/126/595/1635/5077860",
-            "date": "2016",
-            "abs": "Industrial policies (IPs) are commonly used by countries to promote targeted sectors but may have significant impacts on downstream sectors. Using a new hand‐collected database of steel‐sector IP use in major steel‐producing countries, I find that IP use is quite harmful to downstream sectors. A 1 standard deviation increase in steel IP presence leads to a 1.2% decline in export competitiveness for the average downstream manufacturing sector in the first few years of its application, and a 6% decline for downstream sectors that use steel most …",
-            "authors": [
-                "Blonigen BA"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 132
-        }
-    },
-    "paper_14_info": {
-        "reference_14": {
-            "searched_title": "A toolkit of policies to promote innovation",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/jep.33.3.163",
-            "date": "2019",
-            "abs": "Economic theory suggests that market economies are likely to underprovide innovation because of the public good nature of knowledge. Empirical evidence from the United States and other advanced economies supports this idea. We summarize the pros and cons of different policy instruments for promoting innovation and provide a basic “toolkit” describing which policies are most effective according to our reading of the evidence. In the short run, R&D tax credits and direct public funding seem the most productive, but in the longer run, increasing the supply of human capital (for example, relaxing immigration rules or expanding university STEM admissions) is likely more effective.",
-            "authors": [
-                "Bloom N",
-                "Van Reenen J",
-                "Williams H"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 806
-        }
-    },
-    "paper_15_info": {
-        "reference_15": {
-            "searched_title": "Optimal tariffs and market power: the evidence",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.98.5.2032",
-            "date": "2008",
-            "abs": "… We find strong evidence that these importers have market power and use it in setting … tariff in the typical country. In short, we find strong evidence that countries have market power in …",
-            "authors": [
-                "Broda C",
-                "Limao N",
-                "Weinstein DE"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 706
-        }
-    },
-    "paper_16_info": {
-        "reference_16": {
-            "searched_title": "Tax revenues and the fiscal cost of trade liberalization, 1792-2006",
-            "scholar_status": "Success (Similarity: 98.51%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0014498317302541",
-            "date": "2018",
-            "abs": "This article examines the impact of trade liberalization on government revenues. Using a new dataset on tax revenues for 130 countries between 1792 and 2006, we identify ninety-nine episodes of trade liberalization defined as a large fall in trade tax revenues not accompanied by a decrease in trade. Seven took place before World War One, seven in the interwar period, eighteen in the Bretton Woods period and the remainder after 1970. We examine the extent to which countries were able to recover the tax revenues lost by liberalizing trade by using other sources of revenue. We find that historical (pre-1970) trade liberalization episodes were unlikely to be accompanied by decreases in tax revenues, especially during the Bretton Woods era. In the recent period however, over 40% of the developing countries in our sample experience a fall in total tax revenues that lasts more than ten years after an episode of trade liberalization. Overall, trade liberalization led to larger and longer-lived declines in tax revenues in developing countries since 1970 than in today’s rich countries in the 19th and 20th centuries. Results are similar when we consider government expenditures, suggesting decreases in trade tax revenues negatively affect governments’ capacity to provide public services in many developing countries.",
-            "authors": [
-                "Cagé J",
-                "Gadenne L"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 135
-        }
-    },
-    "paper_17_info": {
-        "reference_17": {
-            "searched_title": "The long-term effects of industrial policy",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0304393225000509",
-            "date": "2025",
-            "abs": "This paper provides causal evidence on the impact of a large-scale industrial policy–South Korea's Heavy and Chemical Industry (HCI) Drive–on firms' long-term performance and quantifies its long-term welfare effects. Using unique historical data on the universe of firm-level subsidies and a natural experiment, we find large and persistent effects of this industrial policy. Subsidized firms grew faster than those never subsidized for 30 years after subsidies ended. We build a quantitative heterogeneous firm model that rationalizes these …",
-            "authors": [
-                "Choi J",
-                "Levchenko AA"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 140
-        }
-    },
-    "paper_18_info": {
-        "reference_18": {
-            "searched_title": "Making subsidies work: rules versus discretion",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA21319",
-            "date": "2025",
-            "abs": "We estimate the employment effects of a large program of public investment subsidies to private firms that ranked applicants on a score reflecting both objective rules and local politicians' discretion. Leveraging the rationing of funds as an ideal Regression Discontinuity Design, we characterize the heterogeneity of treatment effects and cost‐per‐new‐job across inframarginal firms and estimate the cost‐effectiveness of subsidies under factual and counterfactual allocations. Firms ranking high on objective rules and firms preferred by local politicians generated larger employment growth on average, but the latter did so at a higher cost per job. We estimate that relying only on objective criteria would reduce the cost per job by 11%, while relying only on political discretion would increase such cost by 42%.",
-            "authors": [
-                "Cingano F",
-                "Palomba F",
-                "Pinotti P",
-                "Retore E"
-            ],
-            "publication": "Wiley Online Library",
-            "citation_count": 2
-        }
-    },
-    "paper_19_info": {
-        "reference_19": {
-            "searched_title": "Trade Policy and Economic Welfare",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://books.google.com/books?hl=en&lr=&id=MfVQEAAAQBAJ&oi=fnd&pg=PR13&dq=Trade+Policy+and+Economic+Welfare&ots=El-czBIjPE&sig=7JgJJ6b68KsoZLwe4DJ6gfjfhWs",
-            "date": "1997",
-            "abs": "… This book deals with the normative theory of trade policy, primarily from the point of view of a single country. The first edition of this book has had a long and gratifying life, finally going …",
-            "authors": [
-                "Corden WM"
-            ],
-            "publication": "books.google.com",
-            "citation_count": 2442
-        }
-    },
-    "paper_20_info": {
-        "reference_20": {
-            "searched_title": "Quantifying industrial strategies (QuIS): measuring industrial policy expenditures",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://search.proquest.com/openview/022e0928b3b0bd90293822e2fdb9aa42/1?pq-origsite=gscholar&cbl=54496",
-            "date": "2022",
-            "abs": "Industrial policy is sparking renewed interest across OECD member countries and partner economies. However, amidst an increasing number of objectives for industrial policy, and despite the availability of information on countries' strategies and plans, it remains difficult to properly measure and compare resources spent on industrial policies and identify countries' strategic priorities. The lack of a cross-country comparable source of information on resources dedicated to industrial policy partly results from the absence of a common methodology to account for industrial policy expenditures. This paper provides a new methodology for reporting industrial policy expenditure in a comparable way across countries. It is the first deliverable of the\" Quantifying Industrial Strategies\" project, which aims at measuring industrial policy expenditures across OECD countries and will gather harmonised data on industrial policy expenditures, their composition, and their mode of delivery.",
-            "authors": [
-                "Criscuolo C",
-                "Lalanne G",
-                "Diaz L"
-            ],
-            "publication": "search.proquest.com",
-            "citation_count": 24
-        }
-    },
-    "paper_21_info": {
-        "reference_21": {
-            "searched_title": "Some causal effects of an industrial policy",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20160034",
-            "date": "2019",
-            "abs": "We exploit changes in the area-specific eligibility criteria for a program to support jobs through investment subsidies. European rules determine whether an area is eligible for subsidies, and we construct instrumental variables for area eligibility based on parameters of these rule changes. Areas eligible for higher subsidies significantly increased jobs and reduced unemployment. A 10-percentage point increase in the maximum investment subsidy stimulates a 10 percent increase in manufacturing employment. This effect exists …",
-            "authors": [
-                "Criscuolo C",
-                "Martin R",
-                "Overman HG",
-                "Van Reenen J"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 662
-        }
-    },
-    "paper_22_info": {
-        "reference_22": {
-            "searched_title": "Red ink: estimating Chinese industrial policy spending in comparative perspective",
-            "scholar_status": "Failed (API & Scraper)",
-            "date": "2022",
-            "authors": [
-                "DiPippo G",
-                "Mazzocco I",
-                "Kennedy S",
-                "Goodman MP"
-            ],
-            "publication": "Rep., Cent. Strateg. Int. Stud., Washington, DC",
-            "citation_count": 0,
-            "abs": "N/A"
-        }
-    },
-    "paper_23_info": {
-        "reference_23": {
-            "searched_title": "Embedded Autonomy: States and Industrial Transformation",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.degruyterbrill.com/document/doi/10.1515/9781400821723/html",
-            "date": "1995",
-            "abs": "In recent years, debate on the state's economic role has too often devolved into diatribes against intervention. Peter Evans questions such simplistic views, offering a new vision of why …",
-            "authors": [
-                "Evans PB"
-            ],
-            "publication": "degruyterbrill.com",
-            "citation_count": 13287
-        }
-    },
-    "paper_24_info": {
-        "reference_24": {
-            "searched_title": "Global trade alert: motivation and launch",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/world-trade-review/article/global-trade-alert-motivation-and-launch/DDD51BE9583280036B941C59A3787075",
-            "date": "2009",
-            "abs": "Unsurprisingly governments want to intervene during the current downturn, the challenge is to ensure that the measures taken are consistent with pledges to avoid protectionism. It should be recalled that G20 leaders vowed at the April 2009 London summit:‘We will not repeat the historic mistakes of protectionism of previous eras.’This pledge reiterated an earlier commitment made at the November 2008 G20 Summit in Washington, DC. Other heads of government have made similar pledges in regional fora, such as APEC and elsewhere. To increase the information available on state measures that may affect trading partners’ commercial interests, the Centre for Economic Policy Research (CEPR) has teamed up with independent research institutes from around the world to create Global Trade Alert (GTA). 1 A combination of peer pressure plus up-to-date, comprehensive information, the latter being supplied by GTA, will help to maintain confidence in the world trading system, deter beggar-thy-neighbour acts, and",
-            "authors": [
-                "Evenett SJ"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 29
-        }
-    },
-    "paper_25_info": {
-        "reference_25": {
-            "searched_title": "Two to Tango: Public-Private Collaboration for Productive Development Policies",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://books.google.com/books?hl=en&lr=&id=0OZ3DwAAQBAJ&oi=fnd&pg=PR6&dq=Two+to+Tango:+Public-Private+Collaboration+for+Productive+Development+Policies&ots=sBalEvR4X2&sig=lo7_DsqtkWAZqpyPnEW5qXo4WuU",
-            "date": "2016",
-            "abs": "It takes two to tango. Strong public-private collaboration is key for discovering and implementing effective productive development policies to bring out the best in existing economic activities and to foster economic transformation. The 25 Latin American cases analyzed in this volume show how and why many public and private partners are dancing smoothly while others stumble or follow different drummers. This book is a resource for designing institutions to make public-private interaction a win-win strategy.",
-            "authors": [
-                "Fernandez-Arias E",
-                "Sabel C",
-                "Stein EH",
-                "Trejos A"
-            ],
-            "publication": "books.google.com",
-            "citation_count": 58
-        }
-    },
-    "paper_26_info": {
-        "reference_26": {
-            "searched_title": "The long-run impacts of public industrial investment on regional development and economic mobility: evidence from World War II",
-            "scholar_status": "Success (Similarity: 97.19%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/qje/article-abstract/140/1/459/7819161",
-            "date": "2025",
-            "abs": "This article studies the long-run effects of government-led construction of manufacturing plants on the regions where they were built and on individuals from those regions. Specifically, we examine publicly financed plants built in dispersed locations outside of major urban centers for security reasons during the US industrial mobilization for World War II. Wartime plant construction had large and persistent effects on local development, characterized by an expansion of relatively high-wage manufacturing employment …",
-            "authors": [
-                "Garin A",
-                "Rothbaum J"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 40
-        }
-    },
-    "paper_27_info": {
-        "reference_27": {
-            "searched_title": "Mesas ejecutivas in Peru: lessons for productive development policies",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1758-5899.12457",
-            "date": "2017",
-            "abs": "Middle‐income countries are likely to face an uncertain path to development. Their strategy may need to mutate from a focus on manufacturing to a multipronged one. Unleashing the potential of those sectors requires cooperation between different private and public actors that need to coordinate. Productive development policies (PDP s) are all about solving these coordination failures. When I became Minister of Production of Peru, I had the opportunity to lead a team that designed and implemented a tool, Mesas Ejecutivas (ME s), that could be …",
-            "authors": [
-                "Ghezzi P"
-            ],
-            "publication": "Wiley Online Library",
-            "citation_count": 27
-        }
-    },
-    "paper_28_info": {
-        "reference_28": {
-            "searched_title": "Technology transfer and early industrial development: evidence from the Sino-Soviet alliance",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.nber.org/papers/w29455",
-            "date": "2021",
-            "abs": "This paper studies the long-term effects of technology and know-how transfers on structural transformations. In the 1950s, the Soviet Union supported the construction of 156 Projects, largescale capital-intensive industrial clusters in China, and sponsored a physical capital transfer providing state-of-the-art machinery and equipment; and a know-how transfer through training for engineers and production supervisors. We use newly-assembled data that follow these plants for over four decades, combined with natural variation in the …",
-            "authors": [
-                "Giorcelli M",
-                "Li B"
-            ],
-            "publication": "nber.org",
-            "citation_count": 41
-        }
-    },
-    "paper_29_info": {
-        "reference_29": {
-            "searched_title": "Protection for sale: an empirical investigation",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.89.5.1135",
-            "date": "1999",
-            "abs": "Abstract The Grossman-Helpman “Protection for Sale” model, concerning the political economy of trade protection, yields clear predictions for the cross-sectional structure of import barriers. Our objective is to check whether the predictions of the Grossman-Helpman model are consistent with the data and, if the model finds support, to estimate its key structural parameters. We find that the pattern of protection in the United States in 1983 is broadly consistent with the predictions of the model. A surprising finding is that the weight of …",
-            "authors": [
-                "Goldberg PK",
-                "Maggi G"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 1362
-        }
-    },
-    "paper_30_info": {
-        "reference_30": {
-            "searched_title": "The effects of trade policy",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2214312216300023",
-            "date": "2016",
-            "abs": "… We conclude that the perception that trade policy is no longer relevant arises to a large … tools of trade policy. Better measurement is thus an essential prerequisite of policy-relevant …",
-            "authors": [
-                "Goldberg PK",
-                "Pavcnik N"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 370
-        }
-    },
-    "paper_31_info": {
-        "reference_31": {
-            "searched_title": "America, jump-started: World War II R&D and the takeoff of the U.S. innovation system",
-            "scholar_status": "Success (Similarity: 98.81%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20221365",
-            "date": "2023",
-            "abs": "During World War II, the US government’s Office of Scientific Research and Development (OSRD) supported one of the largest public investments in applied R&D in US history. Using data on all OSRD-funded invention, we show this shock had a formative impact on the US innovation system, catalyzing technology clusters across the country, with accompanying increases in high-tech entrepreneur-ship and employment. These effects persist until at least the 1970s and appear to be driven by agglomerative forces and endogenous growth. In addition to creating technology clusters, wartime R&D permanently changed the trajectory of overall US innovation in the direction of OSRD-funded technologies. (JEL H56, N42, N72, O31, O33, O38, R11)",
-            "authors": [
-                "Gross DP",
-                "Sampat BN"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 129
-        }
-    },
-    "paper_32_info": {
-        "reference_32": {
-            "searched_title": "Jump-Starting America: How Breakthrough Science Can Revive Economic Growth and the American Dream",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://link.springer.com/article/10.1057/s11369-020-00173-5",
-            "date": "2020",
-            "abs": "… could be reinstituted to jump-start US economic growth. And that when artfully executed, government investments could … and proposal in Jump-Starting America something that should …",
-            "authors": [
-                "Gruber J",
-                "Johnson S"
-            ],
-            "publication": "Springer",
-            "citation_count": 0
-        }
-    },
-    "paper_33_info": {
-        "reference_33": {
-            "searched_title": "The persistent effect of temporary input cost advantages in shipbuilding, 1850 to 1911",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/jeea/article-abstract/18/6/3173/5673194",
-            "date": "2020",
-            "abs": "Can temporary input cost advantages have a long-run impact on production patterns? I study this question in the context of shipbuilding from 1850 to 1911. Although North America was the dominant wood shipbuilding region in the mid-19th century, the introduction of metal shipbuilding shifted the industry to Britain, where metal inputs were less expensive. After 1890, Britain’s input price advantages largely disappeared but its dominant position in the industry persisted. I show that American shipbuilders exposed to British competition struggled to transition to metal shipbuilding and present evidence that the mechanism behind Britain’s persistent lead was the development of pools of skilled workers.",
-            "authors": [
-                "Hanlon WW"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 56
-        }
-    },
-    "paper_34_info": {
-        "reference_34": {
-            "searched_title": "How does place based policy work?",
-            "scholar_status": "Failed (API & Scraper)",
-            "date": "2024",
-            "authors": [
-                "Hanson G",
-                "Rodrik D"
-            ],
-            "publication": "Reimagining the Economy Program. Pap., Harvard Kennedy Sch., Cambridge, MA",
-            "citation_count": 0,
-            "abs": "N/A"
-        }
-    },
-    "paper_35_info": {
-        "reference_35": {
-            "searched_title": "FDI promotion and comparative advantage",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://users.ox.ac.uk/~econ0247/Harding_Javorcik_Maggioni.pdf",
-            "date": "2019",
-            "abs": "This study argues that countries can use industrial policy to change their comparative advantage. It focuses on sector-specific FDI promotion efforts undertaken by 77 developing countries during 1984-2006. It finds that products belonging to sectors targeted by investment promotion efforts experience an increase in exports and revealed comparative advantage. This effect increases with the time targeting is in place and is larger for capital-intensive products and products requiring relationship-specific investments. The findings are robust to controlling for arbitrary country-sector-specific shocks that might have affected the choice of a particular priority sector by a given country in a given year. It is also robust to using the instrumental variable approach.",
-            "authors": [
-                "Harding T",
-                "Javorcik BS",
-                "Maggioni D"
-            ],
-            "publication": "users.ox.ac.uk",
-            "citation_count": 12
-        }
-    },
-    "paper_36_info": {
-        "reference_36": {
-            "searched_title": "Trade, foreign investment, and industrial policy for developing countries",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/B978044452944200001X",
-            "date": "2010",
-            "abs": "In this chapter we explore the popular but controversial idea that developing countries benefit from abandoning policy neutrality vis-a-vis trade, FDI and resource allocation across industries. Are developing countries justified in imposing tariffs, subsidies, and tax breaks that imply distortions beyond the ones associated with optimal taxes or revenue constraints? We refer to this set of government interventions as “industrial policy.” We explore the theoretical foundation for industrial policy and then review the related empirical literature …",
-            "authors": [
-                "Harrison A",
-                "Rodriguez-Clare A"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 1162
-        }
-    },
-    "paper_37_info": {
-        "reference_37": {
-            "searched_title": "An empirical test of the infant industry argument: comment",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.jstor.org/stable/2118047",
-            "date": "1994",
-            "abs": "… Krueger and Baran Tuncer (1982a), a frequently cited paper attacking infantindustry arguments for protection. The paper, which appeared in this Review, used detailed data on Turkish …",
-            "authors": [
-                "Harrison AE"
-            ],
-            "publication": "JSTOR",
-            "citation_count": 86
-        }
-    },
-    "paper_38_info": {
-        "reference_38": {
-            "searched_title": "Economic development as self-discovery",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S030438780300124X",
-            "date": "2003",
-            "abs": "In the presence of uncertainty about what a country can be good at producing, there can be great social value to discovering costs of domestic activities because such discoveries can be easily imitated. We develop a general-equilibrium framework for a small open economy to clarify the analytical and normative issues. We highlight two failures of the laissez-faire outcome: there is too little investment and entrepreneurship ex ante, and too much production diversification ex post. Optimal policy consists of counteracting these distortions …",
-            "authors": [
-                "Hausmann R",
-                "Rodrik D"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 3603
-        }
-    },
-    "paper_39_info": {
-        "reference_39": {
-            "searched_title": "Doomed to choose: industrial policy as predicament",
-            "scholar_status": "Failed (API & Scraper)",
-            "date": "2006",
-            "authors": [
-                "Hausmann R",
-                "Rodrik D"
-            ],
-            "publication": "Work. Pap., John F. Kennedy Sch. Gov., Harvard Univ., Cambridge, MA",
-            "citation_count": 0,
-            "abs": "N/A"
-        }
-    },
-    "paper_40_info": {
-        "reference_40": {
-            "searched_title": "Estimating the effects of non-discriminatory trade policies within structural gravity models",
-            "scholar_status": "Success (Similarity: 98.91%)",
-            "arxiv_id": "N/A",
-            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/caje.12493",
-            "date": "2021",
-            "abs": "We propose a simple method to identify the effects of unilateral and non‐discriminatory trade policies on bilateral trade within a theoretically consistent empirical gravity model. Specifically, we argue that structural gravity estimations should be performed with data that include not only international trade flows but also intra‐national trade flows. The use of intra‐national sales allows identification of the effects of non‐discriminatory trade policies such as most favoured nation tariffs, even in the presence of exporter and importer fixed effects. A byproduct of our approach is that it can be used to recover estimates of the trade elasticity, a key parameter for quantitative trade models. We demonstrate the effectiveness of our techniques in the case of most favoured nation tariffs and “time to export” as representative non‐discriminatory determinants of trade on the importer and on the exporter side, respectively. Our methods can be extended to quantify the impact on trade of any country‐specific characteristics as well as any non‐trade policies.",
-            "authors": [
-                "Heid B",
-                "Larch M",
-                "Yotov YV"
-            ],
-            "publication": "Wiley Online Library",
-            "citation_count": 303
-        }
-    },
-    "paper_41_info": {
-        "reference_41": {
-            "searched_title": "A pragmatic approach to estimating nondiscriminatory non-tariff trade costs",
-            "scholar_status": "Success (Similarity: 98.67%)",
-            "arxiv_id": "N/A",
-            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/roie.12604",
-            "date": "2022",
-            "abs": "Methods for estimating nondiscriminatory trade costs exhibit challenges in terms of data requirements or the ability to isolate the effects of specific policies. I propose a two‐stage approach that mitigates these limitations. It uses a structural gravity model to first estimate country‐level measures of aggregate nondiscriminatory trade costs. It then econometrically decomposes the aggregate costs into specific costs associated with policies while controlling for non‐cost factors that erroneously contribute to the aggregate estimates. Using the approach, I estimate specific costs for common non‐tariff measures and find they can represent significant barriers to trade, equivalent to a 0.9% tariff per measure.",
-            "authors": [
-                "Herman PR"
-            ],
-            "publication": "Wiley Online Library",
-            "citation_count": 13
-        }
-    },
-    "paper_42_info": {
-        "reference_42": {
-            "searched_title": "An institutional and policy approach to the demand for foreign direct investment in China",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.jstor.org/stable/23453370",
-            "date": "2000",
-            "abs": "In 1997, the Chinese government reported a foreign capital inflow of 64.4 billion dollars and an FDI inflow of 45.3 billion dollars. In 1998, despite the widespread financial turmoil in East and Southeast Asia, FDI inflows into China continued at a strong pace, defying the growing pessimism about China in the Western business community. For the first nine months in 1998, the FDI inflows stood at 31.4 billion dollars, unchanged from the year before. 2Starting de novo in 1980, foreign-invested enterprises (FIE) have be come a sizable player in the Chinese economy. In this chapter, FIEs refer to joint ventures, ie, Chinese firms in which multinational corporations (MNC) have acquired an equity stake at or more than 25% or to Chinese firms which are 100% MNC subsidiaries (known in China as wholly foreign-owned enterprises). The FIEs have accumulated a large capital base, and their investment activities account for an increasing share of China's capital formation. They are a large employer of China's labour force and their superior pay and flexible employment structure have drawn the best educated of the Chinese workforce. Their ability to raise funds and to import and export capital quickly has a strong influence on China's macroeconomy. Increasingly, FIEs are making China the manufacturing base of Asia. They can be found in virtually every part of China and in every economic sector. In a number of sectors, FIEs have established a dominant position in Chinese industry, especially in soft drinks, toys,",
-            "authors": [
-                "Huang Y"
-            ],
-            "publication": "JSTOR",
-            "citation_count": 5
-        }
-    },
-    "paper_43_info": {
-        "reference_43": {
-            "searched_title": "Place-based industrial policies and local agglomeration in the long-run",
-            "scholar_status": "Success (Similarity: 98.59%)",
-            "arxiv_id": "N/A",
-            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4991746",
-            "date": "2024",
-            "abs": "This paper studies a place-based industrial policy (PBIP) aiming to establish industrial clusters in Italy in the 1960s-70s. Combining historical archives spanning one century with administrative data and leveraging exogenous variation in government intervention, we investigate both the immediate effects of PBIP and its long-term implications for local development. We document agglomeration of workers and firms in the targeted areas persisting well after the end of the policy. By promoting high-technology manufacturing, PBIP …",
-            "authors": [
-                "Incoronato L",
-                "Lattanzio S"
-            ],
-            "publication": "papers.ssrn.com",
-            "citation_count": 13
-        }
-    },
-    "paper_44_info": {
-        "reference_44": {
-            "searched_title": "Optimal development policies with financial frictions",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA13761",
-            "date": "2019",
-            "abs": "Is there a role for governments in emerging countries to accelerate economic development by intervening in product and factor markets? To address this question, we study optimal dynamic Ramsey policies in a standard growth model with financial frictions. The optimal policy intervention involves pro‐business policies like suppressed wages in early stages of the transition, resulting in higher entrepreneurial profits and faster wealth accumulation. This, in turn, relaxes borrowing constraints in the future, leading to higher labor productivity and wages. In the long run, optimal policy reverses sign and becomes pro‐worker. In a multi‐sector extension, optimal policy subsidizes sectors with a latent comparative advantage and, under certain circumstances, involves a depreciated real exchange rate. Our results provide an efficiency rationale, but also identify caveats, for many of the development policies actively pursued by dynamic emerging economies.",
-            "authors": [
-                "Itskhoki O",
-                "Moll B"
-            ],
-            "publication": "Wiley Online Library",
-            "citation_count": 292
-        }
-    },
-    "paper_45_info": {
-        "reference_45": {
-            "searched_title": "MITI and the Japanese Miracle: The Growth of Industrial Policy, 1925-1975",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://books.google.com/books?hl=en&lr=&id=bbGlwsjW-ekC&oi=fnd&pg=PA3&dq=MITI+and+the+Japanese+Miracle:+The+Growth+of+Industrial+Policy,+1925-1975&ots=JsDoDOu2I0&sig=SfT6UKkOMcJOz9GsFaH7fu-59Lc",
-            "date": "1982",
-            "abs": "… industrial policy, used the phrase \"Japanese miracle\" to describe the increase of 81.5 percent in Japanese industrial … Today we know why that particular miracle occurred: it resulted from …",
-            "authors": [
-                "Johnson C"
-            ],
-            "publication": "books.google.com",
-            "citation_count": 12098
-        }
-    },
-    "paper_46_info": {
-        "reference_46": {
-            "searched_title": "Temporary protection and technology adoption: evidence from the Napoleonic blockade",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20151730",
-            "date": "2018",
-            "abs": "This paper uses a natural experiment to estimate the causal effect of temporary trade protection on long-term economic development. I find that regions in the French Empire which became better protected from trade with the British for exogenous reasons during the Napoleonic Wars (1803–1815) increased capacity in mechanized cotton spinning to a larger extent than regions which remained more exposed to trade. In the long run, regions with exogenously higher spinning capacity had higher activity in mechanized cotton spinning. They also had higher value added per capita in industry up to the second half of the nineteenth century, but not later. (JEL F13, L67, N43, N63, N73)",
-            "authors": [
-                "Juhasz R"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 301
-        }
-    },
-    "paper_47_info": {
-        "reference_47": {
-            "searched_title": "The who, what, when, and how of industrial policy: a text-based approach",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4284940",
-            "date": "2022",
-            "abs": "… In this paper, we shed light on global industrial policy practice. First, we propose a new text-based approach to measuring industrial policy at scale. Our method uses machine learning …",
-            "authors": [
-                "Juhasz R",
-                "Lane N",
-                "Oehlsen E",
-                "Perez VC"
-            ],
-            "publication": "papers.ssrn.com",
-            "citation_count": 133
-        }
-    },
-    "paper_48_info": {
-        "reference_48": {
-            "searched_title": "Technology adoption and productivity growth: evidence from industrialization in France",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/730205",
-            "date": "2024",
-            "abs": "… spinning during the first Industrial Revolution in France. Using a … productivity across firms operating the new technology. In the subsequent decades, we observe high productivity growth …",
-            "authors": [
-                "Juhasz R",
-                "Squicciarini M",
-                "Voigtlander N"
-            ],
-            "publication": "journals.uchicago.edu",
-            "citation_count": 96
-        }
-    },
-    "paper_49_info": {
-        "reference_49": {
-            "searched_title": "Industrial policy and the great divergence",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-economics-091523-044259",
-            "date": "2024",
-            "abs": "… We define industrial policy as “those government policies that explicitly target the transformation of the structure of economic activity in pursuit of some public goal” (borrowing from …",
-            "authors": [
-                "Juhasz R",
-                "Steinwender C"
-            ],
-            "publication": "annualreviews.org",
-            "citation_count": 21
-        }
-    },
-    "paper_50_info": {
-        "reference_50": {
-            "searched_title": "Detection and impact of industrial subsidies: the case of Chinese shipbuilding",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/restud/article-abstract/85/2/1111/4084590",
-            "date": "2018",
-            "abs": "This article provides a model-based empirical strategy to, (1) detect the presence and gauge the magnitude of government subsidies and (2) quantify their impact on production reallocation across countries, industry prices, costs and consumer surplus. I construct and estimate an industry model that allows for dynamic agents in both demand and supply and apply my strategy to world shipbuilding, a classic target of industrial policy. I find strong evidence consistent with China having intervened and reducing shipyard costs by –, corresponding to to billion US dollars, between 2006 and 2012. The subsidies led to substantial reallocation of ship production across the world, with Japan, in particular, losing significant market share. They also misaligned costs and production, while leading to minor surplus gains for shippers.",
-            "authors": [
-                "Kalouptsidi M"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 218
-        }
-    },
-    "paper_51_info": {
-        "reference_51": {
-            "searched_title": "Moonshot: public R&D and growth",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://pubs.aeaweb.org/doi/abs/10.1257/aer.20220540",
-            "date": "2025",
-            "abs": "… We estimate the long-term effect of public R&D on growth in manufacturing by analyzing … to isolate windfall R&D spending. Our results demonstrate that public R&D conducted by NASA …",
-            "authors": [
-                "Kantor S",
-                "Whalley AT"
-            ],
-            "publication": "pubs.aeaweb.org",
-            "citation_count": 80
-        }
-    },
-    "paper_52_info": {
-        "reference_52": {
-            "searched_title": "development programs",
-            "scholar_status": "Failed (API & Scraper)",
-            "date": "2014",
-            "authors": [],
-            "publication": "Annu. Rev. Econ. 6:629-62",
-            "citation_count": 0,
-            "abs": "N/A"
-        }
-    },
-    "paper_53_info": {
-        "reference_53": {
-            "searched_title": "R&D networks: theory, empirics, and policy implications",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://direct.mit.edu/rest/article-abstract/101/3/476/58520",
-            "date": "2019",
-            "abs": "We analyze a model of R&D alliance networks where firms are engaged in R&D collaborations that lower their production costs while competing on the product market. We provide a complete characterization of the Nash equilibrium and determine the optimal R&D subsidy program that maximizes total welfare. We then structurally estimate this model using a unique panel of R&D collaborations and annual company reports. We use our estimates to study the impact of targeted versus nondiscriminatory R&D subsidy policies and empirically rank firms according to the welfare-maximizing subsidies they should receive.",
-            "authors": [
-                "Konig MD",
-                "Liu X",
-                "Zenou Y"
-            ],
-            "publication": "direct.mit.edu",
-            "citation_count": 191
-        }
-    },
-    "paper_54_info": {
-        "reference_54": {
-            "searched_title": "An empirical test of the infant industry argument",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.jstor.org/stable/1812029",
-            "date": "1982",
-            "abs": "… It is the purpose of this paper to develop a test of whether infant industry criteria are satisfied… an empirical test for the validity of the infant industry argument; and to use that test on …",
-            "authors": [
-                "Krueger AO",
-                "Tuncer B"
-            ],
-            "publication": "JSTOR",
-            "citation_count": 431
-        }
-    },
-    "paper_55_info": {
-        "reference_55": {
-            "searched_title": "The new empirics of industrial policy",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://link.springer.com/article/10.1007/s10842-019-00323-2",
-            "date": "2020",
-            "abs": "Nations have and will continue to shape their economies through industrial policy. Nevertheless, the empirical literature on these interventions is thin, dwarfed by the attention industrial policies receive from policymakers across the world. In this paper, I discuss the difficulties of empirically studying industrial policy and review how new econometric work is confronting these issues. Through careful research design and attention to institutional detail, I argue that emergent studies are rapidly expanding what we know—and updating …",
-            "authors": [
-                "Lane N"
-            ],
-            "publication": "Springer",
-            "citation_count": 180
-        }
-    },
-    "paper_56_info": {
-        "reference_56": {
-            "searched_title": "Manufacturing revolutions: industrial policy and industrialization in South Korea",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/qje/advance-article-abstract/doi/10.1093/qje/qjaf025/8152916",
-            "date": "2025",
-            "abs": "I study the impact of industrial policies on industrial development by considering an important episode during the East Asian miracle: South Korea’s heavy and chemical industry (HCI) drive, 1973–1979. Based on newly assembled data, I use the introduction and termination of industrial policies to study their impacts during and after the intervention period. (1) I reveal that heavy-chemical industrial policies promoted the expansion and dynamic comparative advantage of directly targeted industries. (2) Using variation in exposure to policies through the input-output network, I demonstrate that the policy indirectly benefited downstream users of targeted intermediates. (3) The benefits of HCI persisted even after the policy ended, as some results were slower to appear. The findings suggest that the temporary drive shifted Korean manufacturing into more advanced markets and supported durable change. This study helps clarify the lessons drawn from the East Asian growth miracle.",
-            "authors": [
-                "Lane N"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 254
-        }
-    },
-    "paper_57_info": {
-        "reference_57": {
-            "searched_title": "Place-based policies and the geography of corporate investment",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3950548",
-            "date": "3950",
-            "abs": "Growing spatial inequality has led policymakers to enact tax breaks to attract corporate investment and jobs to economically peripheral regions. We demonstrate the importance of multi-plant firms' physical capital structure for the take-up and efficacy of industrial place-based policies by studying a national bonus depreciation scheme in Japan which altered the relative cost of capital across locations, offering high-tech manufacturers immediate cost deductions from their corporate income tax bill. Combining corporate balance sheets with a …",
-            "authors": [
-                "LaPoint C",
-                "Sakabe S"
-            ],
-            "publication": "papers.ssrn.com",
-            "citation_count": 18
-        }
-    },
-    "paper_58_info": {
-        "reference_58": {
-            "searched_title": "Profits, scale economies, and the gains from trade and industrial policy",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20210419",
-            "date": "2023",
-            "abs": "This paper examines the efficacy of second-best trade restrictions at correcting sectoral misallocation due to scale economies or profit-generating markups. To this end, we characterize optimal trade and industrial policies in an important class of quantitative trade models with scale effects and profits, estimating the structural parameters that govern policy outcomes. Our estimates reveal that standalone trade policy measures are remarkably ineffective at correcting mis-allocation, even when designed optimally. Unilateral adoption of corrective industrial policies is also ineffective due to immiserizing growth effects. But industrial policies coordinated internationally via a deep agreement are more transformative than any unilateral policy alternative. (JEL F12, F13,14. L52, O19, O25)",
-            "authors": [
-                "Lashkaripour A",
-                "Lugovskyy V"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 151
-        }
-    },
-    "paper_59_info": {
-        "reference_59": {
-            "searched_title": "Trade and growth: import led or export led? Evidence from Japan and Korea",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academiccommons.columbia.edu/doi/10.7916/D83X8F6C",
-            "date": "1999",
-            "abs": "… for Japan during the period 1964 to 1973. Our results also lead us to question whether Japanese exports were a particularly important source of productivity growth. Our findings on …",
-            "authors": [
-                "Lawrence RZ",
-                "Weinstein DE"
-            ],
-            "publication": "academiccommons.columbia.edu",
-            "citation_count": 5
-        }
-    },
-    "paper_60_info": {
-        "reference_60": {
-            "searched_title": "Government interventions and economic growth",
-            "scholar_status": "Success (Similarity: 98.85%)",
-            "arxiv_id": "N/A",
-            "url": "https://trace.tennessee.edu/utk_graddiss/911/",
-            "date": "2010",
-            "abs": "The first essay constitutes a theory which lends truth to the Kuznets hypothesis. The attention is centered on the role of financial markets in defining the process of knowledge accumulation, and ultimately the distribution of income earning capabilities in a population of ex ante heterogeneous individuals. The provision of credit is hindered by one-sided lack of commitment embedded in the area of educational investment. Adaptation in the legislative system to accommodate a punishment scheme conditional on default is the critical requirement for the economy to be carried on a dynamic growth path, albeit one of higher and worsening inequality. Owing to the accumulation of human capital and the associated externality on future generations’ knowledge productivity, the economy ultimately makes its transition to a state of lower income differentials.",
-            "authors": [
-                "Lee J-W"
-            ],
-            "publication": "trace.tennessee.edu",
-            "citation_count": 2
-        }
-    },
-    "paper_61_info": {
-        "reference_61": {
-            "searched_title": "Is China following the East Asian model? A \"comparative institutional analysis\" perspective",
-            "scholar_status": "Success (Similarity: 98.90%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.jstor.org/stable/23462073",
-            "date": "2002",
-            "abs": "This paper discusses the main features of the emerging business and economic system in post-reform China. The authors argue that China does not seem to follow the so-called East Asian model (or its Japan-Korea variant) and is more likely to evolve directly toward a more open and market-oriented business system that is closer to the Anglo-American model. This argument is based on the analysis of several aspects of the Chinese economy. First, in terms of corporate governance of the listed companies in China, the proportion of insiders is very small and outsiders' voices are heard, and the stock markets are developing very fast. Second, in terms of bank-firm relations, Chinese banks are not allowed to own shares in firms, thus maintaining an arms-length relationship as in the Anglo-American system. Third, flexibility in the labour market has also been increasing with dismissal of workers becoming much easier than in earlier times. Fourth, domestic markets are competitive, owing to the strong presence of foreign-invested companies. Finally, it is not easy for the central government to implement selective industrial policies, given the conditions set for the WTO membership and those more generally to do with globalization, the huge size of the economy tempered by active inter-provincial politics, and the considerable presence of foreign companies. These features of the Chinese economy differ from the features of the Japan-Korea model, which include close bank-firm relations, the strong influence of insiders, slow development of the stock market and bank-based financing, rigid labour markets, monopolistic domestic markets with little presence of foreign firms, and selective industrial policy.",
-            "authors": [
-                "Lee K",
-                "Hahn D",
-                "Lin J"
-            ],
-            "publication": "JSTOR",
-            "citation_count": 53
-        }
-    },
-    "paper_62_info": {
-        "reference_62": {
-            "searched_title": "Industrial policies in production networks",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/qje/article-abstract/134/4/1883/5549850",
-            "date": "2019",
-            "abs": "Many developing economies adopt industrial policies favoring selected sectors. Is there an economic logic to this type of intervention? I analyze industrial policy when economic sectors form a production network via input-output linkages. Market imperfections generate distortionary effects that compound through backward demand linkages, causing upstream sectors to become the sink for imperfections and have the greatest size distortions. My key finding is that the distortion in sectoral size is a sufficient statistic for the social value of promoting that sector; thus, there is an incentive for a well-meaning government to subsidize upstream sectors. Furthermore, sectoral interventions’ aggregate effects can be simply summarized, to first order, by the cross-sector covariance between my sufficient statistic and subsidy spending. My sufficient statistic predicts sectoral policies in South Korea in the 1970s and modern-day China, suggesting that sectoral interventions might have generated positive aggregate effects in these economies.",
-            "authors": [
-                "Liu E"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 582
-        }
-    },
-    "paper_63_info": {
-        "reference_63": {
-            "searched_title": "Innovation networks and R&D allocation",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.nber.org/papers/w29607",
-            "date": "2021",
-            "abs": "We study the cross-sector allocation of R&D resources in a multisector growth model with an innovation network, where one sector's past innovations may benefit other sectors' future innovations. Theoretically, we solve for the optimal allocation of R&D resources. We show a planner valuing long-term growth should allocate more R&D toward central sectors in the innovation network, but the incentive is muted in open economies that benefit more from foreign knowledge spillovers. We derive sufficient statistics for evaluating the welfare gains from improving R&D allocation. Empirically, we build the global innovation network based on patent citations and establish its empirical importance for knowledge spillovers. We evaluate R&D allocative efficiency across countries using model-based sufficient statistics. Japan has the highest allocative efficiency among the advanced economies. For the US, improving R&D allocative efficiency to Japan's level could generate more than 19.6% welfare gains.",
-            "authors": [
-                "Liu E",
-                "Ma S"
-            ],
-            "publication": "nber.org",
-            "citation_count": 86
-        }
-    },
-    "paper_64_info": {
-        "reference_64": {
-            "searched_title": "Industrial policy at work: evidence from Romania’s income tax break for workers in IT",
-            "scholar_status": "Success (Similarity: 98.82%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0014292121000271",
-            "date": "2021",
-            "abs": "We study the firm and sector-level effects of an industrial policy designed to support the development of the IT sector in Romania. In 2001, Romania introduced an unexpected personal income tax break to programmers with eligible bachelor’s degrees and who work on software development for firms in eligible IT sector codes. In 2013, policy-makers suddenly expanded the scope of the original tax break to cover more bachelor’s degrees and sector codes in IT. We first use firm-level data and difference-in-difference designs around each policy episode to show that treated firms experience strong and long-lasting growth. We then employ sector-level data and a synthetic control design to show that after the introduction of this policy in 2001, the IT sector grew faster in Romania than in otherwise similar countries. Finally, downstream sectors relying more on IT services also grew faster in Romania after 2001. Our results suggest that this policy has been effective in promoting the development of the IT sector, a sector typically seen as key to the transition to a knowledge economy.",
-            "authors": [
-                "Manelici I",
-                "Pantea S"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 52
-        }
-    },
-    "paper_65_info": {
-        "reference_65": {
-            "searched_title": "The Entrepreneurial State: Debunking Public Versus Private Sector Myths",
-            "scholar_status": "Failed (API & Scraper)",
-            "date": "2014",
-            "authors": [
-                "Mazzucato M"
-            ],
-            "publication": "New York: Anthem Press. Rev. ed.",
-            "citation_count": 0,
-            "abs": "N/A"
-        }
-    },
-    "paper_66_info": {
-        "reference_66": {
-            "searched_title": "Mission Economy: A Moonshot Guide to Changing Capitalism",
-            "scholar_status": "Success (Similarity: 89.60%)",
-            "arxiv_id": "N/A",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/04866134241247885",
-            "date": "2024",
-            "abs": "… market economy to achieve a bigger and better capitalist society… The general argument in Mission Economy is that capitalism … The state needs to adopt a “mission oriented” mindset such …",
-            "authors": [
-                "Mazzucato M"
-            ],
-            "publication": "journals.sagepub.com",
-            "citation_count": 1
-        }
-    },
-    "paper_67_info": {
-        "reference_67": {
-            "searched_title": "Industrial policy with conditionality: a taxonomy and sample cases",
-            "scholar_status": "Success (Similarity: 97.01%)",
-            "arxiv_id": "N/A",
-            "url": "https://discovery.ucl.ac.uk/id/eprint/10196231/",
-            "date": "2023",
-            "abs": "… The case studies: an overview We will apply this taxonomy to a sample of nine case studies drawn from different types of industrial policies across the globe. Each …",
-            "authors": [
-                "Mazzucato M",
-                "Rodrik D"
-            ],
-            "publication": "discovery.ucl.ac.uk",
-            "citation_count": 135
-        }
-    },
-    "paper_68_info": {
-        "reference_68": {
-            "searched_title": "Industrial policy, structural change and intergenerational mobility: evidence from the Finnish war reparations",
-            "scholar_status": "Failed (API & Scraper)",
-            "date": "2021",
-            "authors": [
-                "Mitrunen M"
-            ],
-            "publication": "Unpublished manuscript",
-            "citation_count": 0,
-            "abs": "N/A"
-        }
-    },
-    "paper_69_info": {
-        "reference_69": {
-            "searched_title": "The intellectual spoils of war? Defense R&D, productivity and international technology spillovers",
-            "scholar_status": "Success (via Scraper)",
-            "arxiv_id": "N/A",
-            "url": "https://direct.mit.edu/rest/article-abstract/107/1/14/114751",
-            "date": "2019",
-            "abs": "We use s h a r e i k ( t - 1 ) l rather than the actual own country share in order to further  reduce the risk that the industry distribution of defense R&D subsidies responds to expected",
-            "authors": [
-                "Moretti E",
-                "Steinwender C",
-                "Van Reenen J"
-            ],
-            "publication": "NBER Work. Pap. 26483",
-            "citation_count": 206
-        }
-    },
-    "paper_70_info": {
-        "reference_70": {
-            "searched_title": "Estimating spillovers from publicly funded R&D: evidence from the US department of energy",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20210678",
-            "date": "2022",
-            "abs": "We quantify the magnitude of R&D spillovers created by grants to small firms from the US Department of Energy. Our empirical strategy leverages variation due to state-specific matching policies, and we develop a new approach to measuring both geographic and technological spillovers that does not rely on an observable paper trail. Our estimates suggest that for every patent produced by grant recipients, three more are produced by others who benefit from spillovers. Sixty percent of these spillovers occur within the United States, and many of them occur in technological areas substantially different from those targeted by the grants. (JEL H81, L25, O33, O34, Q40)",
-            "authors": [
-                "Myers KR",
-                "Lanahan L"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 137
-        }
-    },
-    "paper_71_info": {
-        "reference_71": {
-            "searched_title": "Place-based policies",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/B9780444595317000181",
-            "date": "2015",
-            "abs": "… make them more effective or less effective, who gains and who loses from these policies, … of these policies. However, to better guide policy, we need to know more about what policies …",
-            "authors": [
-                "Neumark D",
-                "Simpson H"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 1055
-        }
-    },
-    "paper_72_info": {
-        "reference_72": {
-            "searched_title": "Is there a case for industrial policy? A critical survey",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/wbro/article-abstract/21/2/267/1682363",
-            "date": "2006",
-            "abs": "What are the underlying rationales for industrial policy? Does empirical evidence support the use of industrial policy for correcting market failures that plague the process of industrialization? This article addresses these questions through a critical survey of the analytical literature on industrial policy. It also reviews some recent industry successes and argues that public interventions have played only a limited role. Moreover, the recent ascendance and dominance of international production networks in the sectors in which developing countries once had considerable success implies a further limitation on the potential role of industrial policies as traditionally understood. Overall, there appears to be little empirical support for an activist government policy even though market failures exist that can, in principle, justify the use of industrial policy.",
-            "authors": [
-                "Pack H",
-                "Saggi K"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 1121
-        }
-    },
-    "paper_73_info": {
-        "reference_73": {
-            "searched_title": "Did government intervention target technological externalities? Industrial policy and economic growth in postwar Japan, 1964-1983",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://delong.typepad.com/06_tech_externalities_japan.pdf",
-            "date": "2017",
-            "abs": "… that industries with stronger economies of scale and industries with … industrial policy by comparing estimates of technological externalities with measures of government intervention. …",
-            "authors": [
-                "Pons-Benaiges O"
-            ],
-            "publication": "delong.typepad.com",
-            "citation_count": 4
-        }
-    },
-    "paper_74_info": {
-        "reference_74": {
-            "searched_title": "Transportation costs and the spatial organization of economic activity",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/B978044459531700020X",
-            "date": "2015",
-            "abs": "This chapter surveys the theoretical and empirical literature on the relationship between the spatial distribution of economic activity and transportation costs. We develop a multiregion model of economic geography that we use to understand the general equilibrium implications of transportation infrastructure improvements within and between locations for wages, population, trade, and industry composition. Guided by the predictions of this model, we review the empirical literature on the effects of transportation infrastructure improvements …",
-            "authors": [
-                "Redding SJ",
-                "Turner MA"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 917
-        }
-    },
-    "paper_75_info": {
-        "reference_75": {
-            "searched_title": "Trade policy and economic growth: a skeptic's guide to the cross-national evidence",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/654419",
-            "date": "2000",
-            "abs": "… Most of the crossnational econometric research that was … exports and growth, and not on trade policy and growth. … expansion affects GDP growth, and ignoring potential determinants of …",
-            "authors": [
-                "Rodriguez F",
-                "Rodrik D"
-            ],
-            "publication": "journals.uchicago.edu",
-            "citation_count": 6274
-        }
-    },
-    "paper_76_info": {
-        "reference_76": {
-            "searched_title": "Why we learn nothing from regressing economic growth on policies",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://s-space.snu.ac.kr/bitstream/10371/76707/1/25-2_1_Dani_Rodrik.pdf",
-            "date": "2012",
-            "abs": "Government use policy to achieve certain outcomes. Sometimes the desired ends are worthwhile, and sometimes they are pernicious. Cross-country regressions have been the tool of choice in assessing the effectiveness of policies and the empirical relevance of these two diametrically opposite views of government behavior. When government policy responds systematically to economic or political objectives, the standard growth regression in which economic growth (or any other performance indicator) is regressed on policy tells us nothing about the effectiveness of policy and whether government motives are good or bad.",
-            "authors": [
-                "Rodrik D"
-            ],
-            "publication": "s-space.snu.ac.kr",
-            "citation_count": 525
-        }
-    },
-    "paper_77_info": {
-        "reference_77": {
-            "searched_title": "Premature deindustrialization",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://link.springer.com/article/10.1007/s10887-015-9122-3",
-            "date": "2016",
-            "abs": "I document a significant deindustrialization trend in recent decades that goes considerably beyond the advanced, post-industrial economies. The hump-shaped relationship between …",
-            "authors": [
-                "Rodrik D"
-            ],
-            "publication": "Springer",
-            "citation_count": 3541
-        }
-    },
-    "paper_78_info": {
-        "reference_78": {
-            "searched_title": "An industrial policy for good jobs",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://scholar.harvard.edu/files/dani-rodrik/files/rodrik_-_an_industrial_policy_for_good_jobs.pdf",
-            "date": "2022",
-            "abs": "… mation of the why, what, and how of industrial policy. I will make several arguments in this policy proposal. • First, industrial policy must target what we might call good-jobs externalities, …",
-            "authors": [
-                "Rodrik D"
-            ],
-            "publication": "scholar.harvard.edu",
-            "citation_count": 112
-        }
-    },
-    "paper_79_info": {
-        "reference_79": {
-            "searched_title": "Building a good jobs economy",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.degruyterbrill.com/document/doi/10.7208/chicago/9780226818436-003/pdf",
-            "date": "2020",
-            "abs": "… focused on creating good jobs in communities that face economic challenges; … good jobs in many different areas of economic activity. We describe a set of design principles for building …",
-            "authors": [
-                "Rodrik D",
-                "Sabel CF"
-            ],
-            "publication": "degruyterbrill.com",
-            "citation_count": 204
-        }
-    },
-    "paper_80_info": {
-        "reference_80": {
-            "searched_title": "Fixing the Climate: Strategies for an Uncertain World",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.torrossa.com/gs/resourceProxy?an=5560242&publisher=FZO137",
-            "date": "2022",
-            "abs": "Can the world meet the challenge of climate change? After more than three de cades of global negotiations, the prognosis looks bleak. The most ambitious diplomatic efforts have focused on a series of virtually global agreements such as the Kyoto Protocol of 1997 and Paris Agreement of 2015. But with so many diverse interests across so many countries, it has been hard to get global agreement simply on the need for action, and meaningful consensus has been even more elusive. Uncertainty about which emissions reduction …",
-            "authors": [
-                "Sabel CF",
-                "Victor DG"
-            ],
-            "publication": "torrossa.com",
-            "citation_count": 135
-        }
-    },
-    "paper_81_info": {
-        "reference_81": {
-            "searched_title": "Revisiting the infant industry argument",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0304387806001660",
-            "date": "2007",
-            "abs": "This paper identifies a flaw in the infant industry argument that previous literature has ignored. A simple model first replicates the infant industry logic but subsequently shows that, in the presence of a ‘traditional technology’ with poor growth potential, the infant-industry logic is likely to fail. Under protectionism domestic producers substitute advanced technologies with the low-growth alternative, thereby inhibiting learning and economic growth. Protectionism's adverse effect on development is magnified by complementarities among advanced input goods and, under adequate conditions, in a three-country setting.",
-            "authors": [
-                "Sauré P"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 72
-        }
-    },
-    "paper_82_info": {
-        "reference_82": {
-            "searched_title": "Industrial restructuring in Japan",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.jstor.org/stable/132100",
-            "date": "1979",
-            "abs": "… industrial distribution of labor in Japan occurred. Not surprisingly, this changing distribution of industrial activity is also reflected in the Japanese … per cent of the Japanese gross domestic …",
-            "authors": [
-                "Saxonhouse GR"
-            ],
-            "publication": "JSTOR",
-            "citation_count": 67
-        }
-    },
-    "paper_83_info": {
-        "reference_83": {
-            "searched_title": "The long-run effects of R&D place-based policies: evidence from Russian science cities",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20200289",
-            "date": "2022",
-            "abs": "We study the long-run effects of historical place-based R&D policies: the creation of Science Cities in Soviet Russia. We compare current demographic and economic characteristics of Science Cities with those of localities that were similar to them at the time of their establishment. We find that in present-day Russia, Science Cities are more innovative and productive, host more highly skilled workers, and pay them higher salaries. We interpret these findings as the result of the interaction between persistence and agglomeration forces; we rule out explanations related to the differential use of public resources. (JEL J31, J44, O33, O38, P25, R23, R58)",
-            "authors": [
-                "Schweiger H",
-                "Stepanov A",
-                "Zacchia P"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 41
-        }
-    },
-    "paper_84_info": {
-        "reference_84": {
-            "searched_title": "Evaluating state and local business incentives",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/jep.34.2.90",
-            "date": "2020",
-            "abs": "This essay describes and evaluates state and local business tax incentives in the United States. In 2014, states spent between $5 and $216 per capita on incentives for firms in the form of firm-specific subsidies and general tax credits, which mostly target investment, job creation, and research and development. States with higher per capita incentives tend to have higher state corporate tax rates. Recipients of firm-specific incentives are usually large establishments in manufacturing, technology, and high-skilled service industries, and the average discretionary subsidy is $178M for 1,500 promised jobs. Firms tend to accept subsidy deals from places that are richer, larger, and more urban than the average county, and poor places provide larger incentives and spend more per job. Comparing winning and runner-up locations for each deal, we find that average employment within the three-digit industry of the deal increases by roughly 1,500 jobs. While we find some evidence of direct employment gains from attracting a firm, we do not find strong evidence that firm-specific tax incentives increase broader economic growth at the state and local level.",
-            "authors": [
-                "Slattery C",
-                "Zidar O"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 334
-        }
-    },
-    "paper_85_info": {
-        "reference_85": {
-            "searched_title": "Economic growth and regulation of financial markets: Japanese experience during postwar high growth period",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.jstor.org/stable/43295843",
-            "date": "1986",
-            "abs": "During the period 1953-1972, Japan experienced an exceedingly high rate of economic growth. The annual growth rate of real GNP during the twenty years was 9.2%, exceptionally high when compared to the growth rate of 3.7% for 1910-38 and 3.9% for 1973-81. The change in industrial structure was also drastic. The share of the primary sector in GDP was 36.4% in 1910 and 18.3% in 1938, but fell to 6.1% in 1970. The annual decrease in labor force in the primary sector was 36,500 persons during 1950-65 period, 6 times as high as …",
-            "authors": [
-                "Teranishi J"
-            ],
-            "publication": "JSTOR",
-            "citation_count": 11
-        }
-    },
-    "paper_86_info": {
-        "reference_86": {
-            "searched_title": "Industrial policy, Chinese-style: FDI, regulation, and dreams of national champions in the auto sector",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/journal-of-east-asian-studies/article/industrial-policy-chinesestyle-fdi-regulation-and-dreams-of-national-champions-in-the-auto-sector/260CD6C5577A320D32241F4D7C257B2D",
-            "date": "2004",
-            "abs": "Long after the start of the reform period, and well after the proven success of the private sector, the fate of the state-owned sector in China continued to disturb the sleep of many policymakers in the Chinese central government.",
-            "authors": [
-                "Thun E"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 108
-        }
-    },
-    "paper_87_info": {
-        "reference_87": {
-            "searched_title": "Changing Lanes in China: Foreign Direct Investment, Local Governments, and Auto Sector Development",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://books.google.com/books?hl=en&lr=&id=Oej72nssLcUC&oi=fnd&pg=PR9&dq=Changing+Lanes+in+China:+Foreign+Direct+Investment,+Local+Governments,+and+Auto+Sector+Development&ots=06Or9YfZog&sig=8h93RYxTRTJY1hajPX4WGxSikrw",
-            "date": "2006",
-            "abs": "… This book uses the dramatic context of the Chinese auto industry as a means of understanding the rise of China as an industrial power and its integration with the global economy. The …",
-            "authors": [
-                "Thun E"
-            ],
-            "publication": "books.google.com",
-            "citation_count": 442
-        }
-    },
-    "paper_88_info": {
-        "reference_88": {
-            "searched_title": "Credit policies: lessons from Japan and Korea",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/wbro/article-abstract/11/2/277/1684164",
-            "date": "1996",
-            "abs": "The success of policy-based credit programs in Japan and the Republic of Korea suggests that credit policy can be an effective instrument for economic development. Why, then, have credit policies failed in so many countries, and what factors explain their relative success in Japan and Korea? Both economic and institutional factors appear to be important in the success or failure of credit policies. Essential economic factors include a reliance on the private sector, a bias toward industrialization, an orientation toward export production, the encouragement of domestic competition, and a commitment to price stability. Crucial institutional factors include extensive and frequent consultation between government and the private sector, effective monitoring systems, and, most important, a clear and credible plan for economic development. Although several countries have included one or more of these factors in their programs, the experience of Japan and Korea suggests that a comprehensive network combining all or most of these factors may be necessary for the successful implementation of credit policies.",
-            "authors": [
-                "Vittas D",
-                "Cho YJ"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 79
-        }
-    },
-    "paper_89_info": {
-        "reference_89": {
-            "searched_title": "The East Asian Miracle: Economic Growth and Public Policy: A World Bank Policy Research Report",
-            "scholar_status": "Success (via Scraper)",
-            "arxiv_id": "N/A",
-            "url": "https://search.proquest.com/openview/eb08baac77887286516b0c1e64562d8b/1?pq-origsite=gscholar&cbl=1817327",
-            "date": "1993",
-            "abs": "The East Asian Miracle: Economic Growth and Public Policy. A World Bank Policy Research  Report. London: Oxford University Press, 1993. xvii, 289 pp. Over the past three decades,",
-            "authors": [
-                "World Bank"
-            ],
-            "publication": "Oxford, UK: Oxford Univ. Press",
-            "citation_count": 0
-        }
-    },
-    "paper_90_info": {
-        "reference_90": {
-            "searched_title": "Review of Peter Evans, Embedded Autonomy",
-            "scholar_status": "Failed (API & Scraper)",
-            "date": "1996",
-            "authors": [
-                "Wright EO"
-            ],
-            "publication": "Contemp. Sociol. 25(2):176-79",
-            "citation_count": 0,
-            "abs": "N/A"
-        }
-    },
-    "paper_91_info": {
-        "reference_91": {
-            "searched_title": "Policy learning or diffusion: how China opened to foreign direct investment",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/journal-of-east-asian-studies/article/policy-learning-or-diffusion-how-china-opened-to-foreign-direct-investment/4572F4A061FDE8C6A9845B3BB302579E",
-            "date": "2009",
-            "abs": "When China embarked on economic reform in the late 1970s, its leaders aspired to learn from Japan's developmental policies that were restrictive of foreign capital. In the 1990s, China strove again to emulate Japan and South Korea in restricting foreign direct investment and promoting indigenous corporations. Despite these efforts, China's industrial catch-up was in fact led by FDI, in sharp contrast to the classic Japanese/Korean paradigm where FDI was strictly circumvented. Why was China unsuccessful in learning restrictive FDI policies? How did a new developmental path emerge in China? The answer lies in China's strong networks with diaspora communities. Through a diffusion mechanism, ties between local governments and diaspora capital helped initiate and catalyze China's FDI liberalization, despite the central efforts to learn from Japan and South Korea. Two critical reform episodes are examined: (1) the establishment of special economic zones and (2) the reform of state-owned enterprises.",
-            "authors": [
-                "Ye M"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 31
-        }
-    },
-    "paper_92_info": {
-        "reference_92": {
-            "searched_title": "The industrial policy of the 1970s and the evolution of the manufacturing sector in Korea",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://cir.nii.ac.jp/crid/1130282268980023296",
-            "date": "1990",
-            "abs": "The industrial policy of the 1970s and the evolution of the manufacturing sector in Korea | CiNii Research … タイトル \"The industrial policy of the 1970s and the evolution of the manufacturing sector in Korea\" … Korea Development Institute …",
-            "authors": [
-                "Yoo J"
-            ],
-            "publication": "cir.nii.ac.jp",
-            "citation_count": 120
-        }
-    }
+  "reference_1": {
+    "title": "Industrial policy and competition",
+    "date": "2015",
+    "authors": [
+      "Aghion P",
+      "Cai J",
+      "Dewatripont M",
+      "Du L",
+      "Harrison A",
+      "Legros P"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 996,
+    "abs": "… , we show that industrial policies allocated to competitive sectors or that foster competition in a sector increase … We measure competition using the Lerner Index and include as industrial …"
+  },
+  "reference_2": {
+    "title": "The credibility revolution in empirical economics: how better research design is taking the con out of econometrics",
+    "date": "2010",
+    "authors": [
+      "Angrist JD",
+      "Pischke J-S"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 2374,
+    "abs": "Since Edward Leamer's memorable 1983 paper, “Let's Take the Con out of Econometrics,” empirical microeconomics has experienced a credibility revolution. While Leamer's suggested remedy, sensitivity analysis, has played a role in this, we argue that the primary engine driving improvement has been a focus on the quality of empirical research designs. The advantages of a good research design are perhaps most easily apparent in research using random assignment. We begin with an overview of Leamer's 1983 critique and his proposed remedies. We then turn to the key factors we see contributing to improved empirical work, including the availability of more and better data, along with advances in theoretical econometric understanding, but especially the fact that research design has moved front and center in much of empirical micro. We offer a brief digression into macroeconomics and industrial organization, where progress—by our lights—is less dramatic, although there is work in both fields that we find encouraging. Finally, we discuss the view that the design pendulum has swung too far. Critics of design-driven studies argue that in pursuit of clean and credible research designs, researchers seek good answers instead of good questions. We briefly respond to this concern, which worries us little."
+  },
+  "reference_3": {
+    "title": "Funding breakthrough research: promises and challenges of the “ARPA model”",
+    "date": "2019",
+    "authors": [
+      "Azoulay P",
+      "Fuchs E",
+      "Goldstein A",
+      "Kearney M"
+    ],
+    "publication": "journals.uchicago.edu",
+    "citation_count": 148,
+    "abs": "From its 1958 origin in defense, the Advanced Research Projects Agency (ARPA) model for research funding has, in the last two decades, spread to other parts of the US federal government with the goal of developing radically new technologies. In this paper, we propose that the key elements of the ARPA model for research funding are organizational flexibility on an administrative level and significant authority given to program directors to design programs, select projects, and actively manage projects. We identify the ARPA …"
+  },
+  "reference_4": {
+    "title": "Public R&D investments and private-sector patenting: evidence from NIH funding rules",
+    "date": "2019",
+    "authors": [
+      "Azoulay P",
+      "Graff Zivin JS",
+      "Li D",
+      "Sampat BN"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 487,
+    "abs": "We quantify the impact of scientific grant funding at the National Institutes of Health (NIH) on patenting by pharmaceutical and biotechnology firms. Our article makes two contributions. First, we use newly constructed bibliometric data to develop a method for flexibly linking specific grant expenditures to private-sector innovations. Second, we take advantage of idiosyncratic rigidities in the rules governing NIH peer review to generate exogenous variation in funding across research areas. Our results show that NIH funding spurs the development of private-sector patents: a $10 million boost in NIH funding leads to a net increase of 2.7 patents. Though valuing patents is difficult, we report a range of estimates for the private value of these patents using different approaches."
+  },
+  "reference_5": {
+    "title": "Quid pro quo, knowledge spillover and industrial quality upgrading",
+    "date": "2019",
+    "authors": [
+      "Bai J",
+      "Barwick P",
+      "Cao S",
+      "Li S"
+    ],
+    "publication": "growthlab.hks.harvard.edu",
+    "citation_count": 1,
+    "abs": "… quality measures along multiple dimensions of vehicle performance, we document empirical patterns consistent with knowledge spillovers … specialize in similar quality dimensions. The …"
+  },
+  "reference_6": {
+    "title": "Bureaucrats and the Korean export miracle",
+    "date": "2024",
+    "authors": [
+      "Barteska P",
+      "Lee JE"
+    ],
+    "publication": "core.ac.uk",
+    "citation_count": 17,
+    "abs": "What makes an industrial policy successful? This thesis finds that the effect of an industrial policy changes tremendously with the implementing bureaucrat. I study South Korean bureaucrats who promote exports on appointments to 87 countries between 1965, when South Korea was one of the world’s poorest countries, and 2001. I exploit the three-yearly rotation of bureaucrats between countries to show that individual bureaucrats matter greatly in boosting exports. Increasing bureaucrat ability by one standard deviation is associated with a 37% increase in exports. This effect is comparable to that of opening an office, implying that this industrial policy has no effect when implemented by a bureaucrat one standard deviation below average. I exploit differential import demand growth to study a mechanism via which better bureaucrats increase exports: transmitting information about market conditions. Under better bureaucrats South Korean exports increase more with a product’s import demand. Finally, I investigate whether experience can bridge the gaps between bureaucrats. I isolate quasi-random variation in experience, exploiting a product’s import demand growth during the bureaucrat’s first appointment. In subsequent appointments of this bureaucrat exports increase in products with greater bureaucrat experience. This highlights that organizational capacity grows endogenously, implying a novel channel for path dependence in organizational capacity."
+  },
+  "reference_7": {
+    "title": "The textbook case for industrial policy meets the data",
+    "date": "2019",
+    "authors": [
+      "Bartelme D",
+      "Costinot A",
+      "Donaldson D",
+      "Rodriguez-Clare A"
+    ],
+    "publication": "nber.org",
+    "citation_count": 192,
+    "abs": "… industrial policies as well as how trade openness, and the access to trade policy instruments, may affect the design of industrial policy … , gains from industrial policies appear relatively …"
+  },
+  "reference_8": {
+    "title": "Should place-based jobs policies be used to help distressed communities?",
+    "date": "2019",
+    "authors": [
+      "Bartik T"
+    ],
+    "publication": "econstor.eu",
+    "citation_count": 62,
+    "abs": "Should policymakers seek to increase jobs in particular local labor markets? Yes, but only if these policies are well targeted and designed. Encouraging job growth in distressed places can cause persistent gains in employment-to-population ratios. But our current place-based jobs policies, under which state and local governments provide long-term tax incentives to megacorporations, are poorly targeted and designed. Such incentives are as large in nondistressed areas as in distressed areas, and they are excessively costly. What reforms …"
+  },
+  "reference_9": {
+    "title": "Bringing jobs to people: improving local economic development policies",
+    "date": "2020",
+    "authors": [
+      "Bartik T"
+    ],
+    "publication": "research.upjohn.org",
+    "citation_count": 25,
+    "abs": "Many local labor markets in the United States suffer from low employment rates, but getting people to move out of these distressed areas is difficult. Moreover, moving people to job-rich regions does not help those left behind, as out-migration destroys jobs in distressed areas. A better way to help the residents of distressed areas is through local economic development policies that boost job growth and employment rates in a sustained fashion. Such policies can successfully encourage local business and job growth through business tax incentives, cash grants, or customized public services, such as advice to small businesses, job training, infrastructure development, or development-ready land. However, there is scope for improvement in how local economic development policies are carried out. I highlight the need for approaches that increase the benefits per job created by better targeting job creation to distressed areas and using workforce programs to link unemployed workers with jobs. There are also ways that local development policies could have a lower cost per job created. For instance, tax incentives and cash grants to a few large projects are less cost-effective in creating jobs than providing a broader array of businesses with public services. Needed reforms to local economic development policies are within the power and resources of state and local governments to accomplish on their own. However, federal intervention could potentially help by capping some of the largest incentives, and by providing distressed areas with funding to carry out their development plans."
+  },
+  "reference_10": {
+    "title": "How state governments can target job opportunities to distressed places",
+    "date": "2022",
+    "authors": [
+      "Bartik T"
+    ],
+    "publication": "research.upjohn.org",
+    "citation_count": 22,
+    "abs": "The United States has two types of “place-based” jobs problems: low employment rates in 1) local labor markets and 2) neighborhoods. The local labor market problem can be dealt with by targeting distressed local labor markets for job creation. The neighborhood problem can be dealt with by targeting distressed neighborhoods with programs to improve residents’ job access. This report describes the magnitude of these place-based jobs problems and reviews research on the most cost-effective programs to address these problems. The report also reviews current state government efforts to target job opportunities to distressed places, pointing out that such targeting is frequently too modest and poorly designed. As an alternative, this report proposes that state governments adopt two targeted block grant programs: a “Local Job Creation” block grant; a “Neighborhood Employment Opportunities” block grant. The costs, benefits, and distributional effects of these block grants are described."
+  },
+  "reference_11": {
+    "title": "China's industrial policy: an empirical evaluation",
+    "date": "2019",
+    "authors": [
+      "Barwick PJ",
+      "Kalouptsidi M",
+      "Zahur NB"
+    ],
+    "publication": "nber.org",
+    "citation_count": 127,
+    "abs": "Despite the historic prevalence of industrial policy and its current popularity, few empirical studies directly evaluate its welfare consequences. This paper examines an important industrial policy in China in the 2000s, aiming to propel the country's shipbuilding industry to the largest globally. Using comprehensive data on shipyards worldwide and a dynamic model of firm entry, exit, investment, and production, we find that the scale of the policy was massive and boosted China's domestic investment, entry, and world market share …"
+  },
+  "reference_12": {
+    "title": "Growth, economies of scale, and targeting in Japan (1955-1990)",
+    "date": "1996",
+    "authors": [
+      "Beason R",
+      "Weinstein DE"
+    ],
+    "publication": "JSTOR",
+    "citation_count": 665,
+    "abs": "This paper explores the usage of various industrial policy tools in Japan. Contrary to the conventional wisdom, we find that a disproportionate amount of Japanese targeting occurred in low growth sectors and sectors with decreasing returns to scale. In addition, we find no evidence that productivity was enhanced as a result of industrial policy measures."
+  },
+  "reference_13": {
+    "title": "Industrial policy and downstream export performance",
+    "date": "2016",
+    "authors": [
+      "Blonigen BA"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 132,
+    "abs": "Industrial policies (IPs) are commonly used by countries to promote targeted sectors but may have significant impacts on downstream sectors. Using a new hand‐collected database of steel‐sector IP use in major steel‐producing countries, I find that IP use is quite harmful to downstream sectors. A 1 standard deviation increase in steel IP presence leads to a 1.2% decline in export competitiveness for the average downstream manufacturing sector in the first few years of its application, and a 6% decline for downstream sectors that use steel most …"
+  },
+  "reference_14": {
+    "title": "A toolkit of policies to promote innovation",
+    "date": "2019",
+    "authors": [
+      "Bloom N",
+      "Van Reenen J",
+      "Williams H"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 806,
+    "abs": "Economic theory suggests that market economies are likely to underprovide innovation because of the public good nature of knowledge. Empirical evidence from the United States and other advanced economies supports this idea. We summarize the pros and cons of different policy instruments for promoting innovation and provide a basic “toolkit” describing which policies are most effective according to our reading of the evidence. In the short run, R&D tax credits and direct public funding seem the most productive, but in the longer run, increasing the supply of human capital (for example, relaxing immigration rules or expanding university STEM admissions) is likely more effective."
+  },
+  "reference_15": {
+    "title": "Optimal tariffs and market power: the evidence",
+    "date": "2008",
+    "authors": [
+      "Broda C",
+      "Limao N",
+      "Weinstein DE"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 706,
+    "abs": "… We find strong evidence that these importers have market power and use it in setting … tariff in the typical country. In short, we find strong evidence that countries have market power in …"
+  },
+  "reference_16": {
+    "title": "Tax revenues and the fiscal cost of trade liberalization, 1792-2006",
+    "date": "2018",
+    "authors": [
+      "Cagé J",
+      "Gadenne L"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 135,
+    "abs": "This article examines the impact of trade liberalization on government revenues. Using a new dataset on tax revenues for 130 countries between 1792 and 2006, we identify ninety-nine episodes of trade liberalization defined as a large fall in trade tax revenues not accompanied by a decrease in trade. Seven took place before World War One, seven in the interwar period, eighteen in the Bretton Woods period and the remainder after 1970. We examine the extent to which countries were able to recover the tax revenues lost by liberalizing trade by using other sources of revenue. We find that historical (pre-1970) trade liberalization episodes were unlikely to be accompanied by decreases in tax revenues, especially during the Bretton Woods era. In the recent period however, over 40% of the developing countries in our sample experience a fall in total tax revenues that lasts more than ten years after an episode of trade liberalization. Overall, trade liberalization led to larger and longer-lived declines in tax revenues in developing countries since 1970 than in today’s rich countries in the 19th and 20th centuries. Results are similar when we consider government expenditures, suggesting decreases in trade tax revenues negatively affect governments’ capacity to provide public services in many developing countries."
+  },
+  "reference_17": {
+    "title": "The long-term effects of industrial policy",
+    "date": "2025",
+    "authors": [
+      "Choi J",
+      "Levchenko AA"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 140,
+    "abs": "This paper provides causal evidence on the impact of a large-scale industrial policy–South Korea's Heavy and Chemical Industry (HCI) Drive–on firms' long-term performance and quantifies its long-term welfare effects. Using unique historical data on the universe of firm-level subsidies and a natural experiment, we find large and persistent effects of this industrial policy. Subsidized firms grew faster than those never subsidized for 30 years after subsidies ended. We build a quantitative heterogeneous firm model that rationalizes these …"
+  },
+  "reference_18": {
+    "title": "Making subsidies work: rules versus discretion",
+    "date": "2025",
+    "authors": [
+      "Cingano F",
+      "Palomba F",
+      "Pinotti P",
+      "Retore E"
+    ],
+    "publication": "Wiley Online Library",
+    "citation_count": 2,
+    "abs": "We estimate the employment effects of a large program of public investment subsidies to private firms that ranked applicants on a score reflecting both objective rules and local politicians' discretion. Leveraging the rationing of funds as an ideal Regression Discontinuity Design, we characterize the heterogeneity of treatment effects and cost‐per‐new‐job across inframarginal firms and estimate the cost‐effectiveness of subsidies under factual and counterfactual allocations. Firms ranking high on objective rules and firms preferred by local politicians generated larger employment growth on average, but the latter did so at a higher cost per job. We estimate that relying only on objective criteria would reduce the cost per job by 11%, while relying only on political discretion would increase such cost by 42%."
+  },
+  "reference_19": {
+    "title": "Trade Policy and Economic Welfare",
+    "date": "1997",
+    "authors": [
+      "Corden WM"
+    ],
+    "publication": "books.google.com",
+    "citation_count": 2442,
+    "abs": "… This book deals with the normative theory of trade policy, primarily from the point of view of a single country. The first edition of this book has had a long and gratifying life, finally going …"
+  },
+  "reference_20": {
+    "title": "Quantifying industrial strategies (QuIS): measuring industrial policy expenditures",
+    "date": "2022",
+    "authors": [
+      "Criscuolo C",
+      "Lalanne G",
+      "Diaz L"
+    ],
+    "publication": "search.proquest.com",
+    "citation_count": 24,
+    "abs": "Industrial policy is sparking renewed interest across OECD member countries and partner economies. However, amidst an increasing number of objectives for industrial policy, and despite the availability of information on countries' strategies and plans, it remains difficult to properly measure and compare resources spent on industrial policies and identify countries' strategic priorities. The lack of a cross-country comparable source of information on resources dedicated to industrial policy partly results from the absence of a common methodology to account for industrial policy expenditures. This paper provides a new methodology for reporting industrial policy expenditure in a comparable way across countries. It is the first deliverable of the\" Quantifying Industrial Strategies\" project, which aims at measuring industrial policy expenditures across OECD countries and will gather harmonised data on industrial policy expenditures, their composition, and their mode of delivery."
+  },
+  "reference_21": {
+    "title": "Some causal effects of an industrial policy",
+    "date": "2019",
+    "authors": [
+      "Criscuolo C",
+      "Martin R",
+      "Overman HG",
+      "Van Reenen J"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 662,
+    "abs": "We exploit changes in the area-specific eligibility criteria for a program to support jobs through investment subsidies. European rules determine whether an area is eligible for subsidies, and we construct instrumental variables for area eligibility based on parameters of these rule changes. Areas eligible for higher subsidies significantly increased jobs and reduced unemployment. A 10-percentage point increase in the maximum investment subsidy stimulates a 10 percent increase in manufacturing employment. This effect exists …"
+  },
+  "reference_22": {
+    "title": "Red ink: estimating Chinese industrial policy spending in comparative perspective",
+    "date": "2022",
+    "authors": [
+      "DiPippo G",
+      "Mazzocco I",
+      "Kennedy S",
+      "Goodman MP"
+    ],
+    "publication": "Rep., Cent. Strateg. Int. Stud., Washington, DC",
+    "citation_count": 0,
+    "abs": "N/A"
+  },
+  "reference_23": {
+    "title": "Embedded Autonomy: States and Industrial Transformation",
+    "date": "1995",
+    "authors": [
+      "Evans PB"
+    ],
+    "publication": "degruyterbrill.com",
+    "citation_count": 13287,
+    "abs": "In recent years, debate on the state's economic role has too often devolved into diatribes against intervention. Peter Evans questions such simplistic views, offering a new vision of why …"
+  },
+  "reference_24": {
+    "title": "Global trade alert: motivation and launch",
+    "date": "2009",
+    "authors": [
+      "Evenett SJ"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 29,
+    "abs": "Unsurprisingly governments want to intervene during the current downturn, the challenge is to ensure that the measures taken are consistent with pledges to avoid protectionism. It should be recalled that G20 leaders vowed at the April 2009 London summit:‘We will not repeat the historic mistakes of protectionism of previous eras.’This pledge reiterated an earlier commitment made at the November 2008 G20 Summit in Washington, DC. Other heads of government have made similar pledges in regional fora, such as APEC and elsewhere. To increase the information available on state measures that may affect trading partners’ commercial interests, the Centre for Economic Policy Research (CEPR) has teamed up with independent research institutes from around the world to create Global Trade Alert (GTA). 1 A combination of peer pressure plus up-to-date, comprehensive information, the latter being supplied by GTA, will help to maintain confidence in the world trading system, deter beggar-thy-neighbour acts, and"
+  },
+  "reference_25": {
+    "title": "Two to Tango: Public-Private Collaboration for Productive Development Policies",
+    "date": "2016",
+    "authors": [
+      "Fernandez-Arias E",
+      "Sabel C",
+      "Stein EH",
+      "Trejos A"
+    ],
+    "publication": "books.google.com",
+    "citation_count": 58,
+    "abs": "It takes two to tango. Strong public-private collaboration is key for discovering and implementing effective productive development policies to bring out the best in existing economic activities and to foster economic transformation. The 25 Latin American cases analyzed in this volume show how and why many public and private partners are dancing smoothly while others stumble or follow different drummers. This book is a resource for designing institutions to make public-private interaction a win-win strategy."
+  },
+  "reference_26": {
+    "title": "The long-run impacts of public industrial investment on regional development and economic mobility: evidence from World War II",
+    "date": "2025",
+    "authors": [
+      "Garin A",
+      "Rothbaum J"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 40,
+    "abs": "This article studies the long-run effects of government-led construction of manufacturing plants on the regions where they were built and on individuals from those regions. Specifically, we examine publicly financed plants built in dispersed locations outside of major urban centers for security reasons during the US industrial mobilization for World War II. Wartime plant construction had large and persistent effects on local development, characterized by an expansion of relatively high-wage manufacturing employment …"
+  },
+  "reference_27": {
+    "title": "Mesas ejecutivas in Peru: lessons for productive development policies",
+    "date": "2017",
+    "authors": [
+      "Ghezzi P"
+    ],
+    "publication": "Wiley Online Library",
+    "citation_count": 27,
+    "abs": "Middle‐income countries are likely to face an uncertain path to development. Their strategy may need to mutate from a focus on manufacturing to a multipronged one. Unleashing the potential of those sectors requires cooperation between different private and public actors that need to coordinate. Productive development policies (PDP s) are all about solving these coordination failures. When I became Minister of Production of Peru, I had the opportunity to lead a team that designed and implemented a tool, Mesas Ejecutivas (ME s), that could be …"
+  },
+  "reference_28": {
+    "title": "Technology transfer and early industrial development: evidence from the Sino-Soviet alliance",
+    "date": "2021",
+    "authors": [
+      "Giorcelli M",
+      "Li B"
+    ],
+    "publication": "nber.org",
+    "citation_count": 41,
+    "abs": "This paper studies the long-term effects of technology and know-how transfers on structural transformations. In the 1950s, the Soviet Union supported the construction of 156 Projects, largescale capital-intensive industrial clusters in China, and sponsored a physical capital transfer providing state-of-the-art machinery and equipment; and a know-how transfer through training for engineers and production supervisors. We use newly-assembled data that follow these plants for over four decades, combined with natural variation in the …"
+  },
+  "reference_29": {
+    "title": "Protection for sale: an empirical investigation",
+    "date": "1999",
+    "authors": [
+      "Goldberg PK",
+      "Maggi G"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 1362,
+    "abs": "Abstract The Grossman-Helpman “Protection for Sale” model, concerning the political economy of trade protection, yields clear predictions for the cross-sectional structure of import barriers. Our objective is to check whether the predictions of the Grossman-Helpman model are consistent with the data and, if the model finds support, to estimate its key structural parameters. We find that the pattern of protection in the United States in 1983 is broadly consistent with the predictions of the model. A surprising finding is that the weight of …"
+  },
+  "reference_30": {
+    "title": "The effects of trade policy",
+    "date": "2016",
+    "authors": [
+      "Goldberg PK",
+      "Pavcnik N"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 370,
+    "abs": "… We conclude that the perception that trade policy is no longer relevant arises to a large … tools of trade policy. Better measurement is thus an essential prerequisite of policy-relevant …"
+  },
+  "reference_31": {
+    "title": "America, jump-started: World War II R&D and the takeoff of the U.S. innovation system",
+    "date": "2023",
+    "authors": [
+      "Gross DP",
+      "Sampat BN"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 129,
+    "abs": "During World War II, the US government’s Office of Scientific Research and Development (OSRD) supported one of the largest public investments in applied R&D in US history. Using data on all OSRD-funded invention, we show this shock had a formative impact on the US innovation system, catalyzing technology clusters across the country, with accompanying increases in high-tech entrepreneur-ship and employment. These effects persist until at least the 1970s and appear to be driven by agglomerative forces and endogenous growth. In addition to creating technology clusters, wartime R&D permanently changed the trajectory of overall US innovation in the direction of OSRD-funded technologies. (JEL H56, N42, N72, O31, O33, O38, R11)"
+  },
+  "reference_32": {
+    "title": "Jump-Starting America: How Breakthrough Science Can Revive Economic Growth and the American Dream",
+    "date": "2020",
+    "authors": [
+      "Gruber J",
+      "Johnson S"
+    ],
+    "publication": "Springer",
+    "citation_count": 0,
+    "abs": "… could be reinstituted to jump-start US economic growth. And that when artfully executed, government investments could … and proposal in Jump-Starting America something that should …"
+  },
+  "reference_33": {
+    "title": "The persistent effect of temporary input cost advantages in shipbuilding, 1850 to 1911",
+    "date": "2020",
+    "authors": [
+      "Hanlon WW"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 56,
+    "abs": "Can temporary input cost advantages have a long-run impact on production patterns? I study this question in the context of shipbuilding from 1850 to 1911. Although North America was the dominant wood shipbuilding region in the mid-19th century, the introduction of metal shipbuilding shifted the industry to Britain, where metal inputs were less expensive. After 1890, Britain’s input price advantages largely disappeared but its dominant position in the industry persisted. I show that American shipbuilders exposed to British competition struggled to transition to metal shipbuilding and present evidence that the mechanism behind Britain’s persistent lead was the development of pools of skilled workers."
+  },
+  "reference_34": {
+    "title": "How does place based policy work?",
+    "date": "2024",
+    "authors": [
+      "Hanson G",
+      "Rodrik D"
+    ],
+    "publication": "Reimagining the Economy Program. Pap., Harvard Kennedy Sch., Cambridge, MA",
+    "citation_count": 0,
+    "abs": "N/A"
+  },
+  "reference_35": {
+    "title": "FDI promotion and comparative advantage",
+    "date": "2019",
+    "authors": [
+      "Harding T",
+      "Javorcik BS",
+      "Maggioni D"
+    ],
+    "publication": "users.ox.ac.uk",
+    "citation_count": 12,
+    "abs": "This study argues that countries can use industrial policy to change their comparative advantage. It focuses on sector-specific FDI promotion efforts undertaken by 77 developing countries during 1984-2006. It finds that products belonging to sectors targeted by investment promotion efforts experience an increase in exports and revealed comparative advantage. This effect increases with the time targeting is in place and is larger for capital-intensive products and products requiring relationship-specific investments. The findings are robust to controlling for arbitrary country-sector-specific shocks that might have affected the choice of a particular priority sector by a given country in a given year. It is also robust to using the instrumental variable approach."
+  },
+  "reference_36": {
+    "title": "Trade, foreign investment, and industrial policy for developing countries",
+    "date": "2010",
+    "authors": [
+      "Harrison A",
+      "Rodriguez-Clare A"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 1162,
+    "abs": "In this chapter we explore the popular but controversial idea that developing countries benefit from abandoning policy neutrality vis-a-vis trade, FDI and resource allocation across industries. Are developing countries justified in imposing tariffs, subsidies, and tax breaks that imply distortions beyond the ones associated with optimal taxes or revenue constraints? We refer to this set of government interventions as “industrial policy.” We explore the theoretical foundation for industrial policy and then review the related empirical literature …"
+  },
+  "reference_37": {
+    "title": "An empirical test of the infant industry argument: comment",
+    "date": "1994",
+    "authors": [
+      "Harrison AE"
+    ],
+    "publication": "JSTOR",
+    "citation_count": 86,
+    "abs": "… Krueger and Baran Tuncer (1982a), a frequently cited paper attacking infantindustry arguments for protection. The paper, which appeared in this Review, used detailed data on Turkish …"
+  },
+  "reference_38": {
+    "title": "Economic development as self-discovery",
+    "date": "2003",
+    "authors": [
+      "Hausmann R",
+      "Rodrik D"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 3603,
+    "abs": "In the presence of uncertainty about what a country can be good at producing, there can be great social value to discovering costs of domestic activities because such discoveries can be easily imitated. We develop a general-equilibrium framework for a small open economy to clarify the analytical and normative issues. We highlight two failures of the laissez-faire outcome: there is too little investment and entrepreneurship ex ante, and too much production diversification ex post. Optimal policy consists of counteracting these distortions …"
+  },
+  "reference_39": {
+    "title": "Doomed to choose: industrial policy as predicament",
+    "date": "2006",
+    "authors": [
+      "Hausmann R",
+      "Rodrik D"
+    ],
+    "publication": "Work. Pap., John F. Kennedy Sch. Gov., Harvard Univ., Cambridge, MA",
+    "citation_count": 0,
+    "abs": "N/A"
+  },
+  "reference_40": {
+    "title": "Estimating the effects of non-discriminatory trade policies within structural gravity models",
+    "date": "2021",
+    "authors": [
+      "Heid B",
+      "Larch M",
+      "Yotov YV"
+    ],
+    "publication": "Wiley Online Library",
+    "citation_count": 303,
+    "abs": "We propose a simple method to identify the effects of unilateral and non‐discriminatory trade policies on bilateral trade within a theoretically consistent empirical gravity model. Specifically, we argue that structural gravity estimations should be performed with data that include not only international trade flows but also intra‐national trade flows. The use of intra‐national sales allows identification of the effects of non‐discriminatory trade policies such as most favoured nation tariffs, even in the presence of exporter and importer fixed effects. A byproduct of our approach is that it can be used to recover estimates of the trade elasticity, a key parameter for quantitative trade models. We demonstrate the effectiveness of our techniques in the case of most favoured nation tariffs and “time to export” as representative non‐discriminatory determinants of trade on the importer and on the exporter side, respectively. Our methods can be extended to quantify the impact on trade of any country‐specific characteristics as well as any non‐trade policies."
+  },
+  "reference_41": {
+    "title": "A pragmatic approach to estimating nondiscriminatory non-tariff trade costs",
+    "date": "2022",
+    "authors": [
+      "Herman PR"
+    ],
+    "publication": "Wiley Online Library",
+    "citation_count": 13,
+    "abs": "Methods for estimating nondiscriminatory trade costs exhibit challenges in terms of data requirements or the ability to isolate the effects of specific policies. I propose a two‐stage approach that mitigates these limitations. It uses a structural gravity model to first estimate country‐level measures of aggregate nondiscriminatory trade costs. It then econometrically decomposes the aggregate costs into specific costs associated with policies while controlling for non‐cost factors that erroneously contribute to the aggregate estimates. Using the approach, I estimate specific costs for common non‐tariff measures and find they can represent significant barriers to trade, equivalent to a 0.9% tariff per measure."
+  },
+  "reference_42": {
+    "title": "An institutional and policy approach to the demand for foreign direct investment in China",
+    "date": "2000",
+    "authors": [
+      "Huang Y"
+    ],
+    "publication": "JSTOR",
+    "citation_count": 5,
+    "abs": "In 1997, the Chinese government reported a foreign capital inflow of 64.4 billion dollars and an FDI inflow of 45.3 billion dollars. In 1998, despite the widespread financial turmoil in East and Southeast Asia, FDI inflows into China continued at a strong pace, defying the growing pessimism about China in the Western business community. For the first nine months in 1998, the FDI inflows stood at 31.4 billion dollars, unchanged from the year before. 2Starting de novo in 1980, foreign-invested enterprises (FIE) have be come a sizable player in the Chinese economy. In this chapter, FIEs refer to joint ventures, ie, Chinese firms in which multinational corporations (MNC) have acquired an equity stake at or more than 25% or to Chinese firms which are 100% MNC subsidiaries (known in China as wholly foreign-owned enterprises). The FIEs have accumulated a large capital base, and their investment activities account for an increasing share of China's capital formation. They are a large employer of China's labour force and their superior pay and flexible employment structure have drawn the best educated of the Chinese workforce. Their ability to raise funds and to import and export capital quickly has a strong influence on China's macroeconomy. Increasingly, FIEs are making China the manufacturing base of Asia. They can be found in virtually every part of China and in every economic sector. In a number of sectors, FIEs have established a dominant position in Chinese industry, especially in soft drinks, toys,"
+  },
+  "reference_43": {
+    "title": "Place-based industrial policies and local agglomeration in the long-run",
+    "date": "2024",
+    "authors": [
+      "Incoronato L",
+      "Lattanzio S"
+    ],
+    "publication": "papers.ssrn.com",
+    "citation_count": 13,
+    "abs": "This paper studies a place-based industrial policy (PBIP) aiming to establish industrial clusters in Italy in the 1960s-70s. Combining historical archives spanning one century with administrative data and leveraging exogenous variation in government intervention, we investigate both the immediate effects of PBIP and its long-term implications for local development. We document agglomeration of workers and firms in the targeted areas persisting well after the end of the policy. By promoting high-technology manufacturing, PBIP …"
+  },
+  "reference_44": {
+    "title": "Optimal development policies with financial frictions",
+    "date": "2019",
+    "authors": [
+      "Itskhoki O",
+      "Moll B"
+    ],
+    "publication": "Wiley Online Library",
+    "citation_count": 292,
+    "abs": "Is there a role for governments in emerging countries to accelerate economic development by intervening in product and factor markets? To address this question, we study optimal dynamic Ramsey policies in a standard growth model with financial frictions. The optimal policy intervention involves pro‐business policies like suppressed wages in early stages of the transition, resulting in higher entrepreneurial profits and faster wealth accumulation. This, in turn, relaxes borrowing constraints in the future, leading to higher labor productivity and wages. In the long run, optimal policy reverses sign and becomes pro‐worker. In a multi‐sector extension, optimal policy subsidizes sectors with a latent comparative advantage and, under certain circumstances, involves a depreciated real exchange rate. Our results provide an efficiency rationale, but also identify caveats, for many of the development policies actively pursued by dynamic emerging economies."
+  },
+  "reference_45": {
+    "title": "MITI and the Japanese Miracle: The Growth of Industrial Policy, 1925-1975",
+    "date": "1982",
+    "authors": [
+      "Johnson C"
+    ],
+    "publication": "books.google.com",
+    "citation_count": 12098,
+    "abs": "… industrial policy, used the phrase \"Japanese miracle\" to describe the increase of 81.5 percent in Japanese industrial … Today we know why that particular miracle occurred: it resulted from …"
+  },
+  "reference_46": {
+    "title": "Temporary protection and technology adoption: evidence from the Napoleonic blockade",
+    "date": "2018",
+    "authors": [
+      "Juhasz R"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 301,
+    "abs": "This paper uses a natural experiment to estimate the causal effect of temporary trade protection on long-term economic development. I find that regions in the French Empire which became better protected from trade with the British for exogenous reasons during the Napoleonic Wars (1803–1815) increased capacity in mechanized cotton spinning to a larger extent than regions which remained more exposed to trade. In the long run, regions with exogenously higher spinning capacity had higher activity in mechanized cotton spinning. They also had higher value added per capita in industry up to the second half of the nineteenth century, but not later. (JEL F13, L67, N43, N63, N73)"
+  },
+  "reference_47": {
+    "title": "The who, what, when, and how of industrial policy: a text-based approach",
+    "date": "2022",
+    "authors": [
+      "Juhasz R",
+      "Lane N",
+      "Oehlsen E",
+      "Perez VC"
+    ],
+    "publication": "papers.ssrn.com",
+    "citation_count": 133,
+    "abs": "… In this paper, we shed light on global industrial policy practice. First, we propose a new text-based approach to measuring industrial policy at scale. Our method uses machine learning …"
+  },
+  "reference_48": {
+    "title": "Technology adoption and productivity growth: evidence from industrialization in France",
+    "date": "2024",
+    "authors": [
+      "Juhasz R",
+      "Squicciarini M",
+      "Voigtlander N"
+    ],
+    "publication": "journals.uchicago.edu",
+    "citation_count": 96,
+    "abs": "… spinning during the first Industrial Revolution in France. Using a … productivity across firms operating the new technology. In the subsequent decades, we observe high productivity growth …"
+  },
+  "reference_49": {
+    "title": "Industrial policy and the great divergence",
+    "date": "2024",
+    "authors": [
+      "Juhasz R",
+      "Steinwender C"
+    ],
+    "publication": "annualreviews.org",
+    "citation_count": 21,
+    "abs": "… We define industrial policy as “those government policies that explicitly target the transformation of the structure of economic activity in pursuit of some public goal” (borrowing from …"
+  },
+  "reference_50": {
+    "title": "Detection and impact of industrial subsidies: the case of Chinese shipbuilding",
+    "date": "2018",
+    "authors": [
+      "Kalouptsidi M"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 218,
+    "abs": "This article provides a model-based empirical strategy to, (1) detect the presence and gauge the magnitude of government subsidies and (2) quantify their impact on production reallocation across countries, industry prices, costs and consumer surplus. I construct and estimate an industry model that allows for dynamic agents in both demand and supply and apply my strategy to world shipbuilding, a classic target of industrial policy. I find strong evidence consistent with China having intervened and reducing shipyard costs by –, corresponding to to billion US dollars, between 2006 and 2012. The subsidies led to substantial reallocation of ship production across the world, with Japan, in particular, losing significant market share. They also misaligned costs and production, while leading to minor surplus gains for shippers."
+  },
+  "reference_51": {
+    "title": "Moonshot: public R&D and growth",
+    "date": "2025",
+    "authors": [
+      "Kantor S",
+      "Whalley AT"
+    ],
+    "publication": "pubs.aeaweb.org",
+    "citation_count": 80,
+    "abs": "… We estimate the long-term effect of public R&D on growth in manufacturing by analyzing … to isolate windfall R&D spending. Our results demonstrate that public R&D conducted by NASA …"
+  },
+  "reference_52": {
+    "title": "development programs",
+    "date": "2014",
+    "authors": [],
+    "publication": "Annu. Rev. Econ. 6:629-62",
+    "citation_count": 0,
+    "abs": "N/A"
+  },
+  "reference_53": {
+    "title": "R&D networks: theory, empirics, and policy implications",
+    "date": "2019",
+    "authors": [
+      "Konig MD",
+      "Liu X",
+      "Zenou Y"
+    ],
+    "publication": "direct.mit.edu",
+    "citation_count": 191,
+    "abs": "We analyze a model of R&D alliance networks where firms are engaged in R&D collaborations that lower their production costs while competing on the product market. We provide a complete characterization of the Nash equilibrium and determine the optimal R&D subsidy program that maximizes total welfare. We then structurally estimate this model using a unique panel of R&D collaborations and annual company reports. We use our estimates to study the impact of targeted versus nondiscriminatory R&D subsidy policies and empirically rank firms according to the welfare-maximizing subsidies they should receive."
+  },
+  "reference_54": {
+    "title": "An empirical test of the infant industry argument",
+    "date": "1982",
+    "authors": [
+      "Krueger AO",
+      "Tuncer B"
+    ],
+    "publication": "JSTOR",
+    "citation_count": 431,
+    "abs": "… It is the purpose of this paper to develop a test of whether infant industry criteria are satisfied… an empirical test for the validity of the infant industry argument; and to use that test on …"
+  },
+  "reference_55": {
+    "title": "The new empirics of industrial policy",
+    "date": "2020",
+    "authors": [
+      "Lane N"
+    ],
+    "publication": "Springer",
+    "citation_count": 180,
+    "abs": "Nations have and will continue to shape their economies through industrial policy. Nevertheless, the empirical literature on these interventions is thin, dwarfed by the attention industrial policies receive from policymakers across the world. In this paper, I discuss the difficulties of empirically studying industrial policy and review how new econometric work is confronting these issues. Through careful research design and attention to institutional detail, I argue that emergent studies are rapidly expanding what we know—and updating …"
+  },
+  "reference_56": {
+    "title": "Manufacturing revolutions: industrial policy and industrialization in South Korea",
+    "date": "2025",
+    "authors": [
+      "Lane N"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 254,
+    "abs": "I study the impact of industrial policies on industrial development by considering an important episode during the East Asian miracle: South Korea’s heavy and chemical industry (HCI) drive, 1973–1979. Based on newly assembled data, I use the introduction and termination of industrial policies to study their impacts during and after the intervention period. (1) I reveal that heavy-chemical industrial policies promoted the expansion and dynamic comparative advantage of directly targeted industries. (2) Using variation in exposure to policies through the input-output network, I demonstrate that the policy indirectly benefited downstream users of targeted intermediates. (3) The benefits of HCI persisted even after the policy ended, as some results were slower to appear. The findings suggest that the temporary drive shifted Korean manufacturing into more advanced markets and supported durable change. This study helps clarify the lessons drawn from the East Asian growth miracle."
+  },
+  "reference_57": {
+    "title": "Place-based policies and the geography of corporate investment",
+    "date": "3950",
+    "authors": [
+      "LaPoint C",
+      "Sakabe S"
+    ],
+    "publication": "papers.ssrn.com",
+    "citation_count": 18,
+    "abs": "Growing spatial inequality has led policymakers to enact tax breaks to attract corporate investment and jobs to economically peripheral regions. We demonstrate the importance of multi-plant firms' physical capital structure for the take-up and efficacy of industrial place-based policies by studying a national bonus depreciation scheme in Japan which altered the relative cost of capital across locations, offering high-tech manufacturers immediate cost deductions from their corporate income tax bill. Combining corporate balance sheets with a …"
+  },
+  "reference_58": {
+    "title": "Profits, scale economies, and the gains from trade and industrial policy",
+    "date": "2023",
+    "authors": [
+      "Lashkaripour A",
+      "Lugovskyy V"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 151,
+    "abs": "This paper examines the efficacy of second-best trade restrictions at correcting sectoral misallocation due to scale economies or profit-generating markups. To this end, we characterize optimal trade and industrial policies in an important class of quantitative trade models with scale effects and profits, estimating the structural parameters that govern policy outcomes. Our estimates reveal that standalone trade policy measures are remarkably ineffective at correcting mis-allocation, even when designed optimally. Unilateral adoption of corrective industrial policies is also ineffective due to immiserizing growth effects. But industrial policies coordinated internationally via a deep agreement are more transformative than any unilateral policy alternative. (JEL F12, F13,14. L52, O19, O25)"
+  },
+  "reference_59": {
+    "title": "Trade and growth: import led or export led? Evidence from Japan and Korea",
+    "date": "1999",
+    "authors": [
+      "Lawrence RZ",
+      "Weinstein DE"
+    ],
+    "publication": "academiccommons.columbia.edu",
+    "citation_count": 5,
+    "abs": "… for Japan during the period 1964 to 1973. Our results also lead us to question whether Japanese exports were a particularly important source of productivity growth. Our findings on …"
+  },
+  "reference_60": {
+    "title": "Government interventions and economic growth",
+    "date": "2010",
+    "authors": [
+      "Lee J-W"
+    ],
+    "publication": "trace.tennessee.edu",
+    "citation_count": 2,
+    "abs": "The first essay constitutes a theory which lends truth to the Kuznets hypothesis. The attention is centered on the role of financial markets in defining the process of knowledge accumulation, and ultimately the distribution of income earning capabilities in a population of ex ante heterogeneous individuals. The provision of credit is hindered by one-sided lack of commitment embedded in the area of educational investment. Adaptation in the legislative system to accommodate a punishment scheme conditional on default is the critical requirement for the economy to be carried on a dynamic growth path, albeit one of higher and worsening inequality. Owing to the accumulation of human capital and the associated externality on future generations’ knowledge productivity, the economy ultimately makes its transition to a state of lower income differentials."
+  },
+  "reference_61": {
+    "title": "Is China following the East Asian model? A \"comparative institutional analysis\" perspective",
+    "date": "2002",
+    "authors": [
+      "Lee K",
+      "Hahn D",
+      "Lin J"
+    ],
+    "publication": "JSTOR",
+    "citation_count": 53,
+    "abs": "This paper discusses the main features of the emerging business and economic system in post-reform China. The authors argue that China does not seem to follow the so-called East Asian model (or its Japan-Korea variant) and is more likely to evolve directly toward a more open and market-oriented business system that is closer to the Anglo-American model. This argument is based on the analysis of several aspects of the Chinese economy. First, in terms of corporate governance of the listed companies in China, the proportion of insiders is very small and outsiders' voices are heard, and the stock markets are developing very fast. Second, in terms of bank-firm relations, Chinese banks are not allowed to own shares in firms, thus maintaining an arms-length relationship as in the Anglo-American system. Third, flexibility in the labour market has also been increasing with dismissal of workers becoming much easier than in earlier times. Fourth, domestic markets are competitive, owing to the strong presence of foreign-invested companies. Finally, it is not easy for the central government to implement selective industrial policies, given the conditions set for the WTO membership and those more generally to do with globalization, the huge size of the economy tempered by active inter-provincial politics, and the considerable presence of foreign companies. These features of the Chinese economy differ from the features of the Japan-Korea model, which include close bank-firm relations, the strong influence of insiders, slow development of the stock market and bank-based financing, rigid labour markets, monopolistic domestic markets with little presence of foreign firms, and selective industrial policy."
+  },
+  "reference_62": {
+    "title": "Industrial policies in production networks",
+    "date": "2019",
+    "authors": [
+      "Liu E"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 582,
+    "abs": "Many developing economies adopt industrial policies favoring selected sectors. Is there an economic logic to this type of intervention? I analyze industrial policy when economic sectors form a production network via input-output linkages. Market imperfections generate distortionary effects that compound through backward demand linkages, causing upstream sectors to become the sink for imperfections and have the greatest size distortions. My key finding is that the distortion in sectoral size is a sufficient statistic for the social value of promoting that sector; thus, there is an incentive for a well-meaning government to subsidize upstream sectors. Furthermore, sectoral interventions’ aggregate effects can be simply summarized, to first order, by the cross-sector covariance between my sufficient statistic and subsidy spending. My sufficient statistic predicts sectoral policies in South Korea in the 1970s and modern-day China, suggesting that sectoral interventions might have generated positive aggregate effects in these economies."
+  },
+  "reference_63": {
+    "title": "Innovation networks and R&D allocation",
+    "date": "2021",
+    "authors": [
+      "Liu E",
+      "Ma S"
+    ],
+    "publication": "nber.org",
+    "citation_count": 86,
+    "abs": "We study the cross-sector allocation of R&D resources in a multisector growth model with an innovation network, where one sector's past innovations may benefit other sectors' future innovations. Theoretically, we solve for the optimal allocation of R&D resources. We show a planner valuing long-term growth should allocate more R&D toward central sectors in the innovation network, but the incentive is muted in open economies that benefit more from foreign knowledge spillovers. We derive sufficient statistics for evaluating the welfare gains from improving R&D allocation. Empirically, we build the global innovation network based on patent citations and establish its empirical importance for knowledge spillovers. We evaluate R&D allocative efficiency across countries using model-based sufficient statistics. Japan has the highest allocative efficiency among the advanced economies. For the US, improving R&D allocative efficiency to Japan's level could generate more than 19.6% welfare gains."
+  },
+  "reference_64": {
+    "title": "Industrial policy at work: evidence from Romania’s income tax break for workers in IT",
+    "date": "2021",
+    "authors": [
+      "Manelici I",
+      "Pantea S"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 52,
+    "abs": "We study the firm and sector-level effects of an industrial policy designed to support the development of the IT sector in Romania. In 2001, Romania introduced an unexpected personal income tax break to programmers with eligible bachelor’s degrees and who work on software development for firms in eligible IT sector codes. In 2013, policy-makers suddenly expanded the scope of the original tax break to cover more bachelor’s degrees and sector codes in IT. We first use firm-level data and difference-in-difference designs around each policy episode to show that treated firms experience strong and long-lasting growth. We then employ sector-level data and a synthetic control design to show that after the introduction of this policy in 2001, the IT sector grew faster in Romania than in otherwise similar countries. Finally, downstream sectors relying more on IT services also grew faster in Romania after 2001. Our results suggest that this policy has been effective in promoting the development of the IT sector, a sector typically seen as key to the transition to a knowledge economy."
+  },
+  "reference_65": {
+    "title": "The Entrepreneurial State: Debunking Public Versus Private Sector Myths",
+    "date": "2014",
+    "authors": [
+      "Mazzucato M"
+    ],
+    "publication": "New York: Anthem Press. Rev. ed.",
+    "citation_count": 0,
+    "abs": "N/A"
+  },
+  "reference_66": {
+    "title": "Mission Economy: A Moonshot Guide to Changing Capitalism",
+    "date": "2024",
+    "authors": [
+      "Mazzucato M"
+    ],
+    "publication": "journals.sagepub.com",
+    "citation_count": 1,
+    "abs": "… market economy to achieve a bigger and better capitalist society… The general argument in Mission Economy is that capitalism … The state needs to adopt a “mission oriented” mindset such …"
+  },
+  "reference_67": {
+    "title": "Industrial policy with conditionality: a taxonomy and sample cases",
+    "date": "2023",
+    "authors": [
+      "Mazzucato M",
+      "Rodrik D"
+    ],
+    "publication": "discovery.ucl.ac.uk",
+    "citation_count": 135,
+    "abs": "… The case studies: an overview We will apply this taxonomy to a sample of nine case studies drawn from different types of industrial policies across the globe. Each …"
+  },
+  "reference_68": {
+    "title": "Industrial policy, structural change and intergenerational mobility: evidence from the Finnish war reparations",
+    "date": "2021",
+    "authors": [
+      "Mitrunen M"
+    ],
+    "publication": "Unpublished manuscript",
+    "citation_count": 0,
+    "abs": "N/A"
+  },
+  "reference_69": {
+    "title": "The intellectual spoils of war? Defense R&D, productivity and international technology spillovers",
+    "date": "2019",
+    "authors": [
+      "Moretti E",
+      "Steinwender C",
+      "Van Reenen J"
+    ],
+    "publication": "NBER Work. Pap. 26483",
+    "citation_count": 206,
+    "abs": "We use s h a r e i k ( t - 1 ) l rather than the actual own country share in order to further  reduce the risk that the industry distribution of defense R&D subsidies responds to expected"
+  },
+  "reference_70": {
+    "title": "Estimating spillovers from publicly funded R&D: evidence from the US department of energy",
+    "date": "2022",
+    "authors": [
+      "Myers KR",
+      "Lanahan L"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 137,
+    "abs": "We quantify the magnitude of R&D spillovers created by grants to small firms from the US Department of Energy. Our empirical strategy leverages variation due to state-specific matching policies, and we develop a new approach to measuring both geographic and technological spillovers that does not rely on an observable paper trail. Our estimates suggest that for every patent produced by grant recipients, three more are produced by others who benefit from spillovers. Sixty percent of these spillovers occur within the United States, and many of them occur in technological areas substantially different from those targeted by the grants. (JEL H81, L25, O33, O34, Q40)"
+  },
+  "reference_71": {
+    "title": "Place-based policies",
+    "date": "2015",
+    "authors": [
+      "Neumark D",
+      "Simpson H"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 1055,
+    "abs": "… make them more effective or less effective, who gains and who loses from these policies, … of these policies. However, to better guide policy, we need to know more about what policies …"
+  },
+  "reference_72": {
+    "title": "Is there a case for industrial policy? A critical survey",
+    "date": "2006",
+    "authors": [
+      "Pack H",
+      "Saggi K"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 1121,
+    "abs": "What are the underlying rationales for industrial policy? Does empirical evidence support the use of industrial policy for correcting market failures that plague the process of industrialization? This article addresses these questions through a critical survey of the analytical literature on industrial policy. It also reviews some recent industry successes and argues that public interventions have played only a limited role. Moreover, the recent ascendance and dominance of international production networks in the sectors in which developing countries once had considerable success implies a further limitation on the potential role of industrial policies as traditionally understood. Overall, there appears to be little empirical support for an activist government policy even though market failures exist that can, in principle, justify the use of industrial policy."
+  },
+  "reference_73": {
+    "title": "Did government intervention target technological externalities? Industrial policy and economic growth in postwar Japan, 1964-1983",
+    "date": "2017",
+    "authors": [
+      "Pons-Benaiges O"
+    ],
+    "publication": "delong.typepad.com",
+    "citation_count": 4,
+    "abs": "… that industries with stronger economies of scale and industries with … industrial policy by comparing estimates of technological externalities with measures of government intervention. …"
+  },
+  "reference_74": {
+    "title": "Transportation costs and the spatial organization of economic activity",
+    "date": "2015",
+    "authors": [
+      "Redding SJ",
+      "Turner MA"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 917,
+    "abs": "This chapter surveys the theoretical and empirical literature on the relationship between the spatial distribution of economic activity and transportation costs. We develop a multiregion model of economic geography that we use to understand the general equilibrium implications of transportation infrastructure improvements within and between locations for wages, population, trade, and industry composition. Guided by the predictions of this model, we review the empirical literature on the effects of transportation infrastructure improvements …"
+  },
+  "reference_75": {
+    "title": "Trade policy and economic growth: a skeptic's guide to the cross-national evidence",
+    "date": "2000",
+    "authors": [
+      "Rodriguez F",
+      "Rodrik D"
+    ],
+    "publication": "journals.uchicago.edu",
+    "citation_count": 6274,
+    "abs": "… Most of the crossnational econometric research that was … exports and growth, and not on trade policy and growth. … expansion affects GDP growth, and ignoring potential determinants of …"
+  },
+  "reference_76": {
+    "title": "Why we learn nothing from regressing economic growth on policies",
+    "date": "2012",
+    "authors": [
+      "Rodrik D"
+    ],
+    "publication": "s-space.snu.ac.kr",
+    "citation_count": 525,
+    "abs": "Government use policy to achieve certain outcomes. Sometimes the desired ends are worthwhile, and sometimes they are pernicious. Cross-country regressions have been the tool of choice in assessing the effectiveness of policies and the empirical relevance of these two diametrically opposite views of government behavior. When government policy responds systematically to economic or political objectives, the standard growth regression in which economic growth (or any other performance indicator) is regressed on policy tells us nothing about the effectiveness of policy and whether government motives are good or bad."
+  },
+  "reference_77": {
+    "title": "Premature deindustrialization",
+    "date": "2016",
+    "authors": [
+      "Rodrik D"
+    ],
+    "publication": "Springer",
+    "citation_count": 3541,
+    "abs": "I document a significant deindustrialization trend in recent decades that goes considerably beyond the advanced, post-industrial economies. The hump-shaped relationship between …"
+  },
+  "reference_78": {
+    "title": "An industrial policy for good jobs",
+    "date": "2022",
+    "authors": [
+      "Rodrik D"
+    ],
+    "publication": "scholar.harvard.edu",
+    "citation_count": 112,
+    "abs": "… mation of the why, what, and how of industrial policy. I will make several arguments in this policy proposal. • First, industrial policy must target what we might call good-jobs externalities, …"
+  },
+  "reference_79": {
+    "title": "Building a good jobs economy",
+    "date": "2020",
+    "authors": [
+      "Rodrik D",
+      "Sabel CF"
+    ],
+    "publication": "degruyterbrill.com",
+    "citation_count": 204,
+    "abs": "… focused on creating good jobs in communities that face economic challenges; … good jobs in many different areas of economic activity. We describe a set of design principles for building …"
+  },
+  "reference_80": {
+    "title": "Fixing the Climate: Strategies for an Uncertain World",
+    "date": "2022",
+    "authors": [
+      "Sabel CF",
+      "Victor DG"
+    ],
+    "publication": "torrossa.com",
+    "citation_count": 135,
+    "abs": "Can the world meet the challenge of climate change? After more than three de cades of global negotiations, the prognosis looks bleak. The most ambitious diplomatic efforts have focused on a series of virtually global agreements such as the Kyoto Protocol of 1997 and Paris Agreement of 2015. But with so many diverse interests across so many countries, it has been hard to get global agreement simply on the need for action, and meaningful consensus has been even more elusive. Uncertainty about which emissions reduction …"
+  },
+  "reference_81": {
+    "title": "Revisiting the infant industry argument",
+    "date": "2007",
+    "authors": [
+      "Sauré P"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 72,
+    "abs": "This paper identifies a flaw in the infant industry argument that previous literature has ignored. A simple model first replicates the infant industry logic but subsequently shows that, in the presence of a ‘traditional technology’ with poor growth potential, the infant-industry logic is likely to fail. Under protectionism domestic producers substitute advanced technologies with the low-growth alternative, thereby inhibiting learning and economic growth. Protectionism's adverse effect on development is magnified by complementarities among advanced input goods and, under adequate conditions, in a three-country setting."
+  },
+  "reference_82": {
+    "title": "Industrial restructuring in Japan",
+    "date": "1979",
+    "authors": [
+      "Saxonhouse GR"
+    ],
+    "publication": "JSTOR",
+    "citation_count": 67,
+    "abs": "… industrial distribution of labor in Japan occurred. Not surprisingly, this changing distribution of industrial activity is also reflected in the Japanese … per cent of the Japanese gross domestic …"
+  },
+  "reference_83": {
+    "title": "The long-run effects of R&D place-based policies: evidence from Russian science cities",
+    "date": "2022",
+    "authors": [
+      "Schweiger H",
+      "Stepanov A",
+      "Zacchia P"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 41,
+    "abs": "We study the long-run effects of historical place-based R&D policies: the creation of Science Cities in Soviet Russia. We compare current demographic and economic characteristics of Science Cities with those of localities that were similar to them at the time of their establishment. We find that in present-day Russia, Science Cities are more innovative and productive, host more highly skilled workers, and pay them higher salaries. We interpret these findings as the result of the interaction between persistence and agglomeration forces; we rule out explanations related to the differential use of public resources. (JEL J31, J44, O33, O38, P25, R23, R58)"
+  },
+  "reference_84": {
+    "title": "Evaluating state and local business incentives",
+    "date": "2020",
+    "authors": [
+      "Slattery C",
+      "Zidar O"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 334,
+    "abs": "This essay describes and evaluates state and local business tax incentives in the United States. In 2014, states spent between $5 and $216 per capita on incentives for firms in the form of firm-specific subsidies and general tax credits, which mostly target investment, job creation, and research and development. States with higher per capita incentives tend to have higher state corporate tax rates. Recipients of firm-specific incentives are usually large establishments in manufacturing, technology, and high-skilled service industries, and the average discretionary subsidy is $178M for 1,500 promised jobs. Firms tend to accept subsidy deals from places that are richer, larger, and more urban than the average county, and poor places provide larger incentives and spend more per job. Comparing winning and runner-up locations for each deal, we find that average employment within the three-digit industry of the deal increases by roughly 1,500 jobs. While we find some evidence of direct employment gains from attracting a firm, we do not find strong evidence that firm-specific tax incentives increase broader economic growth at the state and local level."
+  },
+  "reference_85": {
+    "title": "Economic growth and regulation of financial markets: Japanese experience during postwar high growth period",
+    "date": "1986",
+    "authors": [
+      "Teranishi J"
+    ],
+    "publication": "JSTOR",
+    "citation_count": 11,
+    "abs": "During the period 1953-1972, Japan experienced an exceedingly high rate of economic growth. The annual growth rate of real GNP during the twenty years was 9.2%, exceptionally high when compared to the growth rate of 3.7% for 1910-38 and 3.9% for 1973-81. The change in industrial structure was also drastic. The share of the primary sector in GDP was 36.4% in 1910 and 18.3% in 1938, but fell to 6.1% in 1970. The annual decrease in labor force in the primary sector was 36,500 persons during 1950-65 period, 6 times as high as …"
+  },
+  "reference_86": {
+    "title": "Industrial policy, Chinese-style: FDI, regulation, and dreams of national champions in the auto sector",
+    "date": "2004",
+    "authors": [
+      "Thun E"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 108,
+    "abs": "Long after the start of the reform period, and well after the proven success of the private sector, the fate of the state-owned sector in China continued to disturb the sleep of many policymakers in the Chinese central government."
+  },
+  "reference_87": {
+    "title": "Changing Lanes in China: Foreign Direct Investment, Local Governments, and Auto Sector Development",
+    "date": "2006",
+    "authors": [
+      "Thun E"
+    ],
+    "publication": "books.google.com",
+    "citation_count": 442,
+    "abs": "… This book uses the dramatic context of the Chinese auto industry as a means of understanding the rise of China as an industrial power and its integration with the global economy. The …"
+  },
+  "reference_88": {
+    "title": "Credit policies: lessons from Japan and Korea",
+    "date": "1996",
+    "authors": [
+      "Vittas D",
+      "Cho YJ"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 79,
+    "abs": "The success of policy-based credit programs in Japan and the Republic of Korea suggests that credit policy can be an effective instrument for economic development. Why, then, have credit policies failed in so many countries, and what factors explain their relative success in Japan and Korea? Both economic and institutional factors appear to be important in the success or failure of credit policies. Essential economic factors include a reliance on the private sector, a bias toward industrialization, an orientation toward export production, the encouragement of domestic competition, and a commitment to price stability. Crucial institutional factors include extensive and frequent consultation between government and the private sector, effective monitoring systems, and, most important, a clear and credible plan for economic development. Although several countries have included one or more of these factors in their programs, the experience of Japan and Korea suggests that a comprehensive network combining all or most of these factors may be necessary for the successful implementation of credit policies."
+  },
+  "reference_89": {
+    "title": "The East Asian Miracle: Economic Growth and Public Policy: A World Bank Policy Research Report",
+    "date": "1993",
+    "authors": [
+      "World Bank"
+    ],
+    "publication": "Oxford, UK: Oxford Univ. Press",
+    "citation_count": 0,
+    "abs": "The East Asian Miracle: Economic Growth and Public Policy. A World Bank Policy Research  Report. London: Oxford University Press, 1993. xvii, 289 pp. Over the past three decades,"
+  },
+  "reference_90": {
+    "title": "Review of Peter Evans, Embedded Autonomy",
+    "date": "1996",
+    "authors": [
+      "Wright EO"
+    ],
+    "publication": "Contemp. Sociol. 25(2):176-79",
+    "citation_count": 0,
+    "abs": "N/A"
+  },
+  "reference_91": {
+    "title": "Policy learning or diffusion: how China opened to foreign direct investment",
+    "date": "2009",
+    "authors": [
+      "Ye M"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 31,
+    "abs": "When China embarked on economic reform in the late 1970s, its leaders aspired to learn from Japan's developmental policies that were restrictive of foreign capital. In the 1990s, China strove again to emulate Japan and South Korea in restricting foreign direct investment and promoting indigenous corporations. Despite these efforts, China's industrial catch-up was in fact led by FDI, in sharp contrast to the classic Japanese/Korean paradigm where FDI was strictly circumvented. Why was China unsuccessful in learning restrictive FDI policies? How did a new developmental path emerge in China? The answer lies in China's strong networks with diaspora communities. Through a diffusion mechanism, ties between local governments and diaspora capital helped initiate and catalyze China's FDI liberalization, despite the central efforts to learn from Japan and South Korea. Two critical reform episodes are examined: (1) the establishment of special economic zones and (2) the reform of state-owned enterprises."
+  },
+  "reference_92": {
+    "title": "The industrial policy of the 1970s and the evolution of the manufacturing sector in Korea",
+    "date": "1990",
+    "authors": [
+      "Yoo J"
+    ],
+    "publication": "cir.nii.ac.jp",
+    "citation_count": 120,
+    "abs": "The industrial policy of the 1970s and the evolution of the manufacturing sector in Korea | CiNii Research … タイトル \"The industrial policy of the 1970s and the evolution of the manufacturing sector in Korea\" … Korea Development Institute …"
+  }
 }

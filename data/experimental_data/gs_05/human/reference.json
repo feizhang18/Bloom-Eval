@@ -1,849 +1,602 @@
 {
-    "reference_num": 52,
-    "paper_1_info": {
-        "reference_1": {
-            "searched_title": "Perceptions of racial gaps, their causes, and ways to reduce them",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.nber.org/papers/w29245",
-            "date": "2021",
-            "abs": "… on perceptions, attitudes, and policy views on racial issues and … along racial and partisan lines in perceived racial gaps in … in how people explain the existence of these gaps, ie, their …",
-            "authors": [
-                "Alesina A",
-                "Ferroni MF",
-                "Stantcheva S"
-            ],
-            "publication": "nber.org",
-            "citation_count": 88
-        }
-    },
-    "paper_2_info": {
-        "reference_2": {
-            "searched_title": "Immigration and redistribution",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/restud/article-abstract/90/1/1/6547062",
-            "date": "2023",
-            "abs": "Does immigration change support for redistribution? We design and conduct large-scale surveys and experiments in six countries to investigate how people perceive immigrants and …",
-            "authors": [
-                "Alesina A",
-                "Miano A",
-                "Stantcheva S"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 944
-        }
-    },
-    "paper_3_info": {
-        "reference_3": {
-            "searched_title": "Intergenerational mobility and preferences for redistribution",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20162015",
-            "date": "2018",
-            "abs": "Using new cross-country survey and experimental data, we investigate how beliefs about intergenerational mobility affect preferences for redistribution in France, Italy, Sweden, the United Kingdom, and the United States. Americans are more optimistic than Europeans about social mobility. Our randomized treatment shows pessimistic information about mobility and increases support for redistribution, mostly for “equality of opportunity” policies. We find strong political polarization. Left-wing respondents are more pessimistic about …",
-            "authors": [
-                "Alesina A",
-                "Stantcheva S",
-                "Teso E"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 1238
-        }
-    },
-    "paper_4_info": {
-        "reference_4": {
-            "searched_title": "Evaluating behaviorally motivated policy: experimental evidence from the lightbulb market",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20131564",
-            "date": "2015",
-            "abs": "Imperfect information and inattention to energy costs are important potential motivations for energy efficiency standards and subsidies. We evaluate these motivations in the lightbulb market using a theoretical model and two randomized experiments. We derive welfare effects as functions of reduced-form sufficient statistics capturing economic and psychological parameters, which we estimate using a novel within-subject information disclosure experiment. The main results suggest that moderate subsidies for energy-efficient lightbulbs may increase welfare, but informational and attentional biases alone do not justify a ban on incandescent lightbulbs. Our results and techniques generate broader methodological insights into welfare analysis with misoptimizing consumers. (JEL D12, D83, H21, H31, L67, Q41, Q48)",
-            "authors": [
-                "Allcott H",
-                "Taubinsky D"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 634
-        }
-    },
-    "paper_5_info": {
-        "reference_5": {
-            "searched_title": "Priming effects in complex information environments: reassessing the impact of news discourse on presidential approval",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.journals.uchicago.edu/doi/abs/10.1111/j.1468-2508.2006.00483.x",
-            "date": "2006",
-            "abs": "This paper revisits the original psychological literature on priming in order to assess new possibilities for research on priming effects stimulated by news discourse. We detail some important theoretical limitations of existing priming research; propose a method for studying the dynamics of priming effects in real-world, complex information environments; and illustrate the usefulness of this approach with a case study of opinion change during the 1990–91 Persian Gulf Crisis. This case study documents for the first time the daily dynamics of priming effects in a complex information environment and confirms that priming effects are not merely a function of changes in the volume of news coverage about a given topic. Our findings suggest that news priming effects can be produced by changes in the applicability of relevant knowledge constructs, rather than merely by their temporary accessibility in long-term memory, and by cumulative as well as recent exposure to news coverage.",
-            "authors": [
-                "Althaus SL",
-                "Kim YM"
-            ],
-            "publication": "journals.uchicago.edu",
-            "citation_count": 268
-        }
-    },
-    "paper_6_info": {
-        "reference_6": {
-            "searched_title": "The number of choice tasks and survey satisficing in conjoint experiments",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/political-analysis/article/number-of-choice-tasks-and-survey-satisficing-in-conjoint-experiments/5BBACB75CF59C10E1B42AB20D9F085F0",
-            "date": "2018",
-            "abs": "In recent years, political and social scientists have made increasing use of conjoint survey designs to study decision-making. Here, we study a consequential question which researchers confront when implementing conjoint designs: How many choice tasks can respondents perform before survey satisficing degrades response quality? To answer the question, we run a set of experiments where respondents are asked to complete as many as 30 conjoint tasks. Experiments conducted through Amazon's Mechanical Turk and Survey …",
-            "authors": [
-                "Bansak K",
-                "Hainmueller J",
-                "Hopkins DJ",
-                "Yamamoto T"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 303
-        }
-    },
-    "paper_7_info": {
-        "reference_7": {
-            "searched_title": "The mind in the middle: a practical guide to priming and automaticity research",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://books.google.com/books?hl=en&lr=&id=j7aawGLbtEoC&oi=fnd&pg=PA253&dq=The+mind+in+the+middle:+a+practical+guide+to+priming+and+automaticity+research&ots=0n4YMWI_-m&sig=4zaHbgn3bs718hZYPtjlTwLvBDk",
-            "date": "2000",
-            "abs": "Though it might be hard for fledgling researchers of today to believe, for most of the 20th century, invok-ing cognitive mechanisms and processes to explain and model psychological phenomena was not allowed. The reason for this was because the only known research technique to examine these internal mental states was introspection and self-report. This method was seen to be fatally flawed in that an objective outside observer could not make the measurements, and so the data could not be independently verified. Other sciences did not confuse the observer with the observed, and so, it was said, neither should psychology if it wanted to be considered a science. In his book, The Ghost in the Ma-chine, Arthur Koestler (1967) observed that this dedicated neglect of its natural subject matter caused psychology to go nowhere, at a time in history when the other sciences, in contrast, were making giant strides forward.",
-            "authors": [
-                "Bargh JA",
-                "Chartrand TL"
-            ],
-            "publication": "books.google.com",
-            "citation_count": 2934
-        }
-    },
-    "paper_8_info": {
-        "reference_8": {
-            "searched_title": "Evaluating online labor markets for experimental research: Amazon.com's Mechanical Turk",
-            "scholar_status": "Success (Similarity: 99.43%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/political-analysis/article/evaluating-online-labor-markets-for-experimental-research-amazoncoms-mechanical-turk/348F95C0FBCF21C3B37D66EB432F3BA5",
-            "date": "2012",
-            "abs": "We examine the trade-offs associated with using Amazon.com's Mechanical Turk (MTurk) interface for subject recruitment. We first describe MTurk and its promise as a vehicle for performing low-cost and easy-to-field experiments. We then assess the internal and external validity of experiments performed using MTurk, employing a framework that can be used to evaluate other subject pools. We first investigate the characteristics of samples drawn from the MTurk population. We show that respondents recruited in this manner are often more representative of the U.S. population than in-person convenience samples—the modal sample in published experimental political science—but less representative than subjects in Internet-based panels or national probability samples. Finally, we replicate important published experimental work using MTurk samples.",
-            "authors": [
-                "Berinsky AJ",
-                "Huber GA",
-                "Lenz GS"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 5440
-        }
-    },
-    "paper_9_info": {
-        "reference_9": {
-            "searched_title": "Modeling acquiescence in measurement models for two balanced sets of items",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.tandfonline.com/doi/abs/10.1207/S15328007SEM0704_5",
-            "date": "2000",
-            "abs": "This article concerns a number of conditions that must be met before reaching a conclusion about the existence of the agreement component of a response style called acquiescence. The focus is on the specification of a common style factor behind at least 2 independent theoretical concepts, each measured by a balanced set of items. The proposed approach is explored with a random subsample (N = 986) from a large-scale survey, and subsequently confirmed in another subsample (N = 992) from the same population (Flanders) and in a random sample (N = 1,055) from a different population (Wallonia). The strong relation in both populations of the latent style factor with a variable \"sum of agreements\" supports the idea that it is possible to control for acquiescence in structural equations.",
-            "authors": [
-                "Billiet JB",
-                "McClendon MJ"
-            ],
-            "publication": "Taylor & Francis",
-            "citation_count": 512
-        }
-    },
-    "paper_10_info": {
-        "reference_10": {
-            "searched_title": "Response biases in standardised surveys",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://core.ac.uk/download/pdf/286229961.pdf",
-            "date": "2016",
-            "abs": "Response biases are present in standardised surveys when values collected from, or reported by, respondents systematically deviate from the actual, true values. Response biases are therefore potential sources of error in social science surveys. They occur when respondents react not only to the content of the survey question-the question stimulus-but also to other factors. These factors can be found in the most diverse elements of a survey. They may be lie in the respondent him-or herself, in the interview situation, or in the survey instrument. Response bias that lies in the respondent him-or herself is often a consequence of satisficing. Respondents who have a tendency to satisfice when answering questions are motivated by a desire to reduce their cognitive effort. This results in response biases such as acquiescence or moderacy bias. In the case of socially desirable responding, respondents orient themselves towards social norms in order to answer in the way in which they assume that the interviewer expects them to answer. Respondents who display extreme response bias tend to choose the extreme rating categories irrespective of the content of the question. The second source of response bias is the interview situation: Response bias also occurs when response behaviour is dependent on the situation. When respondents react to characteristics or behaviours of the interviewer, these reactions are known as interviewer effects. By contrast, the term presence effect is used when the respondent's response behaviour is dependent on the presence of third parties. The third source of response bias is the survey instrument: The way in which the questions in the questionnaire are formulated, and the order of the questions and the response alternatives in the questionnaire may influence response behaviour-for example as halo, primacy, or recency effects-and may lead to response biases.",
-            "authors": [
-                "Bogner K",
-                "Landrock U"
-            ],
-            "publication": "core.ac.uk",
-            "citation_count": 92
-        }
-    },
-    "paper_11_info": {
-        "reference_11": {
-            "searched_title": "Choosing your pond: location choices and relative income",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://direct.mit.edu/rest/article-abstract/104/5/1010/97706",
-            "date": "2022",
-            "abs": "Do individuals care about their relative income? While this is a long-standing hypothesis, revealed-preference evidence remains elusive. We provide a unique test by studying residential choices: individuals often must choose between places with different income distributions, and as a result they “choose” their relative income. We conducted a field experiment with 1,080 senior medical students who participated in the National Resident Matching Program. We estimate their preferences by combining choice data, survey data on perceptions, and information-provision experiments. The evidence suggests that individuals care about their relative income and that these preferences differ across single and nonsingle individuals.",
-            "authors": [
-                "Bottan NL",
-                "Perez-Truglia R"
-            ],
-            "publication": "direct.mit.edu",
-            "citation_count": 88
-        }
-    },
-    "paper_12_info": {
-        "reference_12": {
-            "searched_title": "U.S. public opinion on immigration and immigration threat",
-            "scholar_status": "Failed (Best match similarity 70.27% is below threshold 80.00%)"
-        }
-    },
-    "paper_13_info": {
-        "reference_13": {
-            "searched_title": "The Phantom Respondents: Opinion Surveys and Political Representation",
-            "scholar_status": "Success (Similarity: 99.28%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.jstor.org/stable/2749734",
-            "date": "1994",
-            "abs": "… survey errors. Brehm proceeds directly from discussing the importance of surveys to political … of potential error in the data we collect through surveys. Chapter 2, \"Who Is Missing?\" turns …",
-            "authors": [
-                "Brehm J"
-            ],
-            "publication": "JSTOR",
-            "citation_count": 0
-        }
-    },
-    "paper_14_info": {
-        "reference_14": {
-            "searched_title": "Multigroup comparisons and the assumption of equivalent construct validity across groups: methodological and substantive issues",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.tandfonline.com/doi/abs/10.1207/s15327906mbr2404_7",
-            "date": "1989",
-            "abs": "The purposes of this article are (a) to compare construct validity findings from Campbell-Fiske and LISREL confirmatory factor analyses (CFA) of a multitrait-multimethod matrix for each of two groups, and then to test for construct validity equivalence across groups -- the methodological issue, and (b) to demonstrate how construct validity can differ across groups -- the substantive issue. Multidimensional self-concept (general, academic, English, mathematics) responses to three types of measurement scales (Likert, semantic differential, Guttman) for low- and high4rack grade 11 and 12 students provided the exemplary data base. Methodologically, findings demonstrate the superiority of CFA over the Campbell-Fiske approach by (a) providing more detailed evidence of construct validity within groups, and (b) testing for the equivalency of construct validity across groups. Substantively, the findings illustrate that the assumption of group-invariant construct validity cannot be taken for granted; differences were found in both the measurement and structure of self-concept. Results bear importantly on the validity of findings based on multigroup comparisons.",
-            "authors": [
-                "Byrne BM"
-            ],
-            "publication": "Taylor & Francis",
-            "citation_count": 192
-        }
-    },
-    "paper_15_info": {
-        "reference_15": {
-            "searched_title": "Testing for the equivalence of factor covariance and mean structures: the issue of partial measurement invariance",
-            "scholar_status": "Success (Similarity: 99.56%)",
-            "arxiv_id": "N/A",
-            "url": "https://psycnet.apa.org/record/1989-28159-001",
-            "date": "1989",
-            "abs": "Addresses issues related to partial measurement invariance using a tutorial approach based on the {lisrel} confirmatory factor analytic model. Specifically, we demonstrate procedures for (a) using\" sensitivity analyses\" to establish stable and substantively well-fitting baseline models,(b) determining partially invariant measurement parameters, and (c) testing for the invariance of factor covariance and mean structures, given partial measurement invariance. We also show, explicitly, the transformation of parameters from an all-X to an all-Y model specification, for purposes of testing mean structures. These procedures are illustrated with multidimensional self-concept data from low (n= 248) and high (n= 582) academically tracked high school adolescents.(PsycINFO Database Record (c) 2019 APA, all rights reserved)",
-            "authors": [
-                "Byrne BM",
-                "Shavelson RJ",
-                "Muthen B"
-            ],
-            "publication": "psycnet.apa.org",
-            "citation_count": 5303
-        }
-    },
-    "paper_16_info": {
-        "reference_16": {
-            "searched_title": "Assessing extreme and acquiescence response sets in cross-cultural research using structural equations modeling",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0022022100031002003",
-            "date": "2000",
-            "abs": "Extreme response styles (ERS) and acquiescence response styles (ARS) may constitute important sources of cross-cultural differences on survey-type instruments. Differences in ERS and ARS, if undetected, may give rise to spurious results that do not reflect genuine differences in attitudes or perceptions. Multiple-group confirmatory factor analysis is recommended as the most effective method of testing for ERS and ARS and determining whether cultural groups can be meaningfully compared on the basis of factor (latent) means. A detailed numerical example is provided.",
-            "authors": [
-                "Cheung GW",
-                "Rensvold RB"
-            ],
-            "publication": "journals.sagepub.com",
-            "citation_count": 839
-        }
-    },
-    "paper_17_info": {
-        "reference_17": {
-            "searched_title": "Increasing precision without altering treatment effects: repeated measures designs in survey experiments",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/increasing-precision-without-altering-treatment-effects-repeated-measures-designs-in-survey-experiments/2E1637FFE36DFD0BA4AD0822634D8337",
-            "date": "2021",
-            "abs": "The use of survey experiments has surged in political science. The most common design is the between-subjects design in which the outcome is only measured posttreatment. This design relies heavily on recruiting a large number of subjects to precisely estimate treatment effects. Alternative designs that involve repeated measurements of the dependent variable promise greater precision, but they are rarely used out of fears that these designs will yield different results than a standard design (e.g., due to consistency pressures). Across six studies, we assess this conventional wisdom by testing experimental designs against each other. Contrary to common fears, repeated measures designs tend to yield the same results as more common designs while substantially increasing precision. These designs also offer new insights into treatment effect size and heterogeneity. We conclude by encouraging researchers to adopt repeated measures designs and providing guidelines for when and how to use them.",
-            "authors": [
-                "Clifford S",
-                "Sheagley G",
-                "Piston S"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 254
-        }
-    },
-    "paper_18_info": {
-        "reference_18": {
-            "searched_title": "Evidence for countercyclical risk aversion: an experiment with financial professionals",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20131314",
-            "date": "2015",
-            "abs": "Countercyclical risk aversion can explain major puzzles such as the high volatility of asset prices. Evidence for its existence is, however, scarce because of the host of factors that simultaneously change during financial cycles. We circumvent these problems by priming financial professionals with either a boom or a bust scenario. Subjects primed with a financial bust were substantially more fearful and risk averse than those primed with a boom, suggesting that fear may play an important role in countercyclical risk aversion. The mechanism described here is relevant for theory and may explain self-reinforcing processes that amplify market dynamics. (JEL E32, E44, G01, G11, G12)",
-            "authors": [
-                "Cohn A",
-                "Engelmann J",
-                "Fehr E",
-                "Marechal MA"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 701
-        }
-    },
-    "paper_19_info": {
-        "reference_19": {
-            "searched_title": "Priming in economics",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2352250X16300434",
-            "date": "2016",
-            "abs": "… priming studies, with a focus on one of the most prominent applications of priming within economics… one fertile area for future priming research is the investigation of economic and social …",
-            "authors": [
-                "Cohn A",
-                "Marechal MA"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 221
-        }
-    },
-    "paper_20_info": {
-        "reference_20": {
-            "searched_title": "Information equivalence in survey experiments",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/political-analysis/article/information-equivalence-in-survey-experiments/8D134C6387CD7D845249B0712775AB79",
-            "date": "2018",
-            "abs": "Survey experiments often manipulate the description of attributes in a hypothetical scenario, with the goal of learning about those attributes’ real-world effects. Such inferences rely on an underappreciated assumption: experimental conditions must be information equivalent (IE) with respect to background features of the scenario. IE is often violated because subjects, when presented with information about one attribute, update their beliefs about others too. Labeling a country “a democracy,” for example, affects subjects’ beliefs about the country’s geographic location. When IE is violated, the effect of the manipulation need not correspond to the quantity of interest (the effect of beliefs about the focal attribute). We formally define the IE assumption, relating it to the exclusion restriction in instrumental-variable analysis. We show how to predict IE violations ex ante and diagnose them ex post with placebo tests. We evaluate three strategies for achieving IE. Abstract encouragement is ineffective. Specifying background details reduces imbalance on the specified details and highly correlated details, but not others. Embedding a natural experiment in the scenario can reduce imbalance on all background beliefs, but raises other issues. We illustrate with four survey experiments, focusing on an extension of a prominent study of the democratic peace.",
-            "authors": [
-                "Dafoe A",
-                "Zhang B",
-                "Caughey D"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 377
-        }
-    },
-    "paper_21_info": {
-        "reference_21": {
-            "searched_title": "Using item response theory to measure extreme response style in marketing research: a global investigation",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.45.1.104",
-            "date": "2008",
-            "abs": "Extreme response style (ERS) is an important threat to the validity of survey-based marketing research. In this article, the authors present a new item response theory–based model for measuring ERS. This model contributes to the ERS literature in two ways. First, the method improves on existing procedures by allowing different items to be differentially useful for measuring ERS and by accommodating the possibility that an item's usefulness differs across groups (e.g., countries). Second, the model integrates an advanced item response theory measurement model with a structural hierarchical model for studying antecedents of ERS. The authors simultaneously estimate a person's ERS score and individual- and group-level (country) drivers of ERS. Through simulations, they show that the new method improves on traditional procedures. They further apply the model to a large data set consisting of 12,506 consumers from 26 countries on four continents. The findings show that the model extensions are necessary to model the data adequately. Finally, they report substantive results about the effects of sociodemographic and national-cultural variables on ERS.",
-            "authors": [
-                "DeJong MG",
-                "Steenkamp JBE",
-                "Fox JP",
-                "Baumgartner H"
-            ],
-            "publication": "journals.sagepub.com",
-            "citation_count": 377
-        }
-    },
-    "paper_22_info": {
-        "reference_22": {
-            "searched_title": "Fighting climate change: international attitudes toward climate policies",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.nber.org/papers/w30265",
-            "date": "2022",
-            "abs": "… policies, examining factors that influence support for climate … new international data on attitudes towards climate change … affecting policy support: perceived effectiveness of policies in …",
-            "authors": [
-                "Dechezlepretre A",
-                "Fabre A",
-                "Kruse T",
-                "Planterose B",
-                "Sanchez Chico A",
-                "Stantcheva S"
-            ],
-            "publication": "nber.org",
-            "citation_count": 492
-        }
-    },
-    "paper_23_info": {
-        "reference_23": {
-            "searched_title": "Internet, Phone, Mail, and Mixed-Mode Surveys: The Tailored Design Method",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.ingentaconnect.com/contentone/cis/reis/2016/00000154/00000001/art00009",
-            "date": "2014",
-            "abs": "… mixed-mode surveys. La publicación de un artículo sobre la materia en una obra de referencia (Dillman y Messer, 2010) ha podido influir en tal decisión, desplazando un resumen de …",
-            "authors": [
-                "Dillman D",
-                "Smyth J",
-                "Christian L"
-            ],
-            "publication": "ingentaconnect.com",
-            "citation_count": 19411
-        }
-    },
-    "paper_24_info": {
-        "reference_24": {
-            "searched_title": "Time discounting and wealth inequality",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181096",
-            "date": "2020",
-            "abs": "… , and we analyze whether time discounting is associated with wealth inequality after controlling for credit constraints and other factors measuring the slope of the budget constraint. …",
-            "authors": [
-                "Epper T",
-                "Fehr E",
-                "Fehr-Duda H",
-                "Kreiner CT",
-                "Lassen DD",
-                "et al."
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 187
-        }
-    },
-    "paper_25_info": {
-        "reference_25": {
-            "searched_title": "Time varying risk aversion",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0304405X18300461",
-            "date": "2018",
-            "abs": "Exploiting portfolio data and repeated surveys of an Italian bank's clients, we test whether investors’ risk aversion increases following the 2008 crisis. We find that, after the crisis, both …",
-            "authors": [
-                "Guiso L",
-                "Sapienza P",
-                "Zingales L"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 1247
-        }
-    },
-    "paper_26_info": {
-        "reference_26": {
-            "searched_title": "Labor market concerns and support for immigration",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0047272720301201",
-            "date": "2020",
-            "abs": "Do labor market concerns affect support for immigration? Using a large, representative sample of the US population, we first elicit beliefs about the labor market impact of immigration. To generate exogenous variation in beliefs, we then provide respondents in the treatment group with research evidence showing no adverse labor market impacts of immigration. Treated respondents update their beliefs and become more supportive of immigration, as measured by self-reported policy views and petition signatures. Treatment effects also persist in an obfuscated follow-up study. Our results demonstrate that information about the labor market impact of immigration causally affects support for immigration.",
-            "authors": [
-                "Haaland I",
-                "Roth C"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 231
-        }
-    },
-    "paper_27_info": {
-        "reference_27": {
-            "searched_title": "Beliefs about racial discrimination and support for pro-Black policies",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://direct.mit.edu/rest/article-abstract/105/1/40/98205",
-            "date": "2023",
-            "abs": "This paper provides representative evidence on beliefs about racial discrimination and examines whether information causally affects support for pro-black policies. Eliciting quantitative beliefs about the extent of hiring discrimination against blacks, we uncover large disagreement about the extent of racial discrimination with particularly pronounced partisan differences. An information treatment leads to a convergence in beliefs about racial discrimination but does not lead to a similar convergence in support of pro-black policies. The results demonstrate that while providing information can substantially reduce disagreement about the extent of racial discrimination, it is not sufficient to reduce disagreement about pro-black policies.",
-            "authors": [
-                "Haaland I",
-                "Roth C"
-            ],
-            "publication": "direct.mit.edu",
-            "citation_count": 165
-        }
-    },
-    "paper_28_info": {
-        "reference_28": {
-            "searched_title": "Designing information provision experiments",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20211658",
-            "date": "2023",
-            "abs": "Information provision experiments allow researchers to test economic theories and answer policy-relevant questions by varying the information set available to respondents. We survey the emerging literature using information provision experiments in economics and discuss applications in macroeconomics, finance, political economy, public economics, labor economics, and health economics. We also discuss design considerations and provide best-practice recommendations on how to (i) measure beliefs; (ii) design the information intervention; (iii) measure belief updating; (iv) deal with potential confounds, such as experimenter demand effects; and (v) recruit respondents using online panels. We finally discuss typical effect sizes and provide sample size recommendations.(JEL C90, D83, D91)",
-            "authors": [
-                "Haaland I",
-                "Roth C",
-                "Wohlfart J"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 812
-        }
-    },
-    "paper_29_info": {
-        "reference_29": {
-            "searched_title": "Validating vignette and conjoint survey experiments against real-world behavior",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.pnas.org/doi/abs/10.1073/pnas.1416587112",
-            "date": "2015",
-            "abs": "Survey experiments, like vignette and conjoint analyses, are widely used in the social sciences to elicit stated preferences and study how humans make multidimensional choices. However, there is a paucity of research on the external validity of these methods that examines whether the determinants that explain hypothetical choices made by survey respondents match the determinants that explain what subjects actually do when making similar choices in real-world situations. This study compares results from conjoint and vignette analyses on which immigrant attributes generate support for naturalization with closely corresponding behavioral data from a natural experiment in Switzerland, where some municipalities used referendums to decide on the citizenship applications of foreign residents. Using a representative sample from the same population and the official descriptions of applicant characteristics that voters received before each referendum as a behavioral benchmark, we find that the effects of the applicant attributes estimated from the survey experiments perform remarkably well in recovering the effects of the same attributes in the behavioral benchmark. We also find important differences in the relative performances of the different designs. Overall, the paired conjoint design, where respondents evaluate two immigrants side by side, comes closest to the behavioral benchmark; on average, its estimates are within 2% percentage points of the effects in the behavioral benchmark.",
-            "authors": [
-                "Hainmueller J",
-                "Hangartner D",
-                "Yamamoto T"
-            ],
-            "publication": "pnas.org",
-            "citation_count": 1564
-        }
-    },
-    "paper_30_info": {
-        "reference_30": {
-            "searched_title": "Causal inference in conjoint analysis: understanding multidimensional choices via stated preference experiments",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/political-analysis/article/causal-inference-in-conjoint-analysis-understanding-multidimensional-choices-via-stated-preference-experiments/414DA03BAA2ACE060FFE005F53EFF8C8",
-            "date": "2014",
-            "abs": "Survey experiments are a core tool for causal inference. Yet, the design of classical survey experiments prevents them from identifying which components of a multidimensional treatment are influential. Here, we show how conjoint analysis, an experimental design yet to be widely applied in political science, enables researchers to estimate the causal effects of multiple treatment components and assess several causal hypotheses simultaneously. In conjoint analysis, respondents score a set of alternatives, where each has randomly varied attributes. Here, we undertake a formal identification analysis to integrate conjoint analysis with the potential outcomes framework for causal inference. We propose a new causal estimand and show that it can be nonparametrically identified and easily estimated from conjoint data using a fully randomized design. The analysis enables us to propose diagnostic checks for the identification assumptions. We then demonstrate the value of these techniques through empirical applications to voter decision making and attitudes toward immigrants.",
-            "authors": [
-                "Hainmueller J",
-                "Hopkins DJ",
-                "Yamamoto T"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 2208
-        }
-    },
-    "paper_31_info": {
-        "reference_31": {
-            "searched_title": "A comparison of different online sampling approaches for generating national samples",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.researchgate.net/profile/Miliaikeala-Heen/publication/327474205_A_Comparison_of_Different_Online_Sampling_Approaches_for_Generating_National_Samples/links/5b914928a6fdccfd541d421b/A-Comparison-of-Different-Online-Sampling-Approaches-for-Generating-National-Samples.pdf",
-            "date": "2014",
-            "abs": "Online (internet) surveys provide a new and evolving method for measuring public opinion on a local, national, and international level. Compared to traditional survey approaches (eg, face-to-face, mail, and telephone surveys), online surveys offer the advantages of speed, efficiency, and lower costs in data collection (see Dillman, Smyth, & Christian, 2008). To serve both consumer marketing and academic interests, various commercial venders now provide the technical means to collect online survey data from the general public and specific subgroups. However, an important question about these commercial sources for conducting survey research is the extent to which they provide representative samples of their targeted populations.This Research in Brief summarizes the results of a comparative study of different commercial platforms for generating online sampling frames and the representativeness of their samples. Multiple national surveys were conducted using Survey Monkey, Qualtrics, and Mechanical Turk as the source for recruiting survey respondents. By comparing the sociodemographic profile of the sample respondents obtained from each platform with national census data, this study provides some evidence of the representativeness of different online strategies for recruiting and selecting potential survey respondents. The final section of this report describes the limitations of the study and offers some particular ways that researchers may improve the generalizability of online survey results.",
-            "authors": [
-                "Heen M",
-                "Lieberman JD",
-                "Peitcheva T"
-            ],
-            "publication": "researchgate.net",
-            "citation_count": 408
-        }
-    },
-    "paper_32_info": {
-        "reference_32": {
-            "searched_title": "Social position and fairness views",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3805292",
-            "date": "2021",
-            "abs": "We link survey data containing Danish people's perceptions of where they rank in various reference groups and fairness views with administrative records on their income history, life events, and reference groups. People know their income positions well, but believe others are closer to themselves than they really are. The perceived fairness of inequalities is strongly related to current social position, moves with shocks to social position (eg, unemployment or promotions), and changes when people are experimentally shown their actual positions. People view inequalities within education group and co-workers as most unfair, but underestimate inequality the most exactly within these reference groups.",
-            "authors": [
-                "Hvidberg KB",
-                "Kreiner C",
-                "Stantcheva S"
-            ],
-            "publication": "papers.ssrn.com",
-            "citation_count": 95
-        }
-    },
-    "paper_33_info": {
-        "reference_33": {
-            "searched_title": "Using priming manipulations to affect time preferences and risk aversion: an experimental study",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2214804314000925",
-            "date": "2014",
-            "abs": "The objective of this paper is to test how priming manipulation affects time preference (subjective discount rates) and risk aversion. In this study, we exposed subjects to visual (pictorial) and textual priming for vacation and for old age in order to influence their time preference. The results indicate that our pictorial priming manipulations did affect time preference and subjective discount rates: vacation scenes increased present preference, and pictures of older people reduced present preference. The pictorial priming with vacation …",
-            "authors": [
-                "Israel A",
-                "Rosenboim M",
-                "Shavit T"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 40
-        }
-    },
-    "paper_34_info": {
-        "reference_34": {
-            "searched_title": "The relation between culture and response styles: evidence from 19 countries",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0022022104272905",
-            "date": "2005",
-            "abs": "The authors investigated at the country level the effects of four cultural orientations identified and studied by Hofstede on two commonly recognized response biases: extreme response style and acquiescent responding. Data are presented from approximately 18,000 survey questionnaires completed by employees in 19 nations on five continents (Australia, Belgium, Brazil, Czech Republic, Germany, Hungary, India, Japan, Malaysia, Portugal, Turkey, the United Kingdom, Mexico, the Philippines, Poland, Singapore, Hong Kong, France, and Italy). Hierarchical linear modeling was employed to examine the associations between person-level response styles and country-level cultural orientations. Consistent with theoretical expectations, power distance and masculinity were found to be positively and independently associated with extreme response style. Individualism, uncertainty avoidance, power distance, and masculinity were each found to be negatively associated with acquiescent response behavior. Further research is needed to identify how question characteristics might interact with cultural orientations to influence response behavior.",
-            "authors": [
-                "Johnson T",
-                "Kulesa P",
-                "Cho YI",
-                "Shavitt S"
-            ],
-            "publication": "journals.sagepub.com",
-            "citation_count": 881
-        }
-    },
-    "paper_35_info": {
-        "reference_35": {
-            "searched_title": "Structural equation modeling with ordinal variables using LISREL",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.researchgate.net/profile/Karl-Joereskog/publication/254206917_Structural_Equation_Modeling_with_Ordinal_Variables_using_LISREL/links/54d52d230cf24647580710aa/Structural-Equation-Modeling-with-Ordinal-Variables-using-LISREL.pdf",
-            "date": "2005",
-            "abs": "… To use ordinal variables in structural equation models requires other techniques … variables. In this paper I will illustrate how one can analyze ordinal variables with PRELIS and LISREL. …",
-            "authors": [
-                "Joreskog KG"
-            ],
-            "publication": "researchgate.net",
-            "citation_count": 697
-        }
-    },
-    "paper_36_info": {
-        "reference_36": {
-            "searched_title": "Richer (and holier) than thou? The effect of relative income improvements on demand for redistribution",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://direct.mit.edu/rest/article-abstract/99/2/201/58387",
-            "date": "2017",
-            "abs": "We use a tailor-made survey on a Swedish sample to investigate how individuals' relative income affects their demand for redistribution. We first document that a majority misperceive their position in the income distribution and believe that they are poorer, relative to others, than they actually are. We then inform a subsample about their true relative income and find that individuals who are richer than they initially thought demand less redistribution. This result is driven by individuals with prior right-of-center political preferences who view taxes …",
-            "authors": [
-                "Karadja M",
-                "Mollerstrom J",
-                "Seim D"
-            ],
-            "publication": "direct.mit.edu",
-            "citation_count": 457
-        }
-    },
-    "paper_37_info": {
-        "reference_37": {
-            "searched_title": "Survey research",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.annualreviews.org/content/journals/10.1146/annurev.psych.50.1.537",
-            "date": "1999",
-            "abs": "… Self-administered mail surveys wereclearly undesirable, … best to implement surveys andenhance the value of research findings … First, researchers whouse the survey method to study …",
-            "authors": [
-                "Krosnick JA"
-            ],
-            "publication": "annualreviews.org",
-            "citation_count": 3845
-        }
-    },
-    "paper_38_info": {
-        "reference_38": {
-            "searched_title": "Satisficing in surveys: initial evidence",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ev.1033",
-            "date": "1996",
-            "abs": "A new theoretical perspective proposes that various survey response patterns occur partly because respondents shortcut the cognitive processes necessary for generating optimal answers and that these shortcuts are directed by cues in the questions.",
-            "authors": [
-                "Krosnick JA",
-                "Narayan S",
-                "Smith WR"
-            ],
-            "publication": "Wiley Online Library",
-            "citation_count": 597
-        }
-    },
-    "paper_39_info": {
-        "reference_39": {
-            "searched_title": "How elastic are preferences for redistribution? Evidence from randomized survey experiments",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20130360",
-            "date": "2015",
-            "abs": "We analyze randomized online survey experiments providing interactive, customized information on US income inequality, the link between top income tax rates and economic growth, and the estate tax. The treatment has large effects on views about inequality but only slightly moves tax and transfer policy preferences. An exception is the estate tax—informing respondents of the small share of decedents who pay it doubles support for it. The small effects for all other policies can be partially explained by respondents' low trust in …",
-            "authors": [
-                "Kuziemko I",
-                "Norton M",
-                "Saez E",
-                "Stantcheva S"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 1430
-        }
-    },
-    "paper_40_info": {
-        "reference_40": {
-            "searched_title": "Information frictions among firms and households",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0304393223000120",
-            "date": "2023",
-            "abs": "Using surveys of German firms and households, we document novel stylized facts about the extent of information frictions among the two groups. First, firms’ expectations about macroeconomic variables are closer to expert forecasts and less dispersed than households’, consistent with higher information frictions among households. Second, the degree of dispersion and the distance from expert forecasts varies more across groups of households than across groups of firms. Third, firms update their policy rate expectations less than households when provided with an expert forecast, consistent with firms holding stronger priors. Our results have implications for modeling choices, macroeconomic dynamics, and policies.",
-            "authors": [
-                "Link S",
-                "Peichl A",
-                "Roth C",
-                "Wohlfart J"
-            ],
-            "publication": "Elsevier",
-            "citation_count": 96
-        }
-    },
-    "paper_41_info": {
-        "reference_41": {
-            "searched_title": "“Illegal,” “undocumented,” or “unauthorized”: equivalency frames, issue frames, and public opinion on immigration",
-            "scholar_status": "Success (Similarity: 99.56%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.cambridge.org/core/journals/perspectives-on-politics/article/illegal-undocumented-or-unauthorized-equivalency-frames-issue-frames-and-public-opinion-on-immigration/2DCBA83F6C25DB76C07EED45022E81AB",
-            "date": "2013",
-            "abs": "Immigration has been a salient and contentious topic in the United States, with a great deal of congressional debate, advocacy efforts, and media coverage. Among conservative and liberal groups, there is a vigorous debate over the terms used to describe this population, such as “undocumented” or “illegal,” as both sides perceive significant consequences to public opinion that flow out of this choice in equivalency frames. These same groups also compete over the ways in which immigration policies are framed. Here, for the first time, we examine the use of both types of frames (of immigrants themselves, and the policies affecting them) in media coverage. Importantly, we also test for whether these various frames affect preferences on three different policies of legalization. Our results suggest that efforts to focus on the terms used to describe immigrants have limited effect, and that efforts to frame policy offer greater promise in swaying public opinion on immigration.",
-            "authors": [
-                "Merolla J",
-                "Ramakrishnan SK",
-                "Haynes C"
-            ],
-            "publication": "cambridge.org",
-            "citation_count": 306
-        }
-    },
-    "paper_42_info": {
-        "reference_42": {
-            "searched_title": "Dealing with extreme response style in cross-cultural research: a restricted latent class factor analysis approach",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-9531.2011.01238.x",
-            "date": "2011",
-            "abs": "Cross-cultural comparison of attitudes using rating scales may be seriously biased by response styles. This paper deals with statistical methods for detection of and correction for extreme response style (ERS), which is one of the well-documented response styles. After providing an overview of available statistical methods for dealing with ERS, we argue that the latent class factor analysis (LCFA) approach proposed by Moors (2003) has several advantages compared to other methods. Moors' method involves defining a latent variable model which, in addition to the substantive factors of interest, contains an ERS factor. In LCFA the observed ratings can be treated as nominal responses, which is necessary for modeling ERS. We find strong evidence for the presence of ERS and, moreover, find that the groups differ not only in their attitudes but also in ERS. These findings underscore the importance of controlling for ERS when examining attitudes in cross-cultural research.",
-            "authors": [
-                "Morren M",
-                "Gelissen JP",
-                "Vermunt JK"
-            ],
-            "publication": "journals.sagepub.com",
-            "citation_count": 97
-        }
-    },
-    "paper_43_info": {
-        "reference_43": {
-            "searched_title": "Optimizing survey questionnaire design in political science: insights from psychology",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/edited-volume/34390/chapter-abstract/291626493",
-            "date": "2010",
-            "abs": "This article provides a summary of the literature's suggestions on survey design research. In doing so, it points researchers toward question formats that appear to yield the highest measurement reliability and validity. Using the American National Election Studies as a starting point, it shows the general principles of good questionnaire design, desirable choices to make when designing new questions, biases in some question formats and ways to avoid them, and strategies for reporting survey results. Finally, it offers a discussion of strategies for measuring voter turnout in particular, as a case study that poses special challenges. Scholars designing their own surveys should not presume that previously written questions are the best ones to use. Applying best practices in questionnaire design will yield more accurate data and more accurate substantive findings about the nature and origins of mass political behavior.",
-            "authors": [
-                "Pasek J",
-                "Krosnick J"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 133
-        }
-    },
-    "paper_44_info": {
-        "reference_44": {
-            "searched_title": "Writing survey questions",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.torrossa.com/gs/resourceProxy?an=4913115&publisher=FZ7200#page=550",
-            "date": "2012",
-            "abs": "… Poorly written questions, those that are lengthy or double-… cover the basics of writing effective survey questions. We start with … -ended questions; the types of closed-ended questions; the …",
-            "authors": [
-                "Pew Res. Cent."
-            ],
-            "publication": "torrossa.com",
-            "citation_count": 15
-        }
-    },
-    "paper_45_info": {
-        "reference_45": {
-            "searched_title": "Agenda-setting, priming, and framing revisited: another look at cognitive effects of political communication",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.tandfonline.com/doi/abs/10.1207/s15327825mcs0323_07",
-            "date": "2000",
-            "abs": "Agenda-setting, priming, and framing research generally has been examined under the broad category of cognitive media effects. As a result, studies often either examine all 3 approaches in a single study or employ very similar research designs, paying little attention to conceptual differences or differences in the levels of analysis under which each approach is operating. In this article, I revisit agenda-setting, priming, and framing as distinctively different approaches to effects of political communication. Specifically, I argue against more recent attempts to subsume all 3 approaches under the broad concept of agenda-setting and for a more careful explication of the concepts and of their theoretical premises and roots in social psychology and political psychology. Consequently, it calls for a reformulation of relevant research questions and a systematic categorization of research on agenda-setting, priming, and framing. An analytic model is developed that should serve as a guideline for future research in these areas.",
-            "authors": [
-                "Scheufele DA"
-            ],
-            "publication": "Taylor & Francis",
-            "citation_count": 2534
-        }
-    },
-    "paper_46_info": {
-        "reference_46": {
-            "searched_title": "“How many cases do I need?” On science and the logic of case selection in field-based research",
-            "scholar_status": "Success (Similarity: 98.40%)",
-            "arxiv_id": "N/A",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/1466138108099586",
-            "date": "2009",
-            "abs": "Today, ethnographers and qualitative researchers in fields such as urban poverty, immigration, and social inequality face an environment in which their work will be read, cited, and assessed by demographers, quantitative sociologists, and even economists. They also face a demand for case studies of poor, minority, or immigrant groups and neighborhoods that not only generate theory but also somehow speak to empirical conditions in other cases (not observed). Many have responded by incorporating elements of quantitative methods into their designs, such as selecting respondents `at random' for small, in-depth interview projects or identifying `representative' neighborhoods for ethnographic case studies, aiming to increase generalizability. This article assesses these strategies and argues that they fall short of their objectives. Recognizing the importance of the predicament underlying the strategies — to determine how case studies can speak empirically to other cases — it presents two alternatives to current practices, and calls for greater clarity in the logic of design when producing ethnographic research in a multi-method intellectual environment.",
-            "authors": [
-                "Small ML"
-            ],
-            "publication": "journals.sagepub.com",
-            "citation_count": 3264
-        }
-    },
-    "paper_47_info": {
-        "reference_47": {
-            "searched_title": "Understanding tax policy: How do people reason?",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://academic.oup.com/qje/article-abstract/136/4/2309/6363701",
-            "date": "2021",
-            "abs": "I study how people understand, reason, and learn about two major tax policies: income taxation and estate taxation. Using large-scale social economics surveys issued to representative U.S. samples and associated experiments, I elicit respondents’ factual knowledge about tax policy and the income or wealth distributions. Most important, I study their understanding of the mechanisms of tax policy and the reasoning that underlies their policy views. In decomposing policy views, I find that support for income and estate taxes is most strongly correlated with social preferences, that is, the perceived benefits of redistribution and concerns around the fairness of inequality and taxation, as well as with broader views of the government. Efficiency concerns play a more minor role. These correlational patterns are confirmed by the experimental approach, which shows people instructional videos that explain the workings and consequences of one of the aspects of tax policy (the Redistribution and the Efficiency treatments) or that bring the two together and focus on the trade-off (the Economist treatment). The Redistribution and Economist treatments significantly increase support for more progressive income or estate taxes, while the Efficiency treatment has no effect. There are large partisan gaps in both the final policy views and at every step of the reasoning about the underlying mechanisms of taxes. Democrats’ and Republicans’ divergences in tax policy views can ultimately be traced back to different normative criteria (social preferences) and views of the government, rather than to different perceptions of the efficiency implications of taxation.",
-            "authors": [
-                "Stantcheva S"
-            ],
-            "publication": "academic.oup.com",
-            "citation_count": 485
-        }
-    },
-    "paper_48_info": {
-        "reference_48": {
-            "searched_title": "Understanding of trade",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.nber.org/papers/w30040",
-            "date": "2022",
-            "abs": "… understand trade and trade policy, and which factors shape their support for different trade … have documented the efficiency gains from trade and its distributional impacts on different …",
-            "authors": [
-                "Stantcheva S"
-            ],
-            "publication": "nber.org",
-            "citation_count": 64
-        }
-    },
-    "paper_49_info": {
-        "reference_49": {
-            "searched_title": "Designing valid and reliable vignette experiments for survey research: a case study on the fair gender income gap",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://journals.uair.arizona.edu/index.php/jmmss/article/view/20321/0",
-            "date": "2016",
-            "abs": "In survey research, vignette experiments typically employ short, systematically varied descriptions of situations or persons (called vignettes) to elicit the beliefs, attitudes, or behaviors of respondents with respect to the presented scenarios. Using a case study on the fair gender income gap in Austria, we discuss how different design elements can be used to increase a vignette experiment’s validity and reliability. With respect to the experimental design, the design elements considered include a confounded factorial design, a between-subjects factor, anchoring vignettes, and blocking by respondent strata and interviewers. The design elements for the sampling and survey design consist of stratification, covariate measurements, and the systematic assignment of vignette sets to respondents and interviewers. Moreover, the vignettes’ construct validity is empirically validated with respect to the real gender income gap in Austria. We demonstrate how a broad range of design elements can successfully increase a vignette study’s validity and reliability.",
-            "authors": [
-                "Steiner P",
-                "Atzmuller C",
-                "Su D"
-            ],
-            "publication": "journals.uair.arizona.edu",
-            "citation_count": 373
-        }
-    },
-    "paper_50_info": {
-        "reference_50": {
-            "searched_title": "Counting the hard to count in a census: select topics in international censuses",
-            "scholar_status": "Failed (Best match similarity 47.83% is below threshold 80.00%)"
-        }
-    },
-    "paper_51_info": {
-        "reference_51": {
-            "searched_title": "The subjective inflation expectations of households and firms: measurement, determinants, and implications",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://www.aeaweb.org/articles?id=10.1257/jep.36.3.157",
-            "date": "2022",
-            "abs": "Households’ and firms’ subjective inflation expectations play a central role in macroeconomic and intertemporal microeconomic models. We discuss how subjective inflation expectations are measured, the patterns they display, their determinants, and how they shape households’ and firms’ economic choices in the data and help us make sense of the observed heterogeneous reactions to business-cycle shocks and policy interventions. We conclude by highlighting the relevant open questions and why tackling them is important for academic research and policymaking.",
-            "authors": [
-                "Weber M",
-                "D'Acunto F",
-                "Gorodnichenko Y",
-                "Coibion O"
-            ],
-            "publication": "aeaweb.org",
-            "citation_count": 306
-        }
-    },
-    "paper_52_info": {
-        "reference_52": {
-            "searched_title": "Adjustment for acquiescence in the assessment of the construct equivalence of Likert-type score items",
-            "scholar_status": "Success (Similarity: 100.00%)",
-            "arxiv_id": "N/A",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0022022103257070",
-            "date": "2003",
-            "abs": "Survey research often uses Liker-type score items to measure respondents' attitudes with respect to certain topics. This type of item has been shown to be susceptible to an acquiescent response bias. The purpose of this article is to point out the importance of controlling for this type of response bias when evaluating the equivalence of the construct measured by the items across (cultural) groups. More specifically, it is shown how and when omitting a factor accounting for the acquiescent response bias leads to a biased assessment of the invariance of the loadings of the content factor across the groups under study. On the basis of these results, a procedure for controlling for acquiescence is proposed and illustrated on a large data set of nine West European countries.",
-            "authors": [
-                "Welkenhuysen-Gybels J",
-                "Billiet J",
-                "Cambré B"
-            ],
-            "publication": "journals.sagepub.com",
-            "citation_count": 222
-        }
-    }
+  "reference_1": {
+    "title": "Perceptions of racial gaps, their causes, and ways to reduce them",
+    "date": "2021",
+    "authors": [
+      "Alesina A",
+      "Ferroni MF",
+      "Stantcheva S"
+    ],
+    "publication": "nber.org",
+    "citation_count": 88,
+    "abs": "… on perceptions, attitudes, and policy views on racial issues and … along racial and partisan lines in perceived racial gaps in … in how people explain the existence of these gaps, ie, their …"
+  },
+  "reference_2": {
+    "title": "Immigration and redistribution",
+    "date": "2023",
+    "authors": [
+      "Alesina A",
+      "Miano A",
+      "Stantcheva S"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 944,
+    "abs": "Does immigration change support for redistribution? We design and conduct large-scale surveys and experiments in six countries to investigate how people perceive immigrants and …"
+  },
+  "reference_3": {
+    "title": "Intergenerational mobility and preferences for redistribution",
+    "date": "2018",
+    "authors": [
+      "Alesina A",
+      "Stantcheva S",
+      "Teso E"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 1238,
+    "abs": "Using new cross-country survey and experimental data, we investigate how beliefs about intergenerational mobility affect preferences for redistribution in France, Italy, Sweden, the United Kingdom, and the United States. Americans are more optimistic than Europeans about social mobility. Our randomized treatment shows pessimistic information about mobility and increases support for redistribution, mostly for “equality of opportunity” policies. We find strong political polarization. Left-wing respondents are more pessimistic about …"
+  },
+  "reference_4": {
+    "title": "Evaluating behaviorally motivated policy: experimental evidence from the lightbulb market",
+    "date": "2015",
+    "authors": [
+      "Allcott H",
+      "Taubinsky D"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 634,
+    "abs": "Imperfect information and inattention to energy costs are important potential motivations for energy efficiency standards and subsidies. We evaluate these motivations in the lightbulb market using a theoretical model and two randomized experiments. We derive welfare effects as functions of reduced-form sufficient statistics capturing economic and psychological parameters, which we estimate using a novel within-subject information disclosure experiment. The main results suggest that moderate subsidies for energy-efficient lightbulbs may increase welfare, but informational and attentional biases alone do not justify a ban on incandescent lightbulbs. Our results and techniques generate broader methodological insights into welfare analysis with misoptimizing consumers. (JEL D12, D83, H21, H31, L67, Q41, Q48)"
+  },
+  "reference_5": {
+    "title": "Priming effects in complex information environments: reassessing the impact of news discourse on presidential approval",
+    "date": "2006",
+    "authors": [
+      "Althaus SL",
+      "Kim YM"
+    ],
+    "publication": "journals.uchicago.edu",
+    "citation_count": 268,
+    "abs": "This paper revisits the original psychological literature on priming in order to assess new possibilities for research on priming effects stimulated by news discourse. We detail some important theoretical limitations of existing priming research; propose a method for studying the dynamics of priming effects in real-world, complex information environments; and illustrate the usefulness of this approach with a case study of opinion change during the 1990–91 Persian Gulf Crisis. This case study documents for the first time the daily dynamics of priming effects in a complex information environment and confirms that priming effects are not merely a function of changes in the volume of news coverage about a given topic. Our findings suggest that news priming effects can be produced by changes in the applicability of relevant knowledge constructs, rather than merely by their temporary accessibility in long-term memory, and by cumulative as well as recent exposure to news coverage."
+  },
+  "reference_6": {
+    "title": "The number of choice tasks and survey satisficing in conjoint experiments",
+    "date": "2018",
+    "authors": [
+      "Bansak K",
+      "Hainmueller J",
+      "Hopkins DJ",
+      "Yamamoto T"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 303,
+    "abs": "In recent years, political and social scientists have made increasing use of conjoint survey designs to study decision-making. Here, we study a consequential question which researchers confront when implementing conjoint designs: How many choice tasks can respondents perform before survey satisficing degrades response quality? To answer the question, we run a set of experiments where respondents are asked to complete as many as 30 conjoint tasks. Experiments conducted through Amazon's Mechanical Turk and Survey …"
+  },
+  "reference_7": {
+    "title": "The mind in the middle: a practical guide to priming and automaticity research",
+    "date": "2000",
+    "authors": [
+      "Bargh JA",
+      "Chartrand TL"
+    ],
+    "publication": "books.google.com",
+    "citation_count": 2934,
+    "abs": "Though it might be hard for fledgling researchers of today to believe, for most of the 20th century, invok-ing cognitive mechanisms and processes to explain and model psychological phenomena was not allowed. The reason for this was because the only known research technique to examine these internal mental states was introspection and self-report. This method was seen to be fatally flawed in that an objective outside observer could not make the measurements, and so the data could not be independently verified. Other sciences did not confuse the observer with the observed, and so, it was said, neither should psychology if it wanted to be considered a science. In his book, The Ghost in the Ma-chine, Arthur Koestler (1967) observed that this dedicated neglect of its natural subject matter caused psychology to go nowhere, at a time in history when the other sciences, in contrast, were making giant strides forward."
+  },
+  "reference_8": {
+    "title": "Evaluating online labor markets for experimental research: Amazon.com's Mechanical Turk",
+    "date": "2012",
+    "authors": [
+      "Berinsky AJ",
+      "Huber GA",
+      "Lenz GS"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 5440,
+    "abs": "We examine the trade-offs associated with using Amazon.com's Mechanical Turk (MTurk) interface for subject recruitment. We first describe MTurk and its promise as a vehicle for performing low-cost and easy-to-field experiments. We then assess the internal and external validity of experiments performed using MTurk, employing a framework that can be used to evaluate other subject pools. We first investigate the characteristics of samples drawn from the MTurk population. We show that respondents recruited in this manner are often more representative of the U.S. population than in-person convenience samples—the modal sample in published experimental political science—but less representative than subjects in Internet-based panels or national probability samples. Finally, we replicate important published experimental work using MTurk samples."
+  },
+  "reference_9": {
+    "title": "Modeling acquiescence in measurement models for two balanced sets of items",
+    "date": "2000",
+    "authors": [
+      "Billiet JB",
+      "McClendon MJ"
+    ],
+    "publication": "Taylor & Francis",
+    "citation_count": 512,
+    "abs": "This article concerns a number of conditions that must be met before reaching a conclusion about the existence of the agreement component of a response style called acquiescence. The focus is on the specification of a common style factor behind at least 2 independent theoretical concepts, each measured by a balanced set of items. The proposed approach is explored with a random subsample (N = 986) from a large-scale survey, and subsequently confirmed in another subsample (N = 992) from the same population (Flanders) and in a random sample (N = 1,055) from a different population (Wallonia). The strong relation in both populations of the latent style factor with a variable \"sum of agreements\" supports the idea that it is possible to control for acquiescence in structural equations."
+  },
+  "reference_10": {
+    "title": "Response biases in standardised surveys",
+    "date": "2016",
+    "authors": [
+      "Bogner K",
+      "Landrock U"
+    ],
+    "publication": "core.ac.uk",
+    "citation_count": 92,
+    "abs": "Response biases are present in standardised surveys when values collected from, or reported by, respondents systematically deviate from the actual, true values. Response biases are therefore potential sources of error in social science surveys. They occur when respondents react not only to the content of the survey question-the question stimulus-but also to other factors. These factors can be found in the most diverse elements of a survey. They may be lie in the respondent him-or herself, in the interview situation, or in the survey instrument. Response bias that lies in the respondent him-or herself is often a consequence of satisficing. Respondents who have a tendency to satisfice when answering questions are motivated by a desire to reduce their cognitive effort. This results in response biases such as acquiescence or moderacy bias. In the case of socially desirable responding, respondents orient themselves towards social norms in order to answer in the way in which they assume that the interviewer expects them to answer. Respondents who display extreme response bias tend to choose the extreme rating categories irrespective of the content of the question. The second source of response bias is the interview situation: Response bias also occurs when response behaviour is dependent on the situation. When respondents react to characteristics or behaviours of the interviewer, these reactions are known as interviewer effects. By contrast, the term presence effect is used when the respondent's response behaviour is dependent on the presence of third parties. The third source of response bias is the survey instrument: The way in which the questions in the questionnaire are formulated, and the order of the questions and the response alternatives in the questionnaire may influence response behaviour-for example as halo, primacy, or recency effects-and may lead to response biases."
+  },
+  "reference_11": {
+    "title": "Choosing your pond: location choices and relative income",
+    "date": "2022",
+    "authors": [
+      "Bottan NL",
+      "Perez-Truglia R"
+    ],
+    "publication": "direct.mit.edu",
+    "citation_count": 88,
+    "abs": "Do individuals care about their relative income? While this is a long-standing hypothesis, revealed-preference evidence remains elusive. We provide a unique test by studying residential choices: individuals often must choose between places with different income distributions, and as a result they “choose” their relative income. We conducted a field experiment with 1,080 senior medical students who participated in the National Resident Matching Program. We estimate their preferences by combining choice data, survey data on perceptions, and information-provision experiments. The evidence suggests that individuals care about their relative income and that these preferences differ across single and nonsingle individuals."
+  },
+  "reference_12": {
+    "title": "U.S. public opinion on immigration and immigration threat",
+    "date": null,
+    "authors": [],
+    "publication": null,
+    "citation_count": 0,
+    "abs": null
+  },
+  "reference_13": {
+    "title": "The Phantom Respondents: Opinion Surveys and Political Representation",
+    "date": "1994",
+    "authors": [
+      "Brehm J"
+    ],
+    "publication": "JSTOR",
+    "citation_count": 0,
+    "abs": "… survey errors. Brehm proceeds directly from discussing the importance of surveys to political … of potential error in the data we collect through surveys. Chapter 2, \"Who Is Missing?\" turns …"
+  },
+  "reference_14": {
+    "title": "Multigroup comparisons and the assumption of equivalent construct validity across groups: methodological and substantive issues",
+    "date": "1989",
+    "authors": [
+      "Byrne BM"
+    ],
+    "publication": "Taylor & Francis",
+    "citation_count": 192,
+    "abs": "The purposes of this article are (a) to compare construct validity findings from Campbell-Fiske and LISREL confirmatory factor analyses (CFA) of a multitrait-multimethod matrix for each of two groups, and then to test for construct validity equivalence across groups -- the methodological issue, and (b) to demonstrate how construct validity can differ across groups -- the substantive issue. Multidimensional self-concept (general, academic, English, mathematics) responses to three types of measurement scales (Likert, semantic differential, Guttman) for low- and high4rack grade 11 and 12 students provided the exemplary data base. Methodologically, findings demonstrate the superiority of CFA over the Campbell-Fiske approach by (a) providing more detailed evidence of construct validity within groups, and (b) testing for the equivalency of construct validity across groups. Substantively, the findings illustrate that the assumption of group-invariant construct validity cannot be taken for granted; differences were found in both the measurement and structure of self-concept. Results bear importantly on the validity of findings based on multigroup comparisons."
+  },
+  "reference_15": {
+    "title": "Testing for the equivalence of factor covariance and mean structures: the issue of partial measurement invariance",
+    "date": "1989",
+    "authors": [
+      "Byrne BM",
+      "Shavelson RJ",
+      "Muthen B"
+    ],
+    "publication": "psycnet.apa.org",
+    "citation_count": 5303,
+    "abs": "Addresses issues related to partial measurement invariance using a tutorial approach based on the {lisrel} confirmatory factor analytic model. Specifically, we demonstrate procedures for (a) using\" sensitivity analyses\" to establish stable and substantively well-fitting baseline models,(b) determining partially invariant measurement parameters, and (c) testing for the invariance of factor covariance and mean structures, given partial measurement invariance. We also show, explicitly, the transformation of parameters from an all-X to an all-Y model specification, for purposes of testing mean structures. These procedures are illustrated with multidimensional self-concept data from low (n= 248) and high (n= 582) academically tracked high school adolescents.(PsycINFO Database Record (c) 2019 APA, all rights reserved)"
+  },
+  "reference_16": {
+    "title": "Assessing extreme and acquiescence response sets in cross-cultural research using structural equations modeling",
+    "date": "2000",
+    "authors": [
+      "Cheung GW",
+      "Rensvold RB"
+    ],
+    "publication": "journals.sagepub.com",
+    "citation_count": 839,
+    "abs": "Extreme response styles (ERS) and acquiescence response styles (ARS) may constitute important sources of cross-cultural differences on survey-type instruments. Differences in ERS and ARS, if undetected, may give rise to spurious results that do not reflect genuine differences in attitudes or perceptions. Multiple-group confirmatory factor analysis is recommended as the most effective method of testing for ERS and ARS and determining whether cultural groups can be meaningfully compared on the basis of factor (latent) means. A detailed numerical example is provided."
+  },
+  "reference_17": {
+    "title": "Increasing precision without altering treatment effects: repeated measures designs in survey experiments",
+    "date": "2021",
+    "authors": [
+      "Clifford S",
+      "Sheagley G",
+      "Piston S"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 254,
+    "abs": "The use of survey experiments has surged in political science. The most common design is the between-subjects design in which the outcome is only measured posttreatment. This design relies heavily on recruiting a large number of subjects to precisely estimate treatment effects. Alternative designs that involve repeated measurements of the dependent variable promise greater precision, but they are rarely used out of fears that these designs will yield different results than a standard design (e.g., due to consistency pressures). Across six studies, we assess this conventional wisdom by testing experimental designs against each other. Contrary to common fears, repeated measures designs tend to yield the same results as more common designs while substantially increasing precision. These designs also offer new insights into treatment effect size and heterogeneity. We conclude by encouraging researchers to adopt repeated measures designs and providing guidelines for when and how to use them."
+  },
+  "reference_18": {
+    "title": "Evidence for countercyclical risk aversion: an experiment with financial professionals",
+    "date": "2015",
+    "authors": [
+      "Cohn A",
+      "Engelmann J",
+      "Fehr E",
+      "Marechal MA"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 701,
+    "abs": "Countercyclical risk aversion can explain major puzzles such as the high volatility of asset prices. Evidence for its existence is, however, scarce because of the host of factors that simultaneously change during financial cycles. We circumvent these problems by priming financial professionals with either a boom or a bust scenario. Subjects primed with a financial bust were substantially more fearful and risk averse than those primed with a boom, suggesting that fear may play an important role in countercyclical risk aversion. The mechanism described here is relevant for theory and may explain self-reinforcing processes that amplify market dynamics. (JEL E32, E44, G01, G11, G12)"
+  },
+  "reference_19": {
+    "title": "Priming in economics",
+    "date": "2016",
+    "authors": [
+      "Cohn A",
+      "Marechal MA"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 221,
+    "abs": "… priming studies, with a focus on one of the most prominent applications of priming within economics… one fertile area for future priming research is the investigation of economic and social …"
+  },
+  "reference_20": {
+    "title": "Information equivalence in survey experiments",
+    "date": "2018",
+    "authors": [
+      "Dafoe A",
+      "Zhang B",
+      "Caughey D"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 377,
+    "abs": "Survey experiments often manipulate the description of attributes in a hypothetical scenario, with the goal of learning about those attributes’ real-world effects. Such inferences rely on an underappreciated assumption: experimental conditions must be information equivalent (IE) with respect to background features of the scenario. IE is often violated because subjects, when presented with information about one attribute, update their beliefs about others too. Labeling a country “a democracy,” for example, affects subjects’ beliefs about the country’s geographic location. When IE is violated, the effect of the manipulation need not correspond to the quantity of interest (the effect of beliefs about the focal attribute). We formally define the IE assumption, relating it to the exclusion restriction in instrumental-variable analysis. We show how to predict IE violations ex ante and diagnose them ex post with placebo tests. We evaluate three strategies for achieving IE. Abstract encouragement is ineffective. Specifying background details reduces imbalance on the specified details and highly correlated details, but not others. Embedding a natural experiment in the scenario can reduce imbalance on all background beliefs, but raises other issues. We illustrate with four survey experiments, focusing on an extension of a prominent study of the democratic peace."
+  },
+  "reference_21": {
+    "title": "Using item response theory to measure extreme response style in marketing research: a global investigation",
+    "date": "2008",
+    "authors": [
+      "DeJong MG",
+      "Steenkamp JBE",
+      "Fox JP",
+      "Baumgartner H"
+    ],
+    "publication": "journals.sagepub.com",
+    "citation_count": 377,
+    "abs": "Extreme response style (ERS) is an important threat to the validity of survey-based marketing research. In this article, the authors present a new item response theory–based model for measuring ERS. This model contributes to the ERS literature in two ways. First, the method improves on existing procedures by allowing different items to be differentially useful for measuring ERS and by accommodating the possibility that an item's usefulness differs across groups (e.g., countries). Second, the model integrates an advanced item response theory measurement model with a structural hierarchical model for studying antecedents of ERS. The authors simultaneously estimate a person's ERS score and individual- and group-level (country) drivers of ERS. Through simulations, they show that the new method improves on traditional procedures. They further apply the model to a large data set consisting of 12,506 consumers from 26 countries on four continents. The findings show that the model extensions are necessary to model the data adequately. Finally, they report substantive results about the effects of sociodemographic and national-cultural variables on ERS."
+  },
+  "reference_22": {
+    "title": "Fighting climate change: international attitudes toward climate policies",
+    "date": "2022",
+    "authors": [
+      "Dechezlepretre A",
+      "Fabre A",
+      "Kruse T",
+      "Planterose B",
+      "Sanchez Chico A",
+      "Stantcheva S"
+    ],
+    "publication": "nber.org",
+    "citation_count": 492,
+    "abs": "… policies, examining factors that influence support for climate … new international data on attitudes towards climate change … affecting policy support: perceived effectiveness of policies in …"
+  },
+  "reference_23": {
+    "title": "Internet, Phone, Mail, and Mixed-Mode Surveys: The Tailored Design Method",
+    "date": "2014",
+    "authors": [
+      "Dillman D",
+      "Smyth J",
+      "Christian L"
+    ],
+    "publication": "ingentaconnect.com",
+    "citation_count": 19411,
+    "abs": "… mixed-mode surveys. La publicación de un artículo sobre la materia en una obra de referencia (Dillman y Messer, 2010) ha podido influir en tal decisión, desplazando un resumen de …"
+  },
+  "reference_24": {
+    "title": "Time discounting and wealth inequality",
+    "date": "2020",
+    "authors": [
+      "Epper T",
+      "Fehr E",
+      "Fehr-Duda H",
+      "Kreiner CT",
+      "Lassen DD",
+      "et al."
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 187,
+    "abs": "… , and we analyze whether time discounting is associated with wealth inequality after controlling for credit constraints and other factors measuring the slope of the budget constraint. …"
+  },
+  "reference_25": {
+    "title": "Time varying risk aversion",
+    "date": "2018",
+    "authors": [
+      "Guiso L",
+      "Sapienza P",
+      "Zingales L"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 1247,
+    "abs": "Exploiting portfolio data and repeated surveys of an Italian bank's clients, we test whether investors’ risk aversion increases following the 2008 crisis. We find that, after the crisis, both …"
+  },
+  "reference_26": {
+    "title": "Labor market concerns and support for immigration",
+    "date": "2020",
+    "authors": [
+      "Haaland I",
+      "Roth C"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 231,
+    "abs": "Do labor market concerns affect support for immigration? Using a large, representative sample of the US population, we first elicit beliefs about the labor market impact of immigration. To generate exogenous variation in beliefs, we then provide respondents in the treatment group with research evidence showing no adverse labor market impacts of immigration. Treated respondents update their beliefs and become more supportive of immigration, as measured by self-reported policy views and petition signatures. Treatment effects also persist in an obfuscated follow-up study. Our results demonstrate that information about the labor market impact of immigration causally affects support for immigration."
+  },
+  "reference_27": {
+    "title": "Beliefs about racial discrimination and support for pro-Black policies",
+    "date": "2023",
+    "authors": [
+      "Haaland I",
+      "Roth C"
+    ],
+    "publication": "direct.mit.edu",
+    "citation_count": 165,
+    "abs": "This paper provides representative evidence on beliefs about racial discrimination and examines whether information causally affects support for pro-black policies. Eliciting quantitative beliefs about the extent of hiring discrimination against blacks, we uncover large disagreement about the extent of racial discrimination with particularly pronounced partisan differences. An information treatment leads to a convergence in beliefs about racial discrimination but does not lead to a similar convergence in support of pro-black policies. The results demonstrate that while providing information can substantially reduce disagreement about the extent of racial discrimination, it is not sufficient to reduce disagreement about pro-black policies."
+  },
+  "reference_28": {
+    "title": "Designing information provision experiments",
+    "date": "2023",
+    "authors": [
+      "Haaland I",
+      "Roth C",
+      "Wohlfart J"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 812,
+    "abs": "Information provision experiments allow researchers to test economic theories and answer policy-relevant questions by varying the information set available to respondents. We survey the emerging literature using information provision experiments in economics and discuss applications in macroeconomics, finance, political economy, public economics, labor economics, and health economics. We also discuss design considerations and provide best-practice recommendations on how to (i) measure beliefs; (ii) design the information intervention; (iii) measure belief updating; (iv) deal with potential confounds, such as experimenter demand effects; and (v) recruit respondents using online panels. We finally discuss typical effect sizes and provide sample size recommendations.(JEL C90, D83, D91)"
+  },
+  "reference_29": {
+    "title": "Validating vignette and conjoint survey experiments against real-world behavior",
+    "date": "2015",
+    "authors": [
+      "Hainmueller J",
+      "Hangartner D",
+      "Yamamoto T"
+    ],
+    "publication": "pnas.org",
+    "citation_count": 1564,
+    "abs": "Survey experiments, like vignette and conjoint analyses, are widely used in the social sciences to elicit stated preferences and study how humans make multidimensional choices. However, there is a paucity of research on the external validity of these methods that examines whether the determinants that explain hypothetical choices made by survey respondents match the determinants that explain what subjects actually do when making similar choices in real-world situations. This study compares results from conjoint and vignette analyses on which immigrant attributes generate support for naturalization with closely corresponding behavioral data from a natural experiment in Switzerland, where some municipalities used referendums to decide on the citizenship applications of foreign residents. Using a representative sample from the same population and the official descriptions of applicant characteristics that voters received before each referendum as a behavioral benchmark, we find that the effects of the applicant attributes estimated from the survey experiments perform remarkably well in recovering the effects of the same attributes in the behavioral benchmark. We also find important differences in the relative performances of the different designs. Overall, the paired conjoint design, where respondents evaluate two immigrants side by side, comes closest to the behavioral benchmark; on average, its estimates are within 2% percentage points of the effects in the behavioral benchmark."
+  },
+  "reference_30": {
+    "title": "Causal inference in conjoint analysis: understanding multidimensional choices via stated preference experiments",
+    "date": "2014",
+    "authors": [
+      "Hainmueller J",
+      "Hopkins DJ",
+      "Yamamoto T"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 2208,
+    "abs": "Survey experiments are a core tool for causal inference. Yet, the design of classical survey experiments prevents them from identifying which components of a multidimensional treatment are influential. Here, we show how conjoint analysis, an experimental design yet to be widely applied in political science, enables researchers to estimate the causal effects of multiple treatment components and assess several causal hypotheses simultaneously. In conjoint analysis, respondents score a set of alternatives, where each has randomly varied attributes. Here, we undertake a formal identification analysis to integrate conjoint analysis with the potential outcomes framework for causal inference. We propose a new causal estimand and show that it can be nonparametrically identified and easily estimated from conjoint data using a fully randomized design. The analysis enables us to propose diagnostic checks for the identification assumptions. We then demonstrate the value of these techniques through empirical applications to voter decision making and attitudes toward immigrants."
+  },
+  "reference_31": {
+    "title": "A comparison of different online sampling approaches for generating national samples",
+    "date": "2014",
+    "authors": [
+      "Heen M",
+      "Lieberman JD",
+      "Peitcheva T"
+    ],
+    "publication": "researchgate.net",
+    "citation_count": 408,
+    "abs": "Online (internet) surveys provide a new and evolving method for measuring public opinion on a local, national, and international level. Compared to traditional survey approaches (eg, face-to-face, mail, and telephone surveys), online surveys offer the advantages of speed, efficiency, and lower costs in data collection (see Dillman, Smyth, & Christian, 2008). To serve both consumer marketing and academic interests, various commercial venders now provide the technical means to collect online survey data from the general public and specific subgroups. However, an important question about these commercial sources for conducting survey research is the extent to which they provide representative samples of their targeted populations.This Research in Brief summarizes the results of a comparative study of different commercial platforms for generating online sampling frames and the representativeness of their samples. Multiple national surveys were conducted using Survey Monkey, Qualtrics, and Mechanical Turk as the source for recruiting survey respondents. By comparing the sociodemographic profile of the sample respondents obtained from each platform with national census data, this study provides some evidence of the representativeness of different online strategies for recruiting and selecting potential survey respondents. The final section of this report describes the limitations of the study and offers some particular ways that researchers may improve the generalizability of online survey results."
+  },
+  "reference_32": {
+    "title": "Social position and fairness views",
+    "date": "2021",
+    "authors": [
+      "Hvidberg KB",
+      "Kreiner C",
+      "Stantcheva S"
+    ],
+    "publication": "papers.ssrn.com",
+    "citation_count": 95,
+    "abs": "We link survey data containing Danish people's perceptions of where they rank in various reference groups and fairness views with administrative records on their income history, life events, and reference groups. People know their income positions well, but believe others are closer to themselves than they really are. The perceived fairness of inequalities is strongly related to current social position, moves with shocks to social position (eg, unemployment or promotions), and changes when people are experimentally shown their actual positions. People view inequalities within education group and co-workers as most unfair, but underestimate inequality the most exactly within these reference groups."
+  },
+  "reference_33": {
+    "title": "Using priming manipulations to affect time preferences and risk aversion: an experimental study",
+    "date": "2014",
+    "authors": [
+      "Israel A",
+      "Rosenboim M",
+      "Shavit T"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 40,
+    "abs": "The objective of this paper is to test how priming manipulation affects time preference (subjective discount rates) and risk aversion. In this study, we exposed subjects to visual (pictorial) and textual priming for vacation and for old age in order to influence their time preference. The results indicate that our pictorial priming manipulations did affect time preference and subjective discount rates: vacation scenes increased present preference, and pictures of older people reduced present preference. The pictorial priming with vacation …"
+  },
+  "reference_34": {
+    "title": "The relation between culture and response styles: evidence from 19 countries",
+    "date": "2005",
+    "authors": [
+      "Johnson T",
+      "Kulesa P",
+      "Cho YI",
+      "Shavitt S"
+    ],
+    "publication": "journals.sagepub.com",
+    "citation_count": 881,
+    "abs": "The authors investigated at the country level the effects of four cultural orientations identified and studied by Hofstede on two commonly recognized response biases: extreme response style and acquiescent responding. Data are presented from approximately 18,000 survey questionnaires completed by employees in 19 nations on five continents (Australia, Belgium, Brazil, Czech Republic, Germany, Hungary, India, Japan, Malaysia, Portugal, Turkey, the United Kingdom, Mexico, the Philippines, Poland, Singapore, Hong Kong, France, and Italy). Hierarchical linear modeling was employed to examine the associations between person-level response styles and country-level cultural orientations. Consistent with theoretical expectations, power distance and masculinity were found to be positively and independently associated with extreme response style. Individualism, uncertainty avoidance, power distance, and masculinity were each found to be negatively associated with acquiescent response behavior. Further research is needed to identify how question characteristics might interact with cultural orientations to influence response behavior."
+  },
+  "reference_35": {
+    "title": "Structural equation modeling with ordinal variables using LISREL",
+    "date": "2005",
+    "authors": [
+      "Joreskog KG"
+    ],
+    "publication": "researchgate.net",
+    "citation_count": 697,
+    "abs": "… To use ordinal variables in structural equation models requires other techniques … variables. In this paper I will illustrate how one can analyze ordinal variables with PRELIS and LISREL. …"
+  },
+  "reference_36": {
+    "title": "Richer (and holier) than thou? The effect of relative income improvements on demand for redistribution",
+    "date": "2017",
+    "authors": [
+      "Karadja M",
+      "Mollerstrom J",
+      "Seim D"
+    ],
+    "publication": "direct.mit.edu",
+    "citation_count": 457,
+    "abs": "We use a tailor-made survey on a Swedish sample to investigate how individuals' relative income affects their demand for redistribution. We first document that a majority misperceive their position in the income distribution and believe that they are poorer, relative to others, than they actually are. We then inform a subsample about their true relative income and find that individuals who are richer than they initially thought demand less redistribution. This result is driven by individuals with prior right-of-center political preferences who view taxes …"
+  },
+  "reference_37": {
+    "title": "Survey research",
+    "date": "1999",
+    "authors": [
+      "Krosnick JA"
+    ],
+    "publication": "annualreviews.org",
+    "citation_count": 3845,
+    "abs": "… Self-administered mail surveys wereclearly undesirable, … best to implement surveys andenhance the value of research findings … First, researchers whouse the survey method to study …"
+  },
+  "reference_38": {
+    "title": "Satisficing in surveys: initial evidence",
+    "date": "1996",
+    "authors": [
+      "Krosnick JA",
+      "Narayan S",
+      "Smith WR"
+    ],
+    "publication": "Wiley Online Library",
+    "citation_count": 597,
+    "abs": "A new theoretical perspective proposes that various survey response patterns occur partly because respondents shortcut the cognitive processes necessary for generating optimal answers and that these shortcuts are directed by cues in the questions."
+  },
+  "reference_39": {
+    "title": "How elastic are preferences for redistribution? Evidence from randomized survey experiments",
+    "date": "2015",
+    "authors": [
+      "Kuziemko I",
+      "Norton M",
+      "Saez E",
+      "Stantcheva S"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 1430,
+    "abs": "We analyze randomized online survey experiments providing interactive, customized information on US income inequality, the link between top income tax rates and economic growth, and the estate tax. The treatment has large effects on views about inequality but only slightly moves tax and transfer policy preferences. An exception is the estate tax—informing respondents of the small share of decedents who pay it doubles support for it. The small effects for all other policies can be partially explained by respondents' low trust in …"
+  },
+  "reference_40": {
+    "title": "Information frictions among firms and households",
+    "date": "2023",
+    "authors": [
+      "Link S",
+      "Peichl A",
+      "Roth C",
+      "Wohlfart J"
+    ],
+    "publication": "Elsevier",
+    "citation_count": 96,
+    "abs": "Using surveys of German firms and households, we document novel stylized facts about the extent of information frictions among the two groups. First, firms’ expectations about macroeconomic variables are closer to expert forecasts and less dispersed than households’, consistent with higher information frictions among households. Second, the degree of dispersion and the distance from expert forecasts varies more across groups of households than across groups of firms. Third, firms update their policy rate expectations less than households when provided with an expert forecast, consistent with firms holding stronger priors. Our results have implications for modeling choices, macroeconomic dynamics, and policies."
+  },
+  "reference_41": {
+    "title": "“Illegal,” “undocumented,” or “unauthorized”: equivalency frames, issue frames, and public opinion on immigration",
+    "date": "2013",
+    "authors": [
+      "Merolla J",
+      "Ramakrishnan SK",
+      "Haynes C"
+    ],
+    "publication": "cambridge.org",
+    "citation_count": 306,
+    "abs": "Immigration has been a salient and contentious topic in the United States, with a great deal of congressional debate, advocacy efforts, and media coverage. Among conservative and liberal groups, there is a vigorous debate over the terms used to describe this population, such as “undocumented” or “illegal,” as both sides perceive significant consequences to public opinion that flow out of this choice in equivalency frames. These same groups also compete over the ways in which immigration policies are framed. Here, for the first time, we examine the use of both types of frames (of immigrants themselves, and the policies affecting them) in media coverage. Importantly, we also test for whether these various frames affect preferences on three different policies of legalization. Our results suggest that efforts to focus on the terms used to describe immigrants have limited effect, and that efforts to frame policy offer greater promise in swaying public opinion on immigration."
+  },
+  "reference_42": {
+    "title": "Dealing with extreme response style in cross-cultural research: a restricted latent class factor analysis approach",
+    "date": "2011",
+    "authors": [
+      "Morren M",
+      "Gelissen JP",
+      "Vermunt JK"
+    ],
+    "publication": "journals.sagepub.com",
+    "citation_count": 97,
+    "abs": "Cross-cultural comparison of attitudes using rating scales may be seriously biased by response styles. This paper deals with statistical methods for detection of and correction for extreme response style (ERS), which is one of the well-documented response styles. After providing an overview of available statistical methods for dealing with ERS, we argue that the latent class factor analysis (LCFA) approach proposed by Moors (2003) has several advantages compared to other methods. Moors' method involves defining a latent variable model which, in addition to the substantive factors of interest, contains an ERS factor. In LCFA the observed ratings can be treated as nominal responses, which is necessary for modeling ERS. We find strong evidence for the presence of ERS and, moreover, find that the groups differ not only in their attitudes but also in ERS. These findings underscore the importance of controlling for ERS when examining attitudes in cross-cultural research."
+  },
+  "reference_43": {
+    "title": "Optimizing survey questionnaire design in political science: insights from psychology",
+    "date": "2010",
+    "authors": [
+      "Pasek J",
+      "Krosnick J"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 133,
+    "abs": "This article provides a summary of the literature's suggestions on survey design research. In doing so, it points researchers toward question formats that appear to yield the highest measurement reliability and validity. Using the American National Election Studies as a starting point, it shows the general principles of good questionnaire design, desirable choices to make when designing new questions, biases in some question formats and ways to avoid them, and strategies for reporting survey results. Finally, it offers a discussion of strategies for measuring voter turnout in particular, as a case study that poses special challenges. Scholars designing their own surveys should not presume that previously written questions are the best ones to use. Applying best practices in questionnaire design will yield more accurate data and more accurate substantive findings about the nature and origins of mass political behavior."
+  },
+  "reference_44": {
+    "title": "Writing survey questions",
+    "date": "2012",
+    "authors": [
+      "Pew Res. Cent."
+    ],
+    "publication": "torrossa.com",
+    "citation_count": 15,
+    "abs": "… Poorly written questions, those that are lengthy or double-… cover the basics of writing effective survey questions. We start with … -ended questions; the types of closed-ended questions; the …"
+  },
+  "reference_45": {
+    "title": "Agenda-setting, priming, and framing revisited: another look at cognitive effects of political communication",
+    "date": "2000",
+    "authors": [
+      "Scheufele DA"
+    ],
+    "publication": "Taylor & Francis",
+    "citation_count": 2534,
+    "abs": "Agenda-setting, priming, and framing research generally has been examined under the broad category of cognitive media effects. As a result, studies often either examine all 3 approaches in a single study or employ very similar research designs, paying little attention to conceptual differences or differences in the levels of analysis under which each approach is operating. In this article, I revisit agenda-setting, priming, and framing as distinctively different approaches to effects of political communication. Specifically, I argue against more recent attempts to subsume all 3 approaches under the broad concept of agenda-setting and for a more careful explication of the concepts and of their theoretical premises and roots in social psychology and political psychology. Consequently, it calls for a reformulation of relevant research questions and a systematic categorization of research on agenda-setting, priming, and framing. An analytic model is developed that should serve as a guideline for future research in these areas."
+  },
+  "reference_46": {
+    "title": "“How many cases do I need?” On science and the logic of case selection in field-based research",
+    "date": "2009",
+    "authors": [
+      "Small ML"
+    ],
+    "publication": "journals.sagepub.com",
+    "citation_count": 3264,
+    "abs": "Today, ethnographers and qualitative researchers in fields such as urban poverty, immigration, and social inequality face an environment in which their work will be read, cited, and assessed by demographers, quantitative sociologists, and even economists. They also face a demand for case studies of poor, minority, or immigrant groups and neighborhoods that not only generate theory but also somehow speak to empirical conditions in other cases (not observed). Many have responded by incorporating elements of quantitative methods into their designs, such as selecting respondents `at random' for small, in-depth interview projects or identifying `representative' neighborhoods for ethnographic case studies, aiming to increase generalizability. This article assesses these strategies and argues that they fall short of their objectives. Recognizing the importance of the predicament underlying the strategies — to determine how case studies can speak empirically to other cases — it presents two alternatives to current practices, and calls for greater clarity in the logic of design when producing ethnographic research in a multi-method intellectual environment."
+  },
+  "reference_47": {
+    "title": "Understanding tax policy: How do people reason?",
+    "date": "2021",
+    "authors": [
+      "Stantcheva S"
+    ],
+    "publication": "academic.oup.com",
+    "citation_count": 485,
+    "abs": "I study how people understand, reason, and learn about two major tax policies: income taxation and estate taxation. Using large-scale social economics surveys issued to representative U.S. samples and associated experiments, I elicit respondents’ factual knowledge about tax policy and the income or wealth distributions. Most important, I study their understanding of the mechanisms of tax policy and the reasoning that underlies their policy views. In decomposing policy views, I find that support for income and estate taxes is most strongly correlated with social preferences, that is, the perceived benefits of redistribution and concerns around the fairness of inequality and taxation, as well as with broader views of the government. Efficiency concerns play a more minor role. These correlational patterns are confirmed by the experimental approach, which shows people instructional videos that explain the workings and consequences of one of the aspects of tax policy (the Redistribution and the Efficiency treatments) or that bring the two together and focus on the trade-off (the Economist treatment). The Redistribution and Economist treatments significantly increase support for more progressive income or estate taxes, while the Efficiency treatment has no effect. There are large partisan gaps in both the final policy views and at every step of the reasoning about the underlying mechanisms of taxes. Democrats’ and Republicans’ divergences in tax policy views can ultimately be traced back to different normative criteria (social preferences) and views of the government, rather than to different perceptions of the efficiency implications of taxation."
+  },
+  "reference_48": {
+    "title": "Understanding of trade",
+    "date": "2022",
+    "authors": [
+      "Stantcheva S"
+    ],
+    "publication": "nber.org",
+    "citation_count": 64,
+    "abs": "… understand trade and trade policy, and which factors shape their support for different trade … have documented the efficiency gains from trade and its distributional impacts on different …"
+  },
+  "reference_49": {
+    "title": "Designing valid and reliable vignette experiments for survey research: a case study on the fair gender income gap",
+    "date": "2016",
+    "authors": [
+      "Steiner P",
+      "Atzmuller C",
+      "Su D"
+    ],
+    "publication": "journals.uair.arizona.edu",
+    "citation_count": 373,
+    "abs": "In survey research, vignette experiments typically employ short, systematically varied descriptions of situations or persons (called vignettes) to elicit the beliefs, attitudes, or behaviors of respondents with respect to the presented scenarios. Using a case study on the fair gender income gap in Austria, we discuss how different design elements can be used to increase a vignette experiment’s validity and reliability. With respect to the experimental design, the design elements considered include a confounded factorial design, a between-subjects factor, anchoring vignettes, and blocking by respondent strata and interviewers. The design elements for the sampling and survey design consist of stratification, covariate measurements, and the systematic assignment of vignette sets to respondents and interviewers. Moreover, the vignettes’ construct validity is empirically validated with respect to the real gender income gap in Austria. We demonstrate how a broad range of design elements can successfully increase a vignette study’s validity and reliability."
+  },
+  "reference_50": {
+    "title": "Counting the hard to count in a census: select topics in international censuses",
+    "date": null,
+    "authors": [],
+    "publication": null,
+    "citation_count": 0,
+    "abs": null
+  },
+  "reference_51": {
+    "title": "The subjective inflation expectations of households and firms: measurement, determinants, and implications",
+    "date": "2022",
+    "authors": [
+      "Weber M",
+      "D'Acunto F",
+      "Gorodnichenko Y",
+      "Coibion O"
+    ],
+    "publication": "aeaweb.org",
+    "citation_count": 306,
+    "abs": "Households’ and firms’ subjective inflation expectations play a central role in macroeconomic and intertemporal microeconomic models. We discuss how subjective inflation expectations are measured, the patterns they display, their determinants, and how they shape households’ and firms’ economic choices in the data and help us make sense of the observed heterogeneous reactions to business-cycle shocks and policy interventions. We conclude by highlighting the relevant open questions and why tackling them is important for academic research and policymaking."
+  },
+  "reference_52": {
+    "title": "Adjustment for acquiescence in the assessment of the construct equivalence of Likert-type score items",
+    "date": "2003",
+    "authors": [
+      "Welkenhuysen-Gybels J",
+      "Billiet J",
+      "Cambré B"
+    ],
+    "publication": "journals.sagepub.com",
+    "citation_count": 222,
+    "abs": "Survey research often uses Liker-type score items to measure respondents' attitudes with respect to certain topics. This type of item has been shown to be susceptible to an acquiescent response bias. The purpose of this article is to point out the importance of controlling for this type of response bias when evaluating the equivalence of the construct measured by the items across (cultural) groups. More specifically, it is shown how and when omitting a factor accounting for the acquiescent response bias leads to a biased assessment of the invariance of the loadings of the content factor across the groups under study. On the basis of these results, a procedure for controlling for acquiescence is proposed and illustrated on a large data set of nine West European countries."
+  }
 }

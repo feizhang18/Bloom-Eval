@@ -65,6 +65,34 @@ def get_llm_response(client: OpenAI, model: str, message: List[Dict], log_file: 
         print(f"Error: API call failed: {e}")
         return "{}"
 
+
+def iter_reference_entries(data: Dict) -> List[Dict]:
+    """Return reference entries from both legacy and flattened schemas."""
+    entries = []
+
+    if "reference_num" in data:
+        for i in range(1, data.get("reference_num", 0) + 1):
+            paper_key = f"paper_{i}_info"
+            ref_key = f"reference_{i}"
+            ref_info = data.get(paper_key, {}).get(ref_key, {})
+            if isinstance(ref_info, dict):
+                entries.append(ref_info)
+        return entries
+
+    def reference_index(item: tuple[str, Dict]) -> int:
+        key, _ = item
+        try:
+            return int(key.rsplit("_", 1)[1])
+        except (IndexError, ValueError):
+            return 0
+
+    for key, ref_info in sorted(data.items(), key=reference_index):
+        if key.startswith("reference_") and isinstance(ref_info, dict):
+            entries.append(ref_info)
+
+    return entries
+
+
 def load_and_prepare_docs(file_path: str) -> List[str]:
     """Read reference JSON and concatenate title and abstract."""
     if not os.path.exists(file_path):
@@ -73,9 +101,13 @@ def load_and_prepare_docs(file_path: str) -> List[str]:
     try:
         data = load_json(file_path)
         documents = [
-            re.sub(r'\s+', ' ', (v_inner.get('searched_title', '') + ". " + v_inner.get('abs', ''))).strip()
-            for k, v in data.items() if k.startswith('paper_') and isinstance(v, dict)
-            for v_inner in v.values() if isinstance(v_inner, dict) and v_inner.get('searched_title') and v_inner.get('abs', '').strip().upper() != 'N/A'
+            re.sub(
+                r'\s+',
+                ' ',
+                f"{(ref_info.get('title') or ref_info.get('searched_title', ''))}. {ref_info.get('abs', '')}",
+            ).strip()
+            for ref_info in iter_reference_entries(data)
+            if (ref_info.get("title") or ref_info.get("searched_title")) and ref_info.get('abs', '').strip().upper() != 'N/A'
         ]
         return documents
     except Exception as e:
