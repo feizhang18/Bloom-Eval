@@ -1,0 +1,2001 @@
+{
+    "reference_num": 127,
+    "paper_1_info": {
+        "reference_1": {
+            "searched_title": "Nonconjugated Redox-Active Polymers: Electron Transfer Mechanisms, Energy Storage, and Chemical Versatility.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/aca2487834aad2e6ef5b592cc5549bb8caf81236",
+            "date": "2023",
+            "abs": "The storage of electric energy in a safe and environmentally friendly way is of ever-growing importance for a modern, technology-based society. With future pressures predicted for batteries that contain strategic metals, there is increasing interest in metal-free electrode materials. Among candidate materials, nonconjugated redox-active polymers (NC-RAPs) have advantages in terms of cost-effectiveness, good processability, unique electrochemical properties, and precise tuning for different battery chemistries. Here, we review the current state of the art regarding the mechanisms of redox kinetics, molecular design, synthesis, and application of NC-RAPs in electrochemical energy storage and conversion. Different redox chemistries are compared, including polyquinones, polyimides, polyketones, sulfur-containing polymers, radical-containing polymers, polyphenylamines, polyphenazines, polyphenothiazines, polyphenoxazines, and polyviologens. We close with cell design principles considering electrolyte optimization and cell configuration. Finally, we point to fundamental and applied areas of future promise for designer NC-RAPs.",
+            "authors": [
+                "Tingang Ma",
+                "et al."
+            ],
+            "publication": "Annual Review of Chemical and Biomolecular Engineering",
+            "citation_count": 19
+        }
+    },
+    "paper_2_info": {
+        "reference_2": {
+            "searched_title": "RNAs as Sensors of Oxidative Stress in Bacteria.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/995a699217b4eedc2e4ada3d24f01089e2d8487a",
+            "date": "2023",
+            "abs": "Oxidative stress is an important and pervasive physical stress encountered by all kingdoms of life, including bacteria. In this review, we briefly describe the nature of oxidative stress, highlight well-characterized protein-based sensors (transcription factors) of reactive oxygen species that serve as standards for molecular sensors in oxidative stress, and describe molecular studies that have explored the potential of direct RNA sensitivity to oxidative stress. Finally, we describe the gaps in knowledge of RNA sensors-particularly regarding the chemical modification of RNA nucleobases. RNA sensors are poised to emerge as an essential layer of understanding and regulating dynamic biological pathways in oxidative stress responses in bacteria and, thus, also represent an important frontier of synthetic biology.",
+            "authors": [
+                "Ryan Buchser",
+                "et al."
+            ],
+            "publication": "Annual Review of Chemical and Biomolecular Engineering",
+            "citation_count": 15
+        }
+    },
+    "paper_3_info": {
+        "reference_3": {
+            "searched_title": "Engineering Innovations, Challenges, and Opportunities for Lignocellulosic Biorefineries: Leveraging Biobased Polymer Production.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/14b8ff1f00f04c7f74ac6662462c8f0a4e79098a",
+            "date": "2023",
+            "abs": "Alternative polymer feedstocks are highly desirable to address environmental, social, and security concerns associated with petrochemical-based materials. Lignocellulosic biomass (LCB) has emerged as one critical feedstock in this regard because it is an abundant and ubiquitous renewable resource, which can be deconstructed to generate valuable fuels, chemicals, and small molecules/oligomers that are amenable to modification and polymerization. However, the diversity of LCB complicates the evaluation of biorefinery concepts in areas including process scale-up, production outputs, plant economics, and life-cycle management. We discuss aspects of current LCB biorefinery research with a focus on the major process stages, including feedstock selection, fractionation/deconstruction, and characterization, along with product purification, functionalization, and polymerization to manufacture valuable macromolecular materials. We highlight opportunities to valorize underutilized and complex feedstocks, leverage advanced characterization techniques to predict and manage biorefinery outputs, and increase the fraction of biomass converted into valuable products. Expected final online publication date for the Annual Review of Chemical and Biomolecular Engineering, Volume 14 is June 2023. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+            "authors": [
+                "Alison J. Shapiro",
+                "et al."
+            ],
+            "publication": "Annual Review of Chemical and Biomolecular Engineering",
+            "citation_count": 21
+        }
+    },
+    "paper_4_info": {
+        "reference_4": {
+            "searched_title": "Active Colloids as Models, Materials, and Machines.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/52b4f99c7adce7d7d63ee869248eec7bf1c87dec",
+            "date": "2023",
+            "abs": "Active colloids use energy input at the particle level to propel persistent motion and direct dynamic assemblies. We consider three types of colloids animated by chemical reactions, time-varying magnetic fields, and electric currents. For each type, we review the basic propulsion mechanisms at the particle level and discuss their consequences for collective behaviors in particle ensembles. These microscopic systems provide useful experimental models of nonequilibrium many-body physics in which dissipative currents break time-reversal symmetry. Freed from the constraints of thermodynamic equilibrium, active colloids assemble to form materials that move, reconfigure, heal, and adapt. Colloidal machines based on engineered particles and their assemblies provide a basis for mobile robots with increasing levels of autonomy. This review provides a conceptual framework for understanding and applying active colloids to create material systems that mimic the functions of living matter. We highlight opportunities for chemical engineers to contribute to this growing field. Expected final online publication date for the Annual Review of Chemical and Biomolecular Engineering, Volume 14 is June 2023. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+            "authors": [
+                "K. Bishop",
+                "et al."
+            ],
+            "publication": "Annual Review of Chemical and Biomolecular Engineering",
+            "citation_count": 54
+        }
+    },
+    "paper_5_info": {
+        "reference_5": {
+            "searched_title": "Electrochemical Manufacturing Routes for Organic Chemical Commodities.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/62466bd4ed73a44eabf1f35781cfe88d145f31f5",
+            "date": "2023",
+            "abs": "Electrochemical synthesis of organic chemical commodities provides an alternative to conventional thermochemical manufacturing and enables the direct use of renewable electricity to reduce greenhouse gas emissions from the chemical industry. We discuss electrochemical synthesis approaches that use abundant carbon feedstocks for the production of the largest petrochemical precursors and basic organic chemical products: light olefins, olefin oxidation derivatives, aromatics, and methanol. First, we identify feasible routes for the electrochemical production of each commodity while considering the reaction thermodynamics, available feedstocks, and competing thermochemical processes. Next, we summarize successful catalysis and reaction engineering approaches to overcome technological challenges that prevent electrochemical routes from operating at high production rates, selectivity, stability, and energy conversion efficiency. Finally, we provide an outlook on the strategies that must be implemented to achieve large-scale electrochemical manufacturing of major organic chemical commodities. Expected final online publication date for the Annual Review of Chemical and Biomolecular Engineering, Volume 14 is June 2023. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+            "authors": [
+                "Ricardo Mathison",
+                "et al."
+            ],
+            "publication": "Annual Review of Chemical and Biomolecular Engineering",
+            "citation_count": 8
+        }
+    },
+    "paper_6_info": {
+        "reference_6": {
+            "searched_title": "Scale-Up of Photochemical Reactions: Transitioning from Lab Scale to Industrial Production.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/df60bc663dd3ad76274d99a4a40be5bdef5c6a36",
+            "date": "2023",
+            "abs": "In the past two decades, we have witnessed a rapid emergence of new and powerful photochemical and photocatalytic synthetic methods. Although these methods have been used mostly on a small scale, there is a growing need for efficient scale-up of photochemistry in the chemical industry. This review summarizes and contextualizes the advancements made in the past decade regarding the scale-up of photo-mediated synthetic transformations. Simple scale-up concepts and important fundamental photochemical laws have been provided along with a discussion concerning suitable reactor designs that should facilitate scale-up of this challenging class of organic reactions. Expected final online publication date for the Annual Review of Chemical and Biomolecular Engineering, Volume 14 is June 2023. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+            "authors": [
+                "Stefan D. A. Zondag",
+                "et al."
+            ],
+            "publication": "Annual Review of Chemical and Biomolecular Engineering",
+            "citation_count": 53
+        }
+    },
+    "paper_7_info": {
+        "reference_7": {
+            "searched_title": "Peptide-Based Vectors: A Biomolecular Engineering Strategy for Gene Delivery.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/2beb50fca2811edb9148c88f3bc90bd0121c1d8a",
+            "date": "2023",
+            "abs": "From the first clinical trial by Dr. W.F. Anderson to the most recent US Food and Drug Administration-approved Luxturna (Spark Therapeutics, 2017) and Zolgensma (Novartis, 2019), gene therapy has revamped thinking and practice around cancer treatment and improved survival rates for adult and pediatric patients with genetic diseases. A major challenge to advancing gene therapies for a broader array of applications lies in safely delivering nucleic acids to their intended sites of action. Peptides offer unique potential to improve nucleic acid delivery based on their versatile and tunable interactions with biomolecules and cells. Cell-penetrating peptides and intracellular targeting peptides have received particular focus due to their promise for improving the delivery of gene therapies into cells. We highlight key examples of peptide-assisted, targeted gene delivery to cancer-specific signatures involved in tumor growth and subcellular organelle-targeting peptides, as well as emerging strategies to enhance peptide stability and bioavailability that will support long-term implementation. Expected final online publication date for the Annual Review of Chemical and Biomolecular Engineering, Volume 14 is June 2023. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+            "authors": [
+                "Sandeep Urandur",
+                "et al."
+            ],
+            "publication": "Annual Review of Chemical and Biomolecular Engineering",
+            "citation_count": 11
+        }
+    },
+    "paper_8_info": {
+        "reference_8": {
+            "searched_title": "Extensive characterization of choline chloride and its solid-liquid equilibrium with water.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/460dd9d923e34eb4737b992fc2d4bfd7bfcafed8",
+            "date": "2022",
+            "abs": "The importance of choline chloride (ChCl) is recognized due to its widespread use in the formulation of deep eutectic solvents. The controlled addition of water in deep eutectic solvents has been proposed to overcome some of the major drawbacks of these solvents, namely their high hygroscopicities and viscosities. Recently, aqueous solutions of ChCl at specific mole ratios have been presented as a novel, low viscous deep eutectic solvent. Nevertheless, these proposals are suggested without any information about the solid-liquid phase diagram of this system or the deviations from the thermodynamic ideality of its precursors. This work contributes significantly to this matter as the phase behavior of pure ChCl and (ChCl + H2O) binary mixtures was investigated by calorimetric and analytical techniques. The thermal behavior and stability of ChCl were studied by polarized light optical microscopy and differential scanning calorimetry, confirming the existence of a solid-solid transition at 352.2 ± 0.6 K. Additionally, heat capacity measurements of pure ChCl (covering both ChCl solid phases) and aqueous solutions of ChCl (xChCl < 0.4) were performed using a heat-flow differential scanning microcalorimeter or a high-precision heat capacity drop calorimeter, allowing the estimation of a heat capacity change of (ChCl) ≈ 39.3 ± 10 J K-1 mol-1, between the hypothetical liquid and the observed crystalline phase at 298.15 K. The solid-liquid phase diagram of the ChCl + water mixture was investigated in the whole concentration range by differential scanning calorimetry and the analytical shake-flask method. The phase diagram obtained for the mixture shows an eutectic temperature of 204 K, at a mole fraction of choline chloride close to xChCl = 0.2, and a shift of the solid-solid transition of ChCl-water mixtures of 10 K below the value observed for pure choline chloride, suggesting the appearance of a new crystalline structure of ChCl in the presence of water, as confirmed by X-ray diffraction. The liquid phase presents significant negative deviations to ideality for water while COSMO-RS predicts a near ideal behaviour for ChCl.",
+            "authors": [
+                "Ana I M C Lobo Ferreira",
+                "et al."
+            ],
+            "publication": "Physical Chemistry, Chemical Physics - PCCP",
+            "citation_count": 19
+        }
+    },
+    "paper_9_info": {
+        "reference_9": {
+            "searched_title": "Deep Eutectic Solvents or Eutectic Mixtures? Characterization of Tetrabutylammonium Bromide and Nonanoic Acid Mixtures",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/30c8b2c27cc98feeba35035cc15268d167ff2837",
+            "date": "2022",
+            "abs": "Deep eutectic solvents have quickly attracted the attention of researchers because they better meet the requirements of green chemistry and thus have the potential to replace conventional hazardous organic solvents in some areas. To better understand the nature of these mixtures, as well as expand the possibilities of their use in different industries, a detailed examination of their physical properties, such as density, viscosity, the nature of the interactions between their constituents, the phase diagrams, depression of their melting point, and interpretation of these results is necessary. In this work, the mixtures of tetrabutylammonium bromide (TBAB) and nonanoic acid (NA) in different molar ratios are theoretically and experimentally investigated by applying a phase diagram constructed on the basis of differential scanning calorimetry measurements and COSMO-RS model. Spectral properties are investigated based on Fourier transform infrared spectroscopy and density functional theory. The observed eutectic point indicates the formation of a DES in the TBAB−NA system in a 1:2 molar ratio. This is due to the presence of hydrogen bonds between the carboxyl group from the NA molecule and the bromine atom from the TBAB molecule. Other eutectic mixtures are most likely the solutions of TBAB in NA, in which hydrogen bonds predominate between acid molecules.",
+            "authors": [
+                "A. Shishov",
+                "et al."
+            ],
+            "publication": "Journal of Physical Chemistry B",
+            "citation_count": 53
+        }
+    },
+    "paper_10_info": {
+        "reference_10": {
+            "searched_title": "Liquefying Flavonoids with Terpenoids through Deep Eutectic Solvent Formation",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/8e8ffd69b29e51279597987813e829dfc4519337",
+            "date": "2022",
+            "abs": "The formation of deep eutectic solvents (DES) is tied to negative deviations to ideality caused by the establishment of stronger interactions in the mixture than in the pure DES precursors. This work tested thymol and menthol as hydrogen bond donors when combined with different flavonoids. Negative deviations from ideality were observed upon mixing thymol with either flavone or flavanone, two parent flavonoids that only have hydrogen bond acceptor (HBA) groups, thus forming non-ionic DES (Type V). On the other hand, the menthol systems with the same compounds generally showed positive deviations from ideality. That was also the case with the mixtures containing the more complex hydroxylated flavonoid, hesperetin, which resulted in positive deviations when mixed with either thymol or menthol. COSMO-RS successfully predicted the behavior of the solid-liquid phase diagram of the studied systems, allowing for evaluation of the impact of the different contributions to the intermolecular interactions, and proving to be a good tool for the design of DES.",
+            "authors": [
+                "Gabriela S. Teixeira",
+                "et al."
+            ],
+            "publication": "Molecules",
+            "citation_count": 15
+        }
+    },
+    "paper_11_info": {
+        "reference_11": {
+            "searched_title": "Remarks on use of the term “deep eutectic solvent” in analytical chemistry",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/3d997bed70c50ea3546701a20db8cab7c2238265",
+            "date": "2022",
+            "abs": "N/A",
+            "authors": [
+                "V. Andruch",
+                "et al."
+            ],
+            "publication": "Microchemical journal (Print)",
+            "citation_count": 35
+        }
+    },
+    "paper_12_info": {
+        "reference_12": {
+            "searched_title": "Nanostructuring and macroscopic behavior of type V deep eutectic solvents based on monoterpenoids.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/b4f4b3f961549f6547918de76a9a996bc885c050",
+            "date": "2021",
+            "abs": "Type V natural deep eutectic solvents based on monoterpenoids (cineole, carvone, menthol, and thymol) are studied using a combined experimental and molecular modeling approach. The reported physicochemical properties showed low viscous fluids whose properties were characterized as a function of temperature. The theoretical study combining quantum chemistry and classical molecular dynamics simulations provided a nanoscopic characterization of the fluids, particularly for the hydrogen bonding network and its relationship with the macroscopic properties. The considered fluids constitute a suitable type of solvents considering their properties, cost, origin, and sustainability in different technological applications and sow the possibility of developing type V NADES from different types of molecules, especially in the terpenoid family of compounds.",
+            "authors": [
+                "Lorena Zamora",
+                "et al."
+            ],
+            "publication": "Physical Chemistry, Chemical Physics - PCCP",
+            "citation_count": 25
+        }
+    },
+    "paper_13_info": {
+        "reference_13": {
+            "searched_title": "Deep eutectic solvents microbial toxicity: Current state of art and critical evaluation of testing methods.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/32e3098542c58e89a43f072874fa2ce49ab0eae1",
+            "date": "2021",
+            "abs": "N/A",
+            "authors": [
+                "M. Marchel",
+                "et al."
+            ],
+            "publication": "Journal of Hazardous Materials",
+            "citation_count": 107
+        }
+    },
+    "paper_14_info": {
+        "reference_14": {
+            "searched_title": "Deep Eutectic Solvents: Are They Safe?",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/65c0d4acde8095e7c17bdcd2755abc644c0cf6f9",
+            "date": "2021",
+            "abs": "Deep eutectic solvents (DESs) are a relatively new type of solvent that have attracted the attention of the scientific community due to their environmentally friendly properties and their versatility in many applications. Many possible DESs have been described and, thus, it is not easy to unequivocally characterize and generalize their properties. This is especially important in the case of the (eco)toxicity information that can be found for these mixtures. In this review, we collect data on the human and environmental toxicity of DESs, with the aim of gathering and exploring the behavioral patterns of DESs. The toxicity data found were analyzed attending to different factors: hydrogen bond donors or acceptors that form part of the eutectic mixture, pH, and the presence of organic acids in the DES molar ratio of the components, or interactions with natural compounds. In the case of ecotoxicity, results generally depend on the biomodel studied, along with other factors that have been also revised. Finally, we also carried out a revision of the biodegradation of DESs.",
+            "authors": [
+                "L. Lomba",
+                "et al."
+            ],
+            "publication": "Applied Sciences",
+            "citation_count": 104
+        }
+    },
+    "paper_15_info": {
+        "reference_15": {
+            "searched_title": "(Keynote) Engineering Cyanobacteria for Nitrogen Reduction",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/4e6d158a42a45d600b38c592c1e0c659b712de76",
+            "date": "2021",
+            "abs": "N/A",
+            "authors": [
+                "S. Minteer"
+            ],
+            "publication": "ECS Meeting Abstracts",
+            "citation_count": 1
+        }
+    },
+    "paper_16_info": {
+        "reference_16": {
+            "searched_title": "Hydrophobic deep eutectic solvents: the new generation of green solvents for diversified and colorful applications in green chemistry",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/62722554a3f4f50c979422a5c74836c65125a98c",
+            "date": "2021",
+            "abs": "N/A",
+            "authors": [
+                "Jun Cao",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 225
+        }
+    },
+    "paper_17_info": {
+        "reference_17": {
+            "searched_title": "Deep Eutectic Solvents and Pharmaceuticals",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/bc09d4e38189a532cb5bb325ad4d04e00122f705",
+            "date": "2021",
+            "abs": "Deep eutectic solvents (DES) are eutectic mixtures that present a deviation from the ideal thermodynamic solid–liquid phase behavior, where a significant depression in the melting temperature occurs. If properly designed and chosen, DES may be liquid at room and the human body’s temperatures and display a biocompatible character, thus representing relevant options in the pharmaceutical field. Accordingly, DES have been studied as alternative solvents or in formulations of pharmaceuticals to improve their solubility and stability. Depending on the DES components, these mixtures might exhibit interesting biological activities compatible with several applications. The use of DES as functional agents or as novel liquid forms of active pharmaceutical ingredients (API-DES) with the goal of improving bioavailability, permeability and therapeutic efficacy of a given API stands as alternative strategies in the pharmaceutical field for drug delivery purposes.",
+            "authors": [
+                "S. Pedro",
+                "et al."
+            ],
+            "publication": "Encyclopedia",
+            "citation_count": 43
+        }
+    },
+    "paper_18_info": {
+        "reference_18": {
+            "searched_title": "Comprehensive Prediction of Densities for Deep Eutectic Solvents: A New Bonding-Group Interaction Contribution Scheme",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/bc598255afdd79bef688fcabfccf55682575c0dc",
+            "date": "2021",
+            "abs": "N/A",
+            "authors": [
+                "X. Hou",
+                "et al."
+            ],
+            "publication": "Industrial & Engineering Chemistry Research",
+            "citation_count": 19
+        }
+    },
+    "paper_19_info": {
+        "reference_19": {
+            "searched_title": "Solvent extraction in extended hydrogen bonded fluids – separation of Pt(iv) from Pd(ii) using TOPO-based type V DES",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/8a828ef193d885aafb3487fa39301dd1c6193131",
+            "date": "2021",
+            "abs": "In this work, the challenging solvent extraction (SX) separation of Pt(IV) from Pd(II) is investigated using non-ionic hydrophobic type V deep eutectic solvents (DES) incorporating trioctylphosphine oxide (TOPO) as a constituent. Type V DES are highly structured solvents characterised by the existence of an intermolecular hydrogen bonded network, the strength of which dictates their non-ideality and varies with the eutectic composition. The extraction efficiency and selectivity were found to strongly vary with the TOPO molar fraction (xTOPO) and nature of the hydrogen bond donor, presenting an antagonism between the SX mechanism and the intermolecular interactions of the DES components. However, the antagonistic effect with increased hydrogen bonding does not influence all extracted species proportionally: whilst Pt(IV) extraction remained largely unaffected (%EE ≥ 90%), extraction of Pd(II) dropped sharply allowing for a ten-fold increase in selectivity compared to traditional TOPO-based SX systems. The higher TOPO concentration in DES enabled maximum loading concentrations significantly superior to those in extractant–organic diluent systems. Furthermore, the extensive number of hydrogen bonded configurations suppresses the formation of a third phase which limits traditional SX using non-ionic extractants, even after extraction of 19.5 g L−1 of Pt(IV) from 8.0 mol L−1 HCl in the TOPO + decanoic acid eutectic. The experimental and molecular dynamics simulation results presented herein identify the criteria for rational type V DES selection and application, providing a new life to otherwise poorly selective extractants through their inclusion in these systems whilst removing the need for organic diluents.",
+            "authors": [
+                "Silvia J. R. Vargas",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 27
+        }
+    },
+    "paper_20_info": {
+        "reference_20": {
+            "searched_title": "Designing Low-Viscosity Deep Eutectic Solvents with Multiple Weak-Acidic Groups for Ammonia Separation",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/f679fe084e092a39e7d809d0c4cc2fdd004e747a",
+            "date": "2021",
+            "abs": "N/A",
+            "authors": [
+                "Yanning Cao",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 91
+        }
+    },
+    "paper_21_info": {
+        "reference_21": {
+            "searched_title": "Sustainable Ammonia Production Processes",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/e8be3e86e071c838a5c9cf195438f2cffbdb147c",
+            "date": "2021",
+            "abs": "Due to the important role of ammonia as a fertilizer in the agricultural industry and its promising prospects as an energy carrier, many studies have recently attempted to find the most environmentally benign, energy efficient, and economically viable production process for ammonia synthesis. The most commonly utilized ammonia production method is the Haber-Bosch process. The downside to this technology is the high greenhouse gas emissions, surpassing 2.16 kgCO2-eq/kg NH3 and high amounts of energy usage of over 30 GJ/tonne NH3 mainly due to the strict operational conditions at high temperature and pressure. The most widely adopted technology for sustainable hydrogen production used for ammonia synthesis is water electrolysis coupled with renewable technologies such as wind and solar. In general, a water electrolyzer requires a continuous supply of pretreated water with high purity levels for its operation. Moreover, for production of 1 tonne of hydrogen, 9 tonnes of water is required. Based on this data, for the production of the same amount of ammonia through water electrolysis, 233.6 million tonnes/yr of water is required. In this paper, a critical review of different sustainable hydrogen production processes and emerging technologies for sustainable ammonia synthesis along with a comparative life cycle assessment of various ammonia production methods has been carried out. We find that through the review of each of the studied technologies, either large amounts of GHG emissions are produced or high volumes of pretreated water is required or a combination of both these factors occur.",
+            "authors": [
+                "S. Ghavam",
+                "et al."
+            ],
+            "publication": "Frontiers in Energy Research",
+            "citation_count": 333
+        }
+    },
+    "paper_22_info": {
+        "reference_22": {
+            "searched_title": "Total vapor pressure of hydrophobic deep eutectic solvents: Experiments and modelling",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/5fb4445633454ddd4698aec3bb4ffb3766fbf5c0",
+            "date": "2021",
+            "abs": "N/A",
+            "authors": [
+                "Kun Xin",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 43
+        }
+    },
+    "paper_23_info": {
+        "reference_23": {
+            "searched_title": "Quality assessment of environmental water by a simple and fast non-ionic hydrophobic natural deep eutectic solvent-based extraction procedure combined with liquid chromatography tandem mass spectrometry for the determination of plastic migrants",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/ebc102272852dbc5ea320880f16a783de35fed04",
+            "date": "2021",
+            "abs": "A non-ionic hydrophobic natural deep eutectic solvent (HNADES) based on thymol and menthol was proposed for the liquid-liquid microextraction of fourteen phthalates and one adipate from environmental water samples. Separation, identification, and quantification were achieved by ultra-high-performance liquid chromatography coupled to tandem mass spectrometry. The main factors affecting the extraction efficiency were thoroughly studied. Sample pH of 8 and 100 μL of thymol:menthol at molar ratio 2:1 were selected as the best conditions, while ionic strength and type of dispersant solvent were not relevant for the extraction of the target compounds. The whole methodology was validated for treated wastewater, runoff, and pond water matrices, using di-n-butyl phthalate-3,4,5,6-d4 and dihexyl phthalate-3,4,5,6-d4 as surrogates. Recovery ranged from 70 to 127% with relative standard deviation values lower than 14%. Limits of quantification of the method were in the range 0.042–0.425 μg/L for treated wastewater, 0.015–0.386 μg/L for runoff, and 0.013–0.376 μg/L for pond water. The methodology was applied for the analysis of real treated wastewater, runoff, and pond water samples from different places of Tenerife and Gran Canaria (Canary Islands) finding the presence of diethyl phthalate, diallyl phthalate, dipropyl phthalate, benzylbutyl phthalate, di-n-butyl phthalate, bis-(2-n-butoxyethyl) phthalate, di-n-pentyl phthalate, dicyclohexyl phthalate, and bis-(2-ethylhexyl) phthalate at concentrations between 105.2 and 3414 ng/L.",
+            "authors": [
+                "Á. Santana-Mayor",
+                "et al."
+            ],
+            "publication": "Analytical and Bioanalytical Chemistry",
+            "citation_count": 33
+        }
+    },
+    "paper_24_info": {
+        "reference_24": {
+            "searched_title": "Non-Ideality in Thymol + Menthol Type V Deep Eutectic Solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/66a0a36fd8143e6d7917939fb172fb4e50c2379f",
+            "date": "2021",
+            "abs": "The nonionic Type V deep eutectic solvent (DESs) thymol + menthol is experimentally and computationally studied aiming to clarify the relation between its liquid phase structure and its thermodynam...",
+            "authors": [
+                "N. Schaeffer",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 109
+        }
+    },
+    "paper_25_info": {
+        "reference_25": {
+            "searched_title": "Deep Eutectic Solvents: A Review of Fundamentals and Applications.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/912b82b1eef970a04fbe26a23e85a6cd91bd24f8",
+            "date": "2020",
+            "abs": "Deep eutectic solvents (DESs) are an emerging class of mixtures characterized by significant depressions in melting points compared to those of the neat constituent components. These materials are promising for applications as inexpensive \"designer\" solvents exhibiting a host of tunable physicochemical properties. A detailed review of the current literature reveals the lack of predictive understanding of the microscopic mechanisms that govern the structure-property relationships in this class of solvents. Complex hydrogen bonding is postulated as the root cause of their melting point depressions and physicochemical properties; to understand these hydrogen bonded networks, it is imperative to study these systems as dynamic entities using both simulations and experiments. This review emphasizes recent research efforts in order to elucidate the next steps needed to develop a fundamental framework needed for a deeper understanding of DESs. It covers recent developments in DES research, frames outstanding scientific questions, and identifies promising research thrusts aligned with the advancement of the field toward predictive models and fundamental understanding of these solvents.",
+            "authors": [
+                "Benworth B Hansen",
+                "et al."
+            ],
+            "publication": "Chemical Reviews",
+            "citation_count": 2026
+        }
+    },
+    "paper_26_info": {
+        "reference_26": {
+            "searched_title": "Evaluation of COSMO-RS for solid–liquid equilibria prediction of binary eutectic solvent systems",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/5d69b4ff82a4bf05f90c221a4a55d0708505cc19",
+            "date": "2020",
+            "abs": "N/A",
+            "authors": [
+                "Zhen Song",
+                "et al."
+            ],
+            "publication": "Green Energy & Environment",
+            "citation_count": 62
+        }
+    },
+    "paper_27_info": {
+        "reference_27": {
+            "searched_title": "A Novel Eutectic-Based Transdermal Delivery System for Risperidone",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/10844dd8f5afb20c218a36a7228d45523b50580f",
+            "date": "2020",
+            "abs": "This paper reports for the first time the possible formation of a novel room temperature therapeutic deep eutectic solvent (THEDES) of risperidone (RIS) with some fatty acids, namely capric acid (C10; CA), lauric acid (C12; LA), and myristic acid (C14; MA). All mixtures of RIS and MA yielded a solid or pasty-like solid and were readily discarded. Some of the prepared THEDESs from RIS and CA or LA have spontaneously transformed into a transparent liquid, without any precipitate at room temperature by simple physical mixing of the components. From the DSC thermograms, phase diagrams of the eutectic systems were constructed and the lowest obtained melting point for a RIS:CA mixture was 17°C at 40:60% w/w ratio. While 22°C was recorded as the lowest melting point for RIS:LA at a ratio of 30:70% w/w, solubility improvement of RIS was up to 70,000-fold compared with water. Freeze-drying microscopy provided valuable information regarding the phase change and transitions the drug undergoes as a function of temperature and it clarifies the interpretation of the DSC results and provides valuable evidence of drug crystals co-melting within the fatty acid base. The presence of natural fatty acid as one component of THEDES and the depression in the melting point significantly (P < 0.05) enhanced RIS skin permeation. Rheological studies showed a viscosity temperature dependency of the DES and well fitted to the Arrhenius equation. Application of the obtained THEDES on the shaved skin of rats revealed the absence of any irritation or edema effects.",
+            "authors": [
+                "Faisal Al-Akayleh",
+                "et al."
+            ],
+            "publication": "AAPS PharmSciTech",
+            "citation_count": 41
+        }
+    },
+    "paper_28_info": {
+        "reference_28": {
+            "searched_title": "Separation of phenols from aqueous streams using terpenoids and hydrophobic eutectic solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/e6cce603cc405e2316174feef31473befa7c7679",
+            "date": "2020",
+            "abs": "N/A",
+            "authors": [
+                "Diego Rodríguez-Llorente",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 44
+        }
+    },
+    "paper_29_info": {
+        "reference_29": {
+            "searched_title": "Ecotoxicity and biodegradability of pure and aqueous mixtures of deep eutectic solvents: glyceline, ethaline, and reline",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/8254cfd0d557f70baa22723a0617fb407f375121",
+            "date": "2020",
+            "abs": "N/A",
+            "authors": [
+                "D. Lapeña",
+                "et al."
+            ],
+            "publication": "Environmental science and pollution research international",
+            "citation_count": 64
+        }
+    },
+    "paper_30_info": {
+        "reference_30": {
+            "searched_title": "A Review of the Use of Eutectic Solvents, Terpenes and Terpenoids in Liquid–liquid Extraction Processes",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/ca97ef424abf1eb5372448ab33e29eef3a8873d6",
+            "date": "2020",
+            "abs": "Diverse and abundant applications of the eutectic solvents have appeared in the last years. Their promising tunable properties, eco-friendly character and the possibility of being prepared from numerous compounds have led to the publication of numerous papers addressing their use in different areas. Terpenes and terpenoids have been employed in the formulation of eutectic solvents, though they also have been applied as solvents in extraction processes. For their hydrophobic nature, renewable character, low environmental impact, cost and being non-hazardous, they have also been proposed as possible substitutes of conventional solvents in the separation of organic compounds from aqueous streams, similarly to hydrophobic eutectic solvents. The present work reviews the application of eutectic solvents in liquid–liquid extraction and terpenes and terpenoids in extraction processes. It has been made a research in the current state-of-the-art in these fields, describing the proposed applications of the solvents. It has been highlighted the scale-up feasibility, solvent regeneration and reuse procedures and the comparison of the performance of eutectic solvents, terpenes and terpenoids in extraction with conventional organic solvents or ionic liquids. Ultimately, it has been also discussed the employ of predictive methods in extraction, the reliability of thermodynamic models in correlation of liquid–liquid equilibria and simulation of liquid–liquid extraction processes.",
+            "authors": [
+                "Diego Rodríguez-Llorente",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 50
+        }
+    },
+    "paper_31_info": {
+        "reference_31": {
+            "searched_title": "Molecular Features of Reline and Homologous Deep Eutectic Solvents Contributing to Nonideal Mixing Behavior.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/427f1519a0121678d383184f1e5a726b58568046",
+            "date": "2020",
+            "abs": "Deep eutectic solvents based on choline chloride and a series of urea derivatives are studied by molecular dynamics simulations with the aim to identify molecular features contributing to nonideal mixing behavior of this compounds. In case of reline, a mixture of choline chloride and urea in 1:2 ratio, urea molecules provide sufficient hydrogen bond donor sites to take up the chloride anions into their polar network. Replacing any of the hydrogen atoms of urea by a methyl group strongly pushes the anion to interact with these alkyl chains resulting in a positive deviation of the activity coefficients of choline chloride compared to reline. Furthermore, the oxygen atom of urea can interact with the nitrogen atom of the cation. This enables the chloride anion to move off-center of the cation towards the hydrogen atom of its hydroxyl group possessing stronger directional Coulomb interactions than the nitrogen atom of the cation. The substitution of urea's hydrogen atoms in \\textit{cis} position to the carbonyl group as in 1,3-dimethylurea, pushes the newly introduced non-polar alkyl chains towards the nitrogen atom of the cation. This effect can be responsible for the experimentally observed increase of the activity coefficient of the urea derivative compared to urea. Additionally, indications for formation of non-polar domains within the liquid and thus, nanoscale segregation is visible as soon as one hydrogen atom of urea is replaced by an alkyl group.",
+            "authors": [
+                "Omid Shayestehpour",
+                "et al."
+            ],
+            "publication": "Journal of Physical Chemistry B",
+            "citation_count": 19
+        }
+    },
+    "paper_32_info": {
+        "reference_32": {
+            "searched_title": "Are There Magic Compositions in Deep Eutectic Solvents? Effects of Composition and Water Content in Choline Chloride/ethylene Glycol from Ab Initio Molecular Dynamics.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/989128eac3f969f3c179eecf5aba90c8be7d7e64",
+            "date": "2020",
+            "abs": "Ab initio molecular dynamics simulations at elevated temperature are carried out to investigate the microscopic structure of liquid mixtures (deep eutectic solvents) com- posed of 1:1, 1:2 choline chloride:ethylene glycol ([Ch]Cl:EG) and 1:2:1 ([Ch]Cl:EG:water). In the present study, we aim to understand the composition effect on the choline chlo- ride:ethylene glycol deep eutectic solvent and whether there is a specific composition in these solvents with marked special behavior at the microscopic level. The role of hydrogen bonds between all components was investigated through distribution func- tions. The structures are governed by the balance of hydrogen bond networks and the different populations of the EG molecule conformations. In the water-containing system, water competes for association with the anion. Also, the charge distribution analysis, which is consistent with structural analysis, indicates that the results are not impacted by changing composition. In addition, the charge transfer observed between ions, EG and water molecules appears to be sizable.",
+            "authors": [
+                "Vahideh Alizadeh",
+                "et al."
+            ],
+            "publication": "Journal of Physical Chemistry B",
+            "citation_count": 110
+        }
+    },
+    "paper_33_info": {
+        "reference_33": {
+            "searched_title": "Understanding the Formation of Deep Eutectic Solvents: Betaine as a Universal Hydrogen Bond Acceptor.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/d773fea135766d7877ffe229880ddb88f70682fd",
+            "date": "2020",
+            "abs": "The mechanism of formation of betaine-based deep eutectic solvents (DES) is here presented for the first time. Due to its polarity unbalance, it is found that betaine displays strong negative deviations from ideality when mixed with a variety of different organic substances. These results pave the way for a comprehensive design of novel deep eutectic solvents. A connection to biologically relevant systems is made using betaine (osmolyte) and urea (protein denaturant), showing that these two compounds form a DES whose molecular interactions are greatly enhanced in the presence of water.",
+            "authors": [
+                "Dinis O. Abranches",
+                "et al."
+            ],
+            "publication": "ChemSusChem",
+            "citation_count": 67
+        }
+    },
+    "paper_34_info": {
+        "reference_34": {
+            "searched_title": "Computation of gas solubilities in choline chloride urea and choline chloride ethylene glycol deep eutectic solvents using Monte Carlo simulations",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/507ecf6bc0c95fcae3a5edf91ec6e9ae0fe9a273",
+            "date": "2020",
+            "abs": "N/A",
+            "authors": [
+                "Hirad S. Salehi",
+                "et al."
+            ],
+            "publication": "Journal of Molecular Liquids",
+            "citation_count": 35
+        }
+    },
+    "paper_35_info": {
+        "reference_35": {
+            "searched_title": "Vaporization enthalpy, long-term evaporation and evaporation mechanism of polyethylene glycol-based deep eutectic solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/d720b36d69b820b535187c35776e3eda9591254f",
+            "date": "2020",
+            "abs": "We for the first time have found that PEG-based DESs could volatilize at room temperature and atmospheric pressure. The mass loss from long-term evaporation of PEG-based DESs at 298.15 K for 1000 min could reach as high as 30.5% mass loss, ca. 6 times that of short-term evaporation (5.1% mass loss). Generally, the vaporization enthalpy of PEG-based DESs is found to lie between that of common organic solvents and that of ionic liquids, while some PEG-based DESs could be more volatile than common organic solvents. The evaporation of PEG-based DESs could be ascribed to their volatile constituents; however, the evaporation rate of each constituent is found to be very different. This is the first discovery of the higher volatility of PEG-based DESs at room temperature and atmospheric pressure.",
+            "authors": [
+                "Yu Chen",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 17
+        }
+    },
+    "paper_36_info": {
+        "reference_36": {
+            "searched_title": "The Curious Case of Hydrophobic Deep Eutectic Solvents: A Story on the Discovery, Design, and Applications",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/214603cefc3278f5791e75d46085d6be05b45d55",
+            "date": "2020",
+            "abs": "Hydrophobic deep eutectic solvents (DESs) are a new generation of water immiscible solvents that have been presented in the literature for the first time in 2015. These solvents have been used for ...",
+            "authors": [
+                "Dannie J. G. P. van Osch",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 242
+        }
+    },
+    "paper_37_info": {
+        "reference_37": {
+            "searched_title": "Liquefying Compounds by Forming Deep Eutectic Solvents: A Case-Study for Organic Acids and Alcohols.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/6858d340bfbd8b260d8b58b8e59bacebdefe5f27",
+            "date": "2020",
+            "abs": "The criterion to distinguish a simple eutectic mixture from a deep eutectic solvent (DES) lies in the deviations to thermodynamic ideality presented by the components in the system. In this work, the current knowledge of the molecular interactions in types III and V DES is explored to liquefy a set of three fatty acids and three fatty alcohols, here used as model compounds for carboxyl and hydroxyl containing solid compounds. This work shows that thymol, a stronger than usual hydrogen bond donor, is able to form deep eutectic solvents of type V with the fatty alcohols studied. This is particularly interesting since these DES formed are hydrophobic. Regarding type III DES, the results suggest that the prototypical DES hydrogen bond acceptor, cholinium chloride, is unable to induce negative deviations to ideality in the model molecules studied. By substituting choline with tetramethylammonium chloride it is shown that the choline hydroxyl group is responsible for the difficulty in forming choline-based deep eutectic solvents and that its absence induces strong negative deviations to ideality in the alkylammonium side. Finally, it is demonstrated that tetrabutylammonium chloride acts as a chloride donning agent, causing significant negative deviations to ideality in both fatty acids and alcohols, and leading to the formation of deep eutectic solvents of type III.",
+            "authors": [
+                "Dinis O. Abranches",
+                "et al."
+            ],
+            "publication": "Journal of Physical Chemistry B",
+            "citation_count": 37
+        }
+    },
+    "paper_38_info": {
+        "reference_38": {
+            "searched_title": "Entropy models for the description of the solid–liquid regime of deep eutectic solutions",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/f73028cedc1ccba44b1d37270621126c98dd1c4e",
+            "date": "2020",
+            "abs": "N/A",
+            "authors": [
+                "L. Kollau",
+                "et al."
+            ],
+            "publication": "Journal of Molecular Liquids",
+            "citation_count": 15
+        }
+    },
+    "paper_39_info": {
+        "reference_39": {
+            "searched_title": "Perspective—Semi-Solid Electrolytes Based on Deep Eutectic Solvents: Opportunities and Future Directions",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/af0a99ddd8ee3bafaaeb0c7a1c3d7d3411a73f59",
+            "date": "2020",
+            "abs": "N/A",
+            "authors": [
+                "A. M. Navarro‐Suárez",
+                "et al."
+            ],
+            "publication": "Journal of the Electrochemical Society",
+            "citation_count": 38
+        }
+    },
+    "paper_40_info": {
+        "reference_40": {
+            "searched_title": "Emerging Frontiers of Deep Eutectic Solvents in Drug Discovery and Drug Delivery Systems.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/e305dbacfe18ba1a985da22b1cf6a11eb5e9f361",
+            "date": "2019",
+            "abs": "N/A",
+            "authors": [
+                "M. H. Zainal-Abidin",
+                "et al."
+            ],
+            "publication": "Journal of Controlled Release",
+            "citation_count": 173
+        }
+    },
+    "paper_41_info": {
+        "reference_41": {
+            "searched_title": "Highly Efficient Dissolution of Lignin by Eutectic Molecular Liquids",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/1df6611241b0d736f9e18cd342bdbd23d93e6d7e",
+            "date": "2019",
+            "abs": "Lignin dissolution is of great importance for the valorization of lignin, and development of novel efficient solvent systems is a crucial topic. Herein, 17 kinds of 1,5-diazabicyclo[5.4.0]-5-undece...",
+            "authors": [
+                "Qiaoling Liu",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 29
+        }
+    },
+    "paper_42_info": {
+        "reference_42": {
+            "searched_title": "Effective extraction of fluorescent brightener 52 from foods by in situ formation of hydrophobic deep eutectic solvent.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/7d237847763d673ecf0b387a3d1d6e5cf4c41700",
+            "date": "2019",
+            "abs": "N/A",
+            "authors": [
+                "Yueyue Shi",
+                "et al."
+            ],
+            "publication": "Food Chemistry",
+            "citation_count": 32
+        }
+    },
+    "paper_43_info": {
+        "reference_43": {
+            "searched_title": "The Role of Charge Transfer in the Formation of Type I Deep Eutectic Solvent-Analogous Ionic Liquid Mixtures",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/111e3e027a11cfca9e5e86fbbdc55b64675d6527",
+            "date": "2019",
+            "abs": "It was recently shown that tetramethylammonium chloride presented negative deviations to ideality when mixed with tetraethylammonium chloride or tetrapropylammonium chloride, leading to a strong decrease of the melting points of these salt mixtures, in a behavior akin to that observed in the formation of deep eutectic solvents. To better rationalize this unexpected melting point depression between two structurally similar compounds devoid of dominant hydrogen bonding capability, new solid–liquid equilibria data for tetramethylammonium-based systems were measured and analyzed in this work. Molecular dynamics was used to show that the strong negative deviations from ideality presented by these systems arise from a synergetic share of the chloride ions. A transfer of chloride ions seems to occur from the bigger cation in the mixture (which possesses a more disperse charge) to the smaller cation (tetramethylammonium), resembling the formation of metal–chloride complexes in type I deep eutectic solvents. This rearrangement of the charged species leads to an energetic stabilization of both components in the mixture, inducing the negative deviations to the ideality observed. The conclusions presented herein emphasize the often-neglected contribution of charge delocalization in deep eutectic solvents formation and its applicability toward the design of new ionic liquid mixtures.",
+            "authors": [
+                "Dinis O. Abranches",
+                "et al."
+            ],
+            "publication": "Molecules",
+            "citation_count": 19
+        }
+    },
+    "paper_44_info": {
+        "reference_44": {
+            "searched_title": "Using COSMO-RS to design choline chloride pharmaceutical eutectic solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/9ff242429c8961b3fc45bf3f2be69d25f64ae966",
+            "date": "2019",
+            "abs": "N/A",
+            "authors": [
+                "Dinis O. Abranches",
+                "et al."
+            ],
+            "publication": "Fluid Phase Equilibria",
+            "citation_count": 90
+        }
+    },
+    "paper_45_info": {
+        "reference_45": {
+            "searched_title": "Greener Terpene–Terpene Eutectic Mixtures as Hydrophobic Solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/adfeca076fa63baa30952cf22c11ac047597cbe8",
+            "date": "2019",
+            "abs": "Natural products can be the basis for the development of green solvents, relevant for the advancement of new, more sustainable processes and products. In this work, 10 binary mixtures constituted by terpenes are prepared and characterized. Their solid–liquid phase diagrams show that room-temperature solvents can be prepared from solid terpenes in a wide composition range. These diagrams are accurately described by the conductor-like screening model for real solvents, showing it to be a useful predictive tool for the design of novel natural solvents. At the eutectic point, these mixtures possess low viscosities, densities lower than water, and high boiling temperatures. The low water solubility in the eutectic solvents together with its negligible impact on the properties measured is a strong indicator of the hydrophobic character of these mixtures. The tunable character of these mixtures is demonstrated by studying the solvatochromic parameters in the entire concentration region, the properties of the fin...",
+            "authors": [
+                "Mónia A. R. Martins",
+                "et al."
+            ],
+            "publication": "ACS Sustainable Chemistry and Engineering",
+            "citation_count": 108
+        }
+    },
+    "paper_46_info": {
+        "reference_46": {
+            "searched_title": "Phenolic hydrogen bond donors in the formation of non-ionic deep eutectic solvents: the quest for type V DES.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/8f3f878c4b027e5e59b8200f0247cda10f95a83d",
+            "date": "2019",
+            "abs": "Mixtures of non-ionic compounds have been reported as DES but most are just ideal mixtures. In the thymol-menthol system, an abnormal strong interaction was identified stemming from the acidity difference of the phenolic and aliphatic hydroxyl groups. This type of interaction is found to be the key to prepare non-ionic DES, that may be classified as type V.",
+            "authors": [
+                "Dinis O. Abranches",
+                "et al."
+            ],
+            "publication": "Chemical Communications",
+            "citation_count": 271
+        }
+    },
+    "paper_47_info": {
+        "reference_47": {
+            "searched_title": "Can cholinium chloride form eutectic solvents with organic chloride-based salts?",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/019429b8d1f9a5f74f9514fc4c4ea18de36f0122",
+            "date": "2019",
+            "abs": "N/A",
+            "authors": [
+                "Dinis O. Abranches",
+                "et al."
+            ],
+            "publication": "Fluid Phase Equilibria",
+            "citation_count": 16
+        }
+    },
+    "paper_48_info": {
+        "reference_48": {
+            "searched_title": "In-Depth Physico-Chemical and Structural Investigation of a Dicarboxylic Acid/Choline Chloride Natural Deep Eutectic Solvent (NADES): A Spotlight on the Importance of a Rigorous Preparation Procedure",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/ea542ea979fae5c458d002b762a1db60397e5c2e",
+            "date": "2019",
+            "abs": "In this study, we report the density, viscosity, conductivity, and X-ray diffraction profile of the deep eutectic solvent (DES) formed by choline chloride and different dicarboxylic acids (i.e., malonic, oxalic, succinic, or fumaric acid) at room temperature. These compounds have recently found several applications in green chemistry methodologies and consequently require the highest purity standards. Yet, we found that malonic DES, differing from the other DESs that were prepared (containing short alkyl-chained dicarboxylic acids), is especially sensitive to thermal treatment and undergoes sizable decarboxylation beyond 60 °C. Such release of CO2 would become a serious limit in the potential process scale-up and prompt researchers to avoid heating during the preparation. The analysis of X-ray diffraction patterns of malonic and oxalic acid DESs, that are optimally reproduced by molecular dynamics simulations, suggests that the charged species (choline and chloride ions) are held firmly by the acid molecu...",
+            "authors": [
+                "L. Gontrani",
+                "et al."
+            ],
+            "publication": "ACS Sustainable Chemistry and Engineering",
+            "citation_count": 37
+        }
+    },
+    "paper_49_info": {
+        "reference_49": {
+            "searched_title": "Modeling of Solid–Liquid Equilibria in Deep Eutectic Solvents: A Parameter Study",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/2f5052d85312a30752f53c0ca4346a9209998261",
+            "date": "2019",
+            "abs": "Deep eutectic solvents (DESs) are potential alternatives to many conventional solvents in process applications. Knowledge and understanding of solid–liquid equilibria (SLE) are essential to characterize, design, and select a DES for a specific application. The present study highlights the main aspects that should be taken into account to yield better modeling, prediction, and understanding of SLE in DESs. The work is a comprehensive study of the parameters required for thermodynamic modeling of SLE—i.e., the melting properties of pure DES constituents and their activity coefficients in the liquid phase. The study is carried out for a hypothetical binary mixture as well as for selected real DESs. It was found that the deepest eutectic temperature is possible for components with low melting enthalpies and strong negative deviations from ideality in the liquid phase. In fact, changing the melting enthalpy value of a component means a change in the difference between solid and liquid reference state chemical potentials which results in different values of activity coefficients, leading to different interpretations and even misinterpretations of interactions in the liquid phase. Therefore, along with reliable modeling of liquid phase non-ideality in DESs, accurate estimation of the melting properties of their pure constituents is of clear significance in understanding their SLE behavior and for designing new DES systems.",
+            "authors": [
+                "Ahmad Alhadid",
+                "et al."
+            ],
+            "publication": "Molecules",
+            "citation_count": 44
+        }
+    },
+    "paper_50_info": {
+        "reference_50": {
+            "searched_title": "Selecting Excipients Forming Therapeutic Deep Eutectic Systems-A Mechanistic Approach.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/6f809a981504d281fe53cadfb6b414132a969c46",
+            "date": "2019",
+            "abs": "The majority of all newly identified active pharmaceutical ingredients (APIs) have a low solubility in water (partly smaller than marble). In order to enhance their solubility and bioavailability, the formulation of these APIs, as part of therapeutic deep eutectic systems (THEDES), has been recently shown to be a promising approach. By choosing the right excipient, the melting point of the API/excipient mixture can be lowered below body temperature or even room temperature, resulting in a liquid formulation. To date, because of a lack of mechanistic understanding of how THEDES are formed, the identification of suitable excipients for a given API is almost exclusively based on heuristic decisions and trial-and-error-based approaches. This is both very time-consuming and expensive. The purpose of this work is to reduce the experimental effort to identify suitable excipients for a given API solely based on the melting properties (melting temperature and melting enthalpy) of the API and excipient and accounting for intermolecular interactions via a predictive thermodynamic model [in this case, UNIFAC(Do)]. Lidocaine, ibuprofen, and phenylacetic acid were considered as model APIs, whereas thymol, vanillin, lauric acid, para-toluic acid, benzoic acid, and cinnamic acid were considered as model excipients. The formation of THEDES from these components was predicted and confirmed using differential scanning calorimetry. The results indicate that the experimental effort for the identification of suitable API/excipient combinations can be drastically reduced by thermodynamic modeling, leading to more efficient and tailor-made formulations in the future.",
+            "authors": [
+                "F. Wolbert",
+                "et al."
+            ],
+            "publication": "Molecular Pharmaceutics",
+            "citation_count": 39
+        }
+    },
+    "paper_51_info": {
+        "reference_51": {
+            "searched_title": "Degradation of Deep-Eutectic Solvents Based on Choline Chloride and Carboxylic Acids",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/815d3b6df38bd06af8e84f3bec1b59fc942b26db",
+            "date": "2019",
+            "abs": "Mixtures of carboxylic acids and choline chloride are one of the most commonly used families of deep-eutectic solvents. The thermal and long-term stability of carboxylic acid–choline chloride (ChCl) deep-eutectic solvents was investigated. This family of DESs was found to degrade due to an esterification reaction, mainly between the carboxylic acid and the alcohol moiety of ChCl. The esterification reaction occurs even at room temperature over extended periods of time and is promoted at elevated temperatures. The esterification reaction takes place independently of the preparation method used. Moreover, the deep-eutectic solvent malonic acid–ChCl (xChCl = 0.50) was found to decompose into acetic acid and carbon dioxide when prepared via the heating method, or when heated after preparation at room temperature. Therefore, the applicability of carboxylic acid–ChCl-based solvents is compromised.",
+            "authors": [
+                "Nerea Rodriguez Rodriguez",
+                "et al."
+            ],
+            "publication": "ACS Sustainable Chemistry and Engineering",
+            "citation_count": 233
+        }
+    },
+    "paper_52_info": {
+        "reference_52": {
+            "searched_title": "Activity modelling of the solid–liquid equilibrium of deep eutectic solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/3678f7327c8e7478d1093743169d18dd9b3c1b3e",
+            "date": "2019",
+            "abs": "Abstract Compared to conventional solvents used in the chemical industry, deep eutectic solvents (DESs) are considered as promising potentially sustainable solvents. DESs are binary mixtures and the resulting liquid mixture is characterized by a large melting point depression with respect to the melting temperatures of its constituents. The relative melting point depression becomes larger as the two components have stronger attractive interactions, resulting in non-ideal behavior. The compositional range over which such binary mixtures are liquids is set by the location of the solid–liquid phase boundary. Here we present experimental phase diagrams of various recent and new DESs that vary in the degree of non-ideality. We investigate whether thermodynamic models are able to describe the solid–liquid equilibria and focus on relating the parameters of these models to the non-ideal behavior, including asymmetric behavior of the activity coefficients. It is shown that the orthogonal Redlich–Kister-like polynomial (OP) expansion, including an additional first order term, provides an accurate description. This theory can be considered as an extension of regular solution theory and enables physical interpretation of the fit parameters.",
+            "authors": [
+                "L. Kollau",
+                "et al."
+            ],
+            "publication": "Pure and applied chemistry. Chimie pure et appliquee",
+            "citation_count": 27
+        }
+    },
+    "paper_53_info": {
+        "reference_53": {
+            "searched_title": "Deep eutectic solvents comprising active pharmaceutical ingredients in the development of drug delivery systems",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/27c1d27d6c5f674b5dbad43eeab14cb67337d3bd",
+            "date": "2019",
+            "abs": "ABSTRACT Introduction: Deep eutectic solvents comprising or acting as solvents of active pharmaceutical ingredients (API-DES) emerged as promising alternatives to improve therapeutic efficiency, with the additional possibility to integrate them in (bio)polymer-based systems to enhance their delivery. Areas covered: A critical review of the API-DES field evolution is herein presented, namely on the capacity of DES to integrate APIs in their composition and on the use of DES as solvents for APIs. These strategies avoid a current major concern related to drugs and APIs, i.e. polymorphism, and increase the solubility and bioavailability of the target API which leads to increased bioavailability. Owing to their composition versatility, polymerizable API-DES can also be prepared. Finally, the incorporation of API-DES in (bio)polymer-based systems to improve drug delivery is presented and discussed. Expert opinion: The relatively easy preparation of API-DES and their capacity to tune the API’s release profile when incorporated in (bio)polymer-based systems represent an effective alternative to improve the APIs therapeutic action and to develop controlled drug delivery systems. Given the potential and progress demonstrated so far, the authors foresee further research on novel API-DES and on their delivery routes, envisaging the development of alternative therapies and final approval as therapeutics.",
+            "authors": [
+                "S. Pedro",
+                "et al."
+            ],
+            "publication": "Expert Opinion on Drug Delivery",
+            "citation_count": 114
+        }
+    },
+    "paper_54_info": {
+        "reference_54": {
+            "searched_title": "Vapor Pressure Mapping of Ionic Liquids and Low-Volatility Fluids Using Graded Isothermal Thermogravimetric Analysis",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/7be46fc2a309fc4f612c6e4c5e1dc400f3a6687d",
+            "date": "2019",
+            "abs": "One of the hallmarks of ionic liquids (ILs) and a critical part of their sustainable implementation is their low volatility, although statements in this regard are frequently made in the absence of a critical evaluation. Although it is generally accepted that conventional ILs exhibit significantly reduced vapor pressures relative to common organic solvents, glib statements about ILs having zero volatility can no longer be abided, even if a concrete temperature-dependent vapor pressure, Pvap(T), framework for placement of IL performance has not yet been established. In this communication, Pvap(T) values of 30 illustrative low-volatility fluids—including representative imidazolium-, ammonium-, and pyrrolidinium-based aprotic ILs; examples of protic, polymeric, and di-cationic ILs; as well as deep eutectic solvents (DESs) and glycols—were determined using a simple, convenient, and reproducible isothermal thermogravimetric method. Guided by this “vapor pressure map”, observed trends can be discussed in terms of anion basicity, cation geometry, alkane chain length, hydrogen bonding strength, and van der Waals forces, providing a context for the placement of theoretical and experimental vapor pressures gleaned in future IL and DES studies.",
+            "authors": [
+                "Sudhir Ravula",
+                "et al."
+            ],
+            "publication": "ChemEngineering",
+            "citation_count": 71
+        }
+    },
+    "paper_55_info": {
+        "reference_55": {
+            "searched_title": "Physical properties of seven deep eutectic solvents based on l-proline or betaine",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/3c53093c146822a702190fb34e64b1d933ed9065",
+            "date": "2019",
+            "abs": "N/A",
+            "authors": [
+                "P. B. Sanchez",
+                "et al."
+            ],
+            "publication": "Journal of Chemical Thermodynamics",
+            "citation_count": 94
+        }
+    },
+    "paper_56_info": {
+        "reference_56": {
+            "searched_title": "Crystallization from Volatile Deep Eutectic Solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1902.08376",
+            "url": "https://www.semanticscholar.org/paper/05d47261ff7f912139da6d0ba1bb4289c748f62f",
+            "date": "2019",
+            "abs": "A new class of deep eutectic solvents are presented where one component of the system is inherently volatile, enabling a premeditated, auto-destructive capability which leads inexorably to a series of novel crystal structures. These volatile deep eutectic solvents are easily-formed liquids with a greatly depressed melting point and exhibit all of the physical characteristics of classical deep eutectic solvents, with the exception that the hydrogen-bond donor component is volatile when exposed to the atmosphere at room temperature. We demonstrate the effectiveness of this concept through the exquisite control of pharmaceutical polymorphism, among which is a more efficacious form of acetaminophen, which can be formed spontaneously for the first time at room temperature.",
+            "authors": [
+                "Jason Potticary",
+                "et al."
+            ],
+            "publication": "Crystal Growth & Design",
+            "citation_count": 25
+        }
+    },
+    "paper_57_info": {
+        "reference_57": {
+            "searched_title": "Volatility of Deep Eutectic Solvent Choline Chloride:N-Methylacetamide at Ambient Temperature and Pressure",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/2297aca8d44ed9f6a23bb0c4fd8a3f0f88acac19",
+            "date": "2019",
+            "abs": "Common organic volatile solvents would volatilize in air, thus causing air pollution and harming human health. Deep eutectic solvents (DESs) are one type of the green solvents with low volatility, deemed as the new solvents of the 21st century. Previous investigation showed that the DESs would undergo volatilization at high temperature and/or vacuum pressure. However, how DESs volatile at ambient temperature and pressure is unknown. Here the volatilization of DESs in air at ambient temperature and pressure was investigated by in situ FT–IR and 2D FT–IR. ChCl (choline chloride):N-methylacetamide was taken as an example of DESs and we found that it underwent severely volatilization even at ambient temperature and pressure. Moreover, the dynamics process of the volatilization was investigated by 2D FT–IR. It was found that N-methylacetamide volatilizes from ChCl:N-methylacetamide by destroying the hydrogen bond between free NH group and ChCl in ChCl:N-methylacetamide during the first 60 min. H-bonded NH II w...",
+            "authors": [
+                "Yu Chen",
+                "et al."
+            ],
+            "publication": "Industrial & Engineering Chemistry Research",
+            "citation_count": 48
+        }
+    },
+    "paper_58_info": {
+        "reference_58": {
+            "searched_title": "Determination of the Total Vapor Pressure of Hydrophobic Deep Eutectic Solvents: Experiments and Perturbed-Chain Statistical Associating Fluid Theory Modeling",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/e650813f6d9c125296c1addf4e0f0b2dbf0c24f4",
+            "date": "2019",
+            "abs": "Head-space gas chromatography mass spectrometry (HS-GC-MS) was used for the first time to measure the total vapor pressure of hydrophobic deep eutectic solvents (DESs). The new method was developed as a valid alternative for thermogravimetric analysis (TGA), as TGA did not allow obtaining reliable total vapor pressure data for the hydrophobic DESs studied in this work. The main advantage of HS-GC-MS is that the partial pressure of each DES constituent and the contribution of each DES constituent to the total vapor pressure of the mixture can be measured. The results give a clear indication of the interactions occurring between the DES constituents. Also, activity coefficients, enthalpies of evaporation, and activation energies for fluid displacement were obtained and correlated to the measured vapor pressure data. It was confirmed that the total vapor pressures of the hydrophobic DESs are very low in comparison to vapor pressures of commonly used volatile organic solvents like toluene. The total vapor pre...",
+            "authors": [
+                "C. Dietz",
+                "et al."
+            ],
+            "publication": "ACS Sustainable Chemistry and Engineering",
+            "citation_count": 78
+        }
+    },
+    "paper_59_info": {
+        "reference_59": {
+            "searched_title": "Use of deep eutectic solvents as catalyst: A mini-review",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/8bb85d6a9671815b182b6ae3d580b2cbf67cd648",
+            "date": "2019",
+            "abs": "Abstract Deep eutectic solvents (DESs) exhibit numerous advantages over conventional ones used in several chemical and biochemical processes. Besides addressing most of the principles of green chemistry, DESs can also act as catalyst depending on their nature. The use of DESs as acid catalyst has several advantages such as utilization at stoichiometric amount, non-toxicity, possibility of the recovery, similar or higher catalytic effect than the acid itself alone, the recyclability and reusability without a significant loss of activity. In this mini-review, the state- of-the-art in the use of DESs as catalyst is presented. The DESs, which show Lewis type acidity, Brønsted type acidity and other types of catalytic influence in various types of reactions including esterification, organic synthesis, glycolysis and depolymerisation are presented and their roles in the reactions are discussed.",
+            "authors": [
+                "A. Ünlü",
+                "et al."
+            ],
+            "publication": "Green Processing and Synthesis",
+            "citation_count": 168
+        }
+    },
+    "paper_60_info": {
+        "reference_60": {
+            "searched_title": "The antagonist and synergist potential of cholinium-based deep eutectic solvents.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/63b90f258882531ce56c72ed0e3b08d1ef940193",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "Inês P. E. Macário",
+                "et al."
+            ],
+            "publication": "Ecotoxicology and Environmental Safety",
+            "citation_count": 36
+        }
+    },
+    "paper_61_info": {
+        "reference_61": {
+            "searched_title": "Quantification of the liquid window of deep eutectic solvents.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/a002bf3355a0e1ad282f6174e9c2d5b3bdf47870",
+            "date": "2018",
+            "abs": "Deep eutectic solvents (DESs) have been considered as a new class of green solvents with tunable physical properties based on the selective combination of their individual components. As the liquid window of a DES identifies the range of feasible applications, it is essential to determine, quantify, and predict their phase behavior. Phase diagrams were measured for systems consisting of tetrapentylammonium bromide and erythritol or succinic acid. Regular solution theory is applied to quantitatively describe the liquid window of DESs. The succinic acid mixture shows a larger deviation from ideal behavior, caused by the stronger hydrogen bond forming acid groups. The interaction parameter between the two DES components in regular solution theory could be determined directly from the eutectic temperature of the mixture and this enables quantification of the degree of non-ideality of DESs.",
+            "authors": [
+                "L. Kollau",
+                "et al."
+            ],
+            "publication": "Chemical Communications",
+            "citation_count": 84
+        }
+    },
+    "paper_62_info": {
+        "reference_62": {
+            "searched_title": "Influence of Hydration on the Structure of Reline Deep Eutectic Solvent: A Molecular Dynamics Study",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/abf225f5b4896f184ae64b7478cb9926449a476c",
+            "date": "2018",
+            "abs": "In this article, we have performed an all-atom molecular dynamics simulation study to investigate the influence of water on the molecular level arrangement of reline deep eutectic solvent for different hydration levels ranging from 3.4 to 58.1 wt % of water and complemented the observations of recently measured neutron scattering experimental data. This study is particularly important because water is being introduced as a second hydrogen bond donor/acceptor in reline, wherein the structure is primarily governed by hydrogen bonding and electrostatic interactions. We have analyzed the simulated X-ray scattering structure functions, their partial components, and hydrogen bonding interactions to understand the effects of water on various intermolecular interactions in reline–water mixtures. It is observed that at lower hydration level, reline structure is qualitatively retained. At higher hydration level, most water molecules preferentially solvate chloride anions and ammonium group of choline cations mostly impacting choline–choline, choline–chloride, and chloride–chloride interactions. The present study reveals that at and above 41 wt % of water, the molecular arrangement of reline drastically changes and set to transition from reline to an aqueous solution of reline components with further increase in the hydration level. Hydrogen bond analysis reveals the presence of strong chloride–water H-bonding interaction, which gradually replaces choline–chloride and urea–chloride hydrogen bondings as the hydration level in the mixture increases.",
+            "authors": [
+                "Pratibha Kumari",
+                "et al."
+            ],
+            "publication": "ACS Omega",
+            "citation_count": 97
+        }
+    },
+    "paper_63_info": {
+        "reference_63": {
+            "searched_title": "Hydrophobic Deep Eutectic Solvents Incorporating Trioctylphosphine Oxide: Advanced Liquid Extractants",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/e1da53c0a481133a38675b31695d76509445b49f",
+            "date": "2018",
+            "abs": "A low viscosity, hydrophobic eutectic solvent based on trioctylphosphine oxide (TOPO) has been developed and characterized, and its use as an extractant demonstrated for liquid–liquid separation of uranyl nitrate from aqueous acid. This strategy of liquefying the active extracting agent as a eutectic liquid produced liquids that contain an intrinsically high concentration of TOPO (ca. 80 wt %, 1.875 mol L–1 at χTOPO = 0.50) and renders the use of an organic (hydrocarbon) diluent redundant.",
+            "authors": [
+                "M. Gilmore",
+                "et al."
+            ],
+            "publication": "ACS Sustainable Chemistry and Engineering",
+            "citation_count": 127
+        }
+    },
+    "paper_64_info": {
+        "reference_64": {
+            "searched_title": "Unraveling the ecotoxicity of deep eutectic solvents using the mixture toxicity theory.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/0cd1cfa9ad9924fb50a048492553e327416267ac",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "Inês P. E. Macário",
+                "et al."
+            ],
+            "publication": "Chemosphere",
+            "citation_count": 65
+        }
+    },
+    "paper_65_info": {
+        "reference_65": {
+            "searched_title": "Insights into the Nature of Eutectic and Deep Eutectic Mixtures",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/990c49ee2c44efe0fa347315162b1665ed8cd1c6",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "Mónia A. R. Martins",
+                "et al."
+            ],
+            "publication": "Journal of Solution Chemistry",
+            "citation_count": 828
+        }
+    },
+    "paper_66_info": {
+        "reference_66": {
+            "searched_title": "Extraction techniques with deep eutectic solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/3ee0e83f12ae2d43825619c30f412529cc9e71dd",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "S. Cunha",
+                "et al."
+            ],
+            "publication": "Trends in Analytical Chemistry (TrAC)",
+            "citation_count": 589
+        }
+    },
+    "paper_67_info": {
+        "reference_67": {
+            "searched_title": "Application of a computational model of natural deep eutectic solvents utilizing the COSMO-RS approach for screening of solvents with high solubility of rutin",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/d036e390d36e470607e8c923b8fd8406aa6f111c",
+            "date": "2018",
+            "abs": "The screening of natural deep eutectic solvents (NADES) to identify those with the ability to strongly solvate rutin was conducted using the COSMO-RS methodology. A NADES model was constructed that took into account the possible ionic and neutral forms of its constituents. The distributions of all forms were computed based on the equilibrium constants of neutralization reactions between amino and carboxylic acids. The proposed model was validated against the experimental solubilities of 15 NADES. A linear relationship between these data and the estimated activity coefficient values was found. The screening encompassed 126 different NADES. It was found that ten of them outperformed the best reference system. The most effective two-component solvent comprised proline combined with 2,3-diaminosuccinic acid, and the solubility of rutin in this solvent was found to be 130% greater than its solubility in the best reference system. The amino acids associated with the highest rutin solubilities were all cyclic, and the use of carboxylic acids with two carboxyl groups and a main chain consisting of two methylene groups with two amino substituents was observed to yield the best rutin solubilities. Because of the acidic properties of rutin, the presence of basic sites on the components of the NADES generally leads to enhanced solubility.",
+            "authors": [
+                "T. Jeliński",
+                "et al."
+            ],
+            "publication": "Journal of Molecular Modeling",
+            "citation_count": 57
+        }
+    },
+    "paper_68_info": {
+        "reference_68": {
+            "searched_title": "Design and Characterization of Sugar-Based Deep Eutectic Solvents Using Conductor-like Screening Model for Real Solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/05b47afc7f55803e73b201b79badeccdccced9d7",
+            "date": "2018",
+            "abs": "Inspired by the lack of characterization of natural eutectic and deep eutectic (DES) systems, we studied the solid–liquid equilibria (SLE) of binary and ternary mixtures involving choline chloride and sugars. The densities, viscosities and solvatochromic parameters for the binary systems containing choline chloride, [Ch]Cl, were measured at the eutectic composition, and the water impact on these properties was also investigated in order to address the tailoring of their properties using water. Mixtures of sugars are shown to present an ideal behavior, while their binary mixtures with choline chloride present negative deviations to the ideality, particularly in the sugar solubility curve. Aiming to develop a predictive model to design new sugar-based DES, the [Ch]Cl+sugars phase diagrams were used to tune the conductor-like screening model for real solvents (COSMO-RS) parameters, which was after applied in the estimation of the eutectic points of new ternary DES. The predictions quality was checked experim...",
+            "authors": [
+                "Liliana P. Silva",
+                "et al."
+            ],
+            "publication": "ACS Sustainable Chemistry and Engineering",
+            "citation_count": 58
+        }
+    },
+    "paper_69_info": {
+        "reference_69": {
+            "searched_title": "Thermal stability of choline chloride deep eutectic solvents by TGA/FTIR-ATR analysis",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/63e709c8ddcf74ea1747b3ba045a69af96aa983d",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "Noemí Delgado-Mellado",
+                "et al."
+            ],
+            "publication": "Journal of Molecular Liquids",
+            "citation_count": 400
+        }
+    },
+    "paper_70_info": {
+        "reference_70": {
+            "searched_title": "Deep eutectic solvents for the production and application of new materials",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/06251e6d5577c1bee016adb71af3ba170fabba57",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "L. I. Tomé",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 546
+        }
+    },
+    "paper_71_info": {
+        "reference_71": {
+            "searched_title": "A comparison of choline:urea and choline:oxalic acid deep eutectic solvents at 338 K.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/5f741a91e89c306efd49ef4a4f3fb947767d836b",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "M. Gilmore",
+                "et al."
+            ],
+            "publication": "Journal of Chemical Physics",
+            "citation_count": 52
+        }
+    },
+    "paper_72_info": {
+        "reference_72": {
+            "searched_title": "From Phase Change Materials to Green Solvents: Hydrophobic Low Viscous Fatty Acid-based Deep Eutectic Solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/2a1374b66431903b145523677ae2e4402e08984f",
+            "date": "2018",
+            "abs": "Inspired by the use of fatty acids in development of low temperature latent heat storage materials, novel low viscous and hydrophobic deep eutectic solvents (DESs) based exclusively on fatty acids are herein proposed as sustainable solvents. Three DESs were prepared by exclusively combining fatty acids, namely octanoic acid (C8), nonanoic acid (C9), decanoic acid (C10), and dodecanoic acid (C12), which can simultaneously act as hydrogen bond donors and acceptors. The obtained fatty acid-based DESs were analyzed in order to check their structures, purities, and proportions. Water stability was also carefully evaluated through 1H NMR. Fatty-acid DESs melting point diagrams were determined by visual observation. Good agreement was obtained between the experimental eutectic point and that predicted by considering an ideal system of two individually melting compounds. Important solvent thermophysical properties, such as density and viscosity of the dried and water-saturated DESs, were measured. Finally, the re...",
+            "authors": [
+                "C. Florindo",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 287
+        }
+    },
+    "paper_73_info": {
+        "reference_73": {
+            "searched_title": "Experimental and Molecular Modeling Evaluation of the Physicochemical Properties of Proline-Based Deep Eutectic Solvents.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/33b429ade11be93e985d9041ce85534345065d0a",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "Adriaan van den Bruinhorst",
+                "et al."
+            ],
+            "publication": "Journal of Physical Chemistry B",
+            "citation_count": 43
+        }
+    },
+    "paper_74_info": {
+        "reference_74": {
+            "searched_title": "Solubility prediction of CO2, CH4, H2, CO and N2 in Choline Chloride/Urea as a eutectic solvent using NRTL and COSMO-RS models",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/c16b7ae2c2ad0b46b7dfb35db788b99408d7d508",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "Amin Kamgar",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 73
+        }
+    },
+    "paper_75_info": {
+        "reference_75": {
+            "searched_title": "Application of deep eutectic solvents in analytical chemistry. A review",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/0c3d0d53c82e3fabde945e4f49608c0eaac5834d",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "A. Shishov",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 464
+        }
+    },
+    "paper_76_info": {
+        "reference_76": {
+            "searched_title": "Non-ideal behavior of ionic liquid mixtures to enhance CO2 capture",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/6be4bd5dc276feb8c97a01879be2ba6f562f60a2",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "C. Moya",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 42
+        }
+    },
+    "paper_77_info": {
+        "reference_77": {
+            "searched_title": "Characterization and Modeling of the Liquid Phase of Deep Eutectic Solvents Based on Fatty Acids/Alcohols and Choline Chloride",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/d033a3b33b2d2a3b536be9e9de08a01da629227c",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "E. A. Crespo",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 66
+        }
+    },
+    "paper_78_info": {
+        "reference_78": {
+            "searched_title": "Indirect assessment of the fusion properties of choline chloride from solid-liquid equilibria data",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/f26c118f14cf5cc24d00067a8808c5fd162b5d10",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "Luis Fernández",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 78
+        }
+    },
+    "paper_79_info": {
+        "reference_79": {
+            "searched_title": "PC-SAFT modeling of CO2 solubilities in hydrophobic deep eutectic solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/99adaeff9e638dfab620ae7b37b5a18ae657024f",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "C. Dietz",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 88
+        }
+    },
+    "paper_80_info": {
+        "reference_80": {
+            "searched_title": "Solubility of glucose in tetrabutylammonium bromide based deep eutectic solvents: Experimental and molecular dynamic simulations",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/2bae27174bbf8ed06ad95b5db4152df05d597919",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "Mood Mohan",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 65
+        }
+    },
+    "paper_81_info": {
+        "reference_81": {
+            "searched_title": "Inelastic neutron scattering study of reline: shedding light on the hydrogen bonding network of deep eutectic solvents.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/3361aa035f378ffe0a088657a8a6ec6e7caa4425",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "C. Araújo",
+                "et al."
+            ],
+            "publication": "Physical Chemistry, Chemical Physics - PCCP",
+            "citation_count": 103
+        }
+    },
+    "paper_82_info": {
+        "reference_82": {
+            "searched_title": "Application of Deep Eutectic Solvents (DES) for Phenolic Compounds Extraction: Overview, Challenges, and Opportunities.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/8658926926c4030dbb374544e5d8e24635513902",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "Mariana Ruesgas-Ramón",
+                "et al."
+            ],
+            "publication": "Journal of Agricultural and Food Chemistry",
+            "citation_count": 597
+        }
+    },
+    "paper_83_info": {
+        "reference_83": {
+            "searched_title": "Transdermal Bioavailability in Rats of Lidocaine in the Forms of Ionic Liquids, Salts, and Deep Eutectic.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/6ff13f75726ac92db65e6ffbd64ed14ab9bd07a2",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "Paula Berton",
+                "et al."
+            ],
+            "publication": "ACS Medicinal Chemistry Letters",
+            "citation_count": 70
+        }
+    },
+    "paper_84_info": {
+        "reference_84": {
+            "searched_title": "Excess Molar Enthalpies of Deep Eutectic Solvents (DESs) Composed of Quaternary Ammonium Salts and Glycerol or Ethylene Glycol",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/1e9e84714ba2cc009af0c6db3f675fde9c126ac0",
+            "date": "2016",
+            "abs": "N/A",
+            "authors": [
+                "Pablo López-Porfiri",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 55
+        }
+    },
+    "paper_85_info": {
+        "reference_85": {
+            "searched_title": "Thermogravimetric measurement of deep eutectic solvents vapor pressure",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/22c493beebe127f9c3cd4cfd0a70c81c3f030305",
+            "date": "2016",
+            "abs": "N/A",
+            "authors": [
+                "K. Shahbaz",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 104
+        }
+    },
+    "paper_86_info": {
+        "reference_86": {
+            "searched_title": "Unique low-molecular-weight lignin with high purity extracted from wood by deep eutectic solvents (DES): a source of lignin for valorization",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/3f413276e87a5ce406f87ea9d5fe24fef1d8e88d",
+            "date": "2016",
+            "abs": "N/A",
+            "authors": [
+                "Carlos Alvarez-Vasco",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 491
+        }
+    },
+    "paper_87_info": {
+        "reference_87": {
+            "searched_title": "Doubly ionic hydrogen bond interactions within the choline chloride-urea deep eutectic solvent.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/4aa8404f9783aab5600cf240d30d8fc49168933b",
+            "date": "2016",
+            "abs": "Deep eutectic solvents (DESs) are exemplars of systems with the ability to form neutral, ionic and doubly ionic H-bonds. Herein, the pairwise interactions of the constituent components of the choline chloride-urea DES are examined. Evidence is found for a tripodal CHCl doubly ionic H-bond motif. Moreover it is found that the covalency of doubly ionic H-bonds can be greater than, or comparable with, neutral and ionic examples. In contrast to many traditional solvents, an \"alphabet soup\" of many different types of H-bond (OHO[double bond, length as m-dash]C, NHO[double bond, length as m-dash]C, OHCl, NHCl, OHNH, CHCl, CHO[double bond, length as m-dash]C, NHOH and NHNH) can form. These H-bonds exhibit substantial flexibility in terms of number and strength. It is anticipated that H-bonding will have a significant impact on the entropy of the system and thus could play an important role in the formation of the eutectic. The 2 : 1 urea : choline-chloride eutectic point of this DES is often associated with the formation of a [Cl(urea)2](-) complexed anion. However, urea is found to form a H-bonded urea[choline](+) complexed cation that is energetically competitive with [Cl(urea)2](-). The negative charge on [Cl(urea)2](-) is found to remain localised on the chloride, moreover, the urea[choline](+) complexed cation forms the strongest H-bond studied here. Thus, there is potential to consider a urea[choline](+)·urea[Cl](-) interaction.",
+            "authors": [
+                "C. Ashworth",
+                "et al."
+            ],
+            "publication": "Physical Chemistry, Chemical Physics - PCCP",
+            "citation_count": 240
+        }
+    },
+    "paper_88_info": {
+        "reference_88": {
+            "searched_title": "Liquid structure of the choline chloride-urea deep eutectic solvent (reline) from neutron diffraction and atomistic modelling",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/6f7a15a98de77249876df577ce8d19fca0112348",
+            "date": "2016",
+            "abs": "The liquid structure of the archetypal Deep Eutectic Solvent (DES) reline, a 1 : 2 molar mixture of choline chloride and urea, has been determined at 303 K. This is the first reported liquid-phase neutron diffraction experiment on a cholinium DES. H/D isotopic substitution is used to obtain differential neutron scattering cross sections, and an Empirical Potential Structure Refinement (EPSR) model is fitted to the experimental data. Radial distribution functions (RDFs) derived from EPSR reveal the presence of the anticipated hydrogen bonding network within the liquid, with significant ordering interactions not only between urea and chloride, but between all DES components. Spatial density functions (SDFs) are used to map the 3D structure of the solvent. Interestingly, choline is found to contribute strongly to this bonding network via the hydroxyl group, giving rise to a radially layered structure with ordering between all species. The void size distribution function calculated for reline suggests that the holes present within DESs are far smaller than previously suggested by hole theory. These observations have important implications in the future development of these ‘designer solvents’.",
+            "authors": [
+                "O. Hammond",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 310
+        }
+    },
+    "paper_89_info": {
+        "reference_89": {
+            "searched_title": "Efficient continuous synthesis of high purity deep eutectic solvents by twin screw extrusion.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/22e6bad4381236b06bf734e2d71e3aa83b2ad8ce",
+            "date": "2016",
+            "abs": "N/A",
+            "authors": [
+                "Deborah E. Crawford",
+                "et al."
+            ],
+            "publication": "Chemical Communications",
+            "citation_count": 101
+        }
+    },
+    "paper_90_info": {
+        "reference_90": {
+            "searched_title": "PC-SAFT Modeling of CO2 Solubilities in Deep Eutectic Solvents.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/cf371ddd5742553251eddc6620ad151ff4875157",
+            "date": "2016",
+            "abs": "N/A",
+            "authors": [
+                "L. Zubeir",
+                "et al."
+            ],
+            "publication": "Journal of Physical Chemistry B",
+            "citation_count": 125
+        }
+    },
+    "paper_91_info": {
+        "reference_91": {
+            "searched_title": "Ecotoxicity of Cholinium-Based Deep Eutectic Solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/07ca6afc237e09838cd2f42050093ac45d7e77b2",
+            "date": "2015",
+            "abs": "N/A",
+            "authors": [
+                "P. Morais",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 131
+        }
+    },
+    "paper_92_info": {
+        "reference_92": {
+            "searched_title": "Imidazole tailored deep eutectic solvents for CO2 capture enhanced by hydrogen bonds.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/188b72947fa3e0ad9d5b21769052a1e6ae2b6cca",
+            "date": "2015",
+            "abs": "N/A",
+            "authors": [
+                "Lingdi Cao",
+                "et al."
+            ],
+            "publication": "Physical Chemistry, Chemical Physics - PCCP",
+            "citation_count": 95
+        }
+    },
+    "paper_93_info": {
+        "reference_93": {
+            "searched_title": "Evaluation of toxicity and biodegradability for cholinium-based deep eutectic solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/ca11b675f5721efe309f9c1d0ea72800d0bac054",
+            "date": "2015",
+            "abs": "N/A",
+            "authors": [
+                "Ibrahim Juneidi",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 171
+        }
+    },
+    "paper_94_info": {
+        "reference_94": {
+            "searched_title": "An approach for the rationalization of melting temperature for deep eutectic solvents from DFT",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/3ecaf243d51fa5bdd5fa9842f54d90ed2390a910",
+            "date": "2015",
+            "abs": "N/A",
+            "authors": [
+                "Gregorio García",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 129
+        }
+    },
+    "paper_95_info": {
+        "reference_95": {
+            "searched_title": "Assessing the toxicity and biodegradability of deep eutectic solvents.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/270f990bfc93a670c9e9966e50130d75197eef2d",
+            "date": "2015",
+            "abs": "N/A",
+            "authors": [
+                "Qing Wen",
+                "et al."
+            ],
+            "publication": "Chemosphere",
+            "citation_count": 348
+        }
+    },
+    "paper_96_info": {
+        "reference_96": {
+            "searched_title": "A Comparative Study of Nickel Electrodeposition Using Deep Eutectic Solvents and Aqueous Solutions",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/e55c8f60b3593be0b6fea6571dfbde2caae9112a",
+            "date": "2015",
+            "abs": "N/A",
+            "authors": [
+                "A. Abbott",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 186
+        }
+    },
+    "paper_97_info": {
+        "reference_97": {
+            "searched_title": "Deep Eutectic Solvents: Physicochemical Properties and Gas Separation Applications",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/60ff1c8f3646b5461dec9cdc1ee7546af3fc72b3",
+            "date": "2015",
+            "abs": "N/A",
+            "authors": [
+                "Gregorio García",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 875
+        }
+    },
+    "paper_98_info": {
+        "reference_98": {
+            "searched_title": "Evaluation of toxicity and biodegradability of choline chloride based deep eutectic solvents.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/6a1f8be259401f29e076cfbc4f89558cb19b0c3c",
+            "date": "2015",
+            "abs": "N/A",
+            "authors": [
+                "K. Radošević",
+                "et al."
+            ],
+            "publication": "Ecotoxicology and Environmental Safety",
+            "citation_count": 571
+        }
+    },
+    "paper_99_info": {
+        "reference_99": {
+            "searched_title": "Deep eutectic solvents (DESs) and their applications.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/e339a6f53d1a677bbc96881e592642b62de17238",
+            "date": "2014",
+            "abs": "N/A",
+            "authors": [
+                "Emma L. Smith",
+                "et al."
+            ],
+            "publication": "Chemical Reviews",
+            "citation_count": 5172
+        }
+    },
+    "paper_100_info": {
+        "reference_100": {
+            "searched_title": "Insights into the Synthesis and Properties of Deep Eutectic Solvents Based on Cholinium Chloride and Carboxylic Acids",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/0158a0e0bac92f3d2ca37f7af6425f744e9ef4f6",
+            "date": "2014",
+            "abs": "N/A",
+            "authors": [
+                "C. Florindo",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 743
+        }
+    },
+    "paper_101_info": {
+        "reference_101": {
+            "searched_title": "Tetrabutylammonium Bromide (TBABr)-Based Deep Eutectic Solvents (DESs) and Their Physical Properties",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/f9fea6d229fe90b344b832f8e6e77cf99085f14d",
+            "date": "2014",
+            "abs": "Density, viscosity and ionic conductivity data sets of deep eutectic solvents (DESs) formed by tetrabutylammonium bromide (TBABr) paired with ethlyene glycol, 1,3-propanediol, 1,5-pentanediol and glycerol hydrogen bond donors (HBDs) are reported. The properties of DES were measured at temperatures between 303 K and 333 K for HBD percentages of 66.7% to 90%. The effects of HBDs under different temperature and percentages are systematically analyzed. As expected, the measured density and viscosity of the studied DESs decreased with an increase in temperature, while ionic conductivity increases with temperature. In general, DESs made of TBABr and glycerol showed the highest density and viscosity and the lowest ionic conductivity when compared to other DESs. The presence of an extra hydroxyl group on glycerol in a DES affected the properties of the DES.",
+            "authors": [
+                "R. Yusof",
+                "et al."
+            ],
+            "publication": "Molecules",
+            "citation_count": 159
+        }
+    },
+    "paper_102_info": {
+        "reference_102": {
+            "searched_title": "Separation of BTEX aromatics from n-octane using a (tetrabutylammonium bromide + sulfolane) deep eutectic solvent – experiments and COSMO-RS prediction",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/88ce0909d3785a8b4a0c3ecb5ff2916678061cc2",
+            "date": "2014",
+            "abs": "N/A",
+            "authors": [
+                "Sarwono Mulyono",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 120
+        }
+    },
+    "paper_103_info": {
+        "reference_103": {
+            "searched_title": "Prospects of applying ionic liquids and deep eutectic solvents for renewable energy storage by means of redox flow batteries",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/e6fedfb3865ef345574c916c3882e7bdcbf36539",
+            "date": "2014",
+            "abs": "N/A",
+            "authors": [
+                "M. H. Chakrabarti",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 236
+        }
+    },
+    "paper_104_info": {
+        "reference_104": {
+            "searched_title": "Prebiotic Phosphate Ester Syntheses in a Deep Eutectic Solvent",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/0513d25d0b3ff4ef13772bd071c9b6a3d771818e",
+            "date": "2014",
+            "abs": "N/A",
+            "authors": [
+                "Maheen Gull",
+                "et al."
+            ],
+            "publication": "Journal of Molecular Evolution",
+            "citation_count": 59
+        }
+    },
+    "paper_105_info": {
+        "reference_105": {
+            "searched_title": "Natural deep eutectic solvents as new potential media for green technology.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/2775b58194e70d56185b03cbf941b06f254dcc07",
+            "date": "2013",
+            "abs": "N/A",
+            "authors": [
+                "Yuntao Dai",
+                "et al."
+            ],
+            "publication": "Analytica Chimica Acta",
+            "citation_count": 2088
+        }
+    },
+    "paper_106_info": {
+        "reference_106": {
+            "searched_title": "Are deep eutectic solvents benign or toxic?",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/0bdaf210a9a4c6f421fc6bc960f84a80c82a94fd",
+            "date": "2013",
+            "abs": "N/A",
+            "authors": [
+                "M. Hayyan",
+                "et al."
+            ],
+            "publication": "Chemosphere",
+            "citation_count": 517
+        }
+    },
+    "paper_107_info": {
+        "reference_107": {
+            "searched_title": "Deep eutectic solvents: syntheses, properties and applications.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/ebfb46ae522854cc0a97dfd222b201171f5321ac",
+            "date": "2012",
+            "abs": "N/A",
+            "authors": [
+                "Qinghua Zhang",
+                "et al."
+            ],
+            "publication": "Chemical Society Reviews",
+            "citation_count": 3901
+        }
+    },
+    "paper_108_info": {
+        "reference_108": {
+            "searched_title": "Efficient separation of phenols from oils via forming deep eutectic solvents",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/3a4d06b8b2582efe1716a687aa30d1b43e3a7dfd",
+            "date": "2012",
+            "abs": "N/A",
+            "authors": [
+                "Kun Pang",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 176
+        }
+    },
+    "paper_109_info": {
+        "reference_109": {
+            "searched_title": "Deep-eutectic solvents playing multiple roles in the synthesis of polymers and related materials.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/00af78f1942ad8017bedd782a9a355b67eec5ab2",
+            "date": "2012",
+            "abs": "N/A",
+            "authors": [
+                "D. Carriazo",
+                "et al."
+            ],
+            "publication": "Chemical Society Reviews",
+            "citation_count": 620
+        }
+    },
+    "paper_110_info": {
+        "reference_110": {
+            "searched_title": "The COSMO and COSMO‐RS solvation models",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/67da6ce942ba358a2350c0940c0adf79df5ecba6",
+            "date": "2011",
+            "abs": "N/A",
+            "authors": [
+                "A. Klamt"
+            ],
+            "publication": "N/A",
+            "citation_count": 761
+        }
+    },
+    "paper_111_info": {
+        "reference_111": {
+            "searched_title": "COSMO-RS as a tool for property prediction of IL mixtures—A review",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/c2a2d7e7afa80f46e359024090e564cb43192a86",
+            "date": "2010",
+            "abs": "N/A",
+            "authors": [
+                "M. Diedenhofen",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 428
+        }
+    },
+    "paper_112_info": {
+        "reference_112": {
+            "searched_title": "The solid-liquid phase diagrams of binary mixtures of consecutive, even saturated fatty acids.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/817ddd5952c1f2de0b004fb7c895732338110db7",
+            "date": "2009",
+            "abs": "N/A",
+            "authors": [
+                "M. C. Costa",
+                "et al."
+            ],
+            "publication": "Chemistry and Physics of Lipids",
+            "citation_count": 86
+        }
+    },
+    "paper_113_info": {
+        "reference_113": {
+            "searched_title": "Solubility of Metal Oxides in Deep Eutectic Solvents Based on Choline Chloride",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/775fcd620c3bd253c872ab1e3e67affdd37f7b74",
+            "date": "2006",
+            "abs": "N/A",
+            "authors": [
+                "A. Abbott",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 587
+        }
+    },
+    "paper_114_info": {
+        "reference_114": {
+            "searched_title": "Can sustainable ammonia synthesis pathways compete with fossil-fuel based Haber–Bosch processes?",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/7ca96bb2ff2b3208da7f7a1764f6d6a6818bfde3",
+            "date": "2021",
+            "abs": "This analysis presents system level analysis of three stages along the transition towards sustainable synthesis of ammonia.",
+            "authors": [
+                "Miao Wang",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 174
+        }
+    },
+    "paper_115_info": {
+        "reference_115": {
+            "searched_title": "What a difference a methylgroupmakes—probingcholine–ureamolecularinteractionsthroughureastructuremodification",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_116_info": {
+        "reference_116": {
+            "searched_title": "Introductory Chemical Engineering Thermodynamics",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_117_info": {
+        "reference_117": {
+            "searched_title": "Are natural deep eutectic solvents the missing link in understanding cellular metabolism and physiology?",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_118_info": {
+        "reference_118": {
+            "searched_title": "The solid-liquid phase diagrams of binary mixtures of consecutive, even saturated fatty acids: differing by four carbon atoms.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/9d2eeb915fb7aa59815b07809960e26a4bd5ea0d",
+            "date": "2009",
+            "abs": "N/A",
+            "authors": [
+                "M. C. Costa",
+                "et al."
+            ],
+            "publication": "Chemistry and Physics of Lipids",
+            "citation_count": 61
+        }
+    },
+    "paper_119_info": {
+        "reference_119": {
+            "searched_title": "COSMO-RS, From Quantum Chemistry to Fluid Phase Thermodynamics and Drug Design",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/72eba99067a4c41b01b5a2f6a330886afa210913",
+            "date": "2006",
+            "abs": "N/A",
+            "authors": [
+                "P. Pullumbi"
+            ],
+            "publication": "N/A",
+            "citation_count": 218
+        }
+    },
+    "paper_120_info": {
+        "reference_120": {
+            "searched_title": "Solid (cid:0) liquid equilibria of viscous binary mixtures with alcohols",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_121_info": {
+        "reference_121": {
+            "searched_title": "Molecular Thermodynamics of Fluid-Phase Equilibria",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/bdef1d0f198a87373a4cdf4573dfd9eda1344200",
+            "date": "1969",
+            "abs": "N/A",
+            "authors": [
+                "J. Rowlinson"
+            ],
+            "publication": "N/A",
+            "citation_count": 4716
+        }
+    },
+    "paper_122_info": {
+        "reference_122": {
+            "searched_title": "2022. Group and group-interaction contribution method for estimating the melting temperatures of deep eutectic solvents",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_123_info": {
+        "reference_123": {
+            "searched_title": "2022. Viscosity model of deep eutectic solvents from group contribution method",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_124_info": {
+        "reference_124": {
+            "searched_title": "2022. Homologue-paired liquids as special non-ionic deep eutectic solvents for efficient absorption of SO 2",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_125_info": {
+        "reference_125": {
+            "searched_title": "2022.Cocrystal formation in l -menthol/phenol eutectic system: experimental study and thermodynamic modeling",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_126_info": {
+        "reference_126": {
+            "searched_title": "Better HBAs",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_127_info": {
+        "reference_127": {
+            "searched_title": "2022. Separation of butyric acid from aqueous media using menthol-based hydrophobic deep eutectic solvent and modeling by response surface methodology",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    }
+}

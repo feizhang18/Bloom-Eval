@@ -1,0 +1,1407 @@
+{
+    "reference_num": 75,
+    "paper_1_info": {
+        "reference_1": {
+            "searched_title": "Training deeper neural machine translation models with transparent attention",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1808.07561",
+            "url": "https://arxiv.org/abs/1808.07561",
+            "date": "1808",
+            "abs": "While current state-of-the-art NMT models, such as RNN seq2seq and Transformers, possess a large number of parameters, they are still shallow in comparison to convolutional models used for both text and vision applications. In this work we attempt to train significantly (2-3x) deeper Transformer and Bi-RNN encoders for machine translation. We propose a simple modification to the attention mechanism that eases the optimization of deeper models, and results in consistent gains of 0.7-1.1 BLEU on the benchmark WMT'14 English-German and WMT'15 Czech-English tasks for both architectures.",
+            "authors": [
+                "Ankur Bapna",
+                "Mia Xu Chen",
+                "Orhan Firat",
+                "Yuan Cao",
+                "Yonghui Wu"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 131
+        }
+    },
+    "paper_2_info": {
+        "reference_2": {
+            "searched_title": "Deep learning for time series forecasting: Tutorial and literature survey",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3533382",
+            "date": "2022",
+            "abs": "Deep learning based forecasting methods have become the methods of choice in many applications of time series prediction or forecasting often outperforming other approaches. Consequently, over the last years, these methods are now ubiquitous in large-scale industrial forecasting applications and have consistently ranked among the best entries in forecasting competitions (e.g., M4 and M5). This practical success has further increased the academic interest to understand and improve deep forecasting methods. In this article we provide an introduction and overview of the field: We present important building blocks for deep forecasting in some depth; using these building blocks, we then survey the breadth of the recent deep forecasting literature.",
+            "authors": [
+                "Konstantinos Benidis",
+                "Syama Sundar Rangapuram",
+                "Valentin Flunkert",
+                "Yuyang Wang",
+                "Danielle Maddix",
+                "et al."
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 357
+        }
+    },
+    "paper_3_info": {
+        "reference_3": {
+            "searched_title": "A review on outlier/anomaly detection in time series data",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3444690",
+            "date": "2021",
+            "abs": "Recent advances in technology have brought major breakthroughs in data collection, enabling a large amount of data to be gathered over time and thus generating time series. Mining this data has become an important task for researchers and practitioners in the past few years, including the detection of outliers or anomalies that may represent errors or events of interest. This review aims to provide a structured and comprehensive state-of-the-art on unsupervised outlier detection techniques in the context of time series. To this end, a taxonomy is presented based on the main aspects that characterize an outlier detection technique.",
+            "authors": [
+                "Ane Blázquez-Garcia",
+                "Angel Conde",
+                "Usue Mori",
+                "et al."
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 1308
+        }
+    },
+    "paper_4_info": {
+        "reference_4": {
+            "searched_title": "Language models are few-shot learners",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html?utm_source=transaction&utm_medium=email&utm_campaign=linkedin_newsletter",
+            "date": "2020",
+            "abs": "We demonstrate that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even becoming competitive with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text …",
+            "authors": [
+                "Tom Brown",
+                "Benjamin Mann",
+                "Nick Ryder",
+                "Melanie Subbiah",
+                "Jared D Kaplan",
+                "Prafulla Dhariwal",
+                "et al."
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 54686
+        }
+    },
+    "paper_5_info": {
+        "reference_5": {
+            "searched_title": "Trafc transformer: Capturing the continuity and periodicity of time series for traffic forecasting",
+            "scholar_status": "Success (Similarity: 98.99%)",
+            "arxiv_id": "N/A",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.12644",
+            "date": "2020",
+            "abs": "Traffic forecasting is a challenging problem due to the complexity of jointly modeling spatio‐temporal dependencies at different scales. Recently, several hybrid deep learning models have been developed to capture such dependencies. These approaches typically utilize convolutional neural networks or graph neural networks (GNNs) to model spatial dependency and leverage recurrent neural networks (RNNs) to learn temporal dependency. However, RNNs are only able to capture sequential information in the time series, while being incapable of modeling their periodicity (e.g., weekly patterns). Moreover, RNNs are difficult to parallelize, making training and prediction less efficient. In this work we propose a novel deep learning architecture called Traffic Transformer to capture the continuity and periodicity of time series and to model spatial dependency. Our work takes inspiration from Google’s Transformer framework for machine translation. We conduct extensive experiments on two real‐world traffic data sets, and the results demonstrate that our model outperforms baseline models by a substantial margin.",
+            "authors": [
+                "Ling Cai",
+                "Krzysztof Janowicz",
+                "Gengchen Mai",
+                "Bo Yan",
+                "Rui Zhu"
+            ],
+            "publication": "Wiley Online Library",
+            "citation_count": 411
+        }
+    },
+    "paper_6_info": {
+        "reference_6": {
+            "searched_title": "Pre-trained image processing transformer",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "http://openaccess.thecvf.com/content/CVPR2021/html/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.html",
+            "date": "2021",
+            "abs": "As the computing power of modern hardware is increasing strongly, pre-trained deep learning models (eg, BERT, GPT-3) learned on large-scale datasets have shown their effectiveness over conventional methods. The big progress is mainly contributed to the representation ability of transformer and its variant architectures. In this paper, we study the low-level computer vision task (eg, denoising, super-resolution and deraining) and develop a new pre-trained model, namely, image processing transformer (IPT). To maximally excavate the capability of transformer, we present to utilize the well-known ImageNet benchmark for generating a large amount of corrupted image pairs. The IPT model is trained on these images with multi-heads and multi-tails. In addition, the constructive learning is introduced for well adapting to different image processing tasks. The pre-trained model can therefore efficiently employed on desired task after fine-tuning. With only one pre-trained model, IPT outperforms the current state-of-the-art methods on various low-level benchmarks. Code is available at https://gitee. com/mindspore/mindspore/tree/master/model_zoo/research/cv/IPT",
+            "authors": [
+                "Hanting Chen",
+                "Yunhe Wang",
+                "Tianyu Guo",
+                "Chang Xu",
+                "Yiping Deng",
+                "Zhenhua Liu",
+                "Siwei Ma",
+                "Chunjing Xu",
+                "et al."
+            ],
+            "publication": "openaccess.thecvf.com",
+            "citation_count": 2554
+        }
+    },
+    "paper_7_info": {
+        "reference_7": {
+            "searched_title": "AutoFormer: Searching transformers for visual recognition",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "http://openaccess.thecvf.com/content/ICCV2021/html/Chen_AutoFormer_Searching_Transformers_for_Visual_Recognition_ICCV_2021_paper.html",
+            "date": "2021",
+            "abs": "Recently, pure transformer-based models have shown great potentials for vision tasks such as image classification and detection. However, the design of transformer networks is challenging. It has been observed that the depth, embedding dimension, and number of heads can largely affect the performance of vision transformers. Previous models configure these dimensions based upon manual crafting. In this work, we propose a new one-shot architecture search framework, namely AutoFormer, dedicated to vision transformer search …",
+            "authors": [
+                "Minghao Chen",
+                "Houwen Peng",
+                "Jianlong Fu",
+                "Haibin Ling"
+            ],
+            "publication": "openaccess.thecvf.com",
+            "citation_count": 466
+        }
+    },
+    "paper_8_info": {
+        "reference_8": {
+            "searched_title": "Learning graph structures with transformer for multivariate time series anomaly detection in IoT",
+            "scholar_status": "Success (Similarity: 98.96%)",
+            "arxiv_id": "N/A",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9497343/",
+            "date": "2021",
+            "abs": "Many real-world Internet of Things (IoT) systems, which include a variety of Internet-connected sensory devices, produce substantial amounts of multivariate time-series data. Meanwhile, vital IoT infrastructures, such as smart power grids and water distribution networks are frequently targeted by cyberattacks, making anomaly detection an important study topic. Modeling such relatedness is, nevertheless, unavoidable for any efficient and effective anomaly detection system, given the intricate topological and nonlinear connections that are originally unknown among sensors. Furthermore, detecting anomalies in multivariate time series is difficult due to their temporal dependency and stochasticity. This article presented GTA, a new framework for multivariate time-series anomaly detection that involves automatically learning a graph structure, graph convolution, and modeling temporal dependency using a transformer-based architecture. The connection learning policy, which is based on the Gumbel-softmax sampling approach to learn bidirected links among sensors directly, is at the heart of the learning graph structure. To describe the anomaly information flow between network nodes, we introduced a new graph convolution called influence propagation convolution. In addition, to tackle the quadratic complexity barrier, we suggested a multibranch attention mechanism to replace the original multihead self-attention method. Extensive experiments on four publicly available anomaly detection benchmarks further demonstrate the superiority of our approach over alternative state of the arts.",
+            "authors": [
+                "Zekai Chen",
+                "Dingshuo Chen",
+                "Xiao Zhang",
+                "Zixuan Yuan",
+                "Xiuzhen Cheng"
+            ],
+            "publication": "ieeexplore.ieee.org",
+            "citation_count": 554
+        }
+    },
+    "paper_9_info": {
+        "reference_9": {
+            "searched_title": "Learning to rotate: Quaternion transformer for complicated periodical time series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3534678.3539234",
+            "date": "2022",
+            "abs": "Time series forecasting is a critical and challenging problem in many real applications. Recently, Transformer-based models prevail in time series forecasting due to their advancement in long-range dependencies learning. Besides, some models introduce series decomposition to further unveil reliable yet plain temporal dependencies. Unfortunately, few models could handle complicated periodical patterns, such as multiple periods, variable periods, and phase shifts in real-world datasets. Meanwhile, the notorious quadratic complexity of dot-product attentions hampers long sequence modeling. To address these challenges, we design an innovative framework Quaternion Transformer (Quatformer), along with three major components: 1). learning-to-rotate attention (LRA) based on quaternions which introduces learnable period and phase information to depict intricate periodical patterns. 2). trend normalization to normalize the series representations in hidden layers of the model considering the slowly varying characteristic of trend. 3). decoupling LRA using global memory to achieve linear complexity without losing prediction accuracy. We evaluate our framework on multiple real-world time series datasets and observe an average 8.1% and up to 18.5% MSE improvement over the best state-of-the-art baseline.",
+            "authors": [
+                "Weiqi Chen",
+                "Wenwei Wang",
+                "Bingqing Peng",
+                "Qingsong Wen",
+                "Tian Zhou",
+                "Liang Sun"
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 85
+        }
+    },
+    "paper_10_info": {
+        "reference_10": {
+            "searched_title": "Deep learning for anomaly detection in time-series data: Review, analysis, and guidelines",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9523565/",
+            "date": "2021",
+            "abs": "As industries become automated and connectivity technologies advance, a wide range of systems continues to generate massive amounts of data. Many approaches have been proposed to extract principal indicators from the vast sea of data to represent the entire system state. Detecting anomalies using these indicators on time prevent potential accidents and economic losses. Anomaly detection in multivariate time series data poses a particular challenge because it requires simultaneous consideration of temporal dependencies and relationships between variables. Recent deep learning-based works have made impressive progress in this field. They are highly capable of learning representations of the large-scaled sequences in an unsupervised manner and identifying anomalies from the data. However, most of them are highly specific to the individual use case and thus require domain knowledge for appropriate deployment. This review provides a background on anomaly detection in time-series data and reviews the latest applications in the real world. Also, we comparatively analyze state-of-the-art deep-anomaly-detection models for time series with several benchmark datasets. Finally, we offer guidelines for appropriate model selection and training strategy for deep learning-based time series anomaly detection.",
+            "authors": [
+                "Kukjin Choi",
+                "Jihun Yi",
+                "Changhwa Park",
+                "Sungroh Yoon"
+            ],
+            "publication": "ieeexplore.ieee.org",
+            "citation_count": 683
+        }
+    },
+    "paper_11_info": {
+        "reference_11": {
+            "searched_title": "TARNet: Task-aware reconstruction for time-series transformer",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3534678.3539329",
+            "date": "2022",
+            "abs": "Time-series data contains temporal order information that can guide representation learning for predictive end tasks (e.g., classification, regression). Recently, there are some attempts to leverage such order information to first pre-train time-series models by reconstructing time-series values of randomly masked time segments, followed by an end-task fine-tuning on the same dataset, demonstrating improved end-task performance. However, this learning paradigm decouples data reconstruction from the end task. We argue that the representations learnt in this way are not informed by the end task and may, therefore, be sub-optimal for the end-task performance. In fact, the importance of different timestamps can vary significantly in different end tasks. We believe that representations learnt by reconstructing important timestamps would be a better strategy for improving end-task performance. In this work, we propose TARNet, Task-Aware Reconstruction Network, a new model using Transformers to learn task-aware data reconstruction that augments end-task performance. Specifically, we design a data-driven masking strategy that uses self-attention score distribution from end-task training to sample timestamps deemed important by the end task. Then, we mask out data at those timestamps and reconstruct them, thereby making the reconstruction task-aware. This reconstruction task is trained alternately with the end task at every epoch, sharing parameters in a single model, allowing the representation learnt through reconstruction to improve end-task performance. Extensive experiments on tens of classification and regression datasets show that TARNet significantly outperforms state-of-the-art baseline models across all evaluation metrics.",
+            "authors": [
+                "Ranak Roy Chowdhury",
+                "Xiyuan Zhang",
+                "Jingbo Shang",
+                "Rajesh K Gupta",
+                "Dezhi Hong"
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 89
+        }
+    },
+    "paper_12_info": {
+        "reference_12": {
+            "searched_title": "Triformer: Triangular, variable-specific atentions for long sequence multivariate time series forecasting",
+            "scholar_status": "Success (Similarity: 93.33%)",
+            "arxiv_id": "2204.13767",
+            "url": "https://arxiv.org/abs/2204.13767",
+            "date": "2022",
+            "abs": "A variety of real-world applications rely on far future information to make decisions, thus calling for efficient and accurate long sequence multivariate time series forecasting. While recent attention-based forecasting models show strong abilities in capturing long-term dependencies, they still suffer from two key limitations. First, canonical self attention has a quadratic complexity w.r.t. the input time series length, thus falling short in efficiency. Second, different variables' time series often have distinct temporal dynamics, which existing studies fail to capture, as they use the same model parameter space, e.g., projection matrices, for all variables' time series, thus falling short in accuracy. To ensure high efficiency and accuracy, we propose Triformer, a triangular, variable-specific attention. (i) Linear complexity: we introduce a novel patch attention with linear complexity. When stacking multiple layers of the patch attentions, a triangular structure is proposed such that the layer sizes shrink exponentially, thus maintaining linear complexity. (ii) Variable-specific parameters: we propose a light-weight method to enable distinct sets of model parameters for different variables' time series to enhance accuracy without compromising efficiency and memory usage. Strong empirical evidence on four datasets from multiple domains justifies our design choices, and it demonstrates that Triformer outperforms state-of-the-art methods w.r.t. both accuracy and efficiency. This is an extended version of \"Triformer: Triangular, Variable-Specific Attentions for Long Sequence Multivariate Time Series Forecasting\", to appear in IJCAI 2022 [Cirstea et al., 2022a], including additional experimental results.",
+            "authors": [
+                "Razvan-Gabriel Cirstea",
+                "Chenjuan Guo",
+                "Bin Yang",
+                "Tung Kieu",
+                "Xuanyi Dong",
+                "Shirui Pan"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 195
+        }
+    },
+    "paper_13_info": {
+        "reference_13": {
+            "searched_title": "STL: A seasonal-trend decomposition procedure based on loess",
+            "scholar_status": "Failed (Best match similarity 76.03% is below threshold 80.00%)"
+        }
+    },
+    "paper_14_info": {
+        "reference_14": {
+            "searched_title": "Transformer-XL: Attentive language models beyond a fixed-length context",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1901.02860",
+            "url": "https://arxiv.org/abs/1901.02860",
+            "date": "2019",
+            "abs": "Transformers have a potential of learning longer-term dependency, but are limited by a fixed-length context in the setting of language modeling. We propose a novel neural architecture Transformer-XL that enables learning dependency beyond a fixed length without disrupting temporal coherence. It consists of a segment-level recurrence mechanism and a novel positional encoding scheme. Our method not only enables capturing longer-term dependency, but also resolves the context fragmentation problem. As a result, Transformer-XL learns dependency that is 80% longer than RNNs and 450% longer than vanilla Transformers, achieves better performance on both short and long sequences, and is up to 1,800+ times faster than vanilla Transformers during evaluation. Notably, we improve the state-of-the-art results of bpc/perplexity to 0.99 on enwiki8, 1.08 on text8, 18.3 on WikiText-103, 21.8 on One Billion Word, and 54.5 on Penn Treebank (without finetuning). When trained only on WikiText-103, Transformer-XL manages to generate reasonably coherent, novel text articles with thousands of tokens. Our code, pretrained models, and hyperparameters are available in both Tensorflow and PyTorch.",
+            "authors": [
+                "Zihang Dai",
+                "Zhilin Yang",
+                "Yiming Yang",
+                "Jaime G. Carbonell",
+                "Quoc V. Le",
+                "et al."
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 5304
+        }
+    },
+    "paper_15_info": {
+        "reference_15": {
+            "searched_title": "Universal transformers",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1807.03819",
+            "url": "https://arxiv.org/abs/1807.03819",
+            "date": "2018",
+            "abs": "… This paper introduces the Universal Transformer, a generalization of the Transformer model that extends its theoretical capabilities and produces state-of-the-art results on a wide range …",
+            "authors": [
+                "Mostafa Dehghani",
+                "Stephan Gouws",
+                "Oriol Vinyals",
+                "Jakob Uszkoreit",
+                "Lukasz Kaiser"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 1159
+        }
+    },
+    "paper_16_info": {
+        "reference_16": {
+            "searched_title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2010.11929",
+            "url": "https://arxiv.org/pdf/2010.11929/1000",
+            "date": "2020",
+            "abs": "While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited. In vision, attention is either applied in conjunction with convolutional networks, or used to replace certain components of convolutional networks while keeping their overall structure in place. We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks. When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train. 1",
+            "authors": [
+                "Alexey Dosovitskiy",
+                "Lucas Beyer",
+                "Alexander Kolesnikov",
+                "Dirk Weissenborn",
+                "Xiaohua Zhai",
+                "Thomas Unterthiner",
+                "et al."
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 73108
+        }
+    },
+    "paper_17_info": {
+        "reference_17": {
+            "searched_title": "Neural architecture search: A survey",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "http://www.jmlr.org/papers/v20/18-598.html",
+            "date": "2019",
+            "abs": "Deep Learning has enabled remarkable progress over the last years on a variety of tasks, such as image recognition, speech recognition, and machine translation. One crucial aspect for this progress are novel neural architectures. Currently employed architectures have mostly been developed manually by human experts, which is a time-consuming and error-prone process. Because of this, there is growing interest in automated neural architecture search methods. We provide an overview of existing work in this field of research and categorize them according to three dimensions: search space, search strategy, and performance estimation strategy.",
+            "authors": [
+                "Thomas Elsken",
+                "Jan Hendrik Metzen",
+                "Frank Hutter"
+            ],
+            "publication": "jmlr.org",
+            "citation_count": 4081
+        }
+    },
+    "paper_18_info": {
+        "reference_18": {
+            "searched_title": "Earthformer: Exploring space-time transformers for earth system forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/a2affd71d15e8fedffe18d0219f4837a-Abstract-Conference.html",
+            "date": "2022",
+            "abs": "Conventionally, Earth system (eg, weather and climate) forecasting relies on numerical simulation with complex physical models and hence is both expensive in computation and demanding on domain expertise. With the explosive growth of spatiotemporal Earth observation data in the past decade, data-driven models that apply Deep Learning (DL) are demonstrating impressive potential for various Earth system forecasting tasks. The Transformer as an emerging DL architecture, despite its broad success in other domains, has limited adoption in this area. In this paper, we propose Earthformer, a space-time Transformer for Earth system forecasting. Earthformer is based on a generic, flexible and efficient space-time attention block, named Cuboid Attention. The idea is to decompose the data into cuboids and apply cuboid-level self-attention in parallel. These cuboids are further connected with a collection of global vectors. We conduct experiments on the MovingMNIST dataset and a newly proposed chaotic -body MNIST dataset to verify the effectiveness of cuboid attention and figure out the best design of Earthformer. Experiments on two real-world benchmarks about precipitation nowcasting and El Niño/Southern Oscillation (ENSO) forecasting show that Earthformer achieves state-of-the-art performance.",
+            "authors": [
+                "Zhihan Gao",
+                "Xingjian Shi",
+                "Hao Wang",
+                "Yi Zhu",
+                "Bernie Wang",
+                "Mu Li",
+                "et al."
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 261
+        }
+    },
+    "paper_19_info": {
+        "reference_19": {
+            "searched_title": "Convolutional sequence to sequence learning",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.mlr.press/v70/gehring17a",
+            "date": "2017",
+            "abs": "… We introduce the first fully convolutional model for sequence to sequence learning that outperforms strong recurrent models on very large benchmark datasets at an order of magnitude …",
+            "authors": [
+                "Jonas Gehring",
+                "Michael Auli",
+                "David Grangier",
+                "Denis Yarats",
+                "Yann N Dauphin"
+            ],
+            "publication": "proceedings.mlr.press",
+            "citation_count": 4665
+        }
+    },
+    "paper_20_info": {
+        "reference_20": {
+            "searched_title": "Generative adversarial nets",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+            "date": "2014",
+            "abs": "… We propose a new framework for estimating generative models via adversarial nets, in which we simultaneously train two models: a generative model G that captures the data …",
+            "authors": [
+                "Ian Goodfellow",
+                "Jean Pouget-Abadie",
+                "Mehdi Mirza",
+                "Bing Xu",
+                "David Warde-Farley",
+                "Sherjil Ozair",
+                "et al."
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 85266
+        }
+    },
+    "paper_21_info": {
+        "reference_21": {
+            "searched_title": "Pre-trained models: Past, present and future",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2666651021000231",
+            "date": "2021",
+            "abs": "Large-scale pre-trained models (PTMs) such as BERT and GPT have recently achieved great success and become a milestone in the field of artificial intelligence (AI). Owing to sophisticated pre-training objectives and huge model parameters, large-scale PTMs can effectively capture knowledge from massive labeled and unlabeled data. By storing knowledge into huge parameters and fine-tuning on specific tasks, the rich knowledge implicitly encoded in huge parameters can benefit a variety of downstream tasks, which has been extensively demonstrated via experimental verification and empirical analysis. It is now the consensus of the AI community to adopt PTMs as backbone for downstream tasks rather than learning models from scratch. In this paper, we take a deep look into the history of pre-training, especially its special relation with transfer learning and self-supervised learning, to reveal the crucial position of PTMs in the AI development spectrum. Further, we comprehensively review the latest breakthroughs of PTMs. These breakthroughs are driven by the surge of computational power and the increasing availability of data, towards four important directions: designing effective architectures, utilizing rich contexts, improving computational efficiency, and conducting interpretation and theoretical analysis. Finally, we discuss a series of open problems and research directions of PTMs, and hope our view can inspire and advance the future study of PTMs.",
+            "authors": [
+                "Xu Han",
+                "Zhengyan Zhang",
+                "Ning Ding",
+                "Yuxian Gu",
+                "Xiao Liu",
+                "Yuqi Huo",
+                "Jiezhong Qiu",
+                "Liang Zhang",
+                "et al."
+            ],
+            "publication": "Elsevier",
+            "citation_count": 1190
+        }
+    },
+    "paper_22_info": {
+        "reference_22": {
+            "searched_title": "A survey on vision transformer",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9716741/",
+            "date": "2022",
+            "abs": "… Section III is the main part of the paper, in which we summarize the vision transformer models on backbone, high/mid-level vision, low-level vision, and video tasks. We also briefly …",
+            "authors": [
+                "Kai Han",
+                "Yunhe Wang",
+                "Hanting Chen",
+                "Xinghao Chen",
+                "Jianyuan Guo",
+                "Zhenhua Liu",
+                "Yehui Tang",
+                "An Xiao",
+                "et al."
+            ],
+            "publication": "ieeexplore.ieee.org",
+            "citation_count": 3962
+        }
+    },
+    "paper_23_info": {
+        "reference_23": {
+            "searched_title": "Automatic time series forecasting: the forecast package for r",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.jstatsoft.org/article/view/v027i03/0",
+            "date": "2008",
+            "abs": "Automatic forecasts of large numbers of univariate time series are often needed in business and other contexts. We describe two automatic forecasting algorithms that have been implemented in the forecast package for R. The first is based on innovations state space models that underly exponential smoothing methods. The second is a step-wise algorithm for forecasting with ARIMA models. The algorithms are applicable to both seasonal and non-seasonal data, and are compared and illustrated using four real time series. We also briefly describe some of the other functionality available in the forecast package.",
+            "authors": [
+                "Rob J Hyndman",
+                "Yeasmin Khandakar"
+            ],
+            "publication": "jstatsoft.org",
+            "citation_count": 5551
+        }
+    },
+    "paper_24_info": {
+        "reference_24": {
+            "searched_title": "Deep learning for time series classification: a review",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://link.springer.com/article/10.1007/s10618-019-00619-1?mkt-key=005056A5C6311EE999A3A1E864CDA986",
+            "date": "2019",
+            "abs": "… We also provide an open source deep learning framework to the TSC community where we … multivariate time series datasets. By training 8730 deep learning models on 97 time series …",
+            "authors": [
+                "Hassan Ismail Fawaz",
+                "Germain Forestier",
+                "Jonathan Weber",
+                "Lhassane Idoumghar",
+                "Pierre-Alain Muller"
+            ],
+            "publication": "Springer",
+            "citation_count": 4186
+        }
+    },
+    "paper_25_info": {
+        "reference_25": {
+            "searched_title": "Rethinking positional encoding in language pre-training",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2006.15595",
+            "url": "https://arxiv.org/abs/2006.15595",
+            "date": "2006",
+            "abs": "In this work, we investigate the positional encoding methods used in language pre-training (e.g., BERT) and identify several problems in the existing formulations. First, we show that in the absolute positional encoding, the addition operation applied on positional embeddings and word embeddings brings mixed correlations between the two heterogeneous information resources. It may bring unnecessary randomness in the attention and further limit the expressiveness of the model. Second, we question whether treating the position of the symbol \\texttt{[CLS]} the same as other words is a reasonable design, considering its special role (the representation of the entire sentence) in the downstream tasks. Motivated from above analysis, we propose a new positional encoding method called \\textbf{T}ransformer with \\textbf{U}ntied \\textbf{P}ositional \\textbf{E}ncoding (TUPE). In the self-attention module, TUPE computes the word contextual correlation and positional correlation separately with different parameterizations and then adds them together. This design removes the mixed and noisy correlations over heterogeneous embeddings and offers more expressiveness by using different projection matrices. Furthermore, TUPE unties the \\texttt{[CLS]} symbol from other positions, making it easier to capture information from all positions. Extensive experiments and ablation studies on GLUE benchmark demonstrate the effectiveness of the proposed method. Codes and models are released at https://github.com/guolinke/TUPE.",
+            "authors": [
+                "Guolin Ke",
+                "Di He",
+                "Tie-Yan Liu"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 385
+        }
+    },
+    "paper_26_info": {
+        "reference_26": {
+            "searched_title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://aclanthology.org/N19-1423/?utm_campaign=The+Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_m9bbH_7ECE1h3lZ3D61TYg52rKpifVNjL4fvJ85uqggrXsWDBTB7YooFLJeNXHWqhvOyC",
+            "date": "2019",
+            "abs": "… deep bidirectionality of BERT by evaluating two pretraining objectives using exactly the same pretraining … No NSP: A bidirectional model which is trained using the “masked LM” (MLM) …",
+            "authors": [
+                "Jacob Devlin",
+                "Ming-Wei Chang",
+                "Kenton",
+                "et al."
+            ],
+            "publication": "aclanthology.org",
+            "citation_count": 144878
+        }
+    },
+    "paper_27_info": {
+        "reference_27": {
+            "searched_title": "Auto-encoding variational bayes",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://indico.math.cnrs.fr/event/11377/attachments/4589/6915/18012024_Kingma-and-Welling-2022%20Auto-Encoding%20Variational%20Bayes.pdf",
+            "date": "1312",
+            "abs": "… variational lower bound yields a simple differentiable unbiased estimator of the lower bound; this SGVB (Stochastic Gradient Variational Bayes… , we propose the AutoEncoding VB (AEVB…",
+            "authors": [
+                "Diederik P Kingma",
+                "Max Welling"
+            ],
+            "publication": "indico.math.cnrs.fr",
+            "citation_count": 48645
+        }
+    },
+    "paper_28_info": {
+        "reference_28": {
+            "searched_title": "Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper/2019/hash/6775a0635c302542da2c32aa19d86be0-Abstract.html",
+            "date": "2019",
+            "abs": "Time series forecasting is an important problem across many domains, including predictions of solar plant energy output, electricity consumption, and traffic jam situation. In this paper, we propose to tackle such forecasting problem with Transformer. Although impressed by its performance in our preliminary study, we found its two major weaknesses:(1) locality-agnostics: the point-wise dot-product self-attention in canonical Transformer architecture is insensitive to local context, which can make the model prone to anomalies in time series;(2) memory bottleneck: space complexity of canonical Transformer grows quadratically with sequence length L, making directly modeling long time series infeasible. In order to solve these two issues, we first propose convolutional self-attention by producing queries and keys with causal convolution so that local context can be better incorporated into attention mechanism. Then, we propose LogSparse Transformer with only O (L (log L)^ 2) memory cost, improving forecasting accuracy for time series with fine granularity and strong long-term dependencies under constrained memory budget. Our experiments on both synthetic data and real-world datasets show that it compares favorably to the state-of-the-art.",
+            "authors": [
+                "Shiyang Li",
+                "Xiaoyong Jin",
+                "Yao Xuan",
+                "Xiyou Zhou",
+                "Wenhu Chen",
+                "Yu-Xiang Wang",
+                "Xifeng Yan"
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 2347
+        }
+    },
+    "paper_29_info": {
+        "reference_29": {
+            "searched_title": "Grin: Generative relation and intention network for multi-agent trajectory prediction",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper/2021/hash/e3670ce0c315396e4836d7024abcf3dd-Abstract.html",
+            "date": "2021",
+            "abs": "Learning the distribution of future trajectories conditioned on the past is a crucial problem for understanding multi-agent systems. This is challenging because humans make decisions based on complex social relations and personal intents, resulting in highly complex uncertainties over trajectories. To address this problem, we propose a conditional deep generative model that combines advances in graph neural networks. The prior and recognition model encodes two types of latent codes for each agent: an inter-agent latent code to represent social relations and an intra-agent latent code to represent agent intentions. The decoder is carefully devised to leverage the codes in a disentangled way to predict multi-modal future trajectory distribution. Specifically, a graph attention network built upon inter-agent latent code is used to learn continuous pair-wise relations, and an agent's motion is controlled by its latent intents and its observations of all other agents. Through experiments on both synthetic and real-world datasets, we show that our model outperforms previous work in multiple performance metrics. We also show that our model generates realistic multi-modal trajectories.",
+            "authors": [
+                "Longyuan Li",
+                "Jian Yao",
+                "Li Wenliang",
+                "Tong He",
+                "Tianjun Xiao",
+                "Junchi Yan",
+                "David Wipf",
+                "Zheng Zhang"
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 57
+        }
+    },
+    "paper_30_info": {
+        "reference_30": {
+            "searched_title": "AirFormer: Predicting nationwide air quality in china with transformers",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26676",
+            "date": "2023",
+            "abs": "Air pollution is a crucial issue affecting human health and livelihoods, as well as one of the barriers to economic growth. Forecasting air quality has become an increasingly important endeavor with significant social impacts, especially in emerging countries. In this paper, we present a novel Transformer termed AirFormer to predict nationwide air quality in China, with an unprecedented fine spatial granularity covering thousands of locations. AirFormer decouples the learning process into two stages: 1) a bottom-up deterministic stage that contains two new types of self-attention mechanisms to efficiently learn spatio-temporal representations; 2) a top-down stochastic stage with latent variables to capture the intrinsic uncertainty of air quality data. We evaluate AirFormer with 4-year data from 1,085 stations in Chinese Mainland. Compared to prior models, AirFormer reduces prediction errors by 5%∼ 8% on 72-hour future predictions. Our source code is available at https://github. com/yoshall/airformer.",
+            "authors": [
+                "Yuxuan Liang",
+                "Yutong Xia",
+                "Songyu Ke",
+                "Yiwei Wang",
+                "Qingsong Wen",
+                "Junbo Zhang",
+                "Yu Zheng",
+                "Roger Zimmermann"
+            ],
+            "publication": "ojs.aaai.org",
+            "citation_count": 170
+        }
+    },
+    "paper_31_info": {
+        "reference_31": {
+            "searched_title": "Time-series forecasting with deep learning: a survey",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2020.0209",
+            "date": "2021",
+            "abs": "Numerous deep learning architectures have been developed to accommodate the diversity of time-series datasets across different domains. In this article, we survey common encoder and decoder designs used in both one-step-ahead and multi-horizon time-series forecasting—describing how temporal information is incorporated into predictions by each model. Next, we highlight recent developments in hybrid deep learning models, which combine well-studied statistical models with neural network components to improve pure methods in either category. Lastly, we outline some ways in which deep learning can also facilitate decision support with time-series data. This article is part of the theme issue ‘Machine learning for weather and climate modelling’.",
+            "authors": [
+                "Bryan Lim",
+                "Stefan Zohren"
+            ],
+            "publication": "royalsocietypublishing.org",
+            "citation_count": 2066
+        }
+    },
+    "paper_32_info": {
+        "reference_32": {
+            "searched_title": "Temporal fusion transformers for interpretable multi-horizon time series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0169207021000637",
+            "date": "2021",
+            "abs": "Multi-horizon forecasting often contains a complex mix of inputs–including static (ie time-invariant) covariates, known future inputs, and other exogenous time series that are only observed in the past–without any prior information on how they interact with the target. Several deep learning methods have been proposed, but they are typically 'black-box'models that do not shed light on how they use the full range of inputs present in practical scenarios. In this paper, we introduce the Temporal Fusion Transformer (TFT)–a novel …",
+            "authors": [
+                "Bryan Lim",
+                "Sercan Arik",
+                "Nicolas Loeff",
+                "Tomas Pfister"
+            ],
+            "publication": "Elsevier",
+            "citation_count": 2568
+        }
+    },
+    "paper_33_info": {
+        "reference_33": {
+            "searched_title": "SSDNet: State space decomposition neural network for time series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9679135/",
+            "date": "2021",
+            "abs": "In this paper, we present SSDNet, a novel deep learning approach for time series forecasting. SSDNet combines the Transformer architecture with state space models to provide probabilistic and interpretable forecasts, including trend and seasonality components and previous time steps important for the prediction. The Transformer architecture is used to learn the temporal patterns and estimate the parameters of the state space model directly and efficiently, without the need for Kalman filters. We comprehensively evaluate the performance of SSDNet on five data sets, showing that SSDNet is an effective method in terms of accuracy and speed, outperforming state-of-the-art deep learning and statistical methods, and able to provide meaningful trend and seasonality components.",
+            "authors": [
+                "Yang Lin",
+                "Irena Koprinska",
+                "Mashud Rana"
+            ],
+            "publication": "ieeexplore.ieee.org",
+            "citation_count": 68
+        }
+    },
+    "paper_34_info": {
+        "reference_34": {
+            "searched_title": "Gated transformer networks for multivariate time series classification",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2103.14438",
+            "url": "https://arxiv.org/abs/2103.14438",
+            "date": "2021",
+            "abs": "Deep learning model (primarily convolutional networks and LSTM) for time series classification has been studied broadly by the community with the wide applications in different domains like healthcare, finance, industrial engineering and IoT. Meanwhile, Transformer Networks recently achieved frontier performance on various natural language processing and computer vision tasks. In this work, we explored a simple extension of the current Transformer Networks with gating, named Gated Transformer Networks (GTN) for the multivariate time series classification problem. With the gating that merges two towers of Transformer which model the channel-wise and step-wise correlations respectively, we show how GTN is naturally and effectively suitable for the multivariate time series classification task. We conduct comprehensive experiments on thirteen dataset with full ablation study. Our results show that GTN is able to achieve competing results with current state-of-the-art deep learning models. We also explored the attention map for the natural interpretability of GTN on time series modeling. Our preliminary results provide a strong baseline for the Transformer Networks on multivariate time series classification task and grounds the foundation for future research.",
+            "authors": [
+                "Minghao Liu",
+                "Shengqi Ren",
+                "Siyuan Ma",
+                "Jiahui Jiao",
+                "Yizhou Chen",
+                "Zhiguang Wang",
+                "Wei Song"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 234
+        }
+    },
+    "paper_35_info": {
+        "reference_35": {
+            "searched_title": "Pyraformer: Low-complexity pyramidal attention for long-range time series modeling and forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://repositum.tuwien.at/handle/20.500.12708/135874",
+            "date": "2022",
+            "abs": "Accurate prediction of the future given the past based on time series data is of paramount importance, since it opens the door for decision making and risk management ahead of time. In practice, the challenge is to build a flexible but parsimonious model that can capture a wide range of temporal dependencies. In this paper, we propose Pyraformer by exploring the multi-resolution representation of the time series. Specifically, we introduce the pyramidal attention module (PAM) in which the inter-scale tree structure summarizes features at different resolutions and the intra-scale neighboring connections model the temporal dependencies of different ranges. Under mild conditions, the maximum length of the signal traversing path in Pyraformer is a constant (i.e., O(1)) with regard to the sequence length L, while its time and space complexity scale linearly with L. Extensive experimental results show that Pyraformer typically achieves the highest prediction accuracy in both single-step and long-range multi-step forecasting tasks with the least amount of time and memory consumption, especially when the sequence is long.",
+            "authors": [
+                "Shizhan Liu",
+                "Hang Yu",
+                "Cong Liao",
+                "Jianguo Li",
+                "Weiyao Lin",
+                "Alex X. Liu",
+                "Schahram Dustdar"
+            ],
+            "publication": "repositum.tuwien.at",
+            "citation_count": 1207
+        }
+    },
+    "paper_36_info": {
+        "reference_36": {
+            "searched_title": "Non-stationary transformers: Exploring the stationarity in time series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/4054556fcaa934b0bf76da52cf4f92cb-Abstract-Conference.html",
+            "date": "2022",
+            "abs": "Transformers have shown great power in time series forecasting due to their global-range modeling ability. However, their performance can degenerate terribly on non-stationary real-world data in which the joint distribution changes over time. Previous studies primarily adopt stationarization to attenuate the non-stationarity of original series for better predictability. But the stationarized series deprived of inherent non-stationarity can be less instructive for real-world bursty events forecasting. This problem, termed over-stationarization in this paper, leads Transformers to generate indistinguishable temporal attentions for different series and impedes the predictive capability of deep models. To tackle the dilemma between series predictability and model capability, we propose Non-stationary Transformers as a generic framework with two interdependent modules: Series Stationarization and De-stationary Attention. Concretely, Series Stationarization unifies the statistics of each input and converts the output with restored statistics for better predictability. To address the over-stationarization problem, De-stationary Attention is devised to recover the intrinsic non-stationary information into temporal dependencies by approximating distinguishable attentions learned from raw series. Our Non-stationary Transformers framework consistently boosts mainstream Transformers by a large margin, which reduces MSE by 49.43% on Transformer, 47.34% on Informer, and 46.89% on Reformer, making them the state-of-the-art in time series forecasting. Code is available at this repository: https://github. com/thuml/Nonstationary_Transformers.",
+            "authors": [
+                "Yong Liu",
+                "Haixu Wu",
+                "Jianmin Wang",
+                "Mingsheng Long"
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 889
+        }
+    },
+    "paper_37_info": {
+        "reference_37": {
+            "searched_title": "Delight: Deep and light-weight transformer",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2008.00623",
+            "url": "https://arxiv.org/abs/2008.00623",
+            "date": "2020",
+            "abs": "We introduce a deep and light-weight transformer, DeLighT, that delivers similar or better performance than standard transformer-based models with significantly fewer parameters. DeLighT more efficiently allocates parameters both (1) within each Transformer block using the DeLighT transformation, a deep and light-weight transformation, and (2) across blocks using block-wise scaling, which allows for shallower and narrower DeLighT blocks near the input and wider and deeper DeLighT blocks near the output. Overall, DeLighT networks are 2.5 to 4 times deeper than standard transformer models and yet have fewer parameters and operations. Experiments on benchmark machine translation and language modeling tasks show that DeLighT matches or improves the performance of baseline Transformers with 2 to 3 times fewer parameters on average. Our source code is available at: \\url{https://github.com/sacmehta/delight}",
+            "authors": [
+                "Sachin Mehta",
+                "Marjan Ghazvininejad",
+                "Srini Iyer",
+                "Luke Zettlemoyer",
+                "Hannaneh Hajishirzi"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 153
+        }
+    },
+    "paper_38_info": {
+        "reference_38": {
+            "searched_title": "Transformer embeddings of irregularly spaced events and their participants",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2201.00044",
+            "url": "https://arxiv.org/abs/2201.00044",
+            "date": "2201",
+            "abs": "The neural Hawkes process (Mei & Eisner, 2017) is a generative model of irregularly spaced sequences of discrete events. To handle complex domains with many event types, Mei et al. (2020a) further consider a setting in which each event in the sequence updates a deductive database of facts (via domain-specific pattern-matching rules); future events are then conditioned on the database contents. They show how to convert such a symbolic system into a neuro-symbolic continuous-time generative model, in which each database fact and the possible event has a time-varying embedding that is derived from its symbolic provenance. In this paper, we modify both models, replacing their recurrent LSTM-based architectures with flatter attention-based architectures (Vaswani et al., 2017), which are simpler and more parallelizable. This does not appear to hurt our accuracy, which is comparable to or better than that of the original models as well as (where applicable) previous attention-based methods (Zuo et al., 2020; Zhang et al., 2020a).",
+            "authors": [
+                "Hongyuan Mei",
+                "Chenghao Yang",
+                "Jason Eisner"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 89
+        }
+    },
+    "paper_39_info": {
+        "reference_39": {
+            "searched_title": "A time series is worth 64 words: Long-term forecasting with transformers",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2211.14730",
+            "url": "https://arxiv.org/abs/2211.14730",
+            "date": "2022",
+            "abs": "We propose an efficient design of Transformer-based models for multivariate time series forecasting and self-supervised representation learning. It is based on two key components: (i) segmentation of time series into subseries-level patches which are served as input tokens to Transformer; (ii) channel-independence where each channel contains a single univariate time series that shares the same embedding and Transformer weights across all the series. Patching design naturally has three-fold benefit: local semantic information is retained in the embedding; computation and memory usage of the attention maps are quadratically reduced given the same look-back window; and the model can attend longer history. Our channel-independent patch time series Transformer (PatchTST) can improve the long-term forecasting accuracy significantly when compared with that of SOTA Transformer-based models. We also apply our model to self-supervised pre-training tasks and attain excellent fine-tuning performance, which outperforms supervised training on large datasets. Transferring of masked pre-trained representation on one dataset to others also produces SOTA forecasting accuracy. Code is available at: https://github.com/yuqinie98/PatchTST.",
+            "authors": [
+                "Yuqi Nie",
+                "Nam H. Nguyen",
+                "Phanwadee Sinthong",
+                "Jayant Kalagnanam"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 2716
+        }
+    },
+    "paper_40_info": {
+        "reference_40": {
+            "searched_title": "Self-attention for raw optical satellite time series classification",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0924271620301647",
+            "date": "2020",
+            "abs": "The amount of available Earth observation data has increased dramatically in recent years. Efficiently making use of the entire body of information is a current challenge in remote sensing; it demands lightweight problem-agnostic models that do not require region- or problem-specific expert knowledge. End-to-end trained deep learning models can make use of raw sensory data by learning feature extraction and classification in one step, solely from data. Still, many methods proposed in remote sensing research require implicit feature extraction through data preprocessing or explicit design of features.In this work, we compare recent deep learning models on crop type classification on raw and preprocessed Sentinel 2 data. We concentrate on the common neural network architectures for time series, i.e., 1D-convolutions, recurrence, and the novel self-attention architecture. Our central findings are that data preprocessing still increased the overall classification performance for all models while the choice of model was less crucial. Self-attention and recurrent neural networks, by their architecture, outperformed convolutional neural networks on raw satellite time series. We explore this by a feature importance analysis based on gradient backpropagation that exploits the differentiable nature of deep learning models. Further, we qualitatively show how self-attention scores focus selectively on a few classification-relevant observations.",
+            "authors": [
+                "Marc RuBwurm",
+                "Marco Korner"
+            ],
+            "publication": "Elsevier",
+            "citation_count": 340
+        }
+    },
+    "paper_41_info": {
+        "reference_41": {
+            "searched_title": "Scaleformer: iterative multi-scale refining transformers for time series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2206.04038",
+            "url": "https://arxiv.org/abs/2206.04038",
+            "date": "2206",
+            "abs": "The performance of time series forecasting has recently been greatly improved by the introduction of transformers. In this paper, we propose a general multi-scale framework that can be applied to the state-of-the-art transformer-based time series forecasting models (FEDformer, Autoformer, etc.). By iteratively refining a forecasted time series at multiple scales with shared weights, introducing architecture adaptations, and a specially-designed normalization scheme, we are able to achieve significant performance improvements, from 5.5% to 38.5% across datasets and transformer architectures, with minimal additional computational overhead. Via detailed ablation studies, we demonstrate the effectiveness of each of our contributions across the architecture and methodology. Furthermore, our experiments on various public datasets demonstrate that the proposed improvements outperform their corresponding baseline counterparts. Our code is publicly available in https://github.com/BorealisAI/scaleformer.",
+            "authors": [
+                "Amin Shabani",
+                "Amir Abdi",
+                "Lili Meng",
+                "Tristan Sylvain"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 162
+        }
+    },
+    "paper_42_info": {
+        "reference_42": {
+            "searched_title": "Self-attention with relative position representations",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1803.02155",
+            "url": "https://arxiv.org/abs/1803.02155",
+            "date": "1803",
+            "abs": "Relying entirely on an attention mechanism, the Transformer introduced by Vaswani et al. (2017) achieves state-of-the-art results for machine translation. In contrast to recurrent and convolutional neural networks, it does not explicitly model relative or absolute position information in its structure. Instead, it requires adding representations of absolute positions to its inputs. In this work we present an alternative approach, extending the self-attention mechanism to efficiently consider representations of the relative positions, or distances between sequence elements. On the WMT 2014 English-to-German and English-to-French translation tasks, this approach yields improvements of 1.3 BLEU and 0.3 BLEU over absolute position representations, respectively. Notably, we observe that combining relative and absolute position representations yields no further improvement in translation quality. We describe an efficient implementation of our method and cast it as an instance of relation-aware self-attention mechanisms that can generalize to arbitrary graph-labeled inputs.",
+            "authors": [
+                "Peter Shaw",
+                "Jakob Uszkoreit",
+                "Ashish Vaswani"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 3403
+        }
+    },
+    "paper_43_info": {
+        "reference_43": {
+            "searched_title": "Neural temporal point processes: A review",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2104.03528",
+            "url": "https://arxiv.org/abs/2104.03528",
+            "date": "2021",
+            "abs": "Temporal point processes (TPP) are probabilistic generative models for continuous-time event sequences. Neural TPPs combine the fundamental ideas from point process literature with deep learning approaches, thus enabling construction of flexible and efficient models. The topic of neural TPPs has attracted significant attention in the recent years, leading to the development of numerous new architectures and applications for this class of models. In this review paper we aim to consolidate the existing body of knowledge on neural TPPs. Specifically, we focus on important design choices and general principles for defining neural TPP models. Next, we provide an overview of application areas commonly considered in the literature. We conclude this survey with the list of open challenges and important directions for future work in the field of neural TPPs.",
+            "authors": [
+                "Oleksandr Shchur",
+                "Ali Caner Türkmen",
+                "Tim Januschowski",
+                "Stephan Guinnemann"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 146
+        }
+    },
+    "paper_44_info": {
+        "reference_44": {
+            "searched_title": "The evolved transformer",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "http://proceedings.mlr.press/v97/so19a",
+            "date": "2019",
+            "abs": "… Figure 3 shows the ET architecture. The most notable aspect of the Evolved Transformer is the use of wide depth-wise separable convolutions in the lower layers of the encoder and …",
+            "authors": [
+                "David So",
+                "Quoc Le",
+                "Chen Liang"
+            ],
+            "publication": "proceedings.mlr.press",
+            "citation_count": 596
+        }
+    },
+    "paper_45_info": {
+        "reference_45": {
+            "searched_title": "Probabilistic transformer for time series analysis",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper/2021/hash/c68bd9055776bf38d8fc43c0ed283678-Abstract.html",
+            "date": "2021",
+            "abs": "Generative modeling of multivariate time series has remained challenging partly due to the complex, non-deterministic dynamics across long-distance timesteps. In this paper, we propose deep probabilistic methods that combine state-space models (SSMs) with transformer architectures. In contrast to previously proposed SSMs, our approaches use attention mechanism to model non-Markovian dynamics in the latent space and avoid recurrent neural networks entirely. We also extend our models to include several layers of stochastic variables organized in a hierarchy for further expressiveness. Compared to transformer models, ours are probabilistic, non-autoregressive, and capable of generating diverse long-term forecasts with uncertainty estimates. Extensive experiments show that our models consistently outperform competitive baselines on various tasks and datasets, including time series forecasting and human motion prediction.",
+            "authors": [
+                "Binh Tang",
+                "David Matteson"
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 172
+        }
+    },
+    "paper_46_info": {
+        "reference_46": {
+            "searched_title": "Efficient transformers: A survey",
+            "scholar_status": "Success (Similarity: 80.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10041724/",
+            "date": "2023",
+            "abs": "… In this survey, we analyze the main contributions and trends of works leveraging Transformers … Then, we study the architectural changes made to deal with video more efficiently, reduce …",
+            "authors": [
+                "Yi Tay",
+                "Mostafa Dehghani",
+                "Dara Bahri",
+                "Donald Metzler"
+            ],
+            "publication": "ieeexplore.ieee.org",
+            "citation_count": 185
+        }
+    },
+    "paper_47_info": {
+        "reference_47": {
+            "searched_title": "Deep learning for time series forecasting: a survey",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.liebertpub.com/doi/abs/10.1089/big.2020.0159",
+            "date": "2021",
+            "abs": "Time series forecasting has become a very intensive field of research, which is even increasing in recent years. Deep neural networks have proved to be powerful and are achieving high accuracy in many application fields. For these reasons, they are one of the most widely used methods of machine learning to solve problems dealing with big data nowadays. In this work, the time series forecasting problem is initially formulated along with its mathematical fundamentals. Then, the most common deep learning architectures that are …",
+            "authors": [
+                "José F. Torres",
+                "Dalil Hadjout",
+                "Abderrazak Sebaa",
+                "Francisco Martinez-Alvarez",
+                "Alicia Troncoso"
+            ],
+            "publication": "liebertpub.com",
+            "citation_count": 873
+        }
+    },
+    "paper_48_info": {
+        "reference_48": {
+            "searched_title": "TranAD: Deep transformer networks for anomaly detection in multivariate time series data",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2201.07284",
+            "url": "https://arxiv.org/abs/2201.07284",
+            "date": "2201",
+            "abs": "Efficient anomaly detection and diagnosis in multivariate time-series data is of great importance for modern industrial applications. However, building a system that is able to quickly and accurately pinpoint anomalous observations is a challenging problem. This is due to the lack of anomaly labels, high data volatility and the demands of ultra-low inference times in modern applications. Despite the recent developments of deep learning approaches for anomaly detection, only a few of them can address all of these challenges. In this paper, we propose TranAD, a deep transformer network based anomaly detection and diagnosis model which uses attention-based sequence encoders to swiftly perform inference with the knowledge of the broader temporal trends in the data. TranAD uses focus score-based self-conditioning to enable robust multi-modal feature extraction and adversarial training to gain stability. Additionally, model-agnostic meta learning (MAML) allows us to train the model using limited data. Extensive empirical studies on six publicly available datasets demonstrate that TranAD can outperform state-of-the-art baseline methods in detection and diagnosis performance with data and time-efficient training. Specifically, TranAD increases F1 scores by up to 17%, reducing training times by up to 99% compared to the baselines.",
+            "authors": [
+                "Shreshth Tuli",
+                "Giuliano Casale",
+                "Nicholas R Jennings"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 905
+        }
+    },
+    "paper_49_info": {
+        "reference_49": {
+            "searched_title": "Attention is all you need",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+            "date": "2017",
+            "abs": "… to attend to all positions in the decoder up to and including that position. We need to prevent … We implement this inside of scaled dot-product attention by masking out (setting to −∞) …",
+            "authors": [
+                "Ashish Vaswani",
+                "Noam Shazeer",
+                "Niki Parmar",
+                "Jakob Uszkoreit",
+                "Llion Jones",
+                "Aidan N Gomez",
+                "Lukasz Kaiser",
+                "et al."
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 195580
+        }
+    },
+    "paper_50_info": {
+        "reference_50": {
+            "searched_title": "MergeNAS: Merge operations into one for differentiable architecture search",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.researchgate.net/profile/Yingfeng-Chen-3/publication/342792945_Efficient_Deep_Reinforcement_Learning_via_Adaptive_Policy_Transfer/links/5f510d2e299bf13a319c8118/Efficient-Deep-Reinforcement-Learning-via-Adaptive-Policy-Transfer.pdf",
+            "date": "2021",
+            "abs": "Differentiable architecture search (DARTS) has been a promising one-shot architecture search approach for its mathematical formulation and competitive results. However, besides its caused high memory utilization and a large computation requirement, many research works have shown that DARTS also often suffers notable over-fitting and thus does not work robustly for some new tasks. In this paper, we propose a one-shot neural architecture search method referred to as MergeNAS by merging different types of operations eg convolutions into one operation. This merge-based approach not only reduces the search cost (about half a GPU day), but also alleviates over-fitting by reducing the redundant parameters. Extensive experiments on different search space and various datasets have been conducted to verify our approach, showing that MergeNAS can converge to a stable architecture and achieve better performance with fewer parameters and search cost. For test accuracy and its stability, MergeNAS outperforms all NAS baseline methods implemented on NAS-Bench-201, including DARTS, ENAS, RS, BOHB, GDAS and hand-crafted ResNet.",
+            "authors": [
+                "Xiaoxing Wang",
+                "Chao Xue",
+                "Junchi Yan",
+                "Xiaokang Yang",
+                "Yonggang Hu",
+                "et al."
+            ],
+            "publication": "researchgate.net",
+            "citation_count": 55
+        }
+    },
+    "paper_51_info": {
+        "reference_51": {
+            "searched_title": "Variational transformer-based anomaly detection approach for multivariate time series",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0263224122000914",
+            "date": "2022",
+            "abs": "Due to the strategic importance of satellites, the safety and reliability of satellites have become more important. Sensors that monitor satellites generate lots of multivariate time series, and the abnormal patterns in the multivariate time series may imply malfunctions. The existing anomaly detection methods for multivariate time series have poor effects when processing the data with few dimensions or sparse relationships between sequences. This paper proposes an unsupervised anomaly detection model based on the variational Transformer to solve the above problems. The model uses the Transformer's self-attention mechanism to capture the potential correlations between sequences and capture the multi-scale temporal information through the improved positional encoding and up-sampling algorithm. Then, the model comprehensively considers the extracted features through the residual variational autoencoder to perform effective anomaly detection. Experimental results on a real dataset and two public datasets show that the proposed method is superior to the mainstream and state-of-the-art methods.",
+            "authors": [
+                "Xixuan Wang",
+                "Dechang Pi",
+                "Xiangyan Zhang",
+                "et al."
+            ],
+            "publication": "Elsevier",
+            "citation_count": 140
+        }
+    },
+    "paper_52_info": {
+        "reference_52": {
+            "searched_title": "RobustSTL: A robust seasonal-trend decomposition algorithm for long time series",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://aaai.org/ojs/index.php/AAAI/article/view/4480",
+            "date": "2019",
+            "abs": "Decomposing complex time series into trend, seasonality, and remainder components is an important task to facilitate time series anomaly detection and forecasting. Although numerous methods have been proposed, there are still many time series characteristics exhibiting in real-world data which are not addressed properly, including 1) ability to handle seasonality fluctuation and shift, and abrupt change in trend and reminder; 2) robustness on data with anomalies; 3) applicability on time series with long seasonality period. In the paper, we propose a novel and generic time series decomposition algorithm to address these challenges. Specifically, we extract the trend component robustly by solving a regression problem using the least absolute deviations loss with sparse regularization. Based on the extracted trend, we apply the the non-local seasonal filtering to extract the seasonality component. This process is repeated until accurate decomposition is obtained. Experiments on different synthetic and real-world time series datasets demonstrate that our method outperforms existing solutions.",
+            "authors": [
+                "Qingsong Wen",
+                "Jingkun Gao",
+                "Xiaomin Song",
+                "Liang Sun",
+                "Huan Xu",
+                "et al."
+            ],
+            "publication": "aaai.org",
+            "citation_count": 289
+        }
+    },
+    "paper_53_info": {
+        "reference_53": {
+            "searched_title": "Fast RobustSTL: Eficient and robust seasonal-trend decomposition for time series with complex patterns",
+            "scholar_status": "Success (Similarity: 99.51%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3394486.3403271",
+            "date": "2020",
+            "abs": "Many real-world time series data exhibit complex patterns with trend, seasonality, outlier and noise. Robustly and accurately decomposing these components would greatly facilitate time series tasks including anomaly detection, forecasting and classification. RobustSTL is an effective seasonal-trend decomposition for time series data with complicated patterns. However, it cannot handle multiple seasonal components properly. Also it suffers from its high computational complexity, which limits its usage in practice. In this paper, we extend RobustSTL to handle multiple seasonality. To speed up the computation, we propose a special generalized ADMM algorithm to perform the decomposition efficiently. We rigorously prove that the proposed algorithm converges approximately as standard ADMM while reducing the complexity from O(N2) to O(N log N) for each iteration. We empirically study our proposed algorithm with other state-of-the-art seasonal-trend decomposition methods, including MSTL, STR, TBATS, on both synthetic and real-world datasets with single and multiple seasonality. The experimental results demonstrate the superior performance of our decomposition algorithm in terms of both effectiveness and efficiency.",
+            "authors": [
+                "Qingsong Wen",
+                "Zhe Zhang",
+                "Yan Li",
+                "Liang Sun"
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 127
+        }
+    },
+    "paper_54_info": {
+        "reference_54": {
+            "searched_title": "RobustPeriod: Time-frequency mining for robust multiple periodicities detection",
+            "scholar_status": "Success (Similarity: 88.46%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3448016.3452779",
+            "date": "2021",
+            "abs": "… and ACF may lead to inaccurate periodicity detection results. Recently some algorithms … new periodicity detection method called RobustPeriod to detect multiple periodicity robustly …",
+            "authors": [
+                "Qingsong Wen",
+                "Kai He",
+                "Liang Sun",
+                "Yingying Zhang",
+                "Min Ke",
+                "et al."
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 115
+        }
+    },
+    "paper_55_info": {
+        "reference_55": {
+            "searched_title": "Time series data augmentation for deep learning: A survey",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2002.12478",
+            "url": "https://arxiv.org/abs/2002.12478",
+            "date": "2020",
+            "abs": "Deep learning performs remarkably well on many time series analysis tasks recently. The superior performance of deep neural networks relies heavily on a large number of training data to avoid overfitting. However, the labeled data of many real-world time series applications may be limited such as classification in medical time series and anomaly detection in AIOps. As an effective way to enhance the size and quality of the training data, data augmentation is crucial to the successful application of deep learning models on time series data. In this paper, we systematically review different data augmentation methods for time series. We propose a taxonomy for the reviewed methods, and then provide a structured review for these methods by highlighting their strengths and limitations. We also empirically compare different data augmentation methods for different tasks including time series classification, anomaly detection, and forecasting. Finally, we discuss and highlight five future directions to provide useful research guidance.",
+            "authors": [
+                "Qingsong Wen",
+                "Liang Sun",
+                "Fan Yang",
+                "Xiaomin Song",
+                "Jingkun Gao",
+                "Xue Wang",
+                "Huan Xu"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 1089
+        }
+    },
+    "paper_56_info": {
+        "reference_56": {
+            "searched_title": "Robust time series analysis and applications: An industrial perspective",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3534678.3542612",
+            "date": "2022",
+            "abs": "Time series analysis is ubiquitous and important in various areas, such as Artificial Intelligence for IT Operations (AIOps) in cloud computing, AI-powered Business Intelligence (BI) in E-commerce, Artificial Intelligence of Things (AIoT), etc. In real-world scenarios, time series data often exhibit complex patterns with trend, seasonality, outlier, and noise. In addition, as more time series data are collected and stored, how to handle the huge amount of data efficiently is crucial in many applications. We note that these significant challenges exist in various tasks like forecasting, anomaly detection, and fault cause localization. Therefore, how to design effective and efficient time series models for different tasks, which are robust to address the aforementioned challenging patterns and noise in real-world scenarios, is of great theoretical and practical interests. In this tutorial, we provide a comprehensive and organized tutorial on the state-of-the-art algorithms of robust time series analysis, ranging from traditional statistical methods to the most recent deep learning based methods. We will not only introduce the principle of time series algorithms, but also provide insights into how to apply them effectively in practical real-world industrial applications. Specifically, we organize the tutorial in a bottom-up framework. We first present preliminaries from different disciplines including robust statistics, signal processing, optimization, and deep learning. Then, we identify and discuss those most-frequently processing blocks in robust time series analysis, including periodicity detection, trend filtering, seasonal-trend decomposition, and time series similarity. Lastly, we discuss recent advances in multiple time series tasks including forecasting, anomaly detection, fault cause localization, and autoscaling, as well as practical lessons of large-scale time series applications from an industrial perspective.",
+            "authors": [
+                "Qingsong Wen",
+                "Linxiao Yang",
+                "Tian Zhou",
+                "Liang Sun"
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 76
+        }
+    },
+    "paper_57_info": {
+        "reference_57": {
+            "searched_title": "Adversarial sparse transformer for time series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper/2020/hash/c6b8c8d762da15fa8dbbdfb6baf9e260-Abstract.html?ref=https://githubhelp.com",
+            "date": "2020",
+            "abs": "Many approaches have been proposed for time series forecasting, in light of its significance in wide applications including business demand prediction. However, the existing methods suffer from two key limitations. Firstly, most point prediction models only predict an exact value of each time step without flexibility, which can hardly capture the stochasticity of data. Even probabilistic prediction using the likelihood estimation suffers these problems in the same way. Besides, most of them use the auto-regressive generative mode, where ground-truth is provided during training and replaced by the network’s own one-step ahead output during inference, causing the error accumulation in inference. Thus they may fail to forecast time series for long time horizon due to the error accumulation. To solve these issues, in this paper, we propose a new time series forecasting model--Adversarial Sparse Transformer (AST), based on Generated Adversarial Networks (GANs). Specifically, AST adopts a Sparse Transformer as the generator to learn a sparse attention map for time series forecasting, and uses a discriminator to improve the prediction performance from sequence level. Extensive experiments on several real-world datasets show the effectiveness and efficiency of our method.",
+            "authors": [
+                "Sifan Wu",
+                "Xi Xiao",
+                "Qianggang Ding",
+                "Peilin Zhao",
+                "Ying Wei",
+                "Junzhou Huang"
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 323
+        }
+    },
+    "paper_58_info": {
+        "reference_58": {
+            "searched_title": "Lite transformer with long-short range attention",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2004.11886",
+            "url": "https://arxiv.org/abs/2004.11886",
+            "date": "2004",
+            "abs": "Transformer has become ubiquitous in natural language processing (eg, machine translation, question answering); however, it requires enormous amount of computations to achieve high performance, which makes it not suitable for mobile applications that are tightly constrained by the hardware resources and battery. In this paper, we present an efficient mobile NLP architecture, Lite Transformer to facilitate deploying mobile NLP applications on edge devices. The key primitive is the Long-Short Range Attention (LSRA), where one group …",
+            "authors": [
+                "Zhanghao Wu",
+                "Zhijian Liu",
+                "Ji Lin",
+                "Yujun Lin",
+                "Song Han"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 470
+        }
+    },
+    "paper_59_info": {
+        "reference_59": {
+            "searched_title": "Autoformer: Decomposition transformers with auto-correlation for long-term series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.neurips.cc/paper/2021/hash/bcc0d400288793e8bdcd7c19a8ac0c2b-Abstract.html",
+            "date": "2021",
+            "abs": "Extending the forecasting time is a critical demand for real applications, such as extreme weather early warning and long-term energy consumption planning. This paper studies the long-term forecasting problem of time series. Prior Transformer-based models adopt various self-attention mechanisms to discover the long-range dependencies. However, intricate temporal patterns of the long-term future prohibit the model from finding reliable dependencies. Also, Transformers have to adopt the sparse versions of point-wise self-attentions for long series efficiency, resulting in the information utilization bottleneck. Going beyond Transformers, we design Autoformer as a novel decomposition architecture with an Auto-Correlation mechanism. We break with the pre-processing convention of series decomposition and renovate it as a basic inner block of deep models. This design empowers Autoformer with progressive decomposition capacities for complex time series. Further, inspired by the stochastic process theory, we design the Auto-Correlation mechanism based on the series periodicity, which conducts the dependencies discovery and representation aggregation at the sub-series level. Auto-Correlation outperforms self-attention in both efficiency and accuracy. In long-term forecasting, Autoformer yields state-of-the-art accuracy, with a 38% relative improvement on six benchmarks, covering five practical applications: energy, traffic, economics, weather and disease. Code is available at this repository: https://github. com/thuml/Autoformer.",
+            "authors": [
+                "Haixu Wu",
+                "Jiehui Xu",
+                "Jianmin Wang",
+                "Mingsheng Long"
+            ],
+            "publication": "proceedings.neurips.cc",
+            "citation_count": 3926
+        }
+    },
+    "paper_60_info": {
+        "reference_60": {
+            "searched_title": "DeeBERT: Dynamic early exiting for accelerating bert inference",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2004.12993",
+            "url": "https://arxiv.org/abs/2004.12993",
+            "date": "2004",
+            "abs": "Large-scale pre-trained language models such as BERT have brought significant improvements to NLP applications. However, they are also notorious for being slow in inference, which makes them difficult to deploy in real-time applications. We propose a simple but effective method, DeeBERT, to accelerate BERT inference. Our approach allows samples to exit earlier without passing through the entire model. Experiments show that DeeBERT is able to save up to ~40% inference time with minimal degradation in model quality. Further analyses show different behaviors in the BERT transformer layers and also reveal their redundancy. Our work provides new ideas to efficiently apply deep transformer-based models to downstream tasks. Code is available at https://github.com/castorini/DeeBERT.",
+            "authors": [
+                "Ji Xin",
+                "Raphael Tang",
+                "Jaejun Lee",
+                "Yaoliang Yu",
+                "Jimmy J. Lin"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 465
+        }
+    },
+    "paper_61_info": {
+        "reference_61": {
+            "searched_title": "Spatial-temporal transformer networks for traffc flow forecasting",
+            "scholar_status": "Success (Similarity: 99.24%)",
+            "arxiv_id": "2001.02908",
+            "url": "https://arxiv.org/abs/2001.02908",
+            "date": "2020",
+            "abs": "Traffic forecasting has emerged as a core component of intelligent transportation systems. However, timely accurate traffic forecasting, especially long-term forecasting, still remains an open challenge due to the highly nonlinear and dynamic spatial-temporal dependencies of traffic flows. In this paper, we propose a novel paradigm of Spatial-Temporal Transformer Networks (STTNs) that leverages dynamical directed spatial dependencies and long-range temporal dependencies to improve the accuracy of long-term traffic forecasting. Specifically …",
+            "authors": [
+                "Mingxing Xu",
+                "Wenrui Dai",
+                "Chunmiao Liu",
+                "Xing Gao",
+                "Weiyao Lin",
+                "Guo-Jun Qi",
+                "Hongkai Xiong"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 641
+        }
+    },
+    "paper_62_info": {
+        "reference_62": {
+            "searched_title": "Anomaly Transformer: Time series anomaly detection with association discrepancy",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2110.02642",
+            "url": "https://arxiv.org/abs/2110.02642",
+            "date": "2110",
+            "abs": "Unsupervised detection of anomaly points in time series is a challenging problem, which requires the model to derive a distinguishable criterion. Previous methods tackle the problem mainly through learning pointwise representation or pairwise association, however, neither is sufficient to reason about the intricate dynamics. Recently, Transformers have shown great power in unified modeling of pointwise representation and pairwise association, and we find that the self-attention weight distribution of each time point can embody rich association with the whole series. Our key observation is that due to the rarity of anomalies, it is extremely difficult to build nontrivial associations from abnormal points to the whole series, thereby, the anomalies' associations shall mainly concentrate on their adjacent time points. This adjacent-concentration bias implies an association-based criterion inherently distinguishable between normal and abnormal points, which we highlight through the \\emph{Association Discrepancy}. Technically, we propose the \\emph{Anomaly Transformer} with a new \\emph{Anomaly-Attention} mechanism to compute the association discrepancy. A minimax strategy is devised to amplify the normal-abnormal distinguishability of the association discrepancy. The Anomaly Transformer achieves state-of-the-art results on six unsupervised time series anomaly detection benchmarks of three applications: service monitoring, space & earth exploration, and water treatment.",
+            "authors": [
+                "Jiehui Xu",
+                "Haixu Wu",
+                "Jianmin Wang",
+                "Mingsheng Long"
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 963
+        }
+    },
+    "paper_63_info": {
+        "reference_63": {
+            "searched_title": "Modeling and applications for temporal point processes",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3292500.3332298",
+            "date": "2019",
+            "abs": "Real-world entities' behaviors, associated with their side information, are often recorded over time as asynchronous event sequences. Such event sequences are the basis of many practical applications, neural spiking train study, earth quack prediction, crime analysis, infectious disease diffusion forecasting, condition-based preventative maintenance, information retrieval and behavior-based network analysis and services, etc. Temporal point process (TPP) is a principled mathematical tool for the modeling and learning of asynchronous event sequences, which captures the instantaneous happening rate of the events and the temporal dependency between historical and current events. TPP provides us with an interpretable model to describe the generative mechanism of event sequences, which is beneficial for event prediction and causality analysis. Recently, it has been shown that TPP has potentials to many machine learning and data science applications and can be combined with other cutting-edge machine learning techniques like deep learning, reinforcement learning, adversarial learning, and so on. We will start with an elementary introduction of TPP model, including the basic concepts of the model, the simulation method of event sequences; in the second part of the tutorial, we will introduce typical TPP models and their traditional learning methods; in the third part of the tutorial, we will discuss the recent progress on the modeling and learning of TPP, including neural network-based TPP models, generative adversarial networks (GANs) for TPP, and deep reinforcement learning of TPP. We will further talk about the practical application of TPP, including useful data augmentation methods for learning from imperfect observations, typical applications and examples like healthcare and industry maintenance, and existing open source toolboxes.",
+            "authors": [
+                "Junchi Yan",
+                "Hongteng Xu",
+                "Liangda Li"
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 25
+        }
+    },
+    "paper_64_info": {
+        "reference_64": {
+            "searched_title": "Voice2series: Reprogramming acoustic models for time series classification",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "http://proceedings.mlr.press/v139/yang21j.html",
+            "date": "2021",
+            "abs": "Learning to classify time series with limited data is a practical yet challenging problem. Current methods are primarily based on hand-designed feature extraction rules or domain-specific data augmentation. Motivated by the advances in deep speech processing models and the fact that voice data are univariate temporal signals, in this paper we propose Voice2Serie (V2S), a novel end-to-end approach that reprograms acoustic models for time series classification, through input transformation learning and output label mapping …",
+            "authors": [
+                "Chao-Han Huck Yang",
+                "Yun-Yun Tsai",
+                "Pin-Yu Chen"
+            ],
+            "publication": "proceedings.mlr.press",
+            "citation_count": 197
+        }
+    },
+    "paper_65_info": {
+        "reference_65": {
+            "searched_title": "Spatio-temporal graph transformer networks for pedestrian trajectory prediction",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-58610-2_30",
+            "date": "2020",
+            "abs": "Understanding crowd motion dynamics is critical to real-world applications, e.g., surveillance systems and autonomous driving. This is challenging because it requires effectively modeling the socially aware crowd spatial interaction and complex temporal dependencies. We believe attention is the most important factor for trajectory prediction. In this paper, we present STAR, a Spatio-Temporal grAph tRansformer framework, which tackles trajectory prediction by only attention mechanisms. STAR models intra-graph crowd interaction by TGConv, a novel Transformer-based graph convolution mechanism. The inter-graph temporal dependencies are modeled by separate temporal Transformers. STAR captures complex spatio-temporal interactions by interleaving between spatial and temporal Transformers. To calibrate the temporal prediction for the long-lasting effect of disappeared pedestrians, we introduce a read-writable external memory module, consistently being updated by the temporal Transformer. We show that with only attention mechanism, STAR achieves the state-of-the-art performance on 5 commonly used real-world pedestrian prediction datasets (code available at https://github.com/Majiker/STAR).",
+            "authors": [
+                "Cunjun Yu",
+                "Xiao Ma",
+                "Jiawei Ren",
+                "Haiyu Zhao",
+                "Shuai Yi"
+            ],
+            "publication": "Springer",
+            "citation_count": 705
+        }
+    },
+    "paper_66_info": {
+        "reference_66": {
+            "searched_title": "Self-supervised pre-training of transformers for satellite image time series classification",
+            "scholar_status": "Success (Similarity: 99.45%)",
+            "arxiv_id": "N/A",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9252123/",
+            "date": "2020",
+            "abs": "Satellite image time series (SITS) classification is a major research topic in remote sensing and is relevant for a wide range of applications. Deep learning approaches have been commonly employed for the SITS classification and have provided state-of-the-art performance. However, deep learning methods suffer from overfitting when labeled data are scarce. To address this problem, we propose a novel self-supervised pretraining scheme to initialize a transformer-based network by utilizing large-scale unlabeled data. In detail, the model is asked to predict randomly contaminated observations given an entire time series of a pixel. The main idea of our proposal is to leverage the inherent temporal structure of satellite time series to learn general-purpose spectral-temporal representations related to land cover semantics. Once pretraining is completed, the pretrained network can be further adapted to various SITS classification tasks by fine-tuning all the model parameters on small-scale task-related labeled data. In this way, the general knowledge and representations about SITS can be transferred to a label-scarce task, thereby improving the generalization performance of the model as well as reducing the risk of overfitting. Comprehensive experiments have been carried out on three benchmark datasets over large study areas. Experimental results demonstrate the effectiveness of the proposed pretraining scheme, leading to substantial improvements in classification accuracy using transformer, 1-D convolutional neural network, and bidirectional long short-term memory network. The code and the pretrained model will be available at https://github.com/linlei1214/SITS-BERT upon publication.",
+            "authors": [
+                "Yuan Yuan",
+                "Lei Lin"
+            ],
+            "publication": "ieeexplore.ieee.org",
+            "citation_count": 201
+        }
+    },
+    "paper_67_info": {
+        "reference_67": {
+            "searched_title": "Are transformers universal approximators of sequence-to-sequence functions?",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1912.10077",
+            "url": "https://arxiv.org/abs/1912.10077",
+            "date": "2019",
+            "abs": "Despite the widespread adoption of Transformer models for NLP tasks, the expressive power of these models is not well-understood. In this paper, we establish that Transformer models are universal approximators of continuous permutation equivariant sequence-to-sequence functions with compact support, which is quite surprising given the amount of shared parameters in these models. Furthermore, using positional encodings, we circumvent the restriction of permutation equivariance, and show that Transformer models can universally approximate arbitrary continuous sequence-to-sequence functions on a compact domain. Interestingly, our proof techniques clearly highlight the different roles of the self-attention and the feed-forward layers in Transformers. In particular, we prove that fixed width self-attention layers can compute contextual mappings of the input sequences, playing a key role in the universal approximation property of Transformers. Based on this insight from our analysis, we consider other simpler alternatives to self-attention layers and empirically evaluate them.",
+            "authors": [
+                "Chulhee Yun",
+                "Srinadh Bhojanapali",
+                "Ankit Singh Rawat",
+                "Sashank J. Reddi",
+                "et al."
+            ],
+            "publication": "arxiv.org",
+            "citation_count": 502
+        }
+    },
+    "paper_68_info": {
+        "reference_68": {
+            "searched_title": "Are transformers effective for time series forecasting?",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26317",
+            "date": "2023",
+            "abs": "Recently, there has been a surge of Transformer-based solutions for the long-term time series forecasting (LTSF) task. Despite the growing performance over the past few years, we question the validity of this line of research in this work. Specifically, Transformers is arguably the most successful solution to extract the semantic correlations among the elements in a long sequence. However, in time series modeling, we are to extract the temporal relations in an ordered set of continuous points. While employing positional encoding and using tokens to embed sub-series in Transformers facilitate preserving some ordering information, the nature of the permutation-invariant self-attention mechanism inevitably results in temporal information loss. To validate our claim, we introduce a set of embarrassingly simple one-layer linear models named LTSF-Linear for comparison. Experimental results on nine real-life datasets show that LTSF-Linear surprisingly outperforms existing sophisticated Transformer-based LTSF models in all cases, and often by a large margin. Moreover, we conduct comprehensive empirical studies to explore the impacts of various design elements of LTSF models on their temporal relation extraction capability. We hope this surprising finding opens up new research directions for the LTSF task. We also advocate revisiting the validity of Transformer-based solutions for other time series analysis tasks (eg, anomaly detection) in the future.",
+            "authors": [
+                "Ailing Zeng",
+                "Muxi Chen",
+                "Lei Zhang",
+                "Qiang Xu"
+            ],
+            "publication": "ojs.aaai.org",
+            "citation_count": 3294
+        }
+    },
+    "paper_69_info": {
+        "reference_69": {
+            "searched_title": "A transformer-based framework for multivariate time series representation learning",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3447548.3467401",
+            "date": "2021",
+            "abs": "We present a novel framework for multivariate time series representation learning based on the transformer encoder architecture. The framework includes an unsupervised pre-training scheme, which can offer substantial performance benefits over fully supervised learning on downstream tasks, both with but even without leveraging additional unlabeled data, i.e., by reusing the existing data samples. Evaluating our framework on several public multivariate time series datasets from various domains and with diverse characteristics, we demonstrate that it performs significantly better than the best currently available methods for regression and classification, even for datasets which consist of only a few hundred training samples. Given the pronounced interest in unsupervised learning for nearly all domains in the sciences and in industry, these findings represent an important landmark, presenting the first unsupervised method shown to push the limits of state-of-the-art performance for multivariate time series regression and classification.",
+            "authors": [
+                "George Zerveas",
+                "Srideepika Jayaraman",
+                "Dhaval Patel",
+                "Anuradha Bhamidipaty",
+                "Carsten Eickhoff"
+            ],
+            "publication": "dl.acm.org",
+            "citation_count": 1412
+        }
+    },
+    "paper_70_info": {
+        "reference_70": {
+            "searched_title": "Crossformer: Transformer utilizing cross-dimension dependency for multivariate time series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://openreview.net/forum?id=vSVLM2j9eie",
+            "date": "2023",
+            "abs": "Recently many deep models have been proposed for multivariate time series (MTS) forecasting. In particular, Transformer-based models have shown great potential because they can capture long-term dependency. However, existing Transformer-based models mainly focus on modeling the temporal dependency (cross-time dependency) yet often omit the dependency among different variables (cross-dimension dependency), which is critical for MTS forecasting. To fill the gap, we propose Crossformer, a Transformer-based model utilizing cross-dimension dependency for MTS forecasting. In Crossformer, the input MTS is embedded into a 2D vector array through the Dimension-Segment-Wise (DSW) embedding to preserve time and dimension information. Then the Two-Stage Attention (TSA) layer is proposed to efficiently capture the cross-time and cross-dimension dependency. Utilizing DSW embedding and TSA layer, Crossformer establishes a Hierarchical Encoder-Decoder (HED) to use the information at different scales for the final forecasting. Extensive experimental results on six real-world datasets show the effectiveness of Crossformer against previous state-of-the-arts.",
+            "authors": [
+                "Yunhao Zhang",
+                "Junchi Yan"
+            ],
+            "publication": "openreview.net",
+            "citation_count": 1402
+        }
+    },
+    "paper_71_info": {
+        "reference_71": {
+            "searched_title": "Self-attentive Hawkes process",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "http://proceedings.mlr.press/v119/zhang20q.html?refhttps://githubhelp.com",
+            "date": "2020",
+            "abs": "… In this work we investigate the usefulness of self-attention to Hawkes processes by proposing a Self-Attentive Hawkes Process (SAHP). First, we employ self-attention to measure the …",
+            "authors": [
+                "Qiang Zhang",
+                "Aldo Lipani",
+                "Omer Kirnap",
+                "Emine Yilmaz"
+            ],
+            "publication": "proceedings.mlr.press",
+            "citation_count": 330
+        }
+    },
+    "paper_72_info": {
+        "reference_72": {
+            "searched_title": "Unsupervised anomaly detection in multivariate time series through transformer-based variational autoencoder",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9601669/",
+            "date": "2021",
+            "abs": "Modern industrial devices often use multiple sensors to detect the status of system, which produce a large amount of multivariate time series. Due to the complex temporal dependency of intra-channel and inter-correlations among different channels, few of proposed algorithms have addressed these challenges for anomaly detection in multivariate time series. Besides, previous work does not consider future dependency, which has been shown to be critical for sequential data modeling. In this paper, we develop an unsupervised anomaly detection algorithm TransAnomaly, which integrates Transformer, variational autoencoder (VAE) and nonlinear state space model. TransAnomaly not only reduces the computational complexity and allows for more parallelization but also provides explainable insights. To the best of our knowledge, it is the first model that combines VAE and Transformer for multivariate time series anomaly detection. Extensive experiments on several public real-world datasets show that TransAnomaly outperforms state-of-the-art baseline methods while training cost is reduced by nearly 80%.",
+            "authors": [
+                "Hongwei Zhang",
+                "Yuanqing Xia",
+                "et al."
+            ],
+            "publication": "ieeexplore.ieee.org",
+            "citation_count": 57
+        }
+    },
+    "paper_73_info": {
+        "reference_73": {
+            "searched_title": "Informer: Beyond efficient transformer for long sequence time-series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/17325",
+            "date": "2021",
+            "abs": "Many real-world applications require the prediction of long sequence time-series, such as electricity consumption planning. Long sequence time-series forecasting (LSTF) demands a high prediction capacity of the model, which is the ability to capture precise long-range dependency coupling between output and input efficiently. Recent studies have shown the potential of Transformer to increase the prediction capacity. However, there are several severe issues with Transformer that prevent it from being directly applicable to LSTF, including quadratic time complexity, high memory usage, and inherent limitation of the encoder-decoder architecture. To address these issues, we design an efficient transformer-based model for LSTF, named Informer, with three distinctive characteristics:(i) a ProbSparse self-attention mechanism, which achieves O (L log L) in time complexity and memory usage, and has comparable performance on sequences' dependency alignment.(ii) the self-attention distilling highlights dominating attention by halving cascading layer input, and efficiently handles extreme long input sequences.(iii) the generative style decoder, while conceptually simple, predicts the long time-series sequences at one forward operation rather than a step-by-step way, which drastically improves the inference speed of long-sequence predictions. Extensive experiments on four large-scale datasets demonstrate that Informer significantly outperforms existing methods and provides a new solution to the LSTF problem.",
+            "authors": [
+                "Haoyi Zhou",
+                "Shanghang Zhang",
+                "Jieqi Peng",
+                "Shuai Zhang",
+                "Jianxin Li",
+                "Hui Xiong",
+                "Wancai Zhang"
+            ],
+            "publication": "ojs.aaai.org",
+            "citation_count": 7122
+        }
+    },
+    "paper_74_info": {
+        "reference_74": {
+            "searched_title": "FEDformer: Frequency enhanced decomposed transformer for long-term series forecasting",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://proceedings.mlr.press/v162/zhou22g",
+            "date": "2022",
+            "abs": "Long-term time series forecasting is challenging since prediction accuracy tends to decrease dramatically with the increasing horizon. Although Transformer-based methods have significantly improved state-of-the-art results for long-term forecasting, they are not only computationally expensive but more importantly, are unable to capture the global view of time series (eg overall trend). To address these problems, we propose to combine Transformer with the seasonal-trend decomposition method, in which the decomposition method captures the global profile of time series while Transformers capture more detailed structures. To further enhance the performance of Transformer for long-term prediction, we exploit the fact that most time series tend to have a sparse representation in a well-known basis such as Fourier transform, and develop a frequency enhanced Transformer. Besides being more effective, the proposed method, termed as Frequency Enhanced Decomposed Transformer (FEDformer), is more efficient than standard Transformer with a linear complexity to the sequence length. Our empirical studies with six benchmark datasets show that compared with state-of-the-art methods, Fedformer can reduce prediction error by 14.8% and 22.6% for multivariate and univariate time series, respectively. Code is publicly available at https://github. com/MAZiqing/FEDformer.",
+            "authors": [
+                "Tian Zhou",
+                "Ziqing Ma",
+                "Qingsong Wen",
+                "Xue Wang",
+                "Liang Sun",
+                "Rong Jin"
+            ],
+            "publication": "proceedings.mlr.press",
+            "citation_count": 2765
+        }
+    },
+    "paper_75_info": {
+        "reference_75": {
+            "searched_title": "Transformer Hawkes process",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "http://proceedings.mlr.press/v119/zuo20a",
+            "date": "2020",
+            "abs": "… of point processes. However, the simplified assumptions of the complicated dynamics of point processes limit the models’ practicality. As an example, Hawkes process states that all …",
+            "authors": [
+                "Simiao Zuo",
+                "Haoming Jiang",
+                "Zichong Li",
+                "Tuo Zhao",
+                "Hongyuan Zha"
+            ],
+            "publication": "proceedings.mlr.press",
+            "citation_count": 449
+        }
+    }
+}

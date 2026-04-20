@@ -1,0 +1,134 @@
+[
+    [
+        0,
+        "Class-Incremental Learning: Survey and Performance Evaluation on Image Classification"
+    ],
+    [
+        1,
+        "1 INTRODUCTION"
+    ],
+    [
+        1,
+        "2 CLASS-INCREMENTAL LEARNING"
+    ],
+    [
+        2,
+        "2.1 The Practical Importance of Incremental Learning"
+    ],
+    [
+        2,
+        "2.2 General Class-Incremental Learning Setup"
+    ],
+    [
+        2,
+        "2.3 Scope of Our Experimental Evaluation"
+    ],
+    [
+        2,
+        "2.4 Challenges of Class-Incremental Learning"
+    ],
+    [
+        1,
+        "3 APPROACHES"
+    ],
+    [
+        2,
+        "3.1 Regularization Approaches"
+    ],
+    [
+        2,
+        "3.2 Rehearsal Approaches"
+    ],
+    [
+        2,
+        "3.3 Bias-Correction Approaches"
+    ],
+    [
+        2,
+        "3.4 Relation Between Class-Incremental Methods"
+    ],
+    [
+        1,
+        "4 RELATED WORK"
+    ],
+    [
+        1,
+        "5 EXPERIMENTAL SETUP"
+    ],
+    [
+        2,
+        "5.1 Code Framework"
+    ],
+    [
+        2,
+        "5.2 Datasets"
+    ],
+    [
+        2,
+        "5.3 Metrics"
+    ],
+    [
+        2,
+        "5.4 Baselines"
+    ],
+    [
+        2,
+        "5.5 Hyperparameter Selection"
+    ],
+    [
+        2,
+        "5.6 Network Architectures"
+    ],
+    [
+        2,
+        "5.7 Experimental Scenarios"
+    ],
+    [
+        1,
+        "6 EXPERIMENTAL RESULTS"
+    ],
+    [
+        2,
+        "6.1 On Regularization Methods"
+    ],
+    [
+        2,
+        "6.2 On Bias-Correction"
+    ],
+    [
+        2,
+        "6.3 On Exemplar Usage"
+    ],
+    [
+        2,
+        "6.4 On Different Scenarios"
+    ],
+    [
+        2,
+        "6.5 On Online Approaches for Offline Scenarios"
+    ],
+    [
+        2,
+        "6.6 On the Effect of Domain Shift"
+    ],
+    [
+        2,
+        "6.7 On “interspersed” Domains"
+    ],
+    [
+        2,
+        "6.8 On Network Architectures"
+    ],
+    [
+        2,
+        "6.9 On Large-Scale Scenarios"
+    ],
+    [
+        1,
+        "7 EMERGING TRENDS IN CLASS-IL"
+    ],
+    [
+        1,
+        "8 CONCLUSION"
+    ]
+]

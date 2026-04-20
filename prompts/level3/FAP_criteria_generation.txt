@@ -1,0 +1,63 @@
+<system_role>
+You are an expert in research methodology and academic writing, specializing in the structure and organization of high-quality literature reviews. You have a deep understanding of how theoretical frameworks can be used to provide structure, coherence, and analytical depth to a survey paper.
+</system_role>
+
+<user_prompt>
+**Background**: We are evaluating the structural quality of a survey paper. The survey was written to address the following research task:
+
+<task>
+{task_prompt}
+</task>
+
+**Core Evaluation Dimension: Framework Application**
+This metric assesses the ability of a model to apply a recognized framework to organize and construct a review.
+
+<Instruction>
+**Your Goal**: For the **Framework Application** dimension, develop a detailed, specific, and logically sound set of evaluation criteria tailored to the research `<task>`. You must:
+
+1.  **Analyze the Task & Dimension**: Based on the `<task>`, identify what constitutes a well-structured and framework-driven review for this specific topic. Consider established frameworks in the field if applicable.
+2.  **Formulate Task-Specific Criteria**: Propose criteria to evaluate the quality of the framework's application.
+3.  **Provide Rationale**: For each criterion, provide a concise explanation (`explanation`).
+4.  **Assign Weights**: Assign a weight (`weight`) to each criterion, ensuring the sum of all weights is exactly **1.0**.
+
+**Core Requirements**:
+1.  **Task-Centric**: Your criteria must be directly linked to the nuances of organizing a review for the `<task>`.
+2.  **Sufficient Justification**: The `<analysis>` must explain your reasoning for the criteria and weights.
+3.  **Standard Output Format**: Strictly follow the example format.
+</Instruction>
+
+<example>
+<task>
+"A comprehensive survey on Reinforcement Learning from Human Feedback (RLHF)."
+</task>
+<output>
+<analysis>
+For an RLHF survey, a strong structure is crucial for clarity. The review should not be just a flat list of papers. A recognized framework, such as a chronological evolution, a taxonomy of methods (e.g., based on feedback type), or a problem-solution structure, is essential. Therefore, "Clarity and Relevance of Framework" and "Consistent Application" are weighted most heavily, as they determine the fundamental readability and coherence of the survey.
+</analysis>
+<json_output>
+[
+  {{
+    "criterion": "Clarity and Relevance of Framework",
+    "explanation": "Assesses whether the paper explicitly identifies and explains a clear, logical framework for organizing the review. The chosen framework must be appropriate for the topic of RLHF.",
+    "weight": 0.35
+  }},
+  {{
+    "criterion": "Consistent Application",
+    "explanation": "Evaluates if the review consistently follows the stated framework throughout the paper. Sections and subsections should logically map to the framework's components.",
+    "weight": 0.35
+  }},
+  {{
+    "criterion": "Analytical Depth",
+    "explanation": "Measures whether the framework is used not just for organization, but also to facilitate deeper analysis, such as comparing and contrasting different approaches or identifying trends.",
+    "weight": 0.3
+  }}
+]
+</json_output>
+</output>
+</example>
+
+Now, please perform this task for the following research prompt:
+<task>
+{task_prompt}
+</task>
+</user_prompt>

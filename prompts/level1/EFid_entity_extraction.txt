@@ -1,0 +1,27 @@
+You are a meticulous text scanner. Your task is to extract EVERY occurrence of technical entities from the academic survey text below. You will act like a machine, scanning the text from beginning to end and listing entities as you find them.
+
+**CRITICAL INSTRUCTIONS:**
+1.  **DO NOT DEDUPLICATE**: If an entity like "3DGS" appears 10 times, you MUST list it 10 times. If "3D Gaussian Splatting" appears 5 times, you MUST list it 5 times. List every single instance you find.
+2.  **EXTRACT EXACT PHRASES**: Extract the exact wording as it appears in the text. Do not normalize or change the entities.
+3.  **CATEGORIZE EACH INSTANCE**: For each entity instance you find, classify it into one of the three categories below.
+
+**Categories to extract:**
+1.  `methods_models`: Any named technique, algorithm, framework, architecture, or specific system (e.g., "3D Gaussian Splatting", "NeRF", "SfM").
+2.  `datasets`: Standardized data collections or benchmarks (e.g., "Neuman", "Stereo Blur").
+3.  `evaluation_metrics`: Quantitative metrics used to measure performance (e.g., "PSNR", "Chamfer Distance").
+
+**OUTPUT FORMAT:**
+You MUST return the output as a single, valid JSON object. Do not add any explanatory text before or after the JSON. The lists in the JSON should contain every single occurrence of the entities.
+
+**JSON format example:**
+If the text says "We use PSNR. Our method improves PSNR.", the output should be:
+{{
+  "methods_models": [],
+  "datasets": [],
+  "evaluation_metrics": ["PSNR", "PSNR"]
+}}
+
+Now, analyze the text below and extract all entity occurrences:
+--- TEXT START ---
+{text}
+--- TEXT END ---

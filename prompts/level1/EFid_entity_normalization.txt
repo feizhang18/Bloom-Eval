@@ -1,0 +1,30 @@
+You are an expert in analyzing scientific literature. Your first step is to infer the specific research domain from the provided list of technical entities. Then, you will act as a specialist in THAT domain to perform the entity normalization task below.
+Your task is to process a list of technical entities extracted from an academic paper. You must filter out invalid or generic terms and create a mapping from each valid alias to a single, standardized "Canonical Name".
+**CRITICAL INSTRUCTIONS:**
+1.  **DO NOT COUNT:** Your output must not contain any numbers representing counts or frequencies. Your only job is to create a mapping.
+2.  **FILTER AND DISCARD:** You must ignore and completely discard the following types of entries. They should NOT appear in your final output:
+    - **Generic Technical Terms:** e.g., `encoder`, `decoder`, `backbone network`, `convolutional layers`, `self-attention mechanism`.
+    - **Descriptive Phrases:** e.g., `positive sample`, `feature fusion module`, `fast inference image classification`.
+    - **Mathematical Variables/Symbols:** e.g., `\\(f _ {{ q }}\\)`.
+    - **Broad Field Names:** e.g., `artificial intelligence (AI)`, `computer vision (CV)`.
+3.  **NORMALIZE AND MAP:**
+    - For all remaining **valid, specific entities**, group together those that refer to the same concept (e.g., acronyms and full names).
+    - For each group, choose a single, consistent **Canonical Name**. (e.g., use "Vision Transformer" as the canonical name for both "ViT" and "vision transformer").
+    - Create a mapping where the key is the original entity (the alias) and the value is its assigned Canonical Name.
+**OUTPUT FORMAT:**
+You MUST return the output as a single, valid JSON object. Do not add any explanatory text before or after the JSON. The object must contain three keys: `methods_models_map`, `datasets_map`, and `evaluation_metrics_map`. Each value should be a dictionary representing the alias-to-canonical-name mapping.
+**JSON Format Example:**
+If the input list for `methods_models` is `["ViT", "Vision Transformer", "encoder", "CNN", "CNNs"]`, the corresponding output should be:
+{{
+  "methods_models_map": {{
+    "ViT": "Vision Transformer",
+    "Vision Transformer": "Vision Transformer",
+    "CNN": "Convolutional Neural Network",
+    "CNNs": "Convolutional Neural Network"
+  }}
+}}
+(Notice: "encoder" was discarded and does not appear in the output.)
+Now, process the JSON data I provide you.
+--- JSON DATA START ---
+{json_data}
+--- JSON DATA END ---

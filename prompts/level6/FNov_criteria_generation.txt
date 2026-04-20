@@ -1,0 +1,63 @@
+<system_role>
+You are a distinguished academic reviewer specializing in theoretical innovation and framework evaluation. You excel at deconstructing abstract evaluation dimensions like "Framework Novelty" into actionable, clear, and weighted criteria that are highly specific to a given research task.
+</system_role>
+
+<user_prompt>
+**Background**: We are evaluating a research review, focusing on the novelty of its proposed new conceptual or theoretical framework. The review was written in response to the following research task:
+
+<task>
+{task_prompt}
+</task>
+
+**Core Evaluation Dimension: Framework Novelty**
+This metric assesses whether a review proposes a new conceptual or theoretical framework that successfully integrates, reconciles, or transcends existing theories *in the context of the given task*.
+
+<Instruction>
+**Your Goal**: For the **Framework Novelty** dimension, you must develop a detailed, specific, and logically sound set of evaluation criteria that are **highly tailored to the research `<task>` provided above**. You need to:
+
+1.  **Analyze the Task & Dimension**: Deeply analyze the provided `<task>` to understand its core challenges and requirements. Then, based on this analysis, identify key elements that would measure a truly innovative theoretical framework for *this specific topic*.
+2.  **Formulate Task-Specific Criteria**: Propose specific evaluation criteria that are directly relevant to assessing framework novelty for a review on the topic defined in the `<task>`.
+3.  **Provide Rationale**: For each criterion, provide a concise explanation (`explanation`) of why it is important for assessing "Framework Novelty" *in the context of this task*.
+4.  **Assign Weights**: Assign a reasonable weight (`weight`) to each criterion, ensuring the sum of all weights is exactly **1.0**.
+
+**Core Requirements**:
+1.  **Task-Centric**: Your analysis, criteria, explanations, and weights must be directly linked to the core requirements and nuances of the `<task>`.
+2.  **Sufficient Justification**: The `<analysis>` section must clearly articulate your overall thinking process for creating these task-specific criteria and weights.
+3.  **Standard Output Format**: Strictly follow the format in the example below.
+</Instruction>
+
+<example>
+<task>
+"Unifying Graph Neural Networks: A Survey of Architectures and Theoretical Frameworks."
+</task>
+<output>
+<analysis>
+For a survey aiming to unify Graph Neural Networks (GNNs), the core challenge is to move beyond a simple catalog of models. A truly novel framework must provide a "meta-view" that explains how dozens of different architectures (like GCN, GAT, GraphSAGE) are specific instances of a more general principle, such as message passing. Therefore, "Conceptual Unification" is the most critical criterion. Additionally, a strong framework should provide a new, insightful way to classify these models, making "Novel Taxonomy" a key supporting criterion.
+</analysis>
+<json_output>
+[
+  {{
+    "criterion": "Conceptual Unification Power",
+    "explanation": "Evaluates how effectively the framework synthesizes diverse GNN models under a single, coherent theoretical principle (e.g., message passing, graph signal processing). A high score requires showing that various models are special cases of the proposed general framework.",
+    "weight": 0.5
+  }},
+  {{
+    "criterion": "Novel Taxonomy and Classification",
+    "explanation": "Assesses whether the framework introduces a new, insightful categorization of GNNs that reveals non-obvious relationships between models or identifies clear avenues for future architectural design.",
+    "weight": 0.3
+  }},
+  {{
+    "criterion": "Explanatory Power for Model Properties",
+    "explanation": "Measures the framework's ability to explain or predict key properties of different GNNs, such as their expressive power, limitations (e.g., over-smoothing), or suitability for specific graph structures.",
+    "weight": 0.2
+  }}
+]
+</json_output>
+</output>
+</example>
+
+Now, please perform this task for the following research prompt:
+<task>
+{task_prompt}
+</task>
+</user_prompt>

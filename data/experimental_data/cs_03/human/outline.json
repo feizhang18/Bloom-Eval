@@ -1,0 +1,122 @@
+[
+    [
+        0,
+        "Diffusion Models in Vision: A Survey"
+    ],
+    [
+        1,
+        "A. Denoising Diffusion Probabilistic Models (DDPMs)"
+    ],
+    [
+        1,
+        "A. Unconditional Image Generation"
+    ],
+    [
+        2,
+        "1) Denoising Diffusion Probabilistic Models"
+    ],
+    [
+        2,
+        "2) Score-Based Generative Models"
+    ],
+    [
+        2,
+        "3) Stochastic Differential Equations"
+    ],
+    [
+        1,
+        "Algorithm 1: DDPM Sampling Method."
+    ],
+    [
+        1,
+        "B. Conditional Image Generation"
+    ],
+    [
+        2,
+        "1) Denoising Diffusion Probabilistic Models"
+    ],
+    [
+        2,
+        "2) Score-Based Generative Models"
+    ],
+    [
+        2,
+        "3) Stochastic Differential Equations"
+    ],
+    [
+        1,
+        "B. Noise Conditioned Score Networks (NCSNs)"
+    ],
+    [
+        1,
+        "C. Image-to-Image Translation"
+    ],
+    [
+        1,
+        "C. Stochastic Differential Equations (SDEs)"
+    ],
+    [
+        1,
+        "D. Relation to Other Generative Models"
+    ],
+    [
+        1,
+        "D. Text-to-Image Synthesis"
+    ],
+    [
+        1,
+        "E. Image Super-Resolution"
+    ],
+    [
+        1,
+        "F. Image Editing"
+    ],
+    [
+        1,
+        "G. Image Inpainting"
+    ],
+    [
+        1,
+        "H. Image Segmentation"
+    ],
+    [
+        1,
+        "I. INTRODUCTION"
+    ],
+    [
+        1,
+        "I. Multi-Task Approaches"
+    ],
+    [
+        1,
+        "II. GENERIC FRAMEWORK"
+    ],
+    [
+        1,
+        "III. A CATEGORIZATION OF DIFFUSION MODELS"
+    ],
+    [
+        1,
+        "IV. CLOSING REMARKS AND FUTURE DIRECTIONS"
+    ],
+    [
+        1,
+        "J. Medical Image Generation and Translation"
+    ],
+    [
+        1,
+        "K. Anomaly Detection in Medical Images"
+    ],
+    [
+        1,
+        "L. Video Generation"
+    ],
+    [
+        1,
+        "M. Other Tasks"
+    ],
+    [
+        1,
+        "N. Theoretical Contributions"
+    ]
+]

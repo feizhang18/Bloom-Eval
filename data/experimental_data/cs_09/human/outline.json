@@ -1,0 +1,98 @@
+[
+    [
+        0,
+        "Transfer Learning in Deep Reinforcement Learning: A Survey"
+    ],
+    [
+        1,
+        "I. INTRODUCTION"
+    ],
+    [
+        2,
+        "A. Reinforcement Learning Basics"
+    ],
+    [
+        2,
+        "B. Reinforcement Learning Algorithms"
+    ],
+    [
+        2,
+        "C. Transfer Learning in the Context of Reinforcement Learning"
+    ],
+    [
+        2,
+        "D. Related Topics"
+    ],
+    [
+        1,
+        "III. ANALYZING TRANSFER LEARNING"
+    ],
+    [
+        2,
+        "A. Categorization of Transfer Learning Approaches"
+    ],
+    [
+        2,
+        "B. Case Analysis of Transfer Learning in the Context of Reinforcement Learning"
+    ],
+    [
+        2,
+        "C. Evaluation Metrics"
+    ],
+    [
+        1,
+        "IV. RELATED WORK"
+    ],
+    [
+        1,
+        "V. TRANSFER LEARNING APPROACHES DEEP DIVE"
+    ],
+    [
+        2,
+        "A. Reward Shaping"
+    ],
+    [
+        2,
+        "B. Learning From Demonstrations"
+    ],
+    [
+        2,
+        "C. Policy Transfer"
+    ],
+    [
+        3,
+        "1) Transfer Learning Via Policy Distillation"
+    ],
+    [
+        3,
+        "2) Transfer Learning Via Policy Reuse"
+    ],
+    [
+        2,
+        "D. Inter-Task Mapping"
+    ],
+    [
+        2,
+        "E. Representation Transfer"
+    ],
+    [
+        3,
+        "1) Reusing Representations"
+    ],
+    [
+        3,
+        "2) Disentangling Representations"
+    ],
+    [
+        3,
+        "3) Summary and Discussion"
+    ],
+    [
+        1,
+        "VI. APPLICATIONS"
+    ],
+    [
+        1,
+        "VII. FUTURE PERSPECTIVES"
+    ]
+]

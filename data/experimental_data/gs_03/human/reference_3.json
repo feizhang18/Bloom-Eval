@@ -1,0 +1,1098 @@
+{
+    "reference_num": 71,
+    "paper_1_info": {
+        "reference_1": {
+            "searched_title": "Scalable Multispecies Ion Transport in a Grid-Based Surface-Electrode Trap",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2403.00756",
+            "url": "https://www.semanticscholar.org/paper/b0ece83cf1934038865e1f2ebc48b30092d0160b",
+            "date": "2024",
+            "abs": "Quantum processors based on linear arrays of trapped ions have achieved exceptional performance, but scaling to large qubit numbers requires realizing two-dimensional ion arrays as envisioned in the quantum charge-coupled device (QCCD) architecture. Here, we present a scalable method for the control of ion crystals in a grid-based surface-electrode Paul trap and characterize it in the context of transport operations that sort and reorder multispecies crystals. By combining cowiring of control electrodes at translationally symmetric locations in each grid site with the sitewise ability to exchange the voltages applied to two special electrodes gated by a binary input, site-dependent operations can be achieved using only a fixed number of analog voltage signals and a single digital input per site. In two separate experimental systems containing nominally identical grid traps, one using Yb+171−Ba+138 crystals and the other Ba+137−Sr+88, we demonstrate this method by characterizing the conditional intrasite crystal reorder and the conditional exchange of ions between adjacent sites on the grid. Averaged across a multisite region of interest, we measure subquanta motional excitation in the axial in-phase and out-of-phase modes of the crystals following these operations at exchange rates of 2.5 kHz. In this initial demonstration, the logic controlling the voltage exchange occurs in software, but the applied signals mimic a proposed hardware implementation using crossover switches. These techniques can be further extended to implement other conditional operations in the QCCD architecture such as gates, initialization, and measurement.\n \n \n \n \n Published by the American Physical Society\n 2024\n \n \n",
+            "authors": [
+                "Robert D. Delaney",
+                "et al."
+            ],
+            "publication": "Physical Review X",
+            "citation_count": 19
+        }
+    },
+    "paper_2_info": {
+        "reference_2": {
+            "searched_title": "Logical quantum processor based on reconfigurable atom arrays",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2312.03982",
+            "url": "https://www.semanticscholar.org/paper/9cac672bb24d6216c2b5728f940e69395d188bdd",
+            "date": "2023",
+            "abs": "Suppressing errors is the central challenge for useful quantum computing1, requiring quantum error correction (QEC)2–6 for large-scale processing. However, the overhead in the realization of error-corrected ‘logical’ qubits, in which information is encoded across many physical qubits for redundancy2–4, poses substantial challenges to large-scale logical quantum computing. Here we report the realization of a programmable quantum processor based on encoded logical qubits operating with up to 280 physical qubits. Using logical-level control and a zoned architecture in reconfigurable neutral-atom arrays7, our system combines high two-qubit gate fidelities8, arbitrary connectivity7,9, as well as fully programmable single-qubit rotations and mid-circuit readout10–15. Operating this logical processor with various types of encoding, we demonstrate improvement of a two-qubit logic gate by scaling surface-code6 distance from d = 3 to d = 7, preparation of colour-code qubits with break-even fidelities5, fault-tolerant creation of logical Greenberger–Horne–Zeilinger (GHZ) states and feedforward entanglement teleportation, as well as operation of 40 colour-code qubits. Finally, using 3D [[8,3,2]] code blocks16,17, we realize computationally complex sampling circuits18 with up to 48 logical qubits entangled with hypercube connectivity19 with 228 logical two-qubit gates and 48 logical CCZ gates20. We find that this logical encoding substantially improves algorithmic performance with error detection, outperforming physical-qubit fidelities at both cross-entropy benchmarking and quantum simulations of fast scrambling21,22. These results herald the advent of early error-corrected quantum computation and chart a path towards large-scale logical processors.",
+            "authors": [
+                "D. Bluvstein",
+                "et al."
+            ],
+            "publication": "Nature",
+            "citation_count": 997
+        }
+    },
+    "paper_3_info": {
+        "reference_3": {
+            "searched_title": "The hardness of random quantum circuits",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/356c57898cd4164b4e28d8cc647244a67eb1e157",
+            "date": "2023",
+            "abs": "N/A",
+            "authors": [
+                "R. Movassagh"
+            ],
+            "publication": "Nature Physics",
+            "citation_count": 29
+        }
+    },
+    "paper_4_info": {
+        "reference_4": {
+            "searched_title": "Evidence for the utility of quantum computing before fault tolerance",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/f9253a3e2627f1c2a0a7e2cea320a4ec4e4d2ff9",
+            "date": "2023",
+            "abs": "Quantum computing promises to offer substantial speed-ups over its classical counterpart for certain problems. However, the greatest impediment to realizing its full potential is noise that is inherent to these systems. The widely accepted solution to this challenge is the implementation of fault-tolerant quantum circuits, which is out of reach for current processors. Here we report experiments on a noisy 127-qubit processor and demonstrate the measurement of accurate expectation values for circuit volumes at a scale beyond brute-force classical computation. We argue that this represents evidence for the utility of quantum computing in a pre-fault-tolerant era. These experimental results are enabled by advances in the coherence and calibration of a superconducting processor at this scale and the ability to characterize^ 1 and controllably manipulate noise across such a large device. We establish the accuracy of the measured expectation values by comparing them with the output of exactly verifiable circuits. In the regime of strong entanglement, the quantum computer provides correct results for which leading classical approximations such as pure-state-based 1D (matrix product states, MPS) and 2D (isometric tensor network states, isoTNS) tensor network methods^ 2 , 3 break down. These experiments demonstrate a foundational tool for the realization of near-term quantum applications^ 4 , 5 . Experiments on a noisy 127-qubit superconducting quantum processor report the accurate measurement of expectation values beyond the reach of current brute-force classical computation, demonstrating evidence for the utility of quantum computing before fault tolerance.",
+            "authors": [
+                "Youngseok Kim",
+                "et al."
+            ],
+            "publication": "Nature",
+            "citation_count": 915
+        }
+    },
+    "paper_5_info": {
+        "reference_5": {
+            "searched_title": "A sharp phase transition in linear cross-entropy benchmarking",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2305.04954",
+            "url": "https://www.semanticscholar.org/paper/192263a3165150048da7fd36345314478871df9f",
+            "date": "2023",
+            "abs": "Demonstrations of quantum computational advantage and benchmarks of quantum processors via quantum random circuit sampling are based on evaluating the linear cross-entropy benchmark (XEB). A key question in the theory of XEB is whether it approximates the fidelity of the quantum state preparation. Previous works have shown that the XEB generically approximates the fidelity in a regime where the noise rate per qudit $\\varepsilon$ satisfies $\\varepsilon N \\ll 1$ for a system of $N$ qudits and that this approximation breaks down at large noise rates. Here, we show that the breakdown of XEB as a fidelity proxy occurs as a sharp phase transition at a critical value of $\\varepsilon N$ that depends on the circuit architecture and properties of the two-qubit gates, including in particular their entangling power. We study the phase transition using a mapping of average two-copy quantities to statistical mechanics models in random quantum circuit architectures with full or one-dimensional connectivity. We explain the phase transition behavior in terms of spectral properties of the transfer matrix of the statistical mechanics model and identify two-qubit gate sets that exhibit the largest noise robustness.",
+            "authors": [
+                "Brayden Ware",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 27
+        }
+    },
+    "paper_6_info": {
+        "reference_6": {
+            "searched_title": "A Race-Track Trapped-Ion Quantum Processor",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2305.03828",
+            "url": "https://www.semanticscholar.org/paper/f07dce44de874aeca6c5d1349a2fb69641f4d788",
+            "date": "2023",
+            "abs": "We describe and benchmark a new quantum charge-coupled device (QCCD) trapped-ion quantum computer based on a linear trap with periodic boundary conditions, which resembles a race track. The new system successfully incorporates several technologies crucial to future scalability, including electrode broadcasting, multi-layer RF routing, and magneto-optical trap (MOT) loading, while maintaining, and in some cases exceeding, the gate fidelities of previous QCCD systems. The system is initially operated with 32 qubits, but future upgrades will allow for more. We benchmark the performance of primitive operations, including an average state preparation and measurement error of 1.6(1)$\\times 10^{-3}$, an average single-qubit gate infidelity of $2.5(3)\\times 10^{-5}$, and an average two-qubit gate infidelity of $1.84(5)\\times 10^{-3}$. The system-level performance of the quantum processor is assessed with mirror benchmarking, linear cross-entropy benchmarking, a quantum volume measurement of $\\mathrm{QV}=2^{16}$, and the creation of 32-qubit entanglement in a GHZ state. We also tested application benchmarks including Hamiltonian simulation, QAOA, error correction on a repetition code, and dynamics simulations using qubit reuse. We also discuss future upgrades to the new system aimed at adding more qubits and capabilities.",
+            "authors": [
+                "S. Moses",
+                "et al."
+            ],
+            "publication": "Physical Review X",
+            "citation_count": 217
+        }
+    },
+    "paper_7_info": {
+        "reference_7": {
+            "searched_title": "Verifying Quantum Advantage Experiments with Multiple Amplitude Tensor Network Contraction.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2212.04749",
+            "url": "https://www.semanticscholar.org/paper/7da7b1bf2f0c1b6c6cd3d3e90fbe80e302f406a6",
+            "date": "2022",
+            "abs": "The quantum supremacy experiment, such as Google Sycamore [F. Arute et al., Nature (London) 574, 505 (2019).NATUAS0028-083610.1038/s41586-019-1666-5], poses a great challenge for classical verification due to the exponentially increasing compute cost. Using a new-generation Sunway supercomputer within 8.5 d, we provide a direct verification by computing 3×10^{6} exact amplitudes for the experimentally generated bitstrings, obtaining a cross-entropy benchmarking fidelity of 0.191% (the estimated value is 0.224%). The leap of simulation capability is built on a multiple-amplitude tensor network contraction algorithm which systematically exploits the \"classical advantage\" (the inherent \"store-and-compute\" operation mode of von Neumann machines) of current supercomputers, and a fused tensor network contraction algorithm which drastically increases the compute efficiency on heterogeneous architectures. Our method has a far-reaching impact in solving quantum many-body problems, statistical problems, as well as combinatorial optimization problems.",
+            "authors": [
+                "Yong Liu",
+                "et al."
+            ],
+            "publication": "Physical Review Letters",
+            "citation_count": 11
+        }
+    },
+    "paper_8_info": {
+        "reference_8": {
+            "searched_title": "A Polynomial-Time Classical Algorithm for Noisy Random Circuit Sampling",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2211.03999",
+            "url": "https://www.semanticscholar.org/paper/452e0ac0e34df912aded38a9174f67c46569a6b7",
+            "date": "2022",
+            "abs": "We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. The algorithm is based on a quantum analog of noise induced low degree approximations of Boolean functions, which takes the form of the truncation of a Feynman path integral in the Pauli basis.",
+            "authors": [
+                "D. Aharonov",
+                "et al."
+            ],
+            "publication": "Symposium on the Theory of Computing",
+            "citation_count": 120
+        }
+    },
+    "paper_9_info": {
+        "reference_9": {
+            "searched_title": "Qubit-Reuse Compilation with Mid-Circuit Measurement and Reset",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2210.08039",
+            "url": "https://www.semanticscholar.org/paper/47faf6e5608c26b640d1af92268cca1c842f6578",
+            "date": "2022",
+            "abs": "A number of commercially available quantum computers, such as those based on trapped-ion or superconducting qubits, can now perform mid-circuit measurements and resets. In addition to being crucial for quantum error correction, this capability can help reduce the number of qubits needed to execute many types of quantum algorithms by measuring qubits as early as possible, resetting them, and reusing them elsewhere in the circuit. In this work, we introduce the idea of qubit-reuse compilation, which takes as input a quantum circuit and produces as output a compiled circuit that requires fewer qubits to execute due to qubit reuse. We present two algorithms for performing qubit-reuse compilation: an exact constraint programming optimization model and a greedy heuristic. We introduce the concept of dual circuits, obtained by exchanging state preparations with measurements and vice versa and reversing time, and show that optimal qubit-reuse compilation requires the same number of qubits to execute a circuit as its dual. We illustrate the performance of these algorithms on a variety of relevant near-term quantum circuits, such as one-dimensional and two-dimensional time-evolution circuits, and numerically benchmark their performance on the quantum adiabatic optimization algorithm (QAOA) applied to the MaxCut problem on random three-regular graphs. To demonstrate the practical benefit of these techniques, we experimentally realize an 80-qubit QAOA MaxCut circuit on the 20-qubit Quantinuum H1-1 trapped ion quantum processor using qubit-reuse compilation algorithms.",
+            "authors": [
+                "M. DeCross",
+                "et al."
+            ],
+            "publication": "Physical Review X",
+            "citation_count": 77
+        }
+    },
+    "paper_10_info": {
+        "reference_10": {
+            "searched_title": "Constructing Optimal Contraction Trees for Tensor Network Quantum Circuit Simulation",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2209.02895",
+            "url": "https://www.semanticscholar.org/paper/bf77c1097b9a7b4ea146e05c57a1095e743d7444",
+            "date": "2022",
+            "abs": "One of the key problems in tensor network based quantum circuit simulation is the construction of a contraction tree which minimizes the cost of the simulation, where the cost can be expressed in the number of operations as a proxy for the simulation running time. This same problem arises in a variety of application areas, such as combinatorial scientific computing, marginalization in probabilistic graphical models, and solving constraint satisfaction problems. In this paper, we reduce the computationally hard portion of this problem to one of graph linear ordering, and demonstrate how existing approaches in this area can be utilized to achieve results up to several orders of magnitude better than existing state of the art methods for the same running time. To do so, we introduce a novel polynomial time algorithm for constructing an optimal contraction tree from a given order. Furthermore, we introduce a fast and high quality linear ordering solver, and demonstrate its applicability as a heuristic for providing orderings for contraction trees. Finally, we compare our solver with competing methods for constructing contraction trees in quantum circuit simulation on a collection of randomly generated Quantum Approximate Optimization Algorithm Max Cut circuits and show that our method achieves superior results on a majority of tested quantum circuits. Reproducibility: Our source code and data are available at https://github.com/cameton/HPEC2022_ContractionTrees.",
+            "authors": [
+                "Cameron Ibrahim",
+                "et al."
+            ],
+            "publication": "IEEE Conference on High Performance Extreme Computing",
+            "citation_count": 20
+        }
+    },
+    "paper_11_info": {
+        "reference_11": {
+            "searched_title": "Density-Matrix Renormalization Group Algorithm for Simulating Quantum Circuits with a Finite Fidelity",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2207.05612",
+            "url": "https://www.semanticscholar.org/paper/c1c9f3af0d63d8d57babd89e23d0d9bf7bb12894",
+            "date": "2022",
+            "abs": "We develop a density-matrix renormalization group (DMRG) algorithm for the simulation of quantum circuits. This algorithm can be seen as the extension of time-dependent DMRG from the usual situation of hermitian Hamiltonian matrices to quantum circuits defined by unitary matrices. For small circuit depths, the technique is exact and equivalent to other matrix product state (MPS) based techniques. For larger depths, it becomes approximate in exchange for an exponential speed up in computational time. Like an actual quantum computer, the quality of the DMRG results is characterized by a finite fidelity. However, unlike a quantum computer, the fidelity depends strongly on the quantum circuit considered. For the most difficult possible circuit for this technique, the so-called\"quantum supremacy\"benchmark of Google Inc. , we find that the DMRG algorithm can generate bit strings of the same quality as the seminal Google experiment on a single computing core. For a more structured circuit used for combinatorial optimization (Quantum Approximate Optimization Algorithm or QAOA), we find a drastic improvement of the DMRG results with error rates dropping by a factor of 100 compared with random quantum circuits. Our results suggest that the current bottleneck of quantum computers is their fidelities rather than the number of qubits.",
+            "authors": [
+                "T. Ayral",
+                "et al."
+            ],
+            "publication": "PRX Quantum",
+            "citation_count": 54
+        }
+    },
+    "paper_12_info": {
+        "reference_12": {
+            "searched_title": "Transport of Multispecies Ion Crystals through a Junction in a Radio-Frequency Paul Trap.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2206.11888",
+            "url": "https://www.semanticscholar.org/paper/6925074c34252c40871abc3dd311ba5cca8e3cc8",
+            "date": "2022",
+            "abs": "We report on the first demonstration of transport of a multispecies ion crystal through a junction in a rf Paul trap. The trap is a two-dimensional surface-electrode trap with an X junction and segmented control electrodes to which time-varying voltages are applied to control the shape and position of potential wells above the trap surface. We transport either a single ^{171}Yb^{+} ion or a crystal composed of a ^{138}Ba^{+} ion cotrapped with the ^{171}Yb^{+} ion to any port of the junction. We characterize the motional excitation by performing multiple round-trips through the junction and back to the initial well position without cooling. The final excitation is then measured using sideband asymmetry. For a single ^{171}Yb^{+} ion, transport with a 4  m/s average speed induces between 0.013±0.001 and 0.014±0.001 quanta of excitation per round-trip, depending on the exit port. For a Ba-Yb crystal, transport at the same speed induces between 0.013±0.001 and 0.030±0.002 quanta per round-trip of excitation to the in-phase axial mode. Excitation in the out-of-phase axial mode ranges from 0.005±0.001 to 0.021±0.001 quanta per round-trip.",
+            "authors": [
+                "W. Burton",
+                "et al."
+            ],
+            "publication": "Physical Review Letters",
+            "citation_count": 16
+        }
+    },
+    "paper_13_info": {
+        "reference_13": {
+            "searched_title": "Hyperoptimized Approximate Contraction of Tensor Networks with Arbitrary Geometry",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2206.07044",
+            "url": "https://www.semanticscholar.org/paper/1dc31f3fc6ee135f274ffd0f9c9e2ae849a6b7bd",
+            "date": "2022",
+            "abs": "Tensor network contraction is central to problems ranging from many-body physics to computer science. We describe how to approximate tensor network contraction through bond compression on arbitrary graphs. In particular, we introduce a hyper-optimization over the compression and contraction strategy itself to minimize error and cost. We demonstrate that our protocol outperforms both hand-crafted contraction strategies in the literature as well as recently proposed general contraction algorithms on a variety of synthetic and physical problems on regular lattices and random regular graphs. We further showcase the power of the approach by demonstrating approximate contraction of tensor networks for frustrated three-dimensional lattice partition functions, dimer counting on random regular graphs, and to access the hardness transition of random tensor network models, in graphs with many thousands of tensors.",
+            "authors": [
+                "Johnnie Gray",
+                "et al."
+            ],
+            "publication": "Physical Review X",
+            "citation_count": 26
+        }
+    },
+    "paper_14_info": {
+        "reference_14": {
+            "searched_title": "Computational advantage of quantum random sampling",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2206.04079",
+            "url": "https://www.semanticscholar.org/paper/86ba32a34fe512f00f132dda90084e21155eef4a",
+            "date": "2022",
+            "abs": "Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.",
+            "authors": [
+                "D. Hangleiter",
+                "et al."
+            ],
+            "publication": "Reviews of Modern Physics",
+            "citation_count": 134
+        }
+    },
+    "paper_15_info": {
+        "reference_15": {
+            "searched_title": "Establishing trust in quantum computations",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2204.07568",
+            "url": "https://www.semanticscholar.org/paper/79040f21248dba9d64f9d8444fbebc7bdd33f5c7",
+            "date": "2022",
+            "abs": "Real-world quantum computers have grown su ﬃ ciently complex that they can no longer be simulated by classical supercomputers, but their computational power remains limited by errors. These errors corrupt the results of quantum algorithms, and it is no longer always feasible to use classical simulations to directly check the correct-ness of quantum computations. Without practical methods for quantifying the accuracy with which a quantum algorithm has been executed, it is di ﬃ cult to establish trust in the results of a quantum computation. Here we solve this problem, by introducing a simple and e ﬃ cient technique for measuring the ﬁdelity with which an as-built quantum computer can execute an algorithm. Our technique converts the algorithm’s quantum circuits into a set of closely related circuits whose success rates can be e ﬃ ciently measured. It enables measuring the ﬁdelity of quantum algorithm executions both in the near-term, with algorithms run on hundreds or thousands of physical qubits, and into the future, with algorithms run on logical qubits protected by quantum error correction.",
+            "authors": [
+                "T. Proctor",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 18
+        }
+    },
+    "paper_16_info": {
+        "reference_16": {
+            "searched_title": "High Fidelity State Preparation and Measurement of Ion Hyperfine Qubits with I>1/2.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2203.01920",
+            "url": "https://www.semanticscholar.org/paper/5f4080c52e8a024020ddfee3489de703b760e35d",
+            "date": "2022",
+            "abs": "We present a method for achieving high fidelity state preparation and measurement (SPAM) using trapped ion hyperfine qubits with nuclear spins higher than I=1/2. The ground states of these higher nuclear spin isotopes do not afford a simple frequency-selective state preparation scheme. We circumvent this limitation by stroboscopically driving strong and weak transitions, blending fast optical pumping using dipole transitions, and narrow microwave or optical quadrupole transitions. We demonstrate this method with the I=3/2 isotope ^{137}Ba^{+} to achieve a SPAM infidelity of (9.0±1.3)×10^{-5} (-40.5±0.6  dB), facilitating the use of a wider range of ion isotopes with favorable wavelengths and masses for quantum computation.",
+            "authors": [
+                "F. An",
+                "et al."
+            ],
+            "publication": "Physical Review Letters",
+            "citation_count": 34
+        }
+    },
+    "paper_17_info": {
+        "reference_17": {
+            "searched_title": "Classical Sampling of Random Quantum Circuits with Bounded Fidelity",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2112.15083",
+            "url": "https://www.semanticscholar.org/paper/f2bf43d94b0a5f524f240e99efd855b3c5b59d12",
+            "date": "2021",
+            "abs": "Random circuit sampling has become a popular means for demonstrating the superiority of quantum computers over classical supercomputers. While quantum chips are evolving rapidly, classical sampling algorithms are also getting better and better. The major challenge is to generate bitstrings exhibiting an XEB fidelity above that of the quantum chips. Here we present a classical sampling algorithm for producing the probability distribution of any given random quantum circuit, where the fidelity can be rigorously bounded. Specifically, our algorithm performs rejection sampling after the introduced very recently multi-tensor contraction algorithm. We show that the fidelity can be controlled by partially contracting the dominant paths in the tensor network and by adjusting the number of batches used in the rejection sampling. As a demonstration, we classically produced 1 million samples with the fidelity bounded by 0.2%, based on the 20-cycle circuit of the Sycamore 53-qubit quantum chip. Though this task was initially estimated to take 10,000 years on the Summit supercomputer, it took about 14.5 days using our algorithm on a relatively small cluster with 32 GPUs (Tesla V100 16GB). Furthermore, we estimate that for the Zuchongzhi 56-qubit 20-cycle circuit one can produce 1M samples with fidelity 0.066% using the Selene supercomputer with 4480 GPUs (Tesla A100 80GB) in about 4 days.",
+            "authors": [
+                "G. Kalachev",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 18
+        }
+    },
+    "paper_18_info": {
+        "reference_18": {
+            "searched_title": "Solving the Sampling Problem of the Sycamore Quantum Circuits.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2111.03011",
+            "url": "https://www.semanticscholar.org/paper/3246675d20e62aee3e6fbe0668277c10556f30cf",
+            "date": "2021",
+            "abs": "We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in generating a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with 53 qubits and 20 cycles, we have generated 1×10^{6} uncorrelated bitstrings s which are sampled from a distribution P[over ^](s)=|ψ[over ^](s)|^{2}, where the approximate state ψ[over ^] has fidelity F≈0.0037. The whole computation has cost about 15 h on a computational cluster with 512 GPUs. The obtained 1×10^{6} samples, the contraction code and contraction order are made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.",
+            "authors": [
+                "Feng Pan",
+                "et al."
+            ],
+            "publication": "Physical Review Letters",
+            "citation_count": 107
+        }
+    },
+    "paper_19_info": {
+        "reference_19": {
+            "searched_title": "Quantum computational advantage via 60-qubit 24-cycle random circuit sampling.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2109.03494",
+            "url": "https://www.semanticscholar.org/paper/44ff9671a5864f63ff732a8a0637652804b4116d",
+            "date": "2021",
+            "abs": "N/A",
+            "authors": [
+                "Qingling Zhu",
+                "et al."
+            ],
+            "publication": "Science Bulletin",
+            "citation_count": 287
+        }
+    },
+    "paper_20_info": {
+        "reference_20": {
+            "searched_title": "Theory of mirror benchmarking and demonstration on a quantum computer",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2108.10431",
+            "url": "https://www.semanticscholar.org/paper/c4ea2ce3e93a7917e93a307ee47332c777055c09",
+            "date": "2021",
+            "abs": "A new class of protocols called mirror benchmarking was recently proposed to measure the system-level performance of quantum computers. These protocols involve circuits with random sequences of gates followed by mirroring, that is, inverting each gate in the sequence. We give a simple proof that mirror benchmarking leads to an exponential decay of the survival probability with sequence length, under the uniform noise assumption, provided the twirling group forms a 2-design. The decay rate is determined by a quantity that is a quadratic function of the error channel, and for certain types of errors is equal to the unitarity. This result yields a new method for estimating the coherence of noise. We present data from mirror benchmarking experiments run on the Honeywell System Model H1. This data constitutes a set of performance curves, indicating the success probability for random circuits as a function of qubit number and circuit depth.",
+            "authors": [
+                "K. Mayer",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 14
+        }
+    },
+    "paper_21_info": {
+        "reference_21": {
+            "searched_title": "Multi-Tensor Contraction for XEB Verification of Quantum Circuits",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2108.05665",
+            "url": "https://www.semanticscholar.org/paper/36609f706484c6616b88dfcbb080b2e06a0d5344",
+            "date": "2021",
+            "abs": "The computational advantage of noisy quantum computers has been demonstrated by sampling the bitstrings of quantum random circuits. An important issue is how the performance of quantum devices could be quantified in the so-called\"supremacy regime\". The standard approach is through the linear cross entropy benchmark (XEB), where the theoretical value of the probability is required for each bitstring. However, the computational cost of XEB grows exponentially. So far, random circuits of the 53-qubit Sycamore chip were verified up to 10 cycles of gates only; the XEB fidelities of deeper circuits were approximated with simplified circuits instead. Here we present a multi-tensor contraction algorithm for speeding up the calculations of XEB for quantum circuits, where the computational cost can be significantly reduced through some form of memoization. As a demonstration, we analyzed the experimental data of the 53-qubit Sycamore chip and obtained the exact values of the corresponding XEB fidelities up to 16 cycles using only moderate computing resources (few GPUs). If the algorithm was implemented on the Summit supercomputer, we estimate that for the supremacy (20 cycles) circuits, it would only cost 7.5 days, which is several orders of magnitude lower than previously estimated in the literature.",
+            "authors": [
+                "G. Kalachev",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 31
+        }
+    },
+    "paper_22_info": {
+        "reference_22": {
+            "searched_title": "Jet: Fast quantum circuit simulations with parallel task-based tensor-network contraction",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2107.09793",
+            "url": "https://www.semanticscholar.org/paper/119fb079930d6ab70624e5cd7e17cdb786bc68d8",
+            "date": "2021",
+            "abs": "We introduce a new open-source software library Jet, which uses task-based parallelism to obtain speed-ups in classical tensor-network simulations of quantum circuits. These speed-ups result from i) the increased parallelism introduced by mapping the tensor-network simulation to a task-based framework, ii) a novel method of reusing shared work between tensor-network contraction tasks, and iii) the concurrent contraction of tensor networks on all available hardware. We demonstrate the advantages of our method by benchmarking our code on several Sycamore-53 and Gaussian boson sampling (GBS) supremacy circuits against other simulators. We also provide and compare theoretical performance estimates for tensor-network simulations of Sycamore-53 and GBS supremacy circuits for the first time.",
+            "authors": [
+                "Trevor Vincent",
+                "et al."
+            ],
+            "publication": "Quantum",
+            "citation_count": 49
+        }
+    },
+    "paper_23_info": {
+        "reference_23": {
+            "searched_title": "Strong Quantum Computational Advantage Using a Superconducting Quantum Processor.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2106.14734",
+            "url": "https://www.semanticscholar.org/paper/f8964f44103f6a504e1582e94be22290ecd5a1e8",
+            "date": "2021",
+            "abs": "Scaling up to a large number of qubits with high-precision control is essential in the demonstrations of quantum computational advantage to exponentially outpace the classical hardware and algorithmic improvements. Here, we develop a two-dimensional programmable superconducting quantum processor, Zuchongzhi, which is composed of 66 functional qubits in a tunable coupling architecture. To characterize the performance of the whole system, we perform random quantum circuits sampling for benchmarking, up to a system size of 56 qubits and 20 cycles. The computational cost of the classical simulation of this task is estimated to be 2-3 orders of magnitude higher than the previous work on 53-qubit Sycamore processor [Nature 574, 505 (2019)NATUAS0028-083610.1038/s41586-019-1666-5. We estimate that the sampling task finished by Zuchongzhi in about 1.2 h will take the most powerful supercomputer at least 8 yr. Our work establishes an unambiguous quantum computational advantage that is infeasible for classical computation in a reasonable amount of time. The high-precision and programmable quantum computing platform opens a new door to explore novel many-body phenomena and implement complex quantum algorithms.",
+            "authors": [
+                "Yulin Wu",
+                "et al."
+            ],
+            "publication": "Physical Review Letters",
+            "citation_count": 824
+        }
+    },
+    "paper_24_info": {
+        "reference_24": {
+            "searched_title": "Simulating the Sycamore quantum supremacy circuits",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2103.03074",
+            "url": "https://www.semanticscholar.org/paper/a0ca3c613d0761d6bf199c01530371aca1737b6f",
+            "date": "2021",
+            "abs": "We propose a general tensor network method for simulating quantum circuits. The method is massively more efficient in computing a large number of correlated bitstring amplitudes and probabilities than existing methods. As an application, we study the sampling problem of Google's Sycamore circuits, which are believed to be beyond the reach of classical supercomputers and have been used to demonstrate quantum supremacy. Using our method, employing a small computational cluster containing 60 graphical processing units (GPUs), we have generated one million correlated bitstrings with some entries fixed, from the Sycamore circuit with 53 qubits and 20 cycles, with linear cross-entropy benchmark (XEB) fidelity equals 0.739, which is much higher than those in Google's quantum supremacy experiments.",
+            "authors": [
+                "Feng Pan",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 84
+        }
+    },
+    "paper_25_info": {
+        "reference_25": {
+            "searched_title": "Noise and the Frontier of Quantum Supremacy",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2102.01738",
+            "url": "https://www.semanticscholar.org/paper/e79c33cb934b41e21da09ee950e344e915975a8b",
+            "date": "2021",
+            "abs": "Noise is the defining feature of the NISQ era, but it remains unclear if noisy quantum devices are capable of quantum speedups. Quantum supremacy experiments have been a major step forward, but gaps remain between the theory behind these experiments and their actual implementations. In this work we initiate the study of the complexity of quantum random circuit sampling experiments with realistic amounts of noise. Actual quantum supremacy experiments have high levels of uncorrected noise and exponentially decaying fidelities. It is natural to ask if there is any signal of exponential complexity in these highly noisy devices. Surprisingly, we show that it remains hard to compute the output probabilities of noisy random quantum circuits without error correction. More formally, so long as the noise rate of the device is below the error detection threshold, we show it is #P-hard to compute the output probabilities of random circuits with a constant rate of noise per gate. This hardness persists even though these probabilities are exponentially close to uniform. Therefore the small deviations away from uniformity are hard to compute, formalizing an important intuition behind Google's supremacy claim. Interestingly these hardness results also have implications for the complexity of experiments in a low-noise setting. The issue here is that prior hardness results for computing output proba-bilities of random circuits are not robust enough to imprecision to connect with the Stockmeyer argument for hardness of sampling from circuits with constant fidelity. We exponentially improve the robustness of prior results to imprecision, both in the cases of Random Circuit Sampling and BosonSampling. In the latter case we bring the proven hardness within a constant factor in the exponent of the robustness required for hardness of sampling for the first time. We then show that our results are in tension with one another - the high-noise result implies the low-noise result is essentially optimal, even with generalizations of our techniques.",
+            "authors": [
+                "Adam Bouland",
+                "et al."
+            ],
+            "publication": "IEEE Annual Symposium on Foundations of Computer Science",
+            "citation_count": 49
+        }
+    },
+    "paper_26_info": {
+        "reference_26": {
+            "searched_title": "Quantum computational advantage using photons",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2012.01625",
+            "url": "https://www.semanticscholar.org/paper/d9136c3249aaf5fbe71c6895911391a8dd589d69",
+            "date": "2020",
+            "abs": "A light approach to quantum advantage Quantum computational advantage or supremacy is a long-anticipated milestone toward practical quantum computers. Recent work claimed to have reached this point, but subsequent work managed to speed up the classical simulation and pointed toward a sample size–dependent loophole. Quantum computational advantage, rather than being a one-shot experimental proof, will be the result of a long-term competition between quantum devices and classical simulation. Zhong et al. sent 50 indistinguishable single-mode squeezed states into a 100-mode ultralow-loss interferometer and sampled the output using 100 high-efficiency single-photon detectors. By obtaining up to 76-photon coincidence, yielding a state space dimension of about 1030, they measured a sampling rate that is about 1014-fold faster than using state-of-the-art classical simulation strategies and supercomputers. Science, this issue p. 1460 Quantum computational advantage is demonstrated using boson sampling with photons. Quantum computers promise to perform certain tasks that are believed to be intractable to classical computers. Boson sampling is such a task and is considered a strong candidate to demonstrate the quantum computational advantage. We performed Gaussian boson sampling by sending 50 indistinguishable single-mode squeezed states into a 100-mode ultralow-loss interferometer with full connectivity and random matrix—the whole optical setup is phase-locked—and sampling the output using 100 high-efficiency single-photon detectors. The obtained samples were validated against plausible hypotheses exploiting thermal states, distinguishable photons, and uniform distribution. The photonic quantum computer, Jiuzhang, generates up to 76 output photon clicks, which yields an output state-space dimension of 1030 and a sampling rate that is faster than using the state-of-the-art simulation strategy and supercomputers by a factor of ~1014.",
+            "authors": [
+                "Han-Sen Zhong",
+                "et al."
+            ],
+            "publication": "Science",
+            "citation_count": 2066
+        }
+    },
+    "paper_27_info": {
+        "reference_27": {
+            "searched_title": "Contraction",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/4baf7a0327c35d686ad107cdaeda9484ccda825a",
+            "date": "2020",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "Classical and Nonclassical Logics",
+            "citation_count": 35
+        }
+    },
+    "paper_28_info": {
+        "reference_28": {
+            "searched_title": "Measuring the capabilities of quantum computers",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2008.11294",
+            "url": "https://www.semanticscholar.org/paper/64730e0ee4b8bffb0cfdbe38042a9ba567b5ee04",
+            "date": "2020",
+            "abs": "Quantum computers can now run interesting programs, but each processor’s capability—the set of programs that it can run successfully—is limited by hardware errors. These errors can be complicated, making it difficult to accurately predict a processor’s capability. Benchmarks can be used to measure capability directly, but current benchmarks have limited flexibility and scale poorly to many-qubit processors. We show how to construct scalable, efficiently verifiable benchmarks based on any program by using a technique that we call circuit mirroring. With it, we construct two flexible, scalable volumetric benchmarks based on randomized and periodically ordered programs. We use these benchmarks to map out the capabilities of twelve publicly available processors, and to measure the impact of program structure on each one. We find that standard error metrics are poor predictors of whether a program will run successfully on today’s hardware, and that current processors vary widely in their sensitivity to program structure. Evaluations of quantum computers across architectures need reliable benchmarks. A class of benchmarks that can directly reflect the structure of any algorithm shows that different quantum computers have considerable variations in performance.",
+            "authors": [
+                "T. Proctor",
+                "et al."
+            ],
+            "publication": "Nature Physics",
+            "citation_count": 148
+        }
+    },
+    "paper_29_info": {
+        "reference_29": {
+            "searched_title": "Classical Simulation of Quantum Supremacy Circuits",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2005.06787",
+            "url": "https://www.semanticscholar.org/paper/d62cdb0e7e01e4019b69f9c73858601eb5c04471",
+            "date": "2020",
+            "abs": "It is believed that random quantum circuits are difficult to simulate classically. These have been used to demonstrate quantum supremacy: the execution of a computational task on a quantum computer that is infeasible for any classical computer. The task underlying the assertion of quantum supremacy by Arute et al. (Nature, 574, 505--510 (2019)) was initially estimated to require Summit, the world's most powerful supercomputer today, approximately 10,000 years. The same task was performed on the Sycamore quantum processor in only 200 seconds. \nIn this work, we present a tensor network-based classical simulation algorithm. Using a Summit-comparable cluster, we estimate that our simulator can perform this task in less than 20 days. On moderately-sized instances, we reduce the runtime from years to minutes, running several times faster than Sycamore itself. These estimates are based on explicit simulations of parallel subtasks, and leave no room for hidden costs. The simulator's key ingredient is identifying and optimizing the \"stem\" of the computation: a sequence of pairwise tensor contractions that dominates the computational cost. This orders-of-magnitude reduction in classical simulation time, together with proposals for further significant improvements, indicates that achieving quantum supremacy may require a period of continuing quantum hardware developments without an unequivocal first demonstration.",
+            "authors": [
+                "Cupjin Huang",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 127
+        }
+    },
+    "paper_30_info": {
+        "reference_30": {
+            "searched_title": "Demonstration of the trapped-ion quantum CCD computer architecture",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/937229089e239bae8cec46db12bb5cd170dd7764",
+            "date": "2020",
+            "abs": "N/A",
+            "authors": [
+                "Juan Pino",
+                "et al."
+            ],
+            "publication": "Nature",
+            "citation_count": 488
+        }
+    },
+    "paper_31_info": {
+        "reference_31": {
+            "searched_title": "What Limits the Simulation of Quantum Computers?",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2002.07730",
+            "url": "https://www.semanticscholar.org/paper/21da1ece3dc07374e9e9be264c0c711bb7f3cd0a",
+            "date": "2020",
+            "abs": "It is imperative that useful quantum computers be very difficult to simulate classically; otherwise classical computers could be used for the applications envisioned for the quantum ones. Perfect quantum computers are unarguably exponentially difficult to simulate: the classical resources required grow exponentially with the number of qubits $N$ or the depth $D$ of the circuit. Real quantum computing devices, however, are characterized by an exponentially decaying fidelity $\\mathcal{F} \\sim (1-\\epsilon)^{ND}$ with an error rate $\\epsilon$ per operation as small as $\\approx 1\\%$ for current devices. In this work, we demonstrate that real quantum computers can be simulated at a tiny fraction of the cost that would be needed for a perfect quantum computer. Our algorithms compress the representations of quantum wavefunctions using matrix product states (MPS), which capture states with low to moderate entanglement very accurately. This compression introduces a finite error rate $\\epsilon$ so that the algorithms closely mimic the behavior of real quantum computing devices. The computing time of our algorithm increases only linearly with $N$ and $D$. We illustrate our algorithms with simulations of random circuits for qubits connected in both one and two dimensional lattices. We find that $\\epsilon$ can be decreased at a polynomial cost in computing power down to a minimum error $\\epsilon_\\infty$. Getting below $\\epsilon_\\infty$ requires computing resources that increase exponentially with $\\epsilon_\\infty/\\epsilon$. For a two dimensional array of $N=54$ qubits and a circuit with Control-Z gates, error rates better than state-of-the-art devices can be obtained on a laptop in a few hours. For more complex gates such as a swap gate followed by a controlled rotation, the error rate increases by a factor three for similar computing time.",
+            "authors": [
+                "Yiqing Zhou",
+                "et al."
+            ],
+            "publication": "Physical Review X",
+            "citation_count": 249
+        }
+    },
+    "paper_32_info": {
+        "reference_32": {
+            "searched_title": "Hyper-optimized tensor network contraction",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "2002.01935",
+            "url": "https://www.semanticscholar.org/paper/e3de4852491195a3dfdec1939a3cc513bfb58e3c",
+            "date": "2020",
+            "abs": "Tensor networks represent the state-of-the-art in computational methods across many disciplines, including the classical simulation of quantum many-body systems and quantum circuits. Several applications of current interest give rise to tensor networks with irregular geometries. Finding the best possible contraction path for such networks is a central problem, with an exponential effect on computation time and memory footprint. In this work, we implement new randomized protocols that find very high quality contraction paths for arbitrary and large tensor networks. We test our methods on a variety of benchmarks, including the random quantum circuit instances recently implemented on Google quantum chips. We find that the paths obtained can be very close to optimal, and often many orders or magnitude better than the most established approaches. As different underlying geometries suit different methods, we also introduce a hyper-optimization approach, where both the method applied and its algorithmic parameters are tuned during the path finding. The increase in quality of contraction schemes found has significant practical implications for the simulation of quantum many-body systems and particularly for the benchmarking of new quantum chips. Concretely, we estimate a speed-up of over 10,000× compared to the original expectation for the classical simulation of the Sycamore `supremacy' circuits.",
+            "authors": [
+                "Johnnie Gray",
+                "et al."
+            ],
+            "publication": "Quantum",
+            "citation_count": 229
+        }
+    },
+    "paper_33_info": {
+        "reference_33": {
+            "searched_title": "Quantum supremacy using a programmable superconducting processor",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1910.11333",
+            "url": "https://www.semanticscholar.org/paper/0b51d0e3f828d9277c93842cb9600a003f396717",
+            "date": "2019",
+            "abs": "The promise of quantum computers is that certain computational tasks might be executed exponentially faster on a quantum processor than on a classical processor1. A fundamental challenge is to build a high-fidelity processor capable of running quantum algorithms in an exponentially large computational space. Here we report the use of a processor with programmable superconducting qubits2–7 to create quantum states on 53 qubits, corresponding to a computational state-space of dimension 253 (about 1016). Measurements from repeated experiments sample the resulting probability distribution, which we verify using classical simulations. Our Sycamore processor takes about 200 seconds to sample one instance of a quantum circuit a million times—our benchmarks currently indicate that the equivalent task for a state-of-the-art classical supercomputer would take approximately 10,000 years. This dramatic increase in speed compared to all known classical algorithms is an experimental realization of quantum supremacy8–14 for this specific computational task, heralding a much-anticipated computing paradigm. Quantum supremacy is demonstrated using a programmable superconducting processor known as Sycamore, taking approximately 200 seconds to sample one instance of a quantum circuit a million times, which would take a state-of-the-art supercomputer around ten thousand years to compute.",
+            "authors": [
+                "F. Arute",
+                "et al."
+            ],
+            "publication": "Nature",
+            "citation_count": 6852
+        }
+    },
+    "paper_34_info": {
+        "reference_34": {
+            "searched_title": "Strictly speaking",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/9e039e32395bf3ef5487e12dc9ab5cfb335b97e7",
+            "date": "2019",
+            "abs": "A type of argument occasionally made in metaethics, epistemology and philosophy of science notes that most ordinary uses of some expression fail to satisfy the strictest interpretation of the expression, and concludes that the ordinary assertions are false. This requires there to be a presumption in favour of a strict interpretation of expressions that admit of interpretations at different levels of strictness. We argue that this presumption is unmotivated, and thus the arguments fail.",
+            "authors": [
+                "Renée Jorgensen Bolinger",
+                "et al."
+            ],
+            "publication": "Analysis",
+            "citation_count": 150
+        }
+    },
+    "paper_35_info": {
+        "reference_35": {
+            "searched_title": "Characterizing large-scale quantum computers via cycle benchmarking",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1902.08543",
+            "url": "https://www.semanticscholar.org/paper/dcf04088b18c4e9ae2717302df26b01e8f71bc7c",
+            "date": "2019",
+            "abs": "Quantum computers promise to solve certain problems more efficiently than their digital counterparts. A major challenge towards practically useful quantum computing is characterizing and reducing the various errors that accumulate during an algorithm running on large-scale processors. Current characterization techniques are unable to adequately account for the exponentially large set of potential errors, including cross-talk and other correlated noise sources. Here we develop cycle benchmarking, a rigorous and practically scalable protocol for characterizing local and global errors across multi-qubit quantum processors. We experimentally demonstrate its practicality by quantifying such errors in non-entangling and entangling operations on an ion-trap quantum computer with up to 10 qubits, and total process fidelities for multi-qubit entangling gates ranging from 99.6(1)%\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$99.6(1)\\%$$\\end{document} for 2 qubits to 86(2)%\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$86(2)\\%$$\\end{document} for 10 qubits. Furthermore, cycle benchmarking data validates that the error rate per single-qubit gate and per two-qubit coupling does not increase with increasing system size. Checking the quality of operations of quantum computers in a reliable and scalable way is still an open challenge. Here, the authors show how to characterise multi-qubit operations in a way that scales favourably with the system’s size, and demonstrate it on a 10-qubit ion-trap device.",
+            "authors": [
+                "A. Erhard",
+                "et al."
+            ],
+            "publication": "Nature Communications",
+            "citation_count": 295
+        }
+    },
+    "paper_36_info": {
+        "reference_36": {
+            "searched_title": "Statistical analysis of randomized benchmarking",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1901.00535",
+            "url": "https://www.semanticscholar.org/paper/00704304bd9237901820fc583958fa3a4afd87a0",
+            "date": "2019",
+            "abs": "Randomized benchmarking and variants thereof, which we collectively call RB+, are widely used to characterize the performance of quantum computers because they are simple, scalable, and robust to state-preparation and measurement errors. However, experimental implementations of RB+ allocate resources suboptimally and make ad-hoc assumptions that undermine the reliability of the data analysis. In this paper, we propose a simple modification of RB+ which rigorously eliminates a nuisance parameter and simplifies the experimental design. We then show that, with this modification and specific experimental choices, RB+ efficiently provides estimates of error rates with multiplicative precision. Finally, we provide a simplified rigorous method for obtaining credible regions for parameters of interest and a heuristic approximation for these intervals that performs well in currently relevant regimes.",
+            "authors": [
+                "R. Harper",
+                "et al."
+            ],
+            "publication": "Physical Review A",
+            "citation_count": 39
+        }
+    },
+    "paper_37_info": {
+        "reference_37": {
+            "searched_title": "Randomized Benchmarking of Clifford Operators",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1811.10040",
+            "url": "https://www.semanticscholar.org/paper/8d45726b77d4cef787a13ed4dd2891d43373e169",
+            "date": "2018",
+            "abs": "Randomized benchmarking is an experimental procedure intended to demonstrate control of quantum systems. The procedure extracts the average error introduced by a set of control operations. When the target set of operations is intended to be the set of Clifford operators, the randomized benchmarking algorithm is particularly easy to perform and its results have an important interpretation with respect to quantum computation. The aim of the benchmark is to provide a simple, useful parameter describing the quality of quantum control with an experiment that can be performed in a standard way on any prospective quantum computer. This parameter can be used to fairly compare different experiments or to mark improvement in a single experiment. \nIn this thesis I discuss first the original randomized-benchmarking procedure and the importance of the Clifford operators for its implementation. I develop the statistical analysis of the results and the physical assumptions that are required for the simplest analysis to apply. The original procedure does not extend in an obvious way to benchmarking of more than one qubit, so I introduce a standardized procedure for randomized benchmarking that applies to any number of qubits. This new procedure also enables the benchmarking of an individual control operation. I describe two randomized-benchmarking experiments I helped to design: one involved a single qubit and utilized a variation of the original procedure and the second involved two qubits and demonstrated the new procedure. I conclude with several potential extensions to the original and new procedures that give them reduced experimental overhead, the ability to describe encoded operations, and fairer comparisons between experiments.",
+            "authors": [
+                "A. M. Meier"
+            ],
+            "publication": "N/A",
+            "citation_count": 17
+        }
+    },
+    "paper_38_info": {
+        "reference_38": {
+            "searched_title": "A flexible high-performance simulator for verifying and benchmarking quantum circuits implemented on real hardware",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1811.09599",
+            "url": "https://www.semanticscholar.org/paper/7b781106b27085e9be66df07392e1f488d3d9dc7",
+            "date": "2018",
+            "abs": "Here we present qFlex, a flexible tensor network-based quantum circuit simulator. qFlex can compute both the exact amplitudes, essential for the verification of the quantum hardware, as well as low-fidelity amplitudes, to mimic sampling from Noisy Intermediate-Scale Quantum (NISQ) devices. In this work, we focus on random quantum circuits (RQCs) in the range of sizes expected for supremacy experiments. Fidelity f simulations are performed at a cost that is 1/f lower than perfect fidelity ones. We also present a technique to eliminate the overhead introduced by rejection sampling in most tensor network approaches. We benchmark the simulation of square lattices and Google’s Bristlecone QPU. Our analysis is supported by extensive simulations on NASA HPC clusters Pleiades and Electra. For our most computationally demanding simulation, the two clusters combined reached a peak of 20 Peta Floating Point Operations per Second (PFLOPS) (single precision), i.e., 64% of their maximum achievable performance, which represents the largest numerical computation in terms of sustained FLOPs and the number of nodes utilized ever run on NASA HPC clusters. Finally, we introduce a novel multithreaded, cache-efficient tensor index permutation algorithm of general application.",
+            "authors": [
+                "B. Villalonga",
+                "et al."
+            ],
+            "publication": "npj Quantum Information",
+            "citation_count": 144
+        }
+    },
+    "paper_39_info": {
+        "reference_39": {
+            "searched_title": "On the complexity and verification of quantum random circuit sampling",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/fea8f055e6cd26f690e0e96cd099f7e3f3fb8ca1",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "Adam Bouland",
+                "et al."
+            ],
+            "publication": "Nature Physics",
+            "citation_count": 306
+        }
+    },
+    "paper_40_info": {
+        "reference_40": {
+            "searched_title": "Quantum Supremacy Is Both Closer and Farther than It Appears",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1807.10749",
+            "url": "https://www.semanticscholar.org/paper/18c4af0d694627239e6e36ebb09b9ac04be60759",
+            "date": "2018",
+            "abs": "As quantum computers improve in the number of qubits and fidelity, the question of when they surpass state-of-the-art classical computation for a well-defined computational task is attracting much attention. The leading candidate task for this milestone entails sampling from the output distribution defined by a random quantum circuit. We develop a massively-parallel simulation tool Rollright that does not require inter-process communication (IPC) or proprietary hardware. We also develop two ways to trade circuit fidelity for computational speedups, so as to match the fidelity of a given quantum computer --- a task previously thought impossible. We report massive speedups for the sampling task over prior software from Microsoft, IBM, Alibaba and Google, as well as supercomputer and GPU-based simulations. By using publicly available Google Cloud Computing, we price such simulations and enable comparisons by total cost across hardware platforms. We simulate approximate sampling from the output of a circuit with 7x8 qubits and depth 1+40+1 by producing one million bitstring probabilities with fidelity 0.5%, at an estimated cost of $35184. The simulation costs scale linearly with fidelity, and using this scaling we estimate that extending circuit depth to 1+48+1 increases costs to one million dollars. Scaling the simulation to 10M bitstring probabilities needed for sampling 1M bitstrings helps comparing simulation to quantum computers. We describe refinements in benchmarks that slow down leading simulators, halving the circuit depth that can be simulated within the same time.",
+            "authors": [
+                "I. Markov",
+                "et al."
+            ],
+            "publication": "arXiv.org",
+            "citation_count": 115
+        }
+    },
+    "paper_41_info": {
+        "reference_41": {
+            "searched_title": "Classical Simulation of Intermediate-Size Quantum Circuits",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1805.01450",
+            "url": "https://www.semanticscholar.org/paper/f4e5f34b875cb1dfa2baeb9ab4a39050cdb7236a",
+            "date": "2018",
+            "abs": "We introduce a distributed classical simulation algorithm for general quantum circuits, and present numerical results for calculating the output probabilities of universal random circuits. We find that we can simulate more qubits to greater depth than previously reported using the cluster supported by the Data Infrastructure and Search Technology Division of the Alibaba Group. For example, computing a single amplitude of an $8\\times 8$ qubit circuit with depth $40$ was previously beyond the reach of supercomputers. Our algorithm can compute this within $2$ minutes using a small portion ($\\approx$ 14% of the nodes) of the cluster. \nFurthermore, by successfully simulating quantum supremacy circuits of size $9\\times 9\\times 40$, $10\\times 10\\times 35 $, $11\\times 11\\times 31$, and $12\\times 12\\times 27 $, we give evidence that noisy random circuits with realistic physical parameters may be simulated classically. This suggests that either harder circuits or error-correction may be vital for achieving quantum supremacy from random circuit sampling.",
+            "authors": [
+                "Jianxin Chen",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 129
+        }
+    },
+    "paper_42_info": {
+        "reference_42": {
+            "searched_title": "Fast counting with tensor networks",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1805.00475",
+            "url": "https://www.semanticscholar.org/paper/92077ba7f62bee0ee4dd65f6289b2ea32b52005b",
+            "date": "2018",
+            "abs": "We introduce tensor network contraction algorithms for counting\nsatisfying assignments of constraint satisfaction problems (#CSPs). We\nrepresent each arbitrary #CSP formula as a tensor network, whose full\ncontraction yields the number of satisfying assignments of that formula,\nand use graph theoretical methods to determine favorable orders of\ncontraction. We employ our heuristics for the solution of #P-hard\ncounting boolean satisfiability (#SAT) problems, namely monotone\n#1-in-3SAT and\n#Cubic-Vertex-Cover, and find that they\noutperform state-of-the-art solvers by a significant margin.",
+            "authors": [
+                "S. Kourtis",
+                "et al."
+            ],
+            "publication": "SciPost Physics",
+            "citation_count": 45
+        }
+    },
+    "paper_43_info": {
+        "reference_43": {
+            "searched_title": "To this point",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/954f64334f274ee7914a095a8118dabbc2ad2b98",
+            "date": "2018",
+            "abs": "N/A",
+            "authors": [
+                "J. Luscombe"
+            ],
+            "publication": "N/A",
+            "citation_count": 137
+        }
+    },
+    "paper_44_info": {
+        "reference_44": {
+            "searched_title": "Positive-instance driven dynamic programming for treewidth",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1704.05286",
+            "url": "https://www.semanticscholar.org/paper/f905b4bb4e89033bab341a47ffaaadb8932e644b",
+            "date": "2017",
+            "abs": "Consider a dynamic programming scheme for a decision problem in which all subproblems involved are also decision problems. An implementation of such a scheme is positive-instance driven (PID), if it generates positive subproblem instances, but not negative ones, building each on smaller positive instances. We take the dynamic programming scheme due to Bouchitté and Todinca for treewidth computation, which is based on minimal separators and potential maximal cliques, and design a variant (for the decision version of the problem) with a natural PID implementation. The resulting algorithm performs extremely well: it solves a number of standard benchmark instances for which the optimal solutions have not previously been known. Incorporating a new heuristic algorithm for detecting safe separators, it also solves all of the 100 public instances posed by the exact treewidth track in PACE 2017, a competition on algorithm implementation. We describe the algorithm, prove its correctness, and give a running time bound in terms of the number of positive subproblem instances. We perform an experimental analysis which supports the practical importance of such a bound.",
+            "authors": [
+                "H. Tamaki"
+            ],
+            "publication": "Journal of combinatorial optimization",
+            "citation_count": 83
+        }
+    },
+    "paper_45_info": {
+        "reference_45": {
+            "searched_title": "Error Mitigation for Short-Depth Quantum Circuits.",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1612.02058",
+            "url": "https://www.semanticscholar.org/paper/04976cb176d0c128e244c04215be13d27df2b5b1",
+            "date": "2016",
+            "abs": "Two schemes are presented that mitigate the effect of errors and decoherence in short-depth quantum circuits. The size of the circuits for which these techniques can be applied is limited by the rate at which the errors in the computation are introduced. Near-term applications of early quantum devices, such as quantum simulations, rely on accurate estimates of expectation values to become relevant. Decoherence and gate errors lead to wrong estimates of the expectation values of observables used to evaluate the noisy circuit. The two schemes we discuss are deliberately simple and do not require additional qubit resources, so to be as practically relevant in current experiments as possible. The first method, extrapolation to the zero noise limit, subsequently cancels powers of the noise perturbations by an application of Richardson's deferred approach to the limit. The second method cancels errors by resampling randomized circuits according to a quasiprobability distribution.",
+            "authors": [
+                "K. Temme",
+                "et al."
+            ],
+            "publication": "Physical Review Letters",
+            "citation_count": 1049
+        }
+    },
+    "paper_46_info": {
+        "reference_46": {
+            "searched_title": "Quantum Entanglement Growth Under Random Unitary Dynamics",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1608.06950",
+            "url": "https://www.semanticscholar.org/paper/835875b880f3770d3369d0dc42c08af0de5af965",
+            "date": "2016",
+            "abs": "Characterizing how entanglement grows with time in a many-body system, for example after a quantum quench, is a key problem in non-equilibrium quantum physics. We study this problem for the case of random unitary dynamics, representing either Hamiltonian evolution with time--dependent noise or evolution by a random quantum circuit. Our results reveal a universal structure behind noisy entanglement growth, and also provide simple new heuristics for the `entanglement tsunami' in Hamiltonian systems without noise. In 1D, we show that noise causes the entanglement entropy across a cut to grow according to the celebrated Kardar--Parisi--Zhang (KPZ) equation. The mean entanglement grows linearly in time, while fluctuations grow like $(\\text{time})^{1/3}$ and are spatially correlated over a distance $\\propto (\\text{time})^{2/3}$. We derive KPZ universal behaviour in three complementary ways, by mapping random entanglement growth to: (i) a stochastic model of a growing surface; (ii) a `minimal cut' picture, reminiscent of the Ryu--Takayanagi formula in holography; and (iii) a hydrodynamic problem involving the dynamical spreading of operators. We demonstrate KPZ universality in 1D numerically using simulations of random unitary circuits. Importantly, the leading order time dependence of the entropy is deterministic even in the presence of noise, allowing us to propose a simple `minimal cut' picture for the entanglement growth of generic Hamiltonians, even without noise, in arbitrary dimensionality. We clarify the meaning of the `velocity' of entanglement growth in the 1D `entanglement tsunami'. We show that in higher dimensions, noisy entanglement evolution maps to the well-studied problem of pinning of a membrane or domain wall by disorder.",
+            "authors": [
+                "A. Nahum",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 639
+        }
+    },
+    "paper_47_info": {
+        "reference_47": {
+            "searched_title": "Characterizing quantum supremacy in near-term devices",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1608.00263",
+            "url": "https://www.semanticscholar.org/paper/a68a7a57efa3de462b6f4884573f69dd4cf0f815",
+            "date": "2016",
+            "abs": "A critical question for quantum computing in the near future is whether quantum devices without error correction can perform a well-defined computational task beyond the capabilities of supercomputers. Such a demonstration of what is referred to as quantum supremacy requires a reliable evaluation of the resources required to solve tasks with classical approaches. Here, we propose the task of sampling from the output distribution of random quantum circuits as a demonstration of quantum supremacy. We extend previous results in computational complexity to argue that this sampling task must take exponential time in a classical computer. We introduce cross-entropy benchmarking to obtain the experimental fidelity of complex multiqubit dynamics. This can be estimated and extrapolated to give a success metric for a quantum supremacy demonstration. We study the computational cost of relevant classical algorithms and conclude that quantum supremacy can be achieved with circuits in a two-dimensional lattice of 7 × 7 qubits and around 40 clock cycles. This requires an error rate of around 0.5% for two-qubit gates (0.05% for one-qubit gates), and it would demonstrate the basic building blocks for a fault-tolerant quantum computer. As a benchmark for the development of a future quantum computer, sampling from random quantum circuits is suggested as a task that will lead to quantum supremacy—a calculation that cannot be carried out classically.",
+            "authors": [
+                "S. Boixo",
+                "et al."
+            ],
+            "publication": "Nature Physics",
+            "citation_count": 1213
+        }
+    },
+    "paper_48_info": {
+        "reference_48": {
+            "searched_title": "Noise tailoring for scalable quantum computation via randomized compiling",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1512.01098",
+            "url": "https://www.semanticscholar.org/paper/375279c93ed2e4656614e81b1517cb1b4f27c5d3",
+            "date": "2015",
+            "abs": "Quantum computers are poised to radically outperform their classical counterparts by manipulating coherent quantum systems. A realistic quantum computer will experience errors due to the environment and imperfect control. When these errors are even partially coherent, they present a major obstacle to performing robust computations. Here, we propose a method for introducing independent random single-qubit gates into the logical circuit in such a way that the effective logical circuit remains unchanged. We prove that this randomization tailors the noise into stochastic Pauli errors, which can dramatically reduce error rates while introducing little or no experimental overhead. Moreover, we prove that our technique is robust to the inevitable variation in errors over the randomizing gates and numerically illustrate the dramatic reductions in worst-case error that are achievable. Given such tailored noise, gates with significantly lower fidelity---comparable to fidelities realized in current experiments---are sufficient to achieve fault-tolerant quantum computation. Furthermore, the worst-case error rate of the tailored noise can be directly and efficiently measured through randomized benchmarking protocols, enabling a rigorous certification of the performance of a quantum computer.",
+            "authors": [
+                "Joel J. Wallman",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 459
+        }
+    },
+    "paper_49_info": {
+        "reference_49": {
+            "searched_title": "k-way Hypergraph Partitioning via n-Level Recursive Bisection",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1511.03137",
+            "url": "https://www.semanticscholar.org/paper/3e524d8014f7b7aa608d9bdb0a77aebd1445758f",
+            "date": "2015",
+            "abs": "We develop a multilevel algorithm for hypergraph partitioning that contracts the vertices one at a time. Using several caching and lazy-evaluation techniques during coarsening and refinement, we reduce the running time by up to two-orders of magnitude compared to a naive $n$-level algorithm that would be adequate for ordinary graph partitioning. The overall performance is even better than the widely used hMetis hypergraph partitioner that uses a classical multilevel algorithm with few levels. Aided by a portfolio-based approach to initial partitioning and adaptive budgeting of imbalance within recursive bipartitioning, we achieve very high quality. We assembled a large benchmark set with 310 hypergraphs stemming from application areas such VLSI, SAT solving, social networks, and scientific computing. We achieve significantly smaller cuts than hMetis and PaToH, while being faster than hMetis. Considerably larger improvements are observed for some instance classes like social networks, for bipartitioning, and for partitions with an allowed imbalance of 10%. The algorithm presented in this work forms the basis of our hypergraph partitioning framework KaHyPar (Karlsruhe Hypergraph Partitioning).",
+            "authors": [
+                "Sebastian Schlag",
+                "et al."
+            ],
+            "publication": "Workshop on Algorithm Engineering and Experimentation",
+            "citation_count": 105
+        }
+    },
+    "paper_50_info": {
+        "reference_50": {
+            "searched_title": "Proof of the 1-factorization and Hamilton Decomposition Conjectures",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1401.4183",
+            "url": "https://www.semanticscholar.org/paper/e5d9c7722d19b7d8a31244d2ef322d0d93b71797",
+            "date": "2014",
+            "abs": "We prove the following results (via a unified approach) for all sufficiently large n: \n \n(i) \n \n[1 -factorization conjecture] Suppose that n is even and D ≥ 2⌈n/4⌉ − 1. Then every D-regular graph G on n vertices has a decomposition into perfect matchings. Equivalently, χ′(G) = D. \n \n \n \n \n(ii) \n \n[Hamilton decomposition conjecture] Suppose that D ≥ ⌊n/2⌋. Then every D-regular graph G on n vertices has a decomposition into Hamilton cycles and at most one perfect matching. \n \n \n \n \n(iii) \n \n[Optimal packings of Hamilton cycles] Suppose that G is a graph on n vertices with minimum degree δ ≥ n/2. Then G contains at least (n − 2)/8 edge-disjoint Hamilton cycles. According to Dirac, (i) was first raised in the 1950’s. (ii) and (iii) answer questions of Nash-Williams from 1970. All of the above bounds are best possible.",
+            "authors": [
+                "Béla Csaba",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 108
+        }
+    },
+    "paper_51_info": {
+        "reference_51": {
+            "searched_title": "Characterizing Quantum Gates via Randomized Benchmarking",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1109.6887",
+            "url": "https://www.semanticscholar.org/paper/7003a5481db98d3b6e58c7b36ee289de3646dab7",
+            "date": "2011",
+            "abs": "We describe and expand upon the scalable randomized benchmarking protocol proposed in Phys. Rev. Lett. 106, 180504 (2011) which provides a method for benchmarking quantum gates and estimating the gate dependence of the noise. The protocol allows the noise to have weak time and gate dependence, and we provide a sufficient condition for the applicability of the protocol in terms of the average variation of the noise. We discuss how state-preparation and measurement errors are taken into account and provide a complete proof of the scalability of the protocol. We establish a connection in special cases between the error rate provided by this protocol and the error strength measured using the diamond norm distance.",
+            "authors": [
+                "E. Magesan",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 405
+        }
+    },
+    "paper_52_info": {
+        "reference_52": {
+            "searched_title": "The computational complexity of linear optics",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "1011.3245",
+            "url": "https://www.semanticscholar.org/paper/a3ff293375cc6d82459fee7d8cebe72e00bc9086",
+            "date": "2010",
+            "abs": "We give new evidence that quantum computers -- moreover, rudimentary quantum computers built entirely out of linear-optical elements -- cannot be efficiently simulated by classical computers. In particular, we define a model of computation in which identical photons are generated, sent through a linear-optical network, then nonadaptively measured to count the number of photons in each mode. This model is not known or believed to be universal for quantum computation, and indeed, we discuss the prospects for realizing the model using current technology. On the other hand, we prove that the model is able to solve sampling problems and search problems that are classically intractable under plausible assumptions. Our first result says that, if there exists a polynomial-time classical algorithm that samples from the same probability distribution as a linear-optical network, then P#P=BPPNP, and hence the polynomial hierarchy collapses to the third level. Unfortunately, this result assumes an extremely accurate simulation. Our main result suggests that even an approximate or noisy classical simulation would already imply a collapse of the polynomial hierarchy. For this, we need two unproven conjectures: the Permanent-of-Gaussians Conjecture, which says that it is #P-hard to approximate the permanent of a matrix A of independent N(0,1) Gaussian entries, with high probability over A; and the Permanent Anti-Concentration Conjecture, which says that |Per(A)|>=√(n!)poly(n) with high probability over A. We present evidence for these conjectures, both of which seem interesting even apart from our application. This paper does not assume knowledge of quantum optics. Indeed, part of its goal is to develop the beautiful theory of noninteracting bosons underlying our model, and its connection to the permanent function, in a self-contained way accessible to theoretical computer scientists.",
+            "authors": [
+                "S. Aaronson",
+                "et al."
+            ],
+            "publication": "Theory of Computing",
+            "citation_count": 1452
+        }
+    },
+    "paper_53_info": {
+        "reference_53": {
+            "searched_title": "Manipulation and detection of a trapped Yb+ hyperfine qubit",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "0708.0657",
+            "url": "https://www.semanticscholar.org/paper/1f36320c6b24d3db0a865f2cdb055e39d96f1d09",
+            "date": "2007",
+            "abs": "We demonstrate the use of trapped ytterbium ions as quantum bits for quantum information processing. We implement fast, efficient state preparation and state detection of the first-order magnetic field-insensitive hyperfine levels of $^{171}\\mathrm{Yb}^{+}$, with a measured coherence time of $2.5\\phantom{\\rule{0.3em}{0ex}}\\mathrm{s}$. The high efficiency and high fidelity of these operations is accomplished through the stabilization and frequency modulation of relevant laser sources.",
+            "authors": [
+                "S. Olmschenk",
+                "et al."
+            ],
+            "publication": "N/A",
+            "citation_count": 406
+        }
+    },
+    "paper_54_info": {
+        "reference_54": {
+            "searched_title": "Simulating Quantum Computation by Contracting Tensor Networks",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "quant-ph/0511069",
+            "url": "https://www.semanticscholar.org/paper/3c0e67f3157d9ef4f702f67a77a4b9cb34507486",
+            "date": "2005",
+            "abs": "The treewidth of a graph is a useful combinatorial measure of how close the graph is to a tree. We prove that a quantum circuit with $T$ gates whose underlying graph has a treewidth $d$ can be simulated deterministically in $T^{O(1)}\\exp[O(d)]$ time, which, in particular, is polynomial in $T$ if $d=O(\\log T)$. Among many implications, we show efficient simulations for log-depth circuits whose gates apply to nearby qubits only, a natural constraint satisfied by most physical implementations. We also show that one-way quantum computation of Raussendorf and Briegel (Phys. Rev. Lett., 86 (2001), pp. 5188-5191), a universal quantum computation scheme with promising physical implementations, can be efficiently simulated by a randomized algorithm if its quantum resource is derived from a small-treewidth graph with a constant maximum degree. (The requirement on the maximum degree was removed in [I. L. Markov and Y. Shi, preprint:quant-ph/0511069].)",
+            "authors": [
+                "I. Markov",
+                "et al."
+            ],
+            "publication": "SIAM journal on computing (Print)",
+            "citation_count": 442
+        }
+    },
+    "paper_55_info": {
+        "reference_55": {
+            "searched_title": "A simple formula for the average gate fidelity of a quantum dynamical operation [rapid communication]",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "quant-ph/0205035",
+            "url": "https://www.semanticscholar.org/paper/7620d1f2872da4c2b09aa0090c3289291edebed2",
+            "date": "2002",
+            "abs": "N/A",
+            "authors": [
+                "M. Nielsen"
+            ],
+            "publication": "N/A",
+            "citation_count": 504
+        }
+    },
+    "paper_56_info": {
+        "reference_56": {
+            "searched_title": "1-Factorizations of random regular graphs",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/523056523030ba94b2abf0b903f81716d47e32a6",
+            "date": "1997",
+            "abs": "N/A",
+            "authors": [
+                "Michael Molloy",
+                "et al."
+            ],
+            "publication": "Random Struct. Algorithms",
+            "citation_count": 51
+        }
+    },
+    "paper_57_info": {
+        "reference_57": {
+            "searched_title": "Random Regular Graphs: Asymptotic Distributions and Contiguity",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/c569b67930b7e4bab7f3ef42d000fbffd0f99bb1",
+            "date": "1995",
+            "abs": "N/A",
+            "authors": [
+                "S. Janson"
+            ],
+            "publication": "Combinatorics, probability & computing",
+            "citation_count": 162
+        }
+    },
+    "paper_58_info": {
+        "reference_58": {
+            "searched_title": "The Isoperimetric Number of Random Regular Graphs",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/98e3bccdac87f4b01464d6d1e9cc55a472b23af5",
+            "date": "1988",
+            "abs": "N/A",
+            "authors": [
+                "B. Bollobás"
+            ],
+            "publication": "European journal of combinatorics (Print)",
+            "citation_count": 225
+        }
+    },
+    "paper_59_info": {
+        "reference_59": {
+            "searched_title": "Validating quantum-supremacy experiments with exact and fast tensor network contraction",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/808ccb3cbd293ac61bd6f09d475692255b72c9e4",
+            "date": "2022",
+            "abs": "N/A",
+            "authors": [
+                "Yong Liu",
+                "et al."
+            ],
+            "publication": "arXiv.org",
+            "citation_count": 18
+        }
+    },
+    "paper_60_info": {
+        "reference_60": {
+            "searched_title": "Engineering a direct k-way Hypergraph Partitioning Algorithm",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/9f35c684c627c21fe8a13d4e50aec62d9621c0ef",
+            "date": "2017",
+            "abs": "N/A",
+            "authors": [
+                "Yaroslav Akhremtsev",
+                "et al."
+            ],
+            "publication": "Workshop on Algorithm Engineering and Experimentation",
+            "citation_count": 82
+        }
+    },
+    "paper_61_info": {
+        "reference_61": {
+            "searched_title": "Quantum Low-Density Parity-Check Codes",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/7b0a5099f1fcaecacedd9a26fa816e8f6fe2b640",
+            "date": "2012",
+            "abs": "N/A",
+            "authors": [
+                "I. Djordjevic"
+            ],
+            "publication": "N/A",
+            "citation_count": 268
+        }
+    },
+    "paper_62_info": {
+        "reference_62": {
+            "searched_title": "An Introduction to the Bootstrap",
+            "scholar_status": "Success (Similarity: 100.00%)",
+            "arxiv_id": "N/A",
+            "url": "https://www.semanticscholar.org/paper/75f8a4d7ed6a0f32fa098cac967de247938d9ce5",
+            "date": "2007",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 24859
+        }
+    },
+    "paper_63_info": {
+        "reference_63": {
+            "searched_title": "Limitations of linear cross-entropy",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_64_info": {
+        "reference_64": {
+            "searched_title": "Phase transition in random circuit",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_65_info": {
+        "reference_65": {
+            "searched_title": "Quantinuum hardware specificiations",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_66_info": {
+        "reference_66": {
+            "searched_title": "Frontier: Exploring ex-ascale",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_67_info": {
+        "reference_67": {
+            "searched_title": "note that actually computing F XEB classically from the quantum data is expected to be in-feasible classically in the regime that RCS is classically hard, so the specific notion of verifiability",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_68_info": {
+        "reference_68": {
+            "searched_title": "The denominator inside the log typically generates a weak (additive logarithmic) correction in N and d , and is not particularly important for any of the conclusions",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_69_info": {
+        "reference_69": {
+            "searched_title": "cuquantum sdk",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_70_info": {
+        "reference_70": {
+            "searched_title": "Mathematics of statistics, pt. 2 (Van Nostrand, Princeton, NJ, 1951)",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    },
+    "paper_71_info": {
+        "reference_71": {
+            "searched_title": "with contributions from the Global Technology",
+            "scholar_status": "Failed (Paper with id None not found)",
+            "arxiv_id": "N/A",
+            "url": "N/A",
+            "date": "N/A",
+            "abs": "N/A",
+            "authors": [],
+            "publication": "N/A",
+            "citation_count": 0
+        }
+    }
+}

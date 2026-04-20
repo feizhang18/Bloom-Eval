@@ -1,0 +1,29 @@
+# ROLE
+You are an expert in Natural Language Understanding and semantic analysis, specializing in academic and research-oriented texts.
+# TASK
+Your goal is to meticulously identify all pairs of **semantically equivalent "critical statements"** from two provided lists: `expert_critical_statements` and `llm_critical_statements`.
+# DEFINITION OF "SEMANTICALLY EQUIVALENT CRITICAL STATEMENT"
+Two critical statements are semantically equivalent if they express the **same core evaluation, analysis, limitation, research gap, or future direction**, even if the wording is different.
+- **Good Match (Equivalent):**
+  - Statement 1: "A key drawback of this model is its significant computational overhead."
+  - Statement 2: "The model is computationally expensive, which limits its practical use."
+- **Bad Match (Not Equivalent):**
+  - Statement 1: "The model struggles with small objects."
+  - Statement 2: "The model requires extensive training data."
+# RULES
+1.  **Strictness is Paramount:** Only match statements if you are highly confident they convey the identical critique or suggestion.
+2.  **One-to-One Matching:** Each statement from one list can be matched to at most one statement from the other list.
+3.  **Focus on Meaning, Not Phrasing:** Ignore differences in wording if the core critical point is the same.
+---
+### INPUT LISTS
+#### expert_critical_statements
+{expert_statements_str}
+#### llm_critical_statements
+{llm_statements_str}
+---
+# OUTPUT RULES
+- Your output **MUST** be a single, valid JSON object.
+- The JSON object must contain a single key: `"matched_critical_pairs"`.
+- The value must be a **LIST** of objects, each with two keys: `"expert_critical_statement"` and `"llm_critical_statement"`.
+- The values must be the full, original strings of the statements you have matched.
+- If no matches are found, return an empty list: `{{"matched_critical_pairs": []}}`.

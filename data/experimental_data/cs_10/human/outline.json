@@ -1,0 +1,122 @@
+[
+    [
+        0,
+        "Multimodal Learning With Transformers: A Survey"
+    ],
+    [
+        1,
+        "A. Fusion"
+    ],
+    [
+        1,
+        "A. Multimodal Learning (MML)"
+    ],
+    [
+        1,
+        "A. Transformers for Multimodal Pretraining"
+    ],
+    [
+        2,
+        "1) Task-Agnostic Multimodal Pretraining"
+    ],
+    [
+        2,
+        "2) Task-Specific Multimodal Pretraining"
+    ],
+    [
+        1,
+        "A. Vanilla Transformer"
+    ],
+    [
+        2,
+        "1) Input Tokenization"
+    ],
+    [
+        2,
+        "2) Self-Attention and Multi-Head Self-Attention"
+    ],
+    [
+        2,
+        "3) Feed-Forward Network"
+    ],
+    [
+        1,
+        "B. Alignment"
+    ],
+    [
+        1,
+        "B. Transformers for Specific Multimodal Tasks"
+    ],
+    [
+        1,
+        "B. Transformers: A Brief History and Milestones"
+    ],
+    [
+        1,
+        "B. Vision Transformer"
+    ],
+    [
+        1,
+        "C. Multimodal Big Data"
+    ],
+    [
+        1,
+        "C. Multimodal Transformers"
+    ],
+    [
+        2,
+        "1) Multimodal Input"
+    ],
+    [
+        2,
+        "2) Self-Attention Variants in Multimodal Context"
+    ],
+    [
+        2,
+        "3) Network Architectures"
+    ],
+    [
+        1,
+        "C. Transferability"
+    ],
+    [
+        1,
+        "D. Efficiency"
+    ],
+    [
+        1,
+        "E. Robustness"
+    ],
+    [
+        1,
+        "F. Universalness"
+    ],
+    [
+        1,
+        "G. Interpretability"
+    ],
+    [
+        1,
+        "I. INTRODUCTION"
+    ],
+    [
+        1,
+        "III. TRANSFORMERS"
+    ],
+    [
+        1,
+        "IV. APPLICATION SCENARIOS"
+    ],
+    [
+        1,
+        "V. CHALLENGES AND DESIGNS"
+    ],
+    [
+        1,
+        "VI. DISCUSSION AND OUTLOOK"
+    ],
+    [
+        1,
+        "VII. CONCLUSION"
+    ]
+]

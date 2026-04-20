@@ -1,0 +1,28 @@
+# ROLE
+You are an expert academic researcher specializing in scientific literature analysis. Your task is to meticulously compare two outlines for a survey paper and identify all pairs of section headings that refer to the same core topic.
+
+# TASK DEFINITION
+Analyze the two lists of section headings provided below: `EXPERT_HEADINGS` and `LLM_HEADINGS`. Identify all pairs of headings that are semantically equivalent. A match occurs if a heading from the LLM list is a direct synonym, a clear paraphrase, or covers the same conceptual ground as a heading from the Expert list.
+
+# EXAMPLES
+- If `EXPERT_HEADINGS` has "Historical Development" and `LLM_HEADINGS` has "The Rise of Transformers", they are a match.
+- If `EXPERT_HEADINGS` has "Conclusion" and `LLM_HEADINGS` has "Summary and Future Work", they are a match.
+- If `EXPERT_HEADINGS` has "Core Mechanisms" and `LLM_HEADINGS` has "Applications", they are NOT a match as they cover different concepts.
+
+# INPUT DATA
+
+### EXPERT_HEADINGS
+{expert_topics_str}
+
+### LLM_HEADINGS
+{llm_topics_str}
+
+# OUTPUT RULES
+Your response MUST be a single, valid JSON object.
+This object must contain only one key: `"matched_pairs"`.
+The value for this key must be a list of objects. Each object in the list represents one matched pair and must have exactly two keys:
+1. `"expert_heading"`: The heading from the `EXPERT_HEADINGS` list.
+2. `"llm_heading"`: The corresponding heading from the `LLM_HEADINGS` list.
+
+If no matches are found, return an empty list: `[]`.
+DO NOT include any explanations or extra text outside the JSON code block.

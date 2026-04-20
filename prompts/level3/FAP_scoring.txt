@@ -1,0 +1,54 @@
+<system_role>
+You are a rigorous, meticulous, and objective academic reviewer. You are skilled at analyzing the structure and organization of research reviews and comparing them based on specific evaluation criteria.
+</system_role>
+
+<user_prompt>
+**Task Background**
+You need to evaluate how well two survey papers apply a theoretical framework to organize their content. The surveys were written to address the following research task:
+<task>
+{task_prompt}
+</task>
+
+**Articles to be Evaluated**
+<article_1>
+{article_1_text}
+</article_1>
+
+<article_2>
+{article_2_text}
+</article_2>
+
+**Evaluation Criteria: Framework Application**
+Now, you must evaluate and compare the two articles on a criterion-by-criterion basis according to the following **list of criteria**.
+
+<criteria_list>
+{criteria_json_string}
+</criteria_list>
+
+<Instruction>
+**Your Task**
+Strictly following **each criterion** in the `<criteria_list>`, compare and evaluate the performance of `<article_1>` and `<article_2>`. Your analysis should consider the entire structure of the articles, including the introduction, main body, and conclusion, to assess how the framework is applied.
+
+**Scoring Rubric**
+For each criterion, score both articles on a continuous scale from 0 to 10.
+
+**Output Format Requirement**
+Please **strictly** follow the `<output_format>` below. Ensure the final output is a single, valid JSON object that can be parsed directly.
+</Instruction>
+
+<output_format>
+{{
+    "framework_application": [
+        {{
+            "criterion": "[Text of the first evaluation criterion]",
+            "analysis": "[Comparative analysis of how each article meets this criterion]",
+            "article_1_score": [0-10 continuous score],
+            "article_2_score": [0-10 continuous score]
+        }},
+        ...
+    ]
+}}
+</output_format>
+
+Now, based on the evaluation criteria, please assess the two articles and provide a detailed comparative analysis and scores as required.
+</user_prompt>

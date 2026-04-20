@@ -1,0 +1,135 @@
+[
+    [
+        0,
+        "A Survey on Vision Transformer"
+    ],
+    [
+        1,
+        "1 INTRODUCTION"
+    ],
+    [
+        1,
+        "2 FORMULATION OF TRANSFORMER"
+    ],
+    [
+        2,
+        "2.1 Self-Attention"
+    ],
+    [
+        2,
+        "2.2 Other Key Concepts in Transformer"
+    ],
+    [
+        1,
+        "3 VISION TRANSFORMER"
+    ],
+    [
+        2,
+        "3.1 Backbone for Representation Learning"
+    ],
+    [
+        3,
+        "3.1.1 Pure Transformer"
+    ],
+    [
+        3,
+        "3.1.2 Transformer With Convolution"
+    ],
+    [
+        3,
+        "3.1.3 Self-Supervised Representation Learning"
+    ],
+    [
+        3,
+        "3.1.4 Discussions"
+    ],
+    [
+        2,
+        "3.2 High/Mid-Level Vision"
+    ],
+    [
+        3,
+        "3.2.1 Generic Object Detection"
+    ],
+    [
+        3,
+        "3.2.2 Segmentation"
+    ],
+    [
+        3,
+        "3.2.3 Pose Estimation"
+    ],
+    [
+        3,
+        "3.2.4 Other Tasks"
+    ],
+    [
+        3,
+        "3.2.5 Discussions"
+    ],
+    [
+        2,
+        "3.3 Low-Level Vision"
+    ],
+    [
+        3,
+        "3.3.1 Image Generation"
+    ],
+    [
+        3,
+        "3.3.2 Image Processing"
+    ],
+    [
+        2,
+        "3.4 Video Processing"
+    ],
+    [
+        3,
+        "3.4.1 High-Level Video Processing"
+    ],
+    [
+        3,
+        "3.4.2 Low-Level Video Processing"
+    ],
+    [
+        3,
+        "3.4.3 Discussions"
+    ],
+    [
+        2,
+        "3.5 Multi-Modal Tasks"
+    ],
+    [
+        2,
+        "3.6 Efficient Transformer"
+    ],
+    [
+        3,
+        "3.6.1 Pruning and Decomposition"
+    ],
+    [
+        3,
+        "3.6.2 Knowledge Distillation"
+    ],
+    [
+        3,
+        "3.6.3 Quantization"
+    ],
+    [
+        3,
+        "3.6.4 Compact Architecture Design"
+    ],
+    [
+        1,
+        "4 CONCLUSION AND DISCUSSIONS"
+    ],
+    [
+        2,
+        "4.1 Challenges"
+    ],
+    [
+        2,
+        "4.2 Future Prospects"
+    ]
+
+]

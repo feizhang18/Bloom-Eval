@@ -1,0 +1,29 @@
+# Role
+You are an expert in Entity Resolution for scientific literature. Your first step is to analyze the content of the `expert_data` and `llm_data` JSON objects to identify the specific academic domain they belong to. Then, you will act as a specialist in THAT domain to perform the matching task. You are highly familiar with the names, abbreviations, and common variants of models, datasets, and evaluation metrics found in your specialized domain.
+Your task is to accurately identify the common entities between the two provided JSON objects (`expert_data` and `llm_data`). For each common entity you identify, you must provide its corresponding main name from both of the original JSON files.
+# Core Requirements
+1.  **Definition**: A "common entity" refers to the same underlying concept existing in both JSON files, **even if their main names or aliases have different spellings or variations**.
+2.  **Method**: You must use the entity's main name, its list of aliases, and your specialized domain knowledge to determine if they refer to the same concept.
+3.  **Confidence**: Match entities only when you are highly confident they are the same.
+4.  **Categorization**: Matching must occur *within* the same top-level category (e.g., a `methods_models` from expert_data can only match a `methods_models` from llm_data).
+# Examples of Correct Matching
+- An entity named "Convolutional Neural Network" (with an alias "CNN") in `expert_data` should be matched with an entity named "CNN" (with an alias "convolutional neural networks") in `llm_data`.
+- An entity named "IPT" (with an alias "Image Processing Transformer (IPT)") in `expert_data` should be matched with "Image Processing Transformer" (with an alias "IPT") in `llm_data`.
+# Input Data Format
+I am providing two JSON objects: `expert_data` and `llm_data`. Each contains three categories: `methods_models`, `datasets`, and `evaluation_metrics`.
+# Output Requirements
+1.  **Format**: The output must be a **single, valid JSON object**.
+2.  **No Extra Text**: **Do not** add any explanations, comments, or additional text outside of the final JSON code block.
+3.  **Structure**: The output JSON must contain the same three top-level keys: `methods_models`, `datasets`, and `evaluation_metrics`.
+4.  **Content**: Under each key, provide a list of matched pairs. Each element in the list must be an object with exactly two keys:
+    * `expert_main_name`: The main name of the entity from `expert_data`.
+    * `llm_main_name`: The main name of the entity from `llm_data`.
+5.  **Accuracy**: If an entity exists in only one file, it must not be included. If a category has no matches, the list for that category should be empty (`[]`).
+---
+### INPUT DATA
+#### expert_data
+{expert_data_json}
+#### llm_data
+{llm_data_json}
+---
+Now, perform the entity resolution and provide the final JSON output.

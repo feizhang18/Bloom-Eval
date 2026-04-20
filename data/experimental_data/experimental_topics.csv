@@ -1,0 +1,21 @@
+topic_id,domain,title,venue,year,citations
+cs_01,Computer Science,"A Survey on Vision Transformer",TPAMI,2023,3915
+cs_02,Computer Science,"A Survey on In-context Learning",EMNLP,2023,2379
+cs_03,Computer Science,"Diffusion Models in Vision: A Survey",TPAMI,2023,2037
+cs_04,Computer Science,"Domain Generalization: A Survey",TPAMI,2023,1720
+cs_05,Computer Science,"Transformers in Time Series: A Survey",IJCAI,2023,1458
+cs_06,Computer Science,"Generalized Out-of-Distribution Detection: A Survey",IJCV,2024,1377
+cs_07,Computer Science,"A Comprehensive Survey of Continual Learning: Theory, Method and Application",TPAMI,2024,1313
+cs_08,Computer Science,"Class-Incremental Learning: Survey and Performance Evaluation on Image Classification",TPAMI,2023,1038
+cs_09,Computer Science,"Transfer Learning in Deep Reinforcement Learning: A Survey",TPAMI,2023,1031
+cs_10,Computer Science,"Multimodal Learning With Transformers: A Survey",TPAMI,2023,990
+gs_01,General Science,"Structural Mechanisms of NLRP3 Inflammasome Assembly and Activation",Immunology,2023,781
+gs_02,General Science,"The New Economics of Industrial Policy",Economics,2023,567
+gs_03,General Science,"Random Quantum Circuits",Condensed Matter Physics,2023,494
+gs_04,General Science,"Biological Impacts of Marine Heatwaves",Marine Science,2023,468
+gs_05,General Science,"How to Run Surveys: A Guide to Creating Your Own, Identifying Variation and Revealing the Invisible",Economics,2023,443
+gs_06,General Science,"A Review of Generalizability and Transportability",Statistics and Its Application,2023,387
+gs_07,General Science,"Non-Hermitian Topological Phenomena: A Review",Condensed Matter Physics,2023,358
+gs_08,General Science,"Hepcidin and Iron in Health and Disease",Medicine,2023,340
+gs_09,General Science,"Generalized Symmetries in Condensed Matter",Condensed Matter Physics,2023,335
+gs_10,General Science,"Everything You Wanted to Know about Deep Eutectic Solvents but Were Afraid to Be Told",Chemical and Biomolecular Engineering,2023,258

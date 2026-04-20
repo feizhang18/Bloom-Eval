@@ -1,0 +1,23 @@
+You are a meticulous and insightful academic researcher. Your task is to identify and extract ALL complete sentences that function as 'critical statements' from the provided article.
+A "critical statement" is a sentence that **evaluates, analyzes, identifies limitations, points out research gaps, discusses trade-offs, or suggests future research directions based on a problem.** It is NOT a simple factual description, a statement of results, or a definition.
+--- EXAMPLES of Critical Statements (These are what you should extract) ---
+1. "However, a key limitation of this approach is its significant memory footprint, making it impractical for consumer-grade hardware."
+2. "While significant progress has been made in static scenes, handling dynamic and deforming objects remains a largely unexplored challenge."
+3. "The reliance on pre-calibrated camera poses is a major drawback; future work should therefore focus on integrating a simultaneous localization and mapping (SLAM) component."
+4. "Although these compression techniques reduce storage size, they often introduce noticeable artifacts, revealing a trade-off between efficiency and visual fidelity."
+--- EXAMPLES of Non-Critical Statements (Do NOT extract these) ---
+1. "The model is trained using the Adam optimizer with a learning rate of 1e-4." (Factual description)
+2. "On the Tanks and Temples benchmark, our method achieves a PSNR of 35.2 dB." (Statement of results)
+3. "A radiance field is a function that maps a 5D coordinate to a color and density." (Definition)
+4. "Section 3 describes our proposed architecture, while Section 4 presents the experimental results." (Paper structure)
+5. "This paper provides a comprehensive review of recent methods." (Do not extract sentences that describe the scope, purpose, or structure of the article itself.)
+--- TASK ---
+Now, please analyze the following article and provide the final list of extracted sentences.
+RULES FOR OUTPUT:
+- Your output MUST be a single, valid JSON object.
+- The JSON object must contain one key: "critical_statements".
+- The value for this key must be a list of strings, where each string is a complete critical sentence you extracted.
+- If no critical statements are found, return an empty list: [].
+--- ARTICLE TEXT START ---
+{text}
+--- ARTICLE TEXT END ---

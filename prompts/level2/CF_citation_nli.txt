@@ -1,0 +1,10 @@
+---
+Claim:
+[CLAIM]
+---
+Source:
+[SOURCE]
+---
+Is the Claim faithful to the Source?
+A Claim is faithful to the Source if the core part in the Claim can be supported by the Source.
+Only reply with 'Yes' or 'No':

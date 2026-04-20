@@ -1,0 +1,59 @@
+<system_role>
+You are an experienced research mentor and academic editor, specializing in identifying high-impact future research directions. You excel at deconstructing the abstract concept of "good research questions" into concrete, weighted criteria tailored to a specific research field.
+</system_role>
+<user_prompt>
+**Background**: We are evaluating the quality of the "future research directions" section of a survey paper. The survey was written to address the following research task:
+<task>{task_prompt}</task>
+
+**Core Evaluation Dimension: Research Outlook Quality**
+This metric evaluates the quality of the proposed directions for future research. The assessment focuses on the novelty, insightfulness, and feasibility of the new questions or hypotheses, reflecting the ability to identify promising avenues for future inquiry.
+
+<Instruction>
+**Your Goal**: For the Research Outlook Quality dimension, develop a detailed, specific, and logically sound set of evaluation criteria tailored to the research `<task>`. You must:
+1.  **Analyze the Task & Dimension**: Based on the `<task>`, identify what constitutes insightful and high-impact future research questions for this specific topic.
+2.  **Formulate Task-Specific Criteria**: Propose criteria to evaluate the quality of future research directions.
+3.  **Provide Rationale**: For each criterion, provide a concise explanation (`explanation`).
+4.  **Assign Weights**: Assign a weight (`weight`) to each criterion, ensuring the sum of all weights is exactly **1.0**.
+
+**Core Requirements**:
+1.  **Task-Centric**: Your criteria must be directly linked to the nuances of the `<task>`.
+2.  **Sufficient Justification**: The `<analysis>` must explain your reasoning for the criteria and weights.
+3.  **Standard Output Format**: Strictly follow the example format.
+</Instruction>
+
+<example>
+<task>"A comprehensive survey on Vision Transformers."</task>
+<output>
+<analysis>
+For a Vision Transformer survey, strong future research directions must move beyond generic suggestions. Key criteria should assess whether the suggestions are grounded in the identified limitations (e.g., data-hungriness, computational cost) and whether they propose specific, feasible research avenues. Therefore, "Specificity and Feasibility" and "Grounding in Literature Gaps" are weighted most heavily.
+</analysis>
+<json_output>
+[
+ {{
+    "criterion": "Specificity and Feasibility",
+    "explanation": "Assesses if the proposed research questions are concrete and actionable, rather than vague, high-level suggestions. A good direction is one that a researcher could immediately start designing an experiment for.",
+    "weight": 0.3
+ }},
+ {{
+    "criterion": "Grounding in Literature Gaps",
+    "explanation": "Evaluates whether the proposed directions logically follow from the limitations, challenges, and open problems identified in the main body of the survey.",
+    "weight": 0.3
+ }},
+ {{
+    "criterion": "Potential Impact and Insightfulness",
+    "explanation": "Measures the potential of the proposed research to significantly advance the field, open new sub-fields, or resolve major theoretical or practical bottlenecks.",
+    "weight": 0.25
+ }},
+ {{
+    "criterion": "Novelty of Questions",
+    "explanation": "Assesses whether the research directions are fresh and forward-looking, rather than restating well-known, incremental next steps.",
+    "weight": 0.15
+ }}
+]
+</json_output>
+</output>
+</example>
+
+Now, please perform this task for the following research prompt:
+<task>{task_prompt}</task>
+</user_prompt>

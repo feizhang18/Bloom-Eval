@@ -1,0 +1,106 @@
+[
+    [
+        0,
+        "Domain Generalization: A Survey"
+    ],
+    [
+        1,
+        "1 INTRODUCTION"
+    ],
+    [
+        1,
+        "2 PROBLEM FORMULATION AND BACKGROUND"
+    ],
+    [
+        2,
+        "2.1 A Brief History of Domain Generalization"
+    ],
+    [
+        2,
+        "2.2 Problem Definition"
+    ],
+    [
+        2,
+        "2.3 Datasets and Applications"
+    ],
+    [
+        2,
+        "2.4 Evaluation"
+    ],
+    [
+        2,
+        "2.5 Related Topics"
+    ],
+    [
+        1,
+        "3 METHODOLOGIES: A SURVEY"
+    ],
+    [
+        2,
+        "3.1 Domain Alignment"
+    ],
+    [
+        3,
+        "3.1.1 What to Align"
+    ],
+    [
+        3,
+        "3.1.2 How to Align"
+    ],
+    [
+        2,
+        "3.2 Meta-Learning"
+    ],
+    [
+        2,
+        "3.3 Data Augmentation"
+    ],
+    [
+        2,
+        "3.4 Ensemble Learning"
+    ],
+    [
+        2,
+        "3.5 Self-Supervised Learning"
+    ],
+    [
+        2,
+        "3.6 Learning Disentangled Representations"
+    ],
+    [
+        2,
+        "3.7 Regularization Strategies"
+    ],
+    [
+        2,
+        "3.8 Reinforcement Learning"
+    ],
+    [
+        1,
+        "4 THEORIES"
+    ],
+    [
+        1,
+        "5 FUTURE RESEARCH DIRECTIONS"
+    ],
+    [
+        2,
+        "5.1 Model Architecture"
+    ],
+    [
+        2,
+        "5.2 Learning"
+    ],
+    [
+        2,
+        "5.3 Benchmarks"
+    ],
+    [
+        1,
+        "6 CONCLUSION"
+    ],
+    [
+        1,
+        "ACKNOWLEDGMENTS"
+    ]
+]
