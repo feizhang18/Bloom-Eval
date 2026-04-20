@@ -1,5 +1,4 @@
 import os
-import json
 import argparse
 import sys
 from pathlib import Path
@@ -7,7 +6,7 @@ from thefuzz import fuzz
 from typing import Dict, List
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, load_json, resolve_output_dir, to_project_relative, write_json, write_text
 CITATION_THRESHOLD = 50    # only expert refs with citations > 50 are considered "core"
 SIMILARITY_THRESHOLD = 90  # fuzzy match similarity threshold
 
@@ -19,9 +18,8 @@ def load_references_from_file(filepath: str) -> list:
         return None
 
     try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-    except json.JSONDecodeError:
+        data = load_json(filepath)
+    except Exception:
         print(f"Error: Cannot parse JSON file: {filepath}")
         return None
 

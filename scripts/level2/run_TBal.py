@@ -1,5 +1,4 @@
 import os
-import json
 import re
 import argparse
 import time
@@ -14,7 +13,7 @@ from typing import List, Dict
 from umap import UMAP
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, load_json, resolve_output_dir, to_project_relative, write_json, write_text
 
 EMBEDDING_MODEL = "nomic-ai/nomic-embed-text-v1"
 RANDOM_SEED = 42
@@ -38,7 +37,7 @@ def load_and_prepare_docs(file_path: str) -> List[str]:
         print(f"Error: File not found: {file_path}")
         return []
     try:
-        with open(file_path, 'r', encoding='utf-8') as f: data = json.load(f)
+        data = load_json(file_path)
         documents = []
         for key, value in data.items():
             if key.startswith('paper_') and isinstance(value, dict):

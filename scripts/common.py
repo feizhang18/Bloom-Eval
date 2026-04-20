@@ -86,6 +86,19 @@ def save_json(data: Any, path: Path) -> None:
     write_json(path, data)
 
 
+def build_log_path(
+    log_dir: Optional[Path],
+    purpose: str,
+    *,
+    suffix: str = "_raw_response.txt",
+    timestamp_format: str = "%Y%m%d-%H%M%S",
+) -> Optional[Path]:
+    if log_dir is None:
+        return None
+    timestamp = time.strftime(timestamp_format)
+    return log_dir / f"{timestamp}_{purpose}{suffix}"
+
+
 def _strip_code_fences(content: str) -> str:
     cleaned = content.strip()
     if cleaned.startswith("```json"):

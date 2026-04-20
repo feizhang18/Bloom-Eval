@@ -1,6 +1,5 @@
 import os
 import json
-import time
 import argparse
 import sys
 import numpy as np
@@ -12,6 +11,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
     add_common_arguments,
     build_result_payload,
+    build_log_path,
     call_llm_with_retry,
     ensure_dir,
     load_json,
@@ -36,23 +36,19 @@ class FrameworkApplicationEvaluator:
         self.criteria_prompt_tmpl = load_prompt("level3/FAP_criteria_generation.txt")
         self.scoring_prompt_tmpl = load_prompt("level3/FAP_scoring.txt")
 
-    def _call_llm(self, prompt: str, purpose: str, log_dir: Path) -> str:
-        log_filepath = log_dir / f"{time.strftime('%Y%m%d-%H%M%S')}_{purpose}_raw.txt"
-        return call_llm_with_retry(
+    def generate_criteria(self, task_prompt: str, output_path: Path, log_dir: Path) -> list:
+        print("--- Stage 1: Generating Evaluation Criteria ---")
+        prompt = self.criteria_prompt_tmpl.format(task_prompt=task_prompt)
+        res = call_llm_with_retry(
             self.client,
             self.model,
             prompt,
-            log_filepath if self.save_raw_response else None,
+            build_log_path(log_dir if self.save_raw_response else None, "criteria_gen", suffix="_raw.txt"),
             temperature=0.0,
             max_tokens=128000,
             max_retries=MAX_RETRIES,
             retry_delay=RETRY_DELAY,
         )
-
-    def generate_criteria(self, task_prompt: str, output_path: Path, log_dir: Path) -> list:
-        print("--- Stage 1: Generating Evaluation Criteria ---")
-        prompt = self.criteria_prompt_tmpl.format(task_prompt=task_prompt)
-        res = self._call_llm(prompt, "criteria_gen", log_dir)
         criteria = parse_llm_json(res, kind="array")
         write_json(output_path, criteria)
         return criteria
@@ -64,7 +60,16 @@ class FrameworkApplicationEvaluator:
             task_prompt=task_prompt, article_1_text=llm_text, article_2_text=human_text,
             criteria_json_string=criteria_json
         )
-        res = self._call_llm(prompt, "scoring", log_dir)
+        res = call_llm_with_retry(
+            self.client,
+            self.model,
+            prompt,
+            build_log_path(log_dir if self.save_raw_response else None, "scoring", suffix="_raw.txt"),
+            temperature=0.0,
+            max_tokens=128000,
+            max_retries=MAX_RETRIES,
+            retry_delay=RETRY_DELAY,
+        )
         scores = parse_llm_json(res, kind="object")
         write_json(output_path, scores)
         return scores

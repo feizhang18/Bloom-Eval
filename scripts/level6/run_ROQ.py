@@ -1,6 +1,5 @@
 import os
 import json
-import time
 import re
 import sys
 import argparse
@@ -13,11 +12,15 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
     add_common_arguments,
     build_result_payload,
+    build_log_path,
+    call_llm_with_retry,
     ensure_dir,
+    load_json,
+    load_json_field_text,
+    parse_llm_json,
     resolve_output_dir,
     to_project_relative,
     write_json,
-    write_text,
 )
 from prompt_utils import load_prompt
 
@@ -37,31 +40,6 @@ class ResearchHeuristicsEvaluator:
         self.model = model
         self.save_raw_response = save_raw_response
 
-    def _call_llm(self, prompt: str, purpose: str, log_dir: Path) -> str:
-        timestamp = time.strftime("%Y%m%d-%H%M%S")
-        log_filepath = log_dir / f"{timestamp}_{purpose}_raw_response.txt"
-
-        for attempt in range(MAX_RETRIES):
-            try:
-                response = self.client.chat.completions.create(
-                    model=self.model,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.0,
-                )
-                raw_response = response.choices[0].message.content.strip()
-                if self.save_raw_response:
-                    write_text(log_filepath, raw_response)
-                return raw_response
-            except Exception as e:
-                print(f"Attempt {attempt + 1} failed: {e}")
-                if attempt < MAX_RETRIES - 1:
-                    time.sleep(RETRY_DELAY)
-                else:
-                    print("Max retries reached. Failing.")
-                    if self.save_raw_response:
-                        write_text(log_filepath, f"Failed after {MAX_RETRIES} retries.\nLast error: {e}")
-                    raise
-
     def generate_criteria(
         self,
         task_prompt: str,
@@ -71,12 +49,17 @@ class ResearchHeuristicsEvaluator:
         print("--- Stage 1: Generating Evaluation Criteria for Research Heuristics ---")
         try:
             prompt = CRITERIA_GENERATION_PROMPT_TEMPLATE.format(task_prompt=task_prompt)
-            llm_response = self._call_llm(prompt, "criteria_generation", log_dir)
-            json_match = re.search(r"\[\s*\{.*\}\s*\]", llm_response, re.DOTALL)
-            if not json_match:
-                raise ValueError("Could not find a valid JSON list in the response.")
-
-            criteria_list = json.loads(json_match.group(0))
+            llm_response = call_llm_with_retry(
+                self.client,
+                self.model,
+                prompt,
+                build_log_path(log_dir if self.save_raw_response else None, "criteria_generation"),
+                temperature=0.0,
+                max_retries=MAX_RETRIES,
+                retry_delay=RETRY_DELAY,
+                failure_log_message=f"Failed after {MAX_RETRIES} retries.",
+            )
+            criteria_list = parse_llm_json(llm_response, kind="array")
             write_json(output_path, criteria_list)
             print(f"Criteria saved to '{os.path.basename(output_path)}'.")
             return criteria_list
@@ -106,22 +89,22 @@ class ResearchHeuristicsEvaluator:
                 article_2_text=human_survey,
                 criteria_json_string=criteria_json_string,
             )
-            llm_response = self._call_llm(scoring_prompt, "comparative_scoring", log_dir)
-
-            json_match = re.search(r"\{.*\}", llm_response, re.DOTALL)
-            if not json_match:
-                raise ValueError("Could not find a JSON object in the scoring response.")
-
-            json_str = json_match.group(0).replace("\xa0", " ").strip()
-            scores_dict = json.loads(json_str)
-
+            llm_response = call_llm_with_retry(
+                self.client,
+                self.model,
+                scoring_prompt,
+                build_log_path(log_dir if self.save_raw_response else None, "comparative_scoring"),
+                temperature=0.0,
+                max_retries=MAX_RETRIES,
+                retry_delay=RETRY_DELAY,
+                failure_log_message=f"Failed after {MAX_RETRIES} retries.",
+            )
+            scores_dict = parse_llm_json(llm_response, kind="object", replace_nbsp=True)
             write_json(output_path, scores_dict)
             print(f"Comparative scores saved to '{os.path.basename(output_path)}'.")
             return scores_dict
         except Exception as e:
             print(f"ERROR in Stage 2: {e}")
-            if "json_str" in locals():
-                print(f"DEBUG: Failed JSON string snippet: {json_str[:100]}...")
             return None
 
     def calculate_final_score(
@@ -168,8 +151,7 @@ def read_survey_content(file_path: str) -> Optional[str]:
     if not file_path or not os.path.exists(file_path):
         return None
     try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            content_list = json.load(f)
+        content_list = load_json(file_path)
         return "\n".join(content_list) if isinstance(content_list, list) else None
     except (json.JSONDecodeError, TypeError):
         return None
@@ -188,9 +170,7 @@ def get_task_prompt(file_path: str) -> Optional[str]:
     if not file_path or not os.path.exists(file_path):
         return None
     try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        title = data.get("title", "")
+        title = load_json_field_text(file_path, "title")
         if not title:
             print(f"WARNING: Could not find 'title' field in '{os.path.basename(file_path)}'.")
             return None

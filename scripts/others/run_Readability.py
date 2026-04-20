@@ -1,5 +1,4 @@
 import os
-import json
 import re
 import argparse
 import sys
@@ -12,7 +11,7 @@ import pandas as pd
 import textstat
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, load_json_text, resolve_output_dir, to_project_relative, write_json, write_text
 
 
 def ensure_nltk_punkt() -> None:
@@ -30,24 +29,7 @@ def ensure_nltk_punkt() -> None:
 
 def load_text_from_json(file_path: str) -> str:
     try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        def extract_text(element):
-            if isinstance(element, str):
-                yield element
-            elif isinstance(element, list):
-                for item in element:
-                    yield from extract_text(item)
-            elif isinstance(element, dict):
-                for value in element.values():
-                    yield from extract_text(value)
-
-        text_parts = list(extract_text(data))
-        return "\n".join(
-            part for part in text_parts
-            if isinstance(part, str) and len(part.strip()) > 10
-        )
+        return load_json_text(file_path, joiner="\n", min_text_length=10)
     except FileNotFoundError:
         print(f"Error: File not found: {file_path}")
         return ""

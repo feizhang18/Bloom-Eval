@@ -19,7 +19,6 @@ from common import (
     save_json,
     to_project_relative,
     write_json,
-    write_text,
 )
 from prompt_utils import load_prompt
 

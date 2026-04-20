@@ -1,5 +1,4 @@
 import os
-import json
 import re
 import argparse
 import sys
@@ -11,7 +10,7 @@ from sentence_transformers import SentenceTransformer, util
 from zss import Node
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, load_json, resolve_output_dir, to_project_relative, write_json, write_text
 
 
 SBERT_MODEL_NAME = "nomic-ai/nomic-embed-text-v1"
@@ -24,8 +23,7 @@ def clean_title(title: str) -> str:
 def load_outline(path: str) -> List[List[Any]]:
     if not os.path.exists(path):
         raise FileNotFoundError(f"File not found: {path}")
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    data = load_json(path)
     if not isinstance(data, list):
         raise ValueError(f"Outline file is not a list: {path}")
     return data

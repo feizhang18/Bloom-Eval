@@ -12,6 +12,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
     add_common_arguments,
     build_result_payload,
+    build_log_path,
     call_llm_with_retry,
     ensure_dir,
     load_json_list_text,
@@ -39,28 +40,6 @@ def load_text_from_json(file_path: str) -> str:
         print(f"Error reading file {file_path}: {e}")
         return ""
 
-
-def call_llm(
-    client: OpenAI,
-    model: str,
-    prompt: str,
-    purpose: str,
-    log_dir: Optional[Path],
-) -> str:
-    log_path = log_dir / f"{time.strftime('%Y%m%d-%H%M%S')}_{purpose}_raw_response.txt" if log_dir else None
-    return call_llm_with_retry(
-        client,
-        model,
-        prompt,
-        log_path,
-        temperature=0.0,
-        max_tokens=8192,
-        max_retries=MAX_RETRIES,
-        retry_delay=RETRY_DELAY,
-        failure_log_message=f"Failed after {MAX_RETRIES} retries.",
-    )
-
-
 def extract_critical_statements(
     client: OpenAI,
     model: str,
@@ -70,7 +49,17 @@ def extract_critical_statements(
     log_dir: Optional[Path],
 ) -> List[str]:
     prompt = CRITICAL_EXTRACTION_PROMPT_TEMPLATE.format(text=text)
-    raw_response = call_llm(client, model, prompt, query_id, log_dir)
+    raw_response = call_llm_with_retry(
+        client,
+        model,
+        prompt,
+        build_log_path(log_dir, query_id),
+        temperature=0.0,
+        max_tokens=8192,
+        max_retries=MAX_RETRIES,
+        retry_delay=RETRY_DELAY,
+        failure_log_message=f"Failed after {MAX_RETRIES} retries.",
+    )
 
     try:
         result = parse_llm_json(raw_response, kind="auto")
@@ -98,7 +87,17 @@ def find_semantic_matches(
         llm_statements_str=llm_str,
     )
 
-    llm_response = call_llm(client, model, prompt, query_id, log_dir)
+    llm_response = call_llm_with_retry(
+        client,
+        model,
+        prompt,
+        build_log_path(log_dir, query_id),
+        temperature=0.0,
+        max_tokens=8192,
+        max_retries=MAX_RETRIES,
+        retry_delay=RETRY_DELAY,
+        failure_log_message=f"Failed after {MAX_RETRIES} retries.",
+    )
     try:
         result = parse_llm_json(llm_response, kind="object")
         if "matched_critical_pairs" not in result or not isinstance(result["matched_critical_pairs"], list):
