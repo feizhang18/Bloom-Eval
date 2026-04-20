@@ -21,8 +21,6 @@ Official repository for the paper **"Bloom-Eval: A Hierarchical Evaluation Bench
 
 This repository is a compact camera-ready public release. It keeps the core materials needed to understand the benchmark design and reproduce topic-level evaluation, including the evaluation scripts, prompt files, and 20 released topics.
 
-[Chinese Version](README_zh.md)
-
 ## Overview
 
 Bloom-Eval is a six-level benchmark for automatic survey generation (ASG), grounded in Bloom's Taxonomy:
