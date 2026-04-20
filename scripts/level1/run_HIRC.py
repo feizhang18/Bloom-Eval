@@ -98,8 +98,8 @@ def calculate_coverage(human_refs: List[Dict], llm_refs: List[Dict]) -> Dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Core Reference Coverage Evaluation Tool")
-    parser.add_argument("--reference_file_human", type=str, required=True, help="Path to the human-expert reference_3.json")
-    parser.add_argument("--reference_file_llm", type=str, required=True, help="Path to the LLM reference_3.json")
+    parser.add_argument("--reference_file_human", type=str, required=True, help="Path to the human-expert reference.json")
+    parser.add_argument("--reference_file_llm", type=str, required=True, help="Path to the LLM reference.json")
     add_common_arguments(parser, metric_name="hirc", include_model=False)
     args = parser.parse_args()
     output_dir = resolve_output_dir(args.output_dir)

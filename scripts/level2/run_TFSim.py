@@ -100,8 +100,8 @@ def discover_topics_and_freqs(documents: List[str], embedding_model: SentenceTra
 
 def main():
     parser = argparse.ArgumentParser(description="Reference Topic Coverage and Distribution Similarity Evaluation Tool")
-    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, required=True, help="Path to the human-expert reference_3.json")
-    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, required=True, help="Path to the LLM-generated reference_3.json")
+    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, required=True, help="Path to the human-expert reference.json")
+    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, required=True, help="Path to the LLM-generated reference.json")
     add_common_arguments(parser, metric_name="tfsim", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
 

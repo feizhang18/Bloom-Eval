@@ -10,7 +10,7 @@ from common import add_common_arguments, build_result_payload, resolve_output_di
 
 REFERENCE_TITLES = [
     "references", "reference", "bibliography", "works cited",
-    "citations", "sources", "参考文献", "参考资料"
+    "citations", "sources"
 ]
 
 

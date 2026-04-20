@@ -214,14 +214,14 @@ def process_single_pipeline(evaluator: CitationEvaluator, paper_path: str, ref_p
     return metrics
 
 # ==========================================
-# 3. 主程序入口
+# 3. Main entry point
 # ==========================================
 def main():
     parser = argparse.ArgumentParser(description="Citation Quality Comparative Evaluation Tool")
     parser.add_argument("--content_file_llm", "--llm_paper", dest="content_file_llm", type=str, required=True, help="Path to the LLM content.json / paper.json")
-    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, required=True, help="Path to the LLM reference_3.json")
+    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, required=True, help="Path to the LLM reference.json")
     parser.add_argument("--content_file_human", "--human_paper", dest="content_file_human", type=str, required=True, help="Path to the human-expert content.json / paper.json")
-    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, required=True, help="Path to the human-expert reference_3.json")
+    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, required=True, help="Path to the human-expert reference.json")
     add_common_arguments(parser, metric_name="cf", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
 

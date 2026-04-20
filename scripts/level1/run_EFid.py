@@ -10,14 +10,17 @@ from scipy.stats import entropy
 from openai import OpenAI
 from typing import Dict, List, Any, Optional
 
-# 动态添加上级目录到 sys.path，以便导入 prompt_utils
-# 假设当前大脚本放在 Bloom-Eval/scripts/level1/ 下
+# sys.path setup to import prompt_utils
+# Assumes this script is located under Bloom-Eval/scripts/level1/
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
     add_common_arguments,
     build_result_payload,
+    call_llm_for_json,
     ensure_dir,
+    load_json,
     resolve_output_dir,
+    save_json,
     to_project_relative,
     write_json,
     write_text,
@@ -25,7 +28,7 @@ from common import (
 from prompt_utils import load_prompt
 
 # ==========================================
-# 0. 全局配置与 Prompt 模板加载
+# 0. Global configuration and prompt template loading
 # ==========================================
 API_KEY = os.getenv("OPENAI_API_KEY", "")
 DEFAULT_MODEL = "gpt-5-mini"
@@ -36,43 +39,7 @@ PROMPT_MATCH = load_prompt("level1/EFid_entity_resolution.txt")
 
 
 # ==========================================
-# 1. 核心 LLM 交互模块
-# ==========================================
-def call_llm_for_json(client: OpenAI, model: str, prompt: str, log_file: Optional[Path]) -> Dict:
-    """Call the LLM and return a parsed JSON dict; save raw response to log if provided."""
-    log_name = log_file.name if log_file is not None else "none"
-    print(f"  [LLM] Requesting model, log: {log_name}")
-    try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0
-        )
-        answer = response.choices[0].message.content.strip()
-        
-        if log_file is not None:
-            write_text(log_file, answer)
-            
-        # 清理Markdown包裹
-        if answer.startswith("```json"):
-            answer = answer[7:-3].strip()
-        elif answer.startswith("```"):
-            answer = answer[3:-3].strip()
-            
-        return json.loads(answer)
-    except Exception as e:
-        print(f"  [Error] LLM call or JSON parse failed: {e}")
-        return {}
-
-def load_json(filepath: str) -> Any:
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-def save_json(data: Any, filepath: Path):
-    write_json(filepath, data)
-
-# ==========================================
-# 2. 流水线各个阶段任务
+# 2. Pipeline stages
 # ==========================================
 def step1_extract(client, model: str, text_content: str, output_path: Path, log_path: Optional[Path]) -> Dict:
     if os.path.exists(output_path):
@@ -130,7 +97,7 @@ def step4_match(client, model: str, human_counts: Dict, llm_counts: Dict, output
     return result
 
 # ==========================================
-# 3. 最终指标计算
+# 3. Final metric calculation
 # ==========================================
 def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict, report_path: Path) -> Dict[str, Any]:
     all_human, all_llm, all_matched = {}, {}, []
@@ -196,7 +163,7 @@ def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict, 
 
 
 # ==========================================
-# 4. 主执行流水线
+# 4. Main execution pipeline
 # ==========================================
 def main():
     parser = argparse.ArgumentParser(description="End-to-End Evaluation Pipeline")

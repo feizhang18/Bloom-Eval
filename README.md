@@ -1,5 +1,17 @@
 # Bloom-Eval: A Hierarchical Evaluation Benchmark for Automatic Survey Generation Based on Bloom's Taxonomy
 
+## Paper Information
+
+**Title:** Bloom-Eval: A Hierarchical Evaluation Benchmark for Automatic Survey Generation Based on Bloom's Taxonomy
+
+**Authors:** Fei Zhang<sup>1</sup>, Zhe Zhao<sup>2</sup>, Haibin Wen<sup>1</sup>, Tianshuo Wei<sup>1</sup>, Zaixi Zhang<sup>3</sup>, Chao Yang<sup>4,*</sup>, and Ye Wei<sup>1,*</sup>
+
+**Affiliations:**  
+<sup>1</sup> City University of Hong Kong  
+<sup>2</sup> Stanford University  
+<sup>3</sup> Princeton University  
+<sup>4</sup> Shanghai Jiaotong University
+
 [![ACL 2026](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
 [![Status](https://img.shields.io/badge/Status-Camera--ready-orange.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -62,4 +74,4 @@ This repository does not include the full paper source tree or copyrighted full-
 
 ## Citation
 
-If you use this repository, please cite the Bloom-Eval paper. Citation metadata is available in `CITATION.cff`.
+If you use this repository, please cite the Bloom-Eval paper.

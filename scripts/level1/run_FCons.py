@@ -1,5 +1,4 @@
 import os
-import json
 import time
 import argparse
 import sys
@@ -13,8 +12,11 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
     add_common_arguments,
     build_result_payload,
+    call_llm_for_json,
     ensure_dir,
+    load_json,
     resolve_output_dir,
+    save_json,
     to_project_relative,
     write_json,
     write_text,
@@ -27,43 +29,6 @@ DEFAULT_MODEL = "gpt-5-mini"
 PROMPT_EXTRACT = load_prompt("level1/FCons_claim_extraction.txt")
 PROMPT_MATCH = load_prompt("level1/FCons_claim_matching.txt")
 
-# ==========================================
-# 1. 核心 LLM 交互模块 (带流式与日志保存)
-# ==========================================
-def call_llm_for_json(client: OpenAI, model: str, prompt: str, log_file: Optional[Path]) -> Dict:
-    """Call the LLM and return a parsed JSON dict; save raw response to log if provided."""
-    log_name = log_file.name if log_file is not None else "none"
-    print(f"  [LLM] Requesting model, log: {log_name}")
-    try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0
-        )
-        answer = response.choices[0].message.content.strip()
-
-        if log_file is not None:
-            write_text(log_file, answer)
-
-        if answer.startswith("```json"):
-            answer = answer[7:-3].strip()
-        elif answer.startswith("```"):
-            answer = answer[3:-3].strip()
-
-        return json.loads(answer)
-    except json.JSONDecodeError:
-        print(f"  [Error] JSON parse failed. Raw output saved to {log_file}")
-        return {}
-    except Exception as e:
-        print(f"  [Error] LLM API call failed: {e}")
-        return {}
-
-def load_json(filepath: str) -> Any:
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-def save_json(data: Any, filepath: Path):
-    write_json(filepath, data)
 def step1_extract_claims(client: OpenAI, model: str, text_content: str, output_path: Path, log_path: Optional[Path]) -> List[str]:
     """Stage 1: Extract factual statements from text."""
     if os.path.exists(output_path):

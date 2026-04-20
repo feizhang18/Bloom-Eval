@@ -1,0 +1,13 @@
+openai>=1.0.0
+bertopic
+sentence-transformers
+umap-learn
+scikit-learn
+scipy
+numpy
+pandas
+zss
+thefuzz
+nltk
+tqdm
+textstat

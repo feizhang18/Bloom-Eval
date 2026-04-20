@@ -53,7 +53,7 @@ def get_dsi_score(md_path: str) -> Tuple[float, str]:
             found_sections['introduction'] = True
         if 'conclusion' in header_lower:
             found_sections['conclusion'] = True
-        if ('references' in header_lower) or ('bibliography' in header_lower) or ('参考文献' in header_lower):
+        if ('references' in header_lower) or ('bibliography' in header_lower):
             found_sections['references'] = True
 
     dsi_score = sum(found_sections.values()) / len(target_sections)

@@ -119,7 +119,7 @@ def find_semantic_matches(
     try:
         json_match = re.search(r"\{.*\}", llm_response, re.DOTALL)
         if not json_match:
-            raise ValueError("在LLM响应中找不到JSON结构。")
+            raise ValueError("Could not find a JSON object in the LLM response.")
         result = json.loads(json_match.group(0))
         if "matched_critical_pairs" not in result or not isinstance(result["matched_critical_pairs"], list):
             result = {"matched_critical_pairs": []}

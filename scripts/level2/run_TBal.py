@@ -33,7 +33,7 @@ def calculate_gini(counts: List[int]) -> float:
     return 1 - 2 * B / n + 1 / n
 
 def load_and_prepare_docs(file_path: str) -> List[str]:
-    """Extract and clean titles and abstracts from reference_3.json."""
+    """Extract and clean titles and abstracts from reference.json."""
     if not os.path.exists(file_path):
         print(f"Error: File not found: {file_path}")
         return []
@@ -85,8 +85,8 @@ def analyze_topics(name: str, documents: List[str], embedding_model: SentenceTra
 
 def main():
     parser = argparse.ArgumentParser(description="Reference Topic Balance and Breadth Evaluation Tool")
-    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, required=True, help="Path to the human-expert reference_3.json")
-    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, required=True, help="Path to the LLM reference_3.json")
+    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, required=True, help="Path to the human-expert reference.json")
+    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, required=True, help="Path to the LLM reference.json")
     add_common_arguments(parser, metric_name="tbal", include_model=False)
     args = parser.parse_args()
 
