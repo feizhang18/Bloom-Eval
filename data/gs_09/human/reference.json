@@ -1,0 +1,1699 @@
+{
+  "reference_1": {
+    "title": "Topological Orders in Rigid States",
+    "date": "1990",
+    "authors": [
+      "Wen XG."
+    ],
+    "publication": "Int. J. Mod. Phys. B 04:239–71",
+    "citation_count": 1127,
+    "abs": "We study a new kind of ordering — topological order — in rigid states (the states with no local gapless excitations). We concentrate on characterization of the different topological orders. As an example we discuss in detail chiral spin states of 2 + 1 dimensional spin systems. Chiral spin states are described by the topological Chern-Simons theories in the continuum limit. We show that the topological orders can be characterized by a non-Abelian gauge structure over the moduli space which parametrizes a family of the model Hamiltonians supporting topologically ordered ground states. In 2 + 1 dimensions, the non-Abelian gauge structure determines possible fractional statistics of the quasi-particle excitations over the topologically ordered ground states. The dynamics of the low lying global excitations is shown to be independent of random spatial dependent perturbations. The ground state degeneracy and the non-Abelian gauge structures discussed in this paper are very robust, even against those perturbations that break translation symmetry. We also discuss the symmetry properties of the degenerate ground states of chiral spin states. We find that some degenerate ground states of chiral spin states on torus carry non-trivial quantum numbers of the 90° rotation."
+  },
+  "reference_2": {
+    "title": "Duality in Generalized Ising Models and Phase Transitions without Local Order Parameters",
+    "date": "1971",
+    "authors": [
+      "Wegner FJ."
+    ],
+    "publication": "J. Math. Phys. 12:2259–72",
+    "citation_count": 1011,
+    "abs": "It is shown that any Ising model with positive coupling constants is related to another Ising model by a duality transformation. We define a class of Ising models Mdn on d-dimensional lattices characterized by a number n = 1, 2, … , d (n = 1 corresponds to the Ising model with two-spin interaction). These models are related by two duality transformations. The models with 1 &amp;lt; n &amp;lt; d exhibit a phase transition without local order parameter. A nonanalyticity in the specific heat and a different qualitative behavior of certain spin correlation functions in the low and the high temperature phases indicate the existence of a phase transition. The Hamiltonian of the simple cubic dual model contains products of four Ising spin operators. Applying a star square transformation, one obtains an Ising model with competing interactions exhibiting a singularity in the specific heat but no long-range order of the spins in the low temperature phase."
+  },
+  "reference_3": {
+    "title": "A degeneracy bound for homogeneous topological order",
+    "date": "2021",
+    "authors": [
+      "Haah J"
+    ],
+    "publication": "SciPost Phys. 10:011",
+    "citation_count": 20,
+    "abs": "We introduce a notion of homogeneous topological order, which is obeyed by most, if not all, known examples of topological order including fracton phases on quantum spins (qudits). The notion is a condition on the ground state subspace, rather than on the Hamiltonian, and demands that given a collection of ball-like regions, any linear transformation on the ground space be realized by an operator that avoids the ball-like regions. We derive a bound on the ground state degeneracy \\mathcal D <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mstyle mathvariant=\"script\"> <mml:mi>𝒟</mml:mi> </mml:mstyle> </mml:math> for systems with homogeneous topological order on an arbitrary closed Riemannian manifold of dimension d <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>d</mml:mi> </mml:math> , which reads [ D c (L/a)^{d-2}.] Here, L <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>L</mml:mi> </mml:math> is the diameter of the system, a <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>a</mml:mi> </mml:math> is the lattice spacing, and c <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>c</mml:mi> </mml:math> is a constant that only depends on the isometry class of the manifold, and \\mu <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>μ</mml:mi> </mml:math> is a constant that only depends on the density of degrees of freedom. If d=2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>d</mml:mi> <mml:mo>=</mml:mo> <mml:mn>2</mml:mn> </mml:mrow> </mml:math> , the constant c <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>c</mml:mi> </mml:math> is the (demi)genus of the space manifold. This bound is saturated up to constants by known examples.examples."
+  },
+  "reference_4": {
+    "title": "Entanglement entropy as a portal to the physics of quantum spin liquids",
+    "date": "2013",
+    "authors": [
+      "Grover T",
+      "Zhang Y",
+      "Vishwanath A."
+    ],
+    "publication": "New J. Phys. 15:025002",
+    "citation_count": 56,
+    "abs": "Quantum Spin Liquids (QSLs) are phases of interacting spins that do not order even at the absolute zero temperature, making it impossible to characterize them by a local order parameter. In this article, we review the unique view provided by the quantum entanglement on QSLs. We illustrate the crucial role of Topological Entanglement Entropy in diagnosing the non-local order in QSLs, using specific examples such as the Chiral Spin Liquid. We also demonstrate the detection of anyonic quasiparticles and their braiding statistics using quantum entanglement. In the context of gapless QSLs, we discuss the detection of emergent fermionic spinons in a bosonic wavefunction, by studying the size dependence of entanglement entropy."
+  },
+  "reference_5": {
+    "title": "Fractons",
+    "date": "2019",
+    "authors": [
+      "Nandkishore RM",
+      "Hermele M."
+    ],
+    "publication": "Annu. Rev. Condens. Matter Phys. 10:295–313",
+    "citation_count": 2101,
+    "abs": "The density of states on a fractal is calculated taking into account the scaling properties of both the volume and the connectivity. We use a Green's function method developed elsewhere which utilizes a relationship to the diffusion problem. It is found that proper mode counting requires a reciprocal space with new intrinsic fracton dimensionality d = 2 d/(2 + δ). Here, d is the effective dimensionality, and δ the exponent giving the dependence of the diffusion constant on distance. For example, we find for percolation clusters d = 4/3 within the numerical accuracy available, independent of the Euclidean dimensionality d. Crossover to normal behaviour at low frequencies is discussed for finite fractals and for percolation above the percolation threshold pc. Relevance to experimental results on proteins is also discussed."
+  },
+  "reference_6": {
+    "title": "Fracton phases of matter",
+    "date": "2020",
+    "authors": [
+      "Pretko M",
+      "Chen X",
+      "You Y"
+    ],
+    "publication": "Int. J. Mod. Phys. A 35:2030003",
+    "citation_count": 336,
+    "abs": "Fractons are a new type of quasiparticle which are immobile in isolation, but can often move by forming bound states. Fractons are found in a variety of physical settings, such as spin liquids and elasticity theory, and exhibit unusual phenomenology, such as gravitational physics and localization. The past several years have seen a surge of interest in these exotic particles, which have come to the forefront of modern condensed matter theory. In this review, we provide a broad treatment of fractons, ranging from pedagogical introductory material to discussions of recent advances in the field. We begin by demonstrating how the fracton phenomenon naturally arises as a consequence of higher moment conservation laws, often accompanied by the emergence of tensor gauge theories. We then provide a survey of fracton phases in spin models, along with the various tools used to characterize them, such as the foliation framework. We discuss in detail the manifestation of fracton physics in elasticity theory, as well as the connections of fractons with localization and gravitation. Finally, we provide an overview of some recently proposed platforms for fracton physics, such as Majorana islands and hole-doped antiferromagnets. We conclude with some open questions and an outlook on the field."
+  },
+  "reference_7": {
+    "title": "Mandelstam 't Hooft Duality in Abelian Lattice Models",
+    "date": "1978",
+    "authors": [
+      "Peskin ME."
+    ],
+    "publication": "Ann. Phys. 113:12252",
+    "citation_count": 169,
+    "abs": "A natural question about Quantum Field Theory is whether there is a deformation to a trivial gapped phase. If the underlying theory has an anomaly, then symmetric deformations can never lead to a trivial phase. We discuss such discrete anomalies in Abelian Higgs models in 1+1 and 2+1 dimensions. We emphasize the role of charge conjugation symmetry in these anomalies; for example, we obtain nontrivial constraints on the degrees of freedom that live on a domain wall in the VBS phase of the Abelian Higgs model in 2+1 dimensions. In addition, as a byproduct of our analysis, we show that in 1+1 dimensions the Abelian Higgs model is dual to the Ising model. We also study variations of the Abelian Higgs model in 1+1 and 2+1 dimensions where there is no dynamical particle of unit charge. These models have a center symmetry and additional discrete anomalies. In the absence of a dynamical unit charge particle, the Ising transition in the 1+1 dimensional Abelian Higgs model is removed. These models without a unit charge particle exhibit a remarkably persistent order: we prove that the system cannot be disordered by either quantum or thermal fluctuations. Equivalently, when these theories are studied on a circle, no matter how small or large the circle is, the ground state is non-trivial."
+  },
+  "reference_8": {
+    "title": "Phase Transition in a Lattice Model of Superconductivity",
+    "date": "1981",
+    "authors": [
+      "Dasgupta C",
+      "Halperin BI."
+    ],
+    "publication": "Phys. Rev. Lett. 47:1556–60",
+    "citation_count": 725,
+    "abs": "Monte Carlo data and duality arguments, applied to a lattice model, are presented which indicate that a three-dimensional type-II superconductor should have a transition asymptotically equivalent to that of a superfluid with reversed temperature axis, and not a first-order transition. Results may apply to the nematic---smectic-$A$ transition."
+  },
+  "reference_9": {
+    "title": "Electric-magnetic duality in supersymmetric non-Abelian gauge theories",
+    "date": "1995",
+    "authors": [
+      "Seiberg N."
+    ],
+    "publication": "Nucl. Phys. B 435:129–46",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_10": {
+    "title": "Sufficient symmetry conditions for Topological Quantum Order",
+    "date": "2009",
+    "authors": [
+      "Nussinov Z",
+      "Ortiz G."
+    ],
+    "publication": "PNAS 106:16944–49",
+    "citation_count": 190,
+    "abs": "We prove sufficient conditions for Topological Quantum Order at zero and finite temperatures. The crux of the proof hinges on the existence of low-dimensional Gauge-Like Symmetries, thus providing a unifying framework based on a symmetry principle. These symmetries may be actual invariances of the system, or may emerge in the low-energy sector. Prominent examples of Topological Quantum Order display Gauge-Like Symmetries. New systems exhibiting such symmetries include Hamiltonians depicting orbital-dependent spin exchange and Jahn-Teller effects in transition metal orbital compounds, short-range frustrated Klein spin models, and p+ip superconducting arrays. We analyze the physical consequences of Gauge-Like Symmetries (including topological terms and charges) and show the insufficiency of the energy spectrum, topological entanglement entropy, maximal string correlators, and fractionalization in establishing Topological Quantum Order. General symmetry considerations illustrate that not withstanding spectral gaps, thermal fluctuations may impose restrictions on suggested quantum computing schemes. Our results allow us to go beyond standard topological field theories and engineer systems with Topological Quantum Order."
+  },
+  "reference_11": {
+    "title": "A symmetry principle for topological quantum order",
+    "date": "2009",
+    "authors": [
+      "Nussinov Z",
+      "Ortiz G."
+    ],
+    "publication": "Ann. Phys. 324:977–1057",
+    "citation_count": 4215,
+    "abs": "Topological insulators are materials with a bulk excitation gap generated by the spin-orbit interaction that are different from conventional insulators. This distinction is characterized by ${Z}_{2}$ topological invariants, which characterize the ground state. In two dimensions, there is a single ${Z}_{2}$ invariant that distinguishes the ordinary insulator from the quantum spin-Hall phase. In three dimensions, there are four ${Z}_{2}$ invariants that distinguish the ordinary insulator from ``weak'' and ``strong'' topological insulators. These phases are characterized by the presence of gapless surface (or edge) states. In the two-dimensional quantum spin-Hall phase and the three-dimensional strong topological insulator, these states are robust and are insensitive to weak disorder and interactions. In this paper, we show that the presence of inversion symmetry greatly simplifies the problem of evaluating the ${Z}_{2}$ invariants. We show that the invariants can be determined from the knowledge of the parity of the occupied Bloch wave functions at the time-reversal invariant points in the Brillouin zone. Using this approach, we predict a number of specific materials that are strong topological insulators, including the semiconducting alloy ${\\mathrm{Bi}}_{1\\ensuremath{-}x}{\\mathrm{Sb}}_{x}$ as well as $\\ensuremath{\\alpha}\\text{\\ensuremath{-}}\\mathrm{Sn}$ and HgTe under uniaxial strain. This paper also includes an expanded discussion of our formulation of the topological insulators in both two and three dimensions, as well as implications for experiments."
+  },
+  "reference_12": {
+    "title": "New look at QED4: The photon as a Goldstone boson and the topological interpretation of electric charge.",
+    "date": "1994",
+    "authors": [
+      "Kovner A",
+      "Rosenstein B."
+    ],
+    "publication": "Phys. Rev. D 49:5571–81",
+    "citation_count": 0,
+    "abs": "We argue that a field theory with a <a:math xmlns:a=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <a:msub> <a:mi mathvariant=\"double-struck\">Z</a:mi> <a:mi>N</a:mi> </a:msub> </a:math> <d:math xmlns:d=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <d:mi>p</d:mi> </d:math> -form symmetry generically admits, in addition to a Higgs phase and a “confining” phase, a Coulomb phase in which the infrared theory contains Abelian <f:math xmlns:f=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <f:mi>p</f:mi> </f:math> -form electrodynamics, similar to the behavior of the Yang-Mills theory coupled to adjoint or fundamental matter. We illustrate our claim with continuum and lattice examples including 2-group higher gauge theory, effective <h:math xmlns:h=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <h:mi>p</h:mi> </h:math> -form <j:math xmlns:j=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <j:mi>B</j:mi> <j:mi>F</j:mi> </j:math> theories, and lattice <l:math xmlns:l=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <l:mi>p</l:mi> </l:math> -form electrodynamics."
+  },
+  "reference_13": {
+    "title": "Pantev T, Sharpe E. 2005. arXiv:hep-th/0502027",
+    "date": "2005",
+    "authors": [
+      "Pantev T",
+      "Sharpe E."
+    ],
+    "publication": "",
+    "citation_count": 328,
+    "abs": "Recent advances in our understanding of symmetry in quantum many-body systems offer the possibility of a generalized Landau paradigm that encompasses all equilibrium phases of matter. This is a brief and elementary review of some of these developments."
+  },
+  "reference_14": {
+    "title": "Cluster decomposition, T-duality, and gerby CFTs",
+    "date": "2007",
+    "authors": [
+      "Hellerman S",
+      "Henriques A",
+      "Pantev T",
+      "Sharpe E",
+      "Ando M."
+    ],
+    "publication": "Adv. Theor. Math. Phys. 11:751–818",
+    "citation_count": 150,
+    "abs": "In this paper, we study conformal field theories (CFTs) associated to gerbes. These theories suffer from a lack of cluster decomposition, but this problem can be resolved: the CFTs are the same as CFTs for disconnected targets. Such theories also lack cluster decomposition, but e-print archive: http://lanl."
+  },
+  "reference_15": {
+    "title": "Notes on generalized global symmetries in QFT",
+    "date": "2015",
+    "authors": [
+      "Sharpe E."
+    ],
+    "publication": "Fortsch. Phys. 63:659–82",
+    "citation_count": 178,
+    "abs": "It was recently argued that quantum field theories possess one‐form and higher‐form symmetries, labelled ‘generalized global symmetries.’ In this paper, we describe how those higher‐form symmetries can be understood mathematically as special cases of more general 2‐groups and higher groups, and discuss examples of quantum field theories admitting actions of more general higher groups than merely one‐form and higher‐form symmetries. We discuss analogues of topological defects for some of these higher symmetry groups, relating some of them to ordinary topological defects. We also discuss topological defects in cases in which the moduli ‘space’ (technically, a stack) admits an action of a higher symmetry group. Finally, we outline a proposal for how certain anomalies might potentially be understood as describing a transmutation of an ordinary group symmetry of the classical theory into a 2‐group or higher group symmetry of the quantum theory, which we link to WZW models and bosonization."
+  },
+  "reference_16": {
+    "title": "Generalized global symmetries",
+    "date": "2015",
+    "authors": [
+      "Gaiotto D",
+      "Kapustin A",
+      "Seiberg N",
+      "Willett B."
+    ],
+    "publication": "JHEP 02:172",
+    "citation_count": 1699,
+    "abs": "A q-form global symmetry is a global symmetry for which the charged operators are of space-time dimension q; e.g. Wilson lines, surface defects, etc., and the charged excitations have q spatial dimensions; e.g. strings, membranes, etc. Many of the properties of ordinary global symmetries (q = 0) apply here. They lead to Ward identities and hence to selection rules on amplitudes. Such global symmetries can be coupled to classical background fields and they can be gauged by summing over these classical fields. These generalized global symmetries can be spontaneously broken (either completely or to a sub-group). They can also have ’t Hooft anomalies, which prevent us from gauging them, but lead to ’t Hooft anomaly matching conditions. Such anomalies can also lead to anomaly inflow on various defects and exotic Symmetry Protected Topological phases. Our analysis of these symmetries gives a new unified perspective of many known phenomena and uncovers new results."
+  },
+  "reference_17": {
+    "title": "Goldstone modes and photonization for higher form symmetries",
+    "date": "2019",
+    "authors": [
+      "Hofman DM",
+      "Iqbal N."
+    ],
+    "publication": "SciPost Phys 6:006",
+    "citation_count": 78,
+    "abs": "We discuss generalized global symmetries and their breaking. We extend Goldstone’s theorem to higher form symmetries by showing that a perimeter law for an extended p <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>p</mml:mi> </mml:math> -dimensional defect operator charged under a continuous p <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>p</mml:mi> </mml:math> -form generalized global symmetry necessarily results in a gapless mode in the spectrum. We also show that a p <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>p</mml:mi> </mml:math> -form symmetry in a conformal theory in 2(p+1) <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mn>2</mml:mn> <mml:mo stretchy=\"false\" form=\"prefix\">(</mml:mo> <mml:mi>p</mml:mi> <mml:mo>+</mml:mo> <mml:mn>1</mml:mn> <mml:mo stretchy=\"false\" form=\"postfix\">)</mml:mo> </mml:mrow> </mml:math> dimensions has a free realization. In four dimensions this means any 1-form symmetry in a CFT_4 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>C</mml:mi> <mml:mi>F</mml:mi> <mml:msub> <mml:mi>T</mml:mi> <mml:mn>4</mml:mn> </mml:msub> </mml:mrow> </mml:math> can be realized by free Maxwell electrodynamics, i.e. the current can be photonized . The theory has infinitely many conserved 0-form charges that are constructed by integrating the symmetry currents against suitable 1-forms. We study these charges by developing a twistor-based formalism that is a 4d analogue of the usual holomorphic complex analysis familiar in CFT_2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>C</mml:mi> <mml:mi>F</mml:mi> <mml:msub> <mml:mi>T</mml:mi> <mml:mn>2</mml:mn> </mml:msub> </mml:mrow> </mml:math> . The charges are shown to obey an algebra with central extension, which is an analogue of the 2d Abelian Kac-Moody algebra for higher form symmetries."
+  },
+  "reference_18": {
+    "title": "Superfluids as higher-form anomalies",
+    "date": "2020",
+    "authors": [
+      "Delacrétaz LV",
+      "Hofman DM",
+      "Mathys G."
+    ],
+    "publication": "SciPost Phys 8:047",
+    "citation_count": 68,
+    "abs": "We recast superfluid hydrodynamics as the hydrodynamic theory of a system with an emergent anomalous higher-form symmetry. The higher-form charge counts the winding planes of the superfluid - its constitutive relation replaces the Josephson relation of conventional superfluid hydrodynamics. This formulation puts all hydrodynamic equations on equal footing. The anomalous Ward identity can be used as an alternative starting point to prove the existence of a Goldstone boson, without reference to spontaneous symmetry breaking. This provides an alternative characterization of Landau phase transitions in terms of higher-form symmetries and their anomalies instead of how the symmetries are realized. This treatment is more general and, in particular, includes the case of BKT transitions. As an application of this formalism we construct the hydrodynamic theories of conventional (0-form) and 1-form superfluids."
+  },
+  "reference_19": {
+    "title": "Toward a 3d Ising model with a weakly-coupled string theory dual",
+    "date": "2020",
+    "authors": [
+      "Iqbal N",
+      "McGreevy J."
+    ],
+    "publication": "SciPost Phys 9:019",
+    "citation_count": 20,
+    "abs": "It has long been expected that the 3d Ising model can be thought of as a string theory, where one interprets the domain walls that separate up spins from down spins as two-dimensional string worldsheets. The usual Ising Hamiltonian measures the area of these domain walls. This theory has string coupling of unit magnitude. We add new local terms to the Ising Hamiltonian that further weight each spin configuration by a factor depending on the genus of the corresponding domain wall, resulting in a new 3d Ising model that has a tunable bare string coupling g_s <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mi>g</mml:mi> <mml:mi>s</mml:mi> </mml:msub> </mml:math> . We use a combination of analytical and numerical methods to analyze the phase structure of this model as g_s <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mi>g</mml:mi> <mml:mi>s</mml:mi> </mml:msub> </mml:math> is varied. We study statistical properties of the topology of worldsheets and discuss the prospects of using this new deformation at weak string coupling to find a worldsheet description of the 3d Ising transition."
+  },
+  "reference_20": {
+    "title": "Higher-form symmetry breaking at Ising transitions",
+    "date": "2021",
+    "authors": [
+      "Zhao J",
+      "Yan Z",
+      "Cheng M",
+      "Meng ZY."
+    ],
+    "publication": "Phys. Rev. Res. 3:033024",
+    "citation_count": 47,
+    "abs": "In recent years, new phases of matter that are beyond the Landau paradigm of symmetry breaking have been accumulating, and to catch up with this fast development, new notions of global symmetry are introduced. Among them, the higher-form symmetry, whose symmetry charges are spatially extended, can be used to describe topologically ordered phases as the spontaneous breaking of the symmetry, and consequently unify the unconventional and conventional phases under the same conceptual framework. However, such conceptual tools have not been put into quantitative tests except for certain solvable models, therefore limiting their usage in the more generic quantum many-body systems. In this work, we study ${\\mathbb{Z}}_{2}$ higher-form symmetry in a quantum Ising model, which is dual to the global (zero-form) Ising symmetry. We compute the expectation value of the Ising disorder operator, which is a nonlocal order parameter for the higher-form symmetry, analytically in free scalar theories and through unbiased quantum Monte Carlo simulations for the interacting fixed point in $(2+1)d$. From the scaling form of this extended object, we confirm that the higher-form symmetry is indeed spontaneously broken inside the paramagnetic, or quantum disordered phase (in the Landau sense), but remains symmetric in the ferromagnetic or ordered phase. At the Ising critical point, we find that the disorder operator also obeys a ``perimeter'' law scaling with possibly multiplicative power-law corrections. We discuss examples where both the global zero-form symmetry and the dual higher-form symmetry are preserved, in systems with a codimension-1 manifold of gapless points in momentum space. These results provide nontrivial working examples of higher-form symmetry operators, including the direct computation of one-form order parameter in an interacting conformal field theory, and open the avenue for their generic implementation in quantum many-body systems."
+  },
+  "reference_21": {
+    "title": "Higher symmetry and gapped phases of gauge theories",
+    "date": "2017",
+    "authors": [
+      "Kapustin A",
+      "Thorngren R."
+    ],
+    "publication": "Prog. Math. 324:177–202",
+    "citation_count": 30,
+    "abs": "We study topological field theory describing gapped phases of gauge theories where the gauge symmetry is partially Higgsed and partially confined. The TQFT can be formulated both in the continuum and on the lattice and generalizes Dijkgraaf-Witten theory by replacing a finite group by a finite 2-group. The basic field in this TQFT is a 2-connection on a principal 2-bundle. We classify topological actions for such theories as well as loop and surface observables. When the topological action is trivial, the TQFT is related to a Dijkgraaf-Witten theory by electric-magnetic duality, but in general it is distinct. We propose the existence of new phases of matter protected by higher symmetry."
+  },
+  "reference_22": {
+    "title": "Anomalies in the space of coupling constants and their dynamical applications II",
+    "date": "2020",
+    "authors": [
+      "Córdova C",
+      "Freed DS",
+      "Lam HT",
+      "Seiberg N."
+    ],
+    "publication": "SciPost Phys 8:001",
+    "citation_count": 226,
+    "abs": "We extend our earlier work on anomalies in the space of coupling constants to four-dimensional gauge theories. Pure Yang-Mills theory (without matter) with a simple and simply connected gauge group has a mixed anomaly between its one-form global symmetry (associated with the center) and the periodicity of the \\theta <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>θ</mml:mi> </mml:math> -parameter. This anomaly is at the root of many recently discovered properties of these theories, including their phase transitions and interfaces. These new anomalies can be used to extend this understanding to systems without discrete symmetries (such as time-reversal). We also study SU(N) <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:mi>U</mml:mi> <mml:mo stretchy=\"false\" form=\"prefix\">(</mml:mo> <mml:mi>N</mml:mi> <mml:mo stretchy=\"false\" form=\"postfix\">)</mml:mo> </mml:mrow> </mml:math> and Sp(N) <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:mi>p</mml:mi> <mml:mo stretchy=\"false\" form=\"prefix\">(</mml:mo> <mml:mi>N</mml:mi> <mml:mo stretchy=\"false\" form=\"postfix\">)</mml:mo> </mml:mrow> </mml:math> gauge theories with matter in the fundamental representation. Here we find a mixed anomaly between the flavor symmetry group and the \\theta <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>θ</mml:mi> </mml:math> -periodicity. Again, this anomaly unifies distinct recently-discovered phenomena in these theories and controls phase transitions and the dynamics on interfaces."
+  },
+  "reference_23": {
+    "title": "Determination of an Operator Algebra for the Two-Dimensional Ising Model",
+    "date": "1971",
+    "authors": [
+      "Kadanoff LP",
+      "Ceva H."
+    ],
+    "publication": "Phys. Rev. B 3:3918–39",
+    "citation_count": 561,
+    "abs": "A previous publication showed how the critical indices for the two-dimensional Ising model could be derived from an assumed form of an operator algebra which describes how the product of two fluctuating variables may be reduced to a linear combination of the basic fluctuating variables. In this paper, the previously used algebra is derived from the Onsager solution of the two-dimensional Ising model. The calculation makes use of a \"disorder\" variable which is mathematically the result of applying the Kramers-Wannier transformation to the Ising-model spin variable. The average of products of spin and disorder variables are evaluated at the critical point for the special case in which all the variables lie on a single straight line. The ordering of these variables on the line determines a \"quantum number\" $\\ensuremath{\\Gamma}$ such that the average is nonzero only for $\\ensuremath{\\Gamma}=0$. Composition rules for this quantum number are derived and used to develop an algebra for the multiplication of complex variables at the critical point. Arguments are given to suggest the identifications of elements of the algebra as the spin, the energy density, the Kaufman spinors, and a stress density. The result of this calculation is the operator algebra which formed the starting point of the previous paper."
+  },
+  "reference_24": {
+    "title": "Disorder Operators and Their Descendants",
+    "date": "2017",
+    "authors": [
+      "Fradkin E."
+    ],
+    "publication": "J. Stat. Phys. 167:427",
+    "citation_count": 67,
+    "abs": "Building on the recent progress in solving Chern-Simons-matter theories in the planar limit, we compute the scaling dimensions of a large class of disorder (“monopole”) operators in U(N ) k Chern-Simons-fermion theories at all ’t Hooft couplings. We find that the lowest-dimension operator of this sort has dimension $$ \\frac{2}{3}{k}^{3/2} $$ . We comment on the implications of these results to analyzing maps of fermionic disorder operators under 3D bosonization."
+  },
+  "reference_25": {
+    "title": "Emergent anomalous higher symmetries from topological order and from dynamical electromagnetic field in condensed matter systems",
+    "date": "2019",
+    "authors": [
+      "Wen XG."
+    ],
+    "publication": "Phys. Rev. B 99:205139",
+    "citation_count": 134,
+    "abs": "Global symmetry (0-symmetry) acts on the whole space while higher $k$-symmetry acts on all the codimension-$k$ closed subspaces. The usual condensed matter lattice theories do not include dynamical electromagnetic (EM) field and do not have higher symmetries (unless we engineer fine-tuned toy models). However, for gapped systems, (anomalous) higher symmetries can emerge from the usual condensed matter theories at low energies (usually in a spontaneously broken form). We pointed out that the emergent spontaneously broken higher symmetries are nothing but a kind of topological order. Thus the study of emergent spontaneously broken higher symmetries is a study of topological order. The emergent (anomalous) higher symmetries can be used to constrain possible phase transitions and possible phases induced by certain types of excitations in topological orders. (Anomalous) higher symmetry can also emerge in gapless systems if the gapless excitations contain gapless gauge fields. In particular, EM condensed matter systems that include the dynamical EM field have an emergent anomalous $U(1)$-1-symmetry below the energy gap of the magnetic monopoles. So EM condensed matter systems can realize some physical phenomena of anomalous higher symmetry. In particular, any gapped liquid phase of an EM condensed matter system (induced by arbitrary fluctuations and condensations of electric charges and photons) must have a nontrivial bosonic topological order."
+  },
+  "reference_26": {
+    "title": "Fault tolerant quantum computation by anyons",
+    "date": "2003",
+    "authors": [
+      "Kitaev AY."
+    ],
+    "publication": "Ann. Phys. 303:2–30",
+    "citation_count": 6920,
+    "abs": "Topological quantum computation has emerged as one of the most exciting approaches to constructing a fault-tolerant quantum computer. The proposal relies on the existence of topological states of matter whose quasiparticle excitations are neither bosons nor fermions, but are particles known as non-Abelian anyons, meaning that they obey non-Abelian braiding statistics. Quantum information is stored in states with multiple quasiparticles, which have a topological degeneracy. The unitary gate operations that are necessary for quantum computation are carried out by braiding quasiparticles and then measuring the multiquasiparticle states. The fault tolerance of a topological quantum computer arises from the nonlocal encoding of the quasiparticle states, which makes them immune to errors caused by local perturbations. To date, the only such topological states thought to have been found in nature are fractional quantum Hall states, most prominently the $\\ensuremath{\\nu}=5∕2$ state, although several other prospective candidates have been proposed in systems as disparate as ultracold atoms in optical lattices and thin-film superconductors. In this review article, current research in this field is described, focusing on the general theoretical concepts of non-Abelian statistics as it relates to topological quantum computation, on understanding non-Abelian quantum Hall states, on proposed experiments to detect non-Abelian anyons, and on proposed architectures for a topological quantum computer. Both the mathematical underpinnings of topological quantum computation and the physics of the subject are addressed, using the $\\ensuremath{\\nu}=5∕2$ fractional quantum Hall state as the archetype of a non-Abelian topological state enabling fault-tolerant quantum computation."
+  },
+  "reference_27": {
+    "title": "Higher-form symmetries and spontaneous symmetry breaking",
+    "date": "2018",
+    "authors": [
+      "Lake E."
+    ],
+    "publication": "",
+    "citation_count": 31,
+    "abs": "We study various aspects of spontaneous symmetry breaking in theories that possess higher-form symmetries, which are symmetries whose charged objects have a dimension $p&gt;0$. We first sketch a proof of a higher version of Goldstone's theorem, and then discuss how boundary conditions and gauge-fixing issues are dealt with in theories with spontaneously broken higher symmetries, focusing in particular on $p$-form $U(1)$ gauge theories. We then elaborate on a generalization of the Coleman-Mermin-Wagner theorem for higher-form symmetries, namely that in spacetime dimension $D$, continuous $p$-form symmetries can never be spontaneously broken if $p\\geq D-2$. We also make a few comments on relations between higher symmetries and asymptotic symmetries in Abelian gauge theory."
+  },
+  "reference_28": {
+    "title": "String-net condensation: A physical mechanism for topological phases",
+    "date": "2005",
+    "authors": [
+      "Levin MA",
+      "Wen XG."
+    ],
+    "publication": "Phys. Rev. B 71:045110",
+    "citation_count": 1483,
+    "abs": "We show that quantum systems of extended objects naturally give rise to a large class of exotic phases---namely topological phases. These phases occur when extended objects, called ``string-nets,'' become highly fluctuating and condense. We construct a large class of exactly soluble 2D spin Hamiltonians whose ground states are string-net condensed. Each ground state corresponds to a different parity invariant topological phase. The models reveal the mathematical framework underlying topological phases: tensor category theory. One of the Hamiltonians---a spin-$1∕2$ system on the honeycomb lattice---is a simple theoretical realization of a universal fault tolerant quantum computer. The higher dimensional case also yields an interesting result: we find that 3D string-net condensation naturally gives rise to both emergent gauge bosons and emergent fermions. Thus, string-net condensation provides a mechanism for unifying gauge bosons and fermions in 3 and higher dimensions."
+  },
+  "reference_29": {
+    "title": "Colloquium: Photons and electrons as emergent phenomena",
+    "date": "2005",
+    "authors": [
+      "Levin MA",
+      "Wen XG."
+    ],
+    "publication": "Rev. Mod. Phys. 77:871–79",
+    "citation_count": 161,
+    "abs": "Recent advances in condensed-matter theory have revealed that new and exotic phases of matter can exist in spin models (or more precisely, local bosonic models) via a simple physical mechanism, known as ``string-net condensation.'' These new phases of matter have the unusual property that their collective excitations are gauge bosons and fermions. In some cases, the collective excitations can behave just like the photons, electrons, gluons, and quarks in our vacuum. This suggests that photons, electrons, and other elementary particles may have a unified origin---string-net condensation in our vacuum. In addition, the string-net picture indicates how to make artificial photons, artificial electrons, and artificial quarks and gluons in condensed-matter systems."
+  },
+  "reference_30": {
+    "title": "Mean string field theory: Landau-Ginzburg theory for 1-form symmetries",
+    "date": "2021",
+    "authors": [
+      "Iqbal N",
+      "McGreevy J."
+    ],
+    "publication": "",
+    "citation_count": 58,
+    "abs": "By analogy with the Landau-Ginzburg theory of ordinary zero-form symmetries, we introduce and develop a Landau-Ginzburg theory of one-form global symmetries, which we call mean string field theory. The basic dynamical variable is a string field – defined on the space of closed loops – that can be used to describe the creation, annihilation, and condensation of effective strings. Like its zero-form cousin, the mean string field theory provides a useful picture of the phase diagram of broken and unbroken phases. We provide a transparent derivation of the area law for charged line operators in the unbroken phase and describe the dynamics of gapless Goldstone modes in the broken phase. The framework also provides a theory of topological defects of the broken phase and a description of the phase transition that should be valid above an upper critical dimension, which we discuss. We also discuss general consequences of emergent one-form symmetries at zero and finite temperature."
+  },
+  "reference_31": {
+    "title": "Loop equations and 1N expansion",
+    "date": "1983",
+    "authors": [
+      "Migdal AA."
+    ],
+    "publication": "Phys. Rep. 102:199–290",
+    "citation_count": 451,
+    "abs": "The Anderson Hamiltonian with electron hole symmetry is investigated by the pertur bation expansion in a power series of the electron correlation U. As it is found that expansions converge rapidly, we can draw continuous curves for the magnetic susceptibility x, the T-lin~ar specific heat C, the resistivity and density of states over the Hartree-Fock critical point."
+  },
+  "reference_32": {
+    "title": "The Gaussian transformation converts lattice gauge theory into a field theory of strings",
+    "date": "1980",
+    "authors": [
+      "Banks T."
+    ],
+    "publication": "Phys. Lett. B 89:369–72",
+    "citation_count": 476,
+    "abs": "Abstract Lattice gauge theories, which originated from particle physics in the context of Quantum Chromodynamics (QCD), provide an important intellectual stimulus to further develop quantum information technologies. While one long-term goal is the reliable quantum simulation of currently intractable aspects of QCD itself, lattice gauge theories also play an important role in condensed matter physics and in quantum information science. In this way, lattice gauge theories provide both motivation and a framework for interdisciplinary research towards the development of special purpose digital and analog quantum simulators, and ultimately of scalable universal quantum computers. In this manuscript, recent results and new tools from a quantum science approach to study lattice gauge theories are reviewed. Two new complementary approaches are discussed: first, tensor network methods are presented – a classical simulation approach – applied to the study of lattice gauge theories together with some results on Abelian and non-Abelian lattice gauge theories. Then, recent proposals for the implementation of lattice gauge theory quantum simulators in different quantum hardware are reported, e.g., trapped ions, Rydberg atoms, and superconducting circuits. Finally, the first proof-of-principle trapped ions experimental quantum simulations of the Schwinger model are reviewed. Graphical abstract"
+  },
+  "reference_33": {
+    "title": "A path-functional field theory of lattice gauge models and the large-N limit",
+    "date": "1981",
+    "authors": [
+      "Yoneya T."
+    ],
+    "publication": "Nucl. Phys. B 183:471–96",
+    "citation_count": 13032,
+    "abs": "A theory of superconductivity is presented, based on the fact that the interaction between electrons resulting from virtual exchange of phonons is attractive when the energy difference between the electrons states involved is less than the phonon energy, $\\ensuremath{\\hbar}\\ensuremath{\\omega}$. It is favorable to form a superconducting phase when this attractive interaction dominates the repulsive screened Coulomb interaction. The normal phase is described by the Bloch individual-particle model. The ground state of a superconductor, formed from a linear combination of normal state configurations in which electrons are virtually excited in pairs of opposite spin and momentum, is lower in energy than the normal state by amount proportional to an average ${(\\ensuremath{\\hbar}\\ensuremath{\\omega})}^{2}$, consistent with the isotope effect. A mutually orthogonal set of excited states in one-to-one correspondence with those of the normal phase is obtained by specifying occupation of certain Bloch states and by using the rest to form a linear combination of virtual pair configurations. The theory yields a second-order phase transition and a Meissner effect in the form suggested by Pippard. Calculated values of specific heats and penetration depths and their temperature variation are in good agreement with experiment. There is an energy gap for individual-particle excitations which decreases from about $3.5k{T}_{c}$ at $T=0\\ifmmode^\\circ\\else\\textdegree\\fi{}$K to zero at ${T}_{c}$. Tables of matrix elements of single-particle operators between the excited-state superconducting wave functions, useful for perturbation expansions and calculations of transition probabilities, are given."
+  },
+  "reference_34": {
+    "title": "Higgs mechanism for Kalb-Ramond gauge field.",
+    "date": "1989",
+    "authors": [
+      "Rey S-J."
+    ],
+    "publication": "Phys. Rev. D 40:3396–401",
+    "citation_count": 73,
+    "abs": "Kalb-Ramond gauge field theory, coupled to manifestly gauge-invariant and reparametrization-invariant second-quantized string fields, is studied. String condensation into the vacuum is shown to develop masses to the Kalb-Ramond gauge field which we call the string Higgs mechanism. In case the Kalb-Ramond field couples to the open strings which have a massless vector field in the spectrum, our field theory also exhibits the well-known Stueckelberg mechanism. To strengthen our conclusion, we construct a lattice version of the above string field theory and demonstrate that the mean-field approximation indicates the existence of the Higgs phase."
+  },
+  "reference_35": {
+    "title": "Vortex-boson duality in four space-time dimensions",
+    "date": "2007",
+    "authors": [
+      "Franz M."
+    ],
+    "publication": "EPL 77:47005",
+    "citation_count": 33,
+    "abs": "A continuum version of the vortex-boson duality in (3+1) dimensions is formulated and its implications studied in the context of a pair Wigner crystal in underdoped cuprate superconductors. The dual theory to a phase fluctuating superconductor (or superfluid) is shown to be a theory of bosonic strings interacting through a Kalb-Ramond rank-2 tensorial gauge field. String condensation produces Higgs mass for the gauge field and the expected Wigner crystal emerges as an interesting space-time analog of the Abrikosov lattice."
+  },
+  "reference_36": {
+    "title": "Condensing Nielsen–Olesen strings and the vortex–boson duality in 3+1 and higher dimensions",
+    "date": "2011",
+    "authors": [
+      "Beekman AJ",
+      "Sadri D",
+      "Zaanen J."
+    ],
+    "publication": "New J. Phys. 13:033004",
+    "citation_count": 26,
+    "abs": "Dualities yield considerable insight into field theories by relating the weak coupling regime of one theory to the strong coupling regime of another. A prominent example is the 'vortex–boson' (or 'Abelian-Higgs', 'XY') duality in 2+1 dimensions demonstrating that the quantum disordered superfluid is equivalent to an ordered superconductor and the other way around. Such a duality structure should be ubiquitous, but despite the simplicity of the complex scalar field theory in 3+1 (and higher) dimensions, a precise formulation of the duality is lacking. In 2+1 dimensions the construction rests on the fact that the topological excitations of the superfluid (vortices) are particle-like and the dual superconductor corresponds just to a conventional Bose condensate of vortices. Departing from the superfluid, the vortices in 3+1d are Nielsen–Olesen strings and the difficulty is in the construction of string field theory. We demonstrate that an earlier attempt [1] to construct the dual theory is subtly flawed. Relying on the understanding of the physics of the disordered superfluid in higher dimensions, as well as a gauge invariant formulation of the Higgs mechanism at work in this context, we derive the effective action for the dual string superconductor in 3+1d. This turns out to be a very simple affair: the string condensate just supports a massive compressional mode, while it gives mass to the 2-form transversal photon that represents the remnant of the zero sound mode of the superfluid. We conclude with the observation that the 2+1d superfluid–superconductor duality actually persists in all D+1 dimensions with D ⩾ 2: the condensates are formed from D − 2-branes interacting via D − 1-form gauge fields but the form of the effective theory of the dual superconductor is eventually independent of dimensionality. Finally, we demonstrate that Bose–Mott insulators support topological defects that are string-like in 3+1d. This surprising implication of duality may be seen in cold atom experiments."
+  },
+  "reference_37": {
+    "title": "'t Hooft G. 1980. NATO Adv. Study Inst. Ser. B Phys. 59:135",
+    "date": "1980",
+    "authors": [
+      "'t Hooft G"
+    ],
+    "publication": "NATO Adv. Study Inst. Ser. B Phys. 59:135",
+    "citation_count": 154,
+    "abs": "We study 't Hooft anomalies for a global discrete internal symmetry G. We construct examples of bosonic field theories in three dimensions with a nonvanishing 't Hooft anomaly for a discrete global symmetry. We also construct field theories in three dimensions with a global discrete internal symmetry G(1) × G(2) such that gauging G(1) necessarily breaks G(2) and vice versa. This is analogous to the Adler-Bell-Jackiw axial anomaly in four dimensions and parity anomaly in three dimensions."
+  },
+  "reference_38": {
+    "title": "Symmetry protected topological orders and the group cohomology of their symmetry group",
+    "date": "2013",
+    "authors": [
+      "Chen X",
+      "Gu ZC",
+      "Liu ZX",
+      "Wen XG."
+    ],
+    "publication": "Phys. Rev. B 87:155114",
+    "citation_count": 1365,
+    "abs": "Symmetry protected topological (SPT) phases are gapped short-range-entangled quantum phases with a symmetry G. They can all be smoothly connected to the same trivial product state if we break the symmetry. The Haldane phase of spin-1 chain is the first example of SPT phases which is protected by SO(3) spin rotation symmetry. The topological insulator is another example of SPT phases which are protected by U (1) and timereversal symmetries. In this paper, we show that interacting bosonic SPT phases can be systematically described by group cohomology theory: Distinct d-dimensional bosonic SPT phases with on-site symmetry G (which may contain antiunitary time-reversal symmetry) can be labeled by the elements in H 1+d [G,U T (1)], the Borel (1 + d)-group-cohomology classes of G over the G module U T (1). Our theory, which leads to explicit ground-state wave functions and commuting projector Hamiltonians, is based on a new type of topological term that generalizes the topological term in continuous nonlinear models to lattice nonlinear models. The boundary excitations of the nontrivial SPT phases are described by lattice nonlinear models with a nonlocal Lagrangian term that generalizes the Wess-Zumino-Witten term for continuous nonlinear models. As a result, the symmetry G must be realized as a non-on-site symmetry for the low-energy boundary excitations, and those boundary states must be gapless or degenerate. As an application of our result, we can use H 1+d [U (1) Z T 2 ,U T (1)] to obtain interacting bosonic topological insulators (protected by time reversal Z T 2 and boson number conservation), which contain one nontrivial phase in one-dimensional (1D) or 2D and three in 3D. We also obtain interacting bosonic topological superconductors (protected by time-reversal symmetry only), in term of H 1+d [Z T 2 ,U T (1)], which contain one nontrivial phase in odd spatial dimensions and none for even dimensions. Our result is much more general than the above two examples, since it is for any symmetry group. For example, we can use H 1+d [U (1) Z T 2 ,U T (1)] to construct the SPT phases of integer spin systems with time-reversal and U (1) spin rotation symmetry, which contain three nontrivial SPT phases in 1D, none in 2D, and seven in 3D. Even more generally, we find that the different bosonic symmetry breaking short-range-entangled phases are labeled by the following three mathematical objects: (G H ,G ,H 1+d [G ,U T (1)]), where G H is the symmetry group of the Hamiltonian and G the symmetry group of the ground states."
+  },
+  "reference_39": {
+    "title": "Symmetry Protected Topological phases of Quantum Matter",
+    "date": "2015",
+    "authors": [
+      "Senthil T."
+    ],
+    "publication": "Annu. Rev. Condens. Matter Phys. 6:299–324",
+    "citation_count": 603,
+    "abs": "We describe recent progress in our understanding of the interplay between interactions, symmetry, and topology in states of quantum matter. We focus on a minimal generalization of the celebrated topological band insulators (TBIs) to interacting many-particle systems known as symmetry-protected topological (SPT) phases. As with the TBIs, these states have a bulk gap and no exotic excitations but have nontrivial surface states that are protected by symmetry. We describe the various possible phases and their properties in three-dimensional systems with realistic symmetries. We develop many key ideas for the theory of these states using simple examples. The emphasis is on physical rather than mathematical properties. We survey insights obtained from the study of SPT phases for a number of other theoretical problems."
+  },
+  "reference_40": {
+    "title": "Classification of Abelian quantum Hall states and matrix formulation of topological fluids.",
+    "date": "1992",
+    "authors": [
+      "Wen XG",
+      "Zee A."
+    ],
+    "publication": "Phys. Rev. B 46:2290–301",
+    "citation_count": 518,
+    "abs": "We give a simple and unified treatment of quantum topological fluids such as the quantum Hall fluid. We show that the order in such fluids can be characterized by a symmetric matrix K, in terms of which various physical quantities can be determined. We construct K by a matrix iteration procedure which may be decomposed into two simple elementary steps. The hierarchy construction is shown to be contained in our matrix iteration construction. The relationship between the vortex basis and the dual electron basis is clarified. We also show that under certain mild assumptions the generalized hierarchy construction exhausts all possible Abelian fractional quantum Hall states. We identify and determine the topological quantity known as the shift. Our formalism may be relevant for recent experimental data on multilayered systems."
+  },
+  "reference_41": {
+    "title": "Quantum hall fluids",
+    "date": "1995",
+    "authors": [
+      "Zee A."
+    ],
+    "publication": "Lect. Notes Phys. 456:99–153",
+    "citation_count": 5735,
+    "abs": "This Letter presents variational ground-state and excited-state wave functions which describe the condensation of a two-dimensional electron gas into a new state of matter.Received 22 February 1983DOI:https://doi.org/10.1103/PhysRevLett.50.1395©1983 American Physical Society"
+  },
+  "reference_42": {
+    "title": "Vishwanath A. 2013. Phys. Rev. X 3:011016",
+    "date": "2013",
+    "authors": [
+      "Vishwanath A",
+      "Senthil T."
+    ],
+    "publication": "Phys. Rev. X 3:011016",
+    "citation_count": 154,
+    "abs": "It is well known that one signature of the three-dimensional electron topological insulator is the Witten effect: if the system is coupled to a compact electromagnetic gauge field, a monopole in the bulk acquires a half-odd-integer polarization charge. In the present work, we propose a corresponding phenomenon for the topological insulator of bosons in three dimensions protected by particle number conservation and time-reversal symmetry. We claim that although a monopole inside a topological insulator of bosons can remain electrically neutral, its statistics are transmuted from bosonic to fermionic. We demonstrate that this ``statistical Witten effect'' directly implies that if the surface of the topological insulator is neither gapless, nor spontaneously breaks the symmetry, it necessarily supports an intrinsic two-dimensional topological order. Moreover, the surface properties can not be fully realized in a purely two-dimensional system. We also confirm that the surface phases of the bosonic topological insulator proposed by Vishwanath and Senthil [Phys. Rev. X 3, 011016 (2013)] provide a consistent termination of a bulk exhibiting the statistical Witten effect. In a forthcoming paper, we will provide an explicit field-theoretic, lattice-regularized construction of the three-dimensional topological insulator of bosons, employing a parton decomposition and subsequent condensation of parton-monopole composites."
+  },
+  "reference_43": {
+    "title": "Topological approach to Luttinger's theorem and the fermi surface of a kondo lattice",
+    "date": "2000",
+    "authors": [
+      "Oshikawa M."
+    ],
+    "publication": "Phys. Rev. Lett. 84:3370–73",
+    "citation_count": 381,
+    "abs": "A nonperturbative proof of Luttinger's theorem, based on a topological argument, is given for Fermi liquids in arbitrary dimensions. Application to the Kondo lattice shows that even completely localized spins contribute to the Fermi sea volume as electrons, whenever the system can be described as a Fermi liquid."
+  },
+  "reference_44": {
+    "title": "Lieb-Schultz-Mattis in higher dimensions",
+    "date": "2004",
+    "authors": [
+      "Hastings MB."
+    ],
+    "publication": "Phys. Rev. B 69:104431",
+    "citation_count": 703,
+    "abs": "A generalization of the Lieb-Schultz-Mattis theorem to higher-dimensional spin systems is shown. The physical motivation for the result is that such spin systems typically either have long-range order, in which case there are gapless modes, or have only short-range correlations, in which case there are topological excitations. The result uses a set of loop operators, analogous to those used in gauge theories, defined in terms of the spin operators of the theory. We also obtain various cluster bounds on expectation values for gapped systems. These bounds are used, under the assumption of a gap, to rule out the first case of long-range order, after which we show the existence of a topological excitation. Compared to the ground state, the topologically excited state has, up to a small error, the same expectation values for all operators acting within any local region, but it has a different momentum."
+  },
+  "reference_45": {
+    "title": "Topological theory of Lieb-Schultz-Mattis theorems in quantum spin systems",
+    "date": "2020",
+    "authors": [
+      "Else DV",
+      "Thorngren R."
+    ],
+    "publication": "Phys. Rev. B 101:224437",
+    "citation_count": 88,
+    "abs": "Exploring the consequences of the arrangement of spins and its space-group symmetry, a systematic theory is given to determine under what circumstances the ground state of a quantum magnet must be a nontrivial quantum spin liquid if no ordering is observed. This generalizes the famous Lieb-Schultz-Mattis theorem. The theory places the theorem and its generalizations into the context of the general theory of topological phases of matter with space-group symmetries."
+  },
+  "reference_46": {
+    "title": "Bosonic Topological Insulators and Paramagnets: a view from cobordisms",
+    "date": "2014",
+    "authors": [
+      "Kapustin A."
+    ],
+    "publication": "",
+    "citation_count": 60,
+    "abs": "We classify Bosonic Topological Insulators and Paramagnets in D&lt;=4 spatial dimensions using the cobordism approach. For D&lt;4 we confirm that the only such phase which does not fit into the group cohomology classification is the 3D Bosonic Topological Insulator protected by time-reversal symmetry whose surface admits an all-fermion topologically ordered state. For D=4 there is a unique \"beyond group cohomology\" phase. It is protected by gravitational anomalies of the boundary theory and is stable without any additional symmetry."
+  },
+  "reference_47": {
+    "title": "Minimalist approach to the classification of symmetry protected topological phases",
+    "date": "2018",
+    "authors": [
+      "Xiong CZ."
+    ],
+    "publication": "J. Phys. A: Math. Theor. 51:445001",
+    "citation_count": 51,
+    "abs": "Abstract A number of proposals with differing predictions (e.g. Borel group cohomology, oriented cobordism, group supercohomology, spin cobordism, etc) have been made for the classification of symmetry protected topological (SPT) phases. Here we treat various proposals on an equal footing and present rigorous, general results that are independent of which proposal is correct. We do so by formulating a minimalist generalized cohomology hypothesis, which is satisfied by existing proposals and captures essential aspects of SPT classification. From this hypothesis alone, formulas relating classifications in different dimensions and/or protected by different symmetry groups are derived. Our formalism is expected to work for fermionic as well as bosonic phases, Floquet as well as stationary phases, and spatial as well as on-site symmetries. As an application, we predict that the complete classification of 3D bosonic SPT phases with space group symmetry G is , where the H 1 term classifies phases beyond the Borel group cohomology proposal."
+  },
+  "reference_48": {
+    "title": "Critical drag as a mechanism for resistivity",
+    "date": "2021",
+    "authors": [
+      "Else DV",
+      "Senthil T."
+    ],
+    "publication": "Phys. Rev. B 104:205132",
+    "citation_count": 3,
+    "abs": "The authors show that there is a general connection between the ability of a quantum many-body system to carry dissipationless electrical current and a continuous symmetry, possibly emergent, that has a ``mixed anomaly'' with the electric charge. When such a condition is satisfied (for example, due to momentum conservation), there is one and only way to still obtain nonzero resistivity: through a mechanism the authors dub ``critical drag'', where the resistivity comes from critical fluctuations of an order parameter."
+  },
+  "reference_49": {
+    "title": "Lieb-Schultz-Mattis type theorem with higher-form symmetry and the quantum dimer models",
+    "date": "2019",
+    "authors": [
+      "Kobayashi R",
+      "Shiozaki K",
+      "Kikuchi Y",
+      "Ryu S."
+    ],
+    "publication": "Phys. Rev. B 99:014402",
+    "citation_count": 63,
+    "abs": "The authors construct a Lieb-Schultz-Mattis (LSM)-type theorem applicable for abelian gauge theories without matter. This theorem is based on generalized global symmetries acting on Wilson lines. It provides strong constraints on possible phases, realized in lattice gauge theories. The generalized LSM theorem is demonstrated on the example of a U(1) gauge theory that simulates the quantum dimer model on a bipartite lattice. The authors find a mixed `t Hooft anomaly involving the generalized global symmetry at the Rokhsar-Kivelson critical point that corresponds to the LSM constraint."
+  },
+  "reference_50": {
+    "title": "Comments on one-form global symmetries and their gauging in 3d and 4d",
+    "date": "2019",
+    "authors": [
+      "Hsin PS",
+      "Lam HT",
+      "Seiberg N."
+    ],
+    "publication": "SciPost Phys 6:039",
+    "citation_count": 222,
+    "abs": "We study 3d and 4d systems with a one-form global symmetry, explore their consequences, and analyze their gauging. For simplicity, we focus on \\mathbb{Z}_N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mi>N</mml:mi> </mml:msub> </mml:math> one-form symmetries. A 3d topological quantum field theory (TQFT) \\mathcal{T} <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mstyle mathvariant=\"script\"> <mml:mi>𝒯</mml:mi> </mml:mstyle> </mml:math> with such a symmetry has N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>N</mml:mi> </mml:math> special lines that generate it. The braiding of these lines and their spins are characterized by a single integer p <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>p</mml:mi> </mml:math> modulo 2N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mn>2</mml:mn> <mml:mi>N</mml:mi> </mml:mrow> </mml:math> . Surprisingly, if \\gcd(N,p)=1 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mo>gcd</mml:mo> <mml:mo stretchy=\"false\" form=\"prefix\">(</mml:mo> <mml:mi>N</mml:mi> <mml:mo>,</mml:mo> <mml:mi>p</mml:mi> <mml:mo stretchy=\"false\" form=\"postfix\">)</mml:mo> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> </mml:math> the TQFT factorizes \\mathcal{T}=\\mathcal{T}'\\otimes \\mathcal{A}^{N,p} <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mstyle mathvariant=\"script\"> <mml:mi>𝒯</mml:mi> </mml:mstyle> <mml:mo>=</mml:mo> <mml:mstyle mathvariant=\"script\"> <mml:mi>𝒯</mml:mi> </mml:mstyle> <mml:mi>′</mml:mi> <mml:mo>⊗</mml:mo> <mml:msup> <mml:mstyle mathvariant=\"script\"> <mml:mi>𝒜</mml:mi> </mml:mstyle> <mml:mrow> <mml:mi>N</mml:mi> <mml:mo>,</mml:mo> <mml:mi>p</mml:mi> </mml:mrow> </mml:msup> </mml:mrow> </mml:math> . Here \\mathcal{T}' <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mstyle mathvariant=\"script\"> <mml:mi>𝒯</mml:mi> </mml:mstyle> <mml:mi>′</mml:mi> </mml:mrow> </mml:math> is a decoupled TQFT, whose lines are neutral under the global symmetry and \\mathcal{A}^{N,p} <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msup> <mml:mstyle mathvariant=\"script\"> <mml:mi>𝒜</mml:mi> </mml:mstyle> <mml:mrow> <mml:mi>N</mml:mi> <mml:mo>,</mml:mo> <mml:mi>p</mml:mi> </mml:mrow> </mml:msup> </mml:math> is a minimal TQFT with the \\mathbb{Z}_N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mi>N</mml:mi> </mml:msub> </mml:math> one-form symmetry of label p <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>p</mml:mi> </mml:math> . The parameter p <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>p</mml:mi> </mml:math> labels the obstruction to gauging the \\mathbb{Z}_N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mi>N</mml:mi> </mml:msub> </mml:math> one-form symmetry; i.e. it characterizes the ’t Hooft anomaly of the global symmetry. When p=0 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>p</mml:mi> <mml:mo>=</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math> mod"
+  },
+  "reference_51": {
+    "title": "Anyon condensation and its applications",
+    "date": "2018",
+    "authors": [
+      "Burnell FJ."
+    ],
+    "publication": "Annu. Rev. Condens. Matter Phys. 9:307–27",
+    "citation_count": 175,
+    "abs": "Bose condensation is central to our understanding of quantum phases of matter. Here, we review Bose condensation in topologically ordered phases (also called topological symmetry breaking), where the condensing bosons have nontrivial mutual statistics with other quasiparticles in the system. We give a nontechnical overview of the relationship between the phases before and after condensation, drawing parallels with more familiar symmetry-breaking transitions. We then review two important applications of this phenomenon. First, we describe the equivalence between such condensation transitions and pairs of phases with gappable boundaries, as well as examples where multiple types of gapped boundary between the same two phases exist. Second, we discuss how such transitions can lead to global symmetries that exchange or permute anyon types. Finally, we discuss the nature of the critical point, which can be mapped to a conventional phase transition in some—but not all—cases."
+  },
+  "reference_52": {
+    "title": "Topological phases with generalized global symmetries",
+    "date": "2016",
+    "authors": [
+      "Yoshida B."
+    ],
+    "publication": "Phys. Rev. B 93:155131",
+    "citation_count": 168,
+    "abs": "We present simple lattice realizations of symmetry-protected topological phases with $q$-form global symmetries where charged excitations have $q$ spatial dimensions. Specifically, we construct $d$ space-dimensional models supported on a $(d+1)$-colorable graph by using a family of unitary phase gates, known as multiqubit control-$Z$ gates in quantum information community. In our construction, charged excitations of different dimensionality may coexist and form a short-range entangled state which is protected by symmetry operators of different dimensionality. Nontriviality of proposed models, in a sense of quantum circuit complexity, is confirmed by studying protected boundary modes, gauged models, and corresponding gapped domain walls. We also comment on applications of our construction to quantum error-correcting codes, and discuss corresponding fault-tolerant logical gates."
+  },
+  "reference_53": {
+    "title": "Lattice models that realize \nZn\n-1 symmetry-protected topological states for even \nn",
+    "date": "2020",
+    "authors": [
+      "Tsui L",
+      "Wen XG."
+    ],
+    "publication": "Phys. Rev. B 101:035101",
+    "citation_count": 1699,
+    "abs": "A q-form global symmetry is a global symmetry for which the charged operators are of space-time dimension q; e.g. Wilson lines, surface defects, etc., and the charged excitations have q spatial dimensions; e.g. strings, membranes, etc. Many of the properties of ordinary global symmetries (q = 0) apply here. They lead to Ward identities and hence to selection rules on amplitudes. Such global symmetries can be coupled to classical background fields and they can be gauged by summing over these classical fields. These generalized global symmetries can be spontaneously broken (either completely or to a sub-group). They can also have ’t Hooft anomalies, which prevent us from gauging them, but lead to ’t Hooft anomaly matching conditions. Such anomalies can also lead to anomaly inflow on various defects and exotic Symmetry Protected Topological phases. Our analysis of these symmetries gives a new unified perspective of many known phenomena and uncovers new results."
+  },
+  "reference_54": {
+    "title": "Exotic invertible phases with higher-group symmetries",
+    "date": "2022",
+    "authors": [
+      "Hsin PS",
+      "Ji W",
+      "Jian C-M"
+    ],
+    "publication": "SciPost Phys 12:052",
+    "citation_count": 41,
+    "abs": "We investigate a family of invertible phases of matter with higher-dimensional exotic excitations in even spacetime dimensions, which includes and generalizes the Kitaev’s chain in 1+1d. The excitation has \\mathbb{Z}_2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mn>2</mml:mn> </mml:msub> </mml:math> higher-form symmetry that mixes with the spacetime Lorentz symmetry to form a higher group spacetime symmetry. We focus on the invertible exotic loop topological phase in 3+1d. This invertible phase is protected by the \\mathbb{Z}_2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mn>2</mml:mn> </mml:msub> </mml:math> one-form symmetry and the time-reversal symmetry, and has surface thermal Hall conductance not realized in conventional time-reversal symmetric ordinary bosonic systems without local fermion particles and the exotic loops. We describe a UV realization of the invertible exotic loop topological order using the SO(3)_- <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> <mml:mo stretchy=\"false\" form=\"prefix\">(</mml:mo> <mml:mn>3</mml:mn> <mml:msub> <mml:mo stretchy=\"false\" form=\"postfix\">)</mml:mo> <mml:mo>−</mml:mo> </mml:msub> </mml:mrow> </mml:math> gauge theory with unit discrete theta parameter, which enjoys the same spacetime two-group symmetry. We discuss several applications including the analogue of ``fermionization’’ for ordinary bosonic theories with \\mathbb{Z}_2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mn>2</mml:mn> </mml:msub> </mml:math> non-anomalous internal higher-form symmetry and time-reversal symmetry."
+  },
+  "reference_55": {
+    "title": "Fracton phases via exotic higher-form symmetry-breaking",
+    "date": "2021",
+    "authors": [
+      "Qi M",
+      "Radzihovsky L",
+      "Hermele M."
+    ],
+    "publication": "Ann. Phys. 424:168360",
+    "citation_count": 165,
+    "abs": "Based on several previous examples, we summarize explicitly the general procedure to gauge models with subsystem symmetries, which are symmetries with generators that have support within a sub-manifold of the system. The gauging process can be applied to any local quantum model on a lattice that is invariant under the subsystem symmetry. We focus primarily on simple 3D paramagnetic states with planar symmetries. For these systems, the gauged theory may exhibit foliated fracton order and we find that the species of symmetry charges in the paramagnet directly determine the resulting foliated fracton order. Moreover, we find that gauging linear subsystem symmetries in 2D or 3D models results in a self-duality similar to gauging global symmetries in 1D."
+  },
+  "reference_56": {
+    "title": "Inhomogeneous spin excitations in weakly coupled spin-\n12\n chains",
+    "date": "2022",
+    "authors": [
+      "Shen X",
+      "Wu Z",
+      "Li L",
+      "Qin Z",
+      "Yao H."
+    ],
+    "publication": "Phys Rev. Res. 4:L032008",
+    "citation_count": 4095,
+    "abs": "Electronic excitations lie at the origin of most of the commonly measured spectra. However, the first-principles computation of excited states requires a larger effort than ground-state calculations, which can be very efficiently carried out within density-functional theory. On the other hand, two theoretical and computational tools have come to prominence for the description of electronic excitations. One of them, many-body perturbation theory, is based on a set of Green's-function equations, starting with a one-electron propagator and considering the electron-hole Green's function for the response. Key ingredients are the electron's self-energy \\ensuremath{\\Sigma} and the electron-hole interaction. A good approximation for \\ensuremath{\\Sigma} is obtained with Hedin's $\\mathrm{GW}$ approach, using density-functional theory as a zero-order solution. First-principles $\\mathrm{GW}$ calculations for real systems have been successfully carried out since the 1980s. Similarly, the electron-hole interaction is well described by the Bethe-Salpeter equation, via a functional derivative of \\ensuremath{\\Sigma}. An alternative approach to calculating electronic excitations is the time-dependent density-functional theory (TDDFT), which offers the important practical advantage of a dependence on density rather than on multivariable Green's functions. This approach leads to a screening equation similar to the Bethe-Salpeter one, but with a two-point, rather than a four-point, interaction kernel. At present, the simple adiabatic local-density approximation has given promising results for finite systems, but has significant deficiencies in the description of absorption spectra in solids, leading to wrong excitation energies, the absence of bound excitonic states, and appreciable distortions of the spectral line shapes. The search for improved TDDFT potentials and kernels is hence a subject of increasing interest. It can be addressed within the framework of many-body perturbation theory: in fact, both the Green's functions and the TDDFT approaches profit from mutual insight. This review compares the theoretical and practical aspects of the two approaches and their specific numerical implementations, and presents an overview of accomplishments and work in progress."
+  },
+  "reference_57": {
+    "title": "Higher-Form Subsystem Symmetry Breaking: Subdimensional Criticality and Fracton Phase Transitions",
+    "date": "2021",
+    "authors": [
+      "Rayhaun BC",
+      "Williamson DJ."
+    ],
+    "publication": "",
+    "citation_count": 38,
+    "abs": "Subsystem symmetry has emerged as a powerful organizing principle for unconventional quantum phases of matter, most prominently fracton topological orders. Here, we focus on a special subclass of such symmetries, known as higher-form subsystem symmetries, which allow us to adapt tools from the study of conventional topological phases to the fracton setting. We demonstrate that certain transitions out of familiar fracton phases, including the X-cube model, can be understood in terms of the spontaneous breaking of higher-form subsystem symmetries. We find simple pictures for these seemingly complicated fracton topological phase transitions by relating them in an exact manner, via gauging, to spontaneous higher-form subsystem symmetry breaking phase transitions of decoupled stacks of lower-dimensional models. We harness this perspective to construct a sequence of unconventional subdimensional critical points in two and three spatial dimensions based on the stacking and gauging of canonical models with higher-form symmetry. Through numerous examples, we illustrate the ubiquity of coupled layer constructions in theories with higher-form subsystem symmetries."
+  },
+  "reference_58": {
+    "title": "Shirley W. 2018. Phys. Rev. X 8:031051",
+    "date": "2018",
+    "authors": [
+      "Shirley W",
+      "Slagle K",
+      "Wang Z",
+      "Chen X"
+    ],
+    "publication": "Phys. Rev. X 8:031051",
+    "citation_count": 19,
+    "abs": "Generally, ``fracton'' topological orders are referred to as gapped phases that support pointlike topological excitations whose mobility is, to some extent, restricted. In our previous work [Phys. Rev. B 101, 245134 (2020)], a large class of exactly solvable models on hypercubic lattices are constructed. In these models, spatially extended excitations possess generalized fractonlike properties: not only mobility but also deformability is restricted. As a series work, in this paper, we proceed further to compute ground state degeneracy (GSD) in both isotropic and anisotropic lattices. We decompose and reconstruct ground states through a consistent collection of subsystem ground state sectors, in which mathematical game ``coloring method'' is applied. Finally, we are able to systematically obtain GSD formulas (expressed as ${log}_{2}\\text{GSD}$) which exhibit diverse kinds of polynomial dependence on system sizes. For example, the GSD of the model labeled as [0,1,2,4] in four-dimensional isotropic hypercubic lattice shows $12{L}^{2}\\ensuremath{-}12L+4$ dependence on the linear size $L$ of the lattice. Inspired by existing results [W. Shirley et al., Phys. Rev. X 8, 031051 (2018)], we expect that the polynomial formulas encode geometrical and topological fingerprints of higher-dimensional manifolds beyond toric manifolds used in this work. This is left to future investigation."
+  },
+  "reference_59": {
+    "title": "Fracton Topological Order, Generalized Lattice Gauge Theory and Duality",
+    "date": "2016",
+    "authors": [
+      "Vijay S",
+      "Haah J",
+      "Fu L."
+    ],
+    "publication": "Phys. Rev. B 94:235157",
+    "citation_count": 577,
+    "abs": "We introduce a generalization of conventional lattice gauge theory to describe fracton topological phases, which are characterized by immobile, pointlike topological excitations, and subextensive topological degeneracy. We demonstrate a duality between fracton topological order and interacting spin systems with symmetries along extensive, lower-dimensional subsystems, which may be used to systematically search for and characterize fracton topological phases. Commutative algebra and elementary algebraic geometry provide an effective mathematical tool set for our results. Our work paves the way for identifying possible material realizations of fracton topological phases."
+  },
+  "reference_60": {
+    "title": "Subdimensional Particle Structure of Higher Rank U(1) Spin Liquids",
+    "date": "2017",
+    "authors": [
+      "Pretko M."
+    ],
+    "publication": "Phys. Rev. B 95:115139",
+    "citation_count": 406,
+    "abs": "Quantum spin liquids can be well described in the language of gauge theory. While most theoretical effort has been focused on gauge theories with a familiar vector gauge field, there exists a stable class of quantum spin liquids described by higher-rank tensor gauge fields. Here, the authors focus on a class of stable three-dimensional spin liquids described by symmetric tensor $U$(1) gauge fields. They find that these spin liquids feature an exotic class of excitations that are restricted to motion along lower-dimensional subspaces, a phenomenon seen earlier in fracton models. They show how this subdimensional behavior follows naturally from a set of higher-moment charge conservation laws that place severe restrictions on particle motion. This work opens up an exciting new direction in the field of spin liquids."
+  },
+  "reference_61": {
+    "title": "Gromov A.. 2019. Phys. Rev. X 9:031035",
+    "date": "2019",
+    "authors": [
+      "Gromov A."
+    ],
+    "publication": "Phys. Rev. X 9:031035",
+    "citation_count": 246,
+    "abs": "We introduce new classes of hydrodynamic theories inspired by the recently discovered fracton phases of quantum matter. Fracton phases are characterized by elementary excitations (fractons) with restricted mobility. The hydrodynamic theories we introduce describe thermalization in systems with fractonlike mobility constraints, including fluids where charge and dipole moment are both locally conserved, and fluids where charge is conserved along every line or plane of a lattice. Each of these fluids is subdiffusive and constitutes a new universality class of hydrodynamic behavior. There are infinitely many such classes, each with distinct subdiffusive exponents, all of which are captured by our formalism. Our framework naturally explains recent results on dynamics with constrained quantum circuits, as well as recent experiments with ultracold atoms in tilted optical lattices. We identify crisp experimental signatures of these novel hydrodynamics and explain how they may be realized in near term ultracold atom experiments."
+  },
+  "reference_62": {
+    "title": "Exotic symmetries, duality, and fractons in 2+1-dimensional quantum field theory",
+    "date": "2021",
+    "authors": [
+      "Seiberg N",
+      "Shao SH."
+    ],
+    "publication": "SciPost Phys 10:027",
+    "citation_count": 202,
+    "abs": "We discuss nonstandard continuum quantum field theories in 2+1 dimensions. They exhibit exotic global symmetries, a subtle spectrum of charged excitations, and dualities similar to dualities of systems in 1+1 dimensions. These continuum models represent the low-energy limits of certain known lattice systems. One key aspect of these continuum field theories is the important role played by discontinuous field configurations. In two companion papers, we will present 3+1-dimensional versions of these systems. In particular, we will discuss continuum quantum field theories of some models of fractons."
+  },
+  "reference_63": {
+    "title": "Exotic $U(1)$ symmetries, duality, and fractons in 3+1-dimensional quantum field theory",
+    "date": "2020",
+    "authors": [
+      "Seiberg N",
+      "Shao SH."
+    ],
+    "publication": "SciPost Phys. 9:046",
+    "citation_count": 192,
+    "abs": "We extend our exploration of nonstandard continuum quantum field theories in 2+1 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mn>2</mml:mn> <mml:mo>+</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> </mml:math> dimensions to 3+1 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mn>3</mml:mn> <mml:mo>+</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> </mml:math> dimensions. These theories exhibit exotic global symmetries, a peculiar spectrum of charged states, unusual gauge symmetries, and surprising dualities. Many of the systems we study have a known lattice construction. In particular, one of them is a known gapless fracton model. The novelty here is in their continuum field theory description. In this paper, we focus on models with a global U(1) <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>U</mml:mi> <mml:mo stretchy=\"false\" form=\"prefix\">(</mml:mo> <mml:mn>1</mml:mn> <mml:mo stretchy=\"false\" form=\"postfix\">)</mml:mo> </mml:mrow> </mml:math> symmetry and in a followup paper we will study models with a global \\mathbb{Z}_N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mi>N</mml:mi> </mml:msub> </mml:math> symmetry."
+  },
+  "reference_64": {
+    "title": "Exotic $\\mathbb{Z}_N$ symmetries, duality, and fractons in 3+1-dimensional quantum field theory",
+    "date": "2021",
+    "authors": [
+      "Seiberg N",
+      "Shao SH"
+    ],
+    "publication": "SciPost Phys. 10:003",
+    "citation_count": 84,
+    "abs": "Following our earlier analyses of nonstandard continuum quantum field theories, we study here gapped systems in 3+1 dimensions, which exhibit fractonic behavior. In particular, we present three dual field theory descriptions of the low-energy physics of the X-cube model. A key aspect of our constructions is the use of discontinuous fields in the continuum field theory. Spacetime is continuous, but the fields are not."
+  },
+  "reference_65": {
+    "title": "Spontaneous breaking of multipole symmetries",
+    "date": "2022",
+    "authors": [
+      "Stahl C",
+      "Lake E",
+      "Nandkishore R."
+    ],
+    "publication": "Phys. Rev. B 105:155107",
+    "citation_count": 2,
+    "abs": "Multipole symmetries are of interest both as a window on fracton physics and as a crucial ingredient in realizing new universality classes for quantum dynamics. Here we address the question of whether and when multipole symmetries can be spontaneously broken, both in thermal equilibrium and at zero temperature. We derive generalized Mermin-Wagner arguments for the total or partial breaking of multipolar symmetry groups and generalized Imry-Ma arguments for the robustness of such multipolar symmetry breaking to disorder. We present both general results and explicit examples. Our results should be directly applicable to quantum dynamics with multipolar symmetries and also provide a useful stepping stone to understanding the robustness of fracton phases to thermal fluctuations, quantum fluctuations, and disorder."
+  },
+  "reference_66": {
+    "title": "Ring exchange, the exciton Bose liquid, and bosonization in two dimensions",
+    "date": "2002",
+    "authors": [
+      "Paramekanti A",
+      "Balents L",
+      "Fisher MP."
+    ],
+    "publication": "Phys. Rev. B 66:054526",
+    "citation_count": 201,
+    "abs": "Motivated by the high-${T}_{c}$ cuprates, we consider a model of bosonic Cooper pairs moving on a square lattice via ring exchange. We show that this model offers a natural middle ground between a conventional antiferromagnetic Mott insulator and the fully deconfined fractionalized phase that underlies the spin-charge separation scenario for high-${T}_{c}$ superconductivity. We show that such ring models sustain a stable critical phase in two dimensions, the exciton Bose liquid (EBL). The EBL is a compressible state, with gapless but uncondensed boson and ``vortex'' excitations, power-law superconducting and charge-ordering correlations, and broad spectral functions. We characterize the EBL with the aid of an exact plaquette duality transformation, which motivates a universal low-energy description of the EBL. This description is in terms of a pair of dual bosonic phase fields, and is a direct analog of the well known one-dimensional bosonization approach. We verify the validity of the low-energy description by numerical simulations of the ring model in its exact dual form. The relevance to the high-${T}_{c}$ superconductors and a variety of extensions to other systems are discussed, including the bosonization of a two-dimensional fermionic ring model."
+  },
+  "reference_67": {
+    "title": "Quantum field theory of X-cube fracton topological order and robust degeneracy from geometry",
+    "date": "2017",
+    "authors": [
+      "Slagle K",
+      "Kim YB."
+    ],
+    "publication": "Phys. Rev. B 96:195139",
+    "citation_count": 209,
+    "abs": "We propose a quantum field theory description of the X-cube model of fracton topological order. The field theory is not (and cannot be) a topological quantum field theory (TQFT) since, unlike the X-cube model, TQFTs are invariant (i.e., symmetric) under continuous space-time transformations. However, the theory is instead invariant under a certain subgroup of the conformal group. We describe how braiding statistics and ground-state degeneracy are reproduced by the field theory, and how the the X-cube Hamiltonian and field theory can be minimally coupled to matter fields. We also show that even on a manifold with trivial topology, spatial curvature can induce a ground-state degeneracy that is stable to arbitrary local perturbations! Our formalism may allow for the description of other fracton field theories, where the only necessary input is an equation of motion for a charge density."
+  },
+  "reference_68": {
+    "title": "Higgs mechanism in higher-rank symmetric U(1) gauge theories",
+    "date": "2018",
+    "authors": [
+      "Bulmash D",
+      "Barkeshli M."
+    ],
+    "publication": "Phys. Rev. B 97:235112",
+    "citation_count": 161,
+    "abs": "Subdimensional motion occurs when excitations of a system can only move in a lower-dimensional subspace of the full system. This phenomenon occurs both in a class of generalized U(1) gauge theories and in ``fracton'' phases found in certain exactly solvable gapped spin models. Here, the authors present and analyze a more general class of symmetric higher-rank U(1) gauge theories and show how these two cases of subdimensional motion are connected via the Higgs mechanism, which often yields conventional phases but in special cases can drive a symmetric higher-rank U(1) gauge theory into a fracton phase."
+  },
+  "reference_69": {
+    "title": "Generalized $U(1)$ Gauge Field Theories and Fractal Dynamics",
+    "date": "2018",
+    "authors": [
+      "Bulmash D",
+      "Barkeshli M."
+    ],
+    "publication": "",
+    "citation_count": 22,
+    "abs": "We present a theoretical framework for a class of generalized $U(1)$ gauge effective field theories. These theories are defined by specifying geometric patterns of charge configurations that can be created by local operators, which then lead to a class of generalized Gauss law constraints. The charge and magnetic excitations in these theories have restricted, subdimensional dynamics, providing a generalization of recently studied higher-rank symmetric $U(1)$ gauge theories to the case where arbitrary spatial rotational symmetries are broken. These theories can describe situations where charges exist at the corners of fractal operators, thus providing a continuum effective field theoretic description of Haah's code and Yoshida's Sierpinski prism model. We also present a $3+1$-dimensional $U(1)$ theory that does not have a non-trivial discrete $\\mathbb{Z}_p$ counterpart."
+  },
+  "reference_70": {
+    "title": "Field theories with a vector global symmetry",
+    "date": "2020",
+    "authors": [
+      "Seiberg N."
+    ],
+    "publication": "SciPost Phys 8:050",
+    "citation_count": 151,
+    "abs": "Motivated by recent discussions of fractons, we explore nonrelativistic field theories with a continuous global symmetry, whose charge is a spatial vector. We present several such symmetries and demonstrate them in concrete examples. They differ by the equations their Noether currents satisfy. Simple cases, other than the translation symmetry, are an ordinary (relativistic) one-form global symmetry and its nonrelativistic generalization. In the latter case the conserved charge is associated with a codimension-one spatial manifold, but it is not topological. More general examples involve charges that are integrated over the entire space. We also discuss the coupling of these systems to gauge fields for these symmetries. We relate our examples to known continuum and lattice constructions."
+  },
+  "reference_71": {
+    "title": "Renormalization group and stability in the exciton Bose liquid",
+    "date": "2022",
+    "authors": [
+      "Lake E."
+    ],
+    "publication": "Phys. Rev. B 105:075115",
+    "citation_count": 18,
+    "abs": "The exciton Bose liquid (EBL) is a hypothesized phase of bosons in $2+1\\text{D}$ which possesses a dispersion that is gapless along the coordinate axes in momentum space. The low energy theory of the EBL involves modes on all length scales, extending all the way down to the lattice spacing. In this paper, we discuss a renormalization group scheme that can be used to address the stability of this and related phases of matter. We find that, in the absence of an extensively large symmetry group, realizing the simplest formulation of the EBL always requires fine-tuning. However, we also argue that the addition of certain marginal interactions can be used to realize a stable phase, without the need for fine-tuning. A simple generalization to $3+1\\text{D}$ is also discussed."
+  },
+  "reference_72": {
+    "title": "Classification of subsystem symmetry-protected topological phases",
+    "date": "2018",
+    "authors": [
+      "Devakul T",
+      "Williamson DJ",
+      "You Y."
+    ],
+    "publication": "Phys. Rev. B 98:235121",
+    "citation_count": 98,
+    "abs": "We consider symmetry-protected topological (SPT) phases in two dimensions protected by linear subsystem symmetries, i.e., those that act along rigid lines. There is a distinction between a ``strong'' subsystem SPT phase and a ``weak'' one, which is composed of decoupled one-dimensional SPTs with global symmetries. We propose a natural definition for strong equivalence of such phases, in terms of a linearly symmetric local unitary transformation, under which a weak subsystem SPT is equivalent to the trivial phase. This leads to a number of distinct equivalence classes of strong subsystem SPTs, which we show are in one-to-one correspondence with elements of the group $\\mathcal{C}[{G}_{s}]={\\mathcal{H}}^{2}[{G}_{s}^{2},U(1)]/{{{\\mathcal{H}}^{2}[{G}_{s},U(1)]}}^{3}$, where ${G}_{s}$ is the finite Abelian on-site symmetry group. We also show that strong subsystem SPTs by our classification necessarily exhibit a spurious topological entanglement entropy on a cylinder."
+  },
+  "reference_73": {
+    "title": "Anomaly inflow for subsystem symmetries",
+    "date": "2022",
+    "authors": [
+      "Burnell FJ",
+      "Devakul T",
+      "Gorantla P",
+      "Lam HT",
+      "Shao SH."
+    ],
+    "publication": "Phys. Rev. B 106:085113",
+    "citation_count": 64,
+    "abs": "We study 't Hooft anomalies and the related anomaly inflow for subsystem global symmetries. These symmetries and anomalies arise in a number of exotic systems, including models with fracton order such as the $X$-cube model. As is the case for ordinary global symmetries, anomalies for subsystem symmetries can be canceled by anomaly inflow from a bulk theory in one higher dimension; the corresponding bulk is therefore a nontrivial subsystem symmetry protected topological (SSPT) phase. We demonstrate these phenomena in several examples with continuous and discrete subsystem global symmetries, as well as time-reversal symmetry. For each example we describe the boundary anomaly, and present classical continuum actions for the corresponding bulk SSPT phases, which describe the response of background gauge fields associated with the subsystem symmetries. Interestingly, we show that the anomaly does not uniquely specify the bulk SSPT phase. In general, the latter may also depend on how the symmetry and the associated foliation structure on the boundary are extended into the bulk."
+  },
+  "reference_74": {
+    "title": "Subsystem symmetry enriched topological order in three dimensions",
+    "date": "2020",
+    "authors": [
+      "Stephen DT",
+      "Garre-Rubio J",
+      "Dua A",
+      "Williamson DJ."
+    ],
+    "publication": "Phys. Rev. Res. 2:033331",
+    "citation_count": 36,
+    "abs": "The authors introduce a type of three-dimensional topological orderenriched by planar subsystem symmetries, and show that it ischaracterized by the fractionalization of the symmetries on loop-likeexcitations, an increased value of the topological entanglemententropy, and the emergence of non-abelian fracton excitations upongauging the symmetry"
+  },
+  "reference_75": {
+    "title": "Local stabilizer codes in three dimensions without string logical operators",
+    "date": "2011",
+    "authors": [
+      "Haah J."
+    ],
+    "publication": "Phys. Rev. A 83:042330",
+    "citation_count": 717,
+    "abs": "We suggest concrete models for self-correcting quantum memory by reporting examples of local stabilizer codes in 3D that have no string logical operators. Previously known local stabilizer codes in 3D all have stringlike logical operators, which make the codes non-self-correcting. We introduce a notion of ``logical string segments'' to avoid difficulties in defining one-dimensional objects in discrete lattices. We prove that every stringlike logical operator of our code can be deformed to a disjoint union of short segments, each of which is in the stabilizer group. The code has surfacelike logical operators whose partial implementation has unsatisfied stabilizers along its boundary."
+  },
+  "reference_76": {
+    "title": "Fractal symmetries: Ungauging the cubic code",
+    "date": "2016",
+    "authors": [
+      "Williamson DJ."
+    ],
+    "publication": "Phys. Rev. B 94:155128",
+    "citation_count": 177,
+    "abs": "Gauging is a ubiquitous tool in many-body physics. It allows one to construct highly entangled topological phases of matter from relatively simple phases and to relate certain characteristics of the two. Here we develop a gauging procedure for general submanifold symmetries of Pauli Hamiltonians, including symmetries of fractal type. We show a relation between the pre- and postgauging models and use this to construct short-range entangled phases with fractal-like symmetries, one of which is mapped to the cubic code by the gauging."
+  },
+  "reference_77": {
+    "title": "Exotic topological order in fractal spin liquids",
+    "date": "2013",
+    "authors": [
+      "Yoshida B."
+    ],
+    "publication": "Phys. Rev. B 88:125122",
+    "citation_count": 297,
+    "abs": "We present a large class of three-dimensional spin models that possess topological order with stability against local perturbations, but are beyond description of topological quantum field theory. Conventional topological spin liquids, on a formal level, may be viewed as condensation of stringlike extended objects with discrete gauge symmetries, being at fixed points with continuous scale symmetries. In contrast, ground states of fractal spin liquids are condensation of highly fluctuating fractal objects with certain algebraic symmetries, corresponding to limit cycles under real-space renormalization group transformations which naturally arise from discrete scale symmetries of underlying fractal geometries. A particular class of three-dimensional models proposed in this paper may potentially saturate quantum information storage capacity for local spin systems."
+  },
+  "reference_78": {
+    "title": "Fractal Symmetric Phases of Matter",
+    "date": "2018",
+    "authors": [
+      "Devakul T",
+      "You Y",
+      "Burnell F",
+      "Sondhi S."
+    ],
+    "publication": "SciPost Phys 6:007",
+    "citation_count": 100,
+    "abs": "We study spin systems which exhibit symmetries that act on a fractal subset of sites, with fractal structures generated by linear cellular automata. In addition to the trivial symmetric paramagnet and spontaneously symmetry broken phases, we construct additional fractal symmetry protected topological (FSPT) phases via a decorated defect approach. Such phases have edges along which fractal symmetries are realized projectively, leading to a symmetry protected degeneracy along the edge. Isolated excitations above the ground state are symmetry protected fractons, which cannot be moved without breaking the symmetry. In 3D, our construction leads additionally to FSPT phases protected by higher form fractal symmetries and fracton topologically ordered phases enriched by the additional fractal symmetries."
+  },
+  "reference_79": {
+    "title": "Glassy dynamics and aging in an exactly solvable spin model.",
+    "date": "1999",
+    "authors": [
+      "Newman M",
+      "Moore C."
+    ],
+    "publication": "Phys. Rev. E 60:5068–72",
+    "citation_count": 132,
+    "abs": "We introduce a simple two-dimensional spin model with short-range interactions which shows glassy behavior despite a Hamiltonian which is completely homogeneous and possesses no randomness. We solve exactly for both the static partition function of the model and the distribution of energy barriers, giving us the equilibration time scales at low temperature. Simulations of instantaneous quenches and of annealing of the model are in good agreement with the analytic calculations. We also measure the two-time spin correlation as a function of waiting time, and show that the model has aging behavior consistent with the distribution of barrier heights. The model appears to have no sharp glass transition. Instead, it falls out of equilibrium at a temperature which decreases logarithmically as a function of the cooling time."
+  },
+  "reference_80": {
+    "title": "Trajectory phase transitions in noninteracting spin systems.",
+    "date": "2020",
+    "authors": [
+      "Vasiloiu LM",
+      "Oakes THE",
+      "Carollo F",
+      "Garrahan JP."
+    ],
+    "publication": "Phys. Rev. E 101:042115",
+    "citation_count": 28,
+    "abs": "We show that a collection of independent Ising spins evolving stochastically can display surprisingly large fluctuations toward ordered behavior, as quantified by certain types of time-integrated plaquette observables, despite the underlying dynamics being noninteracting. In the large-deviation (LD) regime of long times and large system size, this can give rise to a phase transition in trajectory space. As a noninteracting system we consider a collection of spins undergoing single spin-flip dynamics at infinite temperature. For the dynamical observables we study, the associated tilted generators have an exact and explicit spin-plaquette duality. Such setup suggests the existence of a transition (in the large size limit) at the self-dual point of the tilted generator. The nature of the LD transition depends on the observable. We consider explicitly two situations: (i) for a pairwise bond observable the LD transition is continuous and equivalent to that of the transverse field Ising model and (ii) for a higher-order plaquette observable, in contrast, the LD transition is first order. Case (i) is easy to prove analytically, while we confirm case (ii) numerically via an efficient trajectory sampling scheme that exploits the noninteracting nature of the original dynamics."
+  },
+  "reference_81": {
+    "title": "Fractal Quantum Phase Transitions: Critical Phenomena Beyond Renormalization",
+    "date": "2021",
+    "authors": [
+      "Zhou Z",
+      "Zhang XF",
+      "Pollmann F",
+      "You Y."
+    ],
+    "publication": "",
+    "citation_count": 21,
+    "abs": "We identify a quantum critical point with fractal symmetry whose effective theory eludes the renormalization group framework. We consider the Newman-Moore model with three-body interaction subjected to an external transverse field, which exhibits a Kramers-Wannier type self-duality and a fractal $Z_2$ symmetry with Ising charge conserved on a fractal subset of sites, i.e., on Sierpinski gaskets. Using large-scale quantum Monte Carlo simulations, we identify a continuous quantum phase transition between a phase with spontaneous fractal symmetry breaking and a paramagnetic phase. This phase transition is characterized by the emergence of a fractal scaling dimension $d=\\ln(3)/\\ln(2)$ at the quantum critical point, where the power-law exponent of the correlation function is related to the fractal dimension of the Sierpinski triangle. We develop a field theory to elucidate such quantum criticality and denote the fractal scaling as a subsequence of UV-IR mixing, where the low energy modes at the critical point are manipulated by short-wavelength physics due to the fractal symmetry."
+  },
+  "reference_82": {
+    "title": "Pascal's Triangle Fractal Symmetries.",
+    "date": "2022",
+    "authors": [
+      "Myerson-Jain NE",
+      "Liu S",
+      "Ji W",
+      "Xu C",
+      "Vijay S"
+    ],
+    "publication": "Phys. Rev. Lett. 128:115301",
+    "citation_count": 877,
+    "abs": "Algorithms and information, fundamental to technological and biological organization, are also an essential aspect of many elementary physical phenomena, such as molecular self-assembly. Here we report the molecular realization, using two-dimensional self-assembly of DNA tiles, of a cellular automaton whose update rule computes the binary function XOR and thus fabricates a fractal pattern--a Sierpinski triangle--as it grows. To achieve this, abstract tiles were translated into DNA tiles based on double-crossover motifs. Serving as input for the computation, long single-stranded DNA molecules were used to nucleate growth of tiles into algorithmic crystals. For both of two independent molecular realizations, atomic force microscopy revealed recognizable Sierpinski triangles containing 100-200 correct tiles. Error rates during assembly appear to range from 1% to 10%. Although imperfect, the growth of Sierpinski triangles demonstrates all the necessary mechanisms for the molecular implementation of arbitrary cellular automata. This shows that engineered DNA self-assembly can be treated as a Turing-universal biomolecular system, capable of implementing any desired algorithm for computation or construction tasks."
+  },
+  "reference_83": {
+    "title": "Matrix product states and projected entangled pair states: Concepts, symmetries, theorems",
+    "date": "2021",
+    "authors": [
+      "Cirac I",
+      "Perez-Garcia D",
+      "Schuch N",
+      "Verstraete F."
+    ],
+    "publication": "Rev. Mod. Phys. 93:045003",
+    "citation_count": 792,
+    "abs": "Many-body wave functions can be described effectively by local tensors in matrix product states and projected entangled pair states. This article reviews how these theories provide not only numerical methods but also insights of a more fundamental nature into the structures of states with global entanglement patterns and topological quantum order."
+  },
+  "reference_84": {
+    "title": "Classifying phases protected by matrix product operator symmetries using matrix product states",
+    "date": "2022",
+    "authors": [
+      "Garre-Rubio J",
+      "Lootens L",
+      "Molnár A."
+    ],
+    "publication": "",
+    "citation_count": 37,
+    "abs": "We classify the different ways in which matrix product states (MPSs) can stay invariant under the action of matrix product operator (MPO) symmetries. This is achieved through a local characterization of how the MPSs, that generate a ground space, remain invariant under a global MPO symmetry. This characterization yields a set of quantities satisfying the coupled pentagon equations, associated with a module category over the fusion category that describes the MPO symmetry. Equivalence classes of these quantities provide complete invariants for an MPO symmetry protected phase: they are robust under continuous deformations of the MPS tensor, and two phases with the same equivalence class can be connected by a symmetric gapped path. Our techniques match and extend the known renormalization fixed point classifications and facilitate the numerical study of these systems. For MPO symmetries described by a group, we recover the symmetry protected topological order classification for unique and degenerate ground states. Moreover, we study the interplay between time reversal symmetry and an MPO symmetry and we also provide examples of our classification, together with explicit constructions based on groups. Finally, we elaborate on the connection between our setup and gapped boundaries of two-dimensional topological systems, where MPO symmetries also play a key role."
+  },
+  "reference_85": {
+    "title": "Higher central charges and topological boundaries in 2+1-dimensional TQFTs",
+    "date": "2021",
+    "authors": [
+      "Kaidi J",
+      "Komargodski Z",
+      "Ohmori K",
+      "Seifnashri S",
+      "Shao SH."
+    ],
+    "publication": "",
+    "citation_count": 87,
+    "abs": "A 2+1-dimensional topological quantum field theory (TQFT) may or may not admit topological (gapped) boundary conditions. A famous necessary, but not sufficient, condition for the existence of a topological boundary condition is that the chiral central charge c_- <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mi>c</mml:mi> <mml:mo>−</mml:mo> </mml:msub> </mml:math> has to vanish. In this paper, we consider conditions associated with ``higher\" central charges, which have been introduced recently in the math literature. In terms of these new obstructions, we identify necessary and sufficient conditions for the existence of a topological boundary in the case of bosonic, Abelian TQFTs, providing an alternative to the identification of a Lagrangian subgroup. Our proof relies on general aspects of gauging generalized global symmetries. For non-Abelian TQFTs, we give a geometric way of studying topological boundary conditions, and explain certain necessary conditions given again in terms of the higher central charges. Along the way, we find a curious duality in the partition functions of Abelian TQFTs, which begs for an explanation via the 3d-3d correspondence."
+  },
+  "reference_86": {
+    "title": "Fusion Category Symmetry I: Anomaly In-Flow and Gapped Phases",
+    "date": "2019",
+    "authors": [
+      "Thorngren R",
+      "Wang Y."
+    ],
+    "publication": "",
+    "citation_count": 127,
+    "abs": "We study generalized discrete symmetries of quantum field theories in 1+1D generated by topological defect lines with no inverse. In particular, we describe 't Hooft anomalies and classify gapped phases stabilized by these symmetries, including new 1+1D topological phases. The algebra of these operators is not a group but rather is described by their fusion ring and crossing relations, captured algebraically as a fusion category. Such data defines a Turaev-Viro/Levin-Wen model in 2+1D, while a 1+1D system with this fusion category acting as a global symmetry defines a boundary condition. This is akin to gauging a discrete global symmetry at the boundary of Dijkgraaf-Witten theory. We describe how to \"ungauge\" the fusion category symmetry in these boundary conditions and separate the symmetry-preserving phases from the symmetry-breaking ones. For Tambara-Yamagami categories and their generalizations, which are associated with Kramers-Wannier-like self-dualities under orbifolding, we develop gauge theoretic techniques which simplify the analysis. We include some examples of CFTs with fusion category symmetry derived from Kramers-Wannier-like dualities as an appetizer for the Part II companion paper."
+  },
+  "reference_87": {
+    "title": "Topological defect lines and renormalization group flows in two dimensions",
+    "date": "2019",
+    "authors": [
+      "Chang CM",
+      "Lin YH",
+      "Shao SH",
+      "Wang Y",
+      "Yin X."
+    ],
+    "publication": "JHEP 01:026",
+    "citation_count": 406,
+    "abs": "A bstract We consider topological defect lines (TDLs) in two-dimensional conformal field theories. Generalizing and encompassing both global symmetries and Verlinde lines, TDLs together with their attached defect operators provide models of fusion categories without braiding. We study the crossing relations of TDLs, discuss their relation to the ’t Hooft anomaly, and use them to constrain renormalization group flows to either conformal critical points or topological quantum field theories (TQFTs). We show that if certain non-invertible TDLs are preserved along a RG flow, then the vacuum cannot be a non-degenerate gapped state. For various massive flows, we determine the infrared TQFTs completely from the consideration of TDLs together with modular invariance."
+  },
+  "reference_88": {
+    "title": "Symmetries and strings of adjoint QCD2",
+    "date": "2021",
+    "authors": [
+      "Komargodski Z",
+      "Ohmori K",
+      "Roumpedakis K",
+      "Seifnashri S."
+    ],
+    "publication": "JHEP 03:103",
+    "citation_count": 257,
+    "abs": "A bstract We revisit the symmetries of massless two-dimensional adjoint QCD with gauge group SU( N ). The dynamics is not sufficiently constrained by the ordinary symmetries and anomalies. Here we show that the theory in fact admits ∼ 2 2 N non-invertible symmetries which severely constrain the possible infrared phases and massive excitations. We prove that for all N these new symmetries enforce deconfinement of the fundamental quark. When the adjoint quark has a small mass, m ≪ g YM , the theory confines and the non-invertible symmetries are softly broken. We use them to compute analytically the k -string tension for N ≤ 5. Our results suggest that the k -string tension, T k , is T k ∼ | m | sin( πk/N ) for all N . We also consider the dynamics of adjoint QCD deformed by symmetric quartic fermion interactions. These operators are not generated by the RG flow due to the non-invertible symmetries, thus violating the ordinary notion of naturalness. We conjecture partial confinement for the deformed theory by these four-fermion interactions, and prove it for SU( N ≤ 5) gauge theory. Comparing the topological phases at zero and large mass, we find that a massless particle ought to appear on the string for some intermediate nonzero mass, consistent with an emergent supersymmetry at nonzero mass. We also study the possible infrared phases of adjoint QCD allowed by the non-invertible symmetries, which we are able to do exhaustively for small values of N . The paper contains detailed reviews of ideas from fusion category theory that are essential for the results we prove."
+  },
+  "reference_89": {
+    "title": "Noninvertible duality defects in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mn>3</mml:mn><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math>\n dimensions",
+    "date": "2022",
+    "authors": [
+      "Choi Y",
+      "Cordova C",
+      "Hsin PS",
+      "Lam HT",
+      "Shao SH."
+    ],
+    "publication": "Phys. Rev. D 105:125016",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_90": {
+    "title": "Kramers-Wannier-like Duality Defects in (3+1)D Gauge Theories.",
+    "date": "2022",
+    "authors": [
+      "Kaidi J",
+      "Ohmori K",
+      "Zheng Y."
+    ],
+    "publication": "Phys. Rev. Lett. 128:111601",
+    "citation_count": 275,
+    "abs": "We introduce a class of noninvertible topological defects in (3+1)D gauge theories whose fusion rules are the higher-dimensional analogs of those of the Kramers-Wannier defect in the (1+1)D critical Ising model. As in the lower-dimensional case, the presence of such noninvertible defects implies self-duality under a particular gauging of their discrete (higher-form) symmetries. Examples of theories with such a defect include SO(3) Yang-Mills (YM) at θ=π, N=1 SO(3) super YM, and N=4 SU(2) super YM at τ=i. We also introduce an analogous construction in (2+1)D, and give a number of examples in Chern-Simons-matter theories."
+  },
+  "reference_91": {
+    "title": "On finite symmetries and their gauging in two dimensions",
+    "date": "2018",
+    "authors": [
+      "Bhardwaj L",
+      "Tachikawa Y."
+    ],
+    "publication": "JHEP 03:189",
+    "citation_count": 296,
+    "abs": "A bstract It is well-known that if we gauge a ℤ n symmetry in two dimensions, a dual ℤ n symmetry appears, such that re-gauging this dual ℤ n symmetry leads back to the original theory. We describe how this can be generalized to non-Abelian groups, by enlarging the concept of symmetries from those defined by groups to those defined by unitary fusion categories. We will see that this generalization is also useful when studying what happens when a non-anomalous subgroup of an anomalous finite group is gauged: for example, the gauged theory can have non-Abelian group symmetry even when the original symmetry is an Abelian group. We then discuss the axiomatization of two-dimensional topological quantum field theories whose symmetry is given by a category. We see explicitly that the gauged version is a topological quantum field theory with a new symmetry given by a dual category."
+  },
+  "reference_92": {
+    "title": "Duality defect of the monster CFT",
+    "date": "2021",
+    "authors": [
+      "Lin YH",
+      "Shao SH."
+    ],
+    "publication": "J. Phys. A 54:065201",
+    "citation_count": 103,
+    "abs": "Abstract We show that the fermionization of the Monster CFT with respect to <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"> <mml:msub> <mml:mrow> <mml:mi mathvariant=\"double-struck\">Z</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> <mml:mi>A</mml:mi> </mml:mrow> </mml:msub> </mml:math> is the tensor product of a free fermion and the Baby Monster CFT. The chiral fermion parity of the free fermion implies that the Monster CFT is self-dual under the <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"> <mml:msub> <mml:mrow> <mml:mi mathvariant=\"double-struck\">Z</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> <mml:mi>A</mml:mi> </mml:mrow> </mml:msub> </mml:math> orbifold, i.e. it enjoys the Kramers–Wannier duality. The Kramers–Wannier duality defect extends the Monster group to a larger category of topological defect lines that contains an Ising subcategory. We introduce the defect McKay – Thompson series defined as the Monster partition function twisted by the duality defect, and find that the coefficients can be decomposed into the dimensions of the (projective) irreducible representations of the Baby Monster group. We further prove that the defect McKay–Thompson series is invariant under the genus-zero congruence subgroup 16 D 0 of <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"> <mml:mi>P</mml:mi> <mml:mi>S</mml:mi> <mml:mi>L</mml:mi> <mml:mrow> <mml:mo stretchy=\"false\">(</mml:mo> <mml:mrow> <mml:mn>2</mml:mn> <mml:mo>,</mml:mo> <mml:mi mathvariant=\"double-struck\">Z</mml:mi> </mml:mrow> <mml:mo stretchy=\"false\">)</mml:mo> </mml:mrow> </mml:math> ."
+  },
+  "reference_93": {
+    "title": "Fusion Category Symmetry II: Categoriosities at c = 1 and Beyond",
+    "date": "2021",
+    "authors": [
+      "Thorngren R",
+      "Wang Y."
+    ],
+    "publication": "",
+    "citation_count": 72,
+    "abs": "We study generalized symmetries of quantum field theories in 1+1D generated by topological defect lines with no inverse. This paper follows our companion paper on gapped phases and anomalies associated with these symmetries. In the present work we focus on identifying fusion category symmetries, using both specialized 1+1D methods such as the modular bootstrap and (rational) conformal field theory (CFT), as well as general methods based on gauging finite symmetries, that extend to all dimensions. We apply these methods to $c = 1$ CFTs and uncover a rich structure. We find that even those $c = 1$ CFTs with only finite group-like symmetries can have continuous fusion category symmetries, and prove a Noether theorem that relates such symmetries in general to non-local conserved currents. We also use these symmetries to derive new constraints on RG flows between 1+1D CFTs."
+  },
+  "reference_94": {
+    "title": "Symmetry enhancement in RCFT",
+    "date": "2021",
+    "authors": [
+      "Kikuchi K."
+    ],
+    "publication": "",
+    "citation_count": 15,
+    "abs": "We propose when and why symmetry enhancements happen in massless renormalization group (RG) flows to two-dimensional rational conformal field theories (RCFTs). We test our proposal against known RG flows from unitary minimal models. We also suggest which sign of the relevant coupling triggers the massless RG flow. The other sign triggers massive RG flows to topological quantum field theories (TQFTs). We comment on their ground state degeneracies."
+  },
+  "reference_95": {
+    "title": "High energy modular bootstrap, global symmetries and defects",
+    "date": "2020",
+    "authors": [
+      "Pal S",
+      "Sun Z."
+    ],
+    "publication": "JHEP 08:064",
+    "citation_count": 42,
+    "abs": "We derive Cardy-like formulas for the growth of operators in different sectors of unitary 2 dimensional CFT in the presence of topological defect lines by putting an upper and lower bound on the number of states with scaling dimension in the interval [Δ – δ, Δ + δ] for large Δ at fixed δ. Consequently we prove that given any unitary modular invariant 2D CFT symmetric under finite global symmetry G (acting faithfully), all the irreducible representations of G appear in the spectra of the untwisted sector; the growth of states is Cardy like and proportional to the “square” of the dimension of the irrep. In the Schwarzian limit, the result matches onto that of JT gravity with a bulk gauge theory. If the symmetry is non-anomalous, the result applies to any sector twisted by a group element. For c > 1, the statements are true for Virasoro primaries. Furthermore, the results are applicable to large c CFTs. We also extend our results for the continuous U(1) group."
+  },
+  "reference_96": {
+    "title": "Orbifold groupoids",
+    "date": "2021",
+    "authors": [
+      "Gaiotto D",
+      "Kulp J."
+    ],
+    "publication": "J. High Energy Phys. 2021:132",
+    "citation_count": 234,
+    "abs": "A bstract We review the properties of orbifold operations on two-dimensional quantum field theories, either bosonic or fermionic, and describe the “Orbifold groupoids” which control the composition of orbifold operations. Three-dimensional TQFT’s of Dijkgraaf-Witten type will play an important role in the analysis. We briefly discuss the extension to generalized symmetries and applications to constrain RG flows."
+  },
+  "reference_97": {
+    "title": "On lattice models of gapped phases with fusion category symmetries",
+    "date": "2022",
+    "authors": [
+      "Inamura K."
+    ],
+    "publication": "JHEP 2022:36",
+    "citation_count": 78,
+    "abs": "A bstract We construct topological quantum field theories (TQFTs) and commuting projector Hamiltonians for any 1+1d gapped phases with non-anomalous fusion category symmetries, i.e. finite symmetries that admit SPT phases. The construction is based on two-dimensional state sum TQFT whose input datum is an H -simple left H -comodule algebra, where H is a finite dimensional semisimple Hopf algebra. We show that the actions of fusion category symmetries $$ \\mathcal{C} $$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>C</mml:mi> </mml:math> on the boundary conditions of these state sum TQFTs are represented by module categories over $$ \\mathcal{C} $$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>C</mml:mi> </mml:math> . This agrees with the classification of gapped phases with symmetry $$ \\mathcal{C} $$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>C</mml:mi> </mml:math> . We also find that the commuting projector Hamiltonians for these state sum TQFTs have fusion category symmetries at the level of the lattice models and hence provide lattice realizations of gapped phases with fusion category symmetries. As an application, we discuss the edge modes of SPT phases based on these commuting projector Hamiltonians. Finally, we mention that we can extend the construction of topological field theories to the case of anomalous fusion category symmetries by replacing a semisimple Hopf algebra with a semisimple pseudo-unitary connected weak Hopf algebra."
+  },
+  "reference_98": {
+    "title": "Interacting anyons in topological quantum liquids: the golden chain.",
+    "date": "2007",
+    "authors": [
+      "Feiguin A",
+      "Trebst S",
+      "Ludwig AWW",
+      "Troyer M",
+      "Kitaev A"
+    ],
+    "publication": "Phys. Rev. Lett. 98:160409",
+    "citation_count": 393,
+    "abs": "We discuss generalizations of quantum spin Hamiltonians using anyonic degrees of freedom. The simplest model for interacting anyons energetically favors neighboring anyons to fuse into the trivial (\"identity\") channel, similar to the quantum Heisenberg model favoring neighboring spins to form spin singlets. Numerical simulations of a chain of Fibonacci anyons show that the model is critical with a dynamical critical exponent z=1, and described by a two-dimensional (2D) conformal field theory with central charge c=7/10. An exact mapping of the anyonic chain onto the 2D tricritical Ising model is given using the restricted-solid-on-solid representation of the Temperley-Lieb algebra. The gaplessness of the chain is shown to have topological origin."
+  },
+  "reference_99": {
+    "title": "Topological defects on the lattice: I. The Ising model",
+    "date": "2016",
+    "authors": [
+      "Aasen D",
+      "Mong RSK",
+      "Fendley P."
+    ],
+    "publication": "J. Phys. A 49:354001",
+    "citation_count": 220,
+    "abs": "In this paper and its sequel, we construct topologically invariant defects in two-dimensional classical lattice models and quantum spin chains. We show how defect lines commute with the transfer matrix/Hamiltonian when they obey the defect commutation relations, cousins of the Yang–Baxter equation. These relations and their solutions can be extended to allow defect lines to branch and fuse, again with properties depending only on topology. In this part I, we focus on the simplest example, the Ising model. We define lattice spin-flip and duality defects and their branching, and prove they are topological. One useful consequence is a simple implementation of Kramers–Wannier duality on the torus and higher genus surfaces by using the fusion of duality defects. We use these topological defects to do simple calculations that yield exact properties of the conformal field theory describing the continuum limit. For example, the shift in momentum quantization with duality-twisted boundary conditions yields the conformal spin 1/16 of the chiral spin field. Even more strikingly, we derive the modular transformation matrices explicitly and exactly."
+  },
+  "reference_100": {
+    "title": "Topological Defects on the Lattice: Dualities and Degeneracies",
+    "date": "2020",
+    "authors": [
+      "Aasen D",
+      "Fendley P",
+      "Mong RSK."
+    ],
+    "publication": "",
+    "citation_count": 107,
+    "abs": "We construct topological defects in two-dimensional classical lattice models and quantum chains. The defects satisfy local commutation relations guaranteeing that the partition function is independent of their path. These relations and their solutions are extended to allow defect lines to fuse, branch and satisfy all the properties of a fusion category. We show how the two-dimensional classical lattice models and their topological defects are naturally described by boundary conditions of a Turaev-Viro-Barrett-Westbury partition function. These defects allow Kramers-Wannier duality to be generalized to a large class of models, explaining exact degeneracies between non-symmetry-related ground states as well as in the low-energy spectrum. They give a precise and general notion of twisted boundary conditions and the universal behaviour under Dehn twists. Gluing a topological defect to a boundary yields linear identities between partition functions with different boundary conditions, allowing ratios of the universal g-factor to be computed exactly on the lattice. We develop this construction in detail in a variety of examples, including the Potts, parafermion and height models."
+  },
+  "reference_101": {
+    "title": "Critical Lattice Model for a Haagerup Conformal Field Theory.",
+    "date": "2022",
+    "authors": [
+      "Vanhove R",
+      "Lootens L",
+      "Van Damme M",
+      "Wolf R",
+      "Osborne T"
+    ],
+    "publication": "Phys. Rev. Lett. 128:231602",
+    "citation_count": 50,
+    "abs": "We use the formalism of strange correlators to construct a critical classical lattice model in two dimensions with the Haagerup fusion category H_{3} as input data. We present compelling numerical evidence in the form of finite entanglement scaling to support a Haagerup conformal field theory (CFT) with central charge c=2. Generalized twisted CFT spectra are numerically obtained through exact diagonalization of the transfer matrix, and the conformal towers are separated in the spectra through their identification with the topological sectors. It is further argued that our model can be obtained through an orbifold procedure from a larger lattice model with input Z(H_{3}), which is the simplest modular tensor category that does not admit an algebraic construction. This provides a counterexample for the conjecture that all rational CFT can be constructed from standard methods."
+  },
+  "reference_102": {
+    "title": "Categorical symmetry and noninvertible anomaly in symmetry-breaking and topological phase transitions",
+    "date": "2020",
+    "authors": [
+      "Ji W",
+      "Wen XG"
+    ],
+    "publication": "Phys. Rev. Res. 2:033417",
+    "citation_count": 224,
+    "abs": "The authors show that one of the strongly correlated gapless states at the critical point of Landau symmetry breaking transition has an unbroken dual algebraic (n-1)-symmetry G^(n-1) in n-dimensional space, in addition to the usual unbroken symmetry G."
+  },
+  "reference_103": {
+    "title": "Algebraic higher symmetry and categorical symmetry: A holographic and entanglement view of symmetry",
+    "date": "2020",
+    "authors": [
+      "Kong L",
+      "Lan T",
+      "Wen XG",
+      "Zhang ZH",
+      "Zheng H."
+    ],
+    "publication": "Phys. Rev. Res. 2:043086",
+    "citation_count": 167,
+    "abs": "We introduce the notion of algebraic higher symmetry, which generalizes higher symmetry and is beyond higher group. We show that an algebraic higher symmetry in a bosonic system in $n$-dimensional space is characterized and classified by a local fusion $n$-category. We find another way to describe algebraic higher symmetry by restricting to symmetric sub Hilbert space where symmetry transformations all become trivial. In this case, algebraic higher symmetry can be fully characterized by a non-invertible gravitational anomaly (i.e. an topological order in one higher dimension). Thus we also refer to non-invertible gravitational anomaly as categorical symmetry to stress its connection to symmetry. This provides a holographic and entanglement view of symmetries. For a system with a categorical symmetry, its gapped state must spontaneously break part (not all) of the symmetry, and the state with the full symmetry must be gapless. Using such a holographic point of view, we obtain (1) the gauging of the algebraic higher symmetry; (2) the classification of anomalies for an algebraic higher symmetry; (3) the equivalence between classes of systems, with different (potentially anomalous) algebraic higher symmetries or different sets of low energy excitations, as long as they have the same categorical symmetry; (4) the classification of gapped liquid phases for bosonic/fermionic systems with a categorical symmetry, as gapped boundaries of a topological order in one higher dimension (that corresponds to the categorical symmetry). This classification includes symmetry protected trivial (SPT) orders and symmetry enriched topological (SET) orders with an algebraic higher symmetry."
+  },
+  "reference_104": {
+    "title": "Symmetry as a shadow of topological order and a derivation of topological holographic principle",
+    "date": "2022",
+    "authors": [
+      "Chatterjee A",
+      "Wen XG."
+    ],
+    "publication": "",
+    "citation_count": 80,
+    "abs": "Symmetry is usually defined via transformations described by a (higher) group. But a symmetry really corresponds to an algebra of local symmetric operators, which directly constrains the properties of the system. In this paper, we point out that the algebra of local symmetric operators contains a special class of extended operators---transparent patch operators, which reveal the selection sectors and hence the corresponding symmetry. The algebra of those transparent patch operators in $n$-dimensional space gives rise to a nondegenerate braided fusion $n$-category, which happens to describe a topological order in one higher dimension (for finite symmetry). Such a holographic theory not only describes (higher) symmetries, it also describes anomalous (higher) symmetries, noninvertible (higher) symmetries (also known as algebraic higher symmetries), and noninvertible gravitational anomalies. Thus, topological order in one higher dimension, replacing group, provides a unified and systematic description of the above generalized symmetries. This is referred to as symmetry/topological-order (Symm/TO) correspondence. Our approach also leads to a derivation of topological holographic principle: boundary uniquely determines the bulk, or more precisely, the algebra of local boundary operators uniquely determines the bulk topological order. As an application of the Symm/TO correspondence, we show the equivalence between ${\\mathbb{Z}}_{2}\\ifmmode\\times\\else\\texttimes\\fi{}{\\mathbb{Z}}_{2}$ symmetry with mixed anomaly and ${\\mathbb{Z}}_{4}$ symmetry, as well as between many other symmetries, in 1-dimensional space."
+  },
+  "reference_105": {
+    "title": "Polyakov AM.. 1987. Contemp. Concepts Phys. 3:1",
+    "date": "1987",
+    "authors": [
+      "Polyakov AM."
+    ],
+    "publication": "Contemp. Concepts Phys. 3:1–301",
+    "citation_count": 328,
+    "abs": "Recent advances in our understanding of symmetry in quantum many-body systems offer the possibility of a generalized Landau paradigm that encompasses all equilibrium phases of matter. This is a brief and elementary review of some of these developments."
+  },
+  "reference_106": {
+    "title": "Wang C. 2017. Phys. Rev. X 7:031051",
+    "date": "2017",
+    "authors": [
+      "Wang C",
+      "Nahum A",
+      "Metlitski MA",
+      "Xu C",
+      "Senthil T."
+    ],
+    "publication": "Phys. Rev. X 7:031051",
+    "citation_count": 61,
+    "abs": "In the study of three-dimensional gapped models, two-dimensional gapped states should be considered as a free resource. This is the basic idea underlying the notion of ``foliated fracton order'' proposed in Shirley et al. [Phys. Rev. X 8, 031051 (2018)]. We have found that many of the known type-I fracton models, although they appear very different, have the same foliated fracton order, known as ``X-cube'' order. In this paper, we identify three-dimensional fracton models with different kinds of foliated fracton order. Whereas the X-cube order corresponds to the gauge theory of a simple paramagnet with subsystem planar symmetry, the different orders correspond to twisted versions of the gauge theory for which the system prior to gauging has nontrivial order protected by the planar subsystem symmetry. We present constructions of the twisted models and demonstrate that they possess nontrivial order by studying their fractional excitation contents."
+  },
+  "reference_107": {
+    "title": "Many-body spin Berry phases emerging from the pi-flux state: competition between antiferromagnetism and the valence-bond-solid state.",
+    "date": "2005",
+    "authors": [
+      "Tanaka A",
+      "Hu X."
+    ],
+    "publication": "Phys. Rev. Lett. 95:036402",
+    "citation_count": 138,
+    "abs": "We uncover new topology-related features of the pi-flux saddle-point solution of the D=2+1 Heisenberg antiferromagnet. We note that symmetries of the spinons sustain a built-in competition between antiferromagnetic (AFM) and valence-bond-solid (VBS) orders, the two tendencies central to recent developments on quantum criticality. An effective theory containing an analogue of the Wess-Zumino-Witten term is derived, which generates quantum phases related to AFM monopoles with VBS cores, and reproduces Haldane's hedgehog Berry phases. The theory readily generalizes to pi-flux states for all D."
+  },
+  "reference_108": {
+    "title": "Competing orders, nonlinear sigma models, and topological terms in quantum magnets",
+    "date": "2006",
+    "authors": [
+      "Senthil T",
+      "Fisher MP."
+    ],
+    "publication": "Phys. Rev. B 74:064405",
+    "citation_count": 233,
+    "abs": "A number of examples have demonstrated the failure of the Landau-Ginzburg-Wilson (LGW) paradigm in describing the competing phases and phase transitions of two-dimensional quantum magnets. In this paper, we argue that such magnets possess field theoretic descriptions in terms of their slow fluctuating orders provided certain topological terms are included in the action. These topological terms may thus be viewed as what goes wrong within the conventional LGW thinking. The field theoretic descriptions we develop are possible alternates to the popular gauge theories of such non-LGW behavior. Examples that are studied include weakly coupled quasi-one-dimensional spin chains, deconfined critical points in fully two-dimensional magnets, and two-component massless ${\\mathrm{QED}}_{3}$. A prominent role is played by an anisotropic O(4) nonlinear sigma model in three space-time dimensions with a topological theta term. Some properties of this model are discussed. We speculate that similar sigma model descriptions might exist for fermionic algebraic spin liquid phases."
+  },
+  "reference_109": {
+    "title": "Deconfined quantum criticality and Néel order via dimer disorder",
+    "date": "2004",
+    "authors": [
+      "Levin M",
+      "Senthil T."
+    ],
+    "publication": "Phys. Rev. B 70:220403",
+    "citation_count": 148,
+    "abs": "Recent results on the nature of the quantum critical point between N\\'eel and valence bond solid (VBS) ordered phases of two-dimensional quantum magnets are examined by an attack from the VBS side. This approach leads to an appealingly simple physical description, and further insight into the properties of the transition."
+  },
+  "reference_110": {
+    "title": "Dynamical axion state with hidden pseudospin Chern numbers in \nMnBi2Te4\n-based heterostructures",
+    "date": "2021",
+    "authors": [
+      "Wang YC",
+      "Cheng M",
+      "Meng ZY."
+    ],
+    "publication": "Phys. Rev. B 104:081109",
+    "citation_count": 30,
+    "abs": "Abstract Axion was postulated as an elementary particle to solve the strong charge conjugation and parity puzzle, and later axion was also considered to be a possible component of dark matter in the universe. However, the existence of axions in nature has not been confirmed. Interestingly, axions arise out of pseudoscalar fields derived from the Chern–Simons theory in condensed matter physics. In antiferromagnetic insulators, the axion field can become dynamical due to spin-wave excitations and exhibits rich exotic phenomena, such as axion polariton. However, antiferromagnetic dynamical axion insulator has yet been experimentally identified in realistic materials. Very recently, MnBi 2 Te 4 was discovered to be an antiferromagnetic topological insulator with a quantized static axion field protected by inversion symmetry $${\\mathcal{P}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>P</mml:mi> </mml:math> and magnetic-crystalline symmetry $${\\mathcal{S}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>S</mml:mi> </mml:math> . Here, we studied MnBi 2 Te 4 films in which both the $${\\mathcal{P}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>P</mml:mi> </mml:math> and $${\\mathcal{S}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>S</mml:mi> </mml:math> symmetries are spontaneously broken and found that substantially enhanced dynamical magnetoelectric effects could be realized through tuning the thickness of MnBi 2 Te 4 films, temperature, or element substitutions. Our results show that thin films of MnBi 2 Te 4 and related compounds could provide a promising material platform to experimentally study axion electrodynamics."
+  },
+  "reference_111": {
+    "title": "Dynamical axion state with hidden pseudospin Chern numbers in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:msub><mml:mi>MnBi</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>Te</mml:mi><mml:mn>4</mml:mn></mml:msub></mml:mrow></mml:math>\n-based heterostructures",
+    "date": "2021",
+    "authors": [
+      "Wang YC",
+      "Ma N",
+      "Cheng M",
+      "Meng ZY."
+    ],
+    "publication": "Phys. Rev. B 104:L081109",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_112": {
+    "title": "Phases of the multiple quantum well in a strong magnetic field: Possibility of irrational charge.",
+    "date": "1989",
+    "authors": [
+      "Qiu X",
+      "Joynt R",
+      "MacDonald A."
+    ],
+    "publication": "Phys. Rev. B 40:11943",
+    "citation_count": 18,
+    "abs": "We have constructed the phase diagram for a multiple-quantum-well system of two-dimensional electron layers in a strong perpendicular magnetic field. There are a number of different phases which appear as in-layer density and layer separation are varied. At densities corresponding to low filling factors of the lowest Landau level there are solid phases, while at higher densities a sequence of Laughlin-liquid-like states occurs at small layer separation. The excitations of the liquid states can exhibit irrational charge."
+  },
+  "reference_113": {
+    "title": "Fractional quantum hall effect in infinite-layer systems.",
+    "date": "2000",
+    "authors": [
+      "Naud JD",
+      "Pryadko LP",
+      "Sondhi SL."
+    ],
+    "publication": "Phys. Rev. Lett. 85:540811",
+    "citation_count": 28791,
+    "abs": "QUANTUM ESPRESSO is an integrated suite of computer codes for electronic-structure calculations and materials modeling, based on density-functional theory, plane waves, and pseudopotentials (norm-conserving, ultrasoft, and projector-augmented wave). The acronym ESPRESSO stands for opEn Source Package for Research in Electronic Structure, Simulation, and Optimization. It is freely available to researchers around the world under the terms of the GNU General Public License. QUANTUM ESPRESSO builds upon newly-restructured electronic-structure codes that have been developed and tested by some of the original authors of novel electronic-structure algorithms and applied in the last twenty years by some of the leading materials modeling groups worldwide. Innovation and efficiency are still its main focus, with special attention paid to massively parallel architectures, and a great effort being devoted to user friendliness. QUANTUM ESPRESSO is evolving towards a distribution of independent and interoperable codes in the spirit of an open-source project, where researchers active in the field of electronic-structure calculations are encouraged to participate in the project by contributing their own codes or by implementing their own ideas into existing codes."
+  },
+  "reference_114": {
+    "title": "Ma X, Shirley W, Cheng M, Levin M, McGreevy J, Chen X. 2020. Annu. Rev. Condens. Matter Phys. 9:227–44",
+    "date": "2020",
+    "authors": [
+      "Ma X",
+      "Shirley W",
+      "Cheng M",
+      "Levin M",
+      "McGreevy J",
+      "Chen X."
+    ],
+    "publication": "Annu. Rev. Condens. Matter Phys 9:22744",
+    "citation_count": 328,
+    "abs": "Recent advances in our understanding of symmetry in quantum many-body systems offer the possibility of a generalized Landau paradigm that encompasses all equilibrium phases of matter. This is a brief and elementary review of some of these developments."
+  },
+  "reference_115": {
+    "title": "Weak symmetry breaking and topological order in a 3D compressible quantum liquid",
+    "date": "2021",
+    "authors": [
+      "Sullivan J",
+      "Dua A",
+      "Cheng M."
+    ],
+    "publication": "",
+    "citation_count": 2,
+    "abs": "We introduce a new type of 3D compressible quantum phase, in which the U(1) charge conservation symmetry is weakly broken by a rigid string-like order parameter, and no local order parameter exists. We show that this gapless phase is completely stable and described at low energy by an infinite-component Chern-Simons-Maxwell theory. We determine the emergent symmetry group, which contains U(1) 0-form planar symmetries and an unusual subgroup of the dual U(1) 1-form symmetry supported on cylindrical surfaces. Through the associated 't Hooft anomaly, we examine how the filling condition is fulfilled in the low-energy theory. We also demonstrate that the phase exhibits a kind of fractonic topological order, signified by extensively many different types of topologically nontrivial quasiparticles formed out of vortices of the weak superfluid. A microscopic model realizing the weak superfluid phase is constructed using an array of strongly coupled Luttinger liquid wires, and the connection to the field theory is established through boson-vortex duality."
+  },
+  "reference_116": {
+    "title": "Weak symmetry breaking in two-dimensional topological insulators",
+    "date": "2013",
+    "authors": [
+      "Wang C",
+      "Levin M."
+    ],
+    "publication": "Phys. Rev. B 88:245136",
+    "citation_count": 4215,
+    "abs": "Topological insulators are materials with a bulk excitation gap generated by the spin-orbit interaction that are different from conventional insulators. This distinction is characterized by ${Z}_{2}$ topological invariants, which characterize the ground state. In two dimensions, there is a single ${Z}_{2}$ invariant that distinguishes the ordinary insulator from the quantum spin-Hall phase. In three dimensions, there are four ${Z}_{2}$ invariants that distinguish the ordinary insulator from ``weak'' and ``strong'' topological insulators. These phases are characterized by the presence of gapless surface (or edge) states. In the two-dimensional quantum spin-Hall phase and the three-dimensional strong topological insulator, these states are robust and are insensitive to weak disorder and interactions. In this paper, we show that the presence of inversion symmetry greatly simplifies the problem of evaluating the ${Z}_{2}$ invariants. We show that the invariants can be determined from the knowledge of the parity of the occupied Bloch wave functions at the time-reversal invariant points in the Brillouin zone. Using this approach, we predict a number of specific materials that are strong topological insulators, including the semiconducting alloy ${\\mathrm{Bi}}_{1\\ensuremath{-}x}{\\mathrm{Sb}}_{x}$ as well as $\\ensuremath{\\alpha}\\text{\\ensuremath{-}}\\mathrm{Sn}$ and HgTe under uniaxial strain. This paper also includes an expanded discussion of our formulation of the topological insulators in both two and three dimensions, as well as implications for experiments."
+  },
+  "reference_117": {
+    "title": "Else DV. 2021. Phys. Rev. X 11:021005",
+    "date": "2021",
+    "authors": [
+      "Else DV",
+      "Thorngren R",
+      "Senthil T."
+    ],
+    "publication": "Phys. Rev. X 11:021005",
+    "citation_count": 328,
+    "abs": "Recent advances in our understanding of symmetry in quantum many-body systems offer the possibility of a generalized Landau paradigm that encompasses all equilibrium phases of matter. This is a brief and elementary review of some of these developments."
+  },
+  "reference_118": {
+    "title": "Recent Developments in Non-Fermi Liquid Theory",
+    "date": "2018",
+    "authors": [
+      "Lee SS."
+    ],
+    "publication": "Annu. Rev. Condens. Matter Phys. 9:227–44",
+    "citation_count": 198,
+    "abs": "Non-Fermi liquids are unconventional metals whose physical properties deviate qualitatively from those of noninteracting fermions due to strong quantum fluctuations near Fermi surfaces. They arise when metals are subject to singular interactions mediated by soft collective modes. In the absence of well-defined quasiparticles, universal physics of non-Fermi liquids is captured by interacting field theories which replace Landau Fermi liquid theory. However, it has been difficult to understand their universal low-energy physics due to a lack of theoretical methods that take into account strong quantum fluctuations in the presence of abundant low-energy degrees of freedom. In this review, we discuss two approaches that have been recently developed for non-Fermi liquid theory with emphasis on two space dimensions. The first is a perturbative scheme based on a dimensional regularization, which achieves a controlled access to the low-energy physics by tuning the codimension of Fermi surface. The second is a nonperturbative approach which treats the interaction ahead of the kinetic term through a non-Gaussian scaling called interaction-driven scaling. Examples of strongly coupled non-Fermi liquids amenable to exact treatments through the interaction-driven scaling are discussed."
+  },
+  "reference_119": {
+    "title": "Emergent anomaly of Fermi surfaces: a simple derivation from Weyl fermions",
+    "date": "2021",
+    "authors": [
+      "Ma R",
+      "Wang C."
+    ],
+    "publication": "",
+    "citation_count": 8,
+    "abs": "The Fermi liquid has an emergent low-energy symmetry that corresponds to charge conservation at each momentum on the Ferm surface. Recently Else, Thorngren and Senthil (ETS) argued that the emergent symmetry had a specific t'Hooft anomaly. We give a simple derivation of the ETS anomaly using the chiral anomaly of Weyl fermions."
+  },
+  "reference_120": {
+    "title": "Infrared phases of 2d QCD",
+    "date": "2021",
+    "authors": [
+      "Delmastro D",
+      "Gomis J",
+      "Yu M"
+    ],
+    "publication": "",
+    "citation_count": 3,
+    "abs": "A bstract We derive the necessary and sufficient conditions for a 2 d QCD theory of massless gluons and left and right chiral quarks in arbitrary representations of a gauge group G to develop a mass gap. These results are obtained from spectral properties of the lightcone and temporal QCD Hamiltonians. The conditions can be explicitly solved, and we provide the complete list of all 2 d QCD theories that have a quantum mechanical gap in the spectrum, while any other theory not in the list is gapless. The list of gapped theories includes QCD models with quarks in vector-like as well as chiral representations. The gapped theories consist of several infinite families of classical gauge groups with quarks in rank 1 and 2 representations, plus a finite number of isolated cases. We also put forward and analyze the effective infrared description of QCD — TQFTs for gapped theories and CFTs for gapless theories — and exhibit several interesting features in the infrared, such as the existence of non-trivial global ’t Hooft anomalies and emergent supersymmetry. We identify 2 d QCD theories that flow in the infrared to celebrated CFTs such as minimal models, bosonic and supersymmetric, and Wess-Zumino-Witten and Kazama-Suzuki models."
+  },
+  "reference_121": {
+    "title": "Universal Deformations",
+    "date": "2022",
+    "authors": [
+      "Cherman A",
+      "Jacobson T",
+      "Neuzil M."
+    ],
+    "publication": "SciPost Phys 12:116",
+    "citation_count": 353,
+    "abs": "Droplets deform soft substrates near their contact lines. Using confocal microscopy, we measure the deformation of silicone gel substrates due to glycerol and fluorinated-oil droplets for a range of droplet radii and substrate thicknesses. For all droplets, the substrate deformation takes a universal shape close to the contact line that depends on liquid composition, but is independent of droplet size and substrate thickness. This shape is determined by a balance of interfacial tensions at the contact line and provides a novel method for direct determination of the surface stresses of soft substrates. Moreover, we measure the change in contact angle with droplet radius and show that Young's law fails for small droplets when their radii approach an elastocapillary length scale. For larger droplets the macroscopic contact angle is constant, consistent with Young's law."
+  },
+  "reference_122": {
+    "title": "Baez JC. 2004. Theor. Appl. Categ. 12:423",
+    "date": "2004",
+    "authors": [
+      "Baez JC",
+      "Lauda AD."
+    ],
+    "publication": "Theor. Appl. Categ. 12:423–91",
+    "citation_count": 328,
+    "abs": "Recent advances in our understanding of symmetry in quantum many-body systems offer the possibility of a generalized Landau paradigm that encompasses all equilibrium phases of matter. This is a brief and elementary review of some of these developments."
+  },
+  "reference_123": {
+    "title": "Exploring 2-group global symmetries",
+    "date": "2019",
+    "authors": [
+      "Córdova C",
+      "Dumitrescu TT",
+      "Intriligator K."
+    ],
+    "publication": "JHEP 02:184",
+    "citation_count": 298,
+    "abs": "A bstract We analyze four-dimensional quantum field theories with continuous 2-group global symmetries. At the level of their charges, such symmetries are identical to a product of continuous flavor or spacetime symmetries with a 1-form global symmetry U (1) B (1) , which arises from a conserved 2-form current J B (2) . Rather, 2-group symmetries are characterized by deformed current algebras, with quantized structure constants, which allow two flavor currents or stress tensors to fuse into J B (2) . This leads to unconventional Ward identities, which constrain the allowed patterns of spontaneous 2-group symmetry breaking and other aspects of the renormalization group flow. If J B (2) is coupled to a 2-form background gauge field B (2) , the 2-group current algebra modifies the behavior of B (2) under background gauge transformations. Its transformation rule takes the same form as in the Green-Schwarz mechanism, but only involves the background gauge or gravity fields that couple to the other 2-group currents. This makes it possible to partially cancel reducible ’t Hooft anomalies using Green-Schwarz counterterms for the 2-group background gauge fields. The parts that cannot be cancelled are reinterpreted as mixed, global anomalies involving U (1) B (1) , which receive contributions from topological, as well as massless, degrees of freedom. Theories with 2-group symmetry are constructed by gauging an abelian flavor symmetry with suitable mixed ’t Hooft anomalies, which leads to many simple and explicit examples. Some of them have dynamical string excitations that carry U (1) B (1) charge, and 2-group symmetry determines certain ’t Hooft anomalies on the world sheets of these strings. Finally, we point out that holographic theories with 2-group global symmetries have a bulk description in terms of dynamical gauge fields that participate in a conventional Green-Schwarz mechanism."
+  },
+  "reference_124": {
+    "title": "On 2-group global symmetries and their anomalies",
+    "date": "2019",
+    "authors": [
+      "Benini F",
+      "Córdova C",
+      "Hsin PS."
+    ],
+    "publication": "JHEP 03:118",
+    "citation_count": 300,
+    "abs": "In general quantum field theories (QFTs), ordinary (0-form) global symmetries and 1-form symmetries can combine into 2-group global symmetries. We describe this phenomenon in detail using the language of symmetry defects. We exhibit a simple procedure to determine the (possible) 2-group global symmetry of a given QFT, and provide a classification of the related ’t Hooft anomalies (for symmetries not acting on spacetime). We also describe how QFTs can be coupled to extrinsic backgrounds for symmetry groups that differ from the intrinsic symmetry acting faithfully on the theory. Finally, we provide a variety of examples, ranging from TQFTs (gapped systems) to gapless QFTs. Along the way, we stress that the “obstruction to symmetry fractionalization” discussed in some condensed matter literature is really an instance of 2-group global symmetry."
+  },
+  "reference_125": {
+    "title": "Iqbal N. 2020. SciPost Phys.",
+    "date": "2020",
+    "authors": [
+      "Iqbal N",
+      "Poovuttikul N."
+    ],
+    "publication": "SciPost Phys.",
+    "citation_count": 328,
+    "abs": "Recent advances in our understanding of symmetry in quantum many-body systems offer the possibility of a generalized Landau paradigm that encompasses all equilibrium phases of matter. This is a brief and elementary review of some of these developments."
+  },
+  "reference_126": {
+    "title": "Generalized global symmetries and dissipative magnetohydrodynamics",
+    "date": "2017",
+    "authors": [
+      "Grozdanov S",
+      "Hofman DM",
+      "Iqbal N."
+    ],
+    "publication": "Phys. Rev. D 95:096003",
+    "citation_count": 183,
+    "abs": "The conserved magnetic flux of $U(1)$ electrodynamics coupled to matter in four dimensions is associated with a generalized global symmetry. We study the realization of such a symmetry at finite temperature and develop the hydrodynamic theory describing fluctuations of a conserved 2-form current around thermal equilibrium. This can be thought of as a systematic derivation of relativistic magnetohydrodynamics, constrained only by symmetries and effective field theory. We construct the entropy current and show that at first order in derivatives, there are seven dissipative transport coefficients. We present a universal definition of resistivity in a theory of dynamical electromagnetism and derive a direct Kubo formula for the resistivity in terms of correlation functions of the electric field operator. We also study fluctuations and collective modes, deriving novel expressions for the dissipative widths of magnetosonic and Alfv\\'en modes. Finally, we demonstrate that a nontrivial truncation of the theory can be performed at low temperatures compared to the magnetic field: this theory has an emergent Lorentz invariance along magnetic field lines, and hydrodynamic fluctuations are now parametrized by a fluid tensor rather than a fluid velocity. Throughout, no assumption is made of weak electromagnetic coupling. Thus, our theory may have phenomenological relevance for dense electromagnetic plasmas."
+  },
+  "reference_127": {
+    "title": "One-form superfluids & magnetohydrodynamics",
+    "date": "2020",
+    "authors": [
+      "Armas J",
+      "Jain A."
+    ],
+    "publication": "JHEP 2020:41",
+    "citation_count": 41,
+    "abs": "A bstract We use the framework of generalised global symmetries to study various hydrodynamic regimes of hot electromagnetism. We formulate the hydrodynamic theories with an unbroken or a spontaneously broken U(1) one-form symmetry. The latter of these describes a one-form superfluid, which is characterised by a vector Goldstone mode and a two-form superfluid velocity. Two special limits of this theory have been studied in detail: the string fluid limit where the U(1) one-form symmetry is partly restored, and the electric limit in which the symmetry is completely broken. The transport properties of these theories are investigated in depth by studying the constraints arising from the second law of thermodynamics and Onsager’s relations at first order in derivatives. We also construct a hydrostatic effective action for the Goldstone modes in these theories and use it to characterise the space of all equilibrium configurations. To make explicit contact with hot electromagnetism, the traditional treatment of magnetohydrodynamics, where the electromagnetic photon is incorporated as dynamical degrees of freedom, is extended to include parity-violating contributions. We argue that the chemical potential and electric fields are not independently dynamical in magnetohydrodynamics, and illustrate how to eliminate these within the hydrodynamic derivative expansion using Maxwell’s equations. Additionally, a new hydrodynamic theory of non-conducting, but polarised, plasmas is formulated, focusing primarily on the magnetically dominated sector. Finally, it is shown that the different limits of one-form superfluids formulated in terms of generalised global symmetries are exactly equivalent to magnetohydrodynamics and the hydrodynamics of non-conducting plasmas at the non-linear level."
+  },
+  "reference_128": {
+    "title": "Magnetohydrodynamics as Superfluidity.",
+    "date": "2019",
+    "authors": [
+      "Armas J",
+      "Jain A."
+    ],
+    "publication": "Phys. Rev. Lett. 122:141603",
+    "citation_count": 176,
+    "abs": "Mature neutron stars are cold enough to contain a number of superfluid and superconducting components. These systems are distinguished by the presence of additional dynamical degrees of freedom associated with superfluidity. In order to consider models with mixtures of condensates, we need to develop a multifluid description that accounts for the presence of rotational neutron vortices and magnetic proton fluxtubes. We also need to model the forces that impede the motion of vortices and fluxtubes, and understand how these forces act on the condensates. This paper concerns the development of such a model for the outer core of a neutron star, where superfluid neutrons co-exist with a type II proton superconductor and an electron gas. We discuss the hydrodynamics of this system, focusing on the role of the entrainment effect, the magnetic field, the vortex/fluxtube tension and the dissipative mutual friction forces. Our final results can be directly applied to a number of interesting astrophysical scenarios, e.g. associated with neutron star oscillations or the evolution of the large-scale magnetic field."
+  },
+  "reference_129": {
+    "title": "Generalised global symmetries in holography: magnetohydrodynamic waves in a strongly interacting plasma",
+    "date": "2019",
+    "authors": [
+      "Grozdanov S",
+      "Poovuttikul N."
+    ],
+    "publication": "JHEP 2019:141",
+    "citation_count": 74,
+    "abs": "A bstract We begin the exploration of holographic duals to theories with generalised global (higher-form) symmetries. In particular, we focus on the case of magnetohydrodynamics (MHD) in strongly coupled plasmas by constructing and analysing a holographic dual to a recent, generalised global symmetry-based formulation of dissipative MHD. The simplest holographic dual to the effective theory of MHD that was proposed as a description of plasmas with any equation of state and transport coefficients contains dynamical graviton and two-form gauge field fluctuations in a magnetised black brane background. The dual field theory, which is closely related to the large- N c , $$ \\mathcal{N} $$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>N</mml:mi> </mml:math> = 4 supersymmetric Yang-Mills theory at (infinitely) strong coupling, is, as we argue, in our setup coupled to a dynamical U(1) gauge field with a renormalisation condition-dependent electromagnetic coupling. After constructing the holographic dictionary for gauge-gravity duals of field theories with higher-form symmetries, we compute the dual equation of state and transport coefficients, and for the first time analyse phenomenology of MHD waves in a strongly interacting, dense plasma with a (holographic) microscopic description. From weak to extremely strong magnetic fields, several predictions for the behaviour of Alfvén and magnetosonic waves are discussed."
+  },
+  "reference_130": {
+    "title": "Generalized global symmetries in states with dynamical defects: The case of the transverse sound in field theory and holography",
+    "date": "2018",
+    "authors": [
+      "Grozdanov S",
+      "Poovuttikul N."
+    ],
+    "publication": "Phys. Rev. D 97:106005",
+    "citation_count": 78,
+    "abs": "In this work, we show how states with conserved numbers of dynamical defects (strings, domain walls, etc.) can be understood as possessing generalized global symmetries even when the microscopic origins of these symmetries are unknown. Using this philosophy, we build an effective theory of a $2+1$-dimensional fluid state with two perpendicular sets of immersed elastic line defects. When the number of defects is independently conserved in each set, then the state possesses two one-form symmetries. Normally, such viscoelastic states are described as fluids coupled to Goldstone bosons associated with spontaneous breaking of translational symmetry caused by the underlying microscopic structure---the principle feature of which is a transverse sound mode. At the linear, nondissipative level, we verify that our theory, based entirely on symmetry principles, is equivalent to a viscoelastic theory. We then build a simple holographic dual of such a state containing dynamical gravity and two two-form gauge fields, and use it to study its hydrodynamic and higher-energy spectral properties characterized by nonhydrodynamic, gapped modes. Based on the holographic analysis of transverse two-point functions, we study consistency between low-energy predictions of the bulk theory and the effective boundary theory. Various new features of the holographic dictionary are explained in theories with higher-form symmetries, such as the mixed-boundary-condition modification of the quasinormal mode prescription that depends on the running coupling of the boundary double-trace deformations. Furthermore, we examine details of low- and high-energy parts of the spectrum that depend on temperature, line defect densities and the renormalization group scale."
+  },
+  "reference_131": {
+    "title": "Triangle anomalies and nonrelativistic Nambu-Goldstone modes of generalized global symmetries",
+    "date": "2019",
+    "authors": [
+      "Sogabe N",
+      "Yamamoto N."
+    ],
+    "publication": "Phys. Rev. D 99:125003",
+    "citation_count": 23,
+    "abs": "In massless QCD coupled to QED in an external magnetic field, a photon with the linear polarization in the direction of the external magnetic field mixes with the charge neutral pion through the triangle anomaly, leading to one gapless mode with the quadratic dispersion relation $\\ensuremath{\\omega}\\ensuremath{\\sim}{k}^{2}$ and one gapped mode. We show that this gapless mode can be interpreted as the so-called type-B Nambu-Goldstone (NG) mode associated with the spontaneous breaking of generalized global symmetries and that its presence is solely dictated by the anomalous commutator in the symmetry algebra. We also argue a possible realization of such nonrelativistic NG modes in 3-dimensional Dirac semimetals."
+  },
+  "reference_132": {
+    "title": "Theta, time reversal and temperature",
+    "date": "2017",
+    "authors": [
+      "Gaiotto D",
+      "Kapustin A",
+      "Komargodski Z",
+      "Seiberg N."
+    ],
+    "publication": "JHEP 05:091",
+    "citation_count": 459,
+    "abs": "SU(N ) gauge theory is time reversal invariant at θ = 0 and θ = π. We show that at θ = π there is a discrete ’t Hooft anomaly involving time reversal and the center symmetry. This anomaly leads to constraints on the vacua of the theory. It follows that at θ = π the vacuum cannot be a trivial non-degenerate gapped state. (By contrast, the vacuum at θ = 0 is gapped, non-degenerate, and trivial.) Due to the anomaly, the theory admits nontrivial domain walls supporting lower-dimensional theories. Depending on the nature of the vacuum at θ = π, several phase diagrams are possible. Assuming area law for space-like loops, one arrives at an inequality involving the temperatures at which CP and the center symmetry are restored. We also analyze alternative scenarios for SU(2) gauge theory. The underlying symmetry at θ = π is the dihedral group of 8 elements. If deconfined loops are allowed, one can have two O(2)-symmetric fixed points. It may also be that the four-dimensional theory around θ = π is gapless, e.g. a Coulomb phase could match the underlying anomalies."
+  },
+  "reference_133": {
+    "title": "New higher anomalies, SU(N) Yang–Mills gauge theory and CPN−1 sigma model",
+    "date": "2020",
+    "authors": [
+      "Wan Z",
+      "Wang J",
+      "Zheng Y."
+    ],
+    "publication": "Ann. Phys. 414:168074",
+    "citation_count": 25,
+    "abs": "We review the current status of the long-term programme of numerical investigation of Sp(2N) gauge theories with and without fermionic matter content. We start by introducing the phenomenological as well as theoretical motivations for this research programme, which are related to composite Higgs models, models of partial top compositeness, dark matter models, and in general to the physics of strongly coupled theories and their approach to the large-N limit. We summarise the results of lattice studies conducted so far in the Sp(2N) Yang–Mills theories, measuring the string tension, the mass spectrum of glueballs and the topological susceptibility, and discuss their large-N extrapolation. We then focus our discussion on Sp(4), and summarise the numerical measurements of mass and decay constant of mesons in the theories with fermion matter in either the fundamental or the antisymmetric representation, first in the quenched approximation, and then with dynamical fermions. We finally discuss the case of dynamical fermions in mixed representations, and exotic composite fermion states such as the chimera baryons. We conclude by sketching the future stages of the programme. We also describe our approach to open access."
+  },
+  "reference_134": {
+    "title": "Quantum 4d Yang-Mills theory and time-reversal symmetric 5d higher-gauge topological field theory",
+    "date": "2019",
+    "authors": [
+      "Wan Z",
+      "Wang J",
+      "Zheng Y."
+    ],
+    "publication": "Phys. Rev. D 100:085012",
+    "citation_count": 58,
+    "abs": "We explore various 4d Yang-Mills gauge theories (YM) living as boundary conditions of 5d gapped short-/long-range entangled (SRE/LRE) topological states. Specifically, we explore 4d time-reversal symmetric pure YM of an SU(2) gauge group with a second-Chern-class topological term at $\\ensuremath{\\theta}=\\ensuremath{\\pi}$ [$\\mathrm{SU}(2{)}_{\\ensuremath{\\theta}=\\ensuremath{\\pi}}$ YM], by turning on the background fields for both the time reversal (i.e., on unorientable manifolds) and the one-form center global symmetry. We find four siblings of ${\\mathrm{SU}(2)}_{\\ensuremath{\\theta}=\\ensuremath{\\pi}}$ YM with distinct couplings to background fields, labeled by $({K}_{1},{K}_{2})$: ${K}_{1}=0$, 1 specifies Kramers singlet/doublet Wilson line and new mixed higher 't Hooft anomalies; ${K}_{2}=0$, 1 specifies the boson/fermionic Wilson line and a new Wess-Zumino-Witten--like counterterm. Higher anomalies indicate that to realize all higher $n$-global symmetries locally on $n$ simplices, the 4d theory becomes a boundary of a 5d higher-symmetry-protected topological state (SPTs, as an invertible topological quantum field theory (iTQFT) or a cobordism invariant in math, or as a 5d higher-symmetric interacting topological superconductor in condensed matter). Via Weyl's gauge principle, by dynamically gauging the one-form symmetry, we transform 5d bulk SRE SPTs into an LRE symmetry-enriched topologically ordered state (SETs); thus we obtain the 4d ${\\mathrm{SO}(3)}_{\\ensuremath{\\theta}=\\ensuremath{\\pi}}$ YM-5d LRE-higher-SETs coupled system with dynamical higher-form gauge fields. We further derive new exotic anyonic statistics of extended objects such as two world sheets of strings and three world volumes of branes, physically characterizing the 5d SETs. We discover triple and quadruple link invariants potentially associated with the underlying 5d higher-gauge topological quantum field theories, hinting at a new intrinsic relation between nonsupersymmetric 4d pure YM and topological links in 5d. We provide 4d-5d lattice simplicial complex regularizations and bridge to 4d SU(2)- and SO(3)-gauged quantum spin liquids as ($3+1$)-dimensional realizations."
+  },
+  "reference_135": {
+    "title": "Anomaly Obstructions to Symmetry Preserving Gapped Phases",
+    "date": "2019",
+    "authors": [
+      "Córdova C",
+      "Ohmori K."
+    ],
+    "publication": "",
+    "citation_count": 64,
+    "abs": "Anomalies are renormalization group invariants that constrain the dynamics of quantum field theories. We show that certain anomalies for discrete global symmetries imply that the underlying theory either spontaneously breaks its generalized global symmetry or is gapless. We identify an obstruction, formulated in terms of the anomaly inflow action, that must vanish if a symmetry preserving gapped phase, i.e. a unitary topological quantum field theory, exits with the given anomaly. Our result is similar to the $2d$ Lieb-Schultz-Mattis theorem but applies more broadly to continuum theories in general spacetime dimension with various types of discrete symmetries including higher-form global symmetries. As a particular application, we use our result to prove that certain $4d$ non-abelian gauge theories at $θ=π$ cannot flow at long distances to a phase which simultaneously, preserves time-reversal symmetry, is confining, and is gapped. We also apply our obstruction to $4d$ adjoint QCD and constrain its dynamics."
+  },
+  "reference_136": {
+    "title": "Time-reversal breaking in QCD4, walls, and dualities in 2 + 1 dimensions",
+    "date": "2018",
+    "authors": [
+      "Gaiotto D",
+      "Komargodski Z",
+      "Seiberg N."
+    ],
+    "publication": "JHEP 01:110",
+    "citation_count": 180,
+    "abs": "We study SU(N ) Quantum Chromodynamics (QCD) in 3+1 dimensions with N f degenerate fundamental quarks with mass m and a θ-parameter. For generic m and θ the theory has a single gapped vacuum. However, as θ is varied through θ = π for large m there is a first order transition. For N f = 1 the first order transition line ends at a point with a massless η′ particle (for all N ) and for N f > 1 the first order transition ends at m = 0, where, depending on the value of N f , the IR theory has free Nambu-Goldstone bosons, an interacting conformal field theory, or a free gauge theory. Even when the 4d bulk is smooth, domain walls and interfaces can have interesting phase transitions separating different 3d phases. These turn out to be the phases of the recently studied 3d Chern-Simons matter theories, thus relating the dynamics of QCD4 and QCD3, and, in particular, making contact with the recently discussed dualities in 2+1 dimensions. For example, when the massless 4d theory has an SU(N f ) sigma model, the domain wall theory at low (nonzero) mass supports a 3d massless $$ \\mathbb{C}{\\mathrm{\\mathbb{P}}}^{N_f-1} $$ nonlinear σ-model with a Wess-Zumino term, in agreement with the conjectured dynamics in 2+1 dimensions."
+  },
+  "reference_137": {
+    "title": "θ =π in SUN/ℤN\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$ \\mathrm{S}\\mathrm{U}(N)/{\\mathbb{Z}}_N $$\\end{document}",
+    "date": "2017",
+    "authors": [
+      "Kitano R",
+      "Suyama T",
+      "Yamada N."
+    ],
+    "publication": "JHEP 09:137",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_138": {
+    "title": "Anomaly matching for the phase diagram of massless $\\mathbb{Z}_N$-QCD",
+    "date": "2018",
+    "authors": [
+      "Tanizaki Y",
+      "Kikuchi Y",
+      "Misumi T",
+      "Sakai N."
+    ],
+    "publication": "Phys. Rev. D 97:054012",
+    "citation_count": 85,
+    "abs": "Anomaly matching constrains low-energy physics of strongly-coupled field theories, but it is not useful at finite temperature due to contamination from high-energy states. The known exception is an ’t Hooft anomaly involving one-form symmetries as in pure SU(N ) Yang-Mills theory at θ = π. Recent development about large-N volume independence, however, gives us a circumstantial evidence that ’t Hooft anomalies can also remain under circle compactifications in some theories without one-form symmetries. We develop a systematic procedure for deriving an ’t Hooft anomaly of the circle-compactified theory starting from the anomaly of the original uncompactified theory without one-form symmetries, where the twisted boundary condition for the compactified direction plays a pivotal role. As an application, we consider $$ {\\mathbb{Z}}_N $$ -twisted $$ \\mathbb{C}{P}^{N-1} $$ sigma model and massless $$ {\\mathbb{Z}}_N $$ -QCD, and compute their anomalies explicitly."
+  },
+  "reference_139": {
+    "title": "Comments on abelian Higgs models and persistent order",
+    "date": "2019",
+    "authors": [
+      "Komargodski Z",
+      "Sharon A",
+      "Thorngren R",
+      "Zhou X."
+    ],
+    "publication": "SciPost Phys 6:003",
+    "citation_count": 169,
+    "abs": "A natural question about Quantum Field Theory is whether there is a deformation to a trivial gapped phase. If the underlying theory has an anomaly, then symmetric deformations can never lead to a trivial phase. We discuss such discrete anomalies in Abelian Higgs models in 1+1 and 2+1 dimensions. We emphasize the role of charge conjugation symmetry in these anomalies; for example, we obtain nontrivial constraints on the degrees of freedom that live on a domain wall in the VBS phase of the Abelian Higgs model in 2+1 dimensions. In addition, as a byproduct of our analysis, we show that in 1+1 dimensions the Abelian Higgs model is dual to the Ising model. We also study variations of the Abelian Higgs model in 1+1 and 2+1 dimensions where there is no dynamical particle of unit charge. These models have a center symmetry and additional discrete anomalies. In the absence of a dynamical unit charge particle, the Ising transition in the 1+1 dimensional Abelian Higgs model is removed. These models without a unit charge particle exhibit a remarkably persistent order: we prove that the system cannot be disordered by either quantum or thermal fluctuations. Equivalently, when these theories are studied on a circle, no matter how small or large the circle is, the ground state is non-trivial."
+  },
+  "reference_140": {
+    "title": "Two-flavor adjoint QCD",
+    "date": "2018",
+    "authors": [
+      "Anber MM",
+      "Poppitz E."
+    ],
+    "publication": "Phys. Rev. D 98:034026",
+    "citation_count": 78,
+    "abs": "We study four-dimensional $SU(2)$ Yang-Mills theory with two massless adjoint Weyl fermions. When compactified on a spatial circle of size $L$ much smaller than the strong-coupling scale, this theory can be solved by weak-coupling nonperturbative semiclassical methods. We study the possible realizations of symmetries in the ${\\mathbb{R}}^{4}$ limit and find that all continuous and discrete 0-form and 1-form 't Hooft anomaly-matching conditions are saturated by a symmetry realization and massless spectrum identical to that found in the small-$L$ limit, with only a single massless flavor-doublet fermion in the infrared. This observation raises the possibility that the class of theories which undergo no phase transition between the analytically solvable small-size circle and strongly coupled infinite-size circle is larger than previously thought and offers new challenges for lattice studies."
+  },
+  "reference_141": {
+    "title": "Anomalies, a mod 2 index, and dynamics of 2d adjoint QCD",
+    "date": "2020",
+    "authors": [
+      "Cherman A",
+      "Jacobson T",
+      "Tanizaki Y",
+      "Ünsal M."
+    ],
+    "publication": "SciPost Phys 8:072",
+    "citation_count": 58,
+    "abs": "We show that 2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mn>2</mml:mn> </mml:math> d adjoint QCD, an SU(N) <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:mi>U</mml:mi> <mml:mo stretchy=\"false\" form=\"prefix\">(</mml:mo> <mml:mi>N</mml:mi> <mml:mo stretchy=\"false\" form=\"postfix\">)</mml:mo> </mml:mrow> </mml:math> gauge theory with one massless adjoint Majorana fermion, has a variety of mixed ’t Hooft anomalies. The anomalies are derived using a recent mod 2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mn>2</mml:mn> </mml:math> index theorem and its generalization that incorporates ’t Hooft flux. Anomaly matching and dynamical considerations are used to determine the ground-state structure of the theory. The anomalies, which are present for most values of N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>N</mml:mi> </mml:math> , are matched by spontaneous chiral symmetry breaking. We find that massless 2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mn>2</mml:mn> </mml:math> d adjoint QCD confines for N &gt;2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>N</mml:mi> <mml:mo>&gt;</mml:mo> <mml:mn>2</mml:mn> </mml:mrow> </mml:math> , except for test charges of N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>N</mml:mi> </mml:math> -ality N/2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>N</mml:mi> <mml:mi>/</mml:mi> <mml:mn>2</mml:mn> </mml:mrow> </mml:math> , which are deconfined. In other words, \\mathbb Z_N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mi>N</mml:mi> </mml:msub> </mml:math> center symmetry is unbroken for odd N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>N</mml:mi> </mml:math> and spontaneously broken to \\mathbb Z_{N/2} <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℤ</mml:mi> </mml:mstyle> <mml:mrow> <mml:mi>N</mml:mi> <mml:mi>/</mml:mi> <mml:mn>2</mml:mn> </mml:mrow> </mml:msub> </mml:math> for even N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>N</mml:mi> </mml:math> . All of these results are confirmed by explicit calculations on small \\mathbb{R}\\times S^1 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mstyle mathvariant=\"double-struck\"> <mml:mi>ℝ</mml:mi> </mml:mstyle> <mml:mo>×</mml:mo> <mml:msup> <mml:mi>S</mml:mi> <mml:mn>1</mml:mn> </mml:msup> </mml:mrow> </mml:math> . We also show that this non-supersymmetric theory exhibits exact Bose-Fermi degeneracies for all states, including the vacua, when N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>N</mml:mi> </mml:math> is even. Furthermore, for most values of N <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>N</mml:mi> </mml:math> , 2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mn>2</mml:mn> </mml:math> d massive adjoint QCD describes a non-trivial symmetry-protected topological (SPT) phase of matter, including certain cases where the number of interacting Majorana fermions is a multiple of 8 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">"
+  },
+  "reference_142": {
+    "title": "The mixed 0-form/1-form anomaly in Hilbert space: pouring the new wine into old bottles",
+    "date": "2021",
+    "authors": [
+      "Cox AA",
+      "Poppitz E",
+      "Wandler FD."
+    ],
+    "publication": "JHEP 10:069",
+    "citation_count": 30,
+    "abs": "We study four-dimensional gauge theories with arbitrary simple gauge group with $1$-form global center symmetry and $0$-form parity or discrete chiral symmetry. We canonically quantize on $\\mathbb{T}^3$, in a fixed background field gauging the $1$-form symmetry. We show that the mixed $0$-form/$1$-form 't Hooft anomaly results in a central extension of the global-symmetry operator algebra. We determine this algebra in each case and show that the anomaly implies degeneracies in the spectrum of the Hamiltonian at any finite-size torus. We discuss the consistency of these constraints with both older and recent semiclassical calculations in $SU(N)$ theories, with or without adjoint fermions, as well as with their conjectured infrared phases."
+  },
+  "reference_143": {
+    "title": "Noninvertible 1-form symmetry and Casimir scaling in 2D Yang-Mills theory",
+    "date": "2021",
+    "authors": [
+      "Nguyen M",
+      "Tanizaki Y",
+      "Ünsal M."
+    ],
+    "publication": "Phys. Rev. D 104:065003",
+    "citation_count": 93,
+    "abs": "Pure Yang-Mills theory in two spacetime dimensions shows exact Casimir scaling. Thus, there are infinitely many string tensions, and this has been understood as a result of nonpropagating gluons in two dimensions. From ordinary symmetry considerations, however, this richness in the spectrum of string tensions seems mysterious. Conventional wisdom has it that it is the center symmetry that classifies string tensions, but being finite it cannot explain infinitely many confining strings. In this paper, we resolve this discrepancy between dynamics and kinematics by pointing out the existence of a noninvertible 1-form symmetry, which is able to distinguish Wilson loops in different representations. We speculate on possible implications for Yang-Mills theories in three and four dimensions."
+  },
+  "reference_144": {
+    "title": "AdjointQCD4, deconfined critical phenomena, symmetry-enriched topological quantum field theory, and higher symmetry extension",
+    "date": "2019",
+    "authors": [
+      "Wan Z",
+      "Wang J."
+    ],
+    "publication": "Phys. Rev. D 99:065013",
+    "citation_count": 3,
+    "abs": "At present, there are some problems in the social security of employees in enterprises, such as incomplete security and low reliability. According to this background, this paper studies a topological method for enterprise social security data analysis based on data adaptive analysis strategy and strong learning data stream coprocessing. According to this background, this paper studies a topology method of enterprise social security data analysis based on data adaptive analysis strategy and strong learning data flow and designed a convolutional neural network method based on mutual interference deepening strategy and advanced learning classification mode convolution neural network based on mutual interference deepening strategy and intensive learning classification pattern. According to the coverage error strategy of different types of data, the high-precision matching analysis of enterprise employee social security data is realized, and the Cartesian formula is used to correct the error and topology analysis of the analysis results. According to the experimental data and results, the topology method of enterprise social security data analysis is based on the experimental data and results. We can know that the topological method of enterprise social security data analysis is based on convolutional neural network. Enterprise social security theory can effectively improve the scope and speed of social security. This theory effectively completes the high-precision matching of different types of data and indirectly improves employees’ cognition of enterprise values."
+  },
+  "reference_145": {
+    "title": "Candidate Phases for SU(2) Adjoint QCD$_4$ with Two Flavors from $\\mathcal{N}=2$ Supersymmetric Yang-Mills Theory",
+    "date": "2018",
+    "authors": [
+      "Córdova C",
+      "Dumitrescu TT."
+    ],
+    "publication": "",
+    "citation_count": 42,
+    "abs": "We study four-dimensional adjoint QCD with gauge group SU(2) <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:mi>U</mml:mi> <mml:mrow> <mml:mo stretchy=\"true\" form=\"prefix\">(</mml:mo> <mml:mn>2</mml:mn> <mml:mo stretchy=\"true\" form=\"postfix\">)</mml:mo> </mml:mrow> </mml:mrow> </mml:math> and two Weyl fermion flavors, which has an SU(2)_R <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:mi>U</mml:mi> <mml:msub> <mml:mrow> <mml:mo stretchy=\"true\" form=\"prefix\">(</mml:mo> <mml:mn>2</mml:mn> <mml:mo stretchy=\"true\" form=\"postfix\">)</mml:mo> </mml:mrow> <mml:mi>R</mml:mi> </mml:msub> </mml:mrow> </mml:math> chiral symmetry. The infrared behavior of this theory is not firmly established. We explore candidate infrared phases by embedding adjoint QCD into {\\mathcal N}=2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>𝒩</mml:mi> <mml:mo>=</mml:mo> <mml:mn>2</mml:mn> </mml:mrow> </mml:math> supersymmetric Yang-Mills theory deformed by a supersymmetry-breaking scalar mass M <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>M</mml:mi> </mml:math> that preserves all global symmetries and ’t Hooft anomalies. This includes ’t Hooft anomalies that are only visible when the theory is placed on manifolds that do not admit a spin structure. The consistency of this procedure is guaranteed by a nonabelian spin-charge relation involving the SU(2)_R <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:mi>U</mml:mi> <mml:msub> <mml:mrow> <mml:mo stretchy=\"true\" form=\"prefix\">(</mml:mo> <mml:mn>2</mml:mn> <mml:mo stretchy=\"true\" form=\"postfix\">)</mml:mo> </mml:mrow> <mml:mi>R</mml:mi> </mml:msub> </mml:mrow> </mml:math> symmetry that is familiar from topologically twisted {\\mathcal N}=2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>𝒩</mml:mi> <mml:mo>=</mml:mo> <mml:mn>2</mml:mn> </mml:mrow> </mml:math> theories. Since every vacuum on the Coulomb branch of the {\\mathcal N}=2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>𝒩</mml:mi> <mml:mo>=</mml:mo> <mml:mn>2</mml:mn> </mml:mrow> </mml:math> theory necessarily matches all ’t Hooft anomalies, we can generate candidate phases for adjoint QCD by deforming the theories in these vacua while preserving all symmetries and ’t Hooft anomalies. One such deformation is the supersymmetry-breaking scalar mass M <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>M</mml:mi> </mml:math> itself, which can be reliably analyzed when M <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>M</mml:mi> </mml:math> is small. In this regime it gives rise to an exotic Coulomb phase without chiral symmetry breaking. By contrast, the theory near the monopole and dyon points can be deformed to realize a candidate phase with monopole-induced confinement and chiral symmetry breaking. The low-energy theory consists of two copies of a \\mathbb{CP}^1 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msup> <mml:mrow> <mml:mi>ℂ</mml:mi> <mml:mi>ℙ</mml:mi> </mml:mrow> <mml:mn>1</mml:mn> </mml:msup> </mml:math> sigma model, which we analyze in detail. Certain topological couplings that are likely to be present in this \\mathbb{CP}^1 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msup> <mml:mrow> <mml:mi>ℂ</mml:mi> <mml:mi>ℙ</mml:mi> </mml:mrow> <mml:mn>1</mml:mn> </mml:msup> </mml:math> model turn the confining solitonic string of the model into a topological insulator. We also examine the behavior of various candidate phases under fermion mass deformations. We speculate on the possible large- M <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>M</mml:mi> </mml:math> behavior of the deformed {\\mathcal N}=2 <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:mi>𝒩</mml:mi> <mml:mo>=</mml:mo> <mml:mn>2</mml:mn> </mml:mrow> </mml:math> </jats:alternati"
+  },
+  "reference_146": {
+    "title": "Moudgalya S. 2022. Phys. Rev. X 12:011050",
+    "date": "2022",
+    "authors": [
+      "Moudgalya S",
+      "Motrunich OI."
+    ],
+    "publication": "Phys. Rev. X 12:011050",
+    "citation_count": 461,
+    "abs": "The discovery of quantum many-body scars (QMBS) both in Rydberg atom simulators and in the Affleck-Kennedy-Lieb-Tasaki spin-1 chain model, have shown that a weak violation of ergodicity can still lead to rich experimental and theoretical physics. In this review, we provide a pedagogical introduction to and an overview of the exact results on weak ergodicity breaking via QMBS in isolated quantum systems with the help of simple examples such as the fermionic Hubbard model. We also discuss various mechanisms and unifying formalisms that have been proposed to encompass the plethora of systems exhibiting QMBS. We cover examples of equally-spaced towers that lead to exact revivals for particular initial states, as well as isolated examples of QMBS. Finally, we review Hilbert space fragmentation, a related phenomenon where systems exhibit a richer variety of ergodic and non-ergodic behaviors, and discuss its connections to QMBS."
+  },
+  "reference_147": {
+    "title": "Zou L. 2021. Phys. Rev. X 11:031043",
+    "date": "2021",
+    "authors": [
+      "Zou L",
+      "He YC",
+      "Wang C"
+    ],
+    "publication": "Phys. Rev. X 11:031043",
+    "citation_count": 328,
+    "abs": "Recent advances in our understanding of symmetry in quantum many-body systems offer the possibility of a generalized Landau paradigm that encompasses all equilibrium phases of matter. This is a brief and elementary review of some of these developments."
+  },
+  "reference_148": {
+    "title": "Landau ordering phase transitions beyond the Landau paradigm",
+    "date": "2020",
+    "authors": [
+      "Bi Z",
+      "Lake E",
+      "Senthil T."
+    ],
+    "publication": "Phys. Rev. Res. 2:023031",
+    "citation_count": 25,
+    "abs": "This work demonstrates the breakdown of the Landau paradigm - a standard symmetry breaking quantum phase transition can also admit new critical theories expressed in terms of a deconfined gauge theory coupled with massless Dirac fermions instead of the fluctuating order parameters."
+  }
+}

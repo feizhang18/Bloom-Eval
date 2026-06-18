@@ -1,0 +1,1709 @@
+{
+  "reference_1": {
+    "title": "Topological Insulators",
+    "date": "2010",
+    "authors": [
+      "Hasan MZ",
+      "Kane CL."
+    ],
+    "publication": "Rev. Mod. Phys. 82:3045–67",
+    "citation_count": 19828,
+    "abs": "Topological insulators are electronic materials that have a bulk band gap like an ordinary insulator but have protected conducting states on their edge or surface. These states are possible due to the combination of spin-orbit interactions and time-reversal symmetry. The two-dimensional (2D) topological insulator is a quantum spin Hall insulator, which is a close cousin of the integer quantum Hall state. A three-dimensional (3D) topological insulator supports novel spin-polarized 2D Dirac fermions on its surface. In this Colloquium the theoretical foundation for topological insulators and superconductors is reviewed and recent experiments are described in which the signatures of topological insulators have been observed. Transport experiments on $\\mathrm{Hg}\\mathrm{Te}∕\\mathrm{Cd}\\mathrm{Te}$ quantum wells are described that demonstrate the existence of the edge states predicted for the quantum spin Hall insulator. Experiments on ${\\mathrm{Bi}}_{1\\ensuremath{-}x}{\\mathrm{Sb}}_{x}$, ${\\mathrm{Bi}}_{2}{\\mathrm{Se}}_{3}$, ${\\mathrm{Bi}}_{2}{\\mathrm{Te}}_{3}$, and ${\\mathrm{Sb}}_{2}{\\mathrm{Te}}_{3}$ are then discussed that establish these materials as 3D topological insulators and directly probe the topology of their surface states. Exotic states are described that can occur at the surface of a 3D topological insulator due to an induced energy gap. A magnetic gap leads to a novel quantum Hall state that gives rise to a topological magnetoelectric effect. A superconducting energy gap leads to a state that supports Majorana fermions and may provide a new venue for realizing proposals for topological quantum computation. Prospects for observing these exotic states are also discussed, as well as other potential device applications of topological insulators."
+  },
+  "reference_2": {
+    "title": "Topological insulators and superconductors",
+    "date": "2011",
+    "authors": [
+      "Qi XL",
+      "Zhang SC."
+    ],
+    "publication": "Rev. Mod. Phys. 83:1057–110",
+    "citation_count": 14406,
+    "abs": "Topological insulators are new states of quantum matter which cannot be adiabatically connected to conventional insulators and semiconductors. They are characterized by a full insulating gap in the bulk and gapless edge or surface states which are protected by time-reversal symmetry. These topological materials have been theoretically predicted and experimentally observed in a variety of systems, including HgTe quantum wells, BiSb alloys, and ${\\mathrm{Bi}}_{2}{\\mathrm{Te}}_{3}$ and ${\\mathrm{Bi}}_{2}{\\mathrm{Se}}_{3}$ crystals. Theoretical models, materials properties, and experimental results on two-dimensional and three-dimensional topological insulators are reviewed, and both the topological band theory and the topological field theory are discussed. Topological superconductors have a full pairing gap in the bulk and gapless surface states consisting of Majorana fermions. The theory of topological superconductors is reviewed, in close analogy to the theory of topological insulators."
+  },
+  "reference_3": {
+    "title": "Chern number and edge states in the integer quantum Hall effect.",
+    "date": "1993",
+    "authors": [
+      "Hatsugai Y."
+    ],
+    "publication": "Phys. Rev. Lett. 71:3697–700",
+    "citation_count": 1481,
+    "abs": "We consider the integer quantum Hall effect on a square lattice in a uniform rational magnetic field. The relation between two different interpretations of the Hall conductance as topological invariants is clarified. One is the Thouless--Kohmoto--Nightingale--den Nijs (TKNN) integer in the infinite system and the other is a winding number of the edge state. In the TKNN form of the Hall conductance, a phase of the Bloch wave function defines U(1) vortices on the magnetic Brillouin zone and the total vorticity gives ${\\mathrm{\\ensuremath{\\sigma}}}_{\\mathit{x}\\mathit{y}}$. We find that these vortices are given by the edge states when they are degenerate with the bulk states."
+  },
+  "reference_4": {
+    "title": "Spectra and pseudospectra : the behavior of nonnormal matrices and operators",
+    "date": "2005",
+    "authors": [
+      "Trefethen LN",
+      "Embree M."
+    ],
+    "publication": "Spectra and Pseudospectra",
+    "citation_count": 0,
+    "abs": "The five sections of these notes will one day be the first five chapters of a book, to appear some time after 2001."
+  },
+  "reference_5": {
+    "title": "Real Spectra in Non-Hermitian Hamiltonians Having PT Symmetry",
+    "date": "1998",
+    "authors": [
+      "Bender CM",
+      "Boettcher S."
+    ],
+    "publication": "Phys. Rev. Lett. 80:5243–46",
+    "citation_count": 6625,
+    "abs": "The condition of self-adjointness ensures that the eigenvalues of a Hamiltonian are real and bounded below. Replacing this condition by the weaker condition of $\\mathrm{PT}$ symmetry, one obtains new infinite classes of complex Hamiltonians whose spectra are also real and positive. These $\\mathrm{PT}$ symmetric theories may be viewed as analytic continuations of conventional theories from real to complex phase space. This paper describes the unusual classical and quantum properties of these theories."
+  },
+  "reference_6": {
+    "title": "Complex extension of quantum mechanics.",
+    "date": "2002",
+    "authors": [
+      "Bender CM",
+      "Brody DC",
+      "Jones HF."
+    ],
+    "publication": "Phys. Rev. Lett. 89:270401",
+    "citation_count": 1854,
+    "abs": "Requiring that a Hamiltonian be Hermitian is overly restrictive. A consistent physical theory of quantum mechanics can be built on a complex Hamiltonian that is not Hermitian but satisfies the less restrictive and more physical condition of space-time reflection symmetry (PT symmetry). One might expect a non-Hermitian Hamiltonian to lead to a violation of unitarity. However, if PT symmetry is not spontaneously broken, it is possible to construct a previously unnoticed symmetry C of the Hamiltonian. Using C, an inner product whose associated norm is positive definite can be constructed. The procedure is general and works for any PT-symmetric Hamiltonian. Observables exhibit CPT symmetry, and the dynamics is governed by unitary time evolution. This work is not in conflict with conventional quantum mechanics but is rather a complex generalization of it."
+  },
+  "reference_7": {
+    "title": "Making sense of non-Hermitian Hamiltonians",
+    "date": "2007",
+    "authors": [
+      "Bender CM."
+    ],
+    "publication": "Rep. Prog. Phys. 70:947–1018",
+    "citation_count": 2962,
+    "abs": "The Hamiltonian H specifies the energy levels and time evolution of a quantum theory. A standard axiom of quantum mechanics requires that H be Hermitian because Hermiticity guarantees that the energy spectrum is real and that time evolution is unitary (probability-preserving). This paper describes an alternative formulation of quantum mechanics in which the mathematical axiom of Hermiticity (transpose + complex conjugate) is replaced by the physically transparent condition of space-time reflection (PT ) symmetry. If H has an unbroken PT symmetry, then the spectrum is real. Examples of PT -symmetric non-Hermitian quantum-mechanical Hamiltonians are H = p2 + ix 3 and H = p2 -x4 . Amazingly, the energy levels of these Hamiltonians are all real and positive! Does a PT -symmetric Hamiltonian H specify a physical quantum theory in which the norms of states are positive and time evolution is unitary? The answer is that if H has an unbroken PT symmetry, then it has another symmetry represented by a linear operator C. In terms of C, one can construct a time-independent inner product with a positive-definite norm. Thus, PT -symmetric Hamiltonians describe a new class of complex quantum theories having positive probabilities and unitary time evolution."
+  },
+  "reference_8": {
+    "title": "Nonlinear waves in PT -symmetric systems",
+    "date": "2016",
+    "authors": [
+      "Konotop VV",
+      "Yang J",
+      "Zezyulin DA"
+    ],
+    "publication": "Rev. Mod. Phys. 88:035002",
+    "citation_count": 1160,
+    "abs": "The concept of parity-time symmetric systems is rooted in non-Hermitian quantum mechanics where complex potentials obeying this symmetry could exhibit real spectra. The concept has applications in many fields of physics, e.g., in optics, metamaterials, acoustics, Bose-Einstein condensation, electronic circuitry, etc. The inclusion of nonlinearity has led to a number of new phenomena for which no counterparts exist in traditional dissipative systems. Several examples of nonlinear parity-time symmetric systems in different physical disciplines are presented and their implications discussed."
+  },
+  "reference_9": {
+    "title": "Non-Hermitian physics and PT symmetry",
+    "date": "2018",
+    "authors": [
+      "El-Ganainy R",
+      "Makris KG",
+      "Khajavikhan M",
+      "Musslimani ZH",
+      "Rotter S",
+      "Christodoulides DN."
+    ],
+    "publication": "Nat. Phys. 14:11–19",
+    "citation_count": 1315,
+    "abs": "Non-Hermiticity enriches topological phases beyond the existing Hermitian framework. Whereas their unusual features with no Hermitian counterparts were extensively explored, a full understanding about the role of symmetry in non-Hermitian physics has still been elusive, and there remains an urgent need to establish their topological classification in view of rapid theoretical and experimental progress. Here, we develop a complete theory of symmetry and topology in non-Hermitian physics. We demonstrate that non-Hermiticity ramifies the celebrated Altland-Zirnbauer symmetry classification for insulators and superconductors. In particular, charge conjugation is defined in terms of transposition rather than complex conjugation due to the lack of Hermiticity, and hence chiral symmetry becomes distinct from sublattice symmetry. It is also shown that non-Hermiticity enables a Hermitian-conjugate counterpart of the Altland-Zirnbauer symmetry. Taking into account sublattice symmetry or pseudo-Hermiticity as an additional symmetry, the total number of symmetry classes is 38 instead of 10, which describe intrinsic non-Hermitian topological phases as well as non-Hermitian random matrices. Furthermore, due to the complex nature of energy spectra, non-Hermitian systems feature two different types of complex-energy gaps, pointlike and linelike vacant regions. On the basis of these concepts and K-theory, we complete classification of non-Hermitian topological phases in arbitrary dimensions and symmetry classes. Remarkably, non-Hermitian topology depends on the type of complex-energy gaps, and multiple topological structures appear for each symmetry class and each spatial dimension, which are also illustrated in detail with concrete examples. Moreover, the bulk-boundary correspondence in non-Hermitian systems is elucidated within our framework, and symmetries preventing the non-Hermitian skin effect are identified. Our classification not only categorizes recently observed lasing and transport topological phenomena, but also predicts a new type of symmetry-protected topological lasers with lasing helical edge states and dissipative topological superconductors with nonorthogonal Majorana edge states. Furthermore, our theory provides topological classification of Hermitian and non-Hermitian free bosons. Our work establishes a theoretical framework for the fundamental and comprehensive understanding of non-Hermitian topological phases and paves the way toward uncovering unique phenomena and functionalities that emerge from the interplay of non-Hermiticity and topology."
+  },
+  "reference_10": {
+    "title": "Non-Hermitian physics",
+    "date": "2020",
+    "authors": [
+      "Ashida Y",
+      "Gong Z",
+      "Ueda M."
+    ],
+    "publication": "Adv. Phys. 69:249–435",
+    "citation_count": 1639,
+    "abs": "A review is given on the foundations and applications of non-Hermitian classical and quantum physics. First, key theorems and central concepts in non-Hermitian linear algebra, including Jordan normal form, biorthogonality, exceptional points, pseudo-Hermiticity, and parity-time symmetry, are delineated in a pedagogical and mathematically coherent manner. Building on these, we provide an overview of how diverse classical systems, ranging from photonics, mechanics, electrical circuits, and acoustics to active matter, can be used to simulate non-Hermitian wave physics. In particular, we discuss rich and unique phenomena found therein, such as unidirectional invisibility, enhanced sensitivity, topological energy transfer, coherent perfect absorption, single-mode lasing, and robust biological transport. We then explain in detail how non-Hermitian operators emerge as an effective description of open quantum systems on the basis of the Feshbach projection approach and the quantum trajectory approach. We discuss their applications to physical systems relevant to a variety of fields, including atomic, molecular and optical physics, mesoscopic physics, and nuclear physics with emphasis on prominent phenomena and subjects in quantum regimes, such as quantum resonances, superradiance, the continuous quantum Zeno effect, quantum critical phenomena, Dirac spectra in quantum chromodynamics, and nonunitary conformal field theories. Finally, we introduce the notion of band topology in complex spectra of non-Hermitian systems and present their classifications by providing the proof, first given by this review in a complete manner, as well as a number of instructive examples. Other topics related to non-Hermitian physics, including nonreciprocal transport, speed limits, nonunitary quantum walk, are also reviewed."
+  },
+  "reference_11": {
+    "title": "Topological transition in a non-Hermitian quantum walk.",
+    "date": "2009",
+    "authors": [
+      "Rudner MS",
+      "Levitov LS."
+    ],
+    "publication": "Phys. Rev. Lett. 102:065703",
+    "citation_count": 482,
+    "abs": "We analyze a quantum walk on a bipartite one-dimensional lattice, in which the particle can decay whenever it visits one of the two sublattices. The corresponding non-Hermitian tight-binding problem with a complex potential for the decaying sites exhibits two different phases, distinguished by a winding number defined in terms of the Bloch eigenstates in the Brillouin zone. We find that the mean displacement of a particle initially localized on one of the nondecaying sites can be expressed in terms of the winding number, and is therefore quantized as an integer, changing from zero to one at the critical point. We show that the topological transition is relevant for a variety of experimental settings. The quantized behavior can be used to distinguish coherent from incoherent dynamics."
+  },
+  "reference_12": {
+    "title": "Absence of topological insulator phases in non-Hermitian PT-symmetric Hamiltonians",
+    "date": "2011",
+    "authors": [
+      "Hu YC",
+      "Hughes TL."
+    ],
+    "publication": "Phys. Rev. B 84:153101",
+    "citation_count": 1432,
+    "abs": "While Hermiticity lies at the heart of quantum mechanics, recent experimental advances in controlling dissipation have brought about unprecedented flexibility in engineering non-Hermitian Hamiltonians in open classical and quantum systems. Examples include parity-time-symmetric optical systems with gain and loss, dissipative Bose-Einstein condensates, exciton-polariton systems, and biological networks. A particular interest centers on the topological properties of non-Hermitian systems, which exhibit unique phases with no Hermitian counterparts. However, no systematic understanding in analogy with the periodic table of topological insulators and superconductors has been achieved. In this paper, we develop a coherent framework of topological phases of non-Hermitian systems. After elucidating the physical meaning and the mathematical definition of non-Hermitian topological phases, we start with one-dimensional lattices, which exhibit topological phases with no Hermitian counterparts and are found to be characterized by an integer topological winding number even with no symmetry constraint, reminiscent of the quantum-Hall insulator in Hermitian systems. A system with a nonzero winding number, which is experimentally measurable from the wave-packet dynamics, is shown to be robust against disorder, a phenomenon observed in the Hatano-Nelson model with asymmetric hopping amplitudes. We also unveil a novel bulk-edge correspondence that features an infinite number of (quasi)edge modes. We then apply the K theory to systematically classify all the non-Hermitian topological phases in the Altland-Zirnbauer (AZ) classes in all dimensions. The obtained periodic table unifies time-reversal and particle-hole symmetries, leading to highly nontrivial predictions such as the absence of non-Hermitian topological phases in two dimensions. We provide concrete examples for all the nontrivial non-Hermitian AZ classes in zero and one dimensions. In particular, we identify a Z 2 topological index for arbitrary quantum channels (completely positive tracepreserving maps). Our work lays the cornerstone for a unified understanding of the role of topology in non-Hermitian systems."
+  },
+  "reference_13": {
+    "title": "Edge states and topological phases in non-Hermitian systems",
+    "date": "2011",
+    "authors": [
+      "Esaki K",
+      "Sato M",
+      "Hasebe K",
+      "Kohmoto M."
+    ],
+    "publication": "Phys. Rev. B 84:205128",
+    "citation_count": 503,
+    "abs": "Topological stability of the edge states is investigated for non-Hermitian systems. We examine two classes of non-Hermitian Hamiltonians supporting real bulk eigenenergies in weak non-Hermiticity: SU$(1,1)$ and SO$(3,2)$ Hamiltonians. As an SU$(1,1)$ Hamiltonian, the tight-binding model on the honeycomb lattice with imaginary onsite potentials is examined. Edge states with Re$E=0$ and their topological stability are discussed by the winding number and the index theorem based on the pseudo-anti-Hermiticity of the system. As a higher-symmetric generalization of SU$(1,1)$ Hamiltonians, we also consider SO$(3,2)$ models. We investigate non-Hermitian generalization of the Luttinger Hamiltonian on the square lattice and that of the Kane-Mele model on the honeycomb lattice, respectively. Using the generalized Kramers theorem for the time-reversal operator $\\ensuremath{\\Theta}$ with ${\\ensuremath{\\Theta}}^{2}=+1$ [M. Sato et al., e-print arXiv:1106.1806], we introduce a time-reversal-invariant Chern number from which topological stability of gapless edge modes is argued."
+  },
+  "reference_14": {
+    "title": "Topologically protected midgap states in complex photonic lattices.",
+    "date": "2013",
+    "authors": [
+      "Schomerus H."
+    ],
+    "publication": "Opt. Lett. 38:1912–14",
+    "citation_count": 394,
+    "abs": "One of the principal goals in the design of photonic crystals is the engineering of band gaps and defect states. Here I describe the formation of topologically protected localized midgap states in systems with spatially distributed gain and loss. These states can be selectively amplified, which finds applications in the beam dynamics along a photonic lattice and in the lasing of quasi-one-dimensional photonic crystals."
+  },
+  "reference_15": {
+    "title": "Topological Band Theory for Non-Hermitian Hamiltonians.",
+    "date": "2018",
+    "authors": [
+      "Shen H",
+      "Zhen B",
+      "Fu L."
+    ],
+    "publication": "Phys. Rev. Lett. 120:146402",
+    "citation_count": 1207,
+    "abs": "We develop the topological band theory for systems described by non-Hermitian Hamiltonians, whose energy spectra are generally complex. After generalizing the notion of gapped band structures to the non-Hermitian case, we classify \"gapped\" bands in one and two dimensions by explicitly finding their topological invariants. We find nontrivial generalizations of the Chern number in two dimensions, and a new classification in one dimension, whose topology is determined by the energy dispersion rather than the energy eigenstates. We then study the bulk-edge correspondence and the topological phase transition in two dimensions. Different from the Hermitian case, the transition generically involves an extended intermediate phase with complex-energy band degeneracies at isolated \"exceptional points\" in momentum space. We also systematically classify all types of band degeneracies."
+  },
+  "reference_16": {
+    "title": "Edge States and Topological Invariants of Non-Hermitian Systems.",
+    "date": "2018",
+    "authors": [
+      "Yao S",
+      "Wang Z."
+    ],
+    "publication": "Phys. Rev. Lett. 121:086803",
+    "citation_count": 2212,
+    "abs": "The bulk-boundary correspondence is among the central issues of non-Hermitian topological states. We show that a previously overlooked \"non-Hermitian skin effect\" necessitates redefinition of topological invariants in a generalized Brillouin zone. The resultant phase diagrams dramatically differ from the usual Bloch theory. Specifically, we obtain the phase diagram of the non-Hermitian Su-Schrieffer-Heeger model, whose topological zero modes are determined by the non-Bloch winding number instead of the Bloch-Hamiltonian-based topological number. Our work settles the issue of the breakdown of conventional bulk-boundary correspondence and introduces the non-Bloch bulk-boundary correspondence."
+  },
+  "reference_17": {
+    "title": "Biorthogonal Bulk-Boundary Correspondence in Non-Hermitian Systems.",
+    "date": "2018",
+    "authors": [
+      "Kunst FK",
+      "Edvardsson E",
+      "Budich JC",
+      "Bergholtz EJ."
+    ],
+    "publication": "Phys. Rev. Lett. 121:026808",
+    "citation_count": 1368,
+    "abs": "Non-Hermitian systems exhibit striking exceptions from the paradigmatic bulk-boundary correspondence, including the failure of bulk Bloch band invariants in predicting boundary states and the (dis)appearance of boundary states at parameter values far from those corresponding to gap closings in periodic systems without boundaries. Here, we provide a comprehensive framework to unravel this disparity based on the notion of biorthogonal quantum mechanics: While the properties of the left and right eigenstates corresponding to boundary modes are individually decoupled from the bulk physics in non-Hermitian systems, their combined biorthogonal density penetrates the bulk precisely when phase transitions occur. This leads to generalized bulk-boundary correspondence and a quantized biorthogonal polarization that is formulated directly in systems with open boundaries. We illustrate our general insights by deriving the phase diagram for several microscopic open boundary models, including exactly solvable non-Hermitian extensions of the Su-Schrieffer-Heeger model and Chern insulators."
+  },
+  "reference_18": {
+    "title": "Localization Transitions in Non-Hermitian Quantum Mechanics.",
+    "date": "1996",
+    "authors": [
+      "Hatano N",
+      "Nelson DR."
+    ],
+    "publication": "Phys. Rev. Lett. 77:570–73",
+    "citation_count": 1501,
+    "abs": "We study the localization transitions which arise in both one and two dimensions when quantum mechanical particles described by a random Schr\\\"odinger equation are subjected to a constant imaginary vector potential. A path-integral formulation relates the transition to flux lines depinned from columnar defects by a transverse magnetic field in superconductors. The theory predicts that, close to the depinning transition, the transverse Meissner effect is accompanied by stretched exponential relaxation of the field into the bulk and a diverging penetration depth."
+  },
+  "reference_19": {
+    "title": "Vortex pinning and non-Hermitian quantum mechanics",
+    "date": "1997",
+    "authors": [
+      "Hatano N",
+      "Nelson DR."
+    ],
+    "publication": "Phys. Rev. B 56:8651–73",
+    "citation_count": 671,
+    "abs": "A delocalization phenomenon is studied in a class of non-Hermitian random quantum-mechanical problems. Delocalization arises in response to a sufficiently large constant imaginary vector potential. The transition is related to depinning of flux lines from extended defects in type-II superconductors subject to a tilted external magnetic field. The physical meaning of the complex eigenvalues and currents of the non-Hermitian system is elucidated in terms of properties of tilted vortex lines. The singular behavior of the penetration length describing stretched exponential screening of a perpendicular magnetic field (transverse Meissner effect), the surface transverse magnetization, and the trapping length is determined near the flux-line depinning point."
+  },
+  "reference_20": {
+    "title": "Localization in non-Hermitian quantum mechanics and flux-line pinning in superconductors",
+    "date": "1998",
+    "authors": [
+      "Hatano N."
+    ],
+    "publication": "Physica A 254:317–31",
+    "citation_count": 1432,
+    "abs": "While Hermiticity lies at the heart of quantum mechanics, recent experimental advances in controlling dissipation have brought about unprecedented flexibility in engineering non-Hermitian Hamiltonians in open classical and quantum systems. Examples include parity-time-symmetric optical systems with gain and loss, dissipative Bose-Einstein condensates, exciton-polariton systems, and biological networks. A particular interest centers on the topological properties of non-Hermitian systems, which exhibit unique phases with no Hermitian counterparts. However, no systematic understanding in analogy with the periodic table of topological insulators and superconductors has been achieved. In this paper, we develop a coherent framework of topological phases of non-Hermitian systems. After elucidating the physical meaning and the mathematical definition of non-Hermitian topological phases, we start with one-dimensional lattices, which exhibit topological phases with no Hermitian counterparts and are found to be characterized by an integer topological winding number even with no symmetry constraint, reminiscent of the quantum-Hall insulator in Hermitian systems. A system with a nonzero winding number, which is experimentally measurable from the wave-packet dynamics, is shown to be robust against disorder, a phenomenon observed in the Hatano-Nelson model with asymmetric hopping amplitudes. We also unveil a novel bulk-edge correspondence that features an infinite number of (quasi)edge modes. We then apply the K theory to systematically classify all the non-Hermitian topological phases in the Altland-Zirnbauer (AZ) classes in all dimensions. The obtained periodic table unifies time-reversal and particle-hole symmetries, leading to highly nontrivial predictions such as the absence of non-Hermitian topological phases in two dimensions. We provide concrete examples for all the nontrivial non-Hermitian AZ classes in zero and one dimensions. In particular, we identify a Z 2 topological index for arbitrary quantum channels (completely positive tracepreserving maps). Our work lays the cornerstone for a unified understanding of the role of topology in non-Hermitian systems."
+  },
+  "reference_21": {
+    "title": "Non-Hermitian Skin Effects in Hermitian Correlated or Disordered Systems: Quantities Sensitive or Insensitive to Boundary Effects and Pseudo-Quantum-Number.",
+    "date": "2021a",
+    "authors": [
+      "Okuma N",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. Lett. 126:176601",
+    "citation_count": 95,
+    "abs": "There is a common belief in the condensed matter community that bulk quantities become insensitive to the boundary condition in the infinite-volume limit. Here we reconsider this statement in terms of recent arguments of non-Hermitian skin effects-strong dependence of spectra on boundary conditions for the non-Hermitian Hamiltonians-in the traditional Green's function formalism. We find the criterion for quantities to be sensitive or insensitive against the boundary condition in Hermitian correlated or disordered systems, which is characterized by the residue theorem. We also discuss the uncertainty of the quasiparticle energy under the skin effects in terms of non-normal pseudospectra, which can be tested via the sharp optical absorption from the bulk-surface coupling. Our result indicates that pseudo quantum number emerges as a consequence of large nonnormality."
+  },
+  "reference_22": {
+    "title": "The Toeplitz Matrices of an Arbitrary Laurent Polynomial.",
+    "date": "1960",
+    "authors": [
+      "Schmidt P",
+      "Spitzer F."
+    ],
+    "publication": "Math. Scand. 8:15–38",
+    "citation_count": 799,
+    "abs": "In this expository paper, we survey some of the latest developments on using preconditioned conjugate gradient methods for solving Toeplitz systems. One of the main results is that the complexity of solving a large class of n-by-n Toeplitz systems is reduced to O(n log n) operations as compared to O(n log 2 n) operations required by fast direct Toeplitz solvers. Different preconditioners proposed for Toeplitz systems are reviewed. Applications to Toeplitz-related systems arising from partial differential equations, queueing networks, signal and image processing, integral equations, and time series analysis are given. Key words. Toeplitz matrices, preconditioners, preconditioned conjugate gradient methods, differential equations, signal and image processing, time series, queueing problems, integral equations. AMS Subject classifications. 45E10, 62M10, 65F10, 65N22, 65P05, 68U10, 93E11 Department of Mathematics, The Chinese University of Hong Kong, Shatin, Hong Kong. Research suppo..."
+  },
+  "reference_23": {
+    "title": "Non-Hermitian Chern Bands.",
+    "date": "2018",
+    "authors": [
+      "Yao S",
+      "Song F",
+      "Wang Z."
+    ],
+    "publication": "Phys. Rev. Lett. 121:136802",
+    "citation_count": 944,
+    "abs": "The relation between chiral edge modes and bulk Chern numbers of quantum Hall insulators is a paradigmatic example of bulk-boundary correspondence. We show that the chiral edge modes are not strictly tied to the Chern numbers defined by a non-Hermitian Bloch Hamiltonian. This breakdown of conventional bulk-boundary correspondence stems from the non-Bloch-wave behavior of eigenstates (non-Hermitian skin effect), which generates pronounced deviations of phase diagrams from the Bloch theory. We introduce non-Bloch Chern numbers that faithfully predict the numbers of chiral edge modes. The theory is backed up by the open-boundary energy spectra, dynamics, and phase diagram of representative lattice models. Our results highlight a unique feature of non-Hermitian bands and suggest a non-Bloch framework to characterize their topology."
+  },
+  "reference_24": {
+    "title": "Non-Bloch Band Theory of Non-Hermitian Systems.",
+    "date": "2019",
+    "authors": [
+      "Yokomizo K",
+      "Murakami S."
+    ],
+    "publication": "Phys. Rev. Lett. 123:066404",
+    "citation_count": 1061,
+    "abs": "In spatially periodic Hermitian systems, such as electronic systems in crystals, the band structure is described by the band theory in terms of the Bloch wave functions, which reproduce energy levels for large systems with open boundaries. In this paper, we establish a generalized Bloch band theory in one-dimensional spatially periodic tight-binding models. We show how to define the Brillouin zone in non-Hermitian systems. From this Brillouin zone, one can calculate continuum bands, which reproduce the band structure in an open chain. As an example, we apply our theory to the non-Hermitian Su-Schrieffer-Heeger model. We also show the bulk-edge correspondence between the winding number and existence of the topological edge states."
+  },
+  "reference_25": {
+    "title": "Non-Bloch band theory and bulk–edge correspondence in non-Hermitian systems",
+    "date": "2020",
+    "authors": [
+      "Yokomizo K",
+      "Murakami S."
+    ],
+    "publication": "Prog. Theor. Exp. Phys. 2020:12A102",
+    "citation_count": 47,
+    "abs": "Abstract In this paper, we review our non-Bloch band theory in 1D non-Hermitian tight-binding systems. In our theory, it is shown that in non-Hermitian systems, the Brillouin zone is determined so as to reproduce continuum energy bands in a large open chain. By using simple models, we explain the concept of the non-Bloch band theory and the method to calculate the Brillouin zone. In particular, for the non-Hermitian Su–Schrieffer–Heeger model, the bulk–edge correspondence can be established between the topological invariant defined from our theory and existence of the topological edge states."
+  },
+  "reference_26": {
+    "title": "Non-Hermitian Bulk-Boundary Correspondence and Auxiliary Generalized Brillouin Zone Theory.",
+    "date": "2020",
+    "authors": [
+      "Yang Z",
+      "Zhang K",
+      "Fang C",
+      "Hu J."
+    ],
+    "publication": "Phys. Rev. Lett. 125:226402",
+    "citation_count": 535,
+    "abs": "We provide a systematic and self-consistent method to calculate the generalized Brillouin zone (GBZ) analytically in one-dimensional non-Hermitian systems, which helps us to understand the non-Hermitian bulk-boundary correspondence. In general, a n-band non-Hermitian Hamiltonian is constituted by n distinct sub-GBZs, each of which is a piecewise analytic closed loop. Based on the concept of resultant, we can show that all the analytic properties of the GBZ can be characterized by an algebraic equation, the solution of which in the complex plane is dubbed as auxiliary GBZ (aGBZ). We also provide a systematic method to obtain the GBZ from aGBZ. Two physical applications are also discussed. Our method provides an analytic approach to the spectral problem of open boundary non-Hermitian systems in the thermodynamic limit."
+  },
+  "reference_27": {
+    "title": "Non-Bloch band theory of non-Hermitian Hamiltonians in the symplectic class",
+    "date": "2020",
+    "authors": [
+      "Kawabata K",
+      "Okuma N",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. B 101:195147",
+    "citation_count": 208,
+    "abs": "Non-Hermitian Hamiltonians are generally sensitive to boundary conditions, and their spectra and wave functions under open boundary conditions are not necessarily predicted by the Bloch band theory for periodic boundary conditions. To elucidate such a non-Bloch feature, recent works have developed a non-Bloch band theory that works even under arbitrary boundary conditions. Here, it is demonstrated that the standard non-Bloch band theory breaks down in the symplectic class, in which non-Hermitian Hamiltonians exhibit Kramers degeneracy because of reciprocity. Instead, a modified non-Bloch band theory for the symplectic class is developed in a general manner, as well as illustrative examples. This nonstandard non-Bloch band theory underlies the ${\\mathbb{Z}}_{2}$ non-Hermitian skin effect protected by reciprocity."
+  },
+  "reference_28": {
+    "title": "Anomalous Edge State in a Non-Hermitian Lattice.",
+    "date": "2016",
+    "authors": [
+      "Lee TE."
+    ],
+    "publication": "Phys. Rev. Lett. 116:133903",
+    "citation_count": 1084,
+    "abs": "We show that the bulk-boundary correspondence for topological insulators can be modified in the presence of non-Hermiticity. We consider a one-dimensional tight-binding model with gain and loss as well as long-range hopping. The system is described by a non-Hermitian Hamiltonian that encircles an exceptional point in momentum space. The winding number has a fractional value of 1/2. There is only one dynamically stable zero-energy edge state due to the defectiveness of the Hamiltonian. This edge state is robust to disorder due to protection by a chiral symmetry. We also discuss experimental realization with arrays of coupled resonator optical waveguides."
+  },
+  "reference_29": {
+    "title": "Non-Hermitian robust edge states in one dimension: Anomalous localization and eigenspace condensation at exceptional points",
+    "date": "2018",
+    "authors": [
+      "Martinez Alvarez VM",
+      "Barrios Vargas JE",
+      "Foa Torres LEF"
+    ],
+    "publication": "Phys. Rev. B 97:121401(R)",
+    "citation_count": 813,
+    "abs": "Capital to topological insulators, the bulk-boundary correspondence ties a topological invariant computed from the bulk (extended) states with those at the boundary, which are hence robust to disorder. Here we put forward a different ordering unique to non-Hermitian lattices whereby a pristine system becomes devoid of extended states, a property which turns out to be robust to disorder. This is enabled by a peculiar type of non-Hermitian degeneracy where a macroscopic fraction of the states coalesce at a single point with a geometrical multiplicity of 1."
+  },
+  "reference_30": {
+    "title": "Why does bulk boundary correspondence fail in some non-hermitian topological models",
+    "date": "2018",
+    "authors": [
+      "Xiong Y."
+    ],
+    "publication": "J. Phys. Commun. 2:035043",
+    "citation_count": 560,
+    "abs": "The bulk-boundary correspondence is crucial to topological insulators. It associates the existence of boundary states (with zero energy and possessing chiral or helical properties) with the topological numbers defined in bulk. In recent years, topology has been extended to non-hermitian systems, opening a new research area called non-hermitian topological insulator. In this paper, however, we will illustrate that the bulk-boundary correspondence does not hold in these new models. This is because a prerequisite condition: 'the boundaries cannot alter most of the bulk states, so as to the topological numbers defined on them' does not hold any longer. This cuts out the correspondence between the topological numbers and the boundary states. We will illustrate that, as approaching the open boundary condition by eliminating the strength of the hopping between the two ends of a chain, a new series of exceptional points must be passed through and the topological structure of the spectrum in the complex plane has been changed. This makes the spectrum topology different for the chains with and without boundaries. We also discuss that such exotic behavior does not emerge when the open boundary is replaced by a domain-wall. So the index theorem can be applied to the systems with domain-walls but cannot be further used to those with open boundaries."
+  },
+  "reference_31": {
+    "title": "Solitons in polyacetylene",
+    "date": "1979",
+    "authors": [
+      "Su WP",
+      "Schrieffer JR",
+      "Heeger AJ."
+    ],
+    "publication": "Phys. Rev. Lett. 42:1698–701",
+    "citation_count": 6749,
+    "abs": "We present a theoretical study of soliton formation in long-chain polyenes, including the energy of formation, length, mass, and activation energy for motion. The results provide an explanation of the mobile neutral defect observed in undoped ${(\\mathrm{CH})}_{x}$. Since the soliton formation energy is less than that needed to create band excitation, solitons play a fundamental role in the charge-transfer doping mechanism."
+  },
+  "reference_32": {
+    "title": "Non-Hermitian Topological Invariants in Real Space.",
+    "date": "2019",
+    "authors": [
+      "Song F",
+      "Yao S",
+      "Wang Z."
+    ],
+    "publication": "Phys. Rev. Lett. 123:246801",
+    "citation_count": 487,
+    "abs": "The topology of non-Hermitian systems is drastically shaped by the non-Hermitian skin effect, which leads to the generalized bulk-boundary correspondence and non-Bloch band theory. The essential part in formulations of bulk-boundary correspondence is a general and computable definition of topological invariants. In this Letter, we introduce a construction of non-Hermitian topological invariants based directly on real-space wave functions, which provides a general and straightforward approach for determining non-Hermitian topology. As an illustration, we apply this formulation to several representative models of non-Hermitian systems, efficiently obtaining their topological invariants in the presence of non-Hermitian skin effect. Our formulation also provides a dual picture of the non-Bloch band theory based on the generalized Brillouin zone, offering a unique perspective of bulk-boundary correspondence."
+  },
+  "reference_33": {
+    "title": "Kawabata K. 2019. Phys. Rev. X 9:041015",
+    "date": "2019",
+    "authors": [
+      "Kawabata K",
+      "Shiozaki K",
+      "Ueda M",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. X 9:041015",
+    "citation_count": 405,
+    "abs": "Skin effect, experimentally discovered in one dimension, describes the physical phenomenon that on an open chain, an extensive number of eigenstates of a non-Hermitian Hamiltonian are localized at the end(s) of the chain. Here in two and higher dimensions, we establish a theorem that the skin effect exists, if and only if periodic-boundary spectrum of the Hamiltonian covers a finite area on the complex plane. This theorem establishes the universality of the effect, because the above condition is satisfied in almost every generic non-Hermitian Hamiltonian, and, unlike in one dimension, is compatible with all point-group symmetries. We propose two new types of skin effect in two and higher dimensions: the corner-skin effect where all eigenstates are localized at corners of the system, and the geometry-dependent-skin effect where skin modes disappear for systems of a particular shape, but appear on generic polygons. An immediate corollary of our theorem is that any non-Hermitian system having exceptional points (lines) in two (three) dimensions exhibits skin effect, making this phenomenon accessible to experiments in photonic crystals, Weyl semimetals, and Kondo insulators."
+  },
+  "reference_34": {
+    "title": "Bogoliubov N.. 1947. J. Phys. 11:23",
+    "date": "1947",
+    "authors": [
+      "Bogoliubov N."
+    ],
+    "publication": "J. Phys. 11:23–32",
+    "citation_count": 169,
+    "abs": "We study the large‐ N limit of a system of N bosons interacting with a potential of intensity 1/ N . When the ground state energy is to the first order given by Hartree's theory, we study the next order, predicted by Bogoliubov's theory. We show the convergence of the lower eigenvalues and eigenfunctions towards that of the Bogoliubov Hamiltonian (up to a convenient unitary transform). We also prove the convergence of the free energy when the system is sufficiently trapped. Our results are valid in an abstract setting, our main assumptions being that the Hartree ground state is unique and nondegenerate, and that there is complete Bose‐Einstein condensation on this state. Using our method we then treat two applications: atoms with “bosonic” electrons on one hand, and trapped two‐dimensional and three‐dimensional Coulomb gases on the other hand. © 2015 Wiley Periodicals, Inc."
+  },
+  "reference_35": {
+    "title": "Condensed Matter Field Theory: Frontmatter",
+    "date": "2010",
+    "authors": [
+      "Altland A",
+      "Simons BD."
+    ],
+    "publication": "Condensed Matter Field Theory",
+    "citation_count": 0,
+    "abs": "The methods of quantum field theory underpin many conceptual advances in contemporary condensed matter physics and neighbouring fields. This book provides a praxis-oriented and pedagogical introduction to quantum field theory in many-particle physics, emphasizing the application of theory to real physical systems. This third edition is organized into two parts: the first half of the text presents a streamlined introduction, elevating readers to a level where they can engage with contemporary research literature, from the introduction of many-body techniques and functional integration to renormalization group methods, and the second half addresses a range of advanced topics including modern aspects of gauge theory, topological and relativistic quantum matter, and condensed matter physics out of thermal equilibrium. At all stages, the text seeks a balance between methodological aspects of quantum field theory and practical applications. Extended problems with worked solutions provide a bridge between formal theory and a research-oriented approach."
+  },
+  "reference_36": {
+    "title": "Diagonalization of the quadratic boson hamiltonian",
+    "date": "1978",
+    "authors": [
+      "Colpa J."
+    ],
+    "publication": "Phys. A: Stat. Mech. Appl. 93:327–53",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_37": {
+    "title": "Spinor Bose–Einstein condensates",
+    "date": "2012",
+    "authors": [
+      "Kawaguchi Y",
+      "Ueda M."
+    ],
+    "publication": "Phys. Rep. 520:253–381",
+    "citation_count": 646,
+    "abs": "An effective spin-orbit coupling can be generated in a cold atom system by engineering atom-light interactions. In this Letter we study spin-1/2 and spin-1 Bose-Einstein condensates with Rashba spin-orbit coupling, and find that the condensate wave function will develop nontrivial structures. From numerical simulation we have identified two different phases. In one phase the ground state is a single plane wave, and often we find the system splits into domains and an array of vortices plays the role of a domain wall. In this phase, time-reversal symmetry is broken. In the other phase the condensate wave function is a standing wave, and it forms a spin stripe. The transition between them is driven by interactions between bosons. We also provide an analytical understanding of these results and determine the transition point between the two phases."
+  },
+  "reference_38": {
+    "title": "Topological chiral magnonic edge mode in a magnonic crystal",
+    "date": "2013",
+    "authors": [
+      "Shindou R",
+      "Matsumoto R",
+      "Murakami S",
+      "Ohe J-i"
+    ],
+    "publication": "Phys. Rev. B 87:174427",
+    "citation_count": 430,
+    "abs": "Topological phases have been explored in various fields in physics such as spintronics, photonics, liquid helium, correlated electron system, and cold-atomic system. This leads to the recent foundation of emerging materials such as topological band insulators, topological photonic crystals, and topological superconductors/superfluid. In this paper, we propose a topological magnonic crystal which provides protected chiral edge modes for magnetostatic spin waves. Based on a linearized Landau-Lifshitz equation, we show that a magnonic crystal with the dipolar interaction acquires a spin-wave volume-mode band with nonzero Chern integer. We argue that such magnonic systems are accompanied by the same integer numbers of chiral spin-wave edge modes within a band gap for the volume-mode bands. In these edge modes, the spin wave propagates in a unidirectional manner without being scattered backward, which implements novel fault-tolerant spintronic devices."
+  },
+  "reference_39": {
+    "title": "Topological symmetry classes for non-Hermitian models and connections to the bosonic Bogoliubov–de Gennes equation",
+    "date": "2018",
+    "authors": [
+      "Lieu S."
+    ],
+    "publication": "Phys. Rev. B 98:115135",
+    "citation_count": 111,
+    "abs": "The Bernard-LeClair (BL) symmetry classes generalize the Altland-Zirnbauer classes in the absence of Hermiticity. Within the BL scheme, time-reversal and particle-hole symmetry come in two flavors, and ``pseudo-Hermiticity'' generalizes Hermiticity. We propose that these symmetries are relevant for the topological classification of non-Hermitian single-particle Hamiltonians and Hermitian bosonic Bogoliubov--de Gennes (BdG) models. We show that the spectrum of any Hermitian bosonic BdG Hamiltonian is found by solving for the eigenvalues of a non-Hermitian matrix which belongs to one of the BL classes. We therefore suggest that bosonic BdG Hamiltonians inherit the topological properties of a non-Hermitian symmetry class and explore the consequences by studying symmetry-protected edge instabilities in a one-dimensional system."
+  },
+  "reference_40": {
+    "title": "Topological Magnons: A Review",
+    "date": "2022",
+    "authors": [
+      "McClarty PA."
+    ],
+    "publication": "Annu. Rev. Condens. Matter Phys. 13:171–90",
+    "citation_count": 3,
+    "abs": "At sufficiently low temperatures, magnetic materials often enter correlated phases hosting collective, coherent magnetic excitations such as magnons or triplons. Drawing on the enormous progress on topological materials of the past few years, recent research has led to new insights into the geometry and topology of these magnetic excitations. Berry phases associated with magnetic dynamics can lead to observable consequences in heat and spin transport, whereas analogs of topological insulators and semimetals can arise within magnon band structures from natural magnetic couplings. Magnetic excitations offer a platform to explore the interplay of magnetic symmetries and topology, drive topological transitions using magnetic fields, examine the effects of interactions on topological bands, and generate topologically protected spin currents at interfaces. In this review, we survey progress on all these topics, highlighting aspects of topological matter that are unique to magnon systems and the avenues yet to be fully investigated."
+  },
+  "reference_41": {
+    "title": "New topological invariants in non-Hermitian systems",
+    "date": "2019",
+    "authors": [
+      "Ghatak A",
+      "Das T."
+    ],
+    "publication": "J. Phys. Condens. Matter 31:263001",
+    "citation_count": 351,
+    "abs": "Both theoretical and experimental studies of topological phases in non-Hermitian systems have made a remarkable progress in the last few years of research. In this article, we review the key concepts pertaining to topological phases in non-Hermitian Hamiltonians with relevant examples and realistic model setups. Discussions are devoted to both the adaptations of topological invariants from Hermitian to non-Hermitian systems, as well as origins of new topological invariants in the latter setup. Unique properties such as exceptional points and complex energy landscapes lead to new topological invariants including winding number/vorticity defined solely in the complex energy plane, and half-integer winding/Chern numbers. New forms of Kramers degeneracy appear here rendering distinct topological invariants. Modifications of adiabatic theory, time-evolution operator, biorthogonal bulk-boundary correspondence lead to unique features such as topological displacement of particles, 'skin-effect', and edge-selective attenuated and amplified topological polarizations without chiral symmetry. Extension and realization of topological ideas in photonic systems are mentioned. We conclude with discussions on relevant future directions, and highlight potential applications of some of these unique topological features of the non-Hermitian Hamiltonians."
+  },
+  "reference_42": {
+    "title": "Topological Origin of Non-Hermitian Skin Effects.",
+    "date": "2020",
+    "authors": [
+      "Okuma N",
+      "Kawabata K",
+      "Shiozaki K",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. Lett. 124:086801",
+    "citation_count": 1237,
+    "abs": "A unique feature of non-Hermitian systems is the skin effect, which is the extreme sensitivity to the boundary conditions. Here, we reveal that the skin effect originates from intrinsic non-Hermitian topology. Such a topological origin not merely explains the universal feature of the known skin effect, but also leads to new types of the skin effects-symmetry-protected skin effects. In particular, we discover the Z_{2} skin effect protected by time-reversal symmetry. On the basis of topological classification, we also discuss possible other skin effects in arbitrary dimensions. Our work provides a unified understanding about the bulk-boundary correspondence and the skin effects in non-Hermitian systems."
+  },
+  "reference_43": {
+    "title": "Correspondence between Winding Numbers and Skin Modes in Non-Hermitian Systems.",
+    "date": "2020",
+    "authors": [
+      "Zhang K",
+      "Yang Z",
+      "Fang C."
+    ],
+    "publication": "Phys. Rev. Lett. 125:126402",
+    "citation_count": 918,
+    "abs": "We establish exact relations between the winding of \"energy\" (eigenvalue of Hamiltonian) on the complex plane as momentum traverses the Brillouin zone with periodic boundary condition, and the presence of \"skin modes\" with open boundary conditions in non-Hermitian systems. We show that the nonzero winding with respect to any complex reference energy leads to the presence of skin modes, and vice versa. We also show that both the nonzero winding and the presence of skin modes share the common physical origin that is the nonvanishing current through the system."
+  },
+  "reference_44": {
+    "title": "Gong Z. 2018. Phys. Rev. X 8:031079",
+    "date": "2018",
+    "authors": [
+      "Gong Z",
+      "Ashida Y",
+      "Kawabata K",
+      "Takasan K",
+      "Higashikawa S",
+      "Ueda M."
+    ],
+    "publication": "Phys. Rev. X 8:031079",
+    "citation_count": 1315,
+    "abs": "Non-Hermiticity enriches topological phases beyond the existing Hermitian framework. Whereas their unusual features with no Hermitian counterparts were extensively explored, a full understanding about the role of symmetry in non-Hermitian physics has still been elusive, and there remains an urgent need to establish their topological classification in view of rapid theoretical and experimental progress. Here, we develop a complete theory of symmetry and topology in non-Hermitian physics. We demonstrate that non-Hermiticity ramifies the celebrated Altland-Zirnbauer symmetry classification for insulators and superconductors. In particular, charge conjugation is defined in terms of transposition rather than complex conjugation due to the lack of Hermiticity, and hence chiral symmetry becomes distinct from sublattice symmetry. It is also shown that non-Hermiticity enables a Hermitian-conjugate counterpart of the Altland-Zirnbauer symmetry. Taking into account sublattice symmetry or pseudo-Hermiticity as an additional symmetry, the total number of symmetry classes is 38 instead of 10, which describe intrinsic non-Hermitian topological phases as well as non-Hermitian random matrices. Furthermore, due to the complex nature of energy spectra, non-Hermitian systems feature two different types of complex-energy gaps, pointlike and linelike vacant regions. On the basis of these concepts and K-theory, we complete classification of non-Hermitian topological phases in arbitrary dimensions and symmetry classes. Remarkably, non-Hermitian topology depends on the type of complex-energy gaps, and multiple topological structures appear for each symmetry class and each spatial dimension, which are also illustrated in detail with concrete examples. Moreover, the bulk-boundary correspondence in non-Hermitian systems is elucidated within our framework, and symmetries preventing the non-Hermitian skin effect are identified. Our classification not only categorizes recently observed lasing and transport topological phenomena, but also predicts a new type of symmetry-protected topological lasers with lasing helical edge states and dissipative topological superconductors with nonorthogonal Majorana edge states. Furthermore, our theory provides topological classification of Hermitian and non-Hermitian free bosons. Our work establishes a theoretical framework for the fundamental and comprehensive understanding of non-Hermitian topological phases and paves the way toward uncovering unique phenomena and functionalities that emerge from the interplay of non-Hermiticity and topology."
+  },
+  "reference_45": {
+    "title": "Anatomy of skin modes and topology in non-Hermitian systems",
+    "date": "2019",
+    "authors": [
+      "Lee CH",
+      "Thomale R."
+    ],
+    "publication": "Phys. Rev. B 99:201103(R)",
+    "citation_count": 848,
+    "abs": "Non-Hermitian systems can exhibit a counterintuitive phenomenon where a single local boundary or disorder modifies the entire spectrum, no matter how large the system is. In such cases, all bulk modes become localized ``skin'' modes, and usual bulk topological invariants no longer correctly predict topological boundary modes. Generalizing Laughlin's gauge argument to complex fluxes, the authors derive a geometrical approach for the exact determination of the skin-mode spectrum. They also devise a new topological criterion for non-Hermitian particle-hole symmetric Hamiltonians based on complex analysis."
+  },
+  "reference_46": {
+    "title": "Non-Hermitian Boundary Modes and Topology.",
+    "date": "2020",
+    "authors": [
+      "Borgnia DS",
+      "Kruchkov AJ",
+      "Slager RJ."
+    ],
+    "publication": "Phys. Rev. Lett. 124:056802",
+    "citation_count": 883,
+    "abs": "We consider conditions for the existence of boundary modes in non-Hermitian systems with edges of arbitrary codimension. Through a universal formulation of formation criteria for boundary modes in terms of local Green's functions, we outline a generic perspective on the appearance of such modes and generate corresponding dispersion relations. In the process, we explain the skin effect in both topological and nontopological systems, exhaustively generalizing bulk-boundary correspondence to different types of non-Hermitian gap conditions, a prominent distinguishing feature of such systems. Indeed, we expose a direct relation between the presence of a point gap invariant and the appearance of skin modes when this gap is trivialized by an edge. This correspondence is established via a doubled Green's function, inspired by doubled Hamiltonian methods used to classify Floquet and, more recently, non-Hermitian topological phases. Our work constitutes a general tool, as well as a unifying perspective for this rapidly evolving field. Indeed, as a concrete application we find that our method can expose novel non-Hermitian topological regimes beyond the reach of previous methods."
+  },
+  "reference_47": {
+    "title": "Spectral properties of banded Toeplitz matrices",
+    "date": "2005",
+    "authors": [
+      "Böttcher A",
+      "Grudsky SM."
+    ],
+    "publication": "Spectral Properties of Banded Toeplitz Matrices",
+    "citation_count": 0,
+    "abs": "Preface 1. Infinite matrices 2. Determinants 3. Stability 4. Instability 5. Norms 6. Condition numbers 7. Substitutes for the spectrum 8. Transient behavior 9. Singular values 10. Extreme eigenvalues 11. Eigenvalue distribution 12. Eigenvectors and pseudomodes 13. Structured perturbations 14. Impurities Bibliography Index."
+  },
+  "reference_48": {
+    "title": "On Choosing a Physically Meaningful Topological Classification for Non-Hermitian Systems and the Issue of Diagonalizability",
+    "date": "2020",
+    "authors": [
+      "Lein M."
+    ],
+    "publication": "",
+    "citation_count": 0,
+    "abs": "The topological classification of hermitian operators is solely determined by the presence or absence of certain discrete symmetries. For non-hermitian operators we in addition need to specify the type of spectral gap. They come in the flavor of a point gap or a line gap. Since the presence of a line gap implies the existence of a point gap, there is usually more than one mathematical classification applicable to a physical system. That raises the question: which of these gap-type classifications is physically meaningful? To decide this question, I propose a simple criterion, namely the choice of physically relevant states. This generalizes the notion of Fermi projection that plays a crucial role in the topological classification of fermionic condensed matter systems, and enters as an auxiliary quantity in the bulk classification of photonic and magnonic crystals. After that the classification is entirely algorithmic, the system's topology is encoded in (pairs of) projections with symmetries and constraints. A crucial point in my investigation is the relevance of diagonalizability. Even for existing topological classifications of non-hermitian systems diagonalizability needs to be assumed to ensure that continuous deformations of the hamiltonian lead to continuous deformations of the spectra, projections and unitaries."
+  },
+  "reference_49": {
+    "title": "Periodic table for Floquet topological insulators",
+    "date": "2017",
+    "authors": [
+      "Roy R",
+      "Harper F."
+    ],
+    "publication": "Phys. Rev. B 96:155118",
+    "citation_count": 359,
+    "abs": "Periodically driven systems have recently been shown to host topological phases that are inherently dynamical in character, opening up a new arena in which to explore topological physics. One important group of such phases, known as Floquet topological insulators, arise in systems of free fermions and exhibit protected topological edge modes analogous to the edge modes of static topological insulators. In this work, the authors use methods from K theory to provide a complete topological classification of Floquet topological phases of this kind. The main result is a periodic table for Floquet topological insulators, which may be viewed as a time-dependent extension of the periodic table of topological insulators and superconductors originally introduced by Alexei Kitaev."
+  },
+  "reference_50": {
+    "title": "Nonstandard symmetry classes in mesoscopic normal-superconducting hybrid structures",
+    "date": "1997",
+    "authors": [
+      "Altland A",
+      "Zirnbauer MR."
+    ],
+    "publication": "Phys. Rev. B 55:1142–61",
+    "citation_count": 2417,
+    "abs": "Normal-conducting mesoscopic systems in contact with a superconductor are classified by the symmetry operations of time reversal and rotation of the electron's spin. Four symmetry classes are identified, which correspond to Cartan's symmetric spaces of type C, CI, D, and DIII. A detailed study is made of the systems where the phase shift due to Andreev reflection averages to zero along a typical semiclassical single-electron trajectory. Such systems are particularly interesting because they do not have a genuine excitation gap but support quasiparticle states close to the chemical potential. Disorder or dynamically generated chaos mixes the states and produces forms of universal level statistics different from Wigner-Dyson. For two of the four universality classes, the n-level correlation functions are calculated by the mapping on a free one-dimensional Fermi gas with a boundary. The remaining two classes are related to the Laguerre orthogonal and symplectic random-matrix ensembles. For a quantum dot with a normal-metal--superconducting geometry, the weak-localization correction to the conductance is calculated as a function of sticking probability and two perturbations breaking time-reversal symmetry and spin-rotation invariance. The universal conductance fluctuations are computed from a maximum-entropy S-matrix ensemble. They are larger by a factor of 2 than what is naively expected from the analogy with normal-conducting systems. This enhancement is explained by the doubling of the number of slow modes: owing to the coupling of particles and holes by the proximity to the superconductor, every cooperon and diffusion mode in the advanced-retarded channel entails a corresponding mode in the advanced-advanced (or retarded-retarded) channel."
+  },
+  "reference_51": {
+    "title": "Topological unification of time-reversal and particle-hole symmetries in non-Hermitian physics",
+    "date": "2019",
+    "authors": [
+      "Kawabata K",
+      "Higashikawa S",
+      "Gong Z",
+      "Ashida Y",
+      "Ueda M."
+    ],
+    "publication": "Nat. Commun. 10:297",
+    "citation_count": 263,
+    "abs": "Topological phases are enriched in non-equilibrium open systems effectively described by non-Hermitian Hamiltonians. While several properties unique to non-Hermitian topological systems were uncovered, the fundamental role of symmetry in non-Hermitian physics has yet to be fully understood, and it has remained unclear how symmetry protects non-Hermitian topological phases. Here we show that two fundamental anti-unitary symmetries, time-reversal and particle-hole symmetries, are topologically equivalent in the complex energy plane and hence unified in non-Hermitian physics. A striking consequence of this symmetry unification is the emergence of unique non-equilibrium topological phases that have no counterparts in Hermitian systems. We illustrate this by presenting a non-Hermitian counterpart of the Majorana chain in an insulator with time-reversal symmetry and that of the quantum spin Hall insulator in a superconductor with particle-hole symmetry. Our work establishes a fundamental symmetry principle in non-Hermitian physics and paves the way towards a unified framework for non-equilibrium topological phases."
+  },
+  "reference_52": {
+    "title": "Hermitian zero modes protected by nonnormality: Application of pseudospectra",
+    "date": "2020",
+    "authors": [
+      "Okuma N",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. B 102:014203",
+    "citation_count": 57,
+    "abs": "Recently, it was established that there exists a direct relation between the non-Hermitian skin effects, strong dependence of spectra on boundary conditions for non-Hermitian Hamiltonians, and boundary zero modes for Hermitian topological insulators. On the other hand, in terms of the spectral theory, the skin effects can also be interpreted as instability of spectra for nonnormal (non-Hermitian) Hamiltonians. Applying the latter interpretation to the former relation, we develop a theory of zero modes with quantum anomaly for general Hermitian lattice systems. Our theory is applicable to a wide range of systems: Majorana chains, nonperiodic lattices, and long-range hopping systems. We relate exact zero modes and quasi-zero modes of a Hermitian system to spectra and pseudospectra of a non-Hermitian system, respectively. These zero and quasi-zero modes of a Hermitian system are robust against a class of perturbations even if there is no topological protection. The robustness is measured by nonnormality of the corresponding non-Hermitian system. We also present explicit construction of such zero modes by using a graphical representation of lattice systems. Our theory reveals the presence of nonnormality-protected zero modes, as well as the usefulness of the nonnormality and pseudospectra as tools for topological and/or non-Hermitian physics."
+  },
+  "reference_53": {
+    "title": "Norms and exclusion theorems",
+    "date": "1960",
+    "authors": [
+      "Bauer FL",
+      "Fike CT."
+    ],
+    "publication": "Numer. Math. 2:137–41",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_54": {
+    "title": "Golub G. 1996. In: Matrix Computations",
+    "date": "1996",
+    "authors": [
+      "Golub G",
+      "Loan C."
+    ],
+    "publication": "Matrix Computations",
+    "citation_count": 0,
+    "abs": "Preliminaries. Practicalities. The Direct Solution of Linear Systems. Norms, Limits, and Condition Numbers. The Linear Least Squares Problem. Eigenvalues and Eigenvectors. The QR Algorithm. The Greek Alphabet and Latin Notational Correspondents. Determinants. Rounding-Error Analysis of Solution of Triangular Systems and of Gaussian Elimination. Of Things Not Treated. Bibliography. Index."
+  },
+  "reference_55": {
+    "title": "Non-Hermitian Topological Sensors.",
+    "date": "2020",
+    "authors": [
+      "Budich JC",
+      "Bergholtz EJ."
+    ],
+    "publication": "Phys. Rev. Lett. 125:180403",
+    "citation_count": 396,
+    "abs": "We introduce and study a novel class of sensors whose sensitivity grows exponentially with the size of the device. Remarkably, this drastic enhancement does not rely on any fine-tuning, but is found to be a stable phenomenon immune to local perturbations. Specifically, the physical mechanism behind this striking phenomenon is intimately connected to the anomalous sensitivity to boundary conditions observed in non-Hermitian topological systems. We outline concrete platforms for the practical implementation of these non-Hermitian topological sensors ranging from classical metamaterials to synthetic quantum materials."
+  },
+  "reference_56": {
+    "title": "Bounds for iterates, inverses, spectral variation and fields of values of non-normal matrices",
+    "date": "1962",
+    "authors": [
+      "Henrici P."
+    ],
+    "publication": "Numer. Math. 4:24–40",
+    "citation_count": 684,
+    "abs": "This paper presents new probability inequalities for sums of independent, random, self-adjoint matrices. These results place simple and easily verifiable hypotheses on the summands, and they deliver strong conclusions about the large-deviation behavior of the maximum eigenvalue of the sum. Tail bounds for the norm of a sum of random rectangular matrices follow as an immediate corollary. The proof techniques also yield some information about matrix-valued martingales. In other words, this paper provides noncommutative generalizations of the classical bounds associated with the names Azuma, Bennett, Bernstein, Chernoff, Hoeffding, and McDiarmid. The matrix inequalities promise the same diversity of application, ease of use, and strength of conclusion that have made the scalar inequalities so valuable."
+  },
+  "reference_57": {
+    "title": "Symmetry Protected Topological phases of Quantum Matter",
+    "date": "2015",
+    "authors": [
+      "Senthil T."
+    ],
+    "publication": "Annu. Rev. Condens. Matter Phys. 6:299–324",
+    "citation_count": 603,
+    "abs": "We describe recent progress in our understanding of the interplay between interactions, symmetry, and topology in states of quantum matter. We focus on a minimal generalization of the celebrated topological band insulators (TBIs) to interacting many-particle systems known as symmetry-protected topological (SPT) phases. As with the TBIs, these states have a bulk gap and no exotic excitations but have nontrivial surface states that are protected by symmetry. We describe the various possible phases and their properties in three-dimensional systems with realistic symmetries. We develop many key ideas for the theory of these states using simple examples. The emphasis is on physical rather than mathematical properties. We survey insights obtained from the study of SPT phases for a number of other theoretical problems."
+  },
+  "reference_58": {
+    "title": "A Classification of Non-Hermitian Random Matrices",
+    "date": "2002",
+    "authors": [
+      "Bernard D",
+      "LeClair A"
+    ],
+    "publication": "Statistical Field Theories:207–14",
+    "citation_count": 1315,
+    "abs": "Non-Hermiticity enriches topological phases beyond the existing Hermitian framework. Whereas their unusual features with no Hermitian counterparts were extensively explored, a full understanding about the role of symmetry in non-Hermitian physics has still been elusive, and there remains an urgent need to establish their topological classification in view of rapid theoretical and experimental progress. Here, we develop a complete theory of symmetry and topology in non-Hermitian physics. We demonstrate that non-Hermiticity ramifies the celebrated Altland-Zirnbauer symmetry classification for insulators and superconductors. In particular, charge conjugation is defined in terms of transposition rather than complex conjugation due to the lack of Hermiticity, and hence chiral symmetry becomes distinct from sublattice symmetry. It is also shown that non-Hermiticity enables a Hermitian-conjugate counterpart of the Altland-Zirnbauer symmetry. Taking into account sublattice symmetry or pseudo-Hermiticity as an additional symmetry, the total number of symmetry classes is 38 instead of 10, which describe intrinsic non-Hermitian topological phases as well as non-Hermitian random matrices. Furthermore, due to the complex nature of energy spectra, non-Hermitian systems feature two different types of complex-energy gaps, pointlike and linelike vacant regions. On the basis of these concepts and K-theory, we complete classification of non-Hermitian topological phases in arbitrary dimensions and symmetry classes. Remarkably, non-Hermitian topology depends on the type of complex-energy gaps, and multiple topological structures appear for each symmetry class and each spatial dimension, which are also illustrated in detail with concrete examples. Moreover, the bulk-boundary correspondence in non-Hermitian systems is elucidated within our framework, and symmetries preventing the non-Hermitian skin effect are identified. Our classification not only categorizes recently observed lasing and transport topological phenomena, but also predicts a new type of symmetry-protected topological lasers with lasing helical edge states and dissipative topological superconductors with nonorthogonal Majorana edge states. Furthermore, our theory provides topological classification of Hermitian and non-Hermitian free bosons. Our work establishes a theoretical framework for the fundamental and comprehensive understanding of non-Hermitian topological phases and paves the way toward uncovering unique phenomena and functionalities that emerge from the interplay of non-Hermiticity and topology."
+  },
+  "reference_59": {
+    "title": "Exceptional band touching for strongly correlated systems in equilibrium",
+    "date": "2020",
+    "authors": [
+      "Yoshida T",
+      "Peters R",
+      "Kawakami N",
+      "Hatsugai Y."
+    ],
+    "publication": "Prog. Theor. Exp. Phys. 2020:12A109",
+    "citation_count": 50,
+    "abs": "Abstract Quasi-particles described by Green‘s functions of equilibrium systems exhibit non-Hermitian topological phenomena because of their finite lifetime. This non-Hermitian perspective on equilibrium systems provides new insights into correlated systems and attracts much interest because of its potential to solve open questions in correlated compounds. We provide a concise review of the non-Hermitian topological band structures for quantum many-body systems in equilibrium, as well as their classification."
+  },
+  "reference_60": {
+    "title": "Tenfold Way for Quadratic Lindbladians.",
+    "date": "2020",
+    "authors": [
+      "Lieu S",
+      "McGinley M",
+      "Cooper NR."
+    ],
+    "publication": "Phys. Rev. Lett. 124:040401",
+    "citation_count": 196,
+    "abs": "We uncover a topological classification applicable to open fermionic systems governed by a general class of Lindblad master equations. These \"quadratic Lindbladians\" can be captured by a non-Hermitian single-particle matrix which describes internal dynamics as well as system-environment coupling. We show that this matrix must belong to one of ten non-Hermitian Bernard-LeClair symmetry classes which reduce to the Altland-Zirnbauer classes in the closed limit. The Lindblad spectrum admits a topological classification, which we show results in gapless edge excitations with finite lifetimes. Unlike previous studies of purely Hamiltonian or purely dissipative evolution, these topological edge modes are unconnected to the form of the steady state. We provide one-dimensional examples where the addition of dissipators can either preserve or destroy the closed classification of a model, highlighting the sensitivity of topological properties to details of the system-environment coupling."
+  },
+  "reference_61": {
+    "title": "Topological Defects and Gapless Modes in Insulators and Superconductors",
+    "date": "2010",
+    "authors": [
+      "Teo JCY",
+      "Kane CL."
+    ],
+    "publication": "Phys. Rev. B 82:115120",
+    "citation_count": 806,
+    "abs": "We develop a unified framework to classify topological defects in insulators and superconductors described by spatially modulated Bloch and Bogoliubov de Gennes Hamiltonians. We consider Hamiltonians $\\mathcal{H}(\\mathbf{k},\\mathbf{r})$ that vary slowly with adiabatic parameters $\\mathbf{r}$ surrounding the defect and belong to any of the ten symmetry classes defined by time-reversal symmetry and particle-hole symmetry. The topological classes for such defects are identified and explicit formulas for the topological invariants are presented. We introduce a generalization of the bulk-boundary correspondence that relates the topological classes to defect Hamiltonians to the presence of protected gapless modes at the defect. Many examples of line and point defects in three-dimensional systems will be discussed. These can host one dimensional chiral Dirac fermions, helical Dirac fermions, chiral Majorana fermions, and helical Majorana fermions, as well as zero-dimensional chiral and Majorana zero modes. This approach can also be used to classify temporal pumping cycles, such as the Thouless charge pump, as well as a fermion parity pump, which is related to the Ising non-Abelian statistics of defects that support Majorana zero modes."
+  },
+  "reference_62": {
+    "title": "Time-Reversal Symmetry in Non-Hermitian Systems",
+    "date": "2012",
+    "authors": [
+      "Sato M",
+      "Hasebe K",
+      "Esaki K",
+      "Kohmoto M."
+    ],
+    "publication": "Prog. Theor. Phys. 127:937–74",
+    "citation_count": 79,
+    "abs": "For ordinary Hermitian Hamiltonians, the states support the mathematical structure of quaternion and show the Kramers degeneracy when the system has a half-odd-integer spin and the time-reversal operator obeys Θ2 = -1, while no such structure exists when Θ2 = +1. Here, we point out that for non-Hermitian systems, there exists a similar mathematical structure called split-quaternion even when Θ2 = +1. It is also found that a degeneracy similar to the Kramers degeneracy follows from the split-quaternion structure if the Hamiltonian is pseudo-Hermitian with the metric operator η satisfying {η, Θ} = 0. Furthermore, we show that particle/hole symmetry gives rise to a pair of states with opposite energies on the basis of the split-quaternion in a class of non-Hermitian Hamiltonians. As concrete examples, we examine in detail N ×N Hamiltonians with N = 2 and 4, which are non-Hermitian generalizations of spin 1/2 Hamiltonian and quadrupole Hamiltonian of spin 3/2, respectively."
+  },
+  "reference_63": {
+    "title": "Quantum spin Hall effect in graphene.",
+    "date": "2005",
+    "authors": [
+      "Kane CL",
+      "Mele EJ."
+    ],
+    "publication": "Phys. Rev. Lett. 95:226801",
+    "citation_count": 8127,
+    "abs": "We study the effects of spin orbit interactions on the low energy electronic structure of a single plane of graphene. We find that in an experimentally accessible low temperature regime the symmetry allowed spin orbit potential converts graphene from an ideal two-dimensional semimetallic state to a quantum spin Hall insulator. This novel electronic state of matter is gapped in the bulk and supports the transport of spin and charge in gapless edge states that propagate at the sample boundaries. The edge states are nonchiral, but they are insensitive to disorder because their directionality is correlated with spin. The spin and charge conductances in these edge states are calculated and the effects of temperature, chemical potential, Rashba coupling, disorder, and symmetry breaking fields are discussed."
+  },
+  "reference_64": {
+    "title": "Topological Phase Transition Driven by Infinitesimal Instability: Majorana Fermions in Non-Hermitian Spintronics.",
+    "date": "2019",
+    "authors": [
+      "Okuma N",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. Lett. 123:097701",
+    "citation_count": 143,
+    "abs": "Quantum phase transitions are intriguing and fundamental cooperative phenomena in physics. Analyzing a superconducting nanowire with spin-dependent non-Hermitian hopping, we discover a topological quantum phase transition driven by infinitesimal cascade instability. The anomalous phase transition is complementary to the universal non-Bloch wave behavior of non-Hermitian systems. We show that an infinite small magnetic field drastically suppresses the non-Hermitian skin effect, inducing a topological phase with Majorana boundary states. Furthermore, by identifying the bulk topological invariant, we establish the non-Hermitian bulk-boundary correspondence that does not have a Hermitian counterpart. We also discuss an experimental realization of the system by using the spin-current injection to a quantum wire."
+  },
+  "reference_65": {
+    "title": "Spherical topological insulator",
+    "date": "2012",
+    "authors": [
+      "Imura KI",
+      "Yoshimura Y",
+      "Takane Y",
+      "Fukui T."
+    ],
+    "publication": "Phys. Rev. B 86:235119",
+    "citation_count": 62,
+    "abs": "The electronic spectrum on the spherical surface of a topological insulator reflects an active property of the helical surface state that stems from a constraint on its spin on a curved surface. The induced spin connection can be interpreted as an effective vector potential associated with a fictitious magnetic monopole induced at the center of the sphere. The strength of the induced magnetic monopole is found to be $g=\\ifmmode\\pm\\else\\textpm\\fi{}2\\ensuremath{\\pi}$, being the smallest finite (absolute) value compatible with the Dirac quantization condition. We have established an explicit correspondence between the bulk Hamiltonian and the effective Dirac operator on the curved spherical surface. An explicit construction of the surface spinor wave functions implies a rich spin texture possibly realized on the surface of topological insulator nanoparticles. The electronic spectrum inferred by the obtained effective surface Dirac theory, confirmed also by the bulk tight-binding calculation, suggests a specific photoabsorption/emission spectrum of such nanoparticles."
+  },
+  "reference_66": {
+    "title": "Spin connection and boundary states in a topological insulator",
+    "date": "2011",
+    "authors": [
+      "Parente V",
+      "Lucignano P",
+      "Vitale P",
+      "Tagliacozzo A",
+      "Guinea F."
+    ],
+    "publication": "Phys. Rev. B 83:075424",
+    "citation_count": 4215,
+    "abs": "Topological insulators are materials with a bulk excitation gap generated by the spin-orbit interaction that are different from conventional insulators. This distinction is characterized by ${Z}_{2}$ topological invariants, which characterize the ground state. In two dimensions, there is a single ${Z}_{2}$ invariant that distinguishes the ordinary insulator from the quantum spin-Hall phase. In three dimensions, there are four ${Z}_{2}$ invariants that distinguish the ordinary insulator from ``weak'' and ``strong'' topological insulators. These phases are characterized by the presence of gapless surface (or edge) states. In the two-dimensional quantum spin-Hall phase and the three-dimensional strong topological insulator, these states are robust and are insensitive to weak disorder and interactions. In this paper, we show that the presence of inversion symmetry greatly simplifies the problem of evaluating the ${Z}_{2}$ invariants. We show that the invariants can be determined from the knowledge of the parity of the occupied Bloch wave functions at the time-reversal invariant points in the Brillouin zone. Using this approach, we predict a number of specific materials that are strong topological insulators, including the semiconducting alloy ${\\mathrm{Bi}}_{1\\ensuremath{-}x}{\\mathrm{Sb}}_{x}$ as well as $\\ensuremath{\\alpha}\\text{\\ensuremath{-}}\\mathrm{Sn}$ and HgTe under uniaxial strain. This paper also includes an expanded discussion of our formulation of the topological insulators in both two and three dimensions, as well as implications for experiments."
+  },
+  "reference_67": {
+    "title": "Surface states of topological insulators: the Dirac fermion in curved two-dimensional spaces.",
+    "date": "2009",
+    "authors": [
+      "Lee DH."
+    ],
+    "publication": "Phys. Rev. Lett. 103:196804",
+    "citation_count": 126,
+    "abs": "The surface of a topological insulator is a closed two-dimensional manifold. The surface states are described by the Dirac Hamiltonian in curved two-dimensional spaces. For a slablike sample with a magnetic field perpendicular to its top and bottom surfaces, there are chiral states delocalized on the four side faces. These \"chiral sheets\" carry both charge and spin currents. In strong magnetic fields, the quantized charge Hall effect [sigma(xy) = (2n + 1)e2/h] will coexist with spin Hall effect."
+  },
+  "reference_68": {
+    "title": "Dissipative analog of four-dimensional quantum Hall physics",
+    "date": "2020",
+    "authors": [
+      "Terrier F",
+      "Kunst FK."
+    ],
+    "publication": "Phys. Rev. Res. 2:023364",
+    "citation_count": 27,
+    "abs": "In this work, the authors show that it is possible to realize an anomalous configuration of Weyl cones in a three-dimensional, non-Hermitian Weyl semimetal. It is thus possible to probe the boundary physics of four-dimensional quantum Hall models in three-dimensional setups with gain and loss."
+  },
+  "reference_69": {
+    "title": "Classification of topological insulators and superconductors in three spatial dimensions",
+    "date": "2008",
+    "authors": [
+      "Schnyder AP",
+      "Ryu S",
+      "Furusaki A",
+      "Ludwig AWW."
+    ],
+    "publication": "Phys. Rev. B 78:195125",
+    "citation_count": 3361,
+    "abs": "We systematically study topological phases of insulators and superconductors (or superfluids) in three spatial dimensions. We find that there exist three-dimensional (3D) topologically nontrivial insulators or superconductors in five out of ten symmetry classes introduced in seminal work by Altland and Zirnbauer within the context of random matrix theory, more than a decade ago. One of these is the recently introduced ${\\mathbb{Z}}_{2}$ topological insulator in the symplectic (or spin-orbit) symmetry class. We show that there exist precisely four more topological insulators. For these systems, all of which are time-reversal invariant in three dimensions, the space of insulating ground states satisfying certain discrete symmetry properties is partitioned into topological sectors that are separated by quantum phase transitions. Three of the above five topologically nontrivial phases can be realized as time-reversal invariant superconductors. In these the different topological sectors are characterized by an integer winding number defined in momentum space. When such 3D topological insulators are terminated by a two-dimensional surface, they support a number (which may be an arbitrary nonvanishing even number for singlet pairing) of Dirac fermion (Majorana fermion when spin-rotation symmetry is completely broken) surface modes which remain gapless under arbitrary perturbations of the Hamiltonian that preserve the characteristic discrete symmetries, including disorder. In particular, these surface modes completely evade Anderson localization from random impurities. These topological phases can be thought of as three-dimensional analogs of well-known paired topological phases in two spatial dimensions such as the spinless chiral $({p}_{x}\\ifmmode\\pm\\else\\textpm\\fi{}i{p}_{y})$-wave superconductor (or Moore-Read Pfaffian state). In the corresponding topologically nontrivial (analogous to ``weak pairing'') and topologically trivial (analogous to ``strong pairing'') 3D phases, the wave functions exhibit markedly distinct behavior. When an electromagnetic U(1) gauge field and fluctuations of the gap functions are included in the dynamics, the superconducting phases with nonvanishing winding number possess nontrivial topological ground-state degeneracies."
+  },
+  "reference_70": {
+    "title": "Periodic table for topological insulators and superconductors",
+    "date": "2009",
+    "authors": [
+      "Kitaev A."
+    ],
+    "publication": "AIP Conf. Proc. 1134:22–30",
+    "citation_count": 1901,
+    "abs": "Gapped phases of noninteracting fermions, with and without charge conservation and time‐reversal symmetry, are classified using Bott periodicity. The symmetry and spatial dimension determines a general universality class, which corresponds to one of the 2 types of complex and 8 types of real Clifford algebras. The phases within a given class are further characterized by a topological invariant, an element of some Abelian group that can be 0, Z, or Z2. The interface between two infinite phases with different topological numbers must carry some gapless mode. Topological properties of finite systems are described in terms of K‐homology. This classification is robust with respect to disorder, provided electron states near the Fermi energy are absent or localized. In some cases (e.g., integer quantum Hall systems) the K‐theoretic classification is stable to interactions, but a counterexample is also given."
+  },
+  "reference_71": {
+    "title": "Topological insulators and superconductors: tenfold way and dimensional hierarchy",
+    "date": "2010",
+    "authors": [
+      "Ryu S",
+      "Schnyder AP",
+      "Furusaki A",
+      "Ludwig AWW."
+    ],
+    "publication": "New J. Phys. 12:065010",
+    "citation_count": 2354,
+    "abs": "It has recently been shown that in every spatial dimension there exist precisely five distinct classes of topological insulators or superconductors. Within a given class, the different topological sectors can be distinguished, depending on the case, by a Z or a Z_2 topological invariant. This is an exhaustive classification. Here we construct representatives of topological insulators and superconductors for all five classes and in arbitrary spatial dimension d, in terms of Dirac Hamiltonians. Using these representatives we demonstrate how topological insulators (superconductors) in different dimensions and different classes can be related via dimensional reduction by compactifying one or more spatial dimensions (in Kaluza-Klein-like fashion). For Z-topological insulators (superconductors) this proceeds by descending by one dimension at a time into a different class. The Z_2-topological insulators (superconductors), on the other hand, are shown to be lower-dimensional descendants of parent Z-topological insulators in the same class, from which they inherit their topological properties. The 8-fold periodicity in dimension d that exists for topological insulators (superconductors) with Hamiltonians satisfying at least one reality condition (arising from time-reversal or charge-conjugation/particle-hole symmetries) is a reflection of the 8-fold periodicity of the spinor representations of the orthogonal groups SO(N) (a form of Bott periodicity). We derive a relation between the topological invariant that characterizes topological insulators/superconductors with chiral symmetry and the Chern-Simons invariant: it relates the invariant to the electric polarization (d=1), or to the magnetoelectric polarizability (d=3). Finally, we discuss topological field theories describing the space time theory of linear responses, and study how the presence of inversion symmetry modifies the classification."
+  },
+  "reference_72": {
+    "title": "Classification of topological quantum matter with symmetries",
+    "date": "2016",
+    "authors": [
+      "Chiu CK",
+      "Teo JCY",
+      "Schnyder AP",
+      "Ryu S."
+    ],
+    "publication": "Rev. Mod. Phys. 88:035005",
+    "citation_count": 2889,
+    "abs": "In recent years an increasing amount of attention has been devoted to quantum materials with topological characteristics that are robust against disorder and other perturbations. In this context it was discovered that topological materials can be classified with respect to their dimension and symmetry properties. This review provides an overview of the classification schemes of both fully gapped and gapless topological materials and gives a pedagogical introduction into the field of topological band theory."
+  },
+  "reference_73": {
+    "title": "Topological Correspondence between Hermitian and Non-Hermitian Systems: Anomalous Dynamics.",
+    "date": "2019",
+    "authors": [
+      "Lee JY",
+      "Ahn J",
+      "Zhou H",
+      "Vishwanath A."
+    ],
+    "publication": "Phys. Rev. Lett. 123:206404",
+    "citation_count": 189,
+    "abs": "The hallmark of symmetry-protected topological phases is the existence of anomalous boundary states, which can only be realized with the corresponding bulk system. In this work, we show that for every Hermitian anomalous boundary mode of the ten Altland-Zirnbauer classes, a non-Hermitian counterpart can be constructed, whose long-time dynamics provides a realization of the anomalous boundary state. We prove that the non-Hermitian counterpart is characterized by a point-gap topological invariant, and furthermore, that the invariant exactly matches that of the corresponding Hermitian anomalous boundary mode. We thus establish a correspondence between the topological classifications of (d+1)-dimensional gapped Hermitian systems and d-dimensional point-gapped non-Hermitian systems. We illustrate this general result with a number of examples in different dimensions. This work provides a new perspective on point-gap topological invariants in non-Hermitian systems."
+  },
+  "reference_74": {
+    "title": "Classification of Exceptional Points and Non-Hermitian Topological Semimetals.",
+    "date": "2019",
+    "authors": [
+      "Kawabata K",
+      "Bessho T",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. Lett. 123:066405",
+    "citation_count": 412,
+    "abs": "Exceptional points are universal level degeneracies induced by non-Hermiticity. Whereas past decades witnessed their new physics, the unified understanding has yet to be obtained. Here we present the complete classification of generic topologically stable exceptional points according to two types of complex-energy gaps and fundamental symmetries of charge conjugation, parity, and time reversal. This classification reveals unique non-Hermitian gapless structures with no Hermitian analogs and systematically predicts unknown non-Hermitian semimetals and nodal superconductors; a topological dumbbell of exceptional points in three dimensions is constructed as an illustration. Our work paves the way toward richer phenomena and functionalities of exceptional points and non-Hermitian topological semimetals."
+  },
+  "reference_75": {
+    "title": "Periodic table for topological bands with non-Hermitian symmetries",
+    "date": "2019",
+    "authors": [
+      "Zhou H",
+      "Lee JY."
+    ],
+    "publication": "Phys. Rev. B 99:235112",
+    "citation_count": 424,
+    "abs": "Classifications of symmetry-protected topological phases provide a framework to understand systematically the physical properties and potential applications of topological systems. Here, the authors derive a comprehensive 38-fold topological classification of non-Hermitian systems with generic non-Hermitian symmetry classes. Two independent generalizations of Kramers' degeneracy to the non-Hermitian setting are presented. The nature of the non-Hermitian topological invariants obtained in this classification is explained through worked-out examples, thus providing a framework for the experimental design and engineering of non-Hermitian symmetry-protected topological systems."
+  },
+  "reference_76": {
+    "title": "Quantum anomaly, non-Hermitian skin effects, and entanglement entropy in open systems",
+    "date": "2021",
+    "authors": [
+      "Okuma N",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. B 103:085428",
+    "citation_count": 87,
+    "abs": "We investigate the roles of non-Hermitian topology in spectral properties and entanglement structures of open systems. In terms of spectral theory, we give a unified understanding of two interpretations of non-Hermitian topology: quantum anomaly and non-Hermitian skin effects, in which the bulk spectra extremely depend on the boundary conditions. In this context, the fact that the intrinsic higher-dimensional skin effects under the full open boundary condition need the presence of the topological defects is understood in terms of the anomalous fermion production such as the Rubakov-Callan effect in the presence of the magnetic monopole. By using the unified interpretation, we classify the symmetry-protected and higher-dimensional skin effects. In terms of the entanglement structure, we investigate steady states of fermionic open systems whose Liouvillian (rapidity) spectra host non-Hermitian topology. We analyze dissipation-driven Majorana steady states in zero-dimensional open systems and relate them to the Majorana edge modes of topological superconductors by using the entanglement entropy. We also analyze a steady state of a one-dimensional open Fermi system with a non-Hermitian topological spectrum and relate it to the chiral edge states of the Chern insulator on the basis of the trace index defined from the entanglement spectrum. This correspondence indicates that the entanglement generates circular nonreciprocal currents under the periodic boundary condition and the skin-effect voltage with fermion accumulation under the open boundary condition. Finally, we discuss several related topics such as pseudospectral behaviors of Liouvillian dynamics and skin effects in interacting systems."
+  },
+  "reference_77": {
+    "title": "Nielsen-Ninomiya Theorem with Bulk Topology: Duality in Floquet and Non-Hermitian Systems.",
+    "date": "2021",
+    "authors": [
+      "Bessho T",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. Lett. 127:196404",
+    "citation_count": 288,
+    "abs": "Abstract This article reviews recent developments in the non-Hermitian skin effect (NHSE), particularly on its rich interplay with topology. The review starts off with a pedagogical introduction on the modified bulk-boundary correspondence, the synergy and hybridization of NHSE and band topology in higher dimensions, as well as, the associated topology on the complex energy plane such as spectral winding topology and spectral graph topology. Following which, emerging topics are introduced such as non-Hermitian criticality, dynamical NHSE phenomena, and the manifestation of NHSE beyond the traditional linear non-interacting crystal lattices, particularly its interplay with quantum many-body interactions. Finally, we survey the recent demonstrations and experimental proposals of NHSE."
+  },
+  "reference_78": {
+    "title": "Adler-Bell-Jackiw Anomaly and Fermion Number Breaking in the Presence of a Magnetic Monopole",
+    "date": "1982",
+    "authors": [
+      "Rubakov V."
+    ],
+    "publication": "Nucl. Phys. B 203:311–48",
+    "citation_count": 768,
+    "abs": "Weyl semimetals provide the realization of Weyl fermions in solid-state physics. Among all the physical phenomena that are enabled by Weyl semimetals, the chiral anomaly is the most unusual one. Here, we report signatures of the chiral anomaly in the magneto-transport measurements on the first Weyl semimetal TaAs. We show negative magnetoresistance under parallel electric and magnetic fields, that is, unlike most metals whose resistivity increases under an external magnetic field, we observe that our high mobility TaAs samples become more conductive as a magnetic field is applied along the direction of the current for certain ranges of the field strength. We present systematically detailed data and careful analyses, which allow us to exclude other possible origins of the observed negative magnetoresistance. Our transport data, corroborated by photoemission measurements, first-principles calculations and theoretical analyses, collectively demonstrate signatures of the Weyl fermion chiral anomaly in the magneto-transport of TaAs."
+  },
+  "reference_79": {
+    "title": "Disappearing dyons",
+    "date": "1982",
+    "authors": [
+      "Callan CG."
+    ],
+    "publication": "Phys. Rev. D 25:2141–46",
+    "citation_count": 230,
+    "abs": "I show that in a world with massless fermions the interaction between the charge rotator degree of freedom of the magnetic monopole and the massless-fermion vacuum replaces the dyon states with a set of excitations having zero expectation value of the electric field."
+  },
+  "reference_80": {
+    "title": "Chiral magnetic effect",
+    "date": "2008",
+    "authors": [
+      "Fukushima K",
+      "Kharzeev DE",
+      "Warringa HJ."
+    ],
+    "publication": "Phys. Rev. D 78:074033",
+    "citation_count": 2029,
+    "abs": "Topological charge changing transitions can induce chirality in the quark-gluon plasma by the axial anomaly. We study the equilibrium response of the quark-gluon plasma in such a situation to an external magnetic field. To mimic the effect of the topological charge changing transitions we will introduce a chiral chemical potential. We will show that an electromagnetic current is generated along the magnetic field. This is the chiral magnetic effect. We compute the magnitude of this current as a function of magnetic field, chirality, temperature, and baryon chemical potential."
+  },
+  "reference_81": {
+    "title": "Stability of Fermi surfaces and K theory.",
+    "date": "2005",
+    "authors": [
+      "Hořava P."
+    ],
+    "publication": "Phys. Rev. Lett. 95:016405",
+    "citation_count": 308,
+    "abs": "Nonrelativistic Fermi liquids in d+1 dimensions exhibit generalized Fermi surfaces: (d-p)-dimensional submanifolds in the (k,omega)-space supporting gapless excitations. We show that the universality classes of stable Fermi surfaces are classified by K theory, with the pattern of stability determined by Bott periodicity. The Atiyah-Bott-Shapiro construction implies that the low-energy modes near a Fermi surface exhibit relativistic invariance in the transverse p+1 dimensions. This suggests an intriguing parallel between nonrelativistic Fermi liquids and D-branes of string theory."
+  },
+  "reference_82": {
+    "title": "Protected boundary states in gapless topological phases",
+    "date": "2013",
+    "authors": [
+      "Matsuura S",
+      "Chang PY",
+      "Schnyder AP",
+      "Ryu S."
+    ],
+    "publication": "New J. Phys. 15:065001",
+    "citation_count": 196,
+    "abs": "We systematically study gapless topological phases of (semi-)metals and nodal superconductors described by Bloch and Bogoliubov–de Gennes Hamiltonians. Using K-theory, a classification of topologically stable Fermi surfaces in (semi-)metals and nodal lines in superconductors is derived. We discuss a generalized bulk–boundary correspondence that relates the topological features of the Fermi surfaces and superconducting nodal lines to the presence of protected zero-energy states at the boundary of the system. Depending on the case, the boundary states are either linearly dispersing (i.e. Dirac or Majorana states) or dispersionless, forming two-dimensional surface flat bands or one-dimensional arc surface states. We study examples of gapless topological phases in symmetry classes AIII and DIII, focusing in particular on nodal superconductors, such as nodal noncentrosymmetric superconductors. For some cases we explicitly compute the surface spectrum and examine the signatures of the topological boundary states in the surface density of states. We also discuss the robustness of the surface states against disorder."
+  },
+  "reference_83": {
+    "title": "Topological classification and stability of Fermi surfaces.",
+    "date": "2013",
+    "authors": [
+      "Zhao YX",
+      "Wang ZD."
+    ],
+    "publication": "Phys. Rev. Lett. 110:240404",
+    "citation_count": 192,
+    "abs": "In the framework of the Cartan classification of Hamiltonians, a kind of topological classification of Fermi surfaces is established in terms of topological charges. The topological charge of a Fermi surface depends on its codimension and the class to which its Hamiltonian belongs. It is revealed that six types of topological charges exist, and they form two groups with respect to the chiral symmetry, with each group consisting of one original charge and two descendants. It is these nontrivial topological charges which lead to the robust topological protection of the corresponding Fermi surfaces against perturbations that preserve discrete symmetries."
+  },
+  "reference_84": {
+    "title": "An intrinsic connection between topological stabilities of Fermi surfaces and topological insulators/superconductors",
+    "date": "2014",
+    "authors": [
+      "Zhao YX",
+      "Wang ZD."
+    ],
+    "publication": "Phys. Rev. B 89:075111",
+    "citation_count": 1557,
+    "abs": "First-principles band theory, properly augmented by topological considerations, has provided a remarkably successful framework for predicting new classes of topological materials. This Colloquium discusses the underpinnings of the topological band theory and its materials applications."
+  },
+  "reference_85": {
+    "title": "Unified Theory of PT and CP Invariant Topological Metals and Nodal Superconductors.",
+    "date": "2016",
+    "authors": [
+      "Zhao YX",
+      "Schnyder AP",
+      "Wang ZD."
+    ],
+    "publication": "Phys. Rev. Lett. 116:156402",
+    "citation_count": 163,
+    "abs": "As PT and CP symmetries are fundamental in physics, we establish a unified topological theory of PT and CP invariant metals and nodal superconductors, based on the mathematically rigorous KO theory. Representative models are constructed for all nontrivial topological cases in dimensions d=1, 2, and 3, with their exotic physical meanings being elucidated in detail. Intriguingly, it is found that the topological charges of Fermi surfaces in the bulk determine an exotic direction-dependent distribution of topological subgap modes on the boundaries. Furthermore, by constructing an exact bulk-boundary correspondence, we show that the topological Fermi points of the PT and CP invariant classes can appear as gapless modes on the boundary of topological insulators with a certain type of anisotropic crystalline symmetry."
+  },
+  "reference_86": {
+    "title": "PT-Symmetric Real Dirac Fermions and Semimetals.",
+    "date": "2017",
+    "authors": [
+      "Zhao YX",
+      "Lu Y."
+    ],
+    "publication": "Phys. Rev. Lett. 118:056401",
+    "citation_count": 4534,
+    "abs": "In recent years many three-dimensional crystals have been discovered whose low energy electronic properties are described by the Dirac or Weyl equations for relativistic fermions. This leads to many unusual physical properties and potentially to new applications. This review explains the theory behind these developments, their material realizations, and the current experimental status."
+  },
+  "reference_87": {
+    "title": "Weyl and Dirac semimetals with Z 2 topological charge",
+    "date": "2014",
+    "authors": [
+      "Morimoto T",
+      "Furusaki A."
+    ],
+    "publication": "Phys. Rev. B 89:235127",
+    "citation_count": 4534,
+    "abs": "In recent years many three-dimensional crystals have been discovered whose low energy electronic properties are described by the Dirac or Weyl equations for relativistic fermions. This leads to many unusual physical properties and potentially to new applications. This review explains the theory behind these developments, their material realizations, and the current experimental status."
+  },
+  "reference_88": {
+    "title": "Topological Blount's theorem of odd-parity superconductors",
+    "date": "2014",
+    "authors": [
+      "Kobayashi S",
+      "Shiozaki K",
+      "Tanaka Y",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. B 90:024516",
+    "citation_count": 108,
+    "abs": "Blount's theorem prohibits the existence of line nodes for odd-parity superconductors (SCs) in the presence of spin-orbit coupling (SOC). We studied the topological stability conditions of line nodes under inversion symmetry by generalizing the original statement and establishing a relation to surface zero-energy states. The topological instability of line nodes in odd-parity SCs implies the disappearance of corresponding flat zero-energy surface dispersions due to surface Rashba SOC, which provides an experimental means to distinguish line nodes in odd-parity SCs from those in other SCs."
+  },
+  "reference_89": {
+    "title": "Topology of crystalline insulators and superconductors",
+    "date": "2014",
+    "authors": [
+      "Shiozaki K",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. B 90:165114",
+    "citation_count": 518,
+    "abs": "We complete a classification of topological phases and their topological defects in crystalline insulators and superconductors. We consider topological phases and defects described by noninteracting Bloch and Bogoliubov--de Gennes Hamiltonians that support additional order-two spatial symmetry, besides any of 10 classes of symmetries defined by time-reversal symmetry and particle-hole symmetry. The additional order-two spatial symmetry we consider is general and it includes ${\\mathbit{Z}}_{2}$ global symmetry, mirror reflection, twofold rotation, inversion, and their magnetic point group symmetries. We find that the topological periodic table shows a periodicity in the number of flipped coordinates under the order-two spatial symmetry, in addition to the Bott periodicity in the space dimensions. Various symmetry-protected topological phases and gapless modes will be identified and discussed in a unified framework. We also present topological classification of symmetry-protected Fermi points. The bulk classification and the surface Fermi point classification provide a realization of the bulk-boundary correspondence in terms of the $K$ theory."
+  },
+  "reference_90": {
+    "title": "Classification of reflection-symmetry-protected topological semimetals and nodal superconductors",
+    "date": "2014",
+    "authors": [
+      "Chiu CK",
+      "Schnyder AP."
+    ],
+    "publication": "Phys. Rev. B 90:205136",
+    "citation_count": 342,
+    "abs": "While the topological classification of insulators, semimetals, and superconductors in terms of nonspatial symmetries is well understood, less is known about topological states protected by crystalline symmetries, such as mirror reflections and rotations. In this work, we systematically classify topological semimetals and nodal superconductors that are protected, not only by nonspatial (i.e., global) symmetries, but also by a crystal reflection symmetry. We find that the classification crucially depends on (i) the codimension of the Fermi surface (nodal line or point) of the semimetal (superconductor), (ii) whether the mirror symmetry commutes or anticommutes with the nonspatial symmetries, and (iii) how the Fermi surfaces (nodal lines or points) transform under the mirror reflection and nonspatial symmetries. The classification is derived by examining all possible symmetry-allowed mass terms that can be added to the Bloch or Bogoliubov--de Gennes Hamiltonian in a given symmetry class and by explicitly deriving topological invariants. We discuss several examples of reflection-symmetry-protected topological semimetals and nodal superconductors, including topological crystalline semimetals with mirror ${\\mathbb{Z}}_{2}$ numbers and topological crystalline nodal superconductors with mirror winding numbers."
+  },
+  "reference_91": {
+    "title": "Kato T.. 2013. In: Perturbation Theory for Linear Operators",
+    "date": "2013",
+    "authors": [
+      "Kato T."
+    ],
+    "publication": "Perturbation Theory for Linear Operators 132",
+    "citation_count": 1557,
+    "abs": "First-principles band theory, properly augmented by topological considerations, has provided a remarkably successful framework for predicting new classes of topological materials. This Colloquium discusses the underpinnings of the topological band theory and its materials applications."
+  },
+  "reference_92": {
+    "title": "Physics of Nonhermitian Degeneracies",
+    "date": "2004",
+    "authors": [
+      "Berry MV."
+    ],
+    "publication": "Czechoslov. J. Phys. 54:1039–47",
+    "citation_count": 778,
+    "abs": "We analyze chiral topological edge modes in a non-Hermitian variant of the 2D Dirac equation. Such modes appear at interfaces between media with different \"masses\" and/or signs of the \"non-Hermitian charge.\" The existence of these edge modes is intimately related to exceptional points of the bulk Hamiltonians, i.e., degeneracies in the bulk spectra of the media. We find that the topological edge modes can be divided into three families (\"Hermitian-like,\" \"non-Hermitian,\" and \"mixed\"); these are characterized by two winding numbers, describing two distinct kinds of half-integer charges carried by the exceptional points. We show that all the above types of topological edge modes can be realized in honeycomb lattices of ring resonators with asymmetric or gain-loss couplings."
+  },
+  "reference_93": {
+    "title": "The physics of exceptional points",
+    "date": "2012",
+    "authors": [
+      "Heiss W."
+    ],
+    "publication": "J. Phys. A Math. Theor. 45:444016",
+    "citation_count": 1425,
+    "abs": "A short resume is given about the nature of exceptional points (EPs) followed by discussions about their ubiquitous occurrence in a great variety of physical problems. EPs feature in classical as well as in quantum mechanical problems. They are associated with symmetry breaking for ${\\cal PT}$-symmetric Hamiltonians, where a great number of experiments have been performed in particular in optics, and to an increasing extent in atomic and molecular physics. EPs are involved in quantum phase transition and quantum chaos, they produce dramatic effects in multichannel scattering, specific time dependence and more. In nuclear physics they are associated with instabilities and continuum problems. Being spectral singularities they also affect approximation schemes."
+  },
+  "reference_94": {
+    "title": "Non-Hermitian Topological Theory of Finite-Lifetime Quasiparticles: Prediction of Bulk Fermi Arc Due to Exceptional Point",
+    "date": "2017",
+    "authors": [
+      "Kozii V",
+      "Fu L."
+    ],
+    "publication": "",
+    "citation_count": 128,
+    "abs": "We introduce a topological theory to study quasiparticles in interacting and/or disordered many-body systems, which have a finite lifetime due to inelastic and/or elastic scattering. The one-body quasiparticle Hamiltonian includes both the Bloch Hamiltonian of band theory and the self-energy due to interactions, which is non-Hermitian when quasiparticle lifetime is finite. We study the topology of non-Hermitian quasiparticle Hamiltonians in momentum space, whose energy spectrum is complex. The interplay of band structure and quasiparticle lifetime is found to have remarkable consequences in zero- and small-gap systems. In particular, we predict the existence of topological exceptional point and bulk Fermi arc in Dirac materials with two distinct quasiparticle lifetimes."
+  },
+  "reference_95": {
+    "title": "Observation of bulk Fermi arc and polarization half charge from paired exceptional points",
+    "date": "2018",
+    "authors": [
+      "Zhou H",
+      "Peng C",
+      "Yoon Y",
+      "Hsu CW",
+      "Nelson KA"
+    ],
+    "publication": "Science 359:1009–12",
+    "citation_count": 646,
+    "abs": "Exploring photonic topology Scattering topological effects are being explored in a variety of electronic and optical materials systems owing to their robustness against defects (see the Perspective by Özdemir). Yang et al. designed and fabricated an ideal optical analog of a three-dimensional Weyl system. Angular transmission measurements revealed four Weyl points at the same energy, as well as the signature helicoidal arcs associated with such an exotic topological system. Zhou et al. theoretically proposed and experimentally demonstrated the formation of a topologically protected bulk Fermi arc. They attributed the formation of the arc to the topological nature of paired exceptional points (points at which gain and loss in the system are matched). Photonic crystals may provide a powerful platform for studying exotic properties of topological electronic systems and may also be used to develop optical devices that exploit topological properties of light-matter interactions. Science , this issue p. 1013 , p. 1009 ; see also p. 995"
+  },
+  "reference_96": {
+    "title": "Nodal arc of disordered Dirac fermions and non-Hermitian band theory",
+    "date": "2019",
+    "authors": [
+      "Papaj M",
+      "Isobe H",
+      "Fu L."
+    ],
+    "publication": "Phys. Rev. B 99:201107",
+    "citation_count": 141,
+    "abs": "Disordered Dirac fermions have been studied in a variety of contexts, including quantum Hall transitions, surface states of topological insulators, and graphene. Here, the authors study a new Dirac system in which the two components of the Dirac fermion are unrelated by symmetry and, hence, disorder results in two different quasiparticle lifetimes. It is demonstrated that disorder generates a nodal arc replacing the original Dirac point, thus leading to a new universality class."
+  },
+  "reference_97": {
+    "title": "Exceptional topology of non-Hermitian systems",
+    "date": "2021",
+    "authors": [
+      "Bergholtz EJ",
+      "Budich JC",
+      "Kunst FK."
+    ],
+    "publication": "Rev. Mod. Phys. 93:015005",
+    "citation_count": 1693,
+    "abs": "Quantum systems that are coupled to an external bath can often be described in terms of a non-Hermitian effective Hamiltonian. In isolated systems with Hermitian Hamiltonians, topological aspects of the band structure, and resulting topological phases, have been of interest. The combination of the two concepts, i.e., topological properties of open systems, leads to qualitatively new effects. This review provides an introduction to these quantum mechanical concepts and their classical analogs, and discusses a number of applications ranging from mechanical metamaterials to dissipative cold-atom systems."
+  },
+  "reference_98": {
+    "title": "Exceptional surfaces in PT-symmetric non-Hermitian photonic systems",
+    "date": "2019",
+    "authors": [
+      "Zhou H",
+      "Lee JY",
+      "Liu S",
+      "Zhen B."
+    ],
+    "publication": "Optica 6:190–93",
+    "citation_count": 179,
+    "abs": "Exceptional points in non-Hermitian systems have recently been shown to possess nontrivial topological properties, and to give rise to many exotic physical phenomena. However, most studies thus far have focused on isolated exceptional points or one-dimensional lines of exceptional points. Here, we substantially expand the space of exceptional systems by designing two-dimensional surfaces of exceptional points, and find that symmetries are a key element to protect such exceptional surfaces. We construct them using symmetry-preserving non-Hermitian deformations of topological nodal lines, and analyze the associated symmetry, topology, and physical consequences. As a potential realization, we simulate a parity-time-symmetric 3D photonic crystal and indeed find the emergence of exceptional surfaces. Our work paves the way for future explorations of systems of exceptional points in higher dimensions."
+  },
+  "reference_99": {
+    "title": "Flat band in disorder-driven non-Hermitian Weyl semimetals",
+    "date": "2018",
+    "authors": [
+      "Zyuzin AA",
+      "Zyuzin AY."
+    ],
+    "publication": "Phys. Rev. B 97:041203(R)",
+    "citation_count": 182,
+    "abs": "We study the interplay of disorder and band-structure topology in a Weyl semimetal with a tilted conical spectrum around the Weyl points. The spectrum of particles is given by the eigenvalues of a non-Hermitian matrix, which contains contributions from a Weyl Hamiltonian and complex self-energy due to electron elastic scattering on disorder. We find that the tilt-induced matrix structure of the self-energy gives rise to either a flat band or a nodal line segment at the interface of the electron and hole pockets in the bulk band structure of type-II Weyl semimetals depending on the Weyl cone inclination. For the tilt in a single direction in momentum space, each Weyl point expands into a flat band lying on the plane, which is transverse to the direction of the tilt. The spectrum of the flat band is fully imaginary and is separated from the in-plane dispersive part of the spectrum by the ``exceptional nodal ring'' where the matrix of the Green's function in momentum-frequency space is defective. The tilt in two directions might shrink a flat band into a nodal line segment with ``exceptional edge points.'' We discuss the connection to the non-Hermitian topological theory."
+  },
+  "reference_100": {
+    "title": "Non-Hermitian perspective of the band structure in heavy-fermion systems",
+    "date": "2018",
+    "authors": [
+      "Yoshida T",
+      "Peters R",
+      "Kawakami N."
+    ],
+    "publication": "Phys. Rev. B 98:035141",
+    "citation_count": 282,
+    "abs": "We analyze a two-dimensional Kondo lattice model with special emphasis on non-Hermitian properties of the single-particle spectrum, following a recent proposal by Kozii and Fu. Our analysis based on the dynamical mean-field theory elucidates that the single-particle spectral weight shows the exceptional points (EPs). Correspondingly, the spectral weight exhibits the band touching, resulting in a structure similar to the Fermi arc. Furthermore, we find an intriguing phenomenon arising from the periodicity of the lattice. The EPs generated by two distinct Dirac points merge and change into a hybrid point, which vanishes as the exchange interaction is increased. Accordingly, the paramagnetic phase in the low-temperature region shows a significant difference from noninteracting fermions: the imaginary part of the self-energy yields the Fermi loop without any defective points."
+  },
+  "reference_101": {
+    "title": "Symmetry-protected exceptional rings in two-dimensional correlated systems with chiral symmetry",
+    "date": "2019",
+    "authors": [
+      "Yoshida T",
+      "Peters R",
+      "Kawakami N",
+      "Hatsugai Y."
+    ],
+    "publication": "Phys. Rev. B 99:121101(R)",
+    "citation_count": 278,
+    "abs": "Emergence of exceptional points in two dimensions is one of the remarkable phenomena in non-Hermitian systems. We here elucidate the impacts of symmetry on the non-Hermitian physics. Specifically, we analyze chiral symmetric correlated systems in equilibrium where the non-Hermitian phenomena are induced by the finite lifetime of quasiparticles. Intriguingly, our analysis reveals that the combination of symmetry and non-Hermiticity results in topological degeneracies of energy bands which we call symmetry-protected exceptional rings (SPERs). We observe the emergence of SPERs by analyzing a non-Hermitian Dirac Hamiltonian. Furthermore, by employing the dynamical mean-field theory, we demonstrate the emergence of SPERs in a correlated honeycomb lattice model whose single-particle spectrum is described by a non-Hermitian Dirac Hamiltonian. We uncover that the SPERs survive even beyond the non-Hermitian Dirac Hamiltonian, which is related to a zeroth Chern number. The argument of symmetry protection also holds for three dimensions, elucidating the presence of a symmetry-protected exceptional torus."
+  },
+  "reference_102": {
+    "title": "Non-Hermitian Weyl physics in topological insulator ferromagnet junctions",
+    "date": "2019",
+    "authors": [
+      "Bergholtz EJ",
+      "Budich JC."
+    ],
+    "publication": "Phys. Rev. Res. 1:012003(R)",
+    "citation_count": 105,
+    "abs": "This paper proposes material junctions involving topological insulator materials as a natural and immediately experimentally available electronic platform to realize NH Weyl phases, an intriguing form of dissipative topological quantum matter without a direct counterpart in closed systems."
+  },
+  "reference_103": {
+    "title": "Chiral-symmetry protected exceptional torus in correlated nodal-line semimetals",
+    "date": "2019",
+    "authors": [
+      "Kimura K",
+      "Yoshida T",
+      "Kawakami N."
+    ],
+    "publication": "Phys. Rev. B 100:115124",
+    "citation_count": 66,
+    "abs": "We analyze a diamond-lattice Hubbard model with the spatially modulated Hubbard interaction. Our dynamical mean-field analysis with special emphasis on non-Hermitian properties elucidates that the gapless nodal line changes into symmetry-protected exceptional torus (SPET) at the Fermi level enclosing the three-dimensional open Fermi surface, which is unique to non-Hermitian physics with chiral symmetry. Furthermore, we also elucidate the effects of the SPETs on the magnetic response; our results based on the random-phase approximation combined with the dynamical mean-field theory show that SPETs enhance the magnetic susceptibility at the weakly correlated sites, exemplifying effects of non-Hermitian degeneracies on responses to external fields."
+  },
+  "reference_104": {
+    "title": "Spawning rings of exceptional points out of Dirac cones",
+    "date": "2015",
+    "authors": [
+      "Zhen B",
+      "Hsu CW",
+      "Igarashi Y",
+      "Lu L",
+      "Kaminer I"
+    ],
+    "publication": "Nature 525:354–58",
+    "citation_count": 54,
+    "abs": "We demonstrate that an accidental Dirac cone can evolve into a ring of exceptional points in a photonic crystal slab. Radiation fundamentally changes the band structure even though there is no material loss and gain."
+  },
+  "reference_105": {
+    "title": "Weyl Exceptional Rings in a Three-Dimensional Dissipative Cold Atomic Gas.",
+    "date": "2017",
+    "authors": [
+      "Xu Y",
+      "Wang ST",
+      "Duan LM."
+    ],
+    "publication": "Phys. Rev. Lett. 118:045701",
+    "citation_count": 518,
+    "abs": "Three-dimensional topological Weyl semimetals can generally support a zero-dimensional Weyl point characterized by a quantized Chern number or a one-dimensional Weyl nodal ring characterized by a quantized Berry phase in the momentum space. Here, in a dissipative system with particle gain and loss, we discover a new type of topological ring, dubbed a Weyl exceptional ring consisting of exceptional points at which two eigenstates coalesce. Such a Weyl exceptional ring is characterized by both a quantized Chern number and a quantized Berry phase, which are defined via the Riemann surface. We propose an experimental scheme to realize and measure the Weyl exceptional ring in a dissipative cold atomic gas trapped in an optical lattice."
+  },
+  "reference_106": {
+    "title": "Topological exceptional surfaces in non-Hermitian systems with parity-time and parity-particle-hole symmetries",
+    "date": "2019",
+    "authors": [
+      "Okugawa R",
+      "Yokoyama T."
+    ],
+    "publication": "Phys. Rev. B 99:041202(R)",
+    "citation_count": 232,
+    "abs": "Non-Hermiticity makes possible novel topological phenomena, which are notallowed in Hermitian systems. The authors show that topologically nontrivial band degeneracies can appear as exceptional surfaces in non-Hermitian systems with parity--time and parity--particle-hole symmetries. It is shown that when parity--time or parity--particle-hole symmetry is present, $d$-dimensional non-Hermitian systems can have $(d\\ensuremath{-}1)$-dimensional exceptional surfaces. This work suggests new topological phases with nodal band structures protected by non-Hermitian topology and symmetry."
+  },
+  "reference_107": {
+    "title": "Symmetry-protected nodal phases in non-Hermitian systems",
+    "date": "2019",
+    "authors": [
+      "Budich JC",
+      "Carlström J",
+      "Kunst FK",
+      "Bergholtz EJ."
+    ],
+    "publication": "Phys. Rev. B 99:041406(R)",
+    "citation_count": 246,
+    "abs": "Symmetry plays a paramount role for the classification of phases of matter occurring in nature. Combining symmetry analysis with concepts from topology that allow us to identify global and robust physical properties, new phases of quantum matter, such as topological insulators and semimetals, have been discovered in recent years. Here, the authors analyze in general and exemplify the importance of symmetries to the dissipative counterparts of topological semimetals in non-Hermitian systems, thus introducing the notion of symmetry-protected non-Hermitian nodal phases."
+  },
+  "reference_108": {
+    "title": "Experimental realization of a Weyl exceptional ring",
+    "date": "2019",
+    "authors": [
+      "Cerjan A",
+      "Huang S",
+      "Chen KP",
+      "Chong Y",
+      "Rechtsman MC."
+    ],
+    "publication": "Nat. Photon. 13:623–28",
+    "citation_count": 104,
+    "abs": "Weyl points-topological monopoles of quantized Berry flux-are predicted to spread to Weyl exceptional rings in the presence of non-Hermiticity. Here, we use a one-dimensional Aubry-Andre-Harper model to construct a Weyl semimetal in a three-dimensional parameter space comprising one reciprocal dimension and two synthetic dimensions. The inclusion of non-Hermiticity in the form of gain and loss produces a synthetic Weyl exceptional ring (SWER). The topology of the SWER is characterized by both its topological charge and non-Hermitian winding numbers. We experimentally observe the SWER and synthetic Fermi arc in a one-dimensional phononic crystal with the non-Hermiticity introduced by active acoustic components. Our findings pave the way for studying the high-dimensional non-Hermitian topological physics in acoustics."
+  },
+  "reference_109": {
+    "title": "Non-reciprocal robotic metamaterials",
+    "date": "2019",
+    "authors": [
+      "Brandenbourger M",
+      "Locsin X",
+      "Lerner E",
+      "Coulais C."
+    ],
+    "publication": "Nat. Commun. 10:4608",
+    "citation_count": 472,
+    "abs": "Non-reciprocal transmission of motion is potentially highly beneficial to a wide range of applications, ranging from wave guiding to shock and vibration damping and energy harvesting. To date, large levels of non-reciprocity have been realized using broken spatial or temporal symmetries, yet mostly in the vicinity of resonances, bandgaps or using nonlinearities, thereby non-reciprocal transmission remains limited to narrow ranges of frequencies or input magnitudes and sensitive to attenuation. Here, we create a robotic mechanical metamaterials wherein we use local control loops to break reciprocity at the level of the interactions between the unit cells. We show theoretically and experimentally that first-of-their-kind spatially asymmetric standing waves at all frequencies and unidirectionally amplified propagating waves emerge. These findings realize the mechanical analogue of the non-Hermitian skin effect. They significantly advance the field of active metamaterials for non hermitian physics and open avenues to channel mechanical energy in unprecedented ways."
+  },
+  "reference_110": {
+    "title": "Observation of non-Hermitian topology and its bulk–edge correspondence in an active mechanical metamaterial",
+    "date": "2020",
+    "authors": [
+      "Ghatak A",
+      "Brandenbourger M",
+      "Van Wezel J",
+      "Coulais C."
+    ],
+    "publication": "PNAS 117:29561–68",
+    "citation_count": 577,
+    "abs": "Topological edge modes are excitations that are localized at the materials' edges and yet are characterized by a topological invariant defined in the bulk. Such bulk-edge correspondence has enabled the creation of robust electronic, electromagnetic, and mechanical transport properties across a wide range of systems, from cold atoms to metamaterials, active matter, and geophysical flows. Recently, the advent of non-Hermitian topological systems-wherein energy is not conserved-has sparked considerable theoretical advances. In particular, novel topological phases that can only exist in non-Hermitian systems have been introduced. However, whether such phases can be experimentally observed, and what their properties are, have remained open questions. Here, we identify and observe a form of bulk-edge correspondence for a particular non-Hermitian topological phase. We find that a change in the bulk non-Hermitian topological invariant leads to a change of topological edge-mode localization together with peculiar purely non-Hermitian properties. Using a quantum-to-classical analogy, we create a mechanical metamaterial with nonreciprocal interactions, in which we observe experimentally the predicted bulk-edge correspondence, demonstrating its robustness. Our results open avenues for the field of non-Hermitian topology and for manipulating waves in unprecedented fashions."
+  },
+  "reference_111": {
+    "title": "Generalized bulk–boundary correspondence in non-Hermitian topolectrical circuits",
+    "date": "2020",
+    "authors": [
+      "Helbig T",
+      "Hofmann T",
+      "Imhof S",
+      "Abdelghany M",
+      "Kiessling T"
+    ],
+    "publication": "Nat. Phys. 16:747–50",
+    "citation_count": 353,
+    "abs": "Robust boundary states epitomize how deep physics can give rise to concrete experimental signatures with technological promise. Of late, much attention has focused on two distinct mechanisms for boundary robustness-topological protection, as well as the non-Hermitian skin effect. In this work, we report the experimental realizations of hybrid higher-order skin-topological effect, in which the skin effect selectively acts only on the topological boundary modes, not the bulk modes. Our experiments, which are performed on specially designed non-reciprocal 2D and 3D topolectrical circuit lattices, showcases how non-reciprocal pumping and topological localization dynamically interplays to form various states like 2D skin-topological, 3D skin-topological-topological hybrid states, as well as 2D and 3D higher-order non-Hermitian skin states. Realized through our highly versatile and scalable circuit platform, theses states have no Hermitian nor lower-dimensional analog, and pave the way for applications in topological switching and sensing through the simultaneous non-trivial interplay of skin and topological boundary localizations."
+  },
+  "reference_112": {
+    "title": "Reciprocal skin effect and its realization in a topolectrical circuit",
+    "date": "2020",
+    "authors": [
+      "Hofmann T",
+      "Helbig T",
+      "Schindler F",
+      "Salgo N",
+      "Brzezińska M"
+    ],
+    "publication": "Phys. Rev. Res. 2:023265",
+    "citation_count": 397,
+    "abs": "This work explores a non-Hermitian system displaying a reciprocal variant of the skin effect, which is characterized by an extensive anomalous localization of all Hamiltonian eigenmodes in a one-dimensional geometry. The authors experimentally demonstrate the reciprocal skin effect in a passive RLC circuit and suggest alternative implementations in optical, acoustic, mechanical, and related platforms."
+  },
+  "reference_113": {
+    "title": "Non-Hermitian Skin Modes Induced by On-Site Dissipations and Chiral Tunneling Effect.",
+    "date": "2020",
+    "authors": [
+      "Yi Y",
+      "Yang Z."
+    ],
+    "publication": "Phys. Rev. Lett. 125:186802",
+    "citation_count": 301,
+    "abs": "In this Letter, we study the conditions under which on-site dissipations can induce non-Hermitian skin modes in non-Hermitian systems. When the original Hermitian Hamiltonian has spinless time-reversal symmetry, it is impossible to have skin modes; on the other hand, if the Hermitian Hamiltonian has spinful time-reversal symmetry, skin modes can be induced by on-site dissipations under certain circumstances. As a concrete example, we employ the Rice-Mele model to illustrate our results. Furthermore, we predict that the skin modes can be detected by the chiral tunneling effect; that is, the tunneling favors the direction where the skin modes are localized. Our Letter reveals a no-go theorem for the emergence of skin modes and paves the way for searching for quantum systems with skin modes and studying their novel physical responses."
+  },
+  "reference_114": {
+    "title": "Non-Hermitian bulk–boundary correspondence in quantum dynamics",
+    "date": "2020",
+    "authors": [
+      "Xiao L",
+      "Deng T",
+      "Wang K",
+      "Zhu G",
+      "Wang Z"
+    ],
+    "publication": "Nat. Phys. 16:761–66",
+    "citation_count": 944,
+    "abs": "The relation between chiral edge modes and bulk Chern numbers of quantum Hall insulators is a paradigmatic example of bulk-boundary correspondence. We show that the chiral edge modes are not strictly tied to the Chern numbers defined by a non-Hermitian Bloch Hamiltonian. This breakdown of conventional bulk-boundary correspondence stems from the non-Bloch-wave behavior of eigenstates (non-Hermitian skin effect), which generates pronounced deviations of phase diagrams from the Bloch theory. We introduce non-Bloch Chern numbers that faithfully predict the numbers of chiral edge modes. The theory is backed up by the open-boundary energy spectra, dynamics, and phase diagram of representative lattice models. Our results highlight a unique feature of non-Hermitian bands and suggest a non-Bloch framework to characterize their topology."
+  },
+  "reference_115": {
+    "title": "Topological superconductors: a review",
+    "date": "2017",
+    "authors": [
+      "Sato M",
+      "Ando Y."
+    ],
+    "publication": "Rep. Prog. Phys. 80:076501",
+    "citation_count": 1603,
+    "abs": "This review elaborates pedagogically on the fundamental concept, basic theory, expected properties, and materials realizations of topological superconductors. The relation between topological superconductivity and Majorana fermions are explained, and the difference between dispersive Majorana fermions and a localized Majorana zero mode is emphasized. A variety of routes to topological superconductivity are explained with an emphasis on the roles of spin-orbit coupling. Present experimental situations and possible signatures of topological superconductivity are summarized with an emphasis on intrinsic topological superconductors."
+  },
+  "reference_116": {
+    "title": "Non-Abelian topological order in s-wave superfluids of ultracold fermionic atoms.",
+    "date": "2009",
+    "authors": [
+      "Sato M",
+      "Takahashi Y",
+      "Fujimoto S."
+    ],
+    "publication": "Phys. Rev. Lett. 103:020401",
+    "citation_count": 739,
+    "abs": "It is proposed that in s-wave superfluids of cold fermionic atoms with laser-field-generated effective spin-orbit interactions, a topological phase with gapless edge states and Majorana fermion quasiparticles obeying non-Abelian statistics is realized in the case with a large Zeeman magnetic field. Our scenario provides a promising approach to the realization of quantum computation based on the manipulation of non-Abelian anyons via an s-wave Feshbach resonance."
+  },
+  "reference_117": {
+    "title": "Majorana fermions and a topological phase transition in semiconductor-superconductor heterostructures.",
+    "date": "2010",
+    "authors": [
+      "Lutchyn RM",
+      "Sau JD",
+      "Das Sarma S."
+    ],
+    "publication": "Phys. Rev. Lett. 105:077001",
+    "citation_count": 3460,
+    "abs": "We propose and analyze theoretically an experimental setup for detecting the elusive Majorana particle in semiconductor-superconductor heterostructures. The experimental system consists of one-dimensional semiconductor wire with strong spin-orbit Rashba interaction embedded into a superconducting quantum interference device. We show that the energy spectra of the Andreev bound states at the junction are qualitatively different in topologically trivial (i.e., not containing any Majorana) and nontrivial phases having an even and odd number of crossings at zero energy, respectively. The measurement of the supercurrent through the junction allows one to discern topologically distinct phases and observe a topological phase transition by simply changing the in-plane magnetic field or the gate voltage. The observation of this phase transition will be a direct demonstration of the existence of Majorana particles."
+  },
+  "reference_118": {
+    "title": "Helical liquids and Majorana bound states in quantum wires.",
+    "date": "2010",
+    "authors": [
+      "Oreg Y",
+      "Refael G",
+      "von Oppen F."
+    ],
+    "publication": "Phys. Rev. Lett. 105:177002",
+    "citation_count": 3180,
+    "abs": "We show that the combination of spin-orbit coupling with a Zeeman field or strong interactions may lead to the formation of a helical electron liquid in single-channel quantum wires, with spin and velocity perfectly correlated. We argue that zero-energy Majorana bound states are formed in various situations when such wires are situated in proximity to a conventional s-wave superconductor. This occurs when the external magnetic field, the superconducting gap, or, most simply, the chemical potential vary along the wire. These Majorana states do not require the presence of a vortex in the system. Experimental consequences of the helical liquid and the Majorana states are also discussed."
+  },
+  "reference_119": {
+    "title": "Hybrid Higher-Order Skin-Topological Modes in Nonreciprocal Systems.",
+    "date": "2019",
+    "authors": [
+      "Lee CH",
+      "Li L",
+      "Gong J."
+    ],
+    "publication": "Phys. Rev. Lett. 123:016805",
+    "citation_count": 498,
+    "abs": "Higher-order phases are characterized by corner or hinge modes that arise due to the interesting interplay of localization mechanisms along two or more dimensions. In this work, we introduce and construct a novel class of \"hybrid\" higher-order skin-topological boundary modes in nonreciprocal systems with two or more open boundaries. Their existence crucially relies on nonreciprocal pumping in addition to topological localization. Unlike usual non-Hermitian \"skin\" modes, they can exist in lattices with vanishing net reciprocity due to the selective nature of nonreciprocal pumping: While the bulk modes remain extended due to the cancellation of nonreciprocity within each unit cell, boundary modes experience a curious spontaneous breaking of reciprocity in the presence of topological localization, thereby experiencing the non-Hermitian skin effect. The number of possible hybridization channels increases rapidly with dimensionality, leading to a proliferation of distinct phases. In addition, skin modes or hybrid skin-topological modes can restore unitarity and are hence stable, allowing for experimental observations and manipulations in non-Hermitian photonic and electrical metamaterials."
+  },
+  "reference_120": {
+    "title": "Anomalous collapses of Nares Strait ice arches leads to enhanced export of Arctic sea ice",
+    "date": "2021",
+    "authors": [
+      "Zou D",
+      "Chen T",
+      "He W",
+      "Bao J",
+      "Lee CH"
+    ],
+    "publication": "Nat. Commun. 12:1–11",
+    "citation_count": 5188,
+    "abs": "The ice arches that usually develop at the northern and southern ends of Nares Strait play an important role in modulating the export of Arctic Ocean multi-year sea ice. The Arctic Ocean is evolving towards an ice pack that is younger, thinner, and more mobile and the fate of its multi-year ice is becoming of increasing interest. Here, we use sea ice motion retrievals from Sentinel-1 imagery to report on the recent behavior of these ice arches and the associated ice fluxes. We show that the duration of arch formation has decreased over the past 20 years, while the ice area and volume fluxes along Nares Strait have both increased. These results suggest that a transition is underway towards a state where the formation of these arches will become atypical with a concomitant increase in the export of multi-year ice accelerating the transition towards a younger and thinner Arctic ice pack."
+  },
+  "reference_121": {
+    "title": "Second-order topological non-Hermitian skin effects",
+    "date": "2020",
+    "authors": [
+      "Okugawa R",
+      "Takahashi R",
+      "Yokomizo K."
+    ],
+    "publication": "Phys. Rev. B 102:241202",
+    "citation_count": 187,
+    "abs": "Higher-order topology realizes topologically robust corner modes as a manifestation of nontriviality. We theoretically propose non-Hermitian skin effects which stem from the second-order topology of chiral-symmetric Hermitian systems. It is found that the skin modes are localized at the corners. We demonstrate two types of second-order topological skin effects by two-dimensional intrinsic and extrinsic second-order topology. The intrinsic second-order topological skin effect is characterized topologically by bulk inversion symmetry as well as chiral symmetry. Meanwhile, the extrinsic second-order topological skin effect occurs from the topological correspondence between the edges and corners. We show that non-Hermitian skin modes emerge by using a relationship between second-order and conventional first-order topology."
+  },
+  "reference_122": {
+    "title": "Higher-order non-Hermitian skin effect",
+    "date": "2020",
+    "authors": [
+      "Kawabata K",
+      "Sato M",
+      "Shiozaki K."
+    ],
+    "publication": "Phys. Rev. B 102:205118",
+    "citation_count": 350,
+    "abs": "A unique feature of non-Hermitian systems is the skin effect, for which an extensive number of boundary modes appear in the presence of boundaries. Here, the authors discover higher-order counterparts of the non-Hermitian skin effect that exhibit new boundary physics. As a prime example, the second-order skin effect in two dimensions hosts corner skin modes induced by spatial symmetry protected non-Hermitian topology, which contrasts with both the conventional skin effect and Hermitian higher-order topological phases."
+  },
+  "reference_123": {
+    "title": "Non-Hermitian second-order skin and topological modes",
+    "date": "2021",
+    "authors": [
+      "Fu Y",
+      "Hu J",
+      "Wan S."
+    ],
+    "publication": "Phys. Rev. B 103:045420",
+    "citation_count": 119,
+    "abs": "The skin effect and topological edge states in non-Hermitian systems have been well studied, and the second-order skin effect and corner modes have also been proposed in non-Hermitian systems recently. In this paper, we construct the nested tight-binding formalism to research the second-order corner modes analytically, which is a direct description of the generic non-Hermitian tight-binding model without other assumptions. Within this formalism, we obtain the exact solutions of second-order topological zero-energy corner modes for the non-Hermitian four-band model. We validate the nested tight-binding formalism in the hybrid skin-topological corner modes for the four-band model and a non-Hermitian two-dimensional (2D) extrinsic model. In addition, we exactly illustrate the corner modes induced by second-order skin effect for a simplest 2D non-Hermitian model by the nested tight-binding formalism."
+  },
+  "reference_124": {
+    "title": "Quantized electric multipole insulators",
+    "date": "2017",
+    "authors": [
+      "Benalcazar WA",
+      "Bernevig BA",
+      "Hughes TL."
+    ],
+    "publication": "Science 357:61–66",
+    "citation_count": 1921,
+    "abs": "The Berry phase provides a modern formulation of electric polarization in crystals. We extend this concept to higher electric multipole moments and determine the necessary conditions and minimal models for which the quadrupole and octupole moments are topologically quantized electromagnetic observables. Such systems exhibit gapped boundaries that are themselves lower-dimensional topological phases. Furthermore, they host topologically protected corner states carrying fractional charge, exhibiting fractionalization at the boundary of the boundary. To characterize these insulating phases of matter, we introduce a paradigm in which \"nested\" Wilson loops give rise to topological invariants that have been overlooked. We propose three realistic experimental implementations of this topological behavior that can be immediately tested. Our work opens a venue for the expansion of the classification of topological phases of matter."
+  },
+  "reference_125": {
+    "title": "Electric multipole moments, topological multipole moment pumping, and chiral hinge states in crystalline insulators",
+    "date": "2017",
+    "authors": [
+      "Benalcazar WA",
+      "Bernevig BA",
+      "Hughes TL."
+    ],
+    "publication": "Phys. Rev. B 96:245115",
+    "citation_count": 1379,
+    "abs": "The Berry phase provides a modern formulation of electric polarization in crystals. Recently, this formulation was extended by the authors to higher electric multipole moments. In quantum mechanical crystalline insulators, such higher multipole moments manifest themselves by the presence of boundary-localized moments of lower dimension. In the presence of certain symmetries, these moments are quantized, and their boundary signatures are fractionalized. Here, the authors elaborate in detail on the theory of higher multipole moments and discuss associated topological pumping phenomena, as well as higher-order topological insulators derived from them."
+  },
+  "reference_126": {
+    "title": "Reflection-Symmetric Second-Order Topological Insulators and Superconductors.",
+    "date": "2017",
+    "authors": [
+      "Langbehn J",
+      "Peng Y",
+      "Trifunovic L",
+      "von Oppen F",
+      "Brouwer PW."
+    ],
+    "publication": "Phys. Rev. Lett. 119:246401",
+    "citation_count": 982,
+    "abs": "Second-order topological insulators are crystalline insulators with a gapped bulk and gapped crystalline boundaries, but with topologically protected gapless states at the intersection of two boundaries. Without further spatial symmetries, five of the ten Altland-Zirnbauer symmetry classes allow for the existence of such second-order topological insulators in two and three dimensions. We show that reflection symmetry can be employed to systematically generate examples of second-order topological insulators and superconductors, although the topologically protected states at corners (in two dimensions) or at crystal edges (in three dimensions) continue to exist if reflection symmetry is broken. A three-dimensional second-order topological insulator with broken time-reversal symmetry shows a Hall conductance quantized in units of e^{2}/h."
+  },
+  "reference_127": {
+    "title": "(d-2)-Dimensional Edge States of Rotation Symmetry Protected Topological States.",
+    "date": "2017",
+    "authors": [
+      "Song Z",
+      "Fang Z",
+      "Fang C."
+    ],
+    "publication": "Phys. Rev. Lett. 119:246402",
+    "citation_count": 58,
+    "abs": "We study fourfold rotation invariant gapped topological systems with time-reversal symmetry in two and three dimensions ($d=2,3$). We show that in both cases nontrivial topology is manifested by the presence of the $(d-2)$-dimensional edge states, existing at a point in 2D or along a line in 3D. For fermion systems without interaction, the bulk topological invariants are given in terms of the Wannier centers of filled bands, and can be readily calculated using a Fu-Kane-like formula when inversion symmetry is also present. The theory is extended to strongly interacting systems through explicit construction of microscopic models having robust $(d-2)$-dimensional edge states."
+  },
+  "reference_128": {
+    "title": "Second-Order Topological Phases in Non-Hermitian Systems.",
+    "date": "2019",
+    "authors": [
+      "Liu T",
+      "Zhang YR",
+      "Ai Q",
+      "Gong Z",
+      "Kawabata K"
+    ],
+    "publication": "Phys. Rev. Lett. 122:076801",
+    "citation_count": 498,
+    "abs": "A d-dimensional second-order topological insulator (SOTI) can host topologically protected (d-2)-dimensional gapless boundary modes. Here, we show that a 2D non-Hermitian SOTI can host zero-energy modes at its corners. In contrast to the Hermitian case, these zero-energy modes can be localized only at one corner. A 3D non-Hermitian SOTI is shown to support second-order boundary modes, which are localized not along hinges but anomalously at a corner. The usual bulk-corner (hinge) correspondence in the second-order 2D (3D) non-Hermitian system breaks down. The winding number (Chern number) based on complex wave vectors is used to characterize the second-order topological phases in 2D (3D). A possible experimental situation with ultracold atoms is also discussed. Our work lays the cornerstone for exploring higher-order topological phenomena in non-Hermitian systems."
+  },
+  "reference_129": {
+    "title": "Non-Hermitian extensions of higher-order topological phases and their biorthogonal bulk-boundary correspondence",
+    "date": "2019",
+    "authors": [
+      "Edvardsson E",
+      "Kunst FK",
+      "Bergholtz EJ."
+    ],
+    "publication": "Phys. Rev. B 99:081302(R)",
+    "citation_count": 271,
+    "abs": "Non-Hermitian Hamiltonians, which describe a wide range of dissipative systems, and higher-order topological phases, which exhibit novel boundary states on corners and hinges, comprise two areas of intense current research. Here we investigate systems where these frontiers merge and formulate a generalized biorthogonal bulk-boundary correspondence, which dictates the appearance of boundary modes at parameter values that are, in general, radically different from those that mark phase transitions in periodic systems. By analyzing the interplay between corner/hinge, edge/surface, and bulk degrees of freedom we establish that the non-Hermitian extensions of higher-order topological phases exhibit an even richer phenomenology than their Hermitian counterparts and that this can be understood in a unifying way within our biorthogonal framework. Saliently this works in the presence of the non-Hermitian skin effect, and also naturally encompasses genuinely non-Hermitian phenomena in the absence thereof."
+  },
+  "reference_130": {
+    "title": "Non-Hermitian higher-order Dirac semimetals",
+    "date": "2021",
+    "authors": [
+      "Ghorashi SAA",
+      "Li T",
+      "Sato M",
+      "Hughes TL."
+    ],
+    "publication": "Phys. Rev. B 104:L161116",
+    "citation_count": 4534,
+    "abs": "In recent years many three-dimensional crystals have been discovered whose low energy electronic properties are described by the Dirac or Weyl equations for relativistic fermions. This leads to many unusual physical properties and potentially to new applications. This review explains the theory behind these developments, their material realizations, and the current experimental status."
+  },
+  "reference_131": {
+    "title": "Non-Hermitian higher-order Weyl semimetals",
+    "date": "2021",
+    "authors": [
+      "Ghorashi SAA",
+      "Li T",
+      "Sato M."
+    ],
+    "publication": "Phys. Rev. B 104:L161117",
+    "citation_count": 4534,
+    "abs": "In recent years many three-dimensional crystals have been discovered whose low energy electronic properties are described by the Dirac or Weyl equations for relativistic fermions. This leads to many unusual physical properties and potentially to new applications. This review explains the theory behind these developments, their material realizations, and the current experimental status."
+  },
+  "reference_132": {
+    "title": "Observation of corner states in second-order topological electric circuits",
+    "date": "2020",
+    "authors": [
+      "Wu J",
+      "Huang X",
+      "Lu J",
+      "Wu Y",
+      "Deng W"
+    ],
+    "publication": "Phys. Rev. B 102:104109",
+    "citation_count": 67,
+    "abs": "Recently, the topological states in electric circuits have attracted a great deal of attention, and they have formed the basis of the field of so-called topoelectrical circuits. We realize a second-order topological electric circuit with capacitors and inductors, and we observe the corner states that exist in the bulk gap, the continuum of bulk modes, and the dependence on the corner shapes by measuring the resonance peaks of the corner impedance. More importantly, we broaden the second-order topological circuit to the non-Hermitian region by adding resistors. Interestingly, the non-Hermiticity tunes the amplitude of the corner impedance; however, it has no effect on the topological properties. Our system provides a highly tunable platform in which to explore the intriguing topological properties of higher-order topological insulators."
+  },
+  "reference_133": {
+    "title": "Anomalous collapses of Nares Strait ice arches leads to enhanced export of Arctic sea ice",
+    "date": "2021",
+    "authors": [
+      "Zhang X",
+      "Tian Y",
+      "Jiang JH",
+      "Lu MH",
+      "Chen YF."
+    ],
+    "publication": "Nat. Commun. 12:1–8",
+    "citation_count": 5188,
+    "abs": "The ice arches that usually develop at the northern and southern ends of Nares Strait play an important role in modulating the export of Arctic Ocean multi-year sea ice. The Arctic Ocean is evolving towards an ice pack that is younger, thinner, and more mobile and the fate of its multi-year ice is becoming of increasing interest. Here, we use sea ice motion retrievals from Sentinel-1 imagery to report on the recent behavior of these ice arches and the associated ice fluxes. We show that the duration of arch formation has decreased over the past 20 years, while the ice area and volume fluxes along Nares Strait have both increased. These results suggest that a transition is underway towards a state where the formation of these arches will become atypical with a concomitant increase in the export of multi-year ice accelerating the transition towards a younger and thinner Arctic ice pack."
+  },
+  "reference_134": {
+    "title": "On the generators of quantum dynamical semigroups",
+    "date": "1976",
+    "authors": [
+      "Lindblad G."
+    ],
+    "publication": "Commun. Math. Phys. 48:119–30",
+    "citation_count": 3946,
+    "abs": "We establish the general form of the generator of a completely positive dynamical semigroup of an N-level quantum system, and we apply the result to derive explicit inequalities among the physical parameters characterizing the Markovian evolution of a 2-level system."
+  },
+  "reference_135": {
+    "title": "Third quantization: a general method to solve master equations for quadratic open Fermi systems",
+    "date": "2008",
+    "authors": [
+      "Prosen T."
+    ],
+    "publication": "New J. Phys. 10:043026",
+    "citation_count": 487,
+    "abs": "The Lindblad master equation for an arbitrary quadratic system of n fermions is solved explicitly in terms of diagonalization of a 4n x 4n matrix, provided that all Lindblad bath operators are linear in the fermionic variables. The method is applied to the explicit construction of non-equilibrium steady states and the calculation of asymptotic relaxation rates in the far from equilibrium problem of heat and spin transport in a nearest neighbor Heisenberg XY spin 1/2 chain in a transverse magnetic field."
+  },
+  "reference_136": {
+    "title": "Spectral theorem for the Lindblad equation for quadratic open fermionic systems",
+    "date": "2010",
+    "authors": [
+      "Prosen T."
+    ],
+    "publication": "J. Stat. Mech. Theory Exp.:P07020",
+    "citation_count": 160,
+    "abs": "The spectral theorem is proven for the quantum dynamics of quadratic open systems of n fermions described by the Lindblad equation. Invariant eigenspaces of the many-body Liouvillean dynamics and their largest Jordan blocks are explicitly constructed for all eigenvalues. For eigenvalue zero we describe an algebraic procedure for constructing (possibly higher dimensional) spaces of (degenerate) non-equilibrium steady states."
+  },
+  "reference_137": {
+    "title": "Quantum trajectories and open many-body quantum systems",
+    "date": "2014",
+    "authors": [
+      "Daley AJ."
+    ],
+    "publication": "Adv. Phys. 63:77–149",
+    "citation_count": 864,
+    "abs": "The study of open quantum systems has become increasingly important in the past years, as the ability to control quantum coherence on a single particle level has been developed in a wide variety of physical systems. In quantum optics, the study of open systems goes well beyond understanding the breakdown of quantum coherence. There, the coupling to the environment is sufficiently well understood that it can be manipulated to drive the system into desired quantum states, or to project the system onto known states via feedback in quantum measurements. Many mathematical frameworks have been developed to describe such systems, which for atomic, molecular, and optical (AMO) systems generally provide a very accurate description of the open quantum system on a microscopic level. In recent years, AMO systems including cold atomic and molecular gases and trapped ions have been applied heavily to the study of many-body physics, and it has become important to extend previous understanding of open system dynamics in single- and few-body systems to this many-body context. A key formalism that has already proven very useful in this context is the quantum trajectories technique. This was developed as a numerical tool for studying dynamics in open quantum systems, and falls within a broader framework of continuous measurement theory as a way to understand the dynamics of large classes of open quantum systems. We review the progress that has been made in studying open many-body systems in the AMO context, focussing on the application of ideas from quantum optics, and on the implementation and applications of quantum trajectories methods. Control over dissipative processes promises many further tools to prepare interesting and important states in strongly interacting systems, including the realisation of parameter regimes in quantum simulators that are inaccessible via current techniques."
+  },
+  "reference_138": {
+    "title": "Structure and dynamical behavior of non-normal networks",
+    "date": "2018",
+    "authors": [
+      "Asllani M",
+      "Lambiotte R",
+      "Carletti T."
+    ],
+    "publication": "Sci. Adv. 4:eaau9403",
+    "citation_count": 125,
+    "abs": "We analyze a collection of empirical networks in a wide spectrum of disciplines and show that strong non-normality is ubiquitous in network science. Dynamical processes evolving on non-normal networks exhibit a peculiar behavior, as initial small disturbances may undergo a transient phase and be strongly amplified in linearly stable systems. In addition, eigenvalues may become extremely sensible to noise and have a diminished physical meaning. We identify structural properties of networks that are associated with non-normality and propose simple models to generate networks with a tunable level of non-normality. We also show the potential use of a variety of metrics capturing different aspects of non-normality and propose their potential use in the context of the stability of complex ecosystems."
+  },
+  "reference_139": {
+    "title": "Nonnormal Hamiltonian dynamics in quantum systems and its realization on quantum computers",
+    "date": "2022",
+    "authors": [
+      "Okuma N",
+      "Nakagawa YO."
+    ],
+    "publication": "Phys. Rev. B 105:054304",
+    "citation_count": 20,
+    "abs": "The eigenspectrum of a non-normal matrix, which does not commute with its Hermitian conjugate, is a central issue of non-Hermitian physics that has been extensively studied in the past few years. There is, however, another characteristic of a non-normal matrix that has often been overlooked: the pseudospectrum, or the set of spectra under small perturbations. In this paper, we study the dynamics driven by the non-normal matrix (Hamiltonian) realized as a continuous quantum trajectory of the Lindblad master equation in open quantum systems and point out that the dynamics can reveal the nature of unconventional pseudospectrum of the non-normal Hamiltonian. In particular, we focus on the transient dynamics of the norm of an unnormalized quantum state evolved with the non-normal Hamiltonian, which is related to the probability for observing the trajectory with no quantum jump. We formulate the transient suppression of the decay rate of the norm due to the pseudospectral behavior and derive a non-Hermitian/non-normal analog of the time-energy uncertainty relation. We also consider two methods to experimentally realize the non-normal dynamics and observe our theoretical findings on quantum computers: one uses a technique to realize nonunitary operations on quantum circuits and the other leverages a quantum-classical hybrid algorithm called variational quantum simulation. Our demonstrations using cloud-based quantum computers provided by IBM Quantum exhibit the frozen dynamics of the norm in transient time, which can be regarded as a non-normal analog of the quantum Zeno effect."
+  },
+  "reference_140": {
+    "title": "McDonald A. 2018. Phys. Rev. X 8:041031",
+    "date": "2018",
+    "authors": [
+      "McDonald A",
+      "Pereg-Barnea T",
+      "Clerk AA."
+    ],
+    "publication": "Phys. Rev. X 8:041031",
+    "citation_count": 577,
+    "abs": "Topological edge modes are excitations that are localized at the materials' edges and yet are characterized by a topological invariant defined in the bulk. Such bulk-edge correspondence has enabled the creation of robust electronic, electromagnetic, and mechanical transport properties across a wide range of systems, from cold atoms to metamaterials, active matter, and geophysical flows. Recently, the advent of non-Hermitian topological systems-wherein energy is not conserved-has sparked considerable theoretical advances. In particular, novel topological phases that can only exist in non-Hermitian systems have been introduced. However, whether such phases can be experimentally observed, and what their properties are, have remained open questions. Here, we identify and observe a form of bulk-edge correspondence for a particular non-Hermitian topological phase. We find that a change in the bulk non-Hermitian topological invariant leads to a change of topological edge-mode localization together with peculiar purely non-Hermitian properties. Using a quantum-to-classical analogy, we create a mechanical metamaterial with nonreciprocal interactions, in which we observe experimentally the predicted bulk-edge correspondence, demonstrating its robustness. Our results open avenues for the field of non-Hermitian topology and for manipulating waves in unprecedented fashions."
+  },
+  "reference_141": {
+    "title": "Deconstructing effective non-Hermitian dynamics in quadratic bosonic Hamiltonians",
+    "date": "2020",
+    "authors": [
+      "Flynn VP",
+      "Cobanera E",
+      "Viola L."
+    ],
+    "publication": "New J. Phys. 22:083004",
+    "citation_count": 63,
+    "abs": "Abstract Unlike their fermionic counterparts, the dynamics of Hermitian quadratic bosonic Hamiltonians are governed by a generally non-Hermitian Bogoliubov-de Gennes effective Hamiltonian. This underlying non-Hermiticity gives rise to a dynamically stable regime, whereby all observables undergo bounded evolution in time, and a dynamically unstable one, whereby evolution is unbounded for at least some observables. We show that stability-to-instability transitions may be classified in terms of a suitably generalized <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"> <mml:mi mathvariant=\"script\">P</mml:mi> <mml:mi mathvariant=\"script\">T</mml:mi> </mml:math> symmetry , which can be broken when diagonalizability is lost at exceptional points in parameter space, but also when degenerate real eigenvalues split off the real axis while the system remains diagonalizable. By leveraging tools from Krein stability theory in indefinite inner-product spaces, we introduce an indicator of stability phase transitions, which naturally extends the notion of phase rigidity from non-Hermitian quantum mechanics to the bosonic setting. As a paradigmatic example, we fully characterize the stability phase diagram of a bosonic analogue to the Kitaev–Majorana chain under a wide class of boundary conditions. In particular, we establish a connection between phase-dependent transport properties and the onset of instability, and argue that stable regions in parameter space become of measure zero in the thermodynamic limit. Our analysis also reveals that boundary conditions that support Majorana zero modes in the fermionic Kitaev chain are precisely the same that support stability in the bosonic chain."
+  },
+  "reference_142": {
+    "title": "Topology by Dissipation: Majorana Bosons in Metastable Quadratic Markovian Dynamics.",
+    "date": "2021",
+    "authors": [
+      "Flynn VP",
+      "Cobanera E",
+      "Viola L."
+    ],
+    "publication": "Phys. Rev. Lett. 127:245701",
+    "citation_count": 66,
+    "abs": "Majorana bosons, that is, tight bosonic analogs of the Majorana fermionic quasiparticles of condensed-matter physics, are forbidden for gapped free bosonic matter within a standard Hamiltonian scenario. We show how the interplay between dynamical metastability and nontrivial bulk topology makes their emergence possible in noninteracting bosonic chains undergoing Markovian dissipation. This leads to a distinctive form of topological metastability, whereby a conserved Majorana boson localized on one edge is paired, in general, with a symmetry generator localized on the opposite edge. We argue that Majorana bosons are robust against disorder and identifiable by signatures in the zero-frequency steady-state power spectrum. Our results suggest that symmetry-protected topological phases for free bosons may arise in transient metastable regimes, which persist over practical timescales."
+  },
+  "reference_143": {
+    "title": "Non-Bloch band theory in bosonic Bogoliubov–de Gennes systems",
+    "date": "2021",
+    "authors": [
+      "Yokomizo K",
+      "Murakami S."
+    ],
+    "publication": "Phys. Rev. B 103:165123",
+    "citation_count": 70,
+    "abs": "Diagonalization of a bosonic Bogoliubov--de Gennes system is intrinsically a non-Hermitian problem, although its Hamiltonian is Hermitian. Here, the authors study the non-Hermitian nature of bosonic Bogoliubov--de Gennes systems by constructing a non-Bloch band theory. Such systems have a unique non-Hermitian Brillouin zone, where Hermitian and non-Hermitian regions coexist. Accordingly, its non-Hermitian skin effect shows instability against infinitesimal instability and reentrant behavior."
+  },
+  "reference_144": {
+    "title": "Boundary-dependent dynamical instability of bosonic Green's function: Dissipative Bogoliubov–de Gennes Hamiltonian and its application to non-Hermitian skin effect",
+    "date": "2022",
+    "authors": [
+      "Okuma N."
+    ],
+    "publication": "Phys. Rev. B 105:224301",
+    "citation_count": 7,
+    "abs": "The energy spectrum of bosonic excitations from a condensate is given by the spectrum of a non-Hermitian Hamiltonian constructed from a bosonic Bogoliubov--de Gennes (BdG) Hamiltonian in general even though the system is essentially Hermitian. In other words, two types of non-Hermiticity can coexist: one from the bosonic BdG nature and the other from the open quantum nature. In this paper, we propose boundary-dependent dynamical instability. We first define the bosonic dissipative BdG Hamiltonian in terms of Green's function in Nambu space and discuss the correct particle-hole symmetry of the corresponding non-Hermitian Hamiltonian. We then construct a model of the boundary-dependent dynamical instability so that it satisfies the correct particle-hole symmetry. In this model, an anomalous term that breaks the particle number conservation represents the non-Hermiticity of the BdG nature, while a normal term is given by a dissipative Hatano-Nelson model. Thanks to the competition between the two types of non-Hermiticity, the imaginary part of the spectrum can be positive without the help of the amplification of the normal part and the particle-hole band touching that causes the Landau instability. This leads to the boundary-dependent dynamical instability under the non-Hermitian skin effect---strong dependence of spectra on boundary conditions for non-Hermitian Hamiltonians---of the Bogoliubov spectrum."
+  },
+  "reference_145": {
+    "title": "Liouvillian Skin Effect: Slowing Down of Relaxation Processes without Gap Closing.",
+    "date": "2021",
+    "authors": [
+      "Haga T",
+      "Nakagawa M",
+      "Hamazaki R",
+      "Ueda M."
+    ],
+    "publication": "Phys. Rev. Lett. 127:070402",
+    "citation_count": 181,
+    "abs": "It is highly nontrivial to what extent we can deduce the relaxation behavior of a quantum dissipative system from the spectral gap of the Liouvillian that governs the time evolution of the density matrix. We investigate the relaxation processes of a quantum dissipative system that exhibits the Liouvillian skin effect, which means that the eigenmodes of the Liouvillian are localized exponentially close to the boundary of the system, and find that the timescale for the system to reach a steady state depends not only on the Liouvillian gap $\\mathrm{\\ensuremath{\\Delta}}$, but also on the localization length $\\ensuremath{\\xi}$ of the eigenmodes. In particular, we show that the longest relaxation time $\\ensuremath{\\tau}$ that is maximized over initial states and local observables is given by $\\ensuremath{\\tau}\\ensuremath{\\sim}{\\mathrm{\\ensuremath{\\Delta}}}^{\\ensuremath{-}1}(1+L/\\ensuremath{\\xi})$ with $L$ being the system size. This implies that the longest relaxation time can diverge for $L\\ensuremath{\\rightarrow}\\ensuremath{\\infty}$ without gap closing."
+  },
+  "reference_146": {
+    "title": "Resolving a Discrepancy between Liouvillian Gap and Relaxation Time in Boundary-Dissipated Quantum Many-Body Systems.",
+    "date": "2020",
+    "authors": [
+      "Mori T",
+      "Shirai T."
+    ],
+    "publication": "Phys. Rev. Lett. 125:230604",
+    "citation_count": 92,
+    "abs": "The gap of the Liouvillian spectrum gives the asymptotic decay rate of a quantum dissipative system, and therefore its inverse has been identified as the slowest relaxation time. Contrary to this common belief, we show that the relaxation time due to diffusive transports in a boundary dissipated many-body quantum system is determined not by the gap or low-lying eigenvalues of the Liouvillian but by superexponentially large expansion coefficients for Liouvillian eigenvectors with nonsmall eigenvalues at an initial state. This finding resolves an apparent discrepancy reported in the literature between the inverse of the Liouvillian gap and the relaxation time in dissipative many-body quantum systems."
+  }
+}

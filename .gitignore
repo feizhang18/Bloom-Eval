@@ -8,4 +8,6 @@ __pycache__/
 dist/
 build/
 *.egg-info/
+*.bak
+*_bak
 

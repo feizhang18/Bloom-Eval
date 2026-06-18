@@ -1,0 +1,1427 @@
+{
+  "reference_1": {
+    "title": "Implementing statistical methods for generalizing randomized trial findings to a target population.",
+    "date": "2019",
+    "authors": [
+      "Ackerman B",
+      "Schmid I",
+      "Rudolph KE",
+      "Seamans MJ",
+      "Susukida R"
+    ],
+    "publication": "Addict. Behav. 94:124–32",
+    "citation_count": 0,
+    "abs": "Généralisation d'un effet causal depuis une étude randomisée vers une population cible : contributions théoriques et méthodologiques La médecine moderne, aussi dite médecine fondée sur les preuves, place les essais contrôlés randomisés (ECRs) au premier plan de la preuve clinique. En effet, la randomisation permet une estimation de l'effet causal du traitement, dépassant la simple association ou corrélation.Cependant, de plus en plus de limites sont trouvées aux ECRs, du fait de leurs stricts critères d'éligibilité, des conditions de réalisation, des périodes de temps trop restreintes qu'ils couvrent, ou encore de leur petite taille d'échantillon.Toutes ces raisons entament ce que l'on appelle la validité externe des résultats.L'utilisation de données observationnelles ou dites de vie réelle constitue une potentielle solution. Les autorités sanitaires comme le régulateur américain (Food and Drug Administration) ou encore la Haute Autorité de la Santé (HAS) soutiennent ces nouvelles pratiques. Mais les données de vie réelle ne sont pas non plus une panacée, car leur analyse repose sur des hypothèses non vérifiables pour la plupart. Des travaux plus récents proposent de combiner les deux sources de données, afin de renforcer les faiblesses de l'une par les forces de l'autre. Ainsi, cette thèse propose d'abord une revue de toutes les méthodes existantes sur le sujet, que ce soit pour déconfondre une base de données observationnelles à partir de données expérimentales ou bien pour généraliser à d'autres populations une étude randomisée. Ce travail de thèse propose ensuite d'approfondir ce dernier aspect, en utilisant la représentativité des données de vie réelle pour re-pondérer les résultats d'un ECR. Cette thèse étudie les propriétés théoriques de ces méthodes, telles que les propriétés d'estimation à taille finie ou asymptotique (biais et variance). Ces résultats permettent d'obtenir des recommandations pratiques pour la recherche clinique, notamment concernant la sélection de covariables. Cette thèse propose également une analyse de sensibilité lorsque les covariables sont partiellement ou totalement observées.La plupart des travaux existants définissent l'effet d'un traitement comme une différence absolue. Pourtant, d'autres métriques, comme le ratio, sont préférées dans la recherche clinique. Par conséquent, cette thèse ouvre également la voie à la généralisation de toutes les mesures causales, et non pas seulement de l'une d'entre elles. Ce faisant, nous relions la généralisation à une préoccupation plutôt ancienne de la causalité, à savoir la collapsibilité d'une mesure. Nous proposons également une autre façon d'appréhender ce que l'on appelle l'hétérogénéité d'un effet. Ceci nous permet de montrer que les méthodes pour généraliser un effet causal dépendent de la nature de l'outcome (continu ou binaire) ainsi que de la nature de la mesure d'intérêt (ratio ou différence).Tous les travaux de cette thèse sont développés en lien avec la recherche clinique, notamment via le consortium français de la Traumabase."
+  },
+  "reference_2": {
+    "title": "External validity and partner selection bias",
+    "date": "2012",
+    "authors": [
+      "Allcott H",
+      "Mullainathan S."
+    ],
+    "publication": "External validity and partner selection bias",
+    "citation_count": 0,
+    "abs": "Program evaluation often involves generalizing internally-valid site-speci…c estimates to a dierent population or environment. While there is substantial evidence on the internal valid- ity of non-experimental relative to experimental estimates (e.g. Lalonde 1986), there is little quantitative evidence on the external validity of site-speci…c estimates, because identical treat- ments are rarely evaluated in multiple settings. This paper examines a remarkable series of 14 energy conservation …eld experiments run by a company called OPOWER, involving 550,000 households in dierent cities across the U.S. Despite the availability of potentially-promising individual-level controls, we show that the unexplained variation in treatment eects across sites is both statistically and economically signi…cant. Furthermore, we show that the electric utilities that with OPOWER dier systematically on characteristics that are correlated with the treatment eect, providing evidence of a partner selection bias that is analogous to biases caused by individual-level selection into treatment. We augment this result in a dierent context by showing that micro…nancial institutions (MFIs) that carry out randomized experiments appear to be selected on observable characteristics from the global pool of MFIs. Finally, we propose a statistical test for parameter heterogeneity at sub-sites within a site that provides suggestive evidence on whether site-speci…c estimates can be generalized."
+  },
+  "reference_3": {
+    "title": "ExtrapoLATE-ing: external validity and overidentification in the LATE framework.",
+    "date": "2013",
+    "authors": [
+      "Angrist JD",
+      "Fernández-Val I."
+    ],
+    "publication": "Advances in Economics and Econometrics:401–34",
+    "citation_count": 0,
+    "abs": "Local Average Treatment Effects (LATE) capture the causal effect of an instrument-induced shift in treatment. This effect is necessarily tied to the instrument that generates the shift. The interpretation of instrumental variable (IV) estimates as instrument-specific should not be surprising or troubling – when this point is cast in terms of specific examples, we wonder how it could be otherwise. Quarter-of-birth instruments for a wage equation reveal the payoff to schooling induced by compulsory-attendance laws and not the value of a bought-and-paid-for MBA. Still, a clear statement of the nature of causal effects revealed by any instrument raises questions about the external validity of this estimate. Can we use a given IV estimate to identify the effects induced by another source of variation? What about an unconditional average effect? Can we go from average effects on compliers to average effects on the entire treated population?"
+  },
+  "reference_4": {
+    "title": "Recursive partitioning for heterogeneous causal effects.",
+    "date": "2016",
+    "authors": [
+      "Athey S",
+      "Imbens G."
+    ],
+    "publication": "PNAS 113:7353–60",
+    "citation_count": 0,
+    "abs": "In this paper we propose methods for estimating heterogeneity in causal effects in experimental and observational studies and for conducting hypothesis tests about the magnitude of differences in treatment effects across subsets of the population. We provide a data-driven approach to partition the data into subpopulations that differ in the magnitude of their treatment effects. The approach enables the construction of valid confidence intervals for treatment effects, even with many covariates relative to the sample size, and without “sparsity” assumptions. We propose an “honest” approach to estimation, whereby one sample is used to construct the partition and another to estimate treatment effects for each subpopulation. Our approach builds on regression tree methods, modified to optimize for goodness of fit in treatment effects and to account for honest estimation. Our model selection criterion anticipates that bias will be eliminated by honest estimation and also accounts for the effect of making additional splits on the variance of treatment effect estimates within each subpopulation. We address the challenge that the “ground truth” for a causal effect is not observed for any individual unit, so that standard approaches to cross-validation must be modified. Through a simulation study, we show that for our preferred method honest estimation results in nominal coverage for 90% confidence intervals, whereas coverage ranges between 74% and 84% for nonhonest approaches. Honest estimation requires estimating the model with a smaller sample size; the cost in terms of mean squared error of treatment effects for our preferred method ranges between 7–22%."
+  },
+  "reference_5": {
+    "title": "Using randomised experiments and structural models for ‘scaling up’: evidence from the PROGRESA evaluation",
+    "date": "2003",
+    "authors": [
+      "Attanasio O",
+      "Meghir C",
+      "Szekely M."
+    ],
+    "publication": "Using randomised experiments and structural models for ‘scaling up’: evidence from the PROGRESA evaluation",
+    "citation_count": 2,
+    "abs": "The evaluation of welfare programs and more generally government or international organisma interventions is often posed as a one off question, in that evaluators ask whether a specific intervention achieves a specific objective in a specific situation. However, recently, the more general questions of whether results from a given study can be used to predict the the effect of different interventions in, possibly, different contexts has received a considerable amount of attention. The usefulness of such an exercise, if successful, is obvious. The ability to extrapolate success stories and avoid failures in different situation would obviously be highly desirable. Unfortunately a rigorous and successful extrapolation is extremely difficult. In this paper we discuss the issues involved with the evaluation of social interventions and with the attempts at 'scaling them up'. In particular we discuss the realtive merits of non-parametric evaluation strategies that rely on (possibly experimental) exogenous variation to estimate the impact effects and of more structural approaches. The difference between the two appraoches is particularly relevant when one comes to the issue of 'extrapolation' and 'scaling up'. One could consider two types of extrapolation: (i) Predict the effects of a program that is different from the one that was evaluated; (ii) predict the effect of exporting an existing program from a context where is was evaluated to a different one. In this paper we focus on the latter problem. After discussing the conceptual and technical issues, we apply the ideas we discuss to the results from the evluation of PROGRESA, a large welfare program in Mexico, for which a randomized evaluation sample is available and has been extensively studied. In particular, we divide the seven Mexican states in which the evaluation was carried out into two groups and check to what extent the results in one group can be extrapolated to the others."
+  },
+  "reference_6": {
+    "title": "Transportability from multiple environments with limited experiments: completeness results.",
+    "date": "2014",
+    "authors": [
+      "Bareinboim E",
+      "Pearl J."
+    ],
+    "publication": "Adv. Neural Inf. Process. Syst. 27:280–88",
+    "citation_count": 0,
+    "abs": "This paper addresses the problem of mz-transportability, that is, transferring causal knowledge collected in several heterogeneous domains to a target domain in which only passive observations and limited experimental data can be collected. The paper first establishes a necessary and sufficient condition for deciding the feasibility of mz-transportability, i.e., whether causal effects in the target domain are estimable from the information available. It further proves that a previously established algorithm for computing transport formula is in fact complete, that is, failure of the algorithm implies non-existence of a transport formula. Finally, the paper shows that the do-calculus is complete for the mz-transportability class. 1"
+  },
+  "reference_7": {
+    "title": "Causal inference and the data-fusion problem.",
+    "date": "2016",
+    "authors": [
+      "Bareinboim E",
+      "Pearl J."
+    ],
+    "publication": "PNAS 113:7345–52",
+    "citation_count": 0,
+    "abs": "We review concepts, principles, and tools that unify current approaches to causal analysis and attend to new challenges presented by big data. In particular, we address the problem of data fusion-piecing together multiple datasets collected under heterogeneous conditions (i.e., different populations, regimes, and sampling methods) to obtain valid answers to queries of interest. The availability of multiple heterogeneous datasets presents new opportunities to big data analysts, because the knowledge that can be acquired from combined data would not be possible from any individual source alone. However, the biases that emerge in heterogeneous environments require new analytical tools. Some of these biases, including confounding, sampling selection, and cross-population biases, have been addressed in isolation, largely in restricted parametric models. We here present a general, nonparametric framework for handling these biases and, ultimately, a theoretical solution to the problem of data fusion in causal inference tasks."
+  },
+  "reference_8": {
+    "title": "Recovering causal effects from selection bias.",
+    "date": "2015",
+    "authors": [
+      "Bareinboim E",
+      "Tian J."
+    ],
+    "publication": "Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence:3475–81",
+    "citation_count": 0,
+    "abs": "\n \n Controlling for selection and confounding biases are two of the most challenging problems that appear in data analysis in the empirical sciences as well as in artificial intelligence tasks. The combination of previously studied methods for each of these biases in isolation is not directly applicable to certain non-trivial cases in which selection and confounding biases are simultaneously present. In this paper, we tackle these instances non-parametrically and in full generality. We provide graphical and algorithmic conditions for recoverability of interventional distributions for when selection and confounding biases are both present. Our treatment completely characterizes the class of causal effects that are recoverable in Markovian models, and is suffi- cient for Semi-Markovian models.\n \n"
+  },
+  "reference_9": {
+    "title": "Recovering from selection bias in causal and statistical inference.",
+    "date": "2014",
+    "authors": [
+      "Bareinboim E",
+      "Tian J",
+      "Pearl J."
+    ],
+    "publication": "Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence:2410–16",
+    "citation_count": 0,
+    "abs": "\n \n Selection bias is caused by preferential exclusion of units from the samples and represents a major obstacle to valid causal and statistical inferences; it cannot be removed by randomized experiments and can rarely be detected in either experimental or observational studies. In this paper, we provide complete graphical and algorithmic conditions for recovering conditional probabilities from selection biased data. We also provide graphical conditions for recoverability when unbiased data is available over a subset of the variables. Finally, we provide a graphical condition that generalizes the backdoor criterion and serves to recover causal effects when the data is collected under preferential selection.\n \n"
+  },
+  "reference_10": {
+    "title": "Cross design synthesis: a new strategy for medical effectiveness research",
+    "date": "1992",
+    "authors": [
+      "Begg CB."
+    ],
+    "publication": "Cross design synthesis: a new strategy for medical effectiveness research",
+    "citation_count": 11358,
+    "abs": "Complex interventions are widely used in the health service, in public health practice, and in areas of social policy that have important health consequences, such as education, transport, and housing. They present various problems for evaluators, in addition to the practical and methodological difficulties that any successful evaluation must overcome. In 2000, the Medical Research Council (MRC) published a framework 1 to help researchers and research funders to recognise and adopt appropriate methods. The framework has been highly influential, and the accompanying BMJ paper is widely cited. 2 However, much valuable experience has since accumulated of both conventional and more innovative methods. This has now been incorporated in comprehensively revised and updated guidance recently released by the MRC (www.mrc.ac.uk/ complexinterventionsguidance). In this article we summarise the issues that prompted the revision and the key messages of the new guidance."
+  },
+  "reference_11": {
+    "title": "Estimates of external validity bias when impact evaluations select sites nonrandomly.",
+    "date": "2016",
+    "authors": [
+      "Bell SH",
+      "Olsen RB",
+      "Orr LL",
+      "Stuart EA."
+    ],
+    "publication": "Educ. Eval. Policy Anal. 38:318–35",
+    "citation_count": 0,
+    "abs": "Evaluations of educational programs or interventions are typically conducted in nonrandomly selected samples of schools or districts. Recent research has shown that nonrandom site selection can yield biased impact estimates. To estimate the external validity bias from nonrandom site selection, we combine lists of school districts that were selected nonrandomly for 11 educational impact studies with population data on student outcomes from the Reading First program. Our analysis finds that on average, if an impact study of Reading First were conducted in the districts from these 11 studies, the impact estimate would be biased downward. In particular, it would be 0.10 standard deviations lower than the impact in the broader population from which the samples were selected, a substantial bias based on several benchmarks of comparison."
+  },
+  "reference_12": {
+    "title": "The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) statement.",
+    "date": "2015",
+    "authors": [
+      "Benchimol EI",
+      "Smeeth L",
+      "Guttmann A",
+      "Harron K",
+      "Moher D"
+    ],
+    "publication": "PLOS Med 12:e1001885",
+    "citation_count": 0,
+    "abs": "Routinely collected health data, obtained for administrative and clinical purposes without specific a priori research goals, are increasingly used for research. The rapid evolution and availability of these data have revealed issues not addressed by existing reporting guidelines, such as Strengthening the Reporting of Observational Studies in Epidemiology (STROBE). The REporting of studies Conducted using Observational Routinely collected health Data (RECORD) statement was created to fill these gaps. RECORD was created as an extension to the STROBE statement to address reporting items specific to observational studies using routinely collected health data. RECORD consists of a checklist of 13 items related to the title, abstract, introduction, methods, results, and discussion section of articles, and other information required for inclusion in such research reports. This document contains the checklist and explanatory and elaboration information to enhance the use of the checklist. Examples of good reporting for each RECORD checklist item are also included herein. This document, as well as the accompanying website and message board (http://www.record-statement.org), will enhance the implementation and understanding of RECORD. Through implementation of RECORD, authors, journals editors, and peer reviewers can encourage transparency of research reporting."
+  },
+  "reference_13": {
+    "title": "Building representative matched samples with multi-valued treatments in large observational studies.",
+    "date": "2020",
+    "authors": [
+      "Bennett M",
+      "Vielma JP",
+      "Zubizarreta JR."
+    ],
+    "publication": "J. Comput. Graph. Stat. 29:744–57",
+    "citation_count": 0,
+    "abs": "ABSTRACT In this article, we present a new way of matching in observational studies that overcomes three limitations of existing matching approaches. First, it directly balances covariates with multi-valued treatments without explicitly estimating the generalized propensity score. Second, it builds self-weighted matched samples that are representative of a target population by design. Third, it can handle large datasets, with hundreds of thousands of observations, in a couple of minutes. The key insights of this new approach to matching are balancing the treatment groups relative to a target population and positing a linear-sized mixed integer formulation of the matching problem. We formally show that this formulation is more effective than alternative quadratic-sized formulations, as its reduction in size does not affect its strength from the standpoint of its linear programming relaxation. We also show that this formulation can be used for matching with distributional covariate balance in polynomial time under certain assumptions on the covariates and that it can handle large datasets in practice even when the assumptions are not satisfied. This algorithmic characterization is key to handling large datasets. We illustrate this new approach to matching in both a simulation study and an observational study of the impact of an earthquake on educational attainment. With this approach, the results after matching can be visualized with simple and transparent graphical displays: while increasing levels of exposure to the earthquake have a negative impact on school attendance, there is no effect on college admission test scores. Supplementary materials for this article are available online."
+  },
+  "reference_14": {
+    "title": "Generalizing evidence from randomized trials using inverse probability of sampling weights.",
+    "date": "2018",
+    "authors": [
+      "Buchanan AL",
+      "Hudgens MG",
+      "Cole SR",
+      "Mollan KR",
+      "Sax PE"
+    ],
+    "publication": "J. R. Stat. Soc. Ser. A 181:1193–209",
+    "citation_count": 0,
+    "abs": "Results obtained in randomized trials may not easily generalize to target populations. Whereas in randomized trials the treatment assignment mechanism is known, the sampling mechanism by which individuals are selected to participate in the trial is typically not known and assuming random sampling from the target population is often dubious. We consider an inverse probability of sampling weighted (IPSW) estimator for generalizing trial results to a target population. The IPSW estimator is shown to be consistent and asymptotically normal. A consistent sandwich-type variance estimator is derived and simulation results are presented comparing the IPSW estimator to a previously proposed stratified estimator. The methods are then utilized to generalize results from two randomized trials of HIV treatment to all people living with HIV in the United States."
+  },
+  "reference_15": {
+    "title": "Computer-aided assessment of the generalizability of clinical trial results.",
+    "date": "2017",
+    "authors": [
+      "Cahan A",
+      "Cahan S",
+      "Cimino JJ."
+    ],
+    "publication": "Int. J. Med. Inf. 99:60–66",
+    "citation_count": 0,
+    "abs": "IMPORTANCE: Definitions of sepsis and septic shock were last revised in 2001. Considerable advances have since been made into the pathobiology (changes in organ function, morphology, cell biology, biochemistry, immunology, and circulation), management, and epidemiology of sepsis, suggesting the need for reexamination. OBJECTIVE: To evaluate and, as needed, update definitions for sepsis and septic shock. PROCESS: A task force (n = 19) with expertise in sepsis pathobiology, clinical trials, and epidemiology was convened by the Society of Critical Care Medicine and the European Society of Intensive Care Medicine. Definitions and clinical criteria were generated through meetings, Delphi processes, analysis of electronic health record databases, and voting, followed by circulation to international professional societies, requesting peer review and endorsement (by 31 societies listed in the Acknowledgment). KEY FINDINGS FROM EVIDENCE SYNTHESIS: Limitations of previous definitions included an excessive focus on inflammation, the misleading model that sepsis follows a continuum through severe sepsis to shock, and inadequate specificity and sensitivity of the systemic inflammatory response syndrome (SIRS) criteria. Multiple definitions and terminologies are currently in use for sepsis, septic shock, and organ dysfunction, leading to discrepancies in reported incidence and observed mortality. The task force concluded the term severe sepsis was redundant. RECOMMENDATIONS: Sepsis should be defined as life-threatening organ dysfunction caused by a dysregulated host response to infection. For clinical operationalization, organ dysfunction can be represented by an increase in the Sequential [Sepsis-related] Organ Failure Assessment (SOFA) score of 2 points or more, which is associated with an in-hospital mortality greater than 10%. Septic shock should be defined as a subset of sepsis in which particularly profound circulatory, cellular, and metabolic abnormalities are associated with a greater risk of mortality than with sepsis alone. Patients with septic shock can be clinically identified by a vasopressor requirement to maintain a mean arterial pressure of 65 mm Hg or greater and serum lactate level greater than 2 mmol/L (>18 mg/dL) in the absence of hypovolemia. This combination is associated with hospital mortality rates greater than 40%. In out-of-hospital, emergency department, or general hospital ward settings, adult patients with suspected infection can be rapidly identified as being more likely to have poor outcomes typical of sepsis if they have at least 2 of the following clinical criteria that together constitute a new bedside clinical score termed quickSOFA (qSOFA): respiratory rate of 22/min or greater, altered mentation, or systolic blood pressure of 100 mm Hg or less. CONCLUSIONS AND RELEVANCE: These updated definitions and clinical criteria should replace previous definitions, offer greater consistency for epidemiologic studies and clinical trials, and facilitate earlier recognition and more timely management of patients with sepsis or at risk of developing sepsis."
+  },
+  "reference_16": {
+    "title": "Partially identified treatment effects for generalizability.",
+    "date": "2017",
+    "authors": [
+      "Chan W."
+    ],
+    "publication": "J. Res. Educ. Eff. 10:646–69",
+    "citation_count": 0,
+    "abs": "Recent methods to improve generalizations from nonrandom samples typically invoke assumptions such as the strong ignorability of sample selection, which is challenging to meet in practice. Although researchers acknowledge the difficulty in meeting this assumption, point estimates are still provided and used without considering alternative assumptions. We compare the point identifying assumption of strong ignorability of sample selection with two alternative assumptions—bounded sample variation and monotone treatment response—that partially identify the parameter of interest, yielding interval estimates. Additionally, we explore the role that population data frames play in contributing identifying power for the interval estimates. We situate the comparison around causal generalization with nonrandom samples by applying the assumptions to a cluster randomized trial in education. Bounds on the population average treatment effect are derived under the alternative assumptions and the case when no assumptions are made on the data. While comparing the bounds, we discuss the plausibility of each alternative assumption and the practical trade-offs. We highlight the importance of thoughtfully considering the role that assumptions play in causal generalization by illustrating the differences in inferences from different assumptions."
+  },
+  "reference_17": {
+    "title": "Ethical machine learning in healthcare.",
+    "date": "2021",
+    "authors": [
+      "Chen IY",
+      "Pierson E",
+      "Rose S",
+      "Joshi S",
+      "Ferryman K",
+      "Ghassemi M"
+    ],
+    "publication": "Annu. Rev. Biomed. Data Sci. 4:123–44",
+    "citation_count": 474,
+    "abs": "The use of machine learning (ML) in healthcare raises numerous ethical concerns, especially as models can amplify existing health inequities. Here, we outline ethical considerations for equitable ML in the advancement of healthcare. Specifically, we frame ethics of ML in healthcare through the lens of social justice. We describe ongoing efforts and outline challenges in a proposed pipeline of ethical ML in health, ranging from problem selection to postdeployment considerations. We close by summarizing recommendations to address these challenges."
+  },
+  "reference_18": {
+    "title": "A general statistical framework for subgroup identification and comparative treatment scoring.",
+    "date": "2017",
+    "authors": [
+      "Chen S",
+      "Tian L",
+      "Cai T",
+      "Yu M."
+    ],
+    "publication": "Biometrics 73:1199–209",
+    "citation_count": 0,
+    "abs": "Summary Many statistical methods have recently been developed for identifying subgroups of patients who may benefit from different available treatments. Compared with the traditional outcome-modeling approaches, these methods focus on modeling interactions between the treatments and covariates while by-pass or minimize modeling the main effects of covariates because the subgroup identification only depends on the sign of the interaction. However, these methods are scattered and often narrow in scope. In this article, we propose a general framework, by weighting and A-learning, for subgroup identification in both randomized clinical trials and observational studies. Our framework involves minimum modeling for the relationship between the outcome and covariates pertinent to the subgroup identification. Under the proposed framework, we may also estimate the magnitude of the interaction, which leads to the construction of scoring system measuring the individualized treatment effect. The proposed methods are quite flexible and include many recently proposed estimators as special cases. As a result, some estimators originally proposed for randomized clinical trials can be extended to observational studies, and procedures based on the weighting method can be converted to an A-learning method and vice versa. Our approaches also allow straightforward incorporation of regularization methods for high-dimensional data, as well as possible efficiency augmentation and generalization to multiple treatments. We examine the empirical performance of several procedures belonging to the proposed framework through extensive numerical studies."
+  },
+  "reference_19": {
+    "title": "Bayesian ensemble learning.",
+    "date": "2007",
+    "authors": [
+      "Chipman HA",
+      "George EI",
+      "McCulloch R"
+    ],
+    "publication": "Advances in Neural Information Processing Systems 19: Proceedings of the 2006 Conference:265–72",
+    "citation_count": 0,
+    "abs": "The huge amount of textual data on the Web has grown in the last few years rapidly creating unique contents of massive dimension. In a decision making context, one of the most relevant tasks is polarity classification of a text source, which is usually performed through supervised learning methods. Most of the existing approaches select the best classification model leading to over-confident decisions that do not take into account the inherent uncertainty of the natural language. In this paper, we pursue the paradigm of ensemble learning to reduce the noise sensitivity related to language ambiguity and therefore to provide a more accurate prediction of polarity. The proposed ensemble method is based on Bayesian Model Averaging, where both uncertainty and reliability of each single model are taken into account. We address the classifier selection problem by proposing a greedy approach that evaluates the contribution of each model with respect to the ensemble. Experimental results on gold standard datasets show that the proposed approach outperforms both traditional classification and ensemble methods."
+  },
+  "reference_20": {
+    "title": "BART: Bayesian additive regression trees.",
+    "date": "2010",
+    "authors": [
+      "Chipman HA",
+      "George EI",
+      "McCulloch RE."
+    ],
+    "publication": "Ann. Appl. Stat. 4:266–98",
+    "citation_count": 0,
+    "abs": "We develop a Bayesian \"sum-of-trees\" model where each tree is constrained by a regularization prior to be a weak learner, and fitting and inference are accomplished via an iterative Bayesian backfitting MCMC algorithm that generates samples from a posterior. Effectively, BART is a nonparametric Bayesian regression approach which uses dimensionally adaptive random basis elements. Motivated by ensemble methods in general, and boosting algorithms in particular, BART is defined by a statistical model: a prior and a likelihood. This approach enables full posterior inference including point and interval estimates of the unknown regression function as well as the marginal effects of potential predictors. By keeping track of predictor inclusion frequencies, BART can also be used for model-free variable selection. BART's many features are illustrated with a bake-off against competing methods on 42 different data sets, with a simulation experiment and on a drug discovery classification problem."
+  },
+  "reference_21": {
+    "title": "Generalizing evidence from randomized clinical trials to target populations: the ACTG 320 trial.",
+    "date": "2010",
+    "authors": [
+      "Cole SR",
+      "Stuart EA."
+    ],
+    "publication": "Am. J. Epidemiol. 172:107–15",
+    "citation_count": 0,
+    "abs": "Properly planned and conducted randomized clinical trials remain susceptible to a lack of external validity. The authors illustrate a model-based method to standardize observed trial results to a specified target population using a seminal human immunodeficiency virus (HIV) treatment trial, and they provide Monte Carlo simulation evidence supporting the method. The example trial enrolled 1,156 HIV-infected adult men and women in the United States in 1996, randomly assigned 577 to a highly active antiretroviral therapy and 579 to a largely ineffective combination therapy, and followed participants for 52 weeks. The target population was US people infected with HIV in 2006, as estimated by the Centers for Disease Control and Prevention. Results from the trial apply, albeit muted by 12%, to the target population, under the assumption that the authors have measured and correctly modeled the determinants of selection that reflect heterogeneity in the treatment effect. In simulations with a heterogeneous treatment effect, a conventional intent-to-treat estimate was biased with poor confidence limit coverage, but the proposed estimate was largely unbiased with appropriate confidence limit coverage. The proposed method standardizes observed trial results to a specified target population and thereby provides information regarding the generalizability of trial results."
+  },
+  "reference_22": {
+    "title": "Causal inference methods for combining randomized trials and observational studies: a review.",
+    "date": "2021",
+    "authors": [
+      "Colnet B",
+      "Mayer I",
+      "Chen G",
+      "Dieng A",
+      "Li R"
+    ],
+    "publication": "",
+    "citation_count": 40,
+    "abs": "With increasing data availability, causal effects can be evaluated across different data sets, both randomized controlled trials (RCTs) and observational studies. RCTs isolate the effect of the treatment from that of unwanted (confounding) co-occurring effects but they may suffer from unrepresentativeness, and thus lack external validity. On the other hand, large observational samples are often more representative of the target population but can conflate confounding effects with the treatment of interest. In this paper, we review the growing literature on methods for causal inference on combined RCTs and observational studies, striving for the best of both worlds. We first discuss identification and estimation methods that improve generalizability of RCTs using the representativeness of observational data. Classical estimators include weighting, difference between conditional outcome models and doubly robust estimators. We then discuss methods that combine RCTs and observational data to either ensure unconfoundedness of the observational analysis or to improve (conditional) average treatment effect estimation. We also connect and contrast works developed in both the potential outcomes literature and the structural causal model literature. Finally, we compare the main methods using a simulation study and real world data to analyze the effect of tranexamic acid on the mortality rate in major trauma patients. A review of available codes and new implementations is also provided."
+  },
+  "reference_23": {
+    "title": "Generalized adjustment under confounding and selection biases.",
+    "date": "2018",
+    "authors": [
+      "Correa JD",
+      "Tian J",
+      "Bareinboim E."
+    ],
+    "publication": "Thirty-Second AAAI Conference on Artificial Intelligence:6335–42",
+    "citation_count": 0,
+    "abs": "\n \n Selection and confounding biases are the two most common impediments to the applicability of causal inference methods in large-scale settings. We generalize the notion of backdoor adjustment to account for both biases and leverage external data that may be available without selection bias (e.g., data from census). We introduce the notion of adjustment pair and present complete graphical conditions for identifying causal effects by adjustment. We further design an algorithm for listing all admissible adjustment pairs in polynomial delay, which is useful for researchers interested in evaluating certain properties of some admissible pairs but not all (common properties include cost, variance, and feasibility to measure). Finally, we describe a statistical estimation procedure that can be performed once a set is known to be admissible, which entails different challenges in terms of finite samples.\n \n"
+  },
+  "reference_24": {
+    "title": "Designing Evaluations of Educational and Social Programs",
+    "date": "1982",
+    "authors": [
+      "Cronbach LJ",
+      "Shapiro K."
+    ],
+    "publication": "Designing Evaluations of Educational and Social Programs",
+    "citation_count": 0,
+    "abs": "1. The Nature and Scope of Environmental Psychology. What is Environmental Psychology? The Roots and Edges of Environmental Psychology. Theories and Approaches in Brief. Research Methods in Environmental Psychology. Environmental Psychology Today. 2. Environmental Perception and Cognition. Environmental Perception. Environmental Cognition. 3. Environmental Attitudes, Appraisals, and Assessments. Environmental Attitudes: Concern for Places. Environmental Appraisals: Personal Impression of Places. Environmental Assessments: Collective Judgments of Places. Two Observer-Based Environmental Assessments. 4. Personality and Environment. Apologia, Background, and Current Situation. Traditional Personality Dimensions. Environmental Personality Dimensions. Some Uses of Personality in Environmental Design. 5. Personal Space. What is Personal Space? Measuring Personal Space. Influences on Personal Space. Personal Space and Human Behavior. Theories of Personal Space. Personal Space and Environmental Design. 6. Territoriality. What is Territoriality? Measuring Territoriality. Influences on Territoriality. Territoriality and Human Behavior. Theories of Territoriality. Territoriality and Environmental Design. 7. Crowding. Crowding, Density, and Population. Influences on Crowding. High Density, Crowding, and Human Behavior. Theories of Crowding. Crowding and Environmental Design. 8. Privacy. What is Privacy? Measuring Privacy. Influences on Privacy. Privacy and Human Behavior. Theories of Privacy. Privacy and Environmental Design. 9. Residential Environmental Psychology. What is Home? An Organizing Framework. Residential Preference, Choice, and Satisfaction. Environment and Behavior in the Residence. Stress and Well-Being in the Residence. Residential Mobility. Residential Environmental Design. 10. Community Environmental Psychology. Life in the City: Great or Awful? What Is a Neighborhood? Neighborhood Satisfaction and Attachment. Community Urbanization and Stress. Anti-Social Behavior in the Community Environment. Helpfulness in the Community Environment. Everyday Behavior in the Community Environment. The Environmental Psychology of Shopping. Community Environmental Design. 11. Educational Environmental Psychology. The Setting as a Whole. Interior Architecture and Design. Noise. Light and Color. Climate. Space. Environmental Competence. Learning and Environmental Design. 12. Workplace Environmental Psychology. Environmental Psychology on the Job. Travel: Getting Away to a New Environment. Work, Travel, and Environmental Design. 13. Natural Environmental Psychology. Extra-Terrestrial and Atmospheric Forces. Nature as a Restorative Agent. Natural (and Technological) Hazards. Nature, Environmental Hazards, and Environmental Design. 14. Managing Limited Resources. Resource Management as a Common Dilemma. What Influences Public Interest Resource Management? Theories of Social Dilemmas. Defection: Short-Term Self-Interest Behavior. Air Pollution: A Social Dilemma. Energy Conservation: A Social Dilemma. Recycling: A Social Dilemma. 15. Designing More Fitting Environments. Social Design. Social Research in the Design Process. Stages in the Design Process. A Selection of Design Programs and Postoccupancy Evaluations. Epilogue: Utopia versus Entopia. Appendix: Publications, Graduate Schools, and Organizations. References. Index. Publications. Graduate Schools. Professional Organizations. Name Index. Subject Index."
+  },
+  "reference_25": {
+    "title": "Nonparametric tests for treatment effect heterogeneity.",
+    "date": "2008",
+    "authors": [
+      "Crump RK",
+      "Hotz VJ",
+      "Imbens GW",
+      "Mitnik OA."
+    ],
+    "publication": "Rev. Econ. Stat. 90:389–405",
+    "citation_count": 239,
+    "abs": "In this paper we develop two nonparametric tests of treatment effect heterogeneity. The first test is for the null hypothesis that the treatment has a zero average effect for all subpopulations defined by covariates. The second test is for the null hypothesis that the average effect conditional on the covariates is identical for all subpopulations, that is, that there is no heterogeneity in average treatment effects by covariates. We derive tests that are straightforward to implement and illustrate the use of these tests on data from two sets of experimental evaluations of the effects of welfare-to-work programs."
+  },
+  "reference_26": {
+    "title": "Generalizing trial findings using nested trial designs with sub-sampling of non-randomized individuals.",
+    "date": "2019a",
+    "authors": [
+      "Dahabreh IJ",
+      "Hernan MA",
+      "Robertson SE",
+      "Buchanan A",
+      "Steingrimsson JA."
+    ],
+    "publication": "",
+    "citation_count": 0,
+    "abs": "To generalize inferences from a randomized trial to the target population of all trial-eligible individuals, investigators can use nested trial designs, where the randomized individuals are nested within a cohort of trial-eligible individuals, including those who are not offered or refuse randomization. In these designs, data on baseline covariates are collected from the entire cohort, and treatment and outcome data need only be collected from randomized individuals. In this paper, we describe nested trial designs that improve research economy by collecting additional baseline covariate data after sub-sampling non-randomized individuals (i.e., a two-stage design), using sampling probabilities that may depend on the initial set of baseline covariates available from all individuals in the cohort. We propose an estimator for the potential outcome mean in the target population of all trial-eligible individuals and show that our estimator is doubly robust, in the sense that it is consistent when either the model for the conditional outcome mean among randomized individuals or the model for the probability of trial participation is correctly specified. We assess the impact of sub-sampling on the asymptotic variance of our estimator and examine the estimator's finite-sample performance in a simulation study. We illustrate the methods using data from the Coronary Artery Surgery Study (CASS)."
+  },
+  "reference_27": {
+    "title": "Efficient and robust methods for causally interpretable meta-analysis: transporting inferences from multiple randomized trials to a target population.",
+    "date": "2022",
+    "authors": [
+      "Dahabreh IJ",
+      "Robertson SE",
+      "Petito LC",
+      "Hernán MA",
+      "Steingrimsson JA."
+    ],
+    "publication": "Biometrics",
+    "citation_count": 0,
+    "abs": "We present methods for causally interpretable meta‐analyses that combine information from multiple randomized trials to draw causal inferences for a target population of substantive interest. We consider identifiability conditions, derive implications of the conditions for the law of the observed data, and obtain identification results for transporting causal inferences from a collection of independent randomized trials to a new target population in which experimental data may not be available. We propose an estimator for the potential outcome mean in the target population under each treatment studied in the trials. The estimator uses covariate, treatment, and outcome data from the collection of trials, but only covariate data from the target population sample. We show that it is doubly robust in the sense that it is consistent and asymptotically normal when at least one of the models it relies on is correctly specified. We study the finite sample properties of the estimator in simulation studies and demonstrate its implementation using data from a multicenter randomized trial."
+  },
+  "reference_28": {
+    "title": "Extending inferences from a randomized trial to a new target population.",
+    "date": "2020",
+    "authors": [
+      "Dahabreh IJ",
+      "Robertson SE",
+      "Steingrimsson JA",
+      "Stuart EA",
+      "Hernán MA."
+    ],
+    "publication": "Stat. Med. 39:1999–2014",
+    "citation_count": 22,
+    "abs": "When treatment effect modifiers influence the decision to participate in a randomized trial, the average treatment effect in the population represented by the randomized individuals will differ from the effect in other populations. In this tutorial, we consider methods for extending causal inferences about time-fixed treatments from a trial to a new target population of nonparticipants, using data from a completed randomized trial and baseline covariate data from a sample from the target population. We examine methods based on modeling the expectation of the outcome, the probability of participation, or both (doubly robust). We compare the methods in a simulation study and show how they can be implemented in software. We apply the methods to a randomized trial nested within a cohort of trial-eligible patients to compare coronary artery surgery plus medical therapy versus medical therapy alone for patients with chronic coronary artery disease. We conclude by discussing issues that arise when using the methods in applied analyses."
+  },
+  "reference_29": {
+    "title": "Extending inferences from randomized participants to all eligible individuals using trials nested within cohort studies.",
+    "date": "2017",
+    "authors": [
+      "Dahabreh IJ",
+      "Robertson SE",
+      "Stuart E",
+      "Hernan M."
+    ],
+    "publication": "",
+    "citation_count": 4,
+    "abs": "Consider a randomized trial nested within a cohort of eligible individuals, including those who refused randomization. In this paper, we show how to use baseline covariate data from the entire cohort, and treatment and outcome data only from randomized participants, to identify the average causal effect in the target population of all eligible individuals. We review identifiability conditions and estimators that can be implemented in standard statistical software. We assess the finite-sample performance of different estimators in simulation studies. Lastly, we apply the estimators in a trial nested within a cohort study of eligible patients to compare coronary artery bypass grafting surgery plus medical therapy versus medical therapy alone for patients with chronic coronary artery disease."
+  },
+  "reference_30": {
+    "title": "Generalizing causal inferences from individuals in randomized trials to all trial-eligible individuals.",
+    "date": "2019b",
+    "authors": [
+      "Dahabreh IJ",
+      "Robertson SE",
+      "Tchetgen EJ",
+      "Stuart EA",
+      "Hernán MA."
+    ],
+    "publication": "Biometrics 75:685–94",
+    "citation_count": 0,
+    "abs": "We consider methods for causal inference in randomized trials nested within cohorts of trial‐eligible individuals, including those who are not randomized. We show how baseline covariate data from the entire cohort, and treatment and outcome data only from randomized individuals, can be used to identify potential (counterfactual) outcome means and average treatment effects in the target population of all eligible individuals. We review identifiability conditions, propose estimators, and assess the estimators' finite‐sample performance in simulation studies. As an illustration, we apply the estimators in a trial nested within a cohort of trial‐eligible individuals to compare coronary artery bypass grafting surgery plus medical therapy vs. medical therapy alone for chronic coronary artery disease."
+  },
+  "reference_31": {
+    "title": "Sensitivity analysis using bias functions for studies extending inferences from a randomized trial to a target population.",
+    "date": "2019c",
+    "authors": [
+      "Dahabreh IJ",
+      "Robins JM",
+      "Haneuse SJPA",
+      "Saeed I",
+      "Robertson SE"
+    ],
+    "publication": "",
+    "citation_count": 0,
+    "abs": "Extending (i.e., generalizing or transporting) causal inferences from a randomized trial to a target population requires assumptions that randomized and nonrandomized individuals are exchangeable conditional on baseline covariates. These assumptions are made on the basis of background knowledge, which is often uncertain or controversial, and need to be subjected to sensitivity analysis. We present simple methods for sensitivity analyses that directly parameterize violations of the assumptions using bias functions and do not require detailed background knowledge about specific unknown or unmeasured determinants of the outcome or modifiers of the treatment effect. We show how the methods can be applied to non‐nested trial designs, where the trial data are combined with a separately obtained sample of nonrandomized individuals, as well as to nested trial designs, where the trial is embedded within a cohort sampled from the target population."
+  },
+  "reference_32": {
+    "title": "Conditional cross-design synthesis estimators for generalizability in Medicaid.",
+    "date": "2021",
+    "authors": [
+      "Degtiar I",
+      "Layton T",
+      "Wallace J",
+      "Rose S"
+    ],
+    "publication": "",
+    "citation_count": 2,
+    "abs": "While much of the causal inference literature has focused on addressing internal validity biases, both internal and external validity are necessary for unbiased estimates in a target population of interest. However, few generalizability approaches exist for estimating causal quantities in a target population that is not well-represented by a randomized study but is reflected when additionally incorporating observational data. To generalize to a target population represented by a union of these data, we propose a novel class of conditional cross-design synthesis estimators that combine randomized and observational data, while addressing their estimates' respective biases-lack of overlap and unmeasured confounding. These methods enable estimating the causal effect of managed care plans on health care spending among Medicaid beneficiaries in New York City, which requires obtaining estimates for the 7% of beneficiaries randomized to a plan and 93% who choose a plan, who do not resemble randomized beneficiaries. Our new estimators include outcome regression, propensity weighting, and double robust approaches. All use the covariate overlap between the randomized and observational data to remove potential unmeasured confounding bias. Applying these methods, we find substantial heterogeneity in spending effects across managed care plans. This has major implications for our understanding of Medicaid, where this heterogeneity has previously been hidden. Additionally, we demonstrate that unmeasured confounding rather than lack of overlap poses a larger concern in this setting."
+  },
+  "reference_33": {
+    "title": "Randomization inference for treatment effect variation.",
+    "date": "2016",
+    "authors": [
+      "Ding P",
+      "Feller A",
+      "Miratrix L."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. B 78:655–71",
+    "citation_count": 0,
+    "abs": "Applied researchers are increasingly interested in whether and how treatment effects vary in randomized evaluations, especially variation that is not explained by observed covariates. We propose a model‐free approach for testing for the presence of such unexplained variation. To use this randomization‐based approach, we must address the fact that the average treatment effect, which is generally the object of interest in randomized experiments, actually acts as a nuisance parameter in this setting. We explore potential solutions and advocate for a method that guarantees valid tests in finite samples despite this nuisance. We also show how this method readily extends to testing for heterogeneity beyond a given model, which can be useful for assessing the sufficiency of a given scientific theory. We finally apply our method to the National Head Start impact study, which is a large‐scale randomized evaluation of a Federal preschool programme, finding that there is indeed significant unexplained treatment effect variation."
+  },
+  "reference_34": {
+    "title": "Using propensity score analysis of survey data to estimate population average treatment effects: a case study comparing different methods.",
+    "date": "2020",
+    "authors": [
+      "Dong N",
+      "Stuart EA",
+      "Lenis D",
+      "Quynh Nguyen T"
+    ],
+    "publication": "Eval. Rev. 44:84–108",
+    "citation_count": 0,
+    "abs": "Background: Many studies in psychological and educational research aim to estimate population average treatment effects (PATE) using data from large complex survey samples, and many of these studies use propensity score methods. Recent advances have investigated how to incorporate survey weights with propensity score methods. However, to this point, that work had not been well summarized, and it was not clear how much difference the different PATE estimation methods would make empirically. Purpose: The purpose of this study is to systematically summarize the appropriate use of survey weights in propensity score analysis of complex survey data and use a case study to empirically compare the PATE estimates using multiple analysis methods that include ordinary least squares regression, weighted least squares regression, and various propensity score applications. Methods: We first summarize various propensity score methods that handle survey weights. We then demonstrate the performance of various analysis methods using a nationally representative data set, the Early Childhood Longitudinal Study–Kindergarten to estimate the effects of preschool on children’s academic achievement. The correspondence of the results was evaluated using multiple criteria. Results and Conclusions: It is important for researchers to think carefully about their estimand of interest and use methods appropriate for that estimand. If interest is in drawing inferences to the survey target population, it is important to take the survey weights into account, particularly in the outcome analysis stage for estimating the PATE. The case study shows, however, not much difference among various analysis methods in one applied example."
+  },
+  "reference_35": {
+    "title": "The confidence profile method: a Bayesian method for assessing health technologies.",
+    "date": "1989",
+    "authors": [
+      "Eddy DM."
+    ],
+    "publication": "Oper. Res. 37:210–28",
+    "citation_count": 0,
+    "abs": "The Confidence Profile Method is a Bayesian method for adjusting and combining pieces of evidence to estimate parameters, such as the effect of health technologies on health outcomes. The information in each piece of evidence is captured in a likelihood function that gives the likelihood of the observed results of the evidence as a function of possible values of the parameter. A posterior distribution is calculated from Bayes formula as the product of the likelihood function and a prior distribution. Multiple pieces of evidence are incorporated by successive applications of Bayes' formula. Pieces of evidence are adjusted for biases to internal or external validity by modeling the biases and deriving \"adjusted\" likelihood functions that incorporate the models. Likelihood functions have been derived for one-, two- and multi-arm prospective studies; 2 x 2, 2 x n and matched case-control studies, and cross-sectional studies. Biases that can be incorporated in likelihood functions include crossover in controlled trials, error in measurement outcomes, patient selection biases, differences in technologies, and differences in length of follow-up. Effect measures include differences of rates, ratios of rates, and odds ratios. The elements of the method are illustrated with an analysis of the effect of a thrombolytic agent on the difference in probability of 1-year survival after a heart attack."
+  },
+  "reference_36": {
+    "title": "10 things to know about heterogeneous treatment effects.",
+    "date": "2017",
+    "authors": [
+      "Fang A."
+    ],
+    "publication": "EGAP, Institute of Governmental Studies",
+    "citation_count": 0,
+    "abs": "Most R novices will start with Appendix A [A sample session], page 80.This should give some familiarity with the style of R sessions and more importantly some instant feedback on what actually happens.Many users will come to R mainly for its graphical facilities."
+  },
+  "reference_37": {
+    "title": "Comparing treatments across labor markets: an assessment of nonexperimental multiple-treatment strategies.",
+    "date": "2013",
+    "authors": [
+      "Flores CA",
+      "Mitnik OA."
+    ],
+    "publication": "Rev. Econ. Stat. 95:1691–707",
+    "citation_count": 0,
+    "abs": "Abstract We study the effectiveness of nonexperimental strategies in adjusting for comparison group differences when using data from several programs, each implemented at a different location, to compare their effect if implemented at alternative locations. First, we adjust for individual characteristics differences simultaneously across all groups using unconfoundedness-based and conditional difference-in-difference methods for multiple treatments. Second, we adjust for differences in local economic conditions and stress their role after program participation. Our results show that it is critical to have sufficient overlap across locations in both dimensions and illustrate the difficulty of adjusting for local economic conditions that differ greatly across locations."
+  },
+  "reference_38": {
+    "title": "Pragmatic trials.",
+    "date": "2016",
+    "authors": [
+      "Ford I",
+      "Norrie J"
+    ],
+    "publication": "New Engl. J. Med. 375:454–63",
+    "citation_count": 0,
+    "abs": "BACKGROUND: The CONSORT statement is intended to improve reporting of randomised controlled trials and focuses on minimising the risk of bias (internal validity). The applicability of a trial's results (generalisability or external validity) is also important, particularly for pragmatic trials. A pragmatic trial (a term first used in 1967 by Schwartz and Lellouch) can be broadly defined as a randomised controlled trial whose purpose is to inform decisions about practice. This extension of the CONSORT statement is intended to improve the reporting of such trials and focuses on applicability. Methods At two, two-day meetings held in Toronto in 2005 and 2008, we reviewed the CONSORT statement and its extensions, the literature on pragmatic trials and applicability, and our experiences in conducting pragmatic trials. Recommendations We recommend extending eight CONSORT checklist items for reporting of pragmatic trials: the background, participants, interventions, outcomes, sample size, blinding, participant flow, and generalisability of the findings. These extensions are presented, along with illustrative examples of reporting, and an explanation of each extension. Adherence to these reporting criteria will make it easier for decision makers to judge how applicable the results of randomised controlled trials are to their own conditions. Empirical studies are needed to ascertain the usefulness and comprehensiveness of these CONSORT checklist item extensions. In the meantime we recommend that those who support, conduct, and report pragmatic trials should use this extension of the CONSORT statement to facilitate the use of trial results in decisions about health care."
+  },
+  "reference_39": {
+    "title": "The calibration of treatment effects from clinical trials to target populations.",
+    "date": "2009",
+    "authors": [
+      "Frangakis C."
+    ],
+    "publication": "Clin. Trials 6:136–40",
+    "citation_count": 0,
+    "abs": "Standard practice teaches that randomized clinical trials should be preferred to observational studies if the aim is to obtain unbiased estimates of efficacy. It is often acknowledged that treatment efficacy might differ in the general population than in the clinical trial, but the source of those differences is often poorly understood or not regarded as important. Substantive differences between RCT and observational study results are typically ascribed to confounding of the latter.\r\n\r\nRecent literature [1,2] suggests that differences between the results seen in an RCT and in an observational study can be larger than expected not because of confounding, but because of differences between their respective patient populations. These efficacy estimates can differ enough to change treatment recommendations. The paper by Weisberg et al. in this issue [3] is a very clear and innovative example of such emerging literature. But there is another important message that one should derive from this work. That is, RCT results are useful only if we can calibrate their results to predict treatment efficacy in the target population of interest. This editorial makes the case for why calibration requires both clinical knowledge from observational studies, and new statistical insights."
+  },
+  "reference_40": {
+    "title": "Dealing with heterogeneity of treatment effects: Is the literature up to the challenge?.",
+    "date": "2009",
+    "authors": [
+      "Gabler NB",
+      "Duan N",
+      "Liao D",
+      "Elmore JG",
+      "Ganiats TG",
+      "Kravitz RL."
+    ],
+    "publication": "Trials 10:43",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_41": {
+    "title": "Testing for qualitative interactions between treatment effects and patient subsets.",
+    "date": "1985",
+    "authors": [
+      "Gail M",
+      "Simon R."
+    ],
+    "publication": "Biometrics 41:361–72",
+    "citation_count": 0,
+    "abs": "Evaluation of evidence that treatment efficacy varies substantially among different subsets of patients is an important feature of the analysis of large clinical trials. Qualitative or crossover interactions are said to occur when one treatment is superior for some subsets of patients and the alternative treatment is superior for other subsets. A non-crossover interaction arises when there is variation in the magnitude, but not in the direction, of treatment effects among subsets. Some authors use the term quantitative interaction to mean non-crossover interaction. Non-crossover interactions are usually of less clinical importance than qualitative interactions, which often have major therapeutic significance. A likelihood ratio test is developed to test for qualitative interactions. Exact critical values are determined and tabulated."
+  },
+  "reference_42": {
+    "title": "Generalizing the results from social experiments: theory and evidence from Mexico and India",
+    "date": "2015",
+    "authors": [
+      "Gechter M."
+    ],
+    "publication": "Generalizing the results from social experiments: theory and evidence from Mexico and India",
+    "citation_count": 0,
+    "abs": "Many empirical questions in economics and other social sciences depend on causal effects of programs or policies. In the last two decades, much research has been done on the econometric and statistical analysis of such causal effects. This recent theoretical literature has built on, and combined features of, earlier work in both the statistics and econometrics literatures. It has by now reached a level of maturity that makes it an important tool in many areas of empirical research in economics, including labor economics, public finance, development economics, industrial organization, and other areas of empirical microeconomics. In this review, we discuss some of the recent developments. We focus primarily on practical issues for empirical researchers, as well as provide a historical overview of the area and give references to more technical research."
+  },
+  "reference_43": {
+    "title": "Poststratification into many categories using hierarchical logistic regression.",
+    "date": "1997",
+    "authors": [
+      "Gelman A",
+      "Little TC."
+    ],
+    "publication": "Surv. Methodol.:127–35",
+    "citation_count": 0,
+    "abs": "Discussion of ``Analysis of variance--why it is more important than ever'' by A. Gelman [math.ST/0504499]"
+  },
+  "reference_44": {
+    "title": "Is big data sufficient for a reliable detection of non-technical losses?.",
+    "date": "2017",
+    "authors": [
+      "Glauner P",
+      "Migliosi A",
+      "Meira J",
+      "Valtchev P",
+      "State R",
+      "Bettinger F."
+    ],
+    "publication": "2017 19th International Conference on Intelligent System Application to Power Systems (ISAP):1–6",
+    "citation_count": 0,
+    "abs": "Non-technical losses (NTL) occur during the distribution of electricity in power grids and include, but are not limited to, electricity theft and faulty meters. In emerging countries, they may range up to 40% of the total electricity distributed. In order to detect NTLs, machine learning methods are used that learn irregular consumption patterns from customer data and inspection results. The Big Data paradigm followed in modern machine learning reflects the desire of deriving better conclusions from simply analyzing more data, without the necessity of looking at theory and models. However, the sample of inspected customers may be biased, i.e. it does not represent the population of all customers. As a consequence, machine learning models trained on these inspection results are biased as well and therefore lead to unreliable predictions of whether customers cause NTL or not. In machine learning, this issue is called covariate shift and has not been addressed in the literature on NTL detection yet. In this work, we present a novel framework for quantifying and visualizing covariate shift. We apply it to a commercial data set from Brazil that consists of 3.6M customers and 820K inspection results. We show that some features have a stronger covariate shift than others, making predictions less reliable. In particular, previous inspections were focused on certain neighborhoods or customer classes and that they were not sufficiently spread among the population of customers. This framework is about to be deployed in a commercial product for NTL detection."
+  },
+  "reference_45": {
+    "title": "Modeling heterogeneous treatment effects in survey experiments with Bayesian additive regression trees.",
+    "date": "2012",
+    "authors": [
+      "Green DP",
+      "Kern HL."
+    ],
+    "publication": "Public Opin. Q. 76:491–511",
+    "citation_count": 0,
+    "abs": "Survey experimenters routinely test for systematically varying treatment effects by using interaction terms between the treatment indicator and covariates. Parametric models, such as linear or logistic regression, are currently used to search for systematic treatment effect heterogeneity but suffer from several shortcomings; in particular, the potential for bias due to model misspecification and the large amount of discretion they introduce into the analysis of experimental data. Here, we explicate what we believe to be a better approach. Drawing on the statistical learning literature, we discuss Bayesian Additive Regression Trees (BART), a method for analyzing treatment effect heterogeneity. BART automates the detection of nonlinear relationships and interactions, thereby reducing researchers’ discretion when analyzing experimental data. These features make BART an appealing “off-the-shelf” tool for survey experimenters who want to model systematic treatment effect heterogeneity in a flexible and robust manner. In order to illustrate how BART can be used to detect and model heterogeneous treatment effects, we reanalyze a well-known survey experiment on welfare attitudes from the General Social Survey."
+  },
+  "reference_46": {
+    "title": "Combining information from multiple data sources: an introduction to cross-design synthesis with a case study.",
+    "date": "2017",
+    "authors": [
+      "Greenhouse JB",
+      "Kaizar EE",
+      "Anderson HD",
+      "Bridge JA",
+      "Libby AM"
+    ],
+    "publication": "Methods in Comparative Effectiveness Research:223–46",
+    "citation_count": 93968,
+    "abs": "The Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) statement, published in 2009, was designed to help systematic reviewers transparently report why the review was done, what the authors did, and what they found. Over the past decade, advances in systematic review methodology and terminology have necessitated an update to the guideline. The PRISMA 2020 statement replaces the 2009 statement and includes new reporting guidance that reflects advances in methods to identify, select, appraise, and synthesise studies. The structure and presentation of the items have been modified to facilitate implementation. In this article, we present the PRISMA 2020 27-item checklist, an expanded checklist that details reporting recommendations for each item, the PRISMA 2020 abstract checklist, and the revised flow diagrams for original and updated reviews."
+  },
+  "reference_47": {
+    "title": "Generalizing from clinical trial data: a case study. The risk of suicidality among pediatric antidepressant users.",
+    "date": "2008",
+    "authors": [
+      "Greenhouse JB",
+      "Kaizar EE",
+      "Kelleher K",
+      "Seltman H",
+      "Gardner W."
+    ],
+    "publication": "Stat. Med. 27:1801–13",
+    "citation_count": 0,
+    "abs": "For the results of randomized controlled clinical trials (RCTs) and related meta-analyses to be useful in practice, they must be relevant to a definable group of patients in a particular clinical setting. To the extent this is so, we say that the trial is generalizable or externally valid. Although concern about the generalizability of the results of RCTs is often discussed, there are few examples of methods for assessing the generalizability of clinical trial data. In this paper, we describe and illustrate an approach for making what we call generalizability judgments and illustrate the approach in the context of a case study of the risk of suicidality among pediatric antidepressant users."
+  },
+  "reference_48": {
+    "title": "Multiple-bias modelling for analysis of observational data.",
+    "date": "2005",
+    "authors": [
+      "Greenland S."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. A 168:267–91",
+    "citation_count": 0,
+    "abs": "Summary Conventional analytic results do not reflect any source of uncertainty other than random error, and as a result readers must rely on informal judgments regarding the effect of possible biases. When standard errors are small these judgments often fail to capture sources of uncertainty and their interactions adequately. Multiple-bias models provide alternatives that allow one systematically to integrate major sources of uncertainty, and thus to provide better input to research planning and policy analysis. Typically, the bias parameters in the model are not identified by the analysis data and so the results depend completely on priors for those parameters. A Bayesian analysis is then natural, but several alternatives based on sensitivity analysis have appeared in the risk assessment and epidemiologic literature. Under some circumstances these methods approximate a Bayesian analysis and can be modified to do so even better. These points are illustrated with a pooled analysis of case–control studies of residential magnetic field exposure and childhood leukaemia, which highlights the diminishing value of conventional studies conducted after the early 1990s. It is argued that multiple-bias modelling should become part of the core training of anyone who will be entrusted with the analysis of observational data, and should become standard procedure when random error is not the only important source of uncertainty (as in meta-analysis and pooled analysis)."
+  },
+  "reference_49": {
+    "title": "Variable selection for qualitative interactions.",
+    "date": "2011",
+    "authors": [
+      "Gunter L",
+      "Zhu J",
+      "Murphy S"
+    ],
+    "publication": "Stat. Methodol. 8:42–55",
+    "citation_count": 0,
+    "abs": "For many years, subset analysis has been a popular topic for the biostatistics and clinical trials literature. In more recent years, the discussion has focused on finding subsets of genomes which play a role in the effect of treatment, often referred to as stratified or personalized medicine. Though highly sought after, methods for detecting subsets with altering treatment effects are limited and lacking in power. In this article we discuss variable selection for qualitative interactions with the aim to discover these critical patient subsets. We propose a new technique designed specifically to find these interaction variables among a large set of variables while still controlling for the number of false discoveries. We compare this new method against standard qualitative interaction tests using simulations and give an example of its use on data from a randomized controlled trial for the treatment of depression."
+  },
+  "reference_50": {
+    "title": "Adjustment for selection bias in observational studies with application to the analysis of autopsy data.",
+    "date": "2009",
+    "authors": [
+      "Haneuse S",
+      "Schildcrout J",
+      "Crane P",
+      "Sonnen J",
+      "Breitner J",
+      "Larson E."
+    ],
+    "publication": "Neuroepidemiology 32:229–39",
+    "citation_count": 0,
+    "abs": "BACKGROUND: The interpretation of neuropathological studies of dementia and Alzheimer's disease is complicated by potential selection mechanisms that can drive whether or not a study participant is observed to undergo autopsy. Notwithstanding this, there appears to have been little emphasis placed on potential selection bias in published reports from population-based neuropathological studies of dementia. METHODS: We provide an overview of methodological issues relating to the identification of and adjustment for selection bias. When information is available on factors that govern selection, inverse-probability weighting provides an analytic approach to adjust for selection bias. The weights help alleviate bias by serving to bridge differences between the population from which the observed data may be viewed as a representative sample and the target population, identified as being of scientific interest. RESULTS: We illustrate the methods with data obtained from the Adult Changes in Thought study. Adjustment for potential selection bias yields substantially strengthened association between neuropathological measurements and risk of dementia. CONCLUSIONS: Armed with analytic techniques to adjust for selection bias and to ensure generalizability of results from population-based neuropathological studies, researchers should consider incorporating information related to selection into their data collection schemes."
+  },
+  "reference_51": {
+    "title": "From sample average treatment effect to population average treatment effect on the treated: combining experimental with observational studies to estimate population treatment effects.",
+    "date": "2015",
+    "authors": [
+      "Hartman E",
+      "Grieve R",
+      "Ramsahai R",
+      "Sekhon JS."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. A 178:757–78",
+    "citation_count": 0,
+    "abs": "Randomized controlled trials (RCTs) can provide unbiased estimates of sample average treatment effects. However, a common concern is that RCTs may fail to provide unbiased estimates of population average treatment effects. We derive the assumptions that are required to identify population average treatment effects from RCTs. We provide placebo tests, which formally follow from the identifying assumptions and can assess whether they hold. We offer new research designs for estimating population effects that use non‐randomized studies to adjust the RCT data. This approach is considered in a cost‐effectiveness analysis of a clinical intervention: pulmonary artery catheterization."
+  },
+  "reference_52": {
+    "title": "Sample selection bias as a specification error.",
+    "date": "1979",
+    "authors": [
+      "Heckman JJ."
+    ],
+    "publication": "Econometrica 47:153–61",
+    "citation_count": 0,
+    "abs": "Sample selection bias as a specification error This paper discusses the bias that results from using non-randomly selected samples to estimate behavioral relationships as an ordinary specification error or «omitted variables» bias. A simple consistent two stage estimator is considered that enables analysts to utilize simple regression methods to estimate behavioral functions by least squares methods. The asymptotic distribution of the estimator is derived."
+  },
+  "reference_53": {
+    "title": "Observational studies analyzed like randomized experiments: an application to postmenopausal hormone therapy and coronary heart disease.",
+    "date": "2008",
+    "authors": [
+      "Hernán MA",
+      "Alonso A",
+      "Logan R",
+      "Grodstein F",
+      "Michels KB"
+    ],
+    "publication": "Epidemiology 19:766–79",
+    "citation_count": 0,
+    "abs": "Non-randomised studies of the effects of interventions are critical to many areas of healthcare evaluation, but their results may be biased. It is therefore important to understand and appraise their strengths and weaknesses. We developed ROBINS-I (“Risk Of Bias In Non-randomised Studies - of Interventions”), a new tool for evaluating risk of bias in estimates of the comparative effectiveness (harm or benefit) of interventions from studies that did not use randomisation to allocate units (individuals or clusters of individuals) to comparison groups. The tool will be particularly useful to those undertaking systematic reviews that include non-randomised studies."
+  },
+  "reference_54": {
+    "title": "Bayesian nonparametric modeling for causal inference.",
+    "date": "2011",
+    "authors": [
+      "Hill JL."
+    ],
+    "publication": "J. Comput. Graph. Stat. 20:217–40",
+    "citation_count": 0,
+    "abs": "Researchers have long struggled to identify causal effects in nonexperimental settings. Many recently proposed strategies assume ignorability of the treatment assignment mechanism and require fitting two models—one for the assignment mechanism and one for the response surface. This article proposes a strategy that instead focuses on very flexibly modeling just the response surface using a Bayesian nonparametric modeling procedure, Bayesian Additive Regression Trees (BART). BART has several advantages: it is far simpler to use than many recent competitors, requires less guesswork in model fitting, handles a large number of predictors, yields coherent uncertainty intervals, and fluidly handles continuous treatment variables and missing data for the outcome variable. BART also naturally identifies heterogeneous treatment effects. BART produces more accurate estimates of average treatment effects compared to propensity score matching, propensity-weighted estimators, and regression adjustment in the nonlinear simulation situations examined. Further, it is highly competitive in linear settings with the “correct” model, linear regression. Supplemental materials including code and data to replicate simulations and examples from the article as well as methods for population inference are available online."
+  },
+  "reference_55": {
+    "title": "A generalization of sampling without replacement from a finite universe.",
+    "date": "1952",
+    "authors": [
+      "Horvitz DG",
+      "Thompson DJ."
+    ],
+    "publication": "J. Am. Stat. Assoc. 47:663–85",
+    "citation_count": 0,
+    "abs": "Abstract This paper presents a general technique for the treatment of samples drawn without replacement from finite universes when unequal selection probabilities are used. Two sampling schemes are discussed in connection with the problem of determining optimum selection probabilities according to the information available in a supplementary variable. Admittedly, these two schemes have limited application. They should prove useful, however, for the first stage of sampling with multi-stage designs, since both permit unbiased estimation of the sampling variance without resorting to additional assumptions."
+  },
+  "reference_56": {
+    "title": "Predicting the efficacy of future training programs using past experiences at other locations.",
+    "date": "2005",
+    "authors": [
+      "Hotz VJ",
+      "Imbens GW",
+      "Mortimer JH."
+    ],
+    "publication": "J. Econom. 125:241–70",
+    "citation_count": 4884,
+    "abs": "Many empirical questions in economics and other social sciences depend on causal effects of programs or policies. In the last two decades, much research has been done on the econometric and statistical analysis of such causal effects. This recent theoretical literature has built on, and combined features of, earlier work in both the statistics and econometrics literatures. It has by now reached a level of maturity that makes it an important tool in many areas of empirical research in economics, including labor economics, public finance, development economics, industrial organization, and other areas of empirical microeconomics. In this review, we discuss some of the recent developments. We focus primarily on practical issues for empirical researchers, as well as provide a historical overview of the area and give references to more technical research."
+  },
+  "reference_57": {
+    "title": "Misunderstandings between experimentalists and observationalists about causal inference.",
+    "date": "2008",
+    "authors": [
+      "Imai K",
+      "King G",
+      "Stuart EA."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. A 171:481–502",
+    "citation_count": 0,
+    "abs": "Summary.  We attempt to clarify, and suggest how to avoid, several serious misunderstandings about and fallacies of causal inference. These issues concern some of the most fundamental advantages and disadvantages of each basic research design. Problems include improper use of hypothesis tests for covariate balance between the treated and control groups, and the consequences of using randomization, blocking before randomization and matching after assignment of treatment to achieve covariate balance. Applied researchers in a wide range of scientific disciplines seem to fall prey to one or more of these fallacies and as a result make suboptimal design or analysis choices. To clarify these points, we derive a new four‐part decomposition of the key estimation errors in making causal inferences. We then show how this decomposition can help scholars from different experimental and observational research traditions to understand better each other's inferential problems and attempted solutions."
+  },
+  "reference_58": {
+    "title": "Learning weighted representations for generalization across designs.",
+    "date": "2018",
+    "authors": [
+      "Johansson FD",
+      "Kallus N",
+      "Shalit U",
+      "Sontag D."
+    ],
+    "publication": "",
+    "citation_count": 0,
+    "abs": "Predictive models that generalize well under distributional shift are often desirable and sometimes crucial to machine learning applications. One example is the estimation of treatment effects from observational data, where a subtask is to predict the effect of a treatment on subjects that are systematically different from those who received the treatment in the data. A related kind of distributional shift appears in unsupervised domain adaptation, where we are tasked with generalizing to a distribution of inputs that is different from the one in which we observe labels. We pose both of these problems as prediction under a shift in design. Popular methods for overcoming distributional shift are often heuristic or rely on assumptions that are rarely true in practice, such as having a well-specified model or knowing the policy that gave rise to the observed data. Other methods are hindered by their need for a pre-specified metric for comparing observations, or by poor asymptotic properties. In this work, we devise a bound on the generalization error under design shift, based on integral probability metrics and sample re-weighting. We combine this idea with representation learning, generalizing and tightening existing results in this space. Finally, we propose an algorithmic framework inspired by our bound and verify is effectiveness in causal effect estimation."
+  },
+  "reference_59": {
+    "title": "A calibration approach to transportability with observational data.",
+    "date": "2021",
+    "authors": [
+      "Josey KP",
+      "Yang F",
+      "Ghosh D",
+      "Raghavan S."
+    ],
+    "publication": "",
+    "citation_count": 7,
+    "abs": "An important consideration in clinical research studies is proper evaluation of internal and external validity. While randomized clinical trials can overcome several threats to internal validity, they may be prone to poor external validity. Conversely, large prospective observational studies sampled from a broadly generalizable population may be externally valid, yet susceptible to threats to internal validity, particularly confounding. Thus, methods that address confounding and enhance transportability of study results across populations are essential for internally and externally valid causal inference, respectively. We develop a weighting method which estimates the effect of an intervention on an outcome in an observational study which can then be transported to a second, possibly unrelated target population. The proposed methodology employs calibration estimators to generate complementary balancing and sampling weights to address confounding and transportability, respectively, enabling valid estimation of the target population average treatment effect. A simulation study is conducted to demonstrate the advantages and similarities of the calibration approach against alternative techniques. We also test the performance of the calibration estimator-based inference in a motivating real data example comparing whether the effect of biguanides versus sulfonylureas - the two most common oral diabetes medication classes for initial treatment - on all-cause mortality described in a historical cohort applies to a contemporary cohort of US Veterans with diabetes."
+  },
+  "reference_60": {
+    "title": "Estimating treatment effect via simple cross design synthesis.",
+    "date": "2011",
+    "authors": [
+      "Kaizar EE."
+    ],
+    "publication": "Stat. Med. 30:2986–3009",
+    "citation_count": 0,
+    "abs": "Randomized controlled trials (RCTs) are the traditional gold standard evidence for medical decision-making. However, protocols that limit enrollment eligibility introduce selection error that severely limits a RCT's applicability to a wide range of patients. Conversely, high quality observational data can be representative of entire populations, but freedom to choose treatment can bias estimators based on this data. Cross design synthesis (CDS) is an approach to combining both RCT and observational data in a single analysis that capitalizes on the RCT's strong internal validity and the observational study's strong external validity. We proposed and assessed a simple estimator of effect size based on the CDS approach. We evaluated its properties within a formal framework of causal estimation and compared our estimator with more traditional estimators based on single sources of evidence. We show that under ideal conditions the simple CDS estimator is unbiased whenever the observational data-based estimators' treatment selection error is constant across those who are and are not eligible for RCT participation. Whereas this assumption may not often hold in practice, assumptions required for the unbiasedness of usual single-source estimators may also be implausible. We show that, under some reasonable data assumptions, our simple CDS estimator has smaller bias and better coverage than commonly used estimates based on randomized or observational studies alone."
+  },
+  "reference_61": {
+    "title": "Incorporating both randomized and observational data into a single analysis.",
+    "date": "2015",
+    "authors": [
+      "Kaizar EE."
+    ],
+    "publication": "Annu. Rev. Stat. Appl. 2:49–72",
+    "citation_count": 0,
+    "abs": "Although both randomized and nonrandomized study data relevant to a question of treatment efficacy are often available and separately analyzed, these data are rarely formally combined in a single analysis. One possible reason for this is the apparent or feared disagreement of effect estimates across designs, which can be attributed both to differences in estimand definition and to analyses that may produce biased estimators. This article reviews specific models and general frameworks that aim to harmonize analyses from the two designs and combine them via a single analysis that ideally exploits the relative strengths of each design. The development of such methods is still in its infancy, and examples of applications with joint analyses are rare. This area would greatly benefit from more attention from researchers in statistical methods and applications."
+  },
+  "reference_62": {
+    "title": "Removing hidden confounding by experimental grounding.",
+    "date": "2018",
+    "authors": [
+      "Kallus N",
+      "Puli AM",
+      "Shalit U."
+    ],
+    "publication": "",
+    "citation_count": 0,
+    "abs": "Observational data is increasingly used as a means for making individual-level causal predictions and intervention recommendations. The foremost challenge of causal inference from observational data is hidden confounding, whose presence cannot be tested in data and can invalidate any causal conclusion. Experimental data does not suffer from confounding but is usually limited in both scope and scale. We introduce a novel method of using limited experimental data to correct the hidden confounding in causal effect models trained on larger observational data, even if the observational data does not fully overlap with the experimental data. Our method makes strictly weaker assumptions than existing approaches, and we prove conditions under which it yields a consistent estimator. We demonstrate our method's efficacy using real-world data from a large educational experiment."
+  },
+  "reference_63": {
+    "title": "Perils and potentials of self-selected entry to epidemiological studies and surveys.",
+    "date": "2016",
+    "authors": [
+      "Keiding N",
+      "Louis TA."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. A 179:319–76",
+    "citation_count": 190,
+    "abs": "Summary Low front-end cost and rapid accrual make Web-based surveys and enrolment in studies attractive, but participants are often self-selected with little reference to a well-defined study base. Of course, high quality studies must be internally valid (validity of inferences for the sample at hand), but Web-based enrolment reactivates discussion of external validity (generalization of within-study inferences to a target population or context) in epidemiology and clinical trials. Survey research relies on a representative sample produced by a sampling frame, prespecified sampling process and weighting that maps results to an intended population. In contrast, recent analytical epidemiology has shifted the focus away from survey-type representativity to internal validity in the sample. Against this background, it is a good time for statisticians to take stock of our role and position regarding surveys, observational research in epidemiology and clinical studies. The central issue is whether conditional effects in the sample (the study population) may be transported to desired target populations. Success depends on compatibility of causal structures in study and target populations, and will require subject matter considerations in each concrete case. Statisticians, epidemiologists and survey researchers should work together to increase understanding of these challenges and to develop improved tools to handle them."
+  },
+  "reference_64": {
+    "title": "Web-based enrollment and other types of self-selection in surveys and studies: consequences for generalizability.",
+    "date": "2018",
+    "authors": [
+      "Keiding N",
+      "Louis TA."
+    ],
+    "publication": "Annu. Rev. Stat. Appl. 5:25–47",
+    "citation_count": 40,
+    "abs": "Web-based enrollment in surveys and studies is increasingly attractive as the Internet is approaching near-universal coverage and the attitude of respondents toward participation in classical modes of study deteriorates. Follow-up is also facilitated by the web-based approach. However, the consequent self-selection raises the question of the importance of representativity when attempting to generalize the results of a study beyond the context in which they were obtained, particularly under effect heterogeneity. Our review is divided into three main components: first, sample surveys or prevalence studies, assessing the frequency or prevalence of some attitude or disease condition in a population from its frequency in a sample from this population; second, generalization of the results from randomized trials to the population in which they were performed and to other populations; and third, generalization of results from observational studies."
+  },
+  "reference_65": {
+    "title": "Assessing methods for generalizing experimental impact estimates to target populations.",
+    "date": "2016",
+    "authors": [
+      "Kern HL",
+      "Stuart EA",
+      "Hill J",
+      "Green DP."
+    ],
+    "publication": "J. Res. Educ. Eff. 9:103–27",
+    "citation_count": 0,
+    "abs": "Randomized experiments are considered the gold standard for causal inference, as they can provide unbiased estimates of treatment effects for the experimental participants. However, researchers and policymakers are often interested in using a specific experiment to inform decisions about other target populations. In education research, increasing attention is being paid to the potential lack of generalizability of randomized experiments, as the experimental participants may be unrepresentative of the target population of interest. This paper examines whether generalization may be assisted by statistical methods that adjust for observed differences between the experimental participants and members of a target population. The methods examined include approaches that reweight the experimental data so that participants more closely resemble the target population and methods that utilize models of the outcome. Two simulation studies and one empirical analysis investigate and compare the methods' performance. One simulation uses purely simulated data while the other utilizes data from an evaluation of a school-based dropout prevention program. Our simulations suggest that machine learning methods outperform regression-based methods when the required structural (ignorability) assumptions are satisfied. When these assumptions are violated, all of the methods examined perform poorly. Our empirical analysis uses data from a multi-site experiment to assess how well results from a given site predict impacts in other sites. Using a variety of extrapolation methods, predicted effects for each site are compared to actual benchmarks. Flexible modeling approaches perform best, although linear regression is not far behind. Taken together, these results suggest that flexible modeling techniques can aid generalization while underscoring the fact that even state-of-the-art statistical techniques still rely on strong assumptions."
+  },
+  "reference_66": {
+    "title": "Combining non-probability and probability survey samples through mass imputation.",
+    "date": "2018",
+    "authors": [
+      "Kim JK",
+      "Park S",
+      "Chen Y",
+      "Wu C."
+    ],
+    "publication": "",
+    "citation_count": 0,
+    "abs": "Analysis of non‐probability survey samples requires auxiliary information at the population level. Such information may also be obtained from an existing probability survey sample from the same finite population. Mass imputation has been used in practice for combining non‐probability and probability survey samples and making inferences on the parameters of interest using the information collected only in the non‐probability sample for the study variables. Under the assumption that the conditional mean function from the non‐probability sample can be transported to the probability sample, we establish the consistency of the mass imputation estimator and derive its asymptotic variance formula. Variance estimators are developed using either linearization or bootstrap. Finite sample performances of the mass imputation estimator are investigated through simulation studies. We also address important practical issues of the method through the analysis of a real‐world non‐probability survey sample collected by the Pew Research Centre."
+  },
+  "reference_67": {
+    "title": "Generalizing study results: a potential outcomes perspective.",
+    "date": "2017",
+    "authors": [
+      "Lesko CR",
+      "Buchanan AL",
+      "Westreich D",
+      "Edwards JK",
+      "Hudgens MG",
+      "Cole SR."
+    ],
+    "publication": "Epidemiology 28:553–61",
+    "citation_count": 0,
+    "abs": "Great care is taken in epidemiologic studies to ensure the internal validity of causal effect estimates; however, external validity has received considerably less attention. When the study sample is not a random sample of the target population, the sample average treatment effect, even if internally valid, cannot usually be expected to equal the average treatment effect in the target population. The utility of an effect estimate for planning purposes and decision making will depend on the degree of departure from the true causal effect in the target population due to problems with both internal and external validity. Herein, we review concepts from recent literature on generalizability, one facet of external validity, using the potential outcomes framework. Identification conditions sufficient for external validity closely parallel identification conditions for internal validity, namely conditional exchangeability; positivity; the same distributions of the versions of treatment; no interference; and no measurement error. We also require correct model specification. Under these conditions, we discuss how a version of direct standardization (the g-formula, adjustment formula, or transport formula) or inverse probability weighting can be used to generalize a causal effect from a study sample to a well-defined target population, and demonstrate their application in an illustrative example."
+  },
+  "reference_68": {
+    "title": "Causal inference for comprehensive cohort studies.",
+    "date": "2019",
+    "authors": [
+      "Lu Y",
+      "Scharfstein DO",
+      "Brooks MM",
+      "Quach K",
+      "Kennedy EH."
+    ],
+    "publication": "",
+    "citation_count": 8380,
+    "abs": "Results from genome-wide association studies (GWAS) can be used to infer causal relationships between phenotypes, using a strategy known as 2-sample Mendelian randomization (2SMR) and bypassing the need for individual-level data. However, 2SMR methods are evolving rapidly and GWAS results are often insufficiently curated, undermining efficient implementation of the approach. We therefore developed MR-Base (<ext-link ext-link-type=\"uri\" xlink:href=\"http://www.mrbase.org\">http://www.mrbase.org</ext-link>): a platform that integrates a curated database of complete GWAS results (no restrictions according to statistical significance) with an application programming interface, web app and R packages that automate 2SMR. The software includes several sensitivity analyses for assessing the impact of horizontal pleiotropy and other violations of assumptions. The database currently comprises 11 billion single nucleotide polymorphism-trait associations from 1673 GWAS and is updated on a regular basis. Integrating data with software ensures more rigorous application of hypothesis-driven analyses and allows millions of potential causal relationships to be efficiently evaluated in phenome-wide association studies."
+  },
+  "reference_69": {
+    "title": "An omnibus non-parametric test of equality in distribution for unknown functions.",
+    "date": "2019",
+    "authors": [
+      "Luedtke A",
+      "Carone M",
+      "van der Laan MJ."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. B 81:75–99",
+    "citation_count": 0,
+    "abs": "We present a novel family of non‐parametric omnibus tests of the hypothesis that two unknown but estimable functions are equal in distribution when applied to the observed data structure. We developed these tests, which represent a generalization of the maximum mean discrepancy tests described by Gretton and colleagues, using recent developments from the higher order pathwise differentiability literature. Despite their complex derivation, the associated test statistics can be expressed quite simply as U‐statistics. We study the asymptotic behaviour of the proposed tests under the null hypothesis and under both fixed and local alternatives. We provide examples to which our tests can be applied and show that they perform well in a simulation study. As an important special case, our proposed tests can be used to determine whether an unknown function, such as the conditional average treatment effect, is equal to zero almost surely."
+  },
+  "reference_70": {
+    "title": "Stratification and weighting via the propensity score in estimation of causal treatment effects: a comparative study.",
+    "date": "2004",
+    "authors": [
+      "Lunceford JK",
+      "Davidian M."
+    ],
+    "publication": "Stat. Med. 23:2937–60",
+    "citation_count": 0,
+    "abs": "Estimation of treatment effects with causal interpretation from observational data is complicated because exposure to treatment may be confounded with subject characteristics. The propensity score, the probability of treatment exposure conditional on covariates, is the basis for two approaches to adjusting for confounding: methods based on stratification of observations by quantiles of estimated propensity scores and methods based on weighting observations by the inverse of estimated propensity scores. We review popular versions of these approaches and related methods offering improved precision, describe theoretical properties and highlight their implications for practice, and present extensive comparisons of performance that provide guidance for practical use."
+  },
+  "reference_71": {
+    "title": "Assessing non-consent bias with parallel randomized and nonrandomized clinical trials.",
+    "date": "1997",
+    "authors": [
+      "Marcus S."
+    ],
+    "publication": "J. Clin. Epidemiol. 50:823–28",
+    "citation_count": 0,
+    "abs": "BACKGROUND: It is widely claimed that racial and ethnic minorities, especially in the US, are less willing than non-minority individuals to participate in health research. Yet, there is a paucity of empirical data to substantiate this claim. METHODS AND FINDINGS: We performed a comprehensive literature search to identify all published health research studies that report consent rates by race or ethnicity. We found 20 health research studies that reported consent rates by race or ethnicity. These 20 studies reported the enrollment decisions of over 70,000 individuals for a broad range of research, from interviews to drug treatment to surgical trials. Eighteen of the twenty studies were single-site studies conducted exclusively in the US or multi-site studies where the majority of sites (i.e., at least 2/3) were in the US. Of the remaining two studies, the Concorde study was conducted at 74 sites in the United Kingdom, Ireland, and France, while the Delta study was conducted at 152 sites in Europe and 23 sites in Australia and New Zealand. For the three interview or non-intervention studies, African-Americans had a nonsignificantly lower overall consent rate than non-Hispanic whites (82.2% versus 83.5%; odds ratio [OR] = 0.92; 95% confidence interval [CI] 0.84-1.02). For these same three studies, Hispanics had a nonsignificantly higher overall consent rate than non-Hispanic whites (86.1% versus 83.5%; OR = 1.37; 95% CI 0.94-1.98). For the ten clinical intervention studies, African-Americans' overall consent rate was nonsignificantly higher than that of non-Hispanic whites (45.3% versus 41.8%; OR = 1.06; 95% CI 0.78-1.45). For these same ten studies, Hispanics had a statistically significant higher overall consent rate than non-Hispanic whites (55.9% versus 41.8%; OR = 1.33; 95% CI 1.08-1.65). For the seven surgery trials, which report all minority groups together, minorities as a group had a nonsignificantly higher overall consent rate than non-Hispanic whites (65.8% versus 47.8%; OR = 1.26; 95% CI 0.89-1.77). Given the preponderance of US sites, the vast majority of these individuals from minority groups were African-Americans or Hispanics from the US. CONCLUSIONS: We found very small differences in the willingness of minorities, most of whom were African-Americans and Hispanics in the US, to participate in health research compared to non-Hispanic whites. These findings, based on the research enrollment decisions of over 70,000 individuals, the vast majority from the US, suggest that racial and ethnic minorities in the US are as willing as non-Hispanic whites to participate in health research. Hence, efforts to increase minority participation in health research should focus on ensuring access to health research for all groups, rather than changing minority attitudes."
+  },
+  "reference_72": {
+    "title": "Standardization of risk ratios.",
+    "date": "1972",
+    "authors": [
+      "Miettinen OS."
+    ],
+    "publication": "Am. J. Epidemiol. 96:383–88",
+    "citation_count": 0,
+    "abs": "Miettinen, O. S. (Harvard School of Public Health, Boston, Mass. 02115). Standardization of risk ratios. Am J Epidemiol 96: 383–388, 1972. The procedure commonly employed for the computation of “standardized” risk ratio estimates (observed-to-“expected” ratios) which characterize different categories of a risk factor do not lead to a set of mutually comparable values. In cohort studies truly standardized risk ratios can be obtained through a simple modification of the prevailing method. The problem is more subtle in case-control studies, but these studies, too, permit the computation of standardized risk ratio estimates with explicit specification of the standard."
+  },
+  "reference_73": {
+    "title": "Sensitivity analysis for an unobserved moderator in RCT-to-target-population generalization of treatment effects.",
+    "date": "2017",
+    "authors": [
+      "Nguyen TQ",
+      "Ebnesajjad C",
+      "Cole SR",
+      "Stuart EA."
+    ],
+    "publication": "Ann. Appl. Stat. 11:225–47",
+    "citation_count": 79,
+    "abs": "In the presence of treatment effect heterogeneity, the average treatment effect (ATE) in a randomized controlled trial (RCT) may differ from the average effect of the same treatment if applied to a target population of interest. If all treatment effect moderators are observed in the RCT and in a dataset representing the target population, then we can obtain an estimate for the target population ATE by adjusting for the difference in the distribution of the moderators between the two samples. This paper considers sensitivity analyses for two situations: (1) where we cannot adjust for a specific moderator $V$ observed in the RCT because we do not observe it in the target population; and (2) where we are concerned that the treatment effect may be moderated by factors not observed even in the RCT, which we represent as a composite moderator $U$. In both situations, the outcome is not observed in the target population. For situation (1), we offer three sensitivity analysis methods based on (i) an outcome model, (ii) full weighting adjustment and (iii) partial weighting combined with an outcome model. For situation (2), we offer two sensitivity analyses based on (iv) a bias formula and (v) partial weighting combined with a bias formula. We apply methods (i) and (iii) to an example where the interest is to generalize from a smoking cessation RCT conducted with participants of alcohol/illicit drug use treatment programs to the target population of people who seek treatment for alcohol/illicit drug use in the US who are also cigarette smokers. In this case a treatment effect moderator is observed in the RCT but not in the target population dataset."
+  },
+  "reference_74": {
+    "title": "Likelihood reweighting methods to reduce potential bias in noninferiority trials which rely on historical data to make inference.",
+    "date": "2013",
+    "authors": [
+      "Nie L",
+      "Zhang Z",
+      "Rubin D",
+      "Chu J"
+    ],
+    "publication": "Ann. Appl. Stat. 7:1796–813",
+    "citation_count": 0,
+    "abs": "It is generally believed that bias is minimized in well-controlled randomized clinical trials. However, bias can arise in active controlled noninferiority trials because the inference relies on a previously estimated effect size obtained from a historical trial that may have been conducted for a different population. By implementing a likelihood reweighting method through propensity scoring, a study designed to estimate a treatment effect in one trial population can be used to estimate the treatment effect size in a different target population. We illustrate this method in active controlled noninferiority trials, although it can also be used in other types of studies, such as historically controlled trials, meta-analyses, and comparative effectiveness analyses."
+  },
+  "reference_75": {
+    "title": "External validity in policy evaluations that choose sites purposively: external validity in policy evaluations.",
+    "date": "2013",
+    "authors": [
+      "Olsen RB",
+      "Orr LL",
+      "Bell SH",
+      "Stuart EA."
+    ],
+    "publication": "J. Policy Anal. Manag. 32:107–21",
+    "citation_count": 133,
+    "abs": "Evaluations of the impact of social programs are often carried out in multiple \"sites,\" such as school districts, housing authorities, local TANF offices, or One-Stop Career Centers. Most evaluations select sites purposively following a process that is nonrandom. Unfortunately, purposive site selection can produce a sample of sites that is not representative of the population of interest for the program. In this paper, we propose a conceptual model of purposive site selection. We begin with the proposition that a purposive sample of sites can usefully be conceptualized as a random sample of sites from some well-defined population, for which the sampling probabilities are unknown and vary across sites. This proposition allows us to derive a formal, yet intuitive, mathematical expression for the bias in the pooled impact estimate when sites are selected purposively. This formula helps us to better understand the consequences of selecting sites purposively, and the factors that contribute to the bias. Additional research is needed to obtain evidence on how large the bias tends to be in actual studies that select sites purposively, and to develop methods to increase the external validity of these studies."
+  },
+  "reference_76": {
+    "title": "Generalizing from unrepresentative experiments: a stratified propensity score approach.",
+    "date": "2014",
+    "authors": [
+      "O'Muircheartaigh C",
+      "Hedges LV."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. C 63:195–210",
+    "citation_count": 0,
+    "abs": "Summary The paper addresses means of generalizing from an experiment based on a non-probability sample to a population of interest and to subpopulations of interest, where information is available about relevant covariates in the whole population. Using stratification based on propensity score matching with an external populationwide data set, an estimator of the population average treatment effect is constructed. An example is presented in which the applicability of a major education intervention in a non-probability sample of schools in Texas, USA, is assessed for the state as a whole and for its constituent counties. The implications of the results are discussed for two important situations: how to use this methodology to establish where future experiments should be conducted to improve this generalization and how to construct a priori a strategy for experimentation which will maximize both the initial inferential power and the final inferential basis for a series of experiments."
+  },
+  "reference_77": {
+    "title": "Evaluating bias correction in weighted proportional hazards regression.",
+    "date": "2009",
+    "authors": [
+      "Pan Q",
+      "Schaubel DE."
+    ],
+    "publication": "Lifetime Data Anal 15:120–46",
+    "citation_count": 0,
+    "abs": "Randomized trials remain the most accepted design for estimating the effects of interventions, but they do not necessarily answer a question of primary interest: Will the program be effective in a target population in which it may be implemented? In other words, are the results generalizable? There has been very little statistical research on how to assess the generalizability, or \"external validity,\" of randomized trials. We propose the use of propensity-score-based metrics to quantify the similarity of the participants in a randomized trial and a target population. In this setting the propensity score model predicts participation in the randomized trial, given a set of covariates. The resulting propensity scores are used first to quantify the difference between the trial participants and the target population, and then to match, subclassify, or weight the control group outcomes to the population, assessing how well the propensity score-adjusted outcomes track the outcomes actually observed in the population. These metrics can serve as a first step in assessing the generalizability of results from randomized trials to target populations. This paper lays out these ideas, discusses the assumptions underlying the approach, and illustrates the metrics using data on the evaluation of a schoolwide prevention program called Positive Behavioral Interventions and Supports."
+  },
+  "reference_78": {
+    "title": "Causality: Models, Reasoning, and Inference",
+    "date": "2000",
+    "authors": [
+      "Pearl J."
+    ],
+    "publication": "Causality: Models, Reasoning, and Inference",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_79": {
+    "title": "Generalizing experimental findings.",
+    "date": "2015",
+    "authors": [
+      "Pearl J."
+    ],
+    "publication": "J. Causal Inference 3:259–66",
+    "citation_count": 0,
+    "abs": "Abstract This note examines one of the most crucial questions in causal inference: “How generalizable are randomized clinical trials?” The question has received a formal treatment recently, using a non-parametric setting, and has led to a simple and general solution. I will describe this solution and several of its ramifications, and compare it to the way researchers have attempted to tackle the problem using the language of ignorability. We will see that ignorability-type assumptions need to be enriched with structural assumptions in order to capture the full spectrum of conditions that permit generalizations, and in order to judge their plausibility in specific applications."
+  },
+  "reference_80": {
+    "title": "Transportability of causal and statistical relations: a formal approach.",
+    "date": "2011",
+    "authors": [
+      "Pearl J",
+      "Bareinboim E"
+    ],
+    "publication": "2011 IEEE 11th International Conference on Data Mining Workshops:540–47",
+    "citation_count": 0,
+    "abs": "We address the problem of transferring information learned from experiments to a different environment, in which only passive observations can be collected. We introduce a formal representation called ``selection diagrams'' for expressing knowledge about differences and commonalities between environments and, using this representation, we derive procedures for deciding whether effects in the target environment can be inferred from experiments conducted elsewhere. When the answer is affirmative, the procedures identify the set of experiments and observations that need be conducted to license the transport. We further discuss how transportability analysis can guide the transfer of knowledge in non-experimental learning to minimize re-measurement cost and improve prediction power."
+  },
+  "reference_81": {
+    "title": "External validity: from do-calculus to transportability across populations.",
+    "date": "2014",
+    "authors": [
+      "Pearl J",
+      "Bareinboim E."
+    ],
+    "publication": "Stat. Sci. 29:579–95",
+    "citation_count": 0,
+    "abs": "The generalizability of empirical findings to new environments, settings or populations, often called \"external validity,\" is essential in most scientific explorations. This paper treats a particular problem of generalizability, called \"transportability,\" defined as a license to transfer causal effects learned in experimental studies to a new population, in which only observational studies can be conducted. We introduce a formal representation called \"selection diagrams\" for expressing knowledge about differences and commonalities between populations of interest and, using this representation, we reduce questions of transportability to symbolic derivations in the do-calculus. This reduction yields graph-based procedures for deciding, prior to observing any data, whether causal effects in the target population can be inferred from experimental findings in the study population. When the answer is affirmative, the procedures identify what experimental and observational findings need be obtained from the two populations, and how they can be combined to ensure bias-free transport."
+  },
+  "reference_82": {
+    "title": "Methods for population-adjusted indirect comparisons in health technology appraisal.",
+    "date": "2018",
+    "authors": [
+      "Phillippo DM",
+      "Ades AE",
+      "Dias S",
+      "Palmer S",
+      "Abrams KR",
+      "Welton NJ."
+    ],
+    "publication": "Med. Decis. Mak. 38:200–11",
+    "citation_count": 0,
+    "abs": "Standard methods for indirect comparisons and network meta-analysis are based on aggregate data, with the key assumption that there is no difference between the trials in the distribution of effect-modifying variables. Methods which relax this assumption are becoming increasingly common for submissions to reimbursement agencies, such as the National Institute for Health and Care Excellence (NICE). These methods use individual patient data from a subset of trials to form population-adjusted indirect comparisons between treatments, in a specific target population. Recently proposed population adjustment methods include the Matching-Adjusted Indirect Comparison (MAIC) and the Simulated Treatment Comparison (STC). Despite increasing popularity, MAIC and STC remain largely untested. Furthermore, there is a lack of clarity about exactly how and when they should be applied in practice, and even whether the results are relevant to the decision problem. There is therefore a real and present risk that the assumptions being made in one submission to a reimbursement agency are fundamentally different to—or even incompatible with—the assumptions being made in another for the same indication. We describe the assumptions required for population-adjusted indirect comparisons, and demonstrate how these may be used to generate comparisons in any given target population. We distinguish between anchored and unanchored comparisons according to whether a common comparator arm is used or not. Unanchored comparisons make much stronger assumptions, which are widely regarded as infeasible. We provide recommendations on how and when population adjustment methods should be used, and the supporting analyses that are required to provide statistically valid, clinically meaningful, transparent and consistent results for the purposes of health technology appraisal. Simulation studies are needed to examine the properties of population adjustment methods and their robustness to breakdown of assumptions."
+  },
+  "reference_83": {
+    "title": "Candidates, Issues, and Strategies: A Computer Simulation of the 1960 Presidential Election",
+    "date": "1964",
+    "authors": [
+      "Pool I",
+      "Abelson R",
+      "Popkin S."
+    ],
+    "publication": "Candidates, Issues, and Strategies: A Computer Simulation of the 1960 Presidential Election",
+    "citation_count": 237,
+    "abs": "Scholars do not usually test for the duration of the effects of mass communication, but when they do, they typically find rapid decay. Persuasive impact may end almost as soon as communication ends. Why so much decay? Does mass communication produce any long-term effects? How should this decay color our understanding of the effects of mass communication? We examine these questions with data from the effects of advertising in the 2000 presidential election and 2006 subnational elections, but argue that our model and results are broadly applicable within the field of political communication. We find that the bulk of the persuasive impact of advertising decays quickly, but that some effect in the presidential campaign endures for at least 6 weeks. These results, which are similar in rolling cross-section survey data and county-level data on actual presidential vote, appear to reflect a mix of memory-based processing (whose effects last only as long as short-term memory lasts) and online processing (whose effects are more durable). Finally, we find that immediate effects of advertising are larger in subnational than presidential elections, but decay more quickly and more completely. [Supplementary material is available for this article. Go to the publisher's online edition of Political Communication for the following free supplemental resource(s): discussion of methodological issues; results for a alternative specifications of key models; full reports of model results.]"
+  },
+  "reference_84": {
+    "title": "Combined postmenopausal hormone therapy and cardiovascular disease: toward resolving the discrepancy between observational studies and the Women's Health Initiative clinical trial.",
+    "date": "2005",
+    "authors": [
+      "Prentice RL",
+      "Langer R",
+      "Stefanick ML",
+      "Howard BV",
+      "Pettinger M"
+    ],
+    "publication": "Am. J. Epidemiol. 162:404–14",
+    "citation_count": 0,
+    "abs": "Observational research on postmenopausal hormone therapy suggests a 40-50% reduction in coronary heart disease incidence among women using these preparations. In contrast, the Women's Health Initiative clinical trial of estrogen plus progestin found an elevated incidence over a 5.6-year intervention period through July 7, 2002. Toward explaining this discrepancy, the authors analyzed data from this trial, which included 16,608 postmenopausal women aged 50-79 years, and corresponding data from 53,054 women in the Women's Health Initiative observational study, 33% of whom were estrogen-plus-progestin users at baseline. Estrogen-plus-progestin hazard ratio estimates for coronary heart disease, stroke, and venous thromboembolism in the observational study were 39-48% lower than those in the clinical trial following age adjustment. However, hazard ratios tended to decrease with increasing time from initiation of estrogen-plus-progestin use, and observational study hazard ratio estimates are heavily weighted by longer-term use while clinical trial hazard ratio estimates reflect shorter-term use. Following control for time from estrogen-plus-progestin initiation and confounding, hazard ratio estimates were rather similar for the two cohorts, although there was evidence of some remaining difference for stroke. These analyses have implications for both the design and the analysis of observational studies."
+  },
+  "reference_85": {
+    "title": "Hierarchical models in generalized synthesis of evidence: an example based on studies of breast cancer screening.",
+    "date": "2000",
+    "authors": [
+      "Prevost TC",
+      "Abrams KR",
+      "Jones DR."
+    ],
+    "publication": "Stat. Med. 19:3359–76",
+    "citation_count": 0,
+    "abs": "Evidence regarding the potential benefits of a particular health care intervention is often available from a variety of disparate sources. However, formal synthesis of such evidence has traditionally concentrated almost exclusively on that derived from randomized studies, although for a range of conditions the randomized evidence will be less than adequate due to economic, organizational or ethical considerations. In such situations a formal synthesis of the evidence that is available from observational studies can be valuable whilst awaiting higher quality evidence from randomized trials. Consideration of randomized studies alone may be appropriate when assessing the efficacy of an intervention, but assessment of the effectiveness of such an intervention within a more general target population may be improved by consideration of evidence from non-randomized studies as well. Standard meta-analysis methods may allow for both within- and between-study heterogeneity; however when multiple sources of evidence are considered an extra level of complexity is introduced, namely study type. One possible solution to the problem of making inferences, particularly regarding an overall population effect, in such situations is to model the heterogeneity, both quantitative and qualitative, using a Bayesian hierarchical model. The hierarchical nature of such models specifically allows for the quantitative within and between sources of heterogeneity, whilst the Bayesian approach can accommodate a priori beliefs regarding qualitative differences between the various sources of evidence. The use of such methods in practice is illustrated in the context of screening for breast cancer; in this example evidence is available from both randomized clinical trials and observational studies. A particular appeal of a Bayesian approach for this type of problem lies in the prediction of future benefits likely to be observed in a target population. This approach to health service monitoring in general is discussed."
+  },
+  "reference_86": {
+    "title": "A sequential significance test for treatment by covariate interactions.",
+    "date": "2019",
+    "authors": [
+      "Qian M",
+      "Chakraborty B",
+      "Maiti R."
+    ],
+    "publication": "",
+    "citation_count": 3,
+    "abs": "Due to patient heterogeneity in response to various aspects of any treatment program, biomedical and clinical research is gradually shifting from the traditional \"one-size-fits-all\" approach to the new paradigm of personalized medicine. An important step in this direction is to identify the treatment by covariate interactions. We consider the setting in which there are potentially a large number of covariates of interest. Although a number of novel machine learning methodologies have been developed in recent years to aid in treatment selection in this setting, few, if any, have adopted formal hypothesis testing procedures. In this article, we present a novel testing procedure based on m-out-of-n bootstrap that can be used to sequentially identify variables that interact with treatment. We study the theoretical properties of the method and show that it is more effective in controlling the type I error rate and achieving a satisfactory power as compared to competing methods, via extensive simulations. Furthermore, the usefulness of the proposed method is illustrated using real data examples, both from a randomized trial and from an observational study."
+  },
+  "reference_87": {
+    "title": "Randomized experiments in education, with implications for multilevel causal inference.",
+    "date": "2020",
+    "authors": [
+      "Raudenbush SW",
+      "Schwartz D."
+    ],
+    "publication": "Annu. Rev. Stat. Appl. 7:177–208",
+    "citation_count": 42,
+    "abs": "Education research has experienced a methodological renaissance over the past two decades, with a new focus on large-scale randomized experiments. This wave of experiments has made education research an even more exciting area for statisticians, unearthing many lessons and challenges in experimental design, causal inference, and statistics more broadly. Importantly, educational research and practice almost always occur in a multilevel setting, which makes the statistics relevant to other fields with this structure, including social policy, health services research, and clinical trials in medicine. In this article we first briefly review the history that led to this new era in education research and describe the design features that dominate the modern large-scale educational experiments. We then highlight some of the key statistical challenges in this area, including endogeneity of design, heterogeneity of treatment effects, noncompliance with treatment assignment, mediation, generalizability, and spillover. Though a secondary focus, we also touch on promising trial designs that answer more nuanced questions, such as the SMART design for studying dynamic treatment regimes and factorial designs for optimizing the components of an existing treatment."
+  },
+  "reference_88": {
+    "title": "External validity of randomised controlled trials: “To whom do the results of this trial apply?.",
+    "date": "2005",
+    "authors": [
+      "Rothwell PM."
+    ],
+    "publication": "Lancet 365:82–93",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_89": {
+    "title": "Estimating causal effects of treatments in randomized and nonrandomized studies.",
+    "date": "1974",
+    "authors": [
+      "Rubin DB."
+    ],
+    "publication": "J. Educ. Psychol. 66:688–701",
+    "citation_count": 0,
+    "abs": "Presents a discussion of matching, randomization, random sampling, and other methods of controlling extraneous variation. The objective was to specify the benefits of randomization in estimating causal effects of treatments. It is concluded that randomization should be employed whenever possible but that the use of carefully controlled nonrandomized data to estimate causal effects is a reasonable and necessary procedure in many cases."
+  },
+  "reference_90": {
+    "title": "Robust estimation of encouragement design intervention effects transported across sites.",
+    "date": "2017",
+    "authors": [
+      "Rudolph K",
+      "van der Laan M."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. B 79:1509–25",
+    "citation_count": 0,
+    "abs": "Summary We develop robust targeted maximum likelihood estimators (TMLEs) for transporting intervention effects from one population to another. Specifically, we develop TMLEs for three transported estimands: the intent-to-treat average treatment effect (ATE) and complier ATE, which are relevant for encouragement design interventions and instrumental variable analyses, and the ATE of the exposure on the outcome, which is applicable to any randomized or observational study. We demonstrate finite sample performance of these TMLEs by using simulation, including in the presence of practical violations of the positivity assumption. We then apply these methods to the ‘Moving to opportunity’ trial: a multisite, encouragement design intervention in which families in public housing were randomized to receive housing vouchers and logistical support to move to low poverty neighbourhoods. This application sheds light on whether effect differences across sites can be explained by differences in population composition."
+  },
+  "reference_91": {
+    "title": "Comparing the performance of statistical methods that generalize effect estimates from randomized controlled trials to much larger target populations.",
+    "date": "2020",
+    "authors": [
+      "Schmid I",
+      "Rudolph KE",
+      "Nguyen TQ",
+      "Hong H",
+      "Seamans MJ"
+    ],
+    "publication": "Commun. Stat. Simul. Comput.",
+    "citation_count": 0,
+    "abs": "Abstract Policymakers use results from randomized controlled trials to inform decisions about whether to implement treatments in target populations. Various methods—including inverse probability weighting, outcome modeling, and Targeted Maximum Likelihood Estimation—that use baseline data available in both the trial and target population have been proposed to generalize the trial treatment effect estimate to the target population. Often the target population is significantly larger than the trial sample, which can cause estimation challenges. We conduct simulations to compare the performance of these methods in this setting. We vary the size of the target population, the proportion of the target population selected into the trial, and the complexity of the true selection and outcome models. All methods performed poorly when the trial size was only 2% of the target population size or the target population included only 1,000 units. When the target population or the proportion of units selected into the trial was larger, some methods, such as outcome modeling using Bayesian Additive Regression Trees, performed well. We caution against generalizing using these existing approaches when the target population is much larger than the trial sample and advocate future research strives to improve methods for generalizing to large target populations."
+  },
+  "reference_92": {
+    "title": "CONSORT 2010 statement: updated guidelines for reporting parallel group randomised trials.",
+    "date": "2010",
+    "authors": [
+      "Schulz KF",
+      "Altman DG",
+      "Moher D."
+    ],
+    "publication": "BMJ 340:c332",
+    "citation_count": 0,
+    "abs": "The CONSORT statement is used worldwide to improve the reporting of randomised controlled trials. Kenneth Schulz and colleagues describe the latest version, CONSORT 2010, which updates the reporting guideline based on new methodological evidence and accumulating experience.To encourage dissemination of the CONSORT 2010 Statement, this article is freely accessible on bmj.com and will also be published in the Lancet, Obstetrics and Gynecology, PLoS Medicine, Annals of Internal Medicine, Open Medicine, Journal of Clinical Epidemiology, BMC Medicine, and Trials."
+  },
+  "reference_93": {
+    "title": "Explanatory and pragmatic attitudes in therapeutical trials.",
+    "date": "1967",
+    "authors": [
+      "Schwartz D",
+      "Lellouch J."
+    ],
+    "publication": "J. Chronic Dis. 20:637–48",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_94": {
+    "title": "Experimental and Quasi-Experimental Designs for Generalized Causal Inference",
+    "date": "2001",
+    "authors": [
+      "Shadish WR",
+      "Cook TD",
+      "Campbell DT."
+    ],
+    "publication": "Experimental and Quasi-Experimental Designs for Generalized Causal Inference",
+    "citation_count": 0,
+    "abs": "1. Experiments and Generalized Causal Inference 2. Statistical Conclusion Validity and Internal Validity 3. Construct Validity and External Validity 4. Quasi-Experimental Designs That Either Lack a Control Group or Lack Pretest Observations on the Outcome 5. Quasi-Experimental Designs That Use Both Control Groups and Pretests 6. Quasi-Experimentation: Interrupted Time Series Designs 7. Regression Discontinuity Designs 8. Randomized Experiments: Rationale, Designs, and Conditions Conducive to Doing Them 9. Practical Problems 1: Ethics, Participant Recruitment, and Random Assignment 10. Practical Problems 2: Treatment Implementation and Attrition 11. Generalized Causal Inference: A Grounded Theory 12. Generalized Causal Inference: Methods for Single Studies 13. Generalized Causal Inference: Methods for Multiple Studies 14. A Critical Assessment of Our Assumptions"
+  },
+  "reference_95": {
+    "title": "Comparative effectiveness without head-to-head trials: a method for matching-adjusted indirect comparisons applied to psoriasis treatment with adalimumab or etanercept.",
+    "date": "2010",
+    "authors": [
+      "Signorovitch JE",
+      "Wu EQ",
+      "Yu AP",
+      "Gerrits CM",
+      "Kantor E"
+    ],
+    "publication": "PharmacoEconomics 28:935–45",
+    "citation_count": 0,
+    "abs": "Population-adjusted indirect comparisons (PAICs) are widely used to synthesize evidence when randomized controlled trials enroll different patient populations and head-to-head comparisons are unavailable. Although PAICs adjust for observed population differences across trials, adjustment alone does not ensure transportability of estimated effects to decision-relevant populations for health technology assessment (HTA). We examine and formalize transportability in PAICs from an estimand-based perspective. We distinguish conditional and marginal treatment effect estimands and show how transportability depends on effect modification, collapsibility, and alignment between the scale of effect modification and the effect measure. Using illustrative examples, we demonstrate that even when effect modifiers are shared across treatments, marginal effects are generally population-dependent for commonly used non-collapsible measures, including hazard ratios and odds ratios. Conversely, collapsible and conditional effects defined on the linear predictor scale exhibit more favorable transportability properties. We further show that pairwise PAIC approaches typically identify effects defined in the comparator population and that applying these estimates to other populations entails an additional, often implicit, transport step requiring further assumptions. This has direct implications for HTA, where PAIC-derived effects are routinely applied within cost-effectiveness and decision models defined for different target populations. Our results clarify when applying PAIC-derived treatment effects to desired target populations is justified, when doing so requires additional assumptions, and when results should instead be interpreted as population-specific rather than decision-relevant, supporting more transparent and principled use of indirect evidence in HTA and related decision-making contexts."
+  },
+  "reference_96": {
+    "title": "Patient subsets and variation in therapeutic efficacy.",
+    "date": "1982",
+    "authors": [
+      "Simon R."
+    ],
+    "publication": "Br. J. Clin. Pharmacol. 14:473–82",
+    "citation_count": 0,
+    "abs": "1 The determination of what treatment is best for what kinds of patients is a general objective of clinical research. We consider here the extent to which this objective can be accomplished reliably in a single clinical trial. 2 The reliability of subset analyses is often poor due to problems of multiplicity and limitations in numbers of patients studied. Implications for the design of clinical trials are presented. 3 Statistical approaches to subset analysis are reviewed in a general manner. In order to obtain the degree of reliability usually demanded of clinical therapeutic evaluations, \"statistically significant' interactions between relative treatment efficacy and subsets should be demonstrated. Exploratory analyses of subset differences are important but should be reported as hypotheses to be tested in separate studies."
+  },
+  "reference_97": {
+    "title": "Matching methods for causal inference: a review and a look forward.",
+    "date": "2010",
+    "authors": [
+      "Stuart EA."
+    ],
+    "publication": "Stat. Sci. 25:1–21",
+    "citation_count": 0,
+    "abs": "When estimating causal effects using observational data, it is desirable to replicate a randomized experiment as closely as possible by obtaining treated and control groups with similar covariate distributions. This goal can often be achieved by choosing well-matched samples of the original treated and control groups, thereby reducing bias due to the covariates. Since the 1970's, work on matching methods has examined how to best choose treated and control subjects for comparison. Matching methods are gaining popularity in fields such as economics, epidemiology, medicine, and political science. However, until now the literature and related advice has been scattered across disciplines. Researchers who are interested in using matching methods-or developing methods related to matching-do not have a single place to turn to learn about past and current research. This paper provides a structure for thinking about matching methods and guidance on their use, coalescing the existing research (both old and new) and providing a summary of where the literature on matching methods is now and where it should be headed."
+  },
+  "reference_98": {
+    "title": "Generalizability of randomized trial results to target populations: design and analysis possibilities.",
+    "date": "2018",
+    "authors": [
+      "Stuart EA",
+      "Ackerman B",
+      "Westreich D."
+    ],
+    "publication": "Res. Soc. Work Pract. 28:532–37",
+    "citation_count": 6225,
+    "abs": "BACKGROUND: The most appropriate targets for systolic blood pressure to reduce cardiovascular morbidity and mortality among persons without diabetes remain uncertain. METHODS: We randomly assigned 9361 persons with a systolic blood pressure of 130 mm Hg or higher and an increased cardiovascular risk, but without diabetes, to a systolic blood-pressure target of less than 120 mm Hg (intensive treatment) or a target of less than 140 mm Hg (standard treatment). The primary composite outcome was myocardial infarction, other acute coronary syndromes, stroke, heart failure, or death from cardiovascular causes. RESULTS: At 1 year, the mean systolic blood pressure was 121.4 mm Hg in the intensive-treatment group and 136.2 mm Hg in the standard-treatment group. The intervention was stopped early after a median follow-up of 3.26 years owing to a significantly lower rate of the primary composite outcome in the intensive-treatment group than in the standard-treatment group (1.65% per year vs. 2.19% per year; hazard ratio with intensive treatment, 0.75; 95% confidence interval [CI], 0.64 to 0.89; P<0.001). All-cause mortality was also significantly lower in the intensive-treatment group (hazard ratio, 0.73; 95% CI, 0.60 to 0.90; P=0.003). Rates of serious adverse events of hypotension, syncope, electrolyte abnormalities, and acute kidney injury or failure, but not of injurious falls, were higher in the intensive-treatment group than in the standard-treatment group. CONCLUSIONS: Among patients at high risk for cardiovascular events but without diabetes, targeting a systolic blood pressure of less than 120 mm Hg, as compared with less than 140 mm Hg, resulted in lower rates of fatal and nonfatal major cardiovascular events and death from any cause, although significantly higher rates of some adverse events were observed in the intensive-treatment group. (Funded by the National Institutes of Health; ClinicalTrials.gov number, NCT01206062.)."
+  },
+  "reference_99": {
+    "title": "Assessing the generalizability of randomized trial results to target populations.",
+    "date": "2015",
+    "authors": [
+      "Stuart EA",
+      "Bradshaw CP",
+      "Leaf PJ."
+    ],
+    "publication": "Prev. Sci. 16:475–85",
+    "citation_count": 0,
+    "abs": "Randomized trials remain the most accepted design for estimating the effects of interventions, but they do not necessarily answer a question of primary interest: Will the program be effective in a target population in which it may be implemented? In other words, are the results generalizable? There has been very little statistical research on how to assess the generalizability, or \"external validity,\" of randomized trials. We propose the use of propensity-score-based metrics to quantify the similarity of the participants in a randomized trial and a target population. In this setting the propensity score model predicts participation in the randomized trial, given a set of covariates. The resulting propensity scores are used first to quantify the difference between the trial participants and the target population, and then to match, subclassify, or weight the control group outcomes to the population, assessing how well the propensity score-adjusted outcomes track the outcomes actually observed in the population. These metrics can serve as a first step in assessing the generalizability of results from randomized trials to target populations. This paper lays out these ideas, discusses the assumptions underlying the approach, and illustrates the metrics using data on the evaluation of a schoolwide prevention program called Positive Behavioral Interventions and Supports."
+  },
+  "reference_100": {
+    "title": "The use of propensity scores to assess the generalizability of results from randomized trials: use of propensity scores to assess generalizability.",
+    "date": "2011",
+    "authors": [
+      "Stuart EA",
+      "Cole SR",
+      "Bradshaw CP",
+      "Leaf PJ."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. A 174:369–86",
+    "citation_count": 524,
+    "abs": "Randomized trials remain the most accepted design for estimating the effects of interventions, but they do not necessarily answer a question of primary interest: Will the program be effective in a target population in which it may be implemented? In other words, are the results generalizable? There has been very little statistical research on how to assess the generalizability, or \"external validity,\" of randomized trials. We propose the use of propensity-score-based metrics to quantify the similarity of the participants in a randomized trial and a target population. In this setting the propensity score model predicts participation in the randomized trial, given a set of covariates. The resulting propensity scores are used first to quantify the difference between the trial participants and the target population, and then to match, subclassify, or weight the control group outcomes to the population, assessing how well the propensity score-adjusted outcomes track the outcomes actually observed in the population. These metrics can serve as a first step in assessing the generalizability of results from randomized trials to target populations. This paper lays out these ideas, discusses the assumptions underlying the approach, and illustrates the metrics using data on the evaluation of a schoolwide prevention program called Positive Behavioral Interventions and Supports."
+  },
+  "reference_101": {
+    "title": "Subgroup analysis via recursive partitioning.",
+    "date": "2009",
+    "authors": [
+      "Su X",
+      "Tsai CL",
+      "Wang H",
+      "Nickerson DM",
+      "Li B."
+    ],
+    "publication": "SSRN Electron. J. 10:141–58",
+    "citation_count": 0,
+    "abs": "Subgroup analysis is an integral part of comparative analysis where assessing the treatment effect on a response is of central interest. Its goal is to determine the heterogeneity of the treatment effect across subpopulations. In this paper, we adapt the idea of recursive partitioning and introduce an interaction tree (IT) procedure to conduct subgroup analysis. The IT procedure automatically facilitates a number of objectively defined subgroups, in some of which the treatment effect is found prominent while in others the treatment has a negligible or even negative effect. The standard CART (Breiman et al., 1984) methodology is inherited to construct the tree structure. Also, in order to extract factors that contribute to the heterogeneity of the treatment effect, variable importance measure is made available via random forests of the interaction trees. Both simulated experiments and analysis of census wage data are presented for illustration."
+  },
+  "reference_102": {
+    "title": "Interaction trees with censored survival data.",
+    "date": "2008",
+    "authors": [
+      "Su X",
+      "Zhou T",
+      "Yan X",
+      "Fan J",
+      "Yang S"
+    ],
+    "publication": "Int. J. Biostatist. 4",
+    "citation_count": 111,
+    "abs": "We propose an interaction tree (IT) procedure to optimize the subgroup analysis in comparative studies that involve censored survival times. The proposed method recursively partitions the data into two subsets that show the greatest interaction with the treatment, which results in a number of objectively defined subgroups: in some of them the treatment effect is prominent while in others the treatment may have a negligible or even negative effect. The resultant tree structure can be used to explore the overall interaction between treatment and other covariates and help identify and describe possible target populations on which an experimental treatment demonstrates desired efficacy. We follow the standard CART (Breiman, et al., 1984) methodology to develop the interaction tree structure. Variable importance information is extracted via random forests of interaction trees. Both simulated experiments and an analysis of the primary billiary cirrhosis (PBC) data are provided for evaluation and illustration of the proposed procedure."
+  },
+  "reference_103": {
+    "title": "A simple method for estimating interactions between a treatment and a large number of covariates.",
+    "date": "2014",
+    "authors": [
+      "Tian L",
+      "Alizadeh AA",
+      "Gentles AJ",
+      "Tibshirani R."
+    ],
+    "publication": "J. Am. Stat. Assoc. 109:1517–32",
+    "citation_count": 395,
+    "abs": "We consider a setting in which we have a treatment and a potentially large number of covariates for a set of observations, and wish to model their relationship with an outcome of interest. We propose a simple method for modeling interactions between the treatment and covariates. The idea is to modify the covariate in a simple way, and then fit a standard model using the modified covariates and no main effects. We show that coupled with an efficiency augmentation procedure, this method produces clinically meaningful estimators in a variety of settings. It can be useful for practicing personalized medicine: determining from a large set of biomarkers the subset of patients that can potentially benefit from a treatment. We apply the method to both simulated datasets and real trial data. The modified covariates idea can be used for other purposes, for example, large scale hypothesis testing for determining which of a set of covariates interact with a treatment variable."
+  },
+  "reference_104": {
+    "title": "Improving generalizations from experiments using propensity score subclassification: assumptions, properties, and contexts.",
+    "date": "2013a",
+    "authors": [
+      "Tipton E."
+    ],
+    "publication": "J. Educ. Behav. Stat. 38:239–66",
+    "citation_count": 0,
+    "abs": "Many empirical questions in economics and other social sciences depend on causal effects of programs or policies. In the last two decades, much research has been done on the econometric and statistical analysis of such causal effects. This recent theoretical literature has built on, and combined features of, earlier work in both the statistics and econometrics literatures. It has by now reached a level of maturity that makes it an important tool in many areas of empirical research in economics, including labor economics, public finance, development economics, industrial organization, and other areas of empirical microeconomics. In this review, we discuss some of the recent developments. We focus primarily on practical issues for empirical researchers, as well as provide a historical overview of the area and give references to more technical research."
+  },
+  "reference_105": {
+    "title": "Stratified sampling using cluster analysis: a sample selection strategy for improved generalizations from experiments.",
+    "date": "2013b",
+    "authors": [
+      "Tipton E."
+    ],
+    "publication": "Eval. Rev. 37:109–39",
+    "citation_count": 0,
+    "abs": "BACKGROUND: Taxonomic classification of marker-gene sequences is an important step in microbiome analysis. RESULTS: We present q2-feature-classifier ( https://github.com/qiime2/q2-feature-classifier ), a QIIME 2 plugin containing several novel machine-learning and alignment-based methods for taxonomy classification. We evaluated and optimized several commonly used classification methods implemented in QIIME 1 (RDP, BLAST, UCLUST, and SortMeRNA) and several new methods implemented in QIIME 2 (a scikit-learn naive Bayes machine-learning classifier, and alignment-based taxonomy consensus methods based on VSEARCH, and BLAST+) for classification of bacterial 16S rRNA and fungal ITS marker-gene amplicon sequence data. The naive-Bayes, BLAST+-based, and VSEARCH-based classifiers implemented in QIIME 2 meet or exceed the species-level accuracy of other commonly used methods designed for classification of marker gene sequences that were evaluated in this work. These evaluations, based on 19 mock communities and error-free sequence simulations, including classification of simulated \"novel\" marker-gene sequences, are available in our extensible benchmarking framework, tax-credit ( https://github.com/caporaso-lab/tax-credit-data ). CONCLUSIONS: Our results illustrate the importance of parameter tuning for optimizing classifier performance, and we make recommendations regarding parameter choices for these classifiers under a range of standard operating conditions. q2-feature-classifier and tax-credit are both free, open-source, BSD-licensed packages available on GitHub."
+  },
+  "reference_106": {
+    "title": "How generalizable is your experiment? An index for comparing experimental samples and populations.",
+    "date": "2014",
+    "authors": [
+      "Tipton E."
+    ],
+    "publication": "J. Educ. Behav. Stat. 39:478–501",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_107": {
+    "title": "Implications of small samples for generalization: adjustments and rules of thumb.",
+    "date": "2017",
+    "authors": [
+      "Tipton E",
+      "Hallberg K",
+      "Hedges LV",
+      "Chan W"
+    ],
+    "publication": "Eval. Rev. 41:472–505",
+    "citation_count": 0,
+    "abs": "Background: Policy makers and researchers are frequently interested in understanding how effective a particular intervention may be for a specific population. One approach is to assess the degree of similarity between the sample in an experiment and the population. Another approach is to combine information from the experiment and the population to estimate the population average treatment effect (PATE). Method: Several methods for assessing the similarity between a sample and population currently exist as well as methods estimating the PATE. In this article, we investigate properties of six of these methods and statistics in the small sample sizes common in education research (i.e., 10–70 sites), evaluating the utility of rules of thumb developed from observational studies in the generalization case. Result: In small random samples, large differences between the sample and population can arise simply by chance and many of the statistics commonly used in generalization are a function of both sample size and the number of covariates being compared. The rules of thumb developed in observational studies (which are commonly applied in generalization) are much too conservative given the small sample sizes found in generalization. Conclusion: This article implies that sharp inferences to large populations from small experiments are difficult even with probability sampling. Features of random samples should be kept in mind when evaluating the extent to which results from experiments conducted on nonrandom samples might generalize."
+  },
+  "reference_108": {
+    "title": "A review of statistical methods for generalizing from evaluations of educational interventions.",
+    "date": "2018",
+    "authors": [
+      "Tipton E",
+      "Olsen RB."
+    ],
+    "publication": "Educ. Res. 47:516–24",
+    "citation_count": 0,
+    "abs": "School-based evaluations of interventions are increasingly common in education research. Ideally, the results of these evaluations are used to make evidence-based policy decisions for students. However, it is difficult to make generalizations from these evaluations because the types of schools included in the studies are typically not selected randomly from a target population. This paper provides an overview of statistical methods for improving generalizations from intervention research in education. These are presented as a series of steps aimed at improving research design—particularly recruitment—as well as methods for assessing and summarizing generalizability and estimating treatment impacts for clearly defined target populations."
+  },
+  "reference_109": {
+    "title": "A design-based approach to improve external validity in welfare policy evaluations.",
+    "date": "2017",
+    "authors": [
+      "Tipton E",
+      "Peck LR."
+    ],
+    "publication": "Eval. Rev. 41:326–56",
+    "citation_count": 0,
+    "abs": "Background: Large-scale randomized experiments are important for determining how policy interventions change average outcomes. Researchers have begun developing methods to improve the external validity of these experiments. One new approach is a balanced sampling method for site selection, which does not require random sampling and takes into account the practicalities of site recruitment including high nonresponse. Method: The goal of balanced sampling is to develop a strategic sample selection plan that results in a sample that is compositionally similar to a well-defined inference population. To do so, a population frame is created and then divided into strata, which “focuses” recruiters on specific subpopulations. Units within these strata are then ranked, thus identifying “replacements” similar to sites that can be recruited when the ideal site refuses to participate in the experiment. Result: In this article, we consider how a balanced sample strategic site selection method might be implemented in a welfare policy evaluation. Conclusion: We find that simply developing a population frame can be challenging, with three possible and reasonable options arising in the welfare policy arena. Using relevant study-specific contextual variables, we craft a recruitment plan that considers nonresponse."
+  },
+  "reference_110": {
+    "title": "Bias modelling in evidence synthesis.",
+    "date": "2009",
+    "authors": [
+      "Turner RM",
+      "Spiegelhalter DJ",
+      "Smith GCS",
+      "Thompson SG."
+    ],
+    "publication": "J. R. Stat. Soc. Ser. A 172:21–47",
+    "citation_count": 0,
+    "abs": "Summary.  Policy decisions often require synthesis of evidence from multiple sources, and the source studies typically vary in rigour and in relevance to the target question. We present simple methods of allowing for differences in rigour (or lack of internal bias) and relevance (or lack of external bias) in evidence synthesis. The methods are developed in the context of reanalysing a UK National Institute for Clinical Excellence technology appraisal in antenatal care, which includes eight comparative studies. Many were historically controlled, only one was a randomized trial and doses, populations and outcomes varied between studies and differed from the target UK setting. Using elicited opinion, we construct prior distributions to represent the biases in each study and perform a bias‐adjusted meta‐analysis. Adjustment had the effect of shifting the combined estimate away from the null by approximately 10%, and the variance of the combined estimate was almost tripled. Our generic bias modelling approach allows decisions to be based on all available evidence, with less rigorous or less relevant studies downweighted by using computationally simple methods."
+  },
+  "reference_111": {
+    "title": "Cross-design synthesis for extending the applicability of trial evidence when treatment effect is heterogeneous: Part I. Methodology.",
+    "date": "2016",
+    "authors": [
+      "Varadhan R",
+      "Henderson NC",
+      "Weiss CO."
+    ],
+    "publication": "Commun. Stat. Case Stud. Data Anal. Appl. 2:112–26",
+    "citation_count": 0,
+    "abs": "Randomized controlled trials (RCTs) provide reliable evidence for approval of new treatments, informing clinical practice , and coverage decisions. The participants in RCTs are often not a representative sample of the larger at-risk population. Hence, it is argued that the average treatment effect from the trial is not generalizable to the larger at-risk population. An essential premise of this argument is that there is significant heterogeneity in the treatment effect (HTE). We present a new method to extrapolate the treatment effect from a trial to a target group that is inadequately represented in the trial, when HTE is present. Our method integrates trial and observational data (cross-design synthesis). The target group is assumed to be well-represented in the observational database such that the observational study essentially acts as an “evidentiary bridge” that allows evidence to be transported from the trial sample to the target population. An essential component of the methodology is the estimation of calibration adjustments for unmeasured confounding in the observational sample. The estimate of treatment effect, adjusted for unmeasured confounding, is projected onto the target sample using a weighted G-computation approach. We present simulation studies to demonstrate the methodology for estimating the marginal treatment effect in a target sample that differs from the trial sample to varying degrees. In a companion article, we demonstrate and validate the methodology in a clinical application."
+  },
+  "reference_112": {
+    "title": "Combining randomized and non-randomized evidence in clinical research: a review of methods and applications.",
+    "date": "2015",
+    "authors": [
+      "Verde PE",
+      "Ohmann C."
+    ],
+    "publication": "Res. Synth. Methods 6:45–62",
+    "citation_count": 0,
+    "abs": "Researchers may have multiple motivations for combining disparate pieces of evidence in a meta-analysis, such as generalizing experimental results or increasing the power to detect an effect that a single study is not able to detect. However, while in meta-analysis, the main question may be simple, the structure of evidence available to answer it may be complex. As a consequence, combining disparate pieces of evidence becomes a challenge. In this review, we cover statistical methods that have been used for the evidence-synthesis of different study types with the same outcome and similar interventions. For the methodological review, a literature retrieval in the area of generalized evidence-synthesis was performed, and publications were identified, assessed, grouped and classified. Furthermore real applications of these methods in medicine were identified and described. For these approaches, 39 real clinical applications could be identified. A new classification of methods is provided, which takes into account: the inferential approach, the bias modeling, the hierarchical structure, and the use of graphical modeling. We conclude with a discussion of pros and cons of our approach and give some practical advice."
+  },
+  "reference_113": {
+    "title": "Bayesian evidence synthesis for exploring generalizability of treatment effects: a case study of combining randomized and non-randomized results in diabetes.",
+    "date": "2016",
+    "authors": [
+      "Verde PE",
+      "Ohmann C",
+      "Morbach S",
+      "Icks A."
+    ],
+    "publication": "Stat. Med. 35:1654–75",
+    "citation_count": 0,
+    "abs": "In this paper, we present a unified modeling framework to combine aggregated data from randomized controlled trials (RCTs) with individual participant data (IPD) from observational studies. Rather than simply pooling the available evidence into an overall treatment effect, adjusted for potential confounding, the intention of this work is to explore treatment effects in specific patient populations reflected by the IPD. In this way, by collecting IPD, we can potentially gain new insights from RCTs' results, which cannot be seen using only a meta-analysis of RCTs. We present a new Bayesian hierarchical meta-regression model, which combines submodels, representing different types of data into a coherent analysis. Predictors of baseline risk are estimated from the individual data. Simultaneously, a bivariate random effects distribution of baseline risk and treatment effects is estimated from the combined individual and aggregate data. Therefore, given a subgroup of interest, the estimated treatment effect can be calculated through its correlation with baseline risk. We highlight different types of model parameters: those that are the focus of inference (e.g., treatment effect in a subgroup of patients) and those that are used to adjust for biases introduced by data collection processes (e.g., internal or external validity). The model is applied to a case study where RCTs' results, investigating efficacy in the treatment of diabetic foot problems, are extrapolated to groups of patients treated in medical routine and who were enrolled in a prospective cohort study."
+  },
+  "reference_114": {
+    "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies.",
+    "date": "2008",
+    "authors": [
+      "von Elm E",
+      "Altman DG",
+      "Egger M",
+      "Pocock SJ",
+      "Gøtzsche PC",
+      "Vandenbroucke JP."
+    ],
+    "publication": "J. Clin. Epidemiol. 61:344–49",
+    "citation_count": 21552,
+    "abs": "Much biomedical research is observational. The reporting of such research is often inadequate, which hampers the assessment of its strengths and weaknesses and of a study's generalisability. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Initiative developed recommendations on what should be included in an accurate and complete report of an observational study. We defined the scope of the recommendations to cover three main study designs: cohort, case-control, and cross-sectional studies. We convened a 2-day workshop in September 2004, with methodologists, researchers, and journal editors to draft a checklist of items. This list was subsequently revised during several meetings of the coordinating group and in e-mail discussions with the larger group of STROBE contributors, taking into account empirical evidence and methodological considerations. The workshop and the subsequent iterative process of consultation and revision resulted in a checklist of 22 items (the STROBE Statement) that relate to the title, abstract, introduction, methods, results, and discussion sections of articles. 18 items are common to all three study designs and four are specific for cohort, case-control, or cross-sectional studies. A detailed Explanation and Elaboration document is published separately and is freely available on the Web sites of PLoS Medicine, Annals of Internal Medicine, and Epidemiology. We hope that the STROBE Statement will contribute to improving the quality of reporting of observational studies."
+  },
+  "reference_115": {
+    "title": "Selection criteria and generalizability within the counterfactual framework: explaining the paradox of antidepressant-induced suicidality?.",
+    "date": "2009",
+    "authors": [
+      "Weisberg HI",
+      "Hayden VC",
+      "Pontes VP."
+    ],
+    "publication": "Clin. Trials 6:109–18",
+    "citation_count": 0,
+    "abs": ""
+  },
+  "reference_116": {
+    "title": "Assessing the applicability of trial evidence to a target sample in the presence of heterogeneity of treatment effect.",
+    "date": "2012",
+    "authors": [
+      "Weiss CO",
+      "Segal JB",
+      "Varadhan R."
+    ],
+    "publication": "Pharmacoepidemiol. Drug Saf. 21:121–29",
+    "citation_count": 0,
+    "abs": "PURPOSE: To propose methods for the quantitative assessment of the applicability of evidence from a trial to a target sample using individual data. METHODS: Demonstration was with a trial of drug therapy to prevent mortality and an accompanying registry of people with heart failure. Principal components analysis with biplots did not identify measurement discrepancies. Multiple imputation with chained equations addressed missing predictor values. A proportional hazards model with interaction term, including graphical interpretation and a multivariate interaction test, identified heterogeneity of treatment effect. An interval of homogeneity of treatment effect was the interval of the baseline risk of outcome in which no two treatment effects were statistically significantly different. Absolute risk reduction for individuals was estimated for both benefit and harm outcomes and presented in a bivariate treatment effects scatterplot. RESULTS: Overall, the trial evidence applied to most of the registry according to overlapping distributions of estimated benefit and harm. However, 52% of trial and 33% of registry participants were estimated to have net benefit, and 14% of trial and 36% of registry participants were estimated to have strong net harmful treatment effect, that is, the individual estimate of harm was more than twice the estimate of benefit. CONCLUSIONS: The proposed methods provide quantitative assessment of the applicability of trial evidence to a target sample. They combine the strengths of different study designs, namely, unbiased effects estimation from trials and representation in observational studies, while addressing the practical challenges of combining information, namely, measurement discrepancies and missing data."
+  },
+  "reference_117": {
+    "title": "A distribution-based method for assessing the differences between clinical trial target populations and patient populations in electronic health records.",
+    "date": "2014",
+    "authors": [
+      "Weng C",
+      "Li Y",
+      "Ryan P",
+      "Zhang Y",
+      "Liu F"
+    ],
+    "publication": "Appl. Clin. Inform. 5:463–79",
+    "citation_count": 0,
+    "abs": "OBJECTIVE: To improve the transparency of clinical trial generalizability and to illustrate the method using Type 2 diabetes as an example. METHODS: Our data included 1,761 diabetes clinical trials and the electronic health records (EHR) of 26,120 patients with Type 2 diabetes who visited Columbia University Medical Center of New-York Presbyterian Hospital. The two populations were compared using the Generalizability Index for Study Traits (GIST) on the earliest diagnosis age and the mean hemoglobin A1c (HbA1c) values. RESULTS: Greater than 70% of Type 2 diabetes studies allow patients with HbA1c measures between 7 and 10.5, but less than 40% of studies allow HbA1c<7 and fewer than 45% of studies allow HbA1c>10.5. In the real-world population, only 38% of patients had HbA1c between 7 and 10.5, with 12% having values above the range and 52% having HbA1c<7. The GIST for HbA1c was 0.51. Most studies adopted broad age value ranges, with the most common restrictions excluding patients >80 or <18 years. Most of the real-world population fell within this range, but 2% of patients were <18 at time of first diagnosis and 8% were >80. The GIST for age was 0.75. CONCLUSIONS: We contribute a scalable method to profile and compare aggregated clinical trial target populations with EHR patient populations. We demonstrate that Type 2 diabetes studies are more generalizable with regard to age than they are with regard to HbA1c. We found that the generalizability of age increased from Phase 1 to Phase 3 while the generalizability of HbA1c decreased during those same phases. This method can generalize to other medical conditions and other continuous or binary variables. We envision the potential use of EHR data for examining the generalizability of clinical trials and for defining population-representative clinical trial eligibility criteria."
+  },
+  "reference_118": {
+    "title": "Transportability of trial results using inverse odds of sampling weights.",
+    "date": "2017",
+    "authors": [
+      "Westreich D",
+      "Edwards JK",
+      "Lesko CR",
+      "Stuart E",
+      "Cole SR."
+    ],
+    "publication": "Am. J. Epidemiol. 186:1010–14",
+    "citation_count": 0,
+    "abs": "Increasingly, the statistical and epidemiologic literature is focusing beyond issues of internal validity and turning its attention to questions of external validity. Here, we discuss some of the challenges of transporting a causal effect from a randomized trial to a specific target population. We present an inverse odds weighting approach that can easily operationalize transportability. We derive these weights in closed form and illustrate their use with a simple numerical example. We discuss how the conditions required for the identification of internally valid causal effects are translated to apply to the identification of externally valid causal effects. Estimating effects in target populations is an important goal, especially for policy or clinical decisions. Researchers and policy-makers should therefore consider use of statistical techniques such as inverse odds of sampling weights, which under careful assumptions can transport effect estimates from study samples to target populations."
+  }
+}
