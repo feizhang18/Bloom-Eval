@@ -15,12 +15,15 @@ from common import (
     build_log_path,
     call_llm_with_retry,
     ensure_dir,
+    format_metric_report,
     load_json,
     load_json_field_text,
     parse_llm_json,
+    print_metric_summary,
     resolve_output_dir,
     to_project_relative,
     write_json,
+    write_text,
 )
 from prompt_utils import load_prompt
 
@@ -46,7 +49,7 @@ class ResearchHeuristicsEvaluator:
         output_path: Path,
         log_dir: Path,
     ) -> Optional[List[Dict[str, Any]]]:
-        print("--- Stage 1: Generating Evaluation Criteria for Research Heuristics ---")
+        print("Generating research objective criteria...")
         try:
             prompt = CRITERIA_GENERATION_PROMPT_TEMPLATE.format(task_prompt=task_prompt)
             llm_response = call_llm_with_retry(
@@ -76,7 +79,7 @@ class ResearchHeuristicsEvaluator:
         output_path: Path,
         log_dir: Path,
     ) -> Optional[Dict[str, Any]]:
-        print("\n--- Stage 2: Performing Comparative Scoring ---")
+        print("Scoring research objective quality...")
         try:
             criteria_for_prompt = [
                 {"criterion": c["criterion"], "explanation": c["explanation"]}
@@ -112,7 +115,7 @@ class ResearchHeuristicsEvaluator:
         scores: Dict[str, Any],
         criteria: List[Dict[str, Any]],
     ) -> Optional[Dict[str, float]]:
-        print("\n--- Stage 3: Calculating Final Score ---")
+        print("Calculating final score...")
         try:
             criteria_map = {item["criterion"]: item["weight"] for item in criteria}
             total_weighted_score_1 = 0.0
@@ -195,14 +198,14 @@ def main() -> None:
         "--task_file",
         type=str,
         default=None,
-        help="Path to task definition JSON; if not provided, auto-searches for 'digits_*.json' in the human_file directory",
+        help="Path to task definition JSON; if not provided, auto-searches for a task JSON in the human_file directory",
     )
     add_common_arguments(parser, metric_name="roq", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
 
     if not API_KEY:
         print("ERROR: Please set OPENAI_API_KEY in the environment.")
-        return
+        sys.exit(1)
 
     output_dir = resolve_output_dir(args.output_dir)
 
@@ -222,7 +225,7 @@ def main() -> None:
                 print(f"   - Task file issue: {task_file}")
             else:
                 print(f"   - Task file not found under: {os.path.dirname(args.content_file_human)}")
-        return
+        sys.exit(1)
 
     evaluator = ResearchHeuristicsEvaluator(api_key=API_KEY, base_url=args.base_url, model=args.model, save_raw_response=args.save_raw_response)
     log_dir = ensure_dir(output_dir / "logs") if args.save_raw_response else output_dir / "logs"
@@ -234,7 +237,7 @@ def main() -> None:
 
     criteria = evaluator.generate_criteria(task_prompt, criteria_path, log_dir)
     if not criteria:
-        return
+        sys.exit(1)
 
     raw_scores = evaluator.perform_comparative_scoring(
         criteria,
@@ -245,11 +248,11 @@ def main() -> None:
         log_dir,
     )
     if not raw_scores:
-        return
+        sys.exit(1)
 
     final_result = evaluator.calculate_final_score(raw_scores, criteria)
     if not final_result:
-        return
+        sys.exit(1)
 
     write_json(
         final_result_path,
@@ -283,22 +286,31 @@ def main() -> None:
         },
     )
 
-    report_lines = [
-        "========================================",
-        " Bloom-Eval Level 6: ROQ Report",
-        "========================================",
-        f"Task prompt: {task_prompt}",
-        f"LLM weighted average: {final_result['llm_survey_weighted_avg']:.4f}",
-        f"Human weighted average: {final_result['human_survey_weighted_avg']:.4f}",
-        f"Research heuristics score: {final_result['research_heuristics_score']:.4f}",
-        "========================================",
-    ]
-    report_text = "\n".join(report_lines)
+    report_text = format_metric_report(
+        "ROQ",
+        "Research Objective Quality",
+        inputs={
+            "content_file_human": to_project_relative(Path(args.content_file_human)),
+            "content_file_llm": to_project_relative(Path(args.content_file_llm)),
+            "task_file": to_project_relative(Path(task_file)) if task_file else None,
+        },
+        results=final_result,
+        config={
+            "model": args.model,
+            "base_url": args.base_url,
+        },
+        sections=[("Task Prompt", task_prompt)],
+    )
     write_text(report_path, report_text)
 
-    print("\n" + report_text)
-    print(f"Intermediate results saved to: {intermediate_path}")
-    print(f"Final results saved to: {final_result_path}")
+    print_metric_summary(
+        "ROQ",
+        report_path,
+        final_result_path,
+        results=final_result,
+        summary_keys=("research_heuristics_score", "llm_survey_weighted_avg", "human_survey_weighted_avg"),
+        artifacts={"intermediate": intermediate_path},
+    )
 
 
 if __name__ == "__main__":

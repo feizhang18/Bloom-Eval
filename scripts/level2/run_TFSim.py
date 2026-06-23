@@ -16,7 +16,7 @@ from typing import Dict, List
 from umap import UMAP
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, ensure_dir, build_result_payload, call_llm, load_json, parse_llm_json, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, ensure_dir, build_result_payload, call_llm, format_metric_report, load_json, parse_llm_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 API_KEY = os.getenv("OPENAI_API_KEY", "")
@@ -52,18 +52,14 @@ def calculate_ds_score(p: np.ndarray, q: np.ndarray) -> float:
 
 def get_llm_response(client: OpenAI, model: str, message: List[Dict], log_file: Path | None) -> str:
     print(f"Requesting LLM for topic semantic alignment...")
-    try:
-        return call_llm(
-            client,
-            model,
-            message[0]["content"],
-            log_file,
-            temperature=0.0,
-            response_format={"type": "json_object"},
-        )
-    except Exception as e:
-        print(f"Error: API call failed: {e}")
-        return "{}"
+    return call_llm(
+        client,
+        model,
+        message[0]["content"],
+        log_file,
+        temperature=0.0,
+        response_format={"type": "json_object"},
+    )
 
 
 def iter_reference_entries(data: Dict) -> List[Dict]:
@@ -140,14 +136,14 @@ def main():
 
     if not API_KEY:
         print("Error: Please set OPENAI_API_KEY in the environment.")
-        return
+        sys.exit(1)
 
     output_dir = resolve_output_dir(args.output_dir)
     log_dir = ensure_dir(output_dir / "logs") if args.save_raw_response else None
 
     client = OpenAI(api_key=API_KEY, base_url=args.base_url)
 
-    print("Starting topic distribution evaluation...")
+    print("Running TFSim...")
     print("Loading SentenceTransformer embedding model...")
     embedding_model = SentenceTransformer(EMBEDDING_MODEL, trust_remote_code=True)
 
@@ -156,9 +152,9 @@ def main():
 
     if not human_docs or not llm_docs:
         print("Error: Missing valid reference content, aborting.")
-        return
+        sys.exit(1)
 
-    print("Extracting latent research topics with BERTopic...")
+    print("Extracting topic clusters...")
     expert_topic_info = discover_topics_and_freqs(human_docs, embedding_model)
     llm_topic_info = discover_topics_and_freqs(llm_docs, embedding_model)
 
@@ -212,55 +208,46 @@ def main():
             if sum(p_counts) > 0 and sum(q_counts) > 0:
                 ds_score = calculate_ds_score(np.array(p_counts), np.array(q_counts))
 
-    report_lines = [
-        "=======================================================",
-        "     Bloom-Eval Level 2: Topic & Freq Sim Report       ",
-        "=======================================================",
-        f"Expert topic clusters: {len(expert_topics)}",
-        f"LLM topic clusters:    {len(llm_topics)}",
-        "-------------------------------------------------------",
-        f"Topic Precision: {precision:.4f} ({precision:.2%})",
-        f"Topic Recall:    {recall:.4f} ({recall:.2%})",
-        f"Topic F1-Score:  {f1_score:.4f} ({f1_score:.2%})",
-        "-------------------------------------------------------",
-        f"Distribution Similarity (DS-Score): {ds_score:.4f}",
-        "   (Hellinger, Total Variation, Jensen-Shannon average)",
-        "======================================================="
-    ]
-
-    report_text = "\n".join(report_lines)
-    print("\n" + report_text)
-
     report_path = output_dir / "report.txt"
+    result_path = output_dir / "result.json"
+    inputs = {
+        "reference_file_human": to_project_relative(Path(args.reference_file_human)),
+        "reference_file_llm": to_project_relative(Path(args.reference_file_llm)),
+    }
+    metrics = {
+        "precision": precision,
+        "recall": recall,
+        "f1_score": f1_score,
+        "ds_score": ds_score,
+        "human_topic_count": len(expert_topics),
+        "llm_topic_count": len(llm_topics),
+    }
+    config = {
+        "model": args.model,
+        "base_url": args.base_url,
+    }
+    report_text = format_metric_report(
+        "TFSim",
+        "Topic and Frequency Similarity",
+        inputs=inputs,
+        results=metrics,
+        config=config,
+    )
     write_text(report_path, report_text)
     write_json(
-        output_dir / "result.json",
+        result_path,
         build_result_payload(
             metric="TFSim",
-            inputs={
-                "reference_file_human": to_project_relative(Path(args.reference_file_human)),
-                "reference_file_llm": to_project_relative(Path(args.reference_file_llm)),
-            },
-            results={
-                "precision": precision,
-                "recall": recall,
-                "f1_score": f1_score,
-                "ds_score": ds_score,
-                "human_topic_count": len(expert_topics),
-                "llm_topic_count": len(llm_topics),
-            },
-            config={
-                "model": args.model,
-                "base_url": args.base_url,
-            },
+            inputs=inputs,
+            results=metrics,
+            config=config,
             artifacts={
                 "report_file": to_project_relative(report_path),
                 "topic_matches_file": to_project_relative(matches_path),
             },
         ),
     )
-
-    print(f"\nEvaluation complete. Results saved to: {output_dir}")
+    print_metric_summary("TFSim", report_path, result_path, results=metrics, summary_keys=("precision", "recall", "f1_score", "ds_score"))
 
 if __name__ == "__main__":
     main()

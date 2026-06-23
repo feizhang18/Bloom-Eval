@@ -18,17 +18,17 @@ from common import (
     build_result_payload,
     call_llm_for_json,
     ensure_dir,
+    format_metric_report,
     load_json,
+    print_metric_summary,
     resolve_output_dir,
     save_json,
     to_project_relative,
     write_json,
+    write_text,
 )
 from prompt_utils import load_prompt
 
-# ==========================================
-# 0. Global configuration and prompt template loading
-# ==========================================
 API_KEY = os.getenv("OPENAI_API_KEY", "")
 DEFAULT_MODEL = "gpt-5-mini"
 
@@ -37,9 +37,6 @@ PROMPT_NORMALIZE = load_prompt("level1/EFid_entity_normalization.txt")
 PROMPT_MATCH = load_prompt("level1/EFid_entity_resolution.txt")
 
 
-# ==========================================
-# 2. Pipeline stages
-# ==========================================
 def step1_extract(client, model: str, text_content: str, output_path: Path, log_path: Optional[Path]) -> Dict:
     if os.path.exists(output_path):
         return load_json(output_path)
@@ -95,10 +92,7 @@ def step4_match(client, model: str, human_counts: Dict, llm_counts: Dict, output
     save_json(result, output_path)
     return result
 
-# ==========================================
-# 3. Final metric calculation
-# ==========================================
-def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict, report_path: Path) -> Dict[str, Any]:
+def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict) -> Dict[str, Any]:
     all_human, all_llm, all_matched = {}, {}, []
     for cat in ['methods_models', 'datasets', 'evaluation_metrics']:
         all_human.update(human_counts.get(cat, {}))
@@ -130,26 +124,6 @@ def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict, 
             sim_scores["hellinger_sim"] = 1 - hd
             sim_scores["total_variation_sim"] = 1 - tvd
 
-    # Generate report
-    report = [
-        "========================================",
-        "     Bloom-Eval Level 1 Evaluation      ",
-        "========================================",
-        "\n[1] Entity Recognition Performance",
-        f"TP (Matched): {tp} | FP (LLM Extra): {fp} | FN (Missed): {fn}",
-        f"Precision: {precision:.4f}",
-        f"Recall:    {recall:.4f}",
-        f"F1-Score:  {f1_score:.4f}",
-        "\n[2] Distribution Similarity",
-        f"Jensen-Shannon Sim:  {sim_scores['jensen_shannon_sim']:.4f}",
-        f"Hellinger Sim:       {sim_scores['hellinger_sim']:.4f}",
-        f"Total Variation Sim: {sim_scores['total_variation_sim']:.4f}",
-        "========================================"
-    ]
-    report_text = "\n".join(report)
-    print("\n" + report_text)
-    
-    write_text(report_path, report_text)
     return {
         "tp": tp,
         "fp": fp,
@@ -161,9 +135,6 @@ def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict, 
     }
 
 
-# ==========================================
-# 4. Main execution pipeline
-# ==========================================
 def main():
     parser = argparse.ArgumentParser(description="End-to-End Evaluation Pipeline")
     parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, required=True, help="Path to the LLM-generated survey content.json")
@@ -173,7 +144,7 @@ def main():
 
     if not API_KEY:
         print("Error: Please set OPENAI_API_KEY in the environment.")
-        return
+        sys.exit(1)
 
     output_dir = resolve_output_dir(args.output_dir)
     client = OpenAI(api_key=API_KEY, base_url=args.base_url)
@@ -183,50 +154,50 @@ def main():
     dir_llm = ensure_dir(output_dir / "llm")
     dir_logs = ensure_dir(output_dir / "logs") if args.save_raw_response else None
 
-    print(f"Starting automated evaluation pipeline...")
-    print(f"Output directory: {output_dir}")
+    print("Running EFid...")
 
     human_data = load_json(args.content_file_human)
     llm_data = load_json(args.content_file_llm)
     human_text = human_data[0] if isinstance(human_data, list) else human_data
     llm_text = llm_data[0] if isinstance(llm_data, list) else llm_data
 
-    # Stage 1: Entity Extraction
-    print("\n>>> Stage 1: Entity Extraction")
     h_raw = step1_extract(client, args.model, human_text, dir_human / "all_entity.json", (dir_logs / f"ext_human_{ts}.txt") if dir_logs else None)
     l_raw = step1_extract(client, args.model, llm_text, dir_llm / "all_entity.json", (dir_logs / f"ext_llm_{ts}.txt") if dir_logs else None)
 
-    # Stage 2: Entity Normalization
-    print("\n>>> Stage 2: Entity Normalization")
     h_map = step2_normalize(client, args.model, h_raw, dir_human / "entity_normalization.json", (dir_logs / f"norm_human_{ts}.txt") if dir_logs else None)
     l_map = step2_normalize(client, args.model, l_raw, dir_llm / "entity_normalization.json", (dir_logs / f"norm_llm_{ts}.txt") if dir_logs else None)
 
-    # Stage 3: Frequency Counting
-    print("\n>>> Stage 3: Frequency Counting")
     h_counts = step3_count(h_raw, h_map, dir_human / "final_counts.json")
     l_counts = step3_count(l_raw, l_map, dir_llm / "final_counts.json")
 
-    # Stage 4: Cross-domain Entity Matching
-    print("\n>>> Stage 4: Cross-domain Entity Matching")
     matched = step4_match(client, args.model, h_counts, l_counts, output_dir / "entity_matching.json", (dir_logs / f"match_{ts}.txt") if dir_logs else None)
 
-    # Stage 5: Compute Evaluation Metrics
-    print("\n>>> Stage 5: Computing Evaluation Metrics")
     report_path = output_dir / "report.txt"
-    metrics = calculate_metrics(h_counts, l_counts, matched, report_path)
+    result_path = output_dir / "result.json"
+    metrics = calculate_metrics(h_counts, l_counts, matched)
+    inputs = {
+        "content_file_human": to_project_relative(Path(args.content_file_human)),
+        "content_file_llm": to_project_relative(Path(args.content_file_llm)),
+    }
+    config = {
+        "model": args.model,
+        "base_url": args.base_url,
+    }
+    report_text = format_metric_report(
+        "EFid",
+        "Entity Fidelity",
+        inputs=inputs,
+        results=metrics,
+        config=config,
+    )
+    write_text(report_path, report_text)
     write_json(
-        output_dir / "result.json",
+        result_path,
         build_result_payload(
             metric="EFid",
-            inputs={
-                "content_file_human": to_project_relative(Path(args.content_file_human)),
-                "content_file_llm": to_project_relative(Path(args.content_file_llm)),
-            },
+            inputs=inputs,
             results=metrics,
-            config={
-                "model": args.model,
-                "base_url": args.base_url,
-            },
+            config=config,
             artifacts={
                 "report_file": to_project_relative(report_path),
                 "human_dir": to_project_relative(dir_human),
@@ -234,8 +205,7 @@ def main():
             },
         ),
     )
-
-    print(f"\nPipeline complete. All outputs saved to: {output_dir}")
+    print_metric_summary("EFid", report_path, result_path, results=metrics, summary_keys=("precision", "recall", "f1_score"))
 
 if __name__ == "__main__":
     main()

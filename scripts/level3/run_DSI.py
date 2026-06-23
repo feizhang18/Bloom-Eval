@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Tuple
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, format_metric_report, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 
 
 def normalize_whitespace(text: str) -> str:
@@ -76,23 +76,33 @@ def main():
     l_score, l_rep = get_dsi_score(args.content_file_llm)
     h_score, h_rep = get_dsi_score(args.content_file_human)
 
-    final_rep = f"=== DSI Structure Integrity Report ===\n\n[Human]\n{h_rep}\n\n[LLM]\n{l_rep}\n"
-    print(final_rep)
     report_path = output_dir / "report.txt"
     result_path = output_dir / "result.json"
-    write_text(report_path, final_rep)
+    inputs = {
+        "content_file_human": to_project_relative(Path(args.content_file_human)),
+        "content_file_llm": to_project_relative(Path(args.content_file_llm)),
+    }
+    metrics = {
+        "human_score": h_score,
+        "llm_score": l_score,
+    }
+    report_text = format_metric_report(
+        "DSI",
+        "Document Structure Integrity",
+        inputs=inputs,
+        results=metrics,
+        sections=[
+            ("Human Details", h_rep),
+            ("LLM Details", l_rep),
+        ],
+    )
+    write_text(report_path, report_text)
     write_json(
         result_path,
         build_result_payload(
             metric="DSI",
-            inputs={
-                "content_file_human": to_project_relative(Path(args.content_file_human)),
-                "content_file_llm": to_project_relative(Path(args.content_file_llm)),
-            },
-            results={
-                "human_score": h_score,
-                "llm_score": l_score,
-            },
+            inputs=inputs,
+            results=metrics,
             artifacts={
                 "report_file": to_project_relative(report_path),
                 "human_report": h_rep,
@@ -100,6 +110,7 @@ def main():
             },
         ),
     )
+    print_metric_summary("DSI", report_path, result_path, results=metrics, summary_keys=("human_score", "llm_score"))
 
 if __name__ == "__main__":
     main()

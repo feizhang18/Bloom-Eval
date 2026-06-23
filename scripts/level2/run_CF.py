@@ -15,7 +15,7 @@ from tqdm import tqdm
 from typing import Dict, List
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, call_llm, load_json, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, call_llm, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 API_KEY = os.getenv("OPENAI_API_KEY", "")
@@ -79,6 +79,9 @@ class CitationEvaluator:
 
             for thread in threads:
                 thread.join()
+
+        if self.failed_requests:
+            raise RuntimeError(f"{self.failed_requests} LLM NLI request(s) failed.")
 
         detailed_results = []
         for i, row in enumerate(data_rows):
@@ -213,34 +216,34 @@ def calculate_metrics(csv_path: str) -> Dict:
 
 def process_single_pipeline(evaluator: CitationEvaluator, paper_path: str, ref_path: str, output_dir: Path, prefix: str) -> Dict:
     """Run the full pipeline for a single input."""
-    print(f"\n[{prefix.upper()}] Processing citation pipeline...")
+    print(f"Processing {prefix} citation data...")
 
     grouped_csv = output_dir / f"{prefix}_sentences_grouped.csv"
     evaluated_csv = output_dir / f"{prefix}_nli_evaluated_results.csv"
 
     if not extract_and_group_sentences(paper_path, ref_path, str(grouped_csv)):
         return None
-    print(f"  Stage 1 done: sentence extraction -> {grouped_csv.name}")
+    print(f"Extracted citation sentences: {grouped_csv.name}")
 
     if not os.path.exists(evaluated_csv):
         with open(grouped_csv, 'r', encoding='utf-8') as f:
             data_rows = list(csv.DictReader(f))
-        print(f"  Stage 2: running LLM NLI scoring ({len(data_rows)} citation pairs)...")
+        print(f"Running LLM NLI scoring: {len(data_rows)} citation pairs")
+        if not data_rows:
+            print("  Error: no citation pairs available for NLI scoring.")
+            return None
         results = evaluator.run_evaluation(data_rows)
         with open(evaluated_csv, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=results[0].keys())
             writer.writeheader()
             writer.writerows(results)
     else:
-        print(f"  Stage 2: cached results found, skipping API calls -> {evaluated_csv.name}")
+        print(f"Using cached NLI results: {evaluated_csv.name}")
 
     metrics = calculate_metrics(str(evaluated_csv))
-    print(f"  Stage 3 done: metrics computed.")
+    print("Computed citation metrics.")
     return metrics
 
-# ==========================================
-# 3. Main entry point
-# ==========================================
 def main():
     parser = argparse.ArgumentParser(description="Citation Quality Comparative Evaluation Tool")
     parser.add_argument("--content_file_llm", "--llm_paper", dest="content_file_llm", type=str, required=True, help="Path to the LLM content.json / paper.json")
@@ -252,68 +255,64 @@ def main():
 
     if not API_KEY:
         print("Error: Please set OPENAI_API_KEY in the environment.")
-        return
+        sys.exit(1)
 
     output_dir = resolve_output_dir(args.output_dir)
     evaluator = CitationEvaluator(API_KEY, args.base_url, args.model)
 
-    print("="*50)
-    print("Bloom-Eval Level 2: Citation Quality Evaluation")
-    print("="*50)
+    print("Running CF...")
 
     llm_metrics = process_single_pipeline(evaluator, args.content_file_llm, args.reference_file_llm, output_dir, "llm")
     human_metrics = process_single_pipeline(evaluator, args.content_file_human, args.reference_file_human, output_dir, "human")
 
     if not llm_metrics or not human_metrics:
         print("\nError: pipeline failed.")
-        return
-
-    report_lines = [
-        "=======================================================",
-        "      Bloom-Eval Level 2: Citation Final Report        ",
-        "=======================================================",
-        "\n[Human Baseline]",
-        f"  - Recall:    {human_metrics['recall']:.4f} ({human_metrics['recall']:.2%})",
-        f"  - Precision: {human_metrics['precision']:.4f} ({human_metrics['precision']:.2%})",
-        f"  - F1-Score:  {human_metrics['f1_score']:.4f} ({human_metrics['f1_score']:.2%})",
-        "\n[LLM Generated]",
-        f"  - Recall:    {llm_metrics['recall']:.4f} ({llm_metrics['recall']:.2%})",
-        f"  - Precision: {llm_metrics['precision']:.4f} ({llm_metrics['precision']:.2%})",
-        f"  - F1-Score:  {llm_metrics['f1_score']:.4f} ({llm_metrics['f1_score']:.2%})",
-        "======================================================="
-    ]
-
-    report_text = "\n".join(report_lines)
-    print("\n" + report_text)
+        sys.exit(1)
 
     report_path = output_dir / "report.txt"
+    result_path = output_dir / "result.json"
+    inputs = {
+        "content_file_human": to_project_relative(Path(args.content_file_human)),
+        "reference_file_human": to_project_relative(Path(args.reference_file_human)),
+        "content_file_llm": to_project_relative(Path(args.content_file_llm)),
+        "reference_file_llm": to_project_relative(Path(args.reference_file_llm)),
+    }
+    metrics = {
+        "human": human_metrics,
+        "llm": llm_metrics,
+    }
+    config = {
+        "model": args.model,
+        "base_url": args.base_url,
+        "max_concurrent_threads": MAX_CONCURRENT_THREADS,
+    }
+    report_text = format_metric_report(
+        "CF",
+        "Citation Faithfulness",
+        inputs=inputs,
+        results=metrics,
+        config=config,
+    )
     write_text(report_path, report_text)
     write_json(
-        output_dir / "result.json",
+        result_path,
         build_result_payload(
             metric="CF",
-            inputs={
-                "content_file_human": to_project_relative(Path(args.content_file_human)),
-                "reference_file_human": to_project_relative(Path(args.reference_file_human)),
-                "content_file_llm": to_project_relative(Path(args.content_file_llm)),
-                "reference_file_llm": to_project_relative(Path(args.reference_file_llm)),
-            },
-            results={
-                "human": human_metrics,
-                "llm": llm_metrics,
-            },
-            config={
-                "model": args.model,
-                "base_url": args.base_url,
-                "max_concurrent_threads": MAX_CONCURRENT_THREADS,
-            },
+            inputs=inputs,
+            results=metrics,
+            config=config,
             artifacts={
                 "report_file": to_project_relative(report_path),
             },
         ),
     )
-
-    print(f"\nEvaluation complete. All outputs saved to: {output_dir}")
+    print_metric_summary(
+        "CF",
+        report_path,
+        result_path,
+        results={"llm_f1_score": llm_metrics["f1_score"], "human_f1_score": human_metrics["f1_score"]},
+        summary_keys=("llm_f1_score", "human_f1_score"),
+    )
 
 if __name__ == "__main__":
     main()

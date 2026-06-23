@@ -4,7 +4,7 @@ import os
 import re
 import time
 from pathlib import Path
-from typing import Any, Dict, Iterable, Literal, Optional
+from typing import Any, Dict, Iterable, Literal, Optional, Sequence
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -75,6 +75,85 @@ def write_text(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         f.write(content)
+
+
+def format_report_value(value: Any) -> str:
+    if isinstance(value, float):
+        return f"{value:.4f}"
+    if isinstance(value, (dict, list)):
+        return json.dumps(value, ensure_ascii=False)
+    return str(value)
+
+
+def format_metric_report(
+    metric: str,
+    title: str,
+    *,
+    inputs: Optional[Dict[str, Any]] = None,
+    results: Optional[Dict[str, Any]] = None,
+    config: Optional[Dict[str, Any]] = None,
+    sections: Optional[Sequence[tuple[str, Any]]] = None,
+) -> str:
+    lines = [f"Metric: {metric}", f"Title: {title}"]
+
+    def add_mapping_section(section_title: str, values: Optional[Dict[str, Any]]) -> None:
+        if not values:
+            return
+        lines.extend(["", f"{section_title}:"])
+        for key, value in values.items():
+            if isinstance(value, dict):
+                lines.append(f"  {key}:")
+                for child_key, child_value in value.items():
+                    lines.append(f"    {child_key}: {format_report_value(child_value)}")
+            else:
+                lines.append(f"  {key}: {format_report_value(value)}")
+
+    add_mapping_section("Inputs", inputs)
+    add_mapping_section("Results", results)
+    add_mapping_section("Config", config)
+
+    if sections:
+        for section_title, section_content in sections:
+            lines.extend(["", f"{section_title}:"])
+            if isinstance(section_content, str):
+                lines.append(section_content)
+            elif isinstance(section_content, dict):
+                for key, value in section_content.items():
+                    lines.append(f"  {key}: {format_report_value(value)}")
+            elif isinstance(section_content, list):
+                if section_content:
+                    lines.extend(f"  - {format_report_value(item)}" for item in section_content)
+                else:
+                    lines.append("  none")
+            else:
+                lines.append(format_report_value(section_content))
+
+    return "\n".join(lines) + "\n"
+
+
+def print_metric_summary(
+    metric: str,
+    report_path: Path,
+    result_path: Optional[Path] = None,
+    *,
+    results: Optional[Dict[str, Any]] = None,
+    summary_keys: Sequence[str] = (),
+    artifacts: Optional[Dict[str, Optional[Path]]] = None,
+) -> None:
+    summary_parts = []
+    if results:
+        for key in summary_keys:
+            if key in results:
+                summary_parts.append(f"{key}={format_report_value(results[key])}")
+    summary = f"{metric}: " + ", ".join(summary_parts) if summary_parts else f"{metric}: completed"
+    print(summary)
+    print(f"Saved report: {to_project_relative(report_path)}")
+    if result_path is not None:
+        print(f"Saved result: {to_project_relative(result_path)}")
+    if artifacts:
+        for label, path in artifacts.items():
+            if path is not None:
+                print(f"Saved {label}: {to_project_relative(path)}")
 
 
 def load_json(path: os.PathLike[str] | str) -> Any:
@@ -228,8 +307,7 @@ def call_llm_for_json(
         )
         return parse_llm_json(answer, kind="auto")
     except Exception as e:
-        print(f"  [Error] LLM call or JSON parse failed: {e}")
-        return {}
+        raise RuntimeError(f"LLM call or JSON parse failed: {e}") from e
 
 
 def load_json_text(

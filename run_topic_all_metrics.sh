@@ -14,7 +14,6 @@ PYTHON_BIN="${PYTHON_BIN:-python3}"
 MODEL=""
 BASE_URL=""
 SAVE_RAW_RESPONSE=0
-INCLUDE_READABILITY=0
 
 usage() {
   cat <<'EOF'
@@ -27,7 +26,7 @@ Required input layout:
     content.json
     outline.json
     reference.json
-    <digits>_*.json   # task file, unless --task-file is provided
+    <task>.json       # task file, unless --task-file is provided
 
   llm dir:
     content.json
@@ -44,13 +43,13 @@ Options:
   --model NAME             Override --model for API-based metrics
   --base-url URL           Override --base_url for API-based metrics
   --save-raw-response      Pass --save_raw_response to all metrics
-  --include-readability    Also run the extra readability script (outside the core 16)
   -h, --help               Show this help
 
 Examples:
   ./run_topic_all_metrics.sh \
-    --human-dir data/experimental_data/cs_01/human \
+    --human-dir data/cs_01/human \
     --llm-dir /path/to/cs_01/llm \
+    --task-file "data/cs_01/human/A Survey on Vision Transformer.json" \
     --output-dir results/cs_01_all
 
   ./run_topic_all_metrics.sh \
@@ -72,7 +71,22 @@ require_file() {
 
 discover_task_file() {
   local dir="$1"
-  find "$dir" -maxdepth 1 -type f -name '[0-9]*_*.json' | sort | head -n 1
+  local task_file
+
+  task_file="$(find "$dir" -maxdepth 1 -type f -name '[0-9]*_*.json' | sort | head -n 1)"
+  if [[ -n "$task_file" ]]; then
+    echo "$task_file"
+    return
+  fi
+
+  find "$dir" -maxdepth 1 -type f -name '*.json' \
+    ! -name 'content.json' \
+    ! -name 'outline.json' \
+    ! -name 'reference.json' \
+    ! -name '*.bak' \
+    ! -name '*.old_bak' \
+    ! -name '*.data_json_bak' \
+    | sort | head -n 2
 }
 
 prepare_markdown_from_content_json() {
@@ -112,10 +126,8 @@ run_metric() {
   mkdir -p "$metric_dir"
 
   echo
-  echo "=================================================="
   echo "Running ${name}"
   echo "Output: ${metric_dir}"
-  echo "=================================================="
 
   if "$PYTHON_BIN" "$@" --output_dir "$metric_dir"; then
     SUCCEEDED+=("$name")
@@ -164,10 +176,6 @@ while [[ $# -gt 0 ]]; do
       SAVE_RAW_RESPONSE=1
       shift
       ;;
-    --include-readability)
-      INCLUDE_READABILITY=1
-      shift
-      ;;
     -h|--help)
       usage
       exit 0
@@ -207,7 +215,13 @@ require_file "$LLM_OUTLINE_JSON"
 require_file "$LLM_REFERENCE_JSON"
 
 if [[ -z "$TASK_FILE" ]]; then
-  TASK_FILE="$(discover_task_file "$HUMAN_DIR")"
+  TASK_FILE_CANDIDATES="$(discover_task_file "$HUMAN_DIR")"
+  TASK_FILE_COUNT="$(printf '%s\n' "$TASK_FILE_CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
+  if [[ "$TASK_FILE_COUNT" -eq 1 ]]; then
+    TASK_FILE="$TASK_FILE_CANDIDATES"
+  elif [[ "$TASK_FILE_COUNT" -gt 1 ]]; then
+    die "Multiple task JSON candidates found under ${HUMAN_DIR}; use --task-file explicitly"
+  fi
 fi
 [[ -n "$TASK_FILE" ]] || die "Task file not found under ${HUMAN_DIR}; use --task-file explicitly"
 require_file "$TASK_FILE"
@@ -354,14 +368,6 @@ run_metric "ROQ" \
   --task_file "$TASK_FILE" \
   "${RAW_ARGS[@]}" "${MODEL_ARGS[@]}"
 
-if [[ "$INCLUDE_READABILITY" -eq 1 ]]; then
-  run_metric "Readability" \
-    "${PROJECT_ROOT}/scripts/others/run_Readability.py" \
-    --content_file_human "$HUMAN_CONTENT_JSON" \
-    --content_file_llm "$LLM_CONTENT_JSON" \
-    "${RAW_ARGS[@]}"
-fi
-
 SUMMARY_FILE="${OUTPUT_DIR}/summary.txt"
 {
   echo "Topic: ${TOPIC_NAME}"
@@ -372,13 +378,10 @@ SUMMARY_FILE="${OUTPUT_DIR}/summary.txt"
   echo "Failed (${#FAILED[@]}): ${FAILED[*]:-none}"
 } > "${SUMMARY_FILE}"
 
-echo
-echo "=================================================="
 echo "Completed"
 echo "Succeeded (${#SUCCEEDED[@]}): ${SUCCEEDED[*]:-none}"
 echo "Failed (${#FAILED[@]}): ${FAILED[*]:-none}"
 echo "Summary: ${SUMMARY_FILE}"
-echo "=================================================="
 
 if [[ ${#FAILED[@]} -gt 0 ]]; then
   exit 1

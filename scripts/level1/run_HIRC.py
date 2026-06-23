@@ -6,7 +6,17 @@ from thefuzz import fuzz
 from typing import Dict, List
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, load_json, resolve_output_dir, to_project_relative, write_json, write_text
+from common import (
+    add_common_arguments,
+    build_result_payload,
+    format_metric_report,
+    load_json,
+    print_metric_summary,
+    resolve_output_dir,
+    to_project_relative,
+    write_json,
+    write_text,
+)
 CITATION_THRESHOLD = 50    # only expert refs with citations > 50 are considered "core"
 SIMILARITY_THRESHOLD = 90  # fuzzy match similarity threshold
 
@@ -123,66 +133,50 @@ def main():
     args = parser.parse_args()
     output_dir = resolve_output_dir(args.output_dir)
 
-    print("Starting core reference coverage evaluation...")
-    print(f"Human reference file: {args.reference_file_human}")
-    print(f"LLM reference file:   {args.reference_file_llm}")
+    print("Running HIRC...")
 
     human_refs = load_references_from_file(args.reference_file_human)
     llm_refs = load_references_from_file(args.reference_file_llm)
 
     if human_refs is None or llm_refs is None:
         print("\nAborted: cannot read input files.")
-        return
+        sys.exit(1)
 
     results = calculate_coverage(human_refs, llm_refs)
     metrics = results["metrics"]
 
-    report_lines = [
-        "=======================================================",
-        "     Bloom-Eval: Core Reference Coverage Report        ",
-        "=======================================================",
-        f"Expert core references (citations > {CITATION_THRESHOLD}): {metrics['total_human_core_refs']}",
-        f"LLM total references: {metrics['total_llm_refs']}",
-        "-------------------------------------------------------",
-        f"TP (Matched core refs): {metrics['tp']}",
-        f"FP (Extra/non-core):    {metrics['fp']}",
-        f"FN (Missed core refs):  {metrics['fn']}",
-        "-------------------------------------------------------",
-        "Metrics:",
-        f"  -> Precision: {metrics['precision']:.4f} ({metrics['precision']:.2%})",
-        f"  -> Recall:    {metrics['recall']:.4f} ({metrics['recall']:.2%})",
-        f"  -> F1-Score:  {metrics['f1_score']:.4f} ({metrics['f1_score']:.2%})",
-        "======================================================="
-    ]
-    report_text = "\n".join(report_lines)
-    print("\n" + report_text)
-
     report_path = output_dir / "report.txt"
     result_path = output_dir / "result.json"
+    inputs = {
+        "reference_file_human": to_project_relative(Path(args.reference_file_human)),
+        "reference_file_llm": to_project_relative(Path(args.reference_file_llm)),
+    }
+    config = {
+        "citation_threshold": CITATION_THRESHOLD,
+        "similarity_threshold": SIMILARITY_THRESHOLD,
+    }
+    report_text = format_metric_report(
+        "HIRC",
+        "Core Reference Coverage",
+        inputs=inputs,
+        results=metrics,
+        config=config,
+    )
     write_text(report_path, report_text)
     write_json(
         result_path,
         build_result_payload(
             metric="HIRC",
-            inputs={
-                "reference_file_human": to_project_relative(Path(args.reference_file_human)),
-                "reference_file_llm": to_project_relative(Path(args.reference_file_llm)),
-            },
+            inputs=inputs,
             results=results["metrics"],
             artifacts={
                 "matched_pairs": results["matched_pairs"],
                 "report_file": to_project_relative(report_path),
             },
-            config={
-                "citation_threshold": CITATION_THRESHOLD,
-                "similarity_threshold": SIMILARITY_THRESHOLD,
-            },
+            config=config,
         ),
     )
-
-    print(f"\nDone. Results saved to: {output_dir}")
-    print("  - report.txt")
-    print("  - result.json")
+    print_metric_summary("HIRC", report_path, result_path, results=metrics, summary_keys=("precision", "recall", "f1_score"))
 
 if __name__ == "__main__":
     main()

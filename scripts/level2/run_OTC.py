@@ -7,7 +7,7 @@ from openai import OpenAI
 from typing import Dict, List
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, call_llm_for_json, load_json, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, call_llm_for_json, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 API_KEY = os.getenv("OPENAI_API_KEY", "")
@@ -48,18 +48,14 @@ def call_llm_for_matching(client: OpenAI, model: str, expert_topics: List[str], 
     )
 
     print("Calling LLM for semantic comparison...")
-    try:
-        return call_llm_for_json(
-            model=model,
-            client=client,
-            prompt=prompt,
-            log_file=log_path,
-            temperature=0.0,
-            response_format={"type": "json_object"},
-        )
-    except Exception as e:
-        print(f"Error: LLM API call or parse failed: {e}")
-        return {"matched_pairs": []}
+    return call_llm_for_json(
+        model=model,
+        client=client,
+        prompt=prompt,
+        log_file=log_path,
+        temperature=0.0,
+        response_format={"type": "json_object"},
+    )
 
 
 def main():
@@ -70,10 +66,10 @@ def main():
     args = parser.parse_args()
     output_dir = resolve_output_dir(args.output_dir)
 
-    print("Starting outline coverage evaluation...")
+    print("Running OTC...")
     if not API_KEY:
         print("Error: Please set OPENAI_API_KEY in the environment.")
-        return
+        sys.exit(1)
     client = OpenAI(api_key=API_KEY, base_url=args.base_url)
 
     expert_topics = load_and_flatten_outline(args.outline_file_human)
@@ -81,7 +77,7 @@ def main():
 
     if not expert_topics or not llm_topics:
         print("Error: Outline extraction returned empty results.")
-        return
+        sys.exit(1)
 
     print(f"Loaded {len(expert_topics)} expert topics and {len(llm_topics)} LLM topics.")
 
@@ -107,55 +103,42 @@ def main():
     unmatched_llm = [t for t in llm_topics if t not in matched_llm_headings]
     unmatched_expert = [t for t in expert_topics if t not in matched_expert_headings]
 
-    report_lines = [
-        "=======================================================",
-        "     Bloom-Eval Level 2: Outline Coverage Report       ",
-        "=======================================================",
-        "\n[Matched Topic Pairs (TP)]"
-    ]
-    if matched_pairs:
-        for i, pair in enumerate(matched_pairs, 1):
-            report_lines.append(f"  {i}. Expert: '{pair.get('expert_heading')}' <=> LLM: '{pair.get('llm_heading')}'")
-    else:
-        report_lines.append("  (none)")
-
-    report_lines.extend(["\n[LLM topics not in expert outline (FP)]"])
-    report_lines.extend([f"  - {t}" for t in unmatched_llm] if unmatched_llm else ["  (none)"])
-
-    report_lines.extend(["\n[Expert topics missed by LLM (FN)]"])
-    report_lines.extend([f"  - {t}" for t in unmatched_expert] if unmatched_expert else ["  (none)"])
-
-    report_lines.extend([
-        "\n-------------------------------------------------------",
-        f"  - Precision: {precision:.4f}  ({precision:.2%})",
-        f"  - Recall:    {recall:.4f}  ({recall:.2%})",
-        f"  - F1-Score:  {f1_score:.4f}  ({f1_score:.2%})",
-        "======================================================="
-    ])
-
-    report_text = "\n".join(report_lines)
-    print("\n" + report_text)
-
     report_path = output_dir / "report.txt"
+    result_path = output_dir / "result.json"
+    inputs = {
+        "outline_file_human": to_project_relative(Path(args.outline_file_human)),
+        "outline_file_llm": to_project_relative(Path(args.outline_file_llm)),
+    }
+    metrics = {
+        "precision": precision,
+        "recall": recall,
+        "f1_score": f1_score,
+        "matched_pairs_count": len(matched_pairs),
+    }
+    config = {
+        "model": args.model,
+        "base_url": args.base_url,
+    }
+    report_text = format_metric_report(
+        "OTC",
+        "Outline Topic Coverage",
+        inputs=inputs,
+        results=metrics,
+        config=config,
+        sections=[
+            ("Matched Topic Pairs", matched_pairs),
+            ("Unmatched LLM Topics", unmatched_llm),
+            ("Unmatched Human Topics", unmatched_expert),
+        ],
+    )
     write_text(report_path, report_text)
     write_json(
-        output_dir / "result.json",
+        result_path,
         build_result_payload(
             metric="OTC",
-            inputs={
-                "outline_file_human": to_project_relative(Path(args.outline_file_human)),
-                "outline_file_llm": to_project_relative(Path(args.outline_file_llm)),
-            },
-            results={
-                "precision": precision,
-                "recall": recall,
-                "f1_score": f1_score,
-                "matched_pairs_count": len(matched_pairs),
-            },
-            config={
-                "model": args.model,
-                "base_url": args.base_url,
-            },
+            inputs=inputs,
+            results=metrics,
+            config=config,
             artifacts={
                 "report_file": to_project_relative(report_path),
                 "matched_pairs": matched_pairs,
@@ -164,8 +147,7 @@ def main():
             },
         ),
     )
-
-    print(f"\nResults saved to: {output_dir}")
+    print_metric_summary("OTC", report_path, result_path, results=metrics, summary_keys=("precision", "recall", "f1_score"))
 
 if __name__ == "__main__":
     main()

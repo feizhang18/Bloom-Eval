@@ -15,11 +15,14 @@ from common import (
     build_log_path,
     call_llm_with_retry,
     ensure_dir,
+    format_metric_report,
     load_json_list_text,
     parse_llm_json,
+    print_metric_summary,
     resolve_output_dir,
     to_project_relative,
     write_json,
+    write_text,
 )
 from prompt_utils import load_prompt
 
@@ -138,7 +141,7 @@ def main():
 
     if not API_KEY:
         print("Error: Please set OPENAI_API_KEY in the environment.")
-        return
+        sys.exit(1)
 
     output_dir = resolve_output_dir(args.output_dir)
     raw_log_dir = ensure_dir(output_dir / "logs") if args.save_raw_response else None
@@ -148,7 +151,7 @@ def main():
     llm_text = load_text_from_json(args.content_file_llm)
     if not human_text or not llm_text:
         print("Error: Missing or invalid input files.")
-        return
+        sys.exit(1)
 
     human_extract_path = output_dir / "human_critical_claims.json"
     llm_extract_path = output_dir / "llm_critical_claims.json"
@@ -192,36 +195,32 @@ def main():
     intermediate_path = output_dir / "intermediate.json"
     write_json(intermediate_path, intermediate)
 
-    report_lines = [
-        "========================================",
-        "   Bloom-Eval Level 5: CAA Report",
-        "========================================",
-        f"Human critical statements: {len(human_statements)}",
-        f"LLM critical statements: {len(llm_statements)}",
-        f"Matched critical pairs: {num_matched}",
-        f"Precision: {metrics['precision']:.4f}",
-        f"Recall: {metrics['recall']:.4f}",
-        f"F1-Score: {metrics['f1_score']:.4f}",
-        f"(TP: {metrics['tp']}, FP: {metrics['fp']}, FN: {metrics['fn']})",
-        "========================================",
-    ]
-    report_text = "\n".join(report_lines)
     report_path = output_dir / "report.txt"
+    result_path = output_dir / "result.json"
+    inputs = {
+        "content_file_human": to_project_relative(Path(args.content_file_human)),
+        "content_file_llm": to_project_relative(Path(args.content_file_llm)),
+    }
+    config = {
+        "model": args.model,
+        "base_url": args.base_url,
+    }
+    report_text = format_metric_report(
+        "CAA",
+        "Critical Argument Alignment",
+        inputs=inputs,
+        results=metrics,
+        config=config,
+    )
     write_text(report_path, report_text)
 
     write_json(
-        output_dir / "result.json",
+        result_path,
         build_result_payload(
             metric="CAA",
-            inputs={
-                "content_file_human": to_project_relative(Path(args.content_file_human)),
-                "content_file_llm": to_project_relative(Path(args.content_file_llm)),
-            },
+            inputs=inputs,
             results=metrics,
-            config={
-                "model": args.model,
-                "base_url": args.base_url,
-            },
+            config=config,
             artifacts={
                 "report_file": to_project_relative(report_path),
                 "intermediate_file": to_project_relative(intermediate_path),
@@ -231,10 +230,14 @@ def main():
             },
         ),
     )
-
-    print("\n" + report_text)
-    print(f"Intermediate results saved to: {intermediate_path}")
-    print(f"Final results saved to: {output_dir / 'result.json'}")
+    print_metric_summary(
+        "CAA",
+        report_path,
+        result_path,
+        results=metrics,
+        summary_keys=("precision", "recall", "f1_score"),
+        artifacts={"intermediate": intermediate_path},
+    )
 
 
 if __name__ == "__main__":

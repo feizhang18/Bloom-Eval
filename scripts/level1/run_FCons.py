@@ -14,11 +14,14 @@ from common import (
     build_result_payload,
     call_llm_for_json,
     ensure_dir,
+    format_metric_report,
     load_json,
+    print_metric_summary,
     resolve_output_dir,
     save_json,
     to_project_relative,
     write_json,
+    write_text,
 )
 from prompt_utils import load_prompt
 
@@ -58,8 +61,8 @@ def step2_match_claims(client: OpenAI, model: str, expert_list: List[str], llm_l
     save_json({"matched_pairs": matched_pairs}, output_path)
     return matched_pairs
 
-def step3_calculate_and_report(expert_list: List[str], llm_list: List[str], matched_pairs: List[Dict], report_path: Path) -> Dict[str, float]:
-    """Stage 3: Compute precision, recall, F1 and generate the final report."""
+def step3_calculate_metrics(expert_list: List[str], llm_list: List[str], matched_pairs: List[Dict]) -> Dict[str, float]:
+    """Stage 3: Compute precision, recall, and F1."""
     total_expert = len(expert_list)
     total_llm = len(llm_list)
     tp = len(matched_pairs)
@@ -70,28 +73,6 @@ def step3_calculate_and_report(expert_list: List[str], llm_list: List[str], matc
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
     f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
 
-    report = [
-        "=======================================================",
-        "     Bloom-Eval Level 1: Factual Claims Evaluation     ",
-        "=======================================================",
-        f"Expert factual statements: {total_expert}",
-        f"LLM factual statements:    {total_llm}",
-        "-------------------------------------------------------",
-        f"TP (Matched):  {tp}",
-        f"FP (Extra):    {fp}",
-        f"FN (Missed):   {fn}",
-        "-------------------------------------------------------",
-        "Final Metrics:",
-        f"  -> Precision: {precision:.4f} ({precision:.2%})",
-        f"  -> Recall:    {recall:.4f} ({recall:.2%})",
-        f"  -> F1-Score:  {f1_score:.4f} ({f1_score:.2%})",
-        "======================================================="
-    ]
-
-    report_text = "\n".join(report)
-    print("\n" + report_text)
-
-    write_text(report_path, report_text)
     return {
         "precision": precision,
         "recall": recall,
@@ -112,7 +93,7 @@ def main():
 
     if not API_KEY:
         print("Error: Please set OPENAI_API_KEY in the environment.")
-        return
+        sys.exit(1)
 
     output_dir = resolve_output_dir(args.output_dir)
     client = OpenAI(api_key=API_KEY, base_url=args.base_url)
@@ -122,8 +103,7 @@ def main():
     dir_llm = ensure_dir(output_dir / "llm")
     dir_logs = ensure_dir(output_dir / "logs") if args.save_raw_response else None
 
-    print(f"Starting factual claims evaluation pipeline...")
-    print(f"Output directory: {output_dir}")
+    print("Running FCons...")
 
     human_data = load_json(args.content_file_human)
     llm_data = load_json(args.content_file_llm)
@@ -131,37 +111,41 @@ def main():
     llm_text = llm_data[0] if isinstance(llm_data, list) else llm_data
 
     # Stage 1: Extract factual claims
-    print("\n>>> Stage 1: Factual Claim Extraction")
     human_claims = step1_extract_claims(client, args.model, human_text, dir_human / "factual_claims.json", (dir_logs / f"ext_human_{ts}.txt") if dir_logs else None)
     llm_claims = step1_extract_claims(client, args.model, llm_text, dir_llm / "factual_claims.json", (dir_logs / f"ext_llm_{ts}.txt") if dir_logs else None)
-    print(f"  - Human expert claims: {len(human_claims)}")
-    print(f"  - LLM claims:          {len(llm_claims)}")
 
     if not human_claims or not llm_claims:
         print("\nError: One side produced no factual statements; cannot proceed with matching.")
-        return
+        sys.exit(1)
 
-    # Stage 2: Semantic alignment
-    print("\n>>> Stage 2: Semantic Alignment")
     matched_pairs = step2_match_claims(client, args.model, human_claims, llm_claims, output_dir / "matched_pairs.json", (dir_logs / f"match_{ts}.txt") if dir_logs else None)
 
-    # Stage 3: Compute metrics and generate report
-    print("\n>>> Stage 3: Metric Calculation")
     report_path = output_dir / "report.txt"
-    metrics = step3_calculate_and_report(human_claims, llm_claims, matched_pairs, report_path)
+    result_path = output_dir / "result.json"
+    metrics = step3_calculate_metrics(human_claims, llm_claims, matched_pairs)
+    inputs = {
+        "content_file_human": to_project_relative(Path(args.content_file_human)),
+        "content_file_llm": to_project_relative(Path(args.content_file_llm)),
+    }
+    config = {
+        "model": args.model,
+        "base_url": args.base_url,
+    }
+    report_text = format_metric_report(
+        "FCons",
+        "Factual Claim Consistency",
+        inputs=inputs,
+        results=metrics,
+        config=config,
+    )
+    write_text(report_path, report_text)
     write_json(
-        output_dir / "result.json",
+        result_path,
         build_result_payload(
             metric="FCons",
-            inputs={
-                "content_file_human": to_project_relative(Path(args.content_file_human)),
-                "content_file_llm": to_project_relative(Path(args.content_file_llm)),
-            },
+            inputs=inputs,
             results=metrics,
-            config={
-                "model": args.model,
-                "base_url": args.base_url,
-            },
+            config=config,
             artifacts={
                 "report_file": to_project_relative(report_path),
                 "human_dir": to_project_relative(dir_human),
@@ -169,8 +153,7 @@ def main():
             },
         ),
     )
-
-    print(f"\nPipeline complete.")
+    print_metric_summary("FCons", report_path, result_path, results=metrics, summary_keys=("precision", "recall", "f1_score"))
 
 if __name__ == "__main__":
     main()

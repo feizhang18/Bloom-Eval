@@ -9,7 +9,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from openai import OpenAI
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, call_llm_for_json, ensure_dir, load_json, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, call_llm_for_json, ensure_dir, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 
@@ -56,18 +56,14 @@ def prepare_outline_for_prompt(outline_data: List[List[Any]]) -> Tuple[str, Dict
 
 def get_llm_response(client: OpenAI, model: str, prompt: str, query_id: str, raw_response_path: Optional[Path]) -> Dict[str, Any]:
     print(f"--- Running LLM redundancy analysis for '{query_id}'... ---")
-    try:
-        return call_llm_for_json(
-            client,
-            model,
-            prompt,
-            raw_response_path,
-            temperature=0.0,
-            response_format={"type": "json_object"},
-        )
-    except Exception as e:
-        print(f"LLM call or JSON parse failed: {e}")
-        return {"redundant_pairs": []}
+    return call_llm_for_json(
+        client,
+        model,
+        prompt,
+        raw_response_path,
+        temperature=0.0,
+        response_format={"type": "json_object"},
+    )
 
 
 def calculate_scs_for_outline(
@@ -133,11 +129,11 @@ def main():
         llm_outline = load_outline(args.outline_file_llm)
     except Exception as e:
         print(f"Error loading input: {e}")
-        return
+        sys.exit(1)
 
     if not API_KEY:
         print("Error: Please set OPENAI_API_KEY in the environment.")
-        return
+        sys.exit(1)
     client = OpenAI(api_key=API_KEY, base_url=args.base_url)
     query_id = f"single_scs_{time.strftime('%Y%m%d_%H%M%S')}"
     raw_response_path = output_dir / "logs" / "raw_response.json" if args.save_raw_response else None
@@ -149,34 +145,34 @@ def main():
     write_json(intermediate_path, intermediate)
     final_path = output_dir / "result.json"
 
-    report_lines = [
-        "========================================",
-        "   Bloom-Eval Level 4: SCS Report",
-        "========================================",
-        f"Total topics: {intermediate['total_topics']}",
-        f"Verified redundant pairs: {intermediate['redundant_pairs_count']}",
-        f"Structure Clarity Score (SCS): {scs_score:.4f}",
-        "========================================",
-    ]
-    report_text = "\n".join(report_lines)
     report_path = output_dir / "report.txt"
+    inputs = {
+        "outline_file_llm": to_project_relative(Path(args.outline_file_llm)),
+    }
+    metrics = {
+        "scs_llm": scs_score,
+        "total_topics": intermediate["total_topics"],
+        "verified_redundant_pairs": intermediate["redundant_pairs_count"],
+    }
+    config = {
+        "model": args.model,
+        "base_url": args.base_url,
+    }
+    report_text = format_metric_report(
+        "SCS",
+        "Structure Clarity",
+        inputs=inputs,
+        results=metrics,
+        config=config,
+    )
     write_text(report_path, report_text)
     write_json(
         final_path,
         build_result_payload(
             metric="SCS",
-            inputs={
-                "outline_file_llm": to_project_relative(Path(args.outline_file_llm)),
-            },
-            results={
-                "scs_llm": scs_score,
-                "total_topics": intermediate["total_topics"],
-                "verified_redundant_pairs": intermediate["redundant_pairs_count"],
-            },
-            config={
-                "model": args.model,
-                "base_url": args.base_url,
-            },
+            inputs=inputs,
+            results=metrics,
+            config=config,
             artifacts={
                 "report_file": to_project_relative(report_path),
                 "intermediate_file": to_project_relative(intermediate_path),
@@ -184,12 +180,14 @@ def main():
             },
         ),
     )
-
-    print("\n" + report_text)
-    print(f"Intermediate results saved to: {intermediate_path}")
-    if raw_response_path is not None:
-        print(f"Raw LLM response saved to: {raw_response_path}")
-    print(f"Final results saved to: {final_path}")
+    print_metric_summary(
+        "SCS",
+        report_path,
+        final_path,
+        results=metrics,
+        summary_keys=("scs_llm",),
+        artifacts={"intermediate": intermediate_path, "raw response": raw_response_path},
+    )
 
 
 if __name__ == "__main__":

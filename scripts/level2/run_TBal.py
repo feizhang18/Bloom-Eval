@@ -13,7 +13,7 @@ from typing import List, Dict
 from umap import UMAP
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, load_json, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 
 EMBEDDING_MODEL = "nomic-ai/nomic-embed-text-v1"
 RANDOM_SEED = 42
@@ -124,28 +124,32 @@ def main():
     human_res = analyze_topics("Human", human_docs, embedding_model)
     llm_res = analyze_topics("LLM", llm_docs, embedding_model)
 
-    report = [
-        "=======================================================",
-        "      Bloom-Eval Level 2: Topic Balance Report         ",
-        "=======================================================",
-        f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}",
-        "\n[1] Human Baseline",
-        f"  - Topic count:   {human_res['topic_count']}",
-        f"  - Gini:          {human_res['gini']:.4f}",
-        f"  - Breadth score: {human_res['breadth_score']:.4f}",
-        "\n[2] LLM Generated",
-        f"  - Topic count:   {llm_res['topic_count']}",
-        f"  - Gini:          {llm_res['gini']:.4f}",
-        f"  - Breadth score: {llm_res['breadth_score']:.4f}",
-        "\n[3] Gap Analysis",
-        f"  - Breadth gap: {llm_res['breadth_score'] - human_res['breadth_score']:.4f}",
-        "======================================================="
-    ]
-
-    report_text = "\n".join(report)
-    print("\n" + report_text)
-
     report_path = output_dir / "report.txt"
+    result_path = output_dir / "result.json"
+    inputs = {
+        "reference_file_human": to_project_relative(Path(args.reference_file_human)),
+        "reference_file_llm": to_project_relative(Path(args.reference_file_llm)),
+    }
+    metrics = {
+        "human": {
+            "topic_count": human_res["topic_count"],
+            "gini": human_res["gini"],
+            "breadth_score": human_res["breadth_score"],
+        },
+        "llm": {
+            "topic_count": llm_res["topic_count"],
+            "gini": llm_res["gini"],
+            "breadth_score": llm_res["breadth_score"],
+        },
+        "breadth_gap": llm_res["breadth_score"] - human_res["breadth_score"],
+    }
+    report_text = format_metric_report(
+        "TBal",
+        "Topic Balance",
+        inputs=inputs,
+        results=metrics,
+        config={"timestamp": time.strftime('%Y-%m-%d %H:%M:%S')},
+    )
     write_text(report_path, report_text)
 
     if human_res['topic_info'] is not None:
@@ -154,31 +158,15 @@ def main():
         llm_res['topic_info'].to_csv(output_dir / "llm_topics.csv", index=False)
 
     write_json(
-        output_dir / "result.json",
+        result_path,
         build_result_payload(
             metric="TBal",
-            inputs={
-                "reference_file_human": to_project_relative(Path(args.reference_file_human)),
-                "reference_file_llm": to_project_relative(Path(args.reference_file_llm)),
-            },
-            results={
-                "human": {
-                    "topic_count": human_res["topic_count"],
-                    "gini": human_res["gini"],
-                    "breadth_score": human_res["breadth_score"],
-                },
-                "llm": {
-                    "topic_count": llm_res["topic_count"],
-                    "gini": llm_res["gini"],
-                    "breadth_score": llm_res["breadth_score"],
-                },
-                "breadth_gap": llm_res["breadth_score"] - human_res["breadth_score"],
-            },
+            inputs=inputs,
+            results=metrics,
             artifacts={"report_file": to_project_relative(report_path)},
         ),
     )
-
-    print(f"\nEvaluation complete. Results saved to: {output_dir}")
+    print_metric_summary("TBal", report_path, result_path, results=metrics, summary_keys=("breadth_gap",))
 
 if __name__ == "__main__":
     main()

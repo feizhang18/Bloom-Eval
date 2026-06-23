@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer, util
 from zss import Node
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, load_json, resolve_output_dir, to_project_relative, write_json, write_text
+from common import add_common_arguments, build_result_payload, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 
 
 SBERT_MODEL_NAME = "nomic-ai/nomic-embed-text-v1"
@@ -125,7 +125,7 @@ def main():
         llm_outline = load_outline(args.outline_file_llm)
     except Exception as e:
         print(f"Error loading input: {e}")
-        return
+        sys.exit(1)
 
     print("Loading SentenceTransformer model...")
     model = SentenceTransformer(SBERT_MODEL_NAME, trust_remote_code=True)
@@ -144,29 +144,24 @@ def main():
     intermediate_path = output_dir / "intermediate.json"
     write_json(intermediate_path, intermediate)
 
-    report_lines = [
-        "========================================",
-        "   Bloom-Eval Level 4: STS Report",
-        "========================================",
-        f"Human topics: {metrics['expert_topic_count']}",
-        f"LLM topics: {metrics['llm_topic_count']}",
-        f"Tree edit distance: {metrics['tree_edit_distance']}",
-        f"Distance upper bound: {metrics['distance_upper_bound']}",
-        f"Semantic Tree Similarity (STS): {metrics['semantic_tree_similarity']:.4f}",
-        "========================================",
-    ]
-    report_text = "\n".join(report_lines)
     report_path = output_dir / "report.txt"
-    write_text(report_path, report_text)
     final_path = output_dir / "result.json"
+    inputs = {
+        "outline_file_human": to_project_relative(Path(args.outline_file_human)),
+        "outline_file_llm": to_project_relative(Path(args.outline_file_llm)),
+    }
+    report_text = format_metric_report(
+        "STS",
+        "Semantic Tree Similarity",
+        inputs=inputs,
+        results=metrics,
+    )
+    write_text(report_path, report_text)
     write_json(
         final_path,
         build_result_payload(
             metric="STS",
-            inputs={
-                "outline_file_human": to_project_relative(Path(args.outline_file_human)),
-                "outline_file_llm": to_project_relative(Path(args.outline_file_llm)),
-            },
+            inputs=inputs,
             results=metrics,
             artifacts={
                 "report_file": to_project_relative(report_path),
@@ -174,10 +169,14 @@ def main():
             },
         ),
     )
-
-    print("\n" + report_text)
-    print(f"Intermediate results saved to: {intermediate_path}")
-    print(f"Final results saved to: {final_path}")
+    print_metric_summary(
+        "STS",
+        report_path,
+        final_path,
+        results=metrics,
+        summary_keys=("semantic_tree_similarity",),
+        artifacts={"intermediate": intermediate_path},
+    )
 
 
 if __name__ == "__main__":
