@@ -14,6 +14,7 @@
 </div>
 
 [![ACL 2026](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Bloom--Eval-orange)](https://huggingface.co/datasets/FeiZhang518/Bloom-Eval-Dataset)
 [![Status](https://img.shields.io/badge/Status-Camera--ready-orange.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -64,8 +65,7 @@ Bloom-Eval/
 ├── scripts/
 │   ├── common.py
 │   ├── prompt_utils.py
-│   ├── level1/ ... level6/
-│   └── others/
+│   └── level1/ ... level6/
 ├── requirements.txt
 ├── run_topic_all_metrics.sh
 └── README.md
