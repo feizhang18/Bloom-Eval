@@ -19,8 +19,6 @@
 
 Official repository for the paper **"Bloom-Eval: A Hierarchical Evaluation Benchmark for Automatic Survey Generation Based on Bloom's Taxonomy"**.
 
-This repository keeps the core materials needed to understand the benchmark design and reproduce topic-level evaluation, including the evaluation scripts, prompt files, and 20 released topics.
-
 ## Overview
 
 Bloom-Eval is a six-level benchmark for automatic survey generation (ASG), grounded in Bloom's Taxonomy:
@@ -31,8 +29,6 @@ Bloom-Eval is a six-level benchmark for automatic survey generation (ASG), groun
 - **Level 4, Analysis**: structural consistency, section relations, and outline quality
 - **Level 5, Evaluation**: critical judgment over conclusions and limitations
 - **Level 6, Creation**: novelty of research questions and forward-looking synthesis
-
-The benchmark uses **GRADE** (Generative Rubric Adaptive Differential Evaluation) for rubric-based LLM judging on the metrics that require semantic comparison.
 
 ## Framework
 
