@@ -142,11 +142,11 @@ The `run_topic_all_metrics.sh` script runs the following 16 core metrics:
 
 ## Installation
 
-Create a Python environment and install the required packages:
+Create a new conda environment and install the required packages:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+conda create -n bloom-eval python=3.10 -y
+conda activate bloom-eval
 pip install -r requirements.txt
 ```
 
@@ -199,7 +199,6 @@ bash run_topic_all_metrics.sh \
   --human-dir data/cs_01/human \
   --llm-dir data/cs_01/llm \
   --task-file data/cs_01/human/expert_article.json \
-  --human-article-file data/cs_01/human/expert_article.json \
   --llm-article-file data/cs_01/llm/llm_article.json \
   --output-dir results/cs_01/all_metrics \
   --model gpt-5-mini \
@@ -225,9 +224,9 @@ The full run includes API-based metrics, so `OPENAI_API_KEY` must be set even th
 | `--topic-dir DIR` | optional | Topic directory containing `human/` and `llm/`. When set, `--human-dir` defaults to `DIR/human` and `--llm-dir` defaults to `DIR/llm`. |
 | `--human-dir DIR` | optional | Human reference directory. Default: `data/cs_01/human`. |
 | `--llm-dir DIR` | optional | LLM output directory. Default: `data/cs_01/llm`. |
-| `--task-file FILE` | recommended | Task/article JSON used by `FAP`, `FNov`, and `ROQ`. Default discovery prefers `human/expert_article.json`. |
-| `--human-article-file FILE` | optional | Full human article JSON used by `FMI`. Default discovery prefers `human/expert_article.json`. |
-| `--llm-article-file FILE` | optional | Full LLM article JSON used by `FMI`. Default discovery prefers `llm/llm_article.json` if present. |
+| `--task-file FILE` | recommended | Human-side `expert_article.json` used to provide the topic title/context for `FAP`, `FNov`, and `ROQ`. Default discovery prefers `human/expert_article.json`. |
+| `--human-article-file FILE` | optional | Human full-article JSON used only by `FMI`. In the released topics this is the same file as `--task-file`, so it usually does not need to be set separately. Default discovery prefers `human/expert_article.json`. |
+| `--llm-article-file FILE` | optional | LLM full-article JSON used only by `FMI` for citation-integrity checking. Default discovery prefers `llm/llm_article.json` when present. |
 | `--output-dir DIR` | recommended | Root output directory. Each metric writes to a subdirectory under it. Default: `results/<topic>/all_metrics`. |
 | `--python BIN` | optional | Python executable. Default: `python3` or `$PYTHON_BIN` if set. |
 | `--model NAME` | recommended for API metrics | Model name passed to API-based metrics. Overrides `$BLOOM_EVAL_MODEL`. |
