@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 import time
 import argparse
@@ -10,6 +11,8 @@ from openai import OpenAI
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
+    DEFAULT_HUMAN_CONTENT_FILE,
+    DEFAULT_LLM_CONTENT_FILE,
     add_common_arguments,
     build_result_payload,
     build_log_path,
@@ -31,9 +34,114 @@ API_KEY = os.getenv("OPENAI_API_KEY", "")
 DEFAULT_MODEL = "gpt-5-mini"
 MAX_RETRIES = 3
 RETRY_DELAY = 5
+DEFAULT_EXTRACT_CHUNK_TOKENS = 10000
 
 CRITICAL_EXTRACTION_PROMPT_TEMPLATE = load_prompt("level5/CAA_critical_claim_extraction.txt")
 CRITICAL_MATCHING_PROMPT_TEMPLATE = load_prompt("level5/CAA_critical_claim_matching.txt")
+
+try:
+    import tiktoken
+except ImportError:
+    tiktoken = None
+
+
+def estimate_token_count(text: str) -> int:
+    """Estimate token count without requiring tokenizer downloads."""
+    if tiktoken is not None:
+        try:
+            return len(tiktoken.get_encoding("cl100k_base").encode(text))
+        except Exception:
+            pass
+    return len(re.findall(r"\w+|[^\w\s]", text, flags=re.UNICODE))
+
+
+def split_text_into_sentences(text: str) -> List[str]:
+    """Split text into sentence-like units while keeping sentence terminators."""
+    normalized = re.sub(r"\n{3,}", "\n\n", text.strip())
+    if not normalized:
+        return []
+
+    protected = {
+        "e.g.": "e<prd>g<prd>",
+        "i.e.": "i<prd>e<prd>",
+        "et al.": "et al<prd>",
+        "Fig.": "Fig<prd>",
+        "Eq.": "Eq<prd>",
+        "Sec.": "Sec<prd>",
+        "Dr.": "Dr<prd>",
+        "Mr.": "Mr<prd>",
+        "Ms.": "Ms<prd>",
+        "Prof.": "Prof<prd>",
+        "vs.": "vs<prd>",
+    }
+    for source, target in protected.items():
+        normalized = normalized.replace(source, target)
+
+    parts = re.split(r"(?<=[.!?。！？])\s+|(?<=\n)\s*(?=#{1,6}\s+)", normalized)
+    sentences = []
+    for part in parts:
+        restored = part.replace("<prd>", ".").strip()
+        if restored:
+            sentences.append(restored)
+    return sentences
+
+
+def chunk_text_by_sentence_boundaries(text: str, max_tokens: int) -> List[str]:
+    """Build chunks that start and end on sentence boundaries."""
+    if max_tokens <= 0:
+        return [text]
+
+    sentences = split_text_into_sentences(text)
+    if not sentences:
+        return []
+
+    chunks: List[str] = []
+    current: List[str] = []
+    current_tokens = 0
+
+    for sentence in sentences:
+        sentence_tokens = estimate_token_count(sentence)
+        if current and current_tokens + sentence_tokens > max_tokens:
+            chunks.append("\n\n".join(current))
+            current = [sentence]
+            current_tokens = sentence_tokens
+        else:
+            current.append(sentence)
+            current_tokens += sentence_tokens
+
+        if sentence_tokens > max_tokens:
+            print(
+                f"  [Chunk] Warning: one sentence is estimated at {sentence_tokens} tokens, "
+                f"which exceeds the {max_tokens}-token chunk target."
+            )
+
+    if current:
+        chunks.append("\n\n".join(current))
+    return chunks
+
+
+def dedupe_statements(statements: List[str]) -> List[str]:
+    seen = set()
+    deduped = []
+    for statement in statements:
+        normalized = re.sub(r"\s+", " ", str(statement).strip())
+        if not normalized:
+            continue
+        key = normalized.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(normalized)
+    return deduped
+
+
+def strip_statement_prefix(statement: Any) -> str:
+    text = re.sub(r"\s+", " ", str(statement).strip())
+    return re.sub(r"^[HL]\d+\s*[:.]\s*", "", text)
+
+
+def chunk_log_query_id(query_id: str, chunk_index: int) -> str:
+    return f"{query_id}_chunk{chunk_index:03d}"
 
 
 def load_text_from_json(file_path: str) -> str:
@@ -50,28 +158,80 @@ def extract_critical_statements(
     query_id: str,
     output_path: Path,
     log_dir: Optional[Path],
+    *,
+    chunk_tokens: int = DEFAULT_EXTRACT_CHUNK_TOKENS,
 ) -> List[str]:
-    prompt = CRITICAL_EXTRACTION_PROMPT_TEMPLATE.format(text=text)
-    raw_response = call_llm_with_retry(
-        client,
-        model,
-        prompt,
-        build_log_path(log_dir, query_id),
-        temperature=0.0,
-        max_tokens=8192,
-        max_retries=MAX_RETRIES,
-        retry_delay=RETRY_DELAY,
-        failure_log_message=f"Failed after {MAX_RETRIES} retries.",
-    )
+    if output_path.exists():
+        try:
+            existing = json.loads(output_path.read_text(encoding="utf-8"))
+            return existing.get("critical_statements", [])
+        except Exception:
+            pass
 
-    try:
-        result = parse_llm_json(raw_response, kind="auto")
-        write_json(output_path, result)
-        return result.get("critical_statements", [])
-    except json.JSONDecodeError:
-        print("Could not parse critical statement extraction result.")
+    text_tokens = estimate_token_count(text)
+    chunks = chunk_text_by_sentence_boundaries(text, chunk_tokens)
+    if not chunks:
         write_json(output_path, {"critical_statements": []})
         return []
+
+    chunk_dir = ensure_dir(output_path.parent / f"{output_path.stem}_chunks")
+    all_statements: List[str] = []
+    print(f"  [Chunk] Extracting critical statements from {len(chunks)} chunk(s), estimated input tokens: {text_tokens}.")
+
+    for index, chunk in enumerate(chunks, start=1):
+        chunk_output_path = chunk_dir / f"chunk_{index:03d}.json"
+        if chunk_output_path.exists():
+            try:
+                chunk_result = json.loads(chunk_output_path.read_text(encoding="utf-8"))
+                statements = chunk_result.get("critical_statements", [])
+                all_statements.extend(statements)
+                continue
+            except Exception:
+                pass
+
+        print(f"  [Chunk] Extracting chunk {index}/{len(chunks)} (estimated tokens: {estimate_token_count(chunk)}).")
+        prompt = CRITICAL_EXTRACTION_PROMPT_TEMPLATE.format(text=chunk)
+        raw_response = call_llm_with_retry(
+            client,
+            model,
+            prompt,
+            build_log_path(log_dir, chunk_log_query_id(query_id, index)),
+            temperature=0.0,
+            max_tokens=8192,
+            max_retries=MAX_RETRIES,
+            retry_delay=RETRY_DELAY,
+            failure_log_message=f"Failed after {MAX_RETRIES} retries.",
+        )
+
+        try:
+            result = parse_llm_json(raw_response, kind="auto")
+            statements = result.get("critical_statements", [])
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"Could not parse critical statement extraction result for chunk {index}: {e}")
+            statements = []
+
+        write_json(
+            chunk_output_path,
+            {
+                "chunk_index": index,
+                "total_chunks": len(chunks),
+                "estimated_tokens": estimate_token_count(chunk),
+                "critical_statements": statements,
+            },
+        )
+        all_statements.extend(statements)
+
+    statements = dedupe_statements(all_statements)
+    write_json(
+        output_path,
+        {
+            "critical_statements": statements,
+            "chunk_tokens": chunk_tokens,
+            "estimated_input_tokens": text_tokens,
+            "total_chunks": len(chunks),
+        },
+    )
+    return statements
 
 
 def find_semantic_matches(
@@ -83,8 +243,8 @@ def find_semantic_matches(
     output_path: Path,
     log_dir: Optional[Path],
 ) -> Dict[str, Any]:
-    human_str = "\n".join([f"H{i + 1}. {s}" for i, s in enumerate(human_statements)])
-    llm_str = "\n".join([f"L{i + 1}. {s}" for i, s in enumerate(llm_statements)])
+    human_str = json.dumps(human_statements, ensure_ascii=False, indent=2)
+    llm_str = json.dumps(llm_statements, ensure_ascii=False, indent=2)
     prompt = CRITICAL_MATCHING_PROMPT_TEMPLATE.format(
         expert_statements_str=human_str,
         llm_statements_str=llm_str,
@@ -108,6 +268,22 @@ def find_semantic_matches(
     except (json.JSONDecodeError, ValueError) as e:
         print(f"Error: Could not parse model response as JSON. {e}")
         result = {"matched_critical_pairs": []}
+
+    normalized_pairs = []
+    for pair in result.get("matched_critical_pairs", []):
+        if not isinstance(pair, dict):
+            continue
+        expert_statement = strip_statement_prefix(pair.get("expert_critical_statement", ""))
+        llm_statement = strip_statement_prefix(pair.get("llm_critical_statement", ""))
+        if not expert_statement or not llm_statement:
+            continue
+        normalized_pairs.append(
+            {
+                "expert_critical_statement": expert_statement,
+                "llm_critical_statement": llm_statement,
+            }
+        )
+    result = {"matched_critical_pairs": normalized_pairs}
 
     write_json(output_path, result)
     return result
@@ -134,8 +310,9 @@ def calculate_metrics(human_count: int, llm_count: int, matched_count: int) -> D
 
 def main():
     parser = argparse.ArgumentParser(description="Critical Argument Alignment (CAA) evaluation tool")
-    parser.add_argument("--content_file_human", "--human_file", dest="content_file_human", type=str, required=True, help="Path to human content.json")
-    parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, required=True, help="Path to LLM content.json")
+    parser.add_argument("--content_file_human", "--human_file", dest="content_file_human", type=str, default=DEFAULT_HUMAN_CONTENT_FILE, help="Path to human content.json")
+    parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, default=DEFAULT_LLM_CONTENT_FILE, help="Path to LLM content.json")
+    parser.add_argument("--extract_chunk_tokens", type=int, default=DEFAULT_EXTRACT_CHUNK_TOKENS, help="Target token count for sentence-boundary chunks during critical-statement extraction.")
     add_common_arguments(parser, metric_name="caa", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
 
@@ -164,6 +341,7 @@ def main():
         "human_critical_extract",
         human_extract_path,
         raw_log_dir,
+        chunk_tokens=args.extract_chunk_tokens,
     )
     llm_statements = extract_critical_statements(
         client,
@@ -172,6 +350,7 @@ def main():
         "llm_critical_extract",
         llm_extract_path,
         raw_log_dir,
+        chunk_tokens=args.extract_chunk_tokens,
     )
 
     matched_data = find_semantic_matches(
@@ -204,6 +383,7 @@ def main():
     config = {
         "model": args.model,
         "base_url": args.base_url,
+        "extract_chunk_tokens": args.extract_chunk_tokens,
     }
     report_text = format_metric_report(
         "CAA",

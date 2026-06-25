@@ -7,7 +7,7 @@ from openai import OpenAI
 from typing import Dict, List
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, call_llm_for_json, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
+from common import DEFAULT_HUMAN_OUTLINE_FILE, DEFAULT_LLM_OUTLINE_FILE, add_common_arguments, build_result_payload, call_llm_for_json, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 API_KEY = os.getenv("OPENAI_API_KEY", "")
@@ -60,8 +60,8 @@ def call_llm_for_matching(client: OpenAI, model: str, expert_topics: List[str], 
 
 def main():
     parser = argparse.ArgumentParser(description="Outline Topic Coverage Evaluation Tool")
-    parser.add_argument("--outline_file_human", "--human_file", dest="outline_file_human", type=str, required=True, help="Path to the human-expert outline.json")
-    parser.add_argument("--outline_file_llm", "--llm_file", dest="outline_file_llm", type=str, required=True, help="Path to the LLM outline.json")
+    parser.add_argument("--outline_file_human", "--human_file", dest="outline_file_human", type=str, default=DEFAULT_HUMAN_OUTLINE_FILE, help="Path to the human-expert outline.json")
+    parser.add_argument("--outline_file_llm", "--llm_file", dest="outline_file_llm", type=str, default=DEFAULT_LLM_OUTLINE_FILE, help="Path to the LLM outline.json")
     add_common_arguments(parser, metric_name="otc", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
     output_dir = resolve_output_dir(args.output_dir)

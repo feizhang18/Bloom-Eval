@@ -6,6 +6,7 @@ import argparse
 import threading
 import sys
 import re
+import unicodedata
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -15,7 +16,7 @@ from tqdm import tqdm
 from typing import Dict, List
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, call_llm, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
+from common import DEFAULT_HUMAN_CONTENT_FILE, DEFAULT_HUMAN_REFERENCE_FILE, DEFAULT_LLM_CONTENT_FILE, DEFAULT_LLM_REFERENCE_FILE, add_common_arguments, build_result_payload, call_llm, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 API_KEY = os.getenv("OPENAI_API_KEY", "")
@@ -117,6 +118,189 @@ def iter_numbered_reference_entries(ref_data: Dict) -> List[tuple[str, Dict]]:
     return entries
 
 
+def normalize_lookup_text(value: str) -> str:
+    value = unicodedata.normalize("NFKD", str(value))
+    value = "".join(ch for ch in value if not unicodedata.combining(ch))
+    return re.sub(r"[^a-z0-9]+", "", value.lower())
+
+
+def normalize_year(value: str) -> str:
+    cleaned = str(value).replace("O", "0").replace("o", "0").replace("I", "1").replace("l", "1")
+    match = re.search(r"(?:19|20)\d{2}", cleaned)
+    return match.group(0) if match else ""
+
+
+def author_key(author: str) -> str:
+    cleaned = re.sub(r"[.,]", " ", str(author)).strip()
+    parts = [part for part in cleaned.split() if part]
+    if not parts:
+        return ""
+    if len(parts) == 1:
+        return normalize_lookup_text(parts[0])
+
+    # Reference exports are mixed: "Aghion P" and "Rishabh Agarwal" both occur.
+    # Treat a short final all-caps token as initials, otherwise use the final token.
+    final = parts[-1].replace("-", "")
+    if len(final) <= 5 and final.upper() == final and re.search(r"[A-Z]", final):
+        return normalize_lookup_text(parts[0])
+    return normalize_lookup_text(parts[-1])
+
+
+def citation_author_keys(author_text: str) -> List[str]:
+    text = re.sub(r"\bet\s*al\.?", "", author_text, flags=re.IGNORECASE)
+    text = re.sub(r"[,.;:]+", " ", text)
+    pieces = re.split(r"\s*(?:&| and )\s*", text)
+    keys = []
+    for piece in pieces:
+        tokens = [token for token in piece.strip().split() if token]
+        if not tokens:
+            continue
+        keys.append(normalize_lookup_text(tokens[-1]))
+    return [key for key in keys if key]
+
+
+def expand_numeric_citation_group(group: str) -> List[str]:
+    numbers = set()
+    for part in re.split(r"[,;]\s*", group):
+        part = part.strip()
+        if not part:
+            continue
+        range_match = re.fullmatch(r"(\d+)\s*[-–—]\s*(\d+)", part)
+        if range_match:
+            start, end = int(range_match.group(1)), int(range_match.group(2))
+            if start <= end and end - start <= 100:
+                numbers.update(str(num) for num in range(start, end + 1))
+            continue
+        if part.isdigit():
+            numbers.add(part)
+    return sorted(numbers, key=int)
+
+
+def build_citation_lookups(ref_data: Dict) -> tuple[Dict[str, Dict], Dict[tuple[str, str], List[str]], Dict[tuple[str, str, str], List[str]]]:
+    citation_info = {}
+    author_year_index: Dict[tuple[str, str], List[str]] = {}
+    author_pair_year_index: Dict[tuple[str, str, str], List[str]] = {}
+
+    for num, details in iter_numbered_reference_entries(ref_data):
+        title = details.get("title") or details.get("searched_title")
+        abstract = details.get("abs", "")
+        if abstract == "N/A":
+            abstract = ""
+        if not title or title == "N/A":
+            continue
+
+        authors = details.get("authors") or []
+        if isinstance(authors, str):
+            authors = [authors]
+        keys = [key for key in (author_key(author) for author in authors) if key]
+        year = normalize_year(details.get("date") or details.get("year") or "")
+
+        citation_info[num] = {"title": title, "abstract": abstract, "authors": keys, "year": year}
+        if keys and year:
+            author_year_index.setdefault((keys[0], year), []).append(num)
+            if len(keys) >= 2:
+                author_pair_year_index.setdefault((keys[0], keys[1], year), []).append(num)
+
+    return citation_info, author_year_index, author_pair_year_index
+
+
+def regex_sent_tokenize(text: str) -> List[str]:
+    protected = {
+        "e.g.": "e<prd>g<prd>",
+        "i.e.": "i<prd>e<prd>",
+        "et al.": "et al<prd>",
+        "Fig.": "Fig<prd>",
+        "Eq.": "Eq<prd>",
+        "Sec.": "Sec<prd>",
+        "Dr.": "Dr<prd>",
+        "Mr.": "Mr<prd>",
+        "Ms.": "Ms<prd>",
+        "Prof.": "Prof<prd>",
+        "vs.": "vs<prd>",
+    }
+    normalized = text
+    for source, target in protected.items():
+        normalized = normalized.replace(source, target)
+    parts = re.split(r"(?<=[.!?。！？])\s+", normalized)
+    return [part.replace("<prd>", ".").strip() for part in parts if part.strip()]
+
+
+def sent_tokenize_with_fallback(text: str) -> List[str]:
+    try:
+        return nltk.sent_tokenize(text)
+    except LookupError:
+        print("Warning: NLTK punkt data not found; using regex sentence splitter fallback.")
+        return regex_sent_tokenize(text)
+
+
+def extract_text_from_paper_data(paper_data) -> str:
+    if isinstance(paper_data, dict) and 'context' in paper_data:
+        return " ".join(str(value) for value in paper_data.get('context', {}).values())
+    if isinstance(paper_data, list):
+        return str(paper_data[0])
+    if isinstance(paper_data, dict):
+        def iter_strings(value):
+            if isinstance(value, str):
+                yield value
+            elif isinstance(value, dict):
+                for child in value.values():
+                    yield from iter_strings(child)
+            elif isinstance(value, list):
+                for child in value:
+                    yield from iter_strings(child)
+        return " ".join(iter_strings(paper_data))
+    return str(paper_data)
+
+
+def resolve_author_year_citation(author_text: str, year_text: str, author_year_index: Dict[tuple[str, str], List[str]], author_pair_year_index: Dict[tuple[str, str, str], List[str]]) -> List[str]:
+    year = normalize_year(year_text)
+    if not year:
+        return []
+    keys = citation_author_keys(author_text)
+    if not keys:
+        return []
+    if len(keys) >= 2:
+        pair_matches = author_pair_year_index.get((keys[0], keys[1], year), [])
+        if pair_matches:
+            return pair_matches
+    return author_year_index.get((keys[0], year), [])
+
+
+def find_cited_reference_numbers(
+    sentence: str,
+    citation_info: Dict[str, Dict],
+    author_year_index: Dict[tuple[str, str], List[str]],
+    author_pair_year_index: Dict[tuple[str, str, str], List[str]],
+) -> List[str]:
+    cited = set()
+
+    year_pattern = r"(?:19|20|2[O0])[0-9OIl]{2}[a-z]?"
+
+    def collect_author_year_from_group(group: str) -> None:
+        for part in re.split(r";", group):
+            match = re.search(rf"(?P<author>.+?)\s*,?\s*(?P<year>{year_pattern})", part.strip())
+            if not match:
+                continue
+            cited.update(resolve_author_year_citation(match.group("author"), match.group("year"), author_year_index, author_pair_year_index))
+
+    for marker_group in re.findall(r'\[([^\]]+)\]', sentence):
+        cited.update(num for num in expand_numeric_citation_group(marker_group) if num in citation_info)
+        collect_author_year_from_group(marker_group)
+
+    for marker_group in re.findall(r'\(([^)]+)\)', sentence):
+        cited.update(num for num in expand_numeric_citation_group(marker_group) if num in citation_info)
+        collect_author_year_from_group(marker_group)
+
+    narrative_pattern = re.compile(
+        rf"\b(?P<author>[A-Z][A-Za-zÀ-ÖØ-öø-ÿ@.'-]+(?:\s+(?:et\s+al\.?|&|and)\s*[A-Z]?[A-Za-zÀ-ÖØ-öø-ÿ@.'-]*)?)\s*"
+        rf"\(\s*(?P<year>{year_pattern})\s*\)"
+    )
+    for match in narrative_pattern.finditer(sentence):
+        cited.update(resolve_author_year_citation(match.group("author"), match.group("year"), author_year_index, author_pair_year_index))
+
+    return sorted(cited, key=lambda value: int(value) if value.isdigit() else 0)
+
+
 def extract_and_group_sentences(paper_path: str, ref_path: str, output_csv: str) -> bool:
     """Stage 1: Split sentences from paper and reference files and unpack citation markers."""
     if os.path.exists(output_csv):
@@ -129,48 +313,31 @@ def extract_and_group_sentences(paper_path: str, ref_path: str, output_csv: str)
         print(f"Error reading files: {e}")
         return False
 
-    citation_info = {}
-    for num, details in iter_numbered_reference_entries(ref_data):
-        title = details.get("title") or details.get("searched_title")
-        abstract = details.get("abs", "")
-        if abstract == "N/A":
-            abstract = ""
-        if title and title != "N/A":
-            citation_info[num] = {"title": title, "abstract": abstract}
+    citation_info, author_year_index, author_pair_year_index = build_citation_lookups(ref_data)
 
-    full_text = ""
-    if isinstance(paper_data, dict) and 'context' in paper_data:
-        full_text = " ".join(paper_data.get('context', {}).values())
-    elif isinstance(paper_data, list):
-        full_text = str(paper_data[0])
+    full_text = extract_text_from_paper_data(paper_data)
 
     full_text_cleaned = re.sub(r'-\n', '', full_text)
     full_text_cleaned = re.sub(r'\s+', ' ', full_text_cleaned)
 
-    try:
-        sentences = nltk.sent_tokenize(full_text_cleaned)
-    except LookupError:
-        print("First run: downloading nltk punkt data...")
-        nltk.download('punkt')
-        nltk.download('punkt_tab')
-        sentences = nltk.sent_tokenize(full_text_cleaned)
+    sentences = sent_tokenize_with_fallback(full_text_cleaned)
 
     output_data = []
     sentence_id_counter = 0
-    marker_pattern = re.compile(r'\[([\d,\s;]+)\]')
-
     for sentence in sentences:
         clean_sentence = sentence.strip()
-        markers = marker_pattern.findall(clean_sentence)
-        if not markers: continue
+        all_citation_numbers = find_cited_reference_numbers(
+            clean_sentence,
+            citation_info,
+            author_year_index,
+            author_pair_year_index,
+        )
+        if not all_citation_numbers:
+            continue
 
         sentence_id_counter += 1
-        all_citation_numbers = set()
-        for marker_group in markers:
-            for num in re.split(r'[,;]\s*', marker_group):
-                if num.strip().isdigit(): all_citation_numbers.add(num.strip())
 
-        for num in sorted(list(all_citation_numbers), key=int):
+        for num in all_citation_numbers:
             if num in citation_info:
                 output_data.append({
                     'sentence_id': sentence_id_counter,
@@ -246,10 +413,10 @@ def process_single_pipeline(evaluator: CitationEvaluator, paper_path: str, ref_p
 
 def main():
     parser = argparse.ArgumentParser(description="Citation Quality Comparative Evaluation Tool")
-    parser.add_argument("--content_file_llm", "--llm_paper", dest="content_file_llm", type=str, required=True, help="Path to the LLM content.json / paper.json")
-    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, required=True, help="Path to the LLM reference.json")
-    parser.add_argument("--content_file_human", "--human_paper", dest="content_file_human", type=str, required=True, help="Path to the human-expert content.json / paper.json")
-    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, required=True, help="Path to the human-expert reference.json")
+    parser.add_argument("--content_file_llm", "--llm_paper", dest="content_file_llm", type=str, default=DEFAULT_LLM_CONTENT_FILE, help="Path to the LLM content.json / paper.json")
+    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, default=DEFAULT_LLM_REFERENCE_FILE, help="Path to the LLM reference.json")
+    parser.add_argument("--content_file_human", "--human_paper", dest="content_file_human", type=str, default=DEFAULT_HUMAN_CONTENT_FILE, help="Path to the human-expert content.json / paper.json")
+    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, default=DEFAULT_HUMAN_REFERENCE_FILE, help="Path to the human-expert reference.json")
     add_common_arguments(parser, metric_name="cf", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
 

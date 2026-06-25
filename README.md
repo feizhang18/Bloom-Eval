@@ -76,13 +76,14 @@ Each released topic currently contains a `human/` directory with:
 - `content.json`
 - `outline.json`
 - `reference.json`
-- one task JSON file named by title or DOI, such as `A Survey on Vision Transformer.json`
+- one task/article JSON file named `expert_article.json`
 
 To evaluate a model output for the same topic, create a parallel `llm/` directory with:
 
 - `content.json`
 - `outline.json`
 - `reference.json`
+- `llm_article.json` when a full generated article JSON is available
 
 ## Released Topics
 
@@ -107,37 +108,37 @@ The `run_topic_all_metrics.sh` script runs the following 16 core metrics:
 
 ### Level 1
 
-- `EFid`
-- `FCons`
-- `HIRC`
+- `EFid`: Measures how well the generated survey covers key domain entities and matches their emphasis distribution against the expert survey.
+- `FCons`: Measures whether factual claims in the generated survey are supported by the expert reference rather than hallucinated.
+- `HIRC`: Measures whether the generated survey includes high-impact foundational references in the field.
 
 ### Level 2
 
-- `CF`
-- `OTC`
-- `TBal`
-- `TFSim`
+- `CF`: Measures whether citation-linked statements faithfully summarize or paraphrase the cited papers.
+- `OTC`: Measures how well the generated outline covers the main topics present in the expert survey.
+- `TBal`: Measures how evenly the generated survey distributes attention across different research themes.
+- `TFSim`: Measures whether the generated survey captures similar research themes and thematic focus compared with the expert survey.
 
 ### Level 3
 
-- `DSI`
-- `FAP`
-- `FMI`
+- `DSI`: Measures whether the generated survey contains essential academic sections such as abstract, introduction, conclusion, and references.
+- `FAP`: Measures how well the generated survey applies a coherent organizing framework or taxonomy to structure the topic.
+- `FMI`: Measures consistency between in-text citation markers and bibliography entries.
 
 ### Level 4
 
-- `SCS`
-- `SCons`
-- `STS`
+- `SCS`: Measures whether the survey structure avoids redundant or overlapping sections across different branches.
+- `SCons`: Measures whether the generated outline has similar structural depth and breadth to the expert outline.
+- `STS`: Measures the semantic and hierarchical similarity between the generated outline and the expert outline.
 
 ### Level 5
 
-- `CAA`
+- `CAA`: Measures how well the generated survey's critical judgments align with expert-identified limitations, flaws, or comparative evaluations.
 
 ### Level 6
 
-- `FNov`
-- `ROQ`
+- `FNov`: Measures the originality and insightfulness of the conceptual framework proposed by the generated survey.
+- `ROQ`: Measures the quality, foresight, and strategic value of the generated survey's future research directions.
 
 ## Installation
 
@@ -155,12 +156,20 @@ LLM-based metrics require an OpenAI-compatible chat completions API:
 export OPENAI_API_KEY="your_api_key"
 ```
 
-Optional environment variables:
+Optional environment variables and runtime settings:
 
 - `OPENAI_BASE_URL`: API endpoint, default `https://api.openai.com/v1`
 - `BLOOM_EVAL_MODEL`: default model override, default `gpt-5-mini`
 
-You can also pass `--model` and `--base_url` directly to metric scripts or `run_topic_all_metrics.sh`.
+You can also pass the model and API endpoint directly on the command line. Use `--model` and `--base-url` for `run_topic_all_metrics.sh`; use `--model` and `--base_url` for individual Python metric scripts.
+
+Example API setup:
+
+```bash
+export OPENAI_API_KEY="your_api_key"
+export OPENAI_BASE_URL="https://api.openai.com/v1"
+export BLOOM_EVAL_MODEL="gpt-5-mini"
+```
 
 ## Input Format
 
@@ -183,49 +192,262 @@ The task JSON is used by `FAP`, `FNov`, and `ROQ`; it should contain at least a 
 
 ## Run All Metrics for One Topic
 
-Use the convenience script when the human and LLM files are already prepared:
+Use `run_topic_all_metrics.sh` when the human reference files and LLM output files are already prepared. If the script does not have executable permission, run it through `bash`:
 
 ```bash
-./run_topic_all_metrics.sh \
+bash run_topic_all_metrics.sh \
   --human-dir data/cs_01/human \
-  --llm-dir /path/to/cs_01/llm \
-  --task-file "data/cs_01/human/A Survey on Vision Transformer.json" \
-  --output-dir results/cs_01_all \
-  --model gpt-5-mini
+  --llm-dir data/cs_01/llm \
+  --task-file data/cs_01/human/expert_article.json \
+  --human-article-file data/cs_01/human/expert_article.json \
+  --llm-article-file data/cs_01/llm/llm_article.json \
+  --output-dir results/cs_01/all_metrics \
+  --model gpt-5-mini \
+  --base-url https://api.openai.com/v1
 ```
 
 If a topic directory contains both `human/` and `llm/`, you can use:
 
 ```bash
-./run_topic_all_metrics.sh \
-  --topic-dir /path/to/cs_01 \
-  --output-dir results/cs_01_all
+bash run_topic_all_metrics.sh \
+  --topic-dir data/cs_01 \
+  --output-dir results/cs_01/all_metrics \
+  --model gpt-5-mini \
+  --base-url https://api.openai.com/v1
 ```
 
-Add `--save-raw-response` to save raw LLM responses under metric-specific `logs/` directories.
+The full run includes API-based metrics, so `OPENAI_API_KEY` must be set even though some individual metrics are non-LLM metrics.
+
+`run_topic_all_metrics.sh` parameters:
+
+| Parameter | Required | Description |
+| --- | --- | --- |
+| `--topic-dir DIR` | optional | Topic directory containing `human/` and `llm/`. When set, `--human-dir` defaults to `DIR/human` and `--llm-dir` defaults to `DIR/llm`. |
+| `--human-dir DIR` | optional | Human reference directory. Default: `data/cs_01/human`. |
+| `--llm-dir DIR` | optional | LLM output directory. Default: `data/cs_01/llm`. |
+| `--task-file FILE` | recommended | Task/article JSON used by `FAP`, `FNov`, and `ROQ`. Default discovery prefers `human/expert_article.json`. |
+| `--human-article-file FILE` | optional | Full human article JSON used by `FMI`. Default discovery prefers `human/expert_article.json`. |
+| `--llm-article-file FILE` | optional | Full LLM article JSON used by `FMI`. Default discovery prefers `llm/llm_article.json` if present. |
+| `--output-dir DIR` | recommended | Root output directory. Each metric writes to a subdirectory under it. Default: `results/<topic>/all_metrics`. |
+| `--python BIN` | optional | Python executable. Default: `python3` or `$PYTHON_BIN` if set. |
+| `--model NAME` | recommended for API metrics | Model name passed to API-based metrics. Overrides `$BLOOM_EVAL_MODEL`. |
+| `--base-url URL` | recommended for non-default APIs | OpenAI-compatible API base URL. Overrides `$OPENAI_BASE_URL`. |
+| `--save-raw-response` | optional | Save raw LLM responses under metric-specific `logs/` directories. |
+
+Required files for a full run:
+
+```text
+human/
+├── content.json
+├── outline.json
+├── reference.json
+└── expert_article.json
+
+llm/
+├── content.json
+├── outline.json
+├── reference.json
+└── llm_article.json
+```
 
 ## Run a Single Metric
 
-All metric scripts are available under `scripts/level*/run_*.py`. Example:
+All metric scripts are available under `scripts/level*/run_*.py`. Individual scripts use `--output_dir`, `--save_raw_response`, `--model`, and `--base_url` with underscores. Only API-based metrics need `OPENAI_API_KEY`, `--model`, and `--base_url`.
+
+The examples below assume:
+
+```bash
+export OPENAI_API_KEY="your_api_key"
+MODEL="gpt-5-mini"
+BASE_URL="https://api.openai.com/v1"
+HUMAN_DIR="data/cs_01/human"
+LLM_DIR="data/cs_01/llm"
+OUT_ROOT="results/cs_01/single_metrics"
+```
+
+### Level 1
+
+`EFid`:
+
+```bash
+python scripts/level1/run_EFid.py \
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --output_dir "$OUT_ROOT/EFid" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+`FCons`:
+
+```bash
+python scripts/level1/run_FCons.py \
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --output_dir "$OUT_ROOT/FCons" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+`HIRC`:
+
+```bash
+python scripts/level1/run_HIRC.py \
+  --reference_file_human "$HUMAN_DIR/reference.json" \
+  --reference_file_llm "$LLM_DIR/reference.json" \
+  --output_dir "$OUT_ROOT/HIRC"
+```
+
+### Level 2
+
+`CF`:
+
+```bash
+python scripts/level2/run_CF.py \
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --reference_file_human "$HUMAN_DIR/reference.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --reference_file_llm "$LLM_DIR/reference.json" \
+  --output_dir "$OUT_ROOT/CF" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+`OTC`:
 
 ```bash
 python scripts/level2/run_OTC.py \
-  --outline_file_human data/cs_01/human/outline.json \
-  --outline_file_llm /path/to/cs_01/llm/outline.json \
-  --output_dir results/otc_cs_01 \
-  --model gpt-5-mini
+  --outline_file_human "$HUMAN_DIR/outline.json" \
+  --outline_file_llm "$LLM_DIR/outline.json" \
+  --output_dir "$OUT_ROOT/OTC" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
 ```
 
-Another example for a non-LLM metric:
+`TBal`:
+
+```bash
+python scripts/level2/run_TBal.py \
+  --reference_file_human "$HUMAN_DIR/reference.json" \
+  --reference_file_llm "$LLM_DIR/reference.json" \
+  --output_dir "$OUT_ROOT/TBal"
+```
+
+`TFSim`:
+
+```bash
+python scripts/level2/run_TFSim.py \
+  --reference_file_human "$HUMAN_DIR/reference.json" \
+  --reference_file_llm "$LLM_DIR/reference.json" \
+  --output_dir "$OUT_ROOT/TFSim" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+### Level 3
+
+`DSI`:
 
 ```bash
 python scripts/level3/run_DSI.py \
-  --content_file_human /path/to/human_content.md \
-  --content_file_llm /path/to/llm_content.md \
-  --output_dir results/dsi_example
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --output_dir "$OUT_ROOT/DSI"
 ```
 
-Before running a metric directly, inspect that script's CLI arguments to confirm the exact expected file type and parameter names.
+`FAP`:
+
+```bash
+python scripts/level3/run_FAP.py \
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --task_file "$HUMAN_DIR/expert_article.json" \
+  --output_dir "$OUT_ROOT/FAP" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+`FMI`:
+
+```bash
+python scripts/level3/run_FMI.py \
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --article_file_human "$HUMAN_DIR/expert_article.json" \
+  --article_file_llm "$LLM_DIR/llm_article.json" \
+  --output_dir "$OUT_ROOT/FMI"
+```
+
+### Level 4
+
+`SCS`:
+
+```bash
+python scripts/level4/run_SCS.py \
+  --outline_file_llm "$LLM_DIR/outline.json" \
+  --output_dir "$OUT_ROOT/SCS" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+`SCons`:
+
+```bash
+python scripts/level4/run_SCons.py \
+  --outline_file_human "$HUMAN_DIR/outline.json" \
+  --outline_file_llm "$LLM_DIR/outline.json" \
+  --output_dir "$OUT_ROOT/SCons"
+```
+
+`STS`:
+
+```bash
+python scripts/level4/run_STS.py \
+  --outline_file_human "$HUMAN_DIR/outline.json" \
+  --outline_file_llm "$LLM_DIR/outline.json" \
+  --output_dir "$OUT_ROOT/STS"
+```
+
+### Level 5
+
+`CAA`:
+
+```bash
+python scripts/level5/run_CAA.py \
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --output_dir "$OUT_ROOT/CAA" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+### Level 6
+
+`FNov`:
+
+```bash
+python scripts/level6/run_FNov.py \
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --task_file "$HUMAN_DIR/expert_article.json" \
+  --output_dir "$OUT_ROOT/FNov" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+`ROQ`:
+
+```bash
+python scripts/level6/run_ROQ.py \
+  --content_file_human "$HUMAN_DIR/content.json" \
+  --content_file_llm "$LLM_DIR/content.json" \
+  --task_file "$HUMAN_DIR/expert_article.json" \
+  --output_dir "$OUT_ROOT/ROQ" \
+  --model "$MODEL" \
+  --base_url "$BASE_URL"
+```
+
+Add `--save_raw_response` to API-based single-metric commands if you need raw LLM responses for debugging.
 
 ## Output
 
@@ -233,6 +455,11 @@ Each metric writes results into the selected output directory. Most metrics incl
 
 - `result.json`: structured metric output
 - `report.txt`: human-readable summary
+
+When using `run_topic_all_metrics.sh`, the root output directory also includes:
+
+- `score_summary.md`: a 16-row English Markdown table with only the final score(s) reported for each metric
+- `summary.txt`: run metadata, succeeded/failed metric names, and the same final-score table
 
 Additional artifacts are metric-specific and may include intermediate JSON files, generated rubric criteria, scoring files, CSV summaries, `human/` and `llm/` extraction directories, and optional `logs/` files when `--save_raw_response` is enabled.
 

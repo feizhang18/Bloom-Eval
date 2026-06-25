@@ -1,4 +1,5 @@
 openai>=1.0.0
+tiktoken
 bertopic
 sentence-transformers
 umap-learn
@@ -10,3 +11,4 @@ zss
 thefuzz
 nltk
 tqdm
+tbb>=2021.6

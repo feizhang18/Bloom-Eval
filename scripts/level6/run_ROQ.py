@@ -10,6 +10,8 @@ from openai import OpenAI
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
+    DEFAULT_HUMAN_CONTENT_FILE,
+    DEFAULT_LLM_CONTENT_FILE,
     add_common_arguments,
     build_result_payload,
     build_log_path,
@@ -163,9 +165,21 @@ def read_survey_content(file_path: str) -> Optional[str]:
 def find_task_prompt_file(directory: str) -> Optional[str]:
     if not os.path.isdir(directory):
         return None
+    preferred = os.path.join(directory, "expert_article.json")
+    if os.path.isfile(preferred):
+        return preferred
     for filename in os.listdir(directory):
         if re.match(r"^\d+_.+\.json$", filename):
             return os.path.join(directory, filename)
+    candidates = [
+        os.path.join(directory, filename)
+        for filename in os.listdir(directory)
+        if filename.endswith(".json")
+        and filename not in {"content.json", "outline.json", "reference.json"}
+        and not filename.endswith((".bak", ".old_bak", ".data_json_bak"))
+    ]
+    if len(candidates) == 1:
+        return candidates[0]
     return None
 
 
@@ -192,8 +206,8 @@ def resolve_task_file(human_file: str, explicit_task_file: Optional[str]) -> Opt
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="ROQ")
-    parser.add_argument("--content_file_human", "--human_file", dest="content_file_human", type=str, required=True, help="Path to human content.json")
-    parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, required=True, help="Path to LLM content.json")
+    parser.add_argument("--content_file_human", "--human_file", dest="content_file_human", type=str, default=DEFAULT_HUMAN_CONTENT_FILE, help="Path to human content.json")
+    parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, default=DEFAULT_LLM_CONTENT_FILE, help="Path to LLM content.json")
     parser.add_argument(
         "--task_file",
         type=str,

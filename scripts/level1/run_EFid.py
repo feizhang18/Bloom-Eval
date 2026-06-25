@@ -14,6 +14,8 @@ from typing import Dict, List, Any, Optional
 # Assumes this script is located under Bloom-Eval/scripts/level1/
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
+    DEFAULT_HUMAN_CONTENT_FILE,
+    DEFAULT_LLM_CONTENT_FILE,
     add_common_arguments,
     build_result_payload,
     call_llm_for_json,
@@ -108,7 +110,7 @@ def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict) 
     f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
 
     # Distribution similarity
-    sim_scores = {"jensen_shannon_sim": 0.0, "hellinger_sim": 0.0, "total_variation_sim": 0.0}
+    sim_scores = {"jensen_shannon_sim": 0.0, "hellinger_sim": 0.0, "total_variation_sim": 0.0, "ds_score": 0.0}
     if tp > 0:
         h_arr = np.array([all_human[p['expert_main_name']]['total_count'] for p in all_matched])
         l_arr = np.array([all_llm[p['llm_main_name']]['total_count'] for p in all_matched])
@@ -123,6 +125,11 @@ def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict) 
             sim_scores["jensen_shannon_sim"] = 1 - (jsd / np.log(2))
             sim_scores["hellinger_sim"] = 1 - hd
             sim_scores["total_variation_sim"] = 1 - tvd
+            sim_scores["ds_score"] = (
+                sim_scores["jensen_shannon_sim"]
+                + sim_scores["hellinger_sim"]
+                + sim_scores["total_variation_sim"]
+            ) / 3
 
     return {
         "tp": tp,
@@ -137,8 +144,8 @@ def calculate_metrics(human_counts: Dict, llm_counts: Dict, matched_data: Dict) 
 
 def main():
     parser = argparse.ArgumentParser(description="End-to-End Evaluation Pipeline")
-    parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, required=True, help="Path to the LLM-generated survey content.json")
-    parser.add_argument("--content_file_human", "--human_file", dest="content_file_human", type=str, required=True, help="Path to the human-expert survey content.json")
+    parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, default=DEFAULT_LLM_CONTENT_FILE, help="Path to the LLM-generated survey content.json")
+    parser.add_argument("--content_file_human", "--human_file", dest="content_file_human", type=str, default=DEFAULT_HUMAN_CONTENT_FILE, help="Path to the human-expert survey content.json")
     add_common_arguments(parser, metric_name="efid", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
 
@@ -205,7 +212,7 @@ def main():
             },
         ),
     )
-    print_metric_summary("EFid", report_path, result_path, results=metrics, summary_keys=("precision", "recall", "f1_score"))
+    print_metric_summary("EFid", report_path, result_path, results=metrics, summary_keys=("precision", "recall", "f1_score", "ds_score"))
 
 if __name__ == "__main__":
     main()

@@ -13,7 +13,7 @@ from typing import List, Dict
 from umap import UMAP
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
+from common import DEFAULT_HUMAN_REFERENCE_FILE, DEFAULT_LLM_REFERENCE_FILE, add_common_arguments, build_result_payload, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 
 EMBEDDING_MODEL = "nomic-ai/nomic-embed-text-v1"
 RANDOM_SEED = 42
@@ -108,8 +108,8 @@ def analyze_topics(name: str, documents: List[str], embedding_model: SentenceTra
 
 def main():
     parser = argparse.ArgumentParser(description="Reference Topic Balance and Breadth Evaluation Tool")
-    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, required=True, help="Path to the human-expert reference.json")
-    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, required=True, help="Path to the LLM reference.json")
+    parser.add_argument("--reference_file_human", "--human_ref", dest="reference_file_human", type=str, default=DEFAULT_HUMAN_REFERENCE_FILE, help="Path to the human-expert reference.json")
+    parser.add_argument("--reference_file_llm", "--llm_ref", dest="reference_file_llm", type=str, default=DEFAULT_LLM_REFERENCE_FILE, help="Path to the LLM reference.json")
     add_common_arguments(parser, metric_name="tbal", include_model=False)
     args = parser.parse_args()
 

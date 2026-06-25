@@ -9,7 +9,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from openai import OpenAI
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, call_llm_for_json, ensure_dir, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
+from common import DEFAULT_LLM_OUTLINE_FILE, add_common_arguments, build_result_payload, call_llm_for_json, ensure_dir, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 from prompt_utils import load_prompt
 
 
@@ -120,7 +120,7 @@ def calculate_scs_for_outline(
 
 def main():
     parser = argparse.ArgumentParser(description="Structure Clarity Score (SCS) evaluation tool")
-    parser.add_argument("--outline_file_llm", "--llm_outline", dest="outline_file_llm", type=str, required=True, help="Path to LLM outline.json")
+    parser.add_argument("--outline_file_llm", "--llm_outline", dest="outline_file_llm", type=str, default=DEFAULT_LLM_OUTLINE_FILE, help="Path to LLM outline.json")
     add_common_arguments(parser, metric_name="scs", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
     output_dir = resolve_output_dir(args.output_dir)

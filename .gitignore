@@ -11,3 +11,5 @@ build/
 *.bak
 *_bak
 scripts/others/
+results/
+.claude/

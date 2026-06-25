@@ -10,6 +10,14 @@ from typing import Any, Dict, Iterable, Literal, Optional, Sequence
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_BASE_URL = "https://api.openai.com/v1"
 DEFAULT_MODEL = "gpt-5-mini"
+DEFAULT_HUMAN_CONTENT_FILE = "data/cs_01/human/content.json"
+DEFAULT_LLM_CONTENT_FILE = "data/cs_01/llm/content.json"
+DEFAULT_HUMAN_REFERENCE_FILE = "data/cs_01/human/reference.json"
+DEFAULT_LLM_REFERENCE_FILE = "data/cs_01/llm/reference.json"
+DEFAULT_HUMAN_OUTLINE_FILE = "data/cs_01/human/outline.json"
+DEFAULT_LLM_OUTLINE_FILE = "data/cs_01/llm/outline.json"
+DEFAULT_HUMAN_ARTICLE_FILE = "data/cs_01/human/expert_article.json"
+DEFAULT_LLM_ARTICLE_FILE = "data/cs_01/llm/llm_article.json"
 
 
 def add_common_arguments(
@@ -21,7 +29,7 @@ def add_common_arguments(
     parser.add_argument(
         "--output_dir",
         type=Path,
-        default=Path("results") / metric_name.lower(),
+        default=Path("results") / "cs_01" / metric_name.lower(),
         help="Output directory for results, relative to project root.",
     )
     parser.add_argument(
@@ -269,6 +277,17 @@ def extract_json_snippet(content: str, kind: Literal["object", "array"]) -> str:
     return match.group(0)
 
 
+def _loads_llm_json(text: str) -> Any:
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # LLMs sometimes emit LaTeX such as \(O(N)\) inside JSON strings.
+        # Those backslashes are invalid JSON escapes, while legitimate JSON
+        # escapes should be preserved.
+        repaired = re.sub(r'\\(?!["\\/bfnrtu])', r"\\\\", text)
+        return json.loads(repaired)
+
+
 def parse_llm_json(
     content: str,
     *,
@@ -279,8 +298,11 @@ def parse_llm_json(
     if replace_nbsp:
         cleaned = cleaned.replace("\xa0", " ")
     if kind == "auto":
-        return json.loads(cleaned)
-    return json.loads(extract_json_snippet(cleaned, kind))
+        try:
+            return _loads_llm_json(cleaned)
+        except json.JSONDecodeError:
+            return _loads_llm_json(extract_json_snippet(cleaned, "object"))
+    return _loads_llm_json(extract_json_snippet(cleaned, kind))
 
 
 def call_llm_for_json(

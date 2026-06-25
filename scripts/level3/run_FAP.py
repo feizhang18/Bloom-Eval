@@ -9,6 +9,9 @@ from typing import Dict, List, Optional
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from common import (
+    DEFAULT_HUMAN_ARTICLE_FILE,
+    DEFAULT_HUMAN_CONTENT_FILE,
+    DEFAULT_LLM_CONTENT_FILE,
     add_common_arguments,
     build_result_payload,
     build_log_path,
@@ -104,9 +107,9 @@ def get_task_title(path):
 
 def main():
     parser = argparse.ArgumentParser(description="Framework Application (FAP) end-to-end evaluation tool")
-    parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, required=True, help="Path to LLM content.json")
-    parser.add_argument("--content_file_human", "--human_file", dest="content_file_human", type=str, required=True, help="Path to human content.json")
-    parser.add_argument("--task_file", type=str, required=True, help="Path to task prompt JSON (containing title)")
+    parser.add_argument("--content_file_llm", "--llm_file", dest="content_file_llm", type=str, default=DEFAULT_LLM_CONTENT_FILE, help="Path to LLM content.json")
+    parser.add_argument("--content_file_human", "--human_file", dest="content_file_human", type=str, default=DEFAULT_HUMAN_CONTENT_FILE, help="Path to human content.json")
+    parser.add_argument("--task_file", type=str, default=DEFAULT_HUMAN_ARTICLE_FILE, help="Path to task prompt JSON (containing title)")
     add_common_arguments(parser, metric_name="fap", default_model=DEFAULT_MODEL)
     args = parser.parse_args()
 

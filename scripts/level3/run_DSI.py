@@ -3,10 +3,10 @@ import re
 import argparse
 import sys
 from pathlib import Path
-from typing import Tuple
+from typing import Any, Iterable, Tuple
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, format_metric_report, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
+from common import DEFAULT_HUMAN_CONTENT_FILE, DEFAULT_LLM_CONTENT_FILE, add_common_arguments, build_result_payload, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 
 
 def normalize_whitespace(text: str) -> str:
@@ -34,12 +34,39 @@ def _normalize_token(s: str) -> str:
     s = re.sub(r'\s+', ' ', s)
     return s.lower()
 
-def get_dsi_score(md_path: str) -> Tuple[float, str]:
-    if not os.path.exists(md_path):
+
+def _iter_text_values(value: Any) -> Iterable[str]:
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, list):
+        for item in value:
+            yield from _iter_text_values(item)
+    elif isinstance(value, dict):
+        if isinstance(value.get("context"), dict):
+            yield from _iter_text_values(value["context"])
+        else:
+            for item in value.values():
+                yield from _iter_text_values(item)
+
+
+def load_content_text(content_path: str) -> str:
+    path = Path(content_path)
+    if path.suffix.lower() == ".json":
+        data = load_json(path)
+        return "\n".join(part for part in _iter_text_values(data) if part.strip())
+
+    with path.open('r', encoding='utf-8') as f:
+        return f.read()
+
+
+def get_dsi_score(content_path: str) -> Tuple[float, str]:
+    if not os.path.exists(content_path):
         return 0.0, "File not found"
 
-    with open(md_path, 'r', encoding='utf-8') as f:
-        text = normalize_whitespace(f.read())
+    try:
+        text = normalize_whitespace(load_content_text(content_path))
+    except Exception as e:
+        return 0.0, f"Failed to read content: {e}"
 
     target_sections = ['abstract', 'introduction', 'conclusion', 'references']
     found_sections = {section: False for section in target_sections}
@@ -67,8 +94,8 @@ def get_dsi_score(md_path: str) -> Tuple[float, str]:
 
 def main():
     parser = argparse.ArgumentParser(description="DSI: Document Structure Integrity Audit Tool")
-    parser.add_argument("--content_file_llm", type=str, required=True)
-    parser.add_argument("--content_file_human", type=str, required=True)
+    parser.add_argument("--content_file_llm", type=str, default=DEFAULT_LLM_CONTENT_FILE)
+    parser.add_argument("--content_file_human", type=str, default=DEFAULT_HUMAN_CONTENT_FILE)
     add_common_arguments(parser, metric_name="dsi", include_model=False)
     args = parser.parse_args()
     output_dir = resolve_output_dir(args.output_dir)

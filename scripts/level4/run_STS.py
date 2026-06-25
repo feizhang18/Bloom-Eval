@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer, util
 from zss import Node
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import add_common_arguments, build_result_payload, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
+from common import DEFAULT_HUMAN_OUTLINE_FILE, DEFAULT_LLM_OUTLINE_FILE, add_common_arguments, build_result_payload, format_metric_report, load_json, print_metric_summary, resolve_output_dir, to_project_relative, write_json, write_text
 
 
 SBERT_MODEL_NAME = "nomic-ai/nomic-embed-text-v1"
@@ -114,8 +114,8 @@ def calculate_structural_similarity(
 
 def main():
     parser = argparse.ArgumentParser(description="Semantic Tree Similarity (STS) evaluation tool")
-    parser.add_argument("--outline_file_human", "--human_outline", dest="outline_file_human", type=str, required=True, help="Path to human outline.json")
-    parser.add_argument("--outline_file_llm", "--llm_outline", dest="outline_file_llm", type=str, required=True, help="Path to LLM outline.json")
+    parser.add_argument("--outline_file_human", "--human_outline", dest="outline_file_human", type=str, default=DEFAULT_HUMAN_OUTLINE_FILE, help="Path to human outline.json")
+    parser.add_argument("--outline_file_llm", "--llm_outline", dest="outline_file_llm", type=str, default=DEFAULT_LLM_OUTLINE_FILE, help="Path to LLM outline.json")
     add_common_arguments(parser, metric_name="sts", include_model=False)
     args = parser.parse_args()
     output_dir = resolve_output_dir(args.output_dir)
